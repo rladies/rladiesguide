@@ -42,3 +42,8 @@ Open a PR and enjoy the preview!
 Painful part, but not too hard thanks to binaries: You'll need to install [Hugo](https://gohugo.io/getting-started/installing/), as well as [Go and git because the website uses Go modules](https://gohugo.io/hugo-modules/use-modules/).
 
 From there easier: Then from the directory of the book run `hugo server`.
+
+### Acknowledgements
+
+Thanks to all contributors to R-Ladies guidance, here and in its previous homes.
+Thanks to the [R Consortium](https://www.r-consortium.org/) for funding this project.
