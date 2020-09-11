@@ -42,6 +42,11 @@ url = "https://github.com/rladies/rladiesguide"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Acknowledgements"
+url = "/acknowledgements"
+weight = 30
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-certificate'></i> CC-BY Licence"
 url = "https://creativecommons.org/licenses/by/4.0/"
 weight = 40
