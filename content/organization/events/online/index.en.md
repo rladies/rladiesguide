@@ -152,6 +152,12 @@ but the stream won't be publicly listed and there won't be notifications sent to
 
 * [livecode, an R package that enables you to broadcast a local R document](https://github.com/rundel/livecode) and [ngrok](https://ngrok.com/), [walk-through for usage of the two tools](https://bitsandbricks.github.io/post/code-live-from-rstudio-and-share-it-with-the-world-in-real-time/)
 
+### Polls
+
+* You can do polls with Zoom, for that you could have the meetup start 15 minutes later than your booking in order to be able to set up the poll (you can't set up the poll in advance).
+* You can use other platforms such as the (limited) free plan of [mentimeter](https://www.mentimeter.com/plans).
+* If you find or set up another solution, please tell us so we might share your wisdom!
+
 ## Conclusion
 
 We hope this gives you an option to move your meetups online. If you
