@@ -62,31 +62,33 @@ Here are instructions for adding an email account to an [iPhone](https://help.dr
 
 2. Select the Account & Import, then click on 'Add another email address that you own' (Send mail as section)
 
-![](gmail2.png)
+![Screenshot of Gmail's menu for Account & Import](gmail2.png)
 
 3. Insert your name and email address, then click on 'Next step'. 
 
-![](gmail3.png)
+![Screenshot of Gmail's menu for 'Add another email address that you own'](gmail3.png)
 
 4. Insert SMTP (smtp.dreamhost.com), port (465), username (here you should enter the entire email address!!!), password and select 'secure connection using SSL'. 
 
-![](gmail4_correct.png)
+![Screenshot of Gmail's menu for SMTP settings](gmail4_correct.png)
 
 5. Finally click on 'Add account'.
 
 6. On the same screen as 2, Account & Import, now click on 'Add a mail account' (Check mail from other accounts section). 
 
-![](gmail5.png)
+![Screenshot of Gmail's menu for Account & Import](gmail5.png)
 
 7. Insert your email address, then click on 'Next'. 
 
-![](gmail6.png)
+![Screenshot of Gmail's menu for 'Add an email account'](gmail6.png)
 
 8. Select 'Import emails from my other account (POP3)', then click 'Next'. 
-![](gmail7.png)
+
+![Screenshot of Gmail's menu for 'Import emails from my other account (POP3)'](gmail7.png)
 
 9. Insert username (here you should enter the entire email address!!!), password and select your preferences. 
-![](gmail8_correct.png)
+
+![Screenshot of Gmail's menu for editing mail account](gmail8_correct.png)
 
 10. Finally click on 'Add account'.
 
@@ -124,7 +126,7 @@ Here are instructions for adding an email account to an [iPhone](https://help.dr
 
 and click **OK/Aceptar**
 
-![](outlook6.png)
+![Outlook menu for 'Connect your email account'](outlook6.png)
 
 7. Outlook shows a message telling you that the account was successfully connected. Click **OK/Aceptar**. You see the account as in the screenshot below.
 
@@ -136,13 +138,13 @@ and click **OK/Aceptar**
 
 2. Choose "Other Mail Account"
 
-![](macmail1.png)
+![Mac Mail menu for choosing what type of accounts to add](macmail1.png)
 
 3. Enter email address and password.
 
-![](macmail2.png)
+![Mac Mail menu for entering email address and password](macmail2.png)
 
 4. Choose POP and enter "mail.rladies.org" for both servers. Click "Sign In"
 
-![](macmail3.png)
+![Mac Mail menu for server settings](macmail3.png)
 
