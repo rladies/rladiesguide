@@ -153,8 +153,7 @@ and follow us on Twitter
 ([https://twitter.com/RLadiesGlobal](https://twitter.com/RLadiesGlobal))
 to stay up to date about R-Ladies news!
 
-Make sure you read and comply with our code of conduct
-([https://github.com/rladies/starter-kit/wiki/Code-of-Conduct](/about/coc/)
+Make sure you read and comply with our [code of conduct](https://rladies.org/code-of-conduct/)
 and [community guidelines](/mission/#r-ladies-rules--guidelines).
 
 Please note that by taking part in an R-Ladies event you grant the

@@ -24,7 +24,7 @@ _**By signing on to be a curator of @WeAreRLadies you agree to the following:**_
 
 
 
-1. Abide by R-Ladies’ [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct) in all activity and interactions you have on the @WeAreRLadies account.    
+1. Abide by R-Ladies’ [Code of Conduct](https://rladies.org/code-of-conduct/) in all activity and interactions you have on the @WeAreRLadies account.    
 
 2. Be the sole tweeter of @WeAreRLadies for the week that you are assigned.  
 

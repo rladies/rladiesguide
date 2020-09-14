@@ -34,11 +34,3 @@ Different ideas:
 * Hot to find material: online courses, material developed by other R-Ladies (should in
   future go on the [GitHub organisation](http://github.com/rladies))
 * How to find sponsors for refreshments
-* Event registration, management and data collection
-    * How to use Eventbrite to manage meetup attendance & data collection (or any
-      equivalent local available platforms) - meetup is quite limited for managing events
-    * Set up Google Analytics on your meetup to collect data
-    * _How to create R-Ladies Database_
-* Advertising, Publicity and Event Discovery: Twitter, LinkedIn, Eventbrite etc. (i.e.,
-  popular marketing channels and platforms in your area);  _Database (once developed!)_
-* Live streaming or recording of an event ([instructions](https://github.com/rladies/starter-kit/wiki/Streaming-&-recording-of-meetups))

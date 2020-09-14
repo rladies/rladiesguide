@@ -152,8 +152,7 @@ chapter and the meetup subscription can be terminated.
 
 Unfortunately, the R-Ladies organisation has limited funding and we can
 only support chapters that can run at least one remote/in-person meetup
-event every 6 months (see our rules here:
-https://github.com/rladies/starter-kit/wiki/Retiring-a-Chapter).
+event every 6 months (see our [rules](https://guide.rladies.org/coordination/monitoring/)).
 
 This is to let you know that your chapter will be retired on \<INSERT
 DATE HERE\>. Could you please send an email to chapters\@rladies.org
