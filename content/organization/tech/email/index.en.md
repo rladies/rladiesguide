@@ -15,15 +15,21 @@ Here are instructions for adding an email account to an [iPhone](https://help.dr
 
 1. Go to [https://webmail.dreamhost.com](https://webmail.dreamhost.com/)  
 
-2. Enter your email address and password, as in the screenshot below ![](webmail.png)
+2. Enter your email address and password, as in the screenshot below 
 
-3. Your mail box looks will look like this ![](webmail_in.png)
+![Screenshot of dreamhost login page](webmail.png)
+
+3. Your mail box looks will look like this 
+
+![Screenshot of Dreamhost mailbox](webmail_in.png)
   
 ### Thunderbird
 
 1. Open Thunderbird Mail, then go to File -> New -> Existing Mail Account
 
-2. Enter your full name, email address and password as shown in the screenshot below ![](thunderbird1.png)
+2. Enter your full name, email address and password as shown in the screenshot below 
+
+![Screenshot of Thunderbird mail account setup](thunderbird1.png)
 
 3. Click on Continue
 
@@ -43,14 +49,16 @@ Here are instructions for adding an email account to an [iPhone](https://help.dr
     - incoming: Use the full email address (e.g. name@rladies.org)
     - outgoing: Use the full email address (e.g. name@rladies.org)
 
-5. Finally click on Done ![](thunderbird2.png)
+5. Finally click on Done 
+
+![Screenshot of Thunderbird mailbox](thunderbird2.png)
 
 
 ### Gmail
 
 1. Go to your gmail account, then click on the Settings (cog) icon on the top-right corner. 
 
-![](gmail1.png)
+![Screenshot showing Gmail settings icon in the top-right corner](gmail1.png)
 
 2. Select the Account & Import, then click on 'Add another email address that you own' (Send mail as section)
 

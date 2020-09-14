@@ -36,18 +36,18 @@ addressed any time of the year.
     -   Then click on 'N members' (see red oval shape in the screenshot
         below)
 
-![](image4.png)
+![Screenshot of the meetup page of a chapter where the number of members is written below the location](image4.png)
 
 -   In the list, locate the member you want to make a co-organiser click
     the three dots next to the name
     
-![](image2.png)
+![Screenshot of the organizers list, near every person's name are three dots](image2.png)
 
 -   Then click 'Change member role'
 
 -   Select 'co-organiser' and click on 'Update role'
 
-![](image1.png)
+![Screenshot of the checkboxes for choosing roles](image1.png)
 
 
 -   If any **meetup-related problems** arise, please liaise with
@@ -269,7 +269,7 @@ clone the repository to your computer. You can do this using RStudio
 1.  Create a new project, going to File - New Project - Version
     control - Git, then fill the fields as shown below
     
-![](image3.png)
+![Screenshot of RStudio "New project" interface](image3.png)
 
 2.  Then click on 'Browse' and select a directory of your choice on your
     computer
@@ -279,7 +279,7 @@ clone the repository to your computer. You can do this using RStudio
 Every time you open the starter-kit project, go to the **Git** tab and
 click **'Pull'.**
 
-![](image5.png)
+![Screenshot of RStudio git pane](image5.png)
 
 4.  Load the Current-Chapters.csv
 
