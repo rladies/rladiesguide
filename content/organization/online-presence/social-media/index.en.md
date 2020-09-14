@@ -16,8 +16,14 @@ weight: 1
 * Raising the voices of R-Ladies.
 * For chapter organisers and R-Ladies within the group, new opportunities and networks both locally and globally are shared and communicated. 
 * Find R-Ladies around the world. 
-* Find R content using \#stats.
+* Find R content using \#stats. 
 * Find R-Ladies content using \#rladies</u>.
+
+## Where to find R content
+
+* \#rstats & \#rladies hashtag on Twitter.
+* [R weekly newsletter](https://rweekly.org/)
+* [Other sources](https://masalmon.eu/2019/01/25/uptodate/)
 
 ## Twitter
 
@@ -28,7 +34,7 @@ weight: 1
 * Please use your chapter R-Ladies email address (e.g. yourcity@rladies.org) to set up Twitter and other social media accounts rather than a personal email address. 
 * Don't forget to add the [R-Ladies logo and the purple color](/organization/brand/). 
 * You can find some inspiration here: https://twitter.com/gdequeiroz/lists/rladies-chapters/members 
-
+* [General introduction to Twitter for R users](https://www.t4rstats.com/)
 
 
 **Suggested Twitter Alignment**
