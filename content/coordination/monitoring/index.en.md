@@ -121,8 +121,7 @@ Please get in touch as soon as possible and let's discuss options,
 there are many!
 
 If we do not hear from you, we will assume nobody is currently leading
-the chapter and it will be scheduled to be retired
-([https://github.com/rladies/starter-kit/wiki/Retiring-a-Chapter](https://github.com/rladies/starter-kit/wiki/Retiring-a-Chapter)).
+the chapter and it will be scheduled to be [retired](https://guide.rladies.org/organization/intro/retiring/).
 
 Please let us know what you plan to do, we are here to help.
 
@@ -250,8 +249,7 @@ follow:
     work in the future. When you are ready to run your next event,
     please follow the steps below:
 
-    a.  Book the date and time of your next event on calendly:
-        [https://calendly.com/rladies/online-meetup](https://calendly.com/rladies/online-meetup)
+    a.  Book the [date and time of your next event](/organization/events/online/)
 
     b.  Send an email to
         [chapters\@rladies.org](mailto:info@rladies.org)

@@ -1,5 +1,5 @@
 title = "R-Ladies organizational guidance"
-baseURL = "https://r-ladies-guide.netlify.app/"
+baseURL = "https://guide.rladies.org/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableEmoji = true

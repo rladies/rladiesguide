@@ -93,7 +93,7 @@ Its great to hear that you are interested in starting R-Ladies
 \<\<city chapter\>\>!
 
 We have some information on starting a local chapter here:
-https://r-ladies-guide.netlify.app
+https://guide.rladies.org/
 
 We also have a Slack group which Ill send you an invitation to in a
 minute. The Slack group is mainly how we communicate and a great place
