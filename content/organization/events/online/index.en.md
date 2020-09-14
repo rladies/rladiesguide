@@ -6,7 +6,7 @@ weight: 55
 {{% notice info %}}
 :loudspeaker: Hello all, we have a Zoom Pro account for chapter meetups!  
 :computer: What: Zoom Meeting for up to 100 participants </br>
-:link: Where: Calendly link </br>
+:link: Where: Calendly link (in the description of the \#online\_meetups channel on the R-Ladies Organizer Slack)</br>
 :video_camera: If you record the Zoom session we can host it on our [YouTube channel](/organization/youtube)! </br>
 :eyes: If you don't use Zoom, you can still find [the resources section](organization/online/#more-resources) useful.
 {{% /notice %}}
@@ -16,7 +16,8 @@ weight: 55
 ### Book with Calendly
 
 You can see which time slots are available and book any of them through
-Calendly (link above). After you book a meeting time, you will receive
+Calendly (link in the \#online\_meetups channel on the R-Ladies Organizer Slack -- please do not share it!). 
+After you book a meeting time, you will receive
 an email with the Zoom link. We've set the availability to 24/7. 
 
 ### Announce the event on Meetup
@@ -41,7 +42,7 @@ also make co-organizers and presenters Co-Hosts of the meeting.
 :key: We will give you the Zoom **Host Key**
 with which you can make yourself the Host without anybody of us needing
 to be online to make you the Host. We will post the Host Key once a
-month in the \#online\_meetup channel on the R-Ladies Organizer Slack.
+month in the \#online\_meetups channel on the R-Ladies Organizer Slack.
 
 :clock2: We won't be able to be online to start
 the meeting for you (because of timezones) so we have enabled "join
@@ -66,7 +67,7 @@ At the very bottom you should see some buttons -- click on the 'Claim Host' butt
 
 {{< figure src="claim-host.png" alt="Screenshot of the claim host button in the Zoom interface" >}}
 
-3.  Type in the Host key (get the key from the \#online\_meetup channel on the R-Ladies Organizer Slack & don't share it)
+3.  Type in the Host key (get the key from the \#online\_meetups channel on the R-Ladies Organizer Slack & don't share it)
 
 {{< figure src="enter-key.png" alt="Screenshot of the 'enter key' form in the Zoom interface" >}}
 
@@ -106,13 +107,21 @@ chat, and screen sharing*).
 Lastly, the link to book the online meetup is **not to be shared
 publicly** as it's only intended for organisers.
 
+
 ### Zoom and YouTube
+
+#### Zoom recording and YouTube
 
 One may also use the zoom recording option if your speaker is up for that. 
 It is a great way to get content available to more people. 
 We can host this on our [YouTube channel](https://www.youtube.com/channel/UCDgj5-mFohWZ5irWSFMFcng).
 
-We also, through that channel, have the opportunity to do live streaming, if anyone wants to give that a go. 
+**It is best if you use the _local_ recording option on Zoom, this way you have the recording file at hand.**
+**If you were unable to do so, please ask for the recording via the \#online\_meetups channel on the R-Ladies Organizer Slack.**
+
+#### Zoom and YouTube live streaming
+
+We also, through our YouTube channel, have the opportunity to do live streaming, if anyone wants to give that a go. 
 Athanasia Monika Mowinckel will be administering the YouTube channel and activity, so if you have recordings you want on YT or want to try live streaming, let her know and she’ll get that happening for you! 
 If you are doing live streaming, she will give you temporary user access to the R-Ladies YT channel so you can run it at your leisure. 
 
