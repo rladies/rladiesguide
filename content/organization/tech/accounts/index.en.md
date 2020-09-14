@@ -28,7 +28,7 @@ weight: 15
 <!-- -->
 
 -   "To find more details about R-Ladies global initiative by visiting
-    [[rladies.org]{.underline}](https://rladies.org/)"
+    [rladies.org](https://rladies.org/)"
 
 -   "Follow us on twitter \@RLadies\[Location\] and \@RLadiesGlobal"
 

@@ -111,5 +111,5 @@ following stipulations:
     the R-Ladies Slack, Twitter, and
     [github](https://github.com/rladies) by chapter leaders.
 
-Email info\@rladies.org or message on slack
+Email `info@rladies.org` or message on slack
 \#new\_chapters (or \#organisers) with any questions.

@@ -54,7 +54,7 @@ We are always looking for R-users to be a featured curator for our account! Ever
   
 :one: Sign up to be a curator via **[this form](https://goo.gl/forms/bQ7mHQDXrNHXEZCl2)**. You will be asked to provide a first and second choice for week(s) you would like to curate.       
   
-:two: Send a photo to WeAre@rladies.org that will be used as the profile pic of the account during your curation week.    
+:two: Send a photo to `WeAre@rladies.org` that will be used as the profile pic of the account during your curation week.    
   
 :three: If your information has been received, the **[RoCur schedule](https://docs.google.com/spreadsheets/d/1pmphnR9EinGuAKbVqGzMIt6cWYmHNbeFVzaKJB59JdY/edit?usp=sharing)** will be updated to reflect the week you will be curating.    
   
@@ -65,7 +65,7 @@ We are always looking for R-users to be a featured curator for our account! Ever
    
 ## Contact Us  
   
-This RoCur is managed by R-Ladies Global members. You can email us at WeAre@rladies.org or at the **#rocur_twitter** channel on the [R-Ladies Community Slack](https://rladies-community-slack.herokuapp.com/).  
+This RoCur is managed by R-Ladies Global members. You can email us at `WeAre@rladies.org` or at the **#rocur_twitter** channel on the [R-Ladies Community Slack](https://rladies-community-slack.herokuapp.com/).  
   
 
   

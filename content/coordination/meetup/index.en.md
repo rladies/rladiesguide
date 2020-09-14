@@ -51,7 +51,7 @@ addressed any time of the year.
 
 
 -   If any **meetup-related problems** arise, please liaise with
-    Marie-Lou Gauthier (marielou\@meetup.com), the R-Ladies dedicated
+    Marie-Lou Gauthier (`marielou@meetup.com`), the R-Ladies dedicated
     Account Manager for Meetup Pro. Marie-Lou is proactive and
     passionate and she'll be a great resource for you to share
     feedback, ask questions, and strategize around any
@@ -89,7 +89,7 @@ addressed any time of the year.
     -   If there are any problems, please contact the organiser to ask
         for clarification. If the situation cannot be sorted in a
         friendly way, then report to the leadership team
-        (leadership\@rladies.org) and we will help you find a way
+        (`leadership@rladies.org`) and we will help you find a way
         forward.
 
 -   **Delete chapter pages if necessary**. A chapter page on meetup will
@@ -199,7 +199,7 @@ recorded in these media please inform a community organizer.
 
         -   Website: https://www.rladies.org
 
-        -   Twitter: \@RLadiesGlobal
+        -   Twitter: @RLadiesGlobal
 
 ### Appendix B: Message template
 
@@ -227,7 +227,7 @@ Things to keep in mind/to know:
     organisers. To do so, just click on the button \<Manage group\on
     your chapter's meetup page.
 
--   Ask \@yabellini to set up your chapter email address. You should use
+-   Ask  `email@rladies.org` to set up your chapter email address. You should use
     it to set up [all your social media accounts (twitter, instagram,
     etc)](/organization/tech/). 
     The rladies email address is your primary communication channel

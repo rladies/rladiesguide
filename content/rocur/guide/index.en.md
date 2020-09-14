@@ -45,7 +45,7 @@ _**By signing on to be a curator of @WeAreRLadies you agree to the following:**_
 10. You may not follow, unfollow, or block any other twitter users from the account. Additionally, you may not interact with individuals via direct messages.   
   
 
-*In the event that you receive abuse while contributing, please do block the offender if you feel it necessary. If this does occur, please send the administrators an email weare@rladies.org or via the R-Ladies Community Slack, noting the offender’s Twitter handle and a description of the offense.*  
+*In the event that you receive abuse while contributing, please do block the offender if you feel it necessary. If this does occur, please send the administrators an email `weare@rladies.org` or via the R-Ladies Community Slack, noting the offender’s Twitter handle and a description of the offense.*  
    
   
 Please follow the [Twitter terms of service](https://help.twitter.com/en/rules-and-policies/twitter-rules#) The administrators of @WeAreRLadies reserve the right to warn or revoke the access of anyone who violates Twitter’s terms of service or breaches any of the above rules.  

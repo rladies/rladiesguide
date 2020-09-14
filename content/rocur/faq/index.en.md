@@ -48,4 +48,4 @@ This isn't generally available on SAFARI, however at the time of writing this, C
 Unfortunately, you cannot create polls via Tweet Deck. We recommend creating a poll on your personal Twitter handle, then retweeting it via @WeAreRLadies.  
 
 ### 7. How do you pin a tweet to the @WeAreRLadies profile?  
-Unfortunately, you cannot pin tweets via Tweet Deck. If you want a specific tweet pinned, feel free to email WeAre@rladies.org or DM the account managers via Slack with a link to the tweet you want pinned and we can pin it for you. 
+Unfortunately, you cannot pin tweets via Tweet Deck. If you want a specific tweet pinned, feel free to email `WeAre@rladies.org` or DM the account managers via Slack with a link to the tweet you want pinned and we can pin it for you. 

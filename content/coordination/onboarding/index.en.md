@@ -14,7 +14,7 @@ timely.
 
 ## What to do
 
--   Monitor the email: info\@rladies.org. Please
+-   Monitor the email: `info@rladies.org`. Please
     contact the email team on slack to get username and password to
     access this email address.
 

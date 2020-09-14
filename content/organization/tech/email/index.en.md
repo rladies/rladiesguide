@@ -4,7 +4,6 @@ menuTitle: "Chapter Email"
 weight: 25
 ---
 
-You can access your personal email name@rladies.org via webmail or by using an email client on your phone or computer. Here is the [full documentation](https://help.dreamhost.com/hc/en-us/sections/203272208-Email-Clients) for how to use your rladies.org email on various email clients, and below are some more detailed examples contributed by R-Ladies organizers.
 
 If you want to change your email password, set an out-of-office auto-responder or setup email filters, you can do that [here](http://mailboxes.rladies.org/).
 

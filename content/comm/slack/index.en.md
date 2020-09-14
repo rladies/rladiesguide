@@ -46,7 +46,7 @@ There are a few things this Slack is not meant for:
 * Promoting commercial products (if you would like to provide a discount to R-Ladies members, please discuss with the leadership team first).
 * Sharing inappropriate content. Examples are disturbing images or videos, fashions that promote negative values, health risks or bad habits, false information, offensive or mocking content.
 
-If you are unsure whether a post is suitable, best is to ask the Community Management Team within Slack (`@Community Management Team`) or send an email at slack@rladies.org.
+If you are unsure whether a post is suitable, best is to ask the Community Management Team within Slack (`@Community Management Team`) or send an email at `slack@rladies.org`.
 
 ## How to sign up?
 
@@ -67,7 +67,7 @@ Refer to R-Ladies [Code of Conduct](/about/coc/), and more specifically, we ask 
 
 ### Reporting
 
-If you are being harassed by a member/guest/participant of/at R-Ladies, notice that someone else is being harassed, or have any other concerns, please contact the Global Leadership Team via reporting@rladies.org.
+If you are being harassed by a member/guest/participant of/at R-Ladies, notice that someone else is being harassed, or have any other concerns, please contact the Global Leadership Team via `reporting@rladies.org`.
 
 If a participant engages in harassing behaviour, the Global Leadership Team may take any action they deem appropriate.
 
@@ -77,11 +77,11 @@ Participants asked to stop any harassing behaviour are expected to comply immedi
 
 ## Contact
 
-If you have a question regarding R-Ladies Community Slack please contact slack@rladies.org.
+If you have a question regarding R-Ladies Community Slack please contact `slack@rladies.org`.
 
 If you are interested in starting an R-Ladies chapter in your city (awesome!), refer to [organizers' get started guidance](/organization/intro/get-started/).
 
-If you would like to report harassment or violation of parts of the [Code of Conduct](/about/coc/), please contact reporting@rladies.org.
+If you would like to report harassment or violation of parts of the [Code of Conduct](/about/coc/), please contact `reporting@rladies.org`.
 
 Within Slack you can contact us via `@Community Management Team`.
 

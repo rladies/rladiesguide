@@ -52,7 +52,7 @@ their events:
 
     d.  If you find it difficult to deal with a particular request for
         help, let me know or send an email to
-        [chapters\@rladies.org](mailto:info@rladies.org)
+        `chapters@rladies.org`
         explaining the situation.
 
 3.  If no answer is received within 2 weeks contact organisers on slack
@@ -64,7 +64,7 @@ their events:
     (you can use [template B](#email-template-b)).
 
 5.  Before the end of every month, please send an email update to
-    [chapters\@rladies.org](mailto:info@rladies.org).
+    `chapters@rladies.org`.
     Things to include in the email: list of chapters contacted, a
     summary of responses received and the list of chapters that need
     to be retired within the following month. **Date of retirement is
@@ -80,11 +80,11 @@ their events:
         status of the chapter to retire in the file
         [https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv)
 
-    g.  Coordinate with Yanina Bellini (\@yabellini on slack) to: i.  delete rladies emails used by the chapter (organisers and
+    g.  Coordinate with the volunteer(s) responsible for the email accounts to: i.  delete rladies emails used by the chapter (organisers and
             chapter); ii. suspend social media accounts
 
-    h.  Coordinate with Hannah Frick (\@hannah on slack) to delete team
-        on github
+    h.  Coordinate with the volunteer(s) responsible for the GitHub organization to delete team
+        on GitHub
 
 ### Email template A
 
@@ -155,7 +155,7 @@ only support chapters that can run at least one remote/in-person meetup
 event every 6 months (see our [rules](https://guide.rladies.org/coordination/monitoring/)).
 
 This is to let you know that your chapter will be retired on \<INSERT
-DATE HERE\>. Could you please send an email to chapters\@rladies.org
+DATE HERE\>. Could you please send an email to chapters@rladies.org
 with login credentials to the chapter's email/slack/twitter/facebook
 etc. The leadership team will retire the chapter and close/suspend any
 other related accounts.
@@ -185,7 +185,7 @@ Hope you are well!
 Many thanks for informing us that you can no longer lead your chapter.
 
 This is to let you know that your chapter will be retired on \<INSERT
-DATE HERE\>. Could you please send an email to chapters\@rladies.org
+DATE HERE\>. Could you please send an email to chapters@rladies.org
 with login credentials to the chapter's email/slack/twitter/facebook
 etc. The leadership team will close/suspend these accounts.
 
@@ -251,7 +251,7 @@ follow:
     a.  Book the [date and time of your next event](/organization/events/online/)
 
     b.  Send an email to
-        [chapters\@rladies.org](mailto:info@rladies.org)
+        chapters@rladies.org
         explaining your plan to reactivate the chapter and keep it
         active in the near future. Include date/time and format
         (in-person Vs remote event) of your next event. If you decide
