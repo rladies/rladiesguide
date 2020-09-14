@@ -50,6 +50,11 @@ weight: 1
 -   If you have space left over in your bio add the
     [rladies.org](http://rladies.org/) hyperlink
 
+## Social Media and Accessibility
+
+Using images and GIFs might be useful, but if you do so on e.g. Twitter, please add an [alternative description of the image](https://help.twitter.com/en/using-twitter/picture-descriptions) for folks who use screen readers.
+
+If you use hashtags, use camel case e.g. `#awesomePackage` is better for screen reader users than `#awesomepackage`.
 
 ## Social media use guidelines and code of conduct:
 
