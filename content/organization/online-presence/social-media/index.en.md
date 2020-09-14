@@ -79,3 +79,21 @@ it on Twitter using the hashtag,  \#rladiesvisits.
     + Thanking a meetup host/sponsor for their support is okay.
     + Only promote a book if its online version is freely available.
 * Always speak positively about people’s work, e.g., “Tidyverse is awesome!” instead of “Tidyverse is better than base R!”
+
+## How to handle negative interactions on Twitter
+
+If your chapter or personal account is attacked/criticized,
+
+* Reach out to your support network, for instance other organizers in the organizers' Slack.
+* You can choose to respond or not. A troll is not worth your energy but you might want to respond for educating others reading the exchange; however, it's important to save your energy.
+* Twitter lets you [hide answers to a tweet of yours](https://help.twitter.com/en/using-twitter/mentions-and-replies) (so you can keep your threads clean of negative answers).
+* To defend your account, can 
+       
+    * [block](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts) an account, 
+    * [mute](https://help.twitter.com/en/using-twitter/twitter-mute) them, 
+    * report them (**you can ask others to also report a problematic account by writing in the organizers slack**),
+    * "soft block" them: block then unblock them, this way they automatically stop following you.
+    
+* You might want to keep your chapter account DMs closed.
+
+If your chapter tweeted something wrong or hurtful, please apologize.
