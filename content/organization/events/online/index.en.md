@@ -149,6 +149,8 @@ but the stream won't be publicly listed and there won't be notifications sent to
 
 * [Experience from satRday Neuchâtel](https://docs.google.com/document/d/1ZXmwVibQKtfCY_HiB49-OhQL-yKhUS9YD9yeMQZH88E/edit?usp=sharing)
 
+* (_in Spanish_) [R-Ladies lleva (Español) - Cómo hacer una reunión virtual inolvidable (sin morir en el intento)](https://www.youtube.com/watch?v=lZICjcX7O0U&feature=youtu.be)
+
 ### Accessibility best practice
 
 {{< tweet 1299296290266849281 >}}
