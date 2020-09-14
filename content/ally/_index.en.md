@@ -12,6 +12,8 @@ First, please read our [mission](/about/mission/) and [code of conduct](/about/c
 
 Then, you can support your [local chapter](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv) with a free venue and sponsorship for food and drink.
 
+Furthermore, you can volunteer as an [abstract/proposal reviewer](/comm/abstract-review/).
+
 Besides, you can donate to the global R-Ladies organization.
 
 You can also advocate by promoting our [directory](http://rladies.org/directory/) and in general by giving opportunities to R-Ladies at conferences, for jobs, etc.
