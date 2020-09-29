@@ -12,6 +12,13 @@ weight: 15
   e.g., #rladies-san-francisco.
 * There is a [global "all the R-Ladies" Slack](/comm/slack/).
 
+### Etiquette for Slack
+
+* Do not DM people based on their role except if they explicitely ask for it. **Prefer emails over DMs, and prefer official channels to people.** E.g. if you have an email issue, do not DM the person currently in charge of emails but instead send an email to `email@rladies.org`. Slack DMs create notifications hence fatigue; and are hard to keep track of.  
+
+* As a volunteer receiving DMs, feel free to gracefully redirect them to the communication channel of your choice, or to indicate them to use another communication channel next time.
+
+
 ## Meetup 
 
 * Ask Patricia (@patriLoto) or Claudia (@claudia) in the \#new\_chapters channel on Slack to help get your meetup.com group set up. R-Ladies [meetup.com](meetup.com) accounts are paid for by the R-Ladies Organization using a grant from the [R-Consortium](https://www.r-consortium.org/).
