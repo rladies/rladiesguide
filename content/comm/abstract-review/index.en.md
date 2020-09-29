@@ -27,3 +27,8 @@ The system can be promoted once in a while, in particular before big conference 
 * In the [community slack](/comm/slack/)
 
 * And anywhere where it might be useful.
+
+### Coordination
+
+The current volunteer in charge of the system uses a Trello board for tracking 
+review requests.
