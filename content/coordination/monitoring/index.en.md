@@ -230,8 +230,7 @@ follow:
     It is fundamentally important to check this account regularly, as
     it is the main channel of communication between the organisation
     and the individual chapters. This account can be set up to forward
-    to your personal email address. Contact Yanina Bellini
-    (\@yabellini on slack) for help.
+    to your personal email address. See https://guide.rladies.org//organization/tech/accounts/#e-mail
 
 3.  All the accounts related to this chapter (e.g. social media) should
     be set up using the R-Ladies email account. Make sure you have
