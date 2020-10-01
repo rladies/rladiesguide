@@ -8,7 +8,7 @@ How to promote events and speakers?
 
 * Write an informative summary for Meetup. What can attendees expect (topic, hands-on or not)? Who is the speaker (short bio, links to online presence)?
 
-* Make graphics for social media? You could use [canva](https://canva.com/), slides templates (Google slides or Microsoft Powerpoint) saved as PNG, [a Shiny app to design hex logos](https://connect.thinkr.fr/hexmake/). Example below. In any case make sure to add an alternative text to the image on social media, and to make the text of your tweet informative, as well as to add a link to the event on Meetup.
+* Make graphics for social media? You could use [canva](https://canva.com/), [OmniGraffle](https://www.omnigroup.com/omnigraffle/) on Mac, slides templates (Google slides or Microsoft Powerpoint) saved as PNG, [a Shiny app to design hex logos](https://connect.thinkr.fr/hexmake/). Example below. In any case make sure to add an alternative text to the image on social media, and to make the text of your tweet informative, as well as to add a link to the event on Meetup.
 
 {{< tweet 1299834952578674689 >}}
 
