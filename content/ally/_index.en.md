@@ -23,3 +23,9 @@ Please also check out these other organizations
 * [MiR Community serves to bring together underrepresented minorities](https://docs.google.com/forms/d/1x3eFj0syKeFkEQVg1XNSDOFlbOCkIDseKxKeC8or1-U/viewform?edit_requested=true)
 
 * [R Foundation taskforce on women and other under-represented groups](https://forwards.github.io/)
+
+## Donating to R-Ladies
+
+* See the Paypal button on our [website](https://rladies.org/).
+
+* For larger amounts, we would recommend sending an email to `finance@rladies.org` and we can provide you the routing/account number for a direct wire transfer, or if you are in the US and prefer to send a check, we can provide you our non-profit HQ address in Oakland, California.
