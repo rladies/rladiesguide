@@ -24,4 +24,6 @@ Here are some examples of chapter websites for inspiration
 
 Maintaining a single website for a whole country can reduce maintenance efforts. Example: [R-Ladies en México](https://rladiesmx.netlify.app/).
 
+Furthermore, if you list the contact information of all chapters, it might mean a potential external collaborator might contact all chapters at once instead of e.g. only emailing the chapter in the capital of the country.
+
 You can also use it to promote [inter-chapter activities](/organization/events/general/#inter-chapter-events).
