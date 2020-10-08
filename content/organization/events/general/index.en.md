@@ -4,8 +4,16 @@ menuTitle: "Events"
 weight: 10
 ---
 
-This document is in progress.
-In the meantime, you can ask other organizers for tips in the \#organisers slack channel.
+If you are an R-Ladies organizer and have further tip, please submit them!
+If you are an R-Ladies organizer and have further questions, please ask them in an issue.
+
+## Planning events
+
+*  Organise the year (or, say, semester) in advance. Even if you change your plan in the middle is always good to know what to expect.
+
+* Find speakers at least two months before the talk. Even if it is a 5 minutes talk, it will give you peace of mind and time for people to prepare their talk.
+
+* To find ideas for topics, have a look at [other R-Ladies groups](https://www.meetup.com/pro/rladies/) or at conference programs. Also ask your meetup members for ideas and wishes.
 
 ### Launch Event
 
@@ -25,12 +33,6 @@ Different ideas:
   event, others have included a question on who would be interested in organising in the
   initial survey.
 
-### (Further) Events
+## During events
 
-* Deciding on desired/feasible frequency of events (once a month, once every few months?)
-* Appropriate event formats depending on profile of the local community. More academic, more industry? Talks, tutorials, lightning talks, drop-in sessions, socials? Working through online courses together? 
-* How to find venues to host meetups (for free!)
-* How to find speakers
-* Hot to find material: online courses, material developed by other R-Ladies (should in
-  future go on the [GitHub organisation](http://github.com/rladies))
-* How to find sponsors for refreshments
+* Always remember that there is a code of conduct and you are not afraid to use it! Minorities will feel at home if there's someone there to guard their safe space. Sometimes it can be very intimidating to tell someone to shut up or that they are not welcome but the code of conduct actually gives you the authority to do it without being a personal issue.
