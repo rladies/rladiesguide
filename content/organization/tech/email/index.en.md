@@ -1,9 +1,10 @@
 ---
 title: "How to access your rladies.org email address"
-menuTitle: "Chapter Email"
+menuTitle: "Chapter Email Access"
 weight: 25
 ---
 
+[General info about emails for R-Ladies chapters](/organization/tech/accounts/#e-mail).
 
 If you want to change your email password, set an out-of-office auto-responder or setup email filters, you can do that [here](http://mailboxes.rladies.org/).
 

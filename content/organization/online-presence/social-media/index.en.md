@@ -33,6 +33,12 @@ You might then want to contribute guidelines for this subsection based on your e
 * [R weekly newsletter](https://rweekly.org/)
 * [Other sources](https://masalmon.eu/2019/01/25/uptodate/)
 
+### How to create a social media account?
+
+* Follow the guidance of the social media platform.
+* Use your chapter [email address](/organization/tech/accounts/#e-mail). 
+* Submit the Twitter/Facebook/Instagram username to [the table of current chapters](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv) so that it might get listed on the global website.
+
 ## Social Media and Accessibility
 
 Using images and GIFs might be useful, but if you do so on e.g. Twitter, please add an [alternative description of the image](https://help.twitter.com/en/using-twitter/picture-descriptions) for folks who use screen readers.

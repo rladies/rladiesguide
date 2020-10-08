@@ -25,7 +25,7 @@ We encourage you
 Being an organizer might not be the right fit for you even as a motivated R-Lady!
 Get in touch about possible openings in the global team, whose tasks are [described in another section](/coordination/).
 You might also want to volunteer as a speaker at your local chapter or another chapter.
-Or you might want to volunteer with other R organizations, check out [Minorities in R](https://docs.google.com/forms/d/1x3eFj0syKeFkEQVg1XNSDOFlbOCkIDseKxKeC8or1-U/viewform?edit_requested=true) and [Forwards](https://forwards.github.io/)
+Or you might want to volunteer with other R organizations, check out [Minorities in R](https://docs.google.com/forms/d/1x3eFj0syKeFkEQVg1XNSDOFlbOCkIDseKxKeC8or1-U/viewform?edit_requested=true) and [Forwards](https://forwards.github.io/).
 
 ## How to become a chapter organizer
 
