@@ -50,3 +50,7 @@ If you want to become an organizer at your local chapter, get in touch with the 
 There is no rule around the governance within your local chapter but we encourage you to be welcoming of other volunteers.
 
 [R-Ladies NYC](http://www.rladiesnyc.org/) has a formal governance structure with a board.
+
+## Reports by organizers
+
+* [Reflection: A year of R-Ladies #LdnOnt](https://theaknowles.com/post/reflection-a-year-of-r-ladies-ldnont/) by Thea Knowles.
