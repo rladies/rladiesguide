@@ -32,7 +32,26 @@ Different ideas:
 * Finding co-organisers: Some chapters have found their organising team at the launch
   event, others have included a question on who would be interested in organising in the
   initial survey.
+  
+## Where to hold events?
+
+This is a paragraph for when we all can have events in-person again.
+
+To find a good space for your event, think of spaces you know (maybe a room at work, a room that the city lets local groups use, etc.), ask other local meetups.
+
+Please keep accessibility in mind: can everyone access your meetup space? E.g. you don't want to exclude people who use wheelchairs! If the space you are holding the event at does not clearly list accessibility on their website, check with them, and list the information on your event description (potential attendees should not have to ask).
+  
+## Events RSVP
+
+Note that some people might RSVP to an event and not attend, it's actually quite common.
+You will however need to set a maximal number of participants based on the physical capabilities of the room you organize the event it, or based on the online platform you use.
 
 ## During events
 
 * Always remember that there is a code of conduct and you are not afraid to use it! Minorities will feel at home if there's someone there to guard their safe space. Sometimes it can be very intimidating to tell someone to shut up or that they are not welcome but the code of conduct actually gives you the authority to do it without being a personal issue.
+
+## What is a successful event?
+
+A successful event does not need to have a huge turnout. 
+Of course you want a few people to attend to make your efforts and the speaker's efforts worthwhile, but there does not need to be dozens of participants.
+Also, some events, the first, or some random events, might have a lower turnout than expected and that's ok.
