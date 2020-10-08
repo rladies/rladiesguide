@@ -9,6 +9,7 @@ We do not want you to spend your personal money on your local chapter!
 ## Local sponsors
 
 If you find a local sponsors, at the moment since there is no formal structure for receiving funds, it is best if the sponsor pays directly for a need of your chapter, like food at the next event.
+The sponsor might also want to e.g. put a room at your disposal for free.
 
 There is the option of paying from your own pocket and have the sponsor reimburse you but that is riskier.
 
