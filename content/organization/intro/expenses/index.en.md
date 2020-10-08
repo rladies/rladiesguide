@@ -15,6 +15,10 @@ There is the option of paying from your own pocket and have the sponsor reimburs
 
 We are piloting using [Open Collective](https://opencollective.com/) -- the results of the pilot are not in yet. 
 
+## R Consortium grants
+
+Refer to [The User Group Program](https://www.r-consortium.org/projects/r-user-group-support-program).
+
 ## Expenses reimbursed by the global organization
 
 Subject to **availability of funding and after discussion with the finance team**, expenses can be reimbursed.
