@@ -58,7 +58,7 @@ Examples
 
 ## During events
 
-* Always remember that there is a code of conduct and you are not afraid to use it! Minorities will feel at home if there's someone there to guard their safe space. Sometimes it can be very intimidating to tell someone to shut up or that they are not welcome but the code of conduct actually gives you the authority to do it without being a personal issue.
+* Always remember that there is a code of conduct and do not be afraid to use it! Minorities will feel at home if there's someone there to guard their safe space. Sometimes it can be very intimidating to tell someone to shut up or that they are not welcome but the code of conduct actually gives you the authority to do it without being a personal issue.
 
 ### What is a successful event?
 
