@@ -27,11 +27,11 @@ If you cannot get an sponsor/grant and/or wish to discuss what type of expenses 
 
 ### How to submit expenses
 
-If the finance team agrees on covering you expenses, please follow the steps below:
+**If the finance team agrees on covering you expenses**, please follow the steps below:
 
-1. Complete the [R Consortium Expense Reimbursement form](R_Consortium_Expense_Reimbursement_Template.xls) filling in dates and descriptions of the expenses. **Remember to add to the expenses any international transaction fees to transfer USD to your account (ask your bank for more details)**. Sign and date the form.
+1. Complete the R Consortium Expense Reimbursement form that the finance team will give you, filling in dates and descriptions of the expenses. **Remember to add to the expenses any international transaction fees to transfer USD to your account (ask your bank for more details)**. Sign and date the form.
 
-2. If you reside in the US, you will get a check payment (remember to specify your home address in the reimbursement form). If you reside outside the US, please fill in the [Wire Form](LF_Wire_Instructions.pdf) as the payment will be made via wire transfer (remember to specify the IBAN in your bank account details).
+2. If you reside in the US, you will get a check payment (remember to specify your home address in the reimbursement form). If you reside outside the US, please fill in the Wire Form that the finance team will give you as the payment will be made via wire transfer (remember to specify the IBAN in your bank account details).
 
 3. Create 1 pdf file containing: the reimbursement form, wire form (if applicable) and all the receipts. Name the file <YYYYMMDD_SURNAMENAME.pdf>, where YYYYMMDD is the date you submit of your expenses.
 
