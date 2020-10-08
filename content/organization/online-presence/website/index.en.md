@@ -4,6 +4,8 @@ menuTitle: "Chapter Website"
 weight: 79
 ---
 
+## A website for your chapter
+
 Maybe keeping your chapter active on [social media](/organization/social-media/) is not the right fit, or enough, for you.
 
 You are free to create a website for your chapter, you could ask other organizers what their experience with tools are.
@@ -17,3 +19,9 @@ Here are some examples of chapter websites for inspiration
 * [R-Ladies Sydney](https://rladiessydney.org/)
 
 * [R-Ladies Belo Horizonte](https://rladiesbh.com.br/)
+
+## A website for R-Ladies in your country?
+
+Maintaining a single website for a whole country can reduce maintenance efforts. Example: [R-Ladies en México](https://rladiesmx.netlify.app/).
+
+You can also use it to promote [inter-chapter activities](/organization/events/general/#inter-chapter-events).
