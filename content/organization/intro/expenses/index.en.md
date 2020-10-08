@@ -15,7 +15,7 @@ There is the option of paying from your own pocket and have the sponsor reimburs
 
 We are piloting using [Open Collective](https://opencollective.com/) -- the results of the pilot are not in yet. 
 
-## Expenses reimbursed by the globlal organization
+## Expenses reimbursed by the global organization
 
 Subject to **availability of funding and after discussion with the finance team**, expenses can be reimbursed.
 
