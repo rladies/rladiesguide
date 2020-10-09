@@ -19,7 +19,7 @@ Please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) to notify us abo
 ### Applying for video upload
 
 If you run an R-Ladies chapter and have a video of a meetup you want hosted on the Global channel, please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) and we wil get to you as soon as we can.  
-For any questions regarding the videos and this setup procedure, contact @mo in the R-Ladies organisers slack (preferable) or in the R-Ladies community slack. 
+For any questions regarding the videos and this setup procedure, email `youtube@rladies.org`.
 
 
 ### The video upload
@@ -67,4 +67,4 @@ They are usually hidden under "more options" settings.
 - Add the video to playlists for the language the content is in  
     - we try to make playlists with content in the same language, making it easier for those interested in content in a specific language to find it  
 
-If you are struggling with upload, writing the description etc, contact @mo again in any of the two slack communitites mentioned above, and she'll help you out.
+If you are struggling with upload, writing the description etc,  email `youtube@rladies.org`.
