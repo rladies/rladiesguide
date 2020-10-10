@@ -61,6 +61,9 @@ participants and then on "claim host" in the right-hand corner. You will
 need to enter the host key which you'll get from us prior to the
 meetup.
 
+:wave: **Please remember to _end_ the meeting, not just _leave_ the meeting** 
+so that the next organizer can access the room for their meetup.
+
 ### How to claim Host controls using the Host Key
 
 1.  Click on the Zoom meeting URL and join the meeting with the passcode (get it from  
