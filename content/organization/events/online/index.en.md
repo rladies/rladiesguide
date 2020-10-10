@@ -22,7 +22,7 @@ an email with the Zoom link. We've set the availability to 24/7.
 
 ### Announce the event on Meetup
 
-* [Hosting an online event on Meetup ](https://help.meetup.com/hc/en-us/articles/360040609112)
+* [Hosting an online event on Meetup](https://help.meetup.com/hc/en-us/articles/360040609112)
 * [Meetup event policies and the coronavirus (COVID-19)](https://help.meetup.com/hc/en-us/articles/360041040931)
 
 ### A slot for what?
@@ -31,9 +31,12 @@ Feel free to book a slot for any type of R-Ladies events: talk/tutorial but also
 
 ## Running a meeting
 
-To let
-you run your meetups as independently as possible, we have set it up the
+To let you run your meetups as independently as possible, we have set it up the
 following way:
+
+:slot_machine: Anyone entering any meeting will need a passcode. It is 
+in the \#online\_meetups channel on the R-Ladies Organizer Slack (with 
+the Calendly link).
 
 :information_desk_person: You will be able to be the Host of the
 meeting with the associated privileges/controls. As the Host you can
@@ -60,7 +63,8 @@ meetup.
 
 ### How to claim Host controls using the Host Key
 
-1.  Click on the Zoom meeting URL and join the meeting
+1.  Click on the Zoom meeting URL and join the meeting with the passcode (get it from  
+the \#online\_meetups channel on the R-Ladies Organizer Slack).
 
 2.  Once you're in the meeting, click on the 'Participants' list to bring up the list below.
 At the very bottom you should see some buttons -- click on the 'Claim Host' button.
@@ -86,7 +90,7 @@ At the very bottom you should see some buttons -- click on the 'Claim Host' butt
 
 We have set the meeting options to prevent trolling as best as possible
 (e.g., *participants are muted on entry, participants who have been
-removed from the meeting can't rejoin, and we've disabled chat, file
+removed from the meeting can't rejoin, and we've disabled file
 transfers, screen sharing for participants, and also virtual
 backgrounds*). With the latest version of the zoom client, the host has
 an extra security control menu where they can adapt a lot of these
