@@ -35,7 +35,7 @@ To let you run your meetups as independently as possible, we have set it up the
 following way:
 
 :slot_machine: Anyone entering any meeting will need a passcode. It is 
-in the \#online\_meetups channel on the R-Ladies Organizer Slack (with 
+in the description of the \#online\_meetups channel on the R-Ladies Organizer Slack (with 
 the Calendly link).
 
 :information_desk_person: You will be able to be the Host of the
