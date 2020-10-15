@@ -57,6 +57,6 @@ There is no rule around the governance within your local chapter but we encourag
 
 ## The "local" in local chapter
 
-In the words of Nadjeda Sero from R-Ladies Cotonou,
+In the words of Nadejda Sero from R-Ladies Cotonou,
 
 > I believe best practices depend on how the chapter organisers can adapt to their reality to make people comfortable at coming to the meetups and also being speakers. 
