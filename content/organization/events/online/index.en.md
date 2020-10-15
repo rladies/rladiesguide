@@ -121,16 +121,18 @@ publicly** as it's only intended for organisers.
 
 One may also use the zoom recording option if your speaker is up for that. 
 It is a great way to get content available to more people. 
-We can host this on our [YouTube channel](https://www.youtube.com/channel/UCDgj5-mFohWZ5irWSFMFcng).
+We can host this on our [YouTube channel](/organization/events/youtube/).
 
-**It is best if you use the _local_ recording option on Zoom, this way you have the recording file at hand.**
-**If you were unable to do so, please ask for the recording via the \#online\_meetups channel on the R-Ladies Organizer Slack.**
+{{% notice warning %}}
+It is best if you use the _local_ recording option on Zoom, this way you have the recording file at hand.
+If you were unable to do so, please ask for the recording via the \#online\_meetups channel on the R-Ladies Organizer Slack.
+{{% /notice %}}
 
 #### Zoom and YouTube live streaming
 
-We also, through our YouTube channel, have the opportunity to do live streaming, if anyone wants to give that a go. 
-Athanasia Monika Mowinckel will be administering the YouTube channel and activity, so if you have recordings you want on YT or want to try live streaming, let her know and she’ll get that happening for you! 
-If you are doing live streaming, she will give you temporary user access to the R-Ladies YT channel so you can run it at your leisure. 
+We also, through our YouTube channel, have the opportunity to do live streaming. 
+To arrange for live streaming, please email `youtube@rladies.org` at least two weeks before the event.
+If you are doing live streaming, you will be given temporary user access to the R-Ladies YT channel so you can run it at your leisure. 
 
 [Zoom meeting/webinar simultaneously with YT livestream, Zoom docs](https://support.zoom.us/hc/en-us/articles/360028478292-Streaming-a-Meeting-or-Webinar-on-YouTube-Live)
 

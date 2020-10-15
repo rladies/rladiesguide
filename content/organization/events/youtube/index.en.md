@@ -7,6 +7,10 @@ weight: 80
 R-Ladies Global has a [YouTube channel](https://www.YouTube.com/c/RLadiesGlobal) where we post videos from different chapters around the world. 
 Some chapters run their own channels, which are subscribed by the global channel, so it's easy to find more related content. 
 
+## Zoom and Youtube
+
+See [the dedicated section](/organization/events/online/#zoom-and-youtube).
+
 ## Adding a video from your chapter's channel to a playlist
 Since some chapters have their own channels, these videos do not show up in the R-Ladies Global channel, even if we highlight chapter channels on the page. 
 We would, however, love to link to videos in other channels so people can easily find more content.
