@@ -24,7 +24,7 @@ Social media accounts are a commitment. However there are many benefits that com
 
 * R-Ladies dominant social media channel is Twitter. We have a global Twitter account ([RLadiesGlobal](https://twitter.com/RLadiesGlobal)), and many R-Ladies chapters have their own Twitter account (e.g., [RLadiesLondon](https://twitter.com/RLadiesLondon)).
 * However, Facebook is popular in some parts of the world, in particular Latin America. Example: [R-Ladies Santa Rosa on Facebook](https://www.facebook.com/pg/RLadiesSR).
-* If your local community uses another tool, feel free to create a page/whatever an account is called there.
+* If your local community uses another tool, feel free to create a page/whatever an account is called there. It might even be a text message group, if that fits within the local culture and data protection rules (some people might not be at ease sharing their phone number).
 You might then want to contribute guidelines for this subsection based on your experience.
 
 ### Where to find R content to amplify

@@ -13,6 +13,8 @@ weight: 53
 
 * Lightning talks events can be a way to invite new speakers since they can prepare a short talk. Example [Call for Proposals by R-Ladies NYC](https://www.rladiesnyc.org/post/lightning-talk-submissions-request/).
 
+* For short talks, you could use R-Ladies Cotonou's approach of asking speakers to briefly present _"what they like the most about R or would like to know."_.
+
 * You might be able to reach out to potential speakers outside of your chapter thanks to meetups being online / sponsor funding for travel.
 
 * Remember the [rules about Prioritization of Underrepresented/Minority Genders](/about/mission/#r-ladies-rules--guidelines).

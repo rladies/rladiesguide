@@ -54,3 +54,9 @@ There is no rule around the governance within your local chapter but we encourag
 ## Reports by organizers
 
 * [Reflection: A year of R-Ladies #LdnOnt](https://theaknowles.com/post/reflection-a-year-of-r-ladies-ldnont/) by Thea Knowles.
+
+## The "local" in local chapter
+
+In the words of Nadjeda Sero from R-Ladies Cotonou,
+
+> I believe best practices depend on how the chapter organisers can adapt to their reality to make people comfortable at coming to the meetups and also being speakers. 

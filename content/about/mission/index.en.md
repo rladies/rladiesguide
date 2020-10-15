@@ -113,3 +113,8 @@ following stipulations:
 
 Email `info@rladies.org` or message on slack
 \#new\_chapters (or \#organisers) with any questions.
+
+{{% notice tip %}}
+Depending on the local context, folks might be used to only thinking about _women_ in tech.
+Make sure to explain to participants that we include all gender minorities.
+{{% /notice %}}

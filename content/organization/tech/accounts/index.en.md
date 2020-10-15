@@ -59,6 +59,12 @@ organiser."
 
 -   Check that the URL is `meetup.com/rladies-location`.
 
+{{% notice tip %}}
+What if Meetup is not a popular platform in your country?
+You might want to complement it with e.g. a mailing list after e.g. collecting email addresses via a form.
+Make sure to comply with the local rules about personal data protection.
+{{% /notice %}}
+
 ## E-Mail
 
 * You can get a chapter email (yourcity\@rladies.org) which can be set up to forward to all the organisers of a chapter.  As of March 18, 2019, we are no longer issuing personal rladies.org emails (yourname\`@rladies.org) to organizers and will have chapter emails only.

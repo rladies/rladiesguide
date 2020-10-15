@@ -44,6 +44,10 @@ To find a good space for your event, think of spaces you know (maybe a room at w
 Please keep accessibility in mind: can everyone access your meetup space? E.g. you don't want to exclude people who use wheelchairs! If the space you are holding the event at does not clearly list accessibility on their website, check with them, and list the information on your event description (potential attendees should not have to ask).
 
 If possible and relevant, finding a space where one can loan computers might help some attendees get the most out of practical sessions even when they do not own a computer.
+
+### Announce events
+
+See [event promotion](/organization/events/promotion/).
   
 ### Events RSVP
 
@@ -62,7 +66,14 @@ Examples
 
 ## During events
 
-* Always remember that there is a code of conduct and do not be afraid to use it! Minorities will feel at home if there's someone there to guard their safe space. Sometimes it can be very intimidating to tell someone to shut up or that they are not welcome but the code of conduct actually gives you the authority to do it without being a personal issue.
+{{% notice warning %}}
+Always remember that there is a code of conduct and do not be afraid to use it! Minorities will feel at home if there's someone there to guard their safe space. Sometimes it can be very intimidating to tell someone to shut up or that they are not welcome but the code of conduct actually gives you the authority to do it without being a personal issue.
+{{% /notice %}}
+
+### Snacks
+
+If you found a sponsor willing to fund snacks for the event, that might be a great way to make it look more welcoming and promote people talking to each other.
+Try to cater for dietary restrictions.
 
 ### What is a successful event?
 
