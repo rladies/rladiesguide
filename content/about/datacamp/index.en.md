@@ -12,3 +12,5 @@ For more context on the disapproval of DataCamp by the R-Ladies organization, pl
 * [R-Ladies Global's response to the DataCamp Assessment Report](https://blog.rladies.org/post/datacamp-third-party-review/)
 
 {{< tweet 1114507499728769024 >}}
+
+[Suggestion of alternative learning resources](/organization/resources/learning-r/).
