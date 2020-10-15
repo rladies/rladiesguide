@@ -13,4 +13,6 @@ For more context on the disapproval of DataCamp by the R-Ladies organization, pl
 
 {{< tweet 1114507499728769024 >}}
 
+{{% notice tip %}}
 [Suggestion of alternative learning resources](/organization/resources/learning-r/).
+{{% /notice %}}
