@@ -8,12 +8,35 @@ We do not want you to spend your personal money on your local chapter!
 
 ## Local sponsors
 
-If you find a local sponsors, at the moment since there is no formal structure for receiving funds, it is best if the sponsor pays directly for a need of your chapter, like food at the next event.
+If you find a local sponsors, at the moment since there is no formal structure for receiving funds, it is best if the sponsor pays directly for a need of your chapter, like food at the next event or accomodation for a guest speaker.
 The sponsor might also want to e.g. put a room at your disposal for free.
 
 There is the option of paying from your own pocket and have the sponsor reimburse you but that is riskier.
 
 We are piloting using [Open Collective](https://opencollective.com/) -- the results of the pilot are not in yet. 
+
+### How to find sponsors?
+
+You might try to cold email (i.e. reach out to, without knowing them) local IT companies you think might be interested in R-Ladies mission.
+
+You might try to use your personal contacts such as current or past employers, and those of the members of the meetup who could ask their own employers to provide a room for meetups for instance.
+
+You might also hear of special call for proposals of diversity initiatives where your chapter could apply. 
+
+In all cases, it can help to tell the members of your chapter to be on the lookout and help you not miss opportunities.
+
+### How to convince sponsors?
+
+What are our strenghts?
+
+* our focus on women and gender minorities;
+* events being free.
+
+### How to thank sponsors?
+
+* listing them as sponsors in the promotion of activities they supported;
+* a short time slot at the beginning of a meetup to present their company;
+* etc.
 
 ## R Consortium grants
 
