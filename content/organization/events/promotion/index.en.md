@@ -11,6 +11,8 @@ To ensure attendees are not all from the majority gender, consider first adverti
 Please do be aware of the relevant Equality Legislation in your jurisdiction, e.g the Equality Act 2010 in the UK, when designing participation frameworks for the majority gender, to ensure your procedures are not infringing  local laws re. potential discrimination.
 {{% /notice %}}
 
+* Reach out to people you know directly! Especially for the kick-off event, it's important to give personal invitations in the beginning.
+
 * Write an informative summary for Meetup. What can attendees expect (topic, hands-on or not)? Who is the speaker (short bio, links to online presence)?
 
 {{% notice tip %}}
