@@ -65,6 +65,17 @@ You might want to complement it with e.g. a mailing list after e.g. collecting e
 Make sure to comply with the local rules about personal data protection.
 {{% /notice %}}
 
+### Meetup members management
+
+{{% notice warning %}}
+R-Ladies mission focuses on women and other gender minorities. How can you ensure events are open to all whilst still foremost serving women and other gender minorities?
+{{% /notice %}}
+
+A good strategy might be to make your group private and ask candidates questions before they join
+
+* Have them accept the code of conduct
+* Remind that priority is given to minoritized genders, that everybody that identifies as such can enter and that cis-men are welcome if 1. they know already someone in, in that case they are asked to give the name of the person, who will act as a liaison just in case (like a “godmother”) 2. If they bring someone and agree to be their +1.
+
 ## E-Mail
 
 * You can get a chapter email (yourcity\@rladies.org) which can be set up to forward to all the organisers of a chapter.  As of March 18, 2019, we are no longer issuing personal rladies.org emails (yourname\`@rladies.org) to organizers and will have chapter emails only.

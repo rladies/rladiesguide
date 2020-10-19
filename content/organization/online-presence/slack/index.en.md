@@ -11,3 +11,8 @@ You might want to create a discussion space for your own chapter on Slack or ano
 It can be a place for discussions, collaboration, Q&As, regular scheduled messages, etc.
 
 In any case encourage the members of your chapter to join the [community slack](/comm/slack/)!
+
+{{% notice warning %}}
+If you wish the local slack workspace to be only for women and gender minorities, be explicit about it.
+You might want to read the [phrasing used for the community slack](/comm/slack/), see also the form used for [sign up](https://rladies-community-slack.herokuapp.com/)
+{{% /notice %}}

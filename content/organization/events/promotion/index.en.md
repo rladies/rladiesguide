@@ -6,6 +6,10 @@ weight: 54
 
 How to promote events and speakers?
 
+{{% notice tip %}}
+To ensure attendees are not all from the majority gender, consider first advertising your event to R-Ladies directly or in private communication channels such as your [chapter slack](/organization/online-presence/slack/) if there's one.
+{{% /notice %}}
+
 * Write an informative summary for Meetup. What can attendees expect (topic, hands-on or not)? Who is the speaker (short bio, links to online presence)?
 
 {{% notice tip %}}

@@ -67,7 +67,9 @@ Examples
 ## During events
 
 {{% notice warning %}}
-Always remember that there is a code of conduct and do not be afraid to use it! Minorities will feel at home if there's someone there to guard their safe space. Sometimes it can be very intimidating to tell someone to shut up or that they are not welcome but the code of conduct actually gives you the authority to do it without being a personal issue.
+Always remember that there is a code of conduct, remind everyone of the code of conduct at the beginning of events, and do not be afraid to use it! Minorities will feel at home if there's someone there to guard their safe space. Sometimes it can be very intimidating to tell someone to shut up or that they are not welcome but the code of conduct actually gives you the authority to do it without being a personal issue.
+
+Refer people to the written coc on the website, and underline that it applies to all forms of media and communication.  
 {{% /notice %}}
 
 ### Snacks
