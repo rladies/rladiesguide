@@ -32,6 +32,19 @@ What are our strenghts?
 * our focus on women and gender minorities;
 * events being free.
 
+You could hand out flyers (for instance see [R-Ladies Cotonou's flyers](https://github.com/sbnadejda/flyers_R-LadiesCtn)), and send (cold) emails.
+See email template below, just given for information as you can write your own! This email template was adapted from an email graciously shared by R-Ladies Philly.
+
+```markdown
+Dear [Name],
+I am contacting you about the possibility of supporting the local chapter of R-Ladies [chapter name and online presence]. R-Ladies is a world-wide organization that promotes gender diversity in the data science community. As the [chapter name] chapter, we actively share and exchange knowledge with 100+ other chapters across the world, and bring together [usual number of attendees] members each [event frequency] for networking and knowledge sharing events. Since starting in [creation date], we’ve grown to [number of meetup members] members, and have set the groundwork for [positive phrase, e.g. "civic engagement" if you paired with non-profits, "community building among data scientists", etc].
+If you are unfamiliar, R is an open source programming language for statistical computing that is widely used in many sectors. We are organizing [event types e.g. workshops] for women and underrepresented genders interested in R with topics like beginning R, R/Shiny, and statistical methods. [Add other events here if relevant e.g. bookclubs, networkign events]
+Continuing these efforts to increase diversity through opportunities in data science in [chapter location] will require time and resources (e.g. food, location space, online hosting, access to experts). We are committed to dedicating our time to this mission, and we would welcome the opportunity to partner with [company] to develop these avenues further.
+[Here is a good place to customize - are you specifically interested in this sponsor hosting an event? Providing food for an event? Providing printing services?]
+Best,
+[your name]
+```
+
 ### How to thank sponsors?
 
 * listing them as sponsors in the promotion of activities they supported;
