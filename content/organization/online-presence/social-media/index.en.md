@@ -100,6 +100,7 @@ it on Twitter using the hashtag,  \#rladiesvisits.
 * You can find some inspiration here: https://twitter.com/gdequeiroz/lists/rladies-chapters/members 
 * [General introduction to Twitter for R users](https://www.t4rstats.com/)
 * Feel free to retweet posts by others that promote R-Ladies’ work and events as well.
+* You should use Twitter's feature of pinned tweets. You can pin one tweet at a time, it appears on your profile page at the top. E.g. pin the tweet about the next event.
 
 ## Facebook
 
