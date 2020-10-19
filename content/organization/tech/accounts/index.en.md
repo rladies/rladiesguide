@@ -69,6 +69,8 @@ Make sure to comply with the local rules about personal data protection.
 
 {{% notice warning %}}
 R-Ladies mission focuses on women and other gender minorities. How can you ensure events are open to all whilst still foremost serving women and other gender minorities?
+
+Please do be aware of the relevant Equality Legislation in your jurisdiction, e.g the Equality Act 2010 in the UK, when designing participation frameworks for the majority gender, to ensure your procedures are not infringing  local laws re. potential discrimination.
 {{% /notice %}}
 
 A good strategy might be to make your group private and ask candidates questions before they join
