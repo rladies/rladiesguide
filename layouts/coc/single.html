@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ $content := getJSON "https://api.github.com/repos/rladies/.github/contents/CODE_OF_CONDUCT.md" }}
+{{ $content.content | base64Decode | markdownify }}
+
+<footer class="footline">
+	{{with .Params.LastModifierDisplayName}}
+	    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
+	    </div>
+	{{end}}
+</footer>
+
+{{ partial "footer.html" . }}

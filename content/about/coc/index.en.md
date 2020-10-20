@@ -1,6 +1,7 @@
 ---
 title: "Code of Conduct"
 weight: 5
+type: coc
 ---
 
 Refer to
