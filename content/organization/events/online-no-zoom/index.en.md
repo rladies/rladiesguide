@@ -12,3 +12,7 @@ Here are some options. We are open to adding more based on your experience!
 * WhatsApp meetup (R-Ladies Cotonou is still testing this), emailing the presentation and setting a time for Q&A in the WhatsApp groupp. 
 
 * Another expensive option under consideration by R-Ladies Cotonou is to offer a data bundle to participants using the R Consortium grant, when we receive funds, to have a Zoom meetup.
+
+{{% notice warning %}}
+Do not forget to remind attendees of the code of conduct at the beginning of the event.
+{{% /notice %}}
