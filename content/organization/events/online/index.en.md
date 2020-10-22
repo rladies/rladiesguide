@@ -118,8 +118,28 @@ chat, and screen sharing*).
 Lastly, the link to book the online meetup is **not to be shared
 publicly** as it's only intended for organisers.
 
+{{% notice warning %}}
+**Like for in-person event, be respectful of participants' privacy.**
+If you want to save the Zoom chat, ask participants for their permission at the beginning of the event.
+Advise participants to not take photos of the Zoom screen to publish on social networks unless permission is collected from all people appearing in the screenshot.
+{{% /notice %}}
 
-### Zoom and YouTube
+
+### Broadcasting to a broader audience
+
+#### Ask for permission from the attendees
+
+{{% notice warning %}}
+Please also check the local laws!
+{{% /notice %}}
+
+If recording/livestreaming,
+
+* First ask the speaker(s) if they are ok with streaming/recording.
+
+* Mention that in the event description, maybe even ask for "approval for participation in a recorded event." or something similar.
+
+* Before starting the video recording, advise that you are going to record and that those who do not want to be recording should turn off their camera.
 
 #### Zoom recording and YouTube
 
