@@ -131,7 +131,7 @@ Please also check the local laws!
 
 If recording/livestreaming,
 
-* First ask the speaker(s) if theyt are ok with streaming/recording.
+* First ask the speaker(s) if they are ok with streaming/recording.
 
 * Mention that in the event description, maybe even ask for "approval for participation in a recorded event." or something similar.
 
