@@ -24,7 +24,7 @@ Sometimes, though, folks need more encouragement.
 * In all cases try to think of how to diversify your team. (We welcome tips!) It might come with diversifying who attends the meetups, by promoting events in different places than usual?
 
 
-You can point people who hesitate to jump on board to the [intro chapter for organizers](https://guide.rladies.org/organization/intro/get-started/#chapter-organizer-why-and-what-efforts).
+You can point people who hesitate to jump on board to the [intro chapter for organizers](/organization/intro/get-started/#chapter-organizer-why-and-what-efforts).
 
 If some people are happy to help without committing, it's already a great progress for you.
 Remind them regularly they could become an official organizer. :wink:
