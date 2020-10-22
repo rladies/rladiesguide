@@ -72,6 +72,10 @@ Always remember that there is a code of conduct, remind everyone of the code of 
 Refer people to the written coc on the website, and underline that it applies to all forms of media and communication.  
 {{% /notice %}}
 
+Make organizers easy to recognize.
+Introduce yourselves at the beginning, consider wearing a specific badge.
+This is important for participants for different requests for help and for being able to report incidents related to the code of conduct.
+
 ### Snacks
 
 If you found a sponsor willing to fund snacks for the event, that might be a great way to make it look more welcoming and promote people talking to each other.

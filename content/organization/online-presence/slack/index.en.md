@@ -10,6 +10,8 @@ You might want to create a discussion space for your own chapter on Slack or ano
 
 It can be a place for discussions, collaboration, Q&As, regular scheduled messages, etc.
 
+In this platform, make organizers easy to identify (e.g. adding "Organizer - " to your names) which is important in particular if a member wants to report an incident related to the code of conduct.
+
 In any case encourage the members of your chapter to join the [community slack](/comm/slack/)!
 
 {{% notice warning %}}

@@ -15,4 +15,7 @@ Here are some options. We are open to adding more based on your experience!
 
 {{% notice warning %}}
 Do not forget to remind attendees of the code of conduct at the beginning of the event.
+Make organizers easy to recognize.
+Introduce yourselves at the beginning, add "Organizer" to your name if possible.
+This is important for participants for different requests for help and for being able to report incidents related to the code of conduct.
 {{% /notice %}}

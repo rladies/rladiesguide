@@ -91,6 +91,10 @@ At the very bottom you should see some buttons -- click on the 'Claim Host' butt
 -   Admit your co-organisers (if they are still in the waiting room) and
  make them co-host so that they can manage bad actors with you if
  necessary. **Being several to run an online meeting makes things easier (e.g. one organizer can keep an eye on the chat).**
+ 
+-   Make organizers easy to recognize.
+Introduce yourselves at the beginning, add "Organizer - " to your name.
+This is important for participants for different requests for help and for being able to report incidents related to the code of conduct.
 
 -   Do the same for your presenter so that they can share their screen
     even if regular participants cannot.
