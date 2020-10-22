@@ -8,11 +8,19 @@ The Code of Conduct would only be edited with the agreement of the global leader
 
 Now, technically, its source including translations live at https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md
 
+## How to use the Code of Conduct
+
+### Linking to it
+
+Link to either the Code of Conduct on the R-Ladies website or the source on GitHub (if you want to refer to a translation that isn't on the R-Ladies website yet).
+
+### Reproducing it within your website
+
 If you use the Code of Conduct somewhere that's supposed to be long-lived, be careful to have a process in place to ensure that the Code of Conduct rendered on your thing keeps in sync with the code of conduct source.
 
 For an event that happens only once, you could copy-paste from the code of conduct source.
 
-## How to use the .github COC in a Hugo website 
+#### How to use the .github COC in a Hugo website 
 
 This is a suggested workflow.
 It is very important to have a process in place for keeping the code of conduct content in your website in sync with the code of conduct source.
