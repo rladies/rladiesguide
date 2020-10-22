@@ -86,3 +86,7 @@ Try to cater for dietary restrictions.
 A successful event does not need to have a huge turnout. 
 Of course you want a few people to attend to make your efforts and the speaker's efforts worthwhile, but there does not need to be dozens of participants.
 Also, some events, the first, or some random events, might have a lower turnout than expected and that's ok.
+
+### Resources
+
+* [Awesome event organiser resources](https://github.com/stephlocke/awesome-organiser-resources) curated by Steph Locke
