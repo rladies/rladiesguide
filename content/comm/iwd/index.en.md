@@ -4,7 +4,7 @@ menuTitle: "International Women's Day Campaign"
 weight: 120
 ---
 
-Although R-Ladies mission is not limited to women but also to Underrepresented/Minority Genders, we have used [International Women's Day](https://en.wikipedia.org/wiki/International_Women%27s_Day) as the occasion to run campaigns, until 2020 of Twitter. 
+Although R-Ladies mission is not limited to women but instead to all Underrepresented/Minority Genders, we have used [International Women's Day](https://en.wikipedia.org/wiki/International_Women%27s_Day) as the occasion to run campaigns, until 2020 of Twitter. 
 
 The goals of this chapter is to document our previous efforts for folks who might want to lead future campaigns. We hope to:
 
