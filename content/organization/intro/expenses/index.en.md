@@ -45,6 +45,12 @@ Best,
 [your name]
 ```
 
+Now as regards to the subject of the email, you want it to
+
+* convey what's in the email ("Partner with R-Ladies Philly");
+* not look spammy;
+* possibly explain R-Ladies, maybe using keywords like "feminist", "R", "data science"...
+
 ### How to thank sponsors?
 
 * listing them as sponsors in the promotion of activities they supported;
