@@ -90,7 +90,9 @@ At the very bottom you should see some buttons -- click on the 'Claim Host' butt
 
 -   Admit your co-organisers (if they are still in the waiting room) and
  make them co-host so that they can manage bad actors with you if
- necessary. **Being several to run an online meeting makes things easier (e.g. one organizer can keep an eye on the chat).**
+ necessary. **Being several to run an online meeting makes things easier (e.g. one organizer can keep an eye on the chat).** 
+ It also makes it possible for your co-host to claim host if you for some reason disconnect or experience other technical difficulties.
+We recommend being at minimum one co-host to help you.
  
 -   Make organizers easy to recognize.
 Introduce yourselves at the beginning, add "Organizer - " to your name.
