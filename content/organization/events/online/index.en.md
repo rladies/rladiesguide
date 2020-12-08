@@ -190,6 +190,8 @@ You can use the random feature on Zoom to first create the groups, then re-alloc
 
 * Use a pre-survey to ask participants if they have ideas for questions or topics for the breakout rooms.
 
+Outside of Zoom you could try out platforms such as [gather.town](https://gather.town/).
+
 ## More resources
 
 ### General best practice
