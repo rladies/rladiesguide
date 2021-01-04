@@ -170,6 +170,28 @@ You can also do your YouTube livestream as unlisted and only share the link with
 If they share the link others can see the livestream, 
 but the stream won't be publicly listed and there won't be notifications sent to channel subscribers.
 
+### Running virtual social events
+
+Running an event (or part of an event) especially dedicated to socializing might be great for everyone in these difficult times!
+
+Here are some tips mostly from R-Ladies NYC.
+
+* Dedicating an entire event to "virtual social networking" help make it clear that the event is about getting to know each other.
+
+* If the group of all attendees isn't too big (15 people?), have everyone introduce themselves in the big group so as not to have to repeat an intro in every breakout room (and take up precious time!)
+
+* Utilize [Zoom breakout rooms](https://support.zoom.us/hc/en-us/articles/206476313-Managing-Breakout-Rooms) for a social event. Ideally, you want 3-4 people in a group, and if you can, put a member of your organizing team/board in each room (or as many rooms possible). These breakout meetings should be 15-20 minutes long. 
+
+{{% notice tip %}}
+You can use the random feature on Zoom to first create the groups, then re-allocate members of your organizing team. Make sure to pay attention to who's in which group when you do this, and try not to repeat combinations of people!
+{{% /notice %}}
+
+* Give the groups a fun question to spur conversation, maybe R-related, such as, "did you learn base r or the tidyverse first?" or "what's the latest cool R package you started using?".
+
+* Use a pre-survey to ask participants if they have ideas for questions or topics for the breakout rooms.
+
+Outside of Zoom you could try out platforms such as [gather.town](https://gather.town/).
+
 ## More resources
 
 ### General best practice
