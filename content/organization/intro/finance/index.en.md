@@ -1,6 +1,6 @@
 ---
-title: "Expenses"
-menuTitle: "Expenses"
+title: "Finance"
+menuTitle: "Finance"
 weight: 100
 ---
 
