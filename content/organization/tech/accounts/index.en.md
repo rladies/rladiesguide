@@ -87,6 +87,11 @@ A good strategy might be to make your group private and ask candidates questions
 * Find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/email/).
 * If you have an issue with emails send an email to `email@rladies.org` or try to crowd-source a solution in the `#email_etc_support` channel of the organizers slack.`
 
+
+{{% notice warning %}}
+Check out the section about [account security](/organization/tech/security/)
+{{% /notice %}}
+
 ## GitHub
 
 * There is a [global organisation](http://github.com/rladies) to collect all material
