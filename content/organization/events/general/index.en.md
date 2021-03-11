@@ -15,7 +15,9 @@ If you are an R-Ladies organizer and have further questions, please ask them in 
 
 * Find speakers at least two months before the talk. Even if it is a 5 minutes talk, it will give you peace of mind and time for people to prepare their talk.
 
-* To find ideas for topics, have a look at [other R-Ladies groups](https://www.meetup.com/pro/rladies/) or at conference programs. Also ask your meetup members for ideas and wishes.
+* To find ideas for topics, have a look at [other R-Ladies groups](https://www.meetup.com/pro/rladies/) or at conference programs. Also ask your meetup members for ideas and wishes, potentially in a [dedicated GitHub repository](https://github.com/rladies-seattle/rladies-seattle-organizing)[^repo].
+
+* You can consider creating a checklist to follow for planning events, like [R-Ladies Seattle's](https://github.com/rladies-seattle/rladies-seattle-organizing/blob/master/how-to-run-an-event.md#checklist).
 
 ### Launch Event
 
@@ -92,9 +94,20 @@ Always remember that there is a code of conduct, remind everyone of the code of 
 Refer people to the written coc on the website, and underline that it applies to all forms of media and communication.  
 {{% /notice %}}
 
+Arrive at the venue 15-30 minutes early to set up the room. 
+Check projector, microphone, laptop connections, etc. if necessary.
+
 Make organizers easy to recognize.
 Introduce yourselves at the beginning, consider wearing a specific badge.
 This is important for participants for different requests for help and for being able to report incidents related to the code of conduct.
+
+Bring name tags for attendees. Name tags should have space for names and pronouns.
+
+As people are arriving, it's nice to have a slide up that explains when the meeting will begin, what to do while waiting (e.g., find food or any setup steps for a tutorial), and how to connect to wifi.
+
+Begin the meeting with a few intro slides. 
+First, welcome attendees, state the mission of R-Ladies, point people to the R-Ladies Slack/Twitter/etc., mention code of conduct. 
+Then review today's topic and introduce the speakers.
 
 ### Snacks
 
@@ -110,3 +123,5 @@ Also, some events, the first, or some random events, might have a lower turnout 
 ### Resources
 
 * [Awesome event organiser resources](https://github.com/stephlocke/awesome-organiser-resources) curated by Steph Locke
+
+[^repo]: R-Ladies Seattle's workflow is inspired by rOpenSci community call workflow.

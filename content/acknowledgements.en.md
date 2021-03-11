@@ -47,6 +47,7 @@ _Grácias a todas las personas que contribuyeron al contenido de esta guía, aqu
   Karla Fettich, 
   L. Paloma Rojas-Saunero,
   Layla Bouzoubaa, 
+  Monica Gerber,
   Paola Corrales, 
   Liili Abuladze, 
   Marianna Foos, 

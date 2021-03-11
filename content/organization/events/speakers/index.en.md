@@ -15,7 +15,15 @@ weight: 53
 
 * For short talks, you could use R-Ladies Cotonou's approach of asking speakers to briefly present _"what they like the most about R or would like to know."_.
 
-* You might be able to reach out to potential speakers outside of your chapter thanks to meetups being online / sponsor funding for travel.
+* Post a call for speakers on the R-Ladies Slack or Twitter accounts.
+
+* Message the R-Ladies meetup.com group.
+
+* Reach out to people in your network or the networks of other members of your chapter.
+
+* You might be able to reach out to potential speakers outside of your chapter's location thanks to meetups being online / sponsor funding for travel.
+
+* You can give a talk yourself once in a while!
 
 * Remember the [rules about Prioritization of Underrepresented/Minority Genders](/about/mission/#r-ladies-rules--guidelines).
 
