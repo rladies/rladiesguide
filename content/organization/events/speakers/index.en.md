@@ -25,10 +25,16 @@ weight: 53
 
 Ask the speaker for how many people they can present their talk or tutorial.
 
+Also ask them for a bio, and make sure you know their pronouns.
+
 Have the speaker write an abstract, make sure it is informative of the content and format. See the next section about [promoting the event](/organization/events/promotion/).
 
 You can check in with the speaker to ask them if they need any help, e.g. to make a survey of participants' skills.
 You should check how the speaker is going to share their screen or show their slides; do not hesitate to schedule a testing session especially for online events.
+
+If you are funding travel and accommodation for the speakers, make sure to let them have the accommodation they need and that all places are accessible to them.
+
+Depending on the time of the event, discuss the possibility of a shared meal or drinks or simple friendly debrief after the meetup, especially for outside guest speakers, but do not put any pressure on the speaker.
 
 Here are resources you can share with speakers.
 
@@ -39,6 +45,8 @@ Here are resources you can share with speakers.
 * [Giving Your First Data Science Talk  by Emily Robinson](https://hookedondata.org/giving-your-first-data-science-talk/)
 
 ### During the event
+
+* Introduce the speaker and their pronouns.
 
 * As the organizer you are responsible for reminding everyone of the code of conduct and of logistical details.
 
