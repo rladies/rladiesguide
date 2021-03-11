@@ -72,6 +72,12 @@ Examples
 
 * [Spanish metameetup](https://blog.rladies.org/post/spanishmetameetup/).
 
+### Inter-group events
+
+When partnering with another organization for a meetup, be careful to not partner with an organization that is using your chapter for free diversity points.
+Knowing the group you partner with well (and its organizers) will help you make a decision.
+You can also ask other organizers for experience and advice.
+
 ## During events
 
 {{% notice warning %}}
