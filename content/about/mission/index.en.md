@@ -86,7 +86,7 @@ developers to facilitate individual and collective progress worldwide.
     not compromise the community's independence.
     
 -   **No commercial agenda**: Chapters are started by individuals, not by companies. 
-    Chapters can partner with companies for sponsorship in the form of venue space, food or other supplies.     Chapters and events may not be ‘used’ by a corporation/as a commercial vehicle for private aims. 
+    Chapters can partner with companies for sponsorship in the form of venue space, food or other supplies. Chapters and events may not be ‘used’ by a corporation/as a commercial vehicle for private aims. 
     This also means that speakers cannot give talks about paid products/services, 
     even if they don't work at the company offering the product/service.
 
