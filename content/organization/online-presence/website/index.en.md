@@ -20,6 +20,8 @@ Here are some examples of chapter websites for inspiration
 
 * [R-Ladies Belo Horizonte](https://rladiesbh.com.br/)
 
+Note that a GitHub repository could complement your website, cf [R-Ladies Seattle example](https://github.com/rladies-seattle/rladies-seattle-organizing).
+
 ## A website for R-Ladies in your country?
 
 Maintaining a single website for a whole country can reduce maintenance efforts. Example: [R-Ladies en México](https://rladiesmx.netlify.app/).
