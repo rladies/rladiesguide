@@ -45,6 +45,14 @@ Please keep accessibility in mind: can everyone access your meetup space? E.g. y
 
 If possible and relevant, finding a space where one can loan computers might help some attendees get the most out of practical sessions even when they do not own a computer.
 
+### When to hold events
+
+Choosing the right slot, duration and weekday for events depends on your local community, 
+and their different work and life obligations (including yours!).
+You could mix it up with workday evening meetups, lunch meetups, week-end meetups, etc.
+
+You could poll your local community to find optimal slots (but keep in mind that event attendees are a biased sample :wink:).
+
 ### Announce events
 
 See [event promotion](/organization/events/promotion/).
