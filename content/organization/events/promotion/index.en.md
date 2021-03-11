@@ -15,7 +15,7 @@ Please do be aware of the relevant Equality Legislation in your jurisdiction, e.
 
 * Try to make the event title both fun and informative.
 
-* Write an informative summary for Meetup. What can attendees expect (topic, hands-on or not)? Who is the speaker (short bio, links to online presence)? Will there be food?
+* Write an informative summary for Meetup, including short speaker bios validated by speakers. What can attendees expect (topic, hands-on or not)? Who is the speaker (short bio, links to online presence)? Will there be food?
 
 {{% notice tip %}}
 Making an event inclusive can mean to be explicit about things you thought might go without saying, for instance, if kids are able to attend the meeting, say it! Chances are people with kids will show up; or, you might wanna tell people without a personal computer they can come with a notebook and a pencil and write down some ideas and that you will have a few printed handouts for them (pairing people could also be an option or hosting your event at a library/working space with available computers to loan).
