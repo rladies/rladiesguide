@@ -34,6 +34,12 @@ Different ideas:
 * Finding co-organisers: Some chapters have found their organising team at the launch
   event, others have included a question on who would be interested in organising in the
   initial survey.
+{{% notice warning %}}
+As written in [our mission](/about/mission/#r-ladies-rules--guidelines),
+Chapters and events may not be ‘used’ by a corporation/as a commercial vehicle for private aims. 
+This also means that speakers cannot give talks about paid products/services, 
+even if they don't work at the company offering the product/service.
+{{% /notice %}}
   
 ### Where to hold events?
 
