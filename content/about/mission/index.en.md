@@ -27,7 +27,7 @@ developers to facilitate individual and collective progress worldwide.
 
 ## R-Ladies Rules & Guidelines
 
--   **Free** : Public events run by R-Ladies are always offered free of
+-   **Free**: Public events run by R-Ladies are always offered free of
     charge to participants.
     
 -   **R** **Language/Environment specific**: The contextual
@@ -73,11 +73,11 @@ developers to facilitate individual and collective progress worldwide.
         majority gender, to ensure your procedures are not infringing
         local laws re. potential discrimination.
 
--   **R-Ladies Code of Conduct** : All members must follow the [Code of
+-   **R-Ladies Code of Conduct**: All members must follow the [Code of
     Conduct](/about/coc).
 
 -   **Community-Driven administration, independent of External
-    influences** : R-Ladies does not have permanent ties or links to
+    influences**: R-Ladies does not have permanent ties or links to
     external sponsors or parties. Appropriate sponsorship and support
     which does not seek to dictate or influence R-Ladies
     Mission-driven activities/decision-making but enhances the
