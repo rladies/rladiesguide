@@ -55,9 +55,9 @@ _Grácias a todas las personas que contribuyeron al contenido de esta guía, aqu
   Vilma Romero.
 
 Thanks to the [R Consortium](https://www.r-consortium.org/) for funding this project.
-_Grácias al [R Consortium](https://www.r-consortium.org/) por financiar este proyecto._
+_Gracias al [R Consortium](https://www.r-consortium.org/) por financiar este proyecto._
 
 If you contributed to our guidance and we forgot to add your name, first of all we are sorry!
-Please open an issue or a pull request so we might fix that.
+Please open an [issue](https://github.com/rladies/rladiesguide/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) so we might fix that.
 
-_Si contribuyó al contenido y olvidamos añadir su numbre, lo sentimos mucho. Por favor abra una "issue" en el repositorio y lo añaderimos._
+_Si contribuiste al contenido y olvidamos añadir tu nombre, lo sentimos mucho. Por favor abre un ["issue"](https://github.com/rladies/rladiesguide/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) en el repositorio y te agregaremos._
