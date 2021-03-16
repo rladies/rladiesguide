@@ -51,6 +51,7 @@ _Grácias a todas las personas que contribuyeron al contenido de esta guía, aqu
   Paola Corrales, 
   Liili Abuladze, 
   Marianna Foos, 
+  Nerissa Mulligan,
   Silvia Gutiérrez, 
   Vilma Romero.
 

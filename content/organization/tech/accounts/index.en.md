@@ -19,7 +19,9 @@ weight: 15
 * As a volunteer receiving DMs, feel free to gracefully redirect them to the communication channel of your choice, or to indicate them to use another communication channel next time.
 
 
-## Meetup 
+## Meetup  
+
+Meetup is an online social platform used to announce events and manage registration to events.
 
 * Ask Patricia (@patriLoto) or Claudia (@claudia) in the \#new\_chapters channel on Slack to help get your meetup.com group set up. R-Ladies [meetup.com](meetup.com) accounts are paid for by the R-Ladies Organization using a grant from the [R-Consortium](https://www.r-consortium.org/).
 

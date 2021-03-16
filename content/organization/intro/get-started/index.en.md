@@ -33,7 +33,7 @@ Here's what will happen if you want to start a chapter...
 
 * Send an email to `info@rladies.org` indicating who you are and where you would like to start a chapter. Conversation with our onboarding team will ensue.
 
-* Your brand-new chapter will be equipped with R-Ladies [tech infrastructure](/organization/tech/accounts), in particular a Meetup account and an [email](/organization/tech/email/).
+* Your brand-new chapter will be equipped with R-Ladies [tech infrastructure](/organization/tech/accounts), in particular a Meetup account and an [email](/organization/tech/email/). Meetup is an online social platform used to announce events and manage registration to events.
 
 * You will organize [your first event and following ones](/organization/events/), with help of your co-organizer(s) and tips fellow chapter organizers all over the world. You might take part in the [chapter mentoring program](/coordination/mentoring).
 
