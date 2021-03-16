@@ -23,7 +23,7 @@ weight: 15
 
 Meetup is an online social platform used to announce events and manage registration to events.
 
-* Ask Patricia (@patriLoto) or Claudia (@claudia) in the \#new\_chapters channel on Slack to help get your meetup.com group set up. R-Ladies [meetup.com](meetup.com) accounts are paid for by the R-Ladies Organization using a grant from the [R-Consortium](https://www.r-consortium.org/).
+* Ask Patricia (@patriLoto) or Claudia (@claudia) in the \#new\_chapters channel on Slack to help get your meetup.com group set up. R-Ladies [meetup.com](https://www.meetup.com/pro/rladies) accounts are paid for by the R-Ladies Organization using a grant from the [R-Consortium](https://www.r-consortium.org/).
 
 **Suggested Meetup Alignment**
 
