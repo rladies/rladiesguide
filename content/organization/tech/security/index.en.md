@@ -55,7 +55,7 @@ You can even share an account with family members.
 You can secure accounts such as GitHub accounts, Twitter accounts with two-factor authentication (2FA).
 It means that to log in into the account you will need both the password and your phone where you will be given a temporary code either by text message or via an app such as DuoMobile.
 
-Make sure to save the recovery codes of 2FA in your personal password manager, and/or to share them with your team.
+Make sure to save the recovery codes of 2FA in your personal password manager, and if relevant to share them with your team.
 
 Note that apps like DuoMobile allow you to sync your account with GoogleDrive which can be very handy when changing phones for instance.
 
