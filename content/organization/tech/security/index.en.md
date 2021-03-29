@@ -7,6 +7,8 @@ weight: 54
 As organizers you will be responsible for accounts such as email, social media accounts.
 Here are some steps that will help reduce the risk of someone's hacking into your account.
 
+We also recommend reading ["Ten quick tips for staying safe online"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008563) by Danielle Smalls and Greg Wilson.
+
 ## Use a personal password manager!
 
 For your personal use (for R-Ladies things and in general!), we strongly recommend using a personal password manager, be it a free one like KeePass (with a back-up you'd set up on Dropbox or Google Drive) or a paid service like 1Password.
