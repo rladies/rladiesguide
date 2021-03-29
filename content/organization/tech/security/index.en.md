@@ -65,4 +65,4 @@ Your chapter will have a bunch of passwords and 2FA recovery codes to share.
 How to do that?
 
 * You might try and apply for [1Password OSS free plan](https://github.com/1Password/1password-teams-open-source).
-* You might use e.g. KeePass, and share the database via GoogleDrive, whilst you would all save the password to the KeePass database in your personal password manager.
+* You might use e.g. a dedicated KeePass database for the chapter passwords, and share the database via GoogleDrive, whilst you would all save the password to the KeePass database in your personal password manager.
