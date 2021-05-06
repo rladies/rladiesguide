@@ -81,10 +81,11 @@ If you create an infographic to promote an event, be sure to also post the infor
 
 ### Alignment
 
-* Local Twitter handle (optional, but encouraged!) should also use the @RLadiesLocation format, for example: [@RLadiesSF](https://twitter.com/RLadiesSF) and [@RLadiesLondon](https://twitter.com/RLadiesSF), with the same name as the meetup.com group name (above). If the city name is too long for a Twitter handle, you can use an abbreviation such as [@RLadiesCDMX](https://twitter.com/RLadiesCDMX).  The "name" on the account should be "R-Ladies Location". (e.g. [@RLadiesLondon](https://twitter.com/RLadiesLondon) and "R-Ladies London").
-* Please use your chapter R-Ladies email address (e.g. yourcity@rladies.org) to set up Twitter and other social media accounts rather than a personal email address. 
-* Don't forget to add the [R-Ladies logo and the purple color](/organization/brand/). 
-* Link to your Meetup group
+* Local Twitter handle (optional, but encouraged!) should also use the @RLadiesLocation format, for example: [@RLadiesSF](https://twitter.com/RLadiesSF) and [@RLadiesLondon](https://twitter.com/RLadiesSF).  Please note that there is a 15-character limit on Twitter handles, so if your cityname is too long, we recommend using the airport code (or another abbreviation), such as [@RLadiesCDMX](https://twitter.com/RLadiesCDMX).  The "name" on the account should be "R-Ladies Location". (e.g. [@RLadiesLondon](https://twitter.com/RLadiesLondon) and "R-Ladies London"). When you're logged in to the account, the username (aka. handle) can be edited [here](https://twitter.com/settings/screen_name) and the profile name can be edited [here](https://twitter.com/settings/profile).
+* Important: Please use your chapter R-Ladies email address (e.g. yourcity@rladies.org) to set up Twitter and other social media accounts rather than a personal email address. 
+* Don't forget to add the [R-Ladies logo and the purple color](/organization/brand/).
+* A picture of your city or a picture from one of your meetups is recommended for the background image, but there's no strict guidelines around that.
+* Link to your Meetup group page in the website field.
 
 **Suggested Twitter Alignment**
 * Bio of chapters : "R-Ladies \[Location\] is part of a world-wide
