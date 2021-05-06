@@ -82,13 +82,17 @@ A good strategy might be to make your group private and ask candidates questions
 
 ## E-Mail
 
-* You can get a chapter email (yourcity\@rladies.org) which can be set up to forward to all the organisers of a chapter.  As of March 18, 2019, we are no longer issuing personal rladies.org emails (yourname\`@rladies.org) to organizers and will have chapter emails only.
-   * Send an email (`email@rladies.org`) and volunteers in charge will set up your chapter email for you.  Please be patient, as these requests are processed weekly.
-   * In the email, please send the personal email addresses for you and your co-organizers if you would like chapter email to forward there, otherwise, please be responsible for checking your chapter email via webmail or by setting it up on your email client.
-* 🚨 **[VERY IMPORTANT]** **Your chapter email account should be used to set up any chapter social media accounts (e.g. Twitter, Instagram, etc).**
-* Find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/email/).
-* If you have an issue with emails send an email to `email@rladies.org` or try to crowd-source a solution in the `#email_etc_support` channel of the organizers slack.`
-
+* You can get a chapter email address (`yourcity@rladies.org`) which can be set up to forward to all the organisers of a chapter.  As of March 18, 2019, we are no longer issuing personal rladies.org emails (`yourname@rladies.org`) to organizers and will have chapter emails only. 
+* Starting in 2021, new chapter emails are just forwarding addresses (chapters started before this have full email accounts, but due to the overhead and changes by our hosting provider, new emails addresses can only be a regular email -or- a forwarding email, not both). With a forwarding email address, there’s no inbox or password, just a public facing email address that forwards to your local organiser team. 
+* The idea with the chapter email address is that you can use this as a public facing email address for your community, so members or meetup hosts (a company or university) can get in touch with you easily without you having to list a personal email address publicly. Then you can use your personal email address to reply. 
+* To request a new chapter email:
+   * Send an email (`email@rladies.org`) and a volunteer will set up your chapter email for you.  Please be patient, as these requests are currently being processed on a monthly.
+   * In the email, please send the personal email addresses for you and your co-organisers if you would like chapter email to forward there.
+* If you add new organizers to your team, please send an email to `email@rladies.org` to request that their personal email be addded to the chapter email forwarding.  
+* 🚨 **[VERY IMPORTANT]** **Your chapter email account should be used to set up any chapter social media accounts (e.g. Twitter, Instagram, etc).**  You can set up Twitter or other accounts to not send email notifications, so that you and your fellow organisers don't get overwhelmed with emails going to your chapter accounts.
+* For legacy accounts (full email vs. forwarding addresses), please find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/tech/email/).
+* If you have an issue with your email, have read all the online guidance and still can't resolve your issue, please send an email to `email@rladies.org` and a volunteer will get back to you as soon as possible.
+* We are exploring new options for email hosting providers (to simpify email account management) and if you'd like to help with that effort, please send an email to `info@rladies.org`.
 
 {{% notice warning %}}
 Check out the section about [account security](/organization/tech/security/)
