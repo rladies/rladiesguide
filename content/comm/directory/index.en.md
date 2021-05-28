@@ -25,6 +25,10 @@ https://rladies.org/wp-login.php
 To start a new chapter, contact:
 info@rladies.org
 
+### Updating Deadnames
+
+When updating an existing R-Ladies member directory profile, we usually edit the entry but this will not fix the URL. As a result, the [deadname](https://www.huffpost.com/entry/deadnaming-a-trans-person-is-violenceso-why-does_b_58cc58cce4b0e0d348b3434b) will still appear in the URL for the directory entry. Therefore, when requested to remove a deadname in an existing directory entry, we will need to completely delete the old entry and add the entry as a new entry. This will create a new URL with the updated name.
+
 ### Misc
 
 - write out countries but not states, leave states as initial (e.g. NY)
