@@ -97,9 +97,8 @@ Check out the section about [account security](/organization/tech/security/)
 ## GitHub
 
 * There is a [global organisation](http://github.com/rladies) to collect all material
-  related to R-Ladies in one place, so it's easier to know what's out there and get inspired by what other chapters did. Contact any of the admins (e.g. @hannah) of the
-  GitHub organisation to be added as a member.
+  related to R-Ladies in one place, so it's easier to know what's out there and get inspired by what other chapters did. Ask to be added as a member in the `#new_chapters` channel of the organizers slack.
 * If you have presentations, please add them all to
-  one repo for your chapter, e.g., meetup-presentations_london. If you have code for a
-  workshop you can add it to the repository or ask us to create a new repository for that. Please name it location_*, e.g.,
-  london_20161130_h2o-and-r.
+  one repo for your chapter, e.g., `meetup-presentations_london`. If you have code for a
+  workshop you can add it to the repository or ask us to create a new repository for that. Please name 
+  it location_*, e.g., `london_20161130_h2o-and-r`.
