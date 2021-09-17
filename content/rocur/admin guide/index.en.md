@@ -56,7 +56,7 @@ The responsibilities of the account admin are to:
 ### Sunday before they are scheduled to curate:   
 * Post their final infographic to the RoCur feed (be sure to mention their personal Twitter handle).  
 * Add the curator’s twitter handle as a contributor on the RoCur account (via Tweetdeck) and remove last week’s curator from the RoCur team  
-* Email the curator that they are now added to the twitter account.  
+* Email the curator that they are now added to the Twitter account.  
 * They will need to visit [tweetdeck.twitter.com](https://tweetdeck.twitter.com/) while logged into their twitter account in order to tweet from the account.  
 
 #### Same email ~1-2 days before the first day of curating
