@@ -75,7 +75,7 @@ The responsibilities of the account admin are to:
 
 Account admin can recruit potential curators in a variety of ways:  
 * The R-Ladies Community Slack;  
-* Reaching out to organizers of different R-Ladies chapters   
+* Reaching out to organizers of different R-Ladies chapters;   
 * A general call on the @RLadiesGlobal or @WeAreRLadies Twitter handles  
 * Individual outreach to specific R-Ladies community members you admire!  
 
