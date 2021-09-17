@@ -48,7 +48,7 @@ The responsibilities of the account admin are to:
 >
 >Please read through our [Curator Guide](https://guide.rladies.org/rocur/guide/) in preparation for curating. Additionally, if you haven’t already, please join our R-Ladies Directory.
 >
->We will contact you later this week with more information about accessing our twitter account. In the meantime, let us know if you have any questions about curating.
+>We will contact you later this week with more information about accessing our Twitter account. In the meantime, let us know if you have any questions about curating.
 >
 >Thanks!
 
