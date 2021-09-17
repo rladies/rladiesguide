@@ -27,7 +27,8 @@ The responsibilities of the account admin are to:
 
 >Hi NAME,
 >
->Thank you for the photo. You are scheduled to curate the week of DATE. We will contact you 1 week before you are scheduled to curate with more details. Let us know if you have any questions. Thanks!
+>Thank you for the photo. You are scheduled to curate the week of DATE. We will contact you 1 week before you are scheduled to curate with more details. Let us know if you have any questions.   
+>Thanks!
 
 
 ### 1 Week before they are scheduled to curate:  
@@ -40,7 +41,7 @@ The responsibilities of the account admin are to:
 #### Sample email ~1 week before the first day of curating
 
 >Hi **NAME**,
-
+>
 >We are excited to have you curate next week! You are scheduled to curate from Monday, **[DATE]** to Saturday **[DATE]**. Depending on your schedule, we can modify this slightly (i.e. start on Tuesday or end on Friday), just let us know. We appreciate your time and contributions to the R-Ladies RoCur!
 >
 >We’ve attached what we will post this Sunday to advertise your curation week. Please let us know any changes that you would like no later than **[DATE]**.
@@ -62,13 +63,13 @@ The responsibilities of the account admin are to:
 
 >Hi NAME,
 >
-We have added you as a contributor to the @WeAreRLadies account. While logged into twitter, visit: https://tweetdeck.twitter.com/ and you should see @WeAreRLadies under your “Accounts” (at the bottom left part of the menu). Twitter also has a tweetdeck guide that might be useful.  
+>We have added you as a contributor to the @WeAreRLadies account. While logged into twitter, visit: https://tweetdeck.twitter.com/ and you should see @WeAreRLadies under your “Accounts” (at the bottom left part of the menu). Twitter also has a tweetdeck guide that might be useful.  
 >
-Please refer to our Curator Guide for our curator agreement and tips re: engaging with our Twitter audience. Your curatorship will start on Monday, at 7AM ET and end on Saturday, at 12PM ET.  
+>Please refer to our Curator Guide for our curator agreement and tips re: engaging with our Twitter audience. Your curatorship will start on Monday, at 7AM ET and end on Saturday, at 12PM ET.  
 >
-If you have any questions or encounter any problem, you can send us an email at WeAre@rladies.org. Also, you can join our #rocur_twitter channel on the community slack where you can reach out to all RoCur Managers and get connected with past curators.  
+>If you have any questions or encounter any problem, you can send us an email at WeAre@rladies.org. Also, you can join our #rocur_twitter channel on the community slack where you can reach out to all RoCur Managers and get connected with past curators.  
 >
-Thanks!  
+>Thanks!  
 
 ## Recruiting Curators  
 
