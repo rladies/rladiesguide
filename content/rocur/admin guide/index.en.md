@@ -6,7 +6,7 @@ weight: 60
 
 ## Account Admin  
 
-The account admin for the rotating curator account are members of the R-Ladies community that keeps @WeAreRLadies running. The account admin could be a team of 1-4 people who can rotate responsibilities from month-to-month. Being an account admin is an opportunity to connect with R-Ladies from all over the world while facilitating an online community resource.     
+The account admin (team) for the rotating curator account are members of the R-Ladies community who keep @WeAreRLadies running. The account admin could be a team of 1-4 people who can rotate responsibilities from month-to-month. Being an account admin is an opportunity to connect with R-Ladies from all over the world while facilitating an online community resource.     
 
 ## Primary Responsibilities  
 
