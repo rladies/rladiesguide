@@ -32,7 +32,7 @@ The responsibilities of the account admin are to:
 
 
 ### 1 Week before they are scheduled to curate:  
-* Create a draft of their infographic  
+* Create a draft of their infographic.  
 * Send an email to the curator that includes:  
   - A reminder of when they are scheduled to curate  
   - A draft of the infographic, request that they approve or request changes to the draft  
