@@ -76,7 +76,7 @@ The responsibilities of the account admin are to:
 Account admin can recruit potential curators in a variety of ways:  
 * The R-Ladies Community Slack;  
 * Reaching out to organizers of different R-Ladies chapters;   
-* A general call on the @RLadiesGlobal or @WeAreRLadies Twitter handles  
+* A general call on the @RLadiesGlobal or @WeAreRLadies Twitter handles;  
 * Individual outreach to specific R-Ladies community members you admire!  
 
 In line with R-Ladies' mission, this account aims to spotlight female and minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) and their great work in R. Featured curators come from a diversity of professions and have a range of experiences in R, from novice to expert. Currently, we do not have a protocol for individuals to curate more than one time.  
