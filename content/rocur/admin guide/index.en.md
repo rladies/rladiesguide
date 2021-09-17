@@ -6,7 +6,7 @@ weight: 60
 
 ## Account Admin  
 
-The account admin (team) for the rotating curator account are members of the R-Ladies community who keep @WeAreRLadies running. The account admin could be a team of 1-4 people who can rotate responsibilities from month-to-month. Being an account admin is an opportunity to connect with R-Ladies from all over the world while facilitating an online community resource.     
+The account admin (team) for the rotating curator account are members of the R-Ladies community who keep [@WeAreRLadies](https://twitter.com/WeAreRLadies) running. The account admin could be a team of 1-4 people who can rotate responsibilities from month-to-month. Being an account admin is an opportunity to connect with R-Ladies from all over the world while facilitating an online community resource.     
 
 ## Primary Responsibilities  
 
@@ -21,7 +21,7 @@ The responsibilities of the account admin are to:
 ### When someone signs up to curate:    
 * Add them to the curator schedule as soon as possible so other potential curators know that week is unavailable.  
 * The curator should send an email to WeAre@rladies.org with a photo for the account  
-* When this photo is received, save it in the Curator Photos Folder.  
+* When this photo is received, save it in the Curator Photos Folder (in a shared Google Drive).  
   - Save it as **YYYY-MM-DD-firstname** (date is first day of scheduled curation week)  
 * Reply to the curator’s email confirming their schedule week for curating. You may use the template below:  
 
@@ -63,15 +63,25 @@ The responsibilities of the account admin are to:
 
 >Hi NAME,
 >
->We have added you as a contributor to the @WeAreRLadies account. While logged into twitter, visit: https://tweetdeck.twitter.com/ and you should see @WeAreRLadies under your “Accounts” (at the bottom left part of the menu). Twitter also has a tweetdeck guide that might be useful.  
+>We have added you as a contributor to the @WeAreRLadies account. While logged into twitter, visit: https://tweetdeck.twitter.com/ and you should see @WeAreRLadies under your “Accounts” (at the bottom left part of the menu). Twitter also has a [tweetdeck guide](https://help.twitter.com/en/using-twitter/how-to-use-tweetdeck) that might be useful.  
 >
->Please refer to our Curator Guide for our curator agreement and tips re: engaging with our Twitter audience. Your curatorship will start on Monday, at 7AM ET and end on Saturday, at 12PM ET.  
+>Please refer to our [Curator Guide](https://guide.rladies.org/rocur/guide/) for our curator agreement and tips re: engaging with our Twitter audience. Your curatorship will start on Monday, at 7AM ET and end on Saturday, at 12PM ET.  
 >
 >If you have any questions or encounter any problem, you can send us an email at WeAre@rladies.org. Also, you can join our #rocur_twitter channel on the community slack where you can reach out to all RoCur Managers and get connected with past curators.  
->
+>  
 >Thanks!  
 
-## Recruiting Curators  
+## Other Information on Infrastructure & Procedures  
+  
+### Virtual Spaces associated with @WeAreRLadies  
+  
+In addition to the Twitter Handle, other means of communication that the @WeAreRLadies admin team have access to are:  
+* The Rocur email address, WeAre@rladies.org;    
+* The #rocur_twitter channel on the [R-Ladies Community Slack](https://rladies-community-slack.herokuapp.com/).  
+  
+Admin team members are added as admin to the @WeAreRLadies Twitter handle on Tweetdeck. Additionally, admin members will have access to a shared Google Drive with templates, files, and other documentation.   
+    
+### Recruiting Curators  
 
 Account admin can recruit potential curators in a variety of ways:  
 * The R-Ladies Community Slack;  
@@ -79,6 +89,6 @@ Account admin can recruit potential curators in a variety of ways:
 * A general call on the @RLadiesGlobal or @WeAreRLadies Twitter handles;  
 * Individual outreach to specific R-Ladies community members you admire!  
 
-In line with R-Ladies' mission, this account aims to spotlight female and minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) and their great work in R. Featured curators come from a diversity of professions and have a range of experiences in R, from novice to expert. Currently, we do not have a protocol for individuals to curate more than one time.  
+In line with R-Ladies' mission, this account aims to spotlight female and minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) and their great work in R. Featured curators come from a diversity of professions and have a range of experiences in R, from novice to expert. Currently, we do not have a protocol for individuals to curate more than one time.   
 
-We also aim for this rotating curator account to be a sustainable initiative. Therefore, there is no pressure for account admin to have curators lined up for every single week. Additionally, account admin are allowed to identify times during the calendar year for the account to go on hiatus (or a sustained period with no curators).
+We also aim for this rotating curator account to be a sustainable initiative. Therefore, there is no pressure for account admin to have curators lined up for every single week. Additionally, account admin are allowed to identify times during the calendar year for the account to go on hiatus (i.e., an extended period with no curators).
