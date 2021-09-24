@@ -57,7 +57,7 @@ Please follow the [Twitter terms of service](https://help.twitter.com/en/rules-a
 
 ### Notes from a previous curator
 
-[Curating for @WeAreRLadies on Twitter: From creating content to cultivating connections.](https://blog.rstudio.com/2021/09/23/curating-for-wearerladies-on-twitter/) by Shannon Pileggi, Sep 23, 2021.
+[Curating for @WeAreRLadies on Twitter: From creating content to cultivating connections.](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) by Shannon Pileggi, Sep 23, 2021.
   
 ### Introducing Yourself  
   
