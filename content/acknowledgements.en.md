@@ -52,6 +52,7 @@ _Grácias a todas las personas que contribuyeron al contenido de esta guía, aqu
   Liili Abuladze, 
   Marianna Foos, 
   Nerissa Mulligan,
+  Shannon Pileggi,
   Silvia Gutiérrez, 
   Vilma Romero.
 
