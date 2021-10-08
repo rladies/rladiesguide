@@ -57,8 +57,10 @@ Please follow the [Twitter terms of service](https://help.twitter.com/en/rules-a
 
 ### Notes from a previous curator
 
-[Curating for @WeAreRLadies on Twitter: From creating content to cultivating connections.](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) by Shannon Pileggi, Sep 23, 2021.
-  
+* [Curating for @WeAreRLadies on Twitter: From creating content to cultivating connections.](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) blog post by Shannon Pileggi, Sep 23, 2021.
+
+* [Be great and curate! Tips and outcomes from an `@WeAreRLadies` Twitter curator.](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/) poster presentation by Shannon Pileggi, Oct 7, 2021.
+
 ### Introducing Yourself  
   
 Start your curatorship by introducing yourself, what you do (your job, hobbies, etc.), and what you do in R.   
