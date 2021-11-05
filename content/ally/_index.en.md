@@ -6,7 +6,7 @@ slides: true
 menuTitle: Allies
 ---
 
-How can you help R-Lady as an ally?
+## How can you help R-Lady as an ally?
 
 First, please read our [mission](/about/mission/) and [code of conduct](/about/coc/) to understand what R-Ladies is about.
 
@@ -29,3 +29,7 @@ Please also check out these other organizations
 * See the Paypal button on our [website](https://rladies.org/).
 
 * For larger amounts, we would recommend sending an email to `finance@rladies.org` and we can provide you the routing/account number for a direct wire transfer, or if you are in the US and prefer to send a check, we can provide you our non-profit HQ address in Oakland, California.
+
+## How can you help R-Lady as an ally organization?
+
+If you wish to partner with the R-Ladies global organization beside donating, please make sure to read our [mission](/about/mission) in particular regarding not commercial agendas, and get in touch with the global leadership via an email `leadership@rladies.org`.
