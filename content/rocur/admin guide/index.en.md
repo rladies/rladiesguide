@@ -28,6 +28,7 @@ The responsibilities of the account admin are to:
 >Hi NAME,
 >
 >Thank you for the photo. You are scheduled to curate the week of DATE. We will contact you 1 week before you are scheduled to curate with more details. Let us know if you have any questions.   
+>
 >Thanks!
 
 
