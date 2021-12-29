@@ -7,7 +7,7 @@ weight: 10
 
 ## How Curating Works  
 
-* Curatorship begins each **Monday at 7:00 AM ET** and ends the following **Saturday at 12:00 PM ET**.   
+* Curatorship begins each **Monday at [11h00 UTC](http://www.timebie.com/std/utc.php?q=11)** and ends the following **Saturday at [16h00 UTC](http://www.timebie.com/std/utc.php?q=16)**.   
 * For the duration of the curatorship, the profile photo will be a photo of the curator. This is updated by the RoCur administrator.    
 * The personal twitter handle of the curator will be in the bio (if applicable, you do not need to be a twitter user prior to curating).   
 * Your first post should introduce yourself to the account followers. Your first tweet should tell the audience: what you do (your job, hobbies, etc.), and what you do in R.   
@@ -54,12 +54,7 @@ Please follow the [Twitter terms of service](https://help.twitter.com/en/rules-a
   
   
 ## Tweeting Tips  
-
-### Notes from a previous curator
-
-* [Curating for @WeAreRLadies on Twitter: From creating content to cultivating connections.](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) blog post by Shannon Pileggi, Sep 23, 2021.
-
-* [Be great and curate! Tips and outcomes from an `@WeAreRLadies` Twitter curator.](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/) poster presentation by Shannon Pileggi, Oct 7, 2021.
+  
 
 ### Introducing Yourself  
   
@@ -147,3 +142,29 @@ Examples include:
 *	“My first introduction to XYZ was this blog post: URL”  
   
   
+  
+## Work from previous curators & the @WeAreRLadies team  
+  
+We are grateful all our previous curators who have worked hard to build our Twitter community. Many of them have also produced blogs, talks, and other resources on their curating experience. 
+  
+  
+### On curating for @WeAreRLadies
+  
+* [My Week with We Are R-Ladies](https://tolerancetoambiguity.com/my-week-with-we-are-r-ladies/): blog post by Divya Seernani, Feb 22, 2020.
+
+* [Curating for @WeAreRLadies on Twitter: From creating content to cultivating connections.](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/): blog post by Shannon Pileggi, Sep 23, 2021.
+
+* [Be great and curate! Tips and outcomes from an `@WeAreRLadies` Twitter curator.](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/): poster presentation by Shannon Pileggi, Oct 7, 2021.
+  
+  
+### Looking at data from @WeAreRLadies   
+  
+* Katherine Simeon's [lightning talk](https://www.youtube.com/watch?v=nzmkYUr0wS0) at rstudio::conf(2020) - Jan 30, 2020  
+  
+* Megan Stodel's blog post series looking at @WeAreRLadies data:
+  - [Analyzing Twitter Data](https://www.meganstodel.com/posts/analysing-twitter-data/) - Oct 24, 2020
+  - [Tweet Timing](https://www.meganstodel.com/posts/tweet-timing/) - Nov 2, 2020   
+  - [Hashtag Analyses](https://www.meganstodel.com/posts/hashtag/) - Nov 15, 2020  
+    
+    
+*If you have written any blog posts, given any talks, or analyzed any data in relation to @WeAreRLadies, please add your links via pull request!*  
