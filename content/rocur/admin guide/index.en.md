@@ -7,7 +7,10 @@ weight: 60
 ## Account Admin  
 
 The account admin (team) for the rotating curator account are members of the R-Ladies community who keep [@WeAreRLadies](https://twitter.com/WeAreRLadies) running. The account admin could be a team of 1-4 people who can rotate responsibilities from month-to-month. Being an account admin is an opportunity to connect with R-Ladies from all over the world while facilitating an online community resource.     
-
+  
+*Please note this guide is a work in progress! We are currently working to build out this documentation. Thank you for your patience!*  
+  
+  
 ## Primary Responsibilities  
 
 The responsibilities of the account admin are to:  
@@ -55,18 +58,22 @@ The responsibilities of the account admin are to:
 
 
 ### Sunday before they are scheduled to curate:   
-* Post their final infographic to the RoCur feed (be sure to mention their personal Twitter handle).  
 * Add the curator’s Twitter handle as a contributor on the RoCur account (via Tweetdeck) and remove last week’s curator from the RoCur team. 
 * Email the curator that they are now added to the Twitter account.  
+* Post their final infographic to the RoCur feed (be sure to mention their personal Twitter handle).  
+   - Via Tweetdeck, we can schedule this post to go out on Sunday morning. The team aims to post this before [18h00 UTC](https://www.timebie.com/std/utc.php?q=18).  
+   - The tweet text should contain the Twitter handle of the curator and #RLadies hashtag (so that it can be retweeted by [@RLadiesGlobal](https://twitter.com/RLadiesGlobal). For example: "This week's #RLadies curator is **@[TWITTER HANDLE]**"  
+   - Alt Text: When uploading an image into Tweetdeck, a gray button will appear at the bottom of the image labelled "Add description." In the text field, we currently write:   
+   > Curator **[NAME]**, **[Role/Title]** at **[Organization]**. They say: "**[copy text about what they do in R]**"  
 * They will need to visit [tweetdeck.twitter.com](https://tweetdeck.twitter.com/) while logged into their twitter account in order to tweet from the account.  
 
-#### Same email ~1-2 days before the first day of curating
+#### Sample email ~1-2 days before the first day of curating
 
 >Hi NAME,
 >
 >We have added you as a contributor to the @WeAreRLadies account. While logged into twitter, visit: https://tweetdeck.twitter.com/ and you should see @WeAreRLadies under your “Accounts” (at the bottom left part of the menu). Twitter also has a [tweetdeck guide](https://help.twitter.com/en/using-twitter/how-to-use-tweetdeck) that might be useful.  
 >
->Please refer to our [Curator Guide](https://guide.rladies.org/rocur/guide/) for our curator agreement and tips re: engaging with our Twitter audience. Your curatorship will start on Monday, at 7AM ET and end on Saturday, at 12PM ET.  
+>Please refer to our [Curator Guide](https://guide.rladies.org/rocur/guide/) for our curator agreement and tips re: engaging with our Twitter audience. Your curatorship will start on Monday at [11h00 UTC](http://www.timebie.com/std/utc.php?q=11) and ends Saturday at [16h00 UTC](http://www.timebie.com/std/utc.php?q=16).
 >
 >If you have any questions or encounter any problem, you can send us an email at WeAre@rladies.org. Also, you can join our #rocur_twitter channel on the community slack where you can reach out to all RoCur Managers and get connected with past curators.  
 >  
