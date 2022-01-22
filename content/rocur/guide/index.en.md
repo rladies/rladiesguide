@@ -156,6 +156,7 @@ We are grateful all our previous curators who have worked hard to build our Twit
 
 * [Be great and curate! Tips and outcomes from an `@WeAreRLadies` Twitter curator.](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/): poster presentation by Shannon Pileggi, Oct 7, 2021.
   
+* [Curating for @WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/): blog post by Nicola Rennie, Jan 18, 2022.
   
 ### Looking at data from @WeAreRLadies   
   
