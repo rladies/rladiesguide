@@ -17,7 +17,7 @@ You can also look or ask whether the organization includes and has been supporti
 
 If you are invited to give a talk,
 * If you are invited to talk not about R-Ladies, check that they invite you because of what you do not only because you are an R-Ladies. 
-* If you are invited to talk about R-Ladies it is also very good and you have to take advantage of those opportunities. 
+* If you are invited to talk about R-Ladies it is also very good and you can take advantage of those opportunities. 
 
 In all cases, check that
 * The event has a code of conduct; if not, do they agree on adding one?
