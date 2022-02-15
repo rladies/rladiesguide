@@ -84,7 +84,7 @@ Examples
 
 When partnering with another organization for a meetup, be careful to not partner with an organization that is using your chapter for free diversity points.
 Knowing the group you partner with well (and its organizers) will help you make a decision. As an example, a good partner may be an active member of your local R-Ladies chapter or another R-Ladies chapter.
-Consider how the partner wants to administer the event. Are they offering to organize an event that will benefit the R-Ladies community or will the event only benefit their business/opperations? They must agree not to openly market or sell a service and/or product during the meetup and access to a product and/or service must be free without fees for all R-Ladies attending. See [R-Ladies Rules & Guidelines: *No Commercial Agenda*](https://guide.rladies.org/about/mission/#r-ladies-rules--guidelines) for more information.
+Consider how the partner wants to administer the event. Are they offering to organize an event that will benefit the R-Ladies community or will the event only benefit their business/opperations? They must agree not to openly market or sell a service and/or product during the meetup and access to a product and/or service must be free without fees for all R-Ladies attending. See [R-Ladies Rules & Guidelines: *No Commercial Agenda*](/about/mission/#r-ladies-rules--guidelines) for more information.
 You can also ask other organizers for experience and advice.
 
 

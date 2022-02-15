@@ -45,10 +45,10 @@ Please note:
   
 We are always looking for R-users to be a featured curator for our account! Everyone is welcome; R-Ladies encourages R-users of all professional backgrounds and experience levels to curate this account. Additionally, individuals do not need to be affiliated with R-Ladies to curate. Featured curators must meet the following criteria:  
   
-* Curators must identify as [cis/trans women, trans men, non-binary, genderqueer, agender](https://guide.rladies.org/rocur/about/).  
+* Curators must identify as [cis/trans women, trans men, non-binary, genderqueer, agender](/rocur/about/).  
 * Curators do not need to be affiliated with R-Ladies; however, curators need to register in the [R-Ladies directory](https://rladies.org/directory/) if they haven’t yet.   
 * Curators must be individuals (i.e. an R-Ladies Chapter cannot be a featured curator; however, an organizer from a local chapter may curate and tweet about chapter events).   
-* By signing on to be a curator of @WeAreRLadies you agree to our Curator Agreement that is outlined in our [RoCur Curator Guide](https://guide.rladies.org/rocur/guide/).    
+* By signing on to be a curator of @WeAreRLadies you agree to our Curator Agreement that is outlined in our [RoCur Curator Guide](/rocur/guide/).    
   
 ## Curator Procedures 
   
@@ -58,7 +58,7 @@ We are always looking for R-users to be a featured curator for our account! Ever
   
 :three: If your information has been received, the **[RoCur schedule](https://docs.google.com/spreadsheets/d/13NwIphQ6o-3YJUbHtbDRf4texfMOCvhIDNZgDZhHv7U/edit?usp=sharing)** will be updated to reflect the week you will be curating.    
   
-:four: _*The week before you are scheduled to curate*_: Account administrators will send you an email with specific info about curating and show you the infographic that will be posted the Sunday before you curate. You’ll need to approve this infographic. You'll also need to read and agree to our [Curator Agreement](https://guide.rladies.org/rocur/guide/#curating-agreement).  
+:four: _*The week before you are scheduled to curate*_: Account administrators will send you an email with specific info about curating and show you the infographic that will be posted the Sunday before you curate. You’ll need to approve this infographic. You'll also need to read and agree to our [Curator Agreement](/rocur/guide/#curating-agreement).  
   
 :five: _*Saturday or Sunday before you curate*_: You will receive access to @WeAreRLadies via tweetdeck. The Twitter profile pic will be changed to your photo Sunday evening/Monday morning. Then you are ready to curate for the week!    
   
