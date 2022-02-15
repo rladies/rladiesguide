@@ -88,7 +88,30 @@ A good strategy might be to make your group private and ask candidates questions
 * To request a new chapter email:
    * Send an email (`email@rladies.org`) and a volunteer will set up your chapter email for you.  Please be patient, as these requests are currently being processed on a monthly basis.
    * In the email, please send the personal email addresses for you and your co-organisers if you would like chapter email to forward there.
-* If you add new organizers to your team, please send an email to `email@rladies.org` to request that their personal email be addded to the chapter email forwarding.  
+   
+```
+Dear R-Ladies global team,
+
+I'd like to request an email for the chapter R-Ladies Pawnee.
+
+Here are the addresses that the email should forward to:
+
+- Leslie Knope (leslie@knope.ok),
+- April Ludgate (april@ludgate.ok).
+
+Thank you, best wishes
+```
+   
+* If you add new organizers to your team, please send an email to `email@rladies.org` to request that their personal email be added to the chapter email forwarding.  
+
+```
+Dear R-Ladies global team,
+
+I'd like to request adding an email to the R-Ladies Pawnee chapter email forwarding: our new co-organizer Leslie Knope (leslie@knope.ok).
+
+Thank you, best wishes
+```
+
 * 🚨 **[VERY IMPORTANT]** **Your chapter email account should be used to set up any chapter social media accounts (e.g. Twitter, Instagram, etc).**  You can set up Twitter or other accounts to not send email notifications, so that you and your fellow organisers don't get overwhelmed with emails going to your chapter accounts.
 * For legacy accounts (full email vs. forwarding addresses), please find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/tech/email/).
 * If you have an issue with your email, have read all the online guidance and still can't resolve your issue, please send an email to `email@rladies.org` and a volunteer will get back to you as soon as possible.
