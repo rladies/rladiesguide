@@ -122,7 +122,7 @@ You can set up Twitter or other accounts to not send email notifications, so tha
 
 * For legacy accounts (full email vs. forwarding addresses), please find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/tech/email/).
 * If you have an issue with your email, have read all the online guidance and still can't resolve your issue, please send an email to `email@rladies.org` and a volunteer will get back to you as soon as possible.
-* We are exploring new options for email hosting providers (to simpify email account management) and if you'd like to help with that effort, please send an email to `info@rladies.org`.
+* We are exploring new options for email hosting providers (to simplify email account management) and if you'd like to help with that effort, please send an email to `info@rladies.org`.
 
 {{% notice warning %}}
 Check out the section about [account security](/organization/tech/security/)
