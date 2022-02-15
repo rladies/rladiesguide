@@ -83,7 +83,8 @@ A good strategy might be to make your group private and ask candidates questions
 ## E-Mail
 
 * You can get a chapter email address (`yourcity@rladies.org`) which can be set up to forward to all the organisers of a chapter.  As of March 18, 2019, we are no longer issuing personal rladies.org emails (`yourname@rladies.org`) to organizers and will have chapter emails only. 
-* Starting in 2021, new chapter emails are just forwarding addresses (chapters started before this have full email accounts, but due to the overhead and changes by our hosting provider, new emails addresses can only be a regular email -or- a forwarding email, not both). With a forwarding email address, there’s no inbox or password, just a public facing email address that forwards to your local organiser team. 
+* Starting in 2021, new chapter emails are just forwarding addresses[^contextemail]. With a forwarding email address, there’s no inbox or password, just a public facing email address that forwards to your local organiser team. 
+* Put the chapter email in cc when answering an email so that your co-organizers can see the answer.
 * The idea with the chapter email address is that you can use this as a public facing email address for your community, so members or meetup hosts (a company or university) can get in touch with you easily without you having to list a personal email address publicly. Then you can use your personal email address to reply. 
 * To request a new chapter email:
    * Send an email (`email@rladies.org`) and a volunteer will set up your chapter email for you.  Please be patient, as these requests are currently being processed on a monthly basis.
@@ -136,3 +137,5 @@ Check out the section about [account security](/organization/tech/security/)
   one repo for your chapter, e.g., meetup-presentations_london. If you have code for a
   workshop you can add it to the repository or ask us to create a new repository for that. Please name it location_*, e.g.,
   london_20161130_h2o-and-r.
+
+[^contextemail]: Chapters started before this have full email accounts, but due to the overhead and changes by our hosting provider, we only set up forwarding emails now.
