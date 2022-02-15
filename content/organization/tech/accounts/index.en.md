@@ -112,7 +112,13 @@ I'd like to request adding an email to the R-Ladies Pawnee chapter email forward
 Thank you, best wishes
 ```
 
-* 🚨 **[VERY IMPORTANT]** **Your chapter email account should be used to set up any chapter social media accounts (e.g. Twitter, Instagram, etc).**  You can set up Twitter or other accounts to not send email notifications, so that you and your fellow organisers don't get overwhelmed with emails going to your chapter accounts.
+{{% notice warning %}}
+Your chapter email account should be used to set up any chapter [social media accounts (e.g. Twitter, Instagram, etc)](/organization/online-presence/social-media/).
+{{% /notice %}}
+
+
+You can set up Twitter or other accounts to not send email notifications, so that you and your fellow organizers don't get overwhelmed with emails going to your chapter accounts.
+
 * For legacy accounts (full email vs. forwarding addresses), please find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/tech/email/).
 * If you have an issue with your email, have read all the online guidance and still can't resolve your issue, please send an email to `email@rladies.org` and a volunteer will get back to you as soon as possible.
 * We are exploring new options for email hosting providers (to simpify email account management) and if you'd like to help with that effort, please send an email to `info@rladies.org`.
