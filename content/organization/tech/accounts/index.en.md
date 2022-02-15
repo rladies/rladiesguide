@@ -82,13 +82,47 @@ A good strategy might be to make your group private and ask candidates questions
 
 ## E-Mail
 
-* You can get a chapter email (yourcity\@rladies.org) which can be set up to forward to all the organisers of a chapter.  As of March 18, 2019, we are no longer issuing personal rladies.org emails (yourname\`@rladies.org) to organizers and will have chapter emails only.
-   * Send an email (`email@rladies.org`) and volunteers in charge will set up your chapter email for you.  Please be patient, as these requests are processed weekly.
-   * In the email, please send the personal email addresses for you and your co-organizers if you would like chapter email to forward there, otherwise, please be responsible for checking your chapter email via webmail or by setting it up on your email client.
-* 🚨 **[VERY IMPORTANT]** **Your chapter email account should be used to set up any chapter social media accounts (e.g. Twitter, Instagram, etc).**
-* Find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/email/).
-* If you have an issue with emails send an email to `email@rladies.org` or try to crowd-source a solution in the `#email_etc_support` channel of the organizers slack.`
+* You can get a chapter email address (`yourcity@rladies.org`) which can be set up to forward to all the organisers of a chapter.  As of March 18, 2019, we are no longer issuing personal rladies.org emails (`yourname@rladies.org`) to organizers and will have chapter emails only. 
+* Starting in 2021, new chapter emails are just forwarding addresses[^contextemail]. With a forwarding email address, there’s no inbox or password, just a public facing email address that forwards to your local organiser team. 
+* Put the chapter email in cc when answering an email so that your co-organizers can see the answer.
+* The idea with the chapter email address is that you can use this as a public facing email address for your community, so members or meetup hosts (a company or university) can get in touch with you easily without you having to list a personal email address publicly. Then you can use your personal email address to reply. 
+* To request a new chapter email:
+   * Send an email (`email@rladies.org`) and a volunteer will set up your chapter email for you.  Please be patient, as these requests are currently being processed on a monthly basis.
+   * In the email, please send the personal email addresses for you and your co-organisers if you would like chapter email to forward there.
+   
+```
+Dear R-Ladies global team,
 
+I'd like to request an email for the chapter R-Ladies Pawnee.
+
+Here are the addresses that the email should forward to:
+
+- Leslie Knope (leslie@knope.ok),
+- April Ludgate (april@ludgate.ok).
+
+Thank you, best wishes
+```
+   
+* If you add new organizers to your team, please send an email to `email@rladies.org` to request that their personal email be added to the chapter email forwarding.  
+
+```
+Dear R-Ladies global team,
+
+I'd like to request adding an email to the R-Ladies Pawnee chapter email forwarding: our new co-organizer Leslie Knope (leslie@knope.ok).
+
+Thank you, best wishes
+```
+
+{{% notice warning %}}
+Your chapter email account should be used to set up any chapter [social media accounts (e.g. Twitter, Instagram, etc)](/organization/online-presence/social-media/).
+{{% /notice %}}
+
+
+You can set up Twitter or other accounts to not send email notifications, so that you and your fellow organizers don't get overwhelmed with emails going to your chapter accounts.
+
+* For legacy accounts (full email vs. forwarding addresses), please find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/tech/email/).
+* If you have an issue with your email, have read all the online guidance and still can't resolve your issue, please send an email to `email@rladies.org` and a volunteer will get back to you as soon as possible.
+* We are exploring new options for email hosting providers (to simplify email account management) and if you'd like to help with that effort, please send an email to `info@rladies.org`.
 
 {{% notice warning %}}
 Check out the section about [account security](/organization/tech/security/)
@@ -99,6 +133,11 @@ Check out the section about [account security](/organization/tech/security/)
 * There is a [global organisation](http://github.com/rladies) to collect all material
   related to R-Ladies in one place, so it's easier to know what's out there and get inspired by what other chapters did. Ask to be added as a member in the `#new_chapters` channel of the organizers slack.
 * If you have presentations, please add them all to
+  one repo for your chapter, e.g., meetup-presentations_london. If you have code for a
+  workshop you can add it to the repository or ask us to create a new repository for that. Please name it location_*, e.g.,
+  london_20161130_h2o-and-r.
+
+[^contextemail]: Chapters started before this have full email accounts, but due to the overhead and changes by our hosting provider, we only set up forwarding emails now.
   one repo for your chapter, e.g., `meetup-presentations_london`. If you have code for a
   workshop you can add it to the repository or ask us to create a new repository for that. Please name 
   it location_*, e.g., `london_20161130_h2o-and-r`.
