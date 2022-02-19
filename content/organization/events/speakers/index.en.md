@@ -27,6 +27,47 @@ weight: 53
 
 * Remember the [rules about Prioritization of Underrepresented/Minority Genders](/about/mission/#r-ladies-rules--guidelines).
 
+* In line with R-Ladies’ Mission Statement and with our [Black Live Matter Statement](https://blog.rladies.org/post/2020-06-06-blm/) 
+it is our obligation to make efforts to ensure the participation and representation in our events of generally excluded groups, taking into account the intersectionality of gender, race, language and geography, for this reazons we request:
+
+  - Not host all the events with white speakers in the same chapter during the year.  
+  - Avoid all white panels.
+
+### How to find speakers? 
+- You can use the [R-Ladies Directory](https://rladies.org/directory/) to search and find non white, native anglophone, high income level countries speakers.
+- You can reach other communities to request for speakers information (see lists below).
+- You can reach other R-Ladies in the R-Ladies Community Slack.
+- You can use others directories to look for speakers (see list below). 
+
+### Other communities to reach
+
+* [Minorities in R](https://mircommunity.com/)
+
+* [Black Girls Code](https://www.blackgirlscode.com/)
+
+* [Black in Data](https://www.blackindata.co.uk/)
+
+* [Black in Data Week](https://blkindata.github.io/)
+
+* [Coding Black Female](https://codingblackfemales.com/)
+
+### Other womens speakers directories
+
+* [500 Scientific Women](https://500womenscientists.org/request-a-scientist)
+
+* [Diversifica](https://diversifyeeb.com)
+
+* [Women in geospatial](https://www.womeningeospatial.org/join/speakers-database)
+
+* [Find your speakers](https://speakerinnen.org/)
+
+* [Survey of scientists from Women in Bioinformatics and Data Science LatAm](https://t.co/nI8rHED8ry?amp=1) 
+
+* * [Directory of technology speakers](https://github.com/lasdesistemas/speakers-tecnologia) from [Las de Sistemas - LatAm](https://twitter.com/lasdesistemas/status/1273374539888672774?s=20): 
+ 
+
+We need to do for this minorities group inside our community, the same we request other communities and spaces do for womens.  
+
 ## How to support speakers
 
 ### Before the event
