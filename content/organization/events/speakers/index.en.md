@@ -34,7 +34,7 @@ to achieve participation and representation in our events of generally excluded 
   - For panel discussions of 3 or more panelists, invite speakers of diverse race, language and geography (i.e., avoid all white panels).
 
 ### How to find speakers? 
-- You can use the [R-Ladies Directory](https://rladies.org/directory/) to search and find non white, native anglophone, high income level countries speakers.
+- You can use the [R-Ladies Directory](https://rladies.org/directory/) to identify potential speakers that are not: white, native anglophone, or from high income level countries.
 - You can reach other communities to request for speakers information (see lists below).
 - You can reach other R-Ladies in the R-Ladies Community Slack.
 - You can use others directories to look for speakers (see list below). 
