@@ -27,7 +27,7 @@ weight: 53
 
 * Remember the [rules about Prioritization of Underrepresented/Minority Genders](/about/mission/#r-ladies-rules--guidelines).
 
-* In line with R-Ladies’ Mission Statement and with our [Black Live Matter Statement](https://blog.rladies.org/post/2020-06-06-blm/) 
+* In line with R-Ladies’ Mission Statement and with our [Black Lives Matter Statement](https://blog.rladies.org/post/2020-06-06-blm/) 
 it is our obligation to make efforts to ensure the participation and representation in our events of generally excluded groups, taking into account the intersectionality of gender, race, language and geography, for this reazons we request:
 
   - Not host all the events with white speakers in the same chapter during the year.  
