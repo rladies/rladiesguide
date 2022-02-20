@@ -38,7 +38,7 @@ it is our obligation to make efforts to ensure the participation and representat
 - You can reach other communities to request for speakers information (see lists below).
 - You can reach other R-Ladies in the R-Ladies Community Slack.
 - You can use others directories to look for speakers (see list below). 
-
+- For online events, we encourage local chapters to reach out beyond their local community to invite R-Ladies from different parts of the world as speakers.
 ### Other communities to reach
 
 * [Minorities in R](https://mircommunity.com/)
