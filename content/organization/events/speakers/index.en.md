@@ -31,7 +31,7 @@ weight: 53
 to achieve participation and representation in our events of generally excluded groups, taking into account the intersectionality of gender, race, language and geography; for these reasons we request:
 
   - Not host all the events with white speakers in the same chapter during the year.  
-  - Avoid all white panels.
+  - For panel discussions of 3 or more panelists, invite speakers of diverse race, language and geography (i.e., avoid all white panels).
 
 ### How to find speakers? 
 - You can use the [R-Ladies Directory](https://rladies.org/directory/) to search and find non white, native anglophone, high income level countries speakers.
