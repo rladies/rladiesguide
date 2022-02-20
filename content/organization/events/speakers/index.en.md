@@ -30,7 +30,7 @@ weight: 53
 * In line with R-Ladies’ Mission Statement and with our [Black Lives Matter Statement](https://blog.rladies.org/post/2020-06-06-blm/) 
 to achieve participation and representation in our events of generally excluded groups, taking into account the intersectionality of gender, race, language and geography; for these reasons we request:
 
-  - Not host all the events with white speakers in the same chapter during the year.  
+  - In chapter events, invite speakers of diverse race, language and geography (i.e., avoid a one year period with all white speakers at the chapter events).
   - For panel discussions of 3 or more panelists, invite speakers of diverse race, language and geography (i.e., avoid all white panels).
 
 ### How to find speakers? 
