@@ -63,7 +63,7 @@ to achieve participation and representation in our events of generally excluded 
 
 * [Survey of scientists from Women in Bioinformatics and Data Science LatAm](https://t.co/nI8rHED8ry?amp=1) 
 
-* * [Directory of technology speakers](https://github.com/lasdesistemas/speakers-tecnologia) from [Las de Sistemas - LatAm](https://twitter.com/lasdesistemas/status/1273374539888672774?s=20): 
+* [Directory of technology speakers](https://github.com/lasdesistemas/speakers-tecnologia) from [Las de Sistemas - LatAm](https://twitter.com/lasdesistemas/status/1273374539888672774?s=20): 
  
 
 We need to do for this minorities group inside our community, the same we request other communities and spaces do for womens.  
