@@ -32,7 +32,7 @@ to achieve participation and representation in our events of generally excluded 
 
   - In chapter events, invite speakers of diverse race, language and geography (i.e., avoid a one year period with all white speakers at the chapter events).
   - For panel discussions of 3 or more panelists, invite speakers of diverse race, language and geography (i.e., avoid all white panels).
-
+We need to do for the minority groups inside our community the same that we request other communities and spaces do for women and gender minorities.  
 ### How to find speakers? 
 - You can use the [R-Ladies Directory](https://rladies.org/directory/) to identify potential speakers that are not: white, native anglophone, or from high income level countries.
 - You can reach out to other communities to request for speakers information (see lists below).
