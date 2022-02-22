@@ -39,7 +39,7 @@ to achieve participation and representation in our events of generally excluded 
 - You can reach out to other R-Ladies in the R-Ladies Community Slack.
 - You can follow other communities on social media to get to know about speakers in their communities.
 - For online events, we encourage local chapters to reach out beyond their local community to invite R-Ladies from different parts of the world as speakers.
-### Other communities to reach
+### Other communities to reach out to
 
 * [Minorities in R](https://mircommunity.com/)
 
