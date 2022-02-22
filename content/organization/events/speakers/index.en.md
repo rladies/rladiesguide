@@ -50,7 +50,9 @@ to achieve participation and representation in our events of generally excluded 
 * [Black in Data Week](https://blkindata.github.io/)
 
 * [Coding Black Female](https://codingblackfemales.com/)
-
+ 
+   * [Black in AI](https://blackinai.github.io/#/)
+  
 ### Other womens speakers directories
 
 * [500 Scientific Women](https://500womenscientists.org/request-a-scientist)
