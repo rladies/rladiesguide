@@ -33,12 +33,17 @@ to achieve participation and representation in our events of generally excluded 
   - In chapter events, invite speakers of diverse race, language and geography (i.e., avoid a one year period with all white speakers at the chapter events).
   - For panel discussions of 3 or more panelists, invite speakers of diverse race, language and geography (i.e., avoid all white panels).
 We need to do for the minority groups inside our community the same that we request other communities and spaces do for women and gender minorities.  
+
 ### How to find speakers? 
-- You can use the [R-Ladies Directory](https://rladies.org/directory/) to identify potential speakers that are not: white, native anglophone, or from high income level countries.
+
+Note that directories will not necessarily have direct information on race, language and geography; but diversifying the way you identify speakers (e.g. not only inviting people you already know) should help having no all white panels.
+
+- You can use the [R-Ladies Directory](https://rladies.org/directory/).
 - You can check similar directories and reach out to other communities (see lists below).
 - You can reach out to other R-Ladies in the R-Ladies Community Slack.
 - You can follow other communities on social media to get to know about speakers in their communities.
 - For online events, we encourage local chapters to reach out beyond their local community to invite R-Ladies from different parts of the world as speakers.
+
 ### Other communities to reach out to
 
 * [Minorities in R](https://mircommunity.com/)
@@ -51,7 +56,7 @@ We need to do for the minority groups inside our community the same that we requ
 
 * [Coding Black Female](https://codingblackfemales.com/)
  
-   * [Black in AI](https://blackinai.github.io/#/)
+* [Black in AI](https://blackinai.github.io/#/)
   
 ### Other womens speakers directories
 
