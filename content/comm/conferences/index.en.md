@@ -1,12 +1,12 @@
 ---
-title: "R-Ladies Conference Sessions"
+title: "R-Ladies Conference Participation"
 menuTitle: "Conferences"
 weight: 110
 ---
 
 R-Ladies participates in conference sessions such as contributed talks,
-panel discussions, networking events, and booths to increase awareness
-of our organization.
+panel discussions, networking events, poster presentations, and booths to 
+increase awareness of our organization.
 
 ## Organizing a conference event
 
@@ -81,7 +81,7 @@ of <insert>.
 ## Past events
 
 | Mon-Yr | Conference | Location | Type | Title | Speaker(s) |
-|--------|------------|----------|-------|------------|
+|--------|------------|----------|------|-------|------------|
 | Jan-20 | RStudio Conference | San Francisco, CA | Contributed Talk | [Every voice matters: An analysis of `@WeAreRLadies`](https://global.rstudio.com/authors/katherine-simeon/) | Katherine Simeon |        
 | Jan-20 | RStudio Conference | San Francisco, CA | Networking       | R-Ladies Meet up Reception | |
 | Feb-20 | RStudio Conference | San Francisco, CA | Networking       | [Birds of a Feather Breakfast](https://community.rstudio.com/t/r-ladies-at-rstudio-conf-2020/47714) | Hannah Frick & Erin LeDell | 
