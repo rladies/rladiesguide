@@ -23,7 +23,7 @@ for any speakers invited to represent R-Ladies.
 
 ## Email templates
 
-### Notifice of conference participation
+### Notice of conference participation
 
 To: 
 
