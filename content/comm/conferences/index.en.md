@@ -1,6 +1,6 @@
 ---
 title: "R-Ladies Conference Participation"
-menuTitle: "Conferences"
+menuTitle: "Conference Participation"
 weight: 110
 ---
 
@@ -23,7 +23,7 @@ for any speakers invited to represent R-Ladies.
 
 ## Email templates
 
-### Notification of conference participation
+### Notifice of conference participation
 
 To: 
 
@@ -43,7 +43,7 @@ Body:
 Dear R-Ladies,
 
 The <conference> will be held on <dates> at <location>. <Name(s)> will be representing
-R-Ladies by <hosting/presenting> a <contributed talk/panel discussion/networking events/booth>.
+R-Ladies by <hosting/presenting> a <contributed talk/panel discussion/networking event/booth>.
 
 
 ```
@@ -70,7 +70,7 @@ Dear R-Ladies,
 
 The <conference> will be held on <dates> at <location>. We would appreciate 
 assistance identifying an R-Ladies representative to <host/present> a 
-<contributed talk/panel discussion/networking events/booth> for the purpose
+<contributed talk/panel discussion/networking event/booth> for the purpose
 of <insert>.
 
 
