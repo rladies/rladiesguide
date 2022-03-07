@@ -27,6 +27,53 @@ weight: 53
 
 * Remember the [rules about Prioritization of Underrepresented/Minority Genders](/about/mission/#r-ladies-rules--guidelines).
 
+* In line with R-Ladies’ Mission Statement and with our [Black Lives Matter Statement](https://blog.rladies.org/post/2020-06-06-blm/) 
+to achieve participation and representation in our events of generally excluded groups, taking into account the intersectionality of gender, race, language and geography; for these reasons we request:
+
+  - In chapter events, invite speakers of diverse race, language and geography (i.e., avoid a one year period with all white speakers at the chapter events).
+  - For panel discussions of 3 or more panelists, invite speakers of diverse race, language and geography (i.e., avoid all white panels).
+We need to do for the minority groups inside our community the same that we request other communities and spaces do for women and gender minorities.  
+
+### How to find speakers? 
+
+Note that directories will not necessarily have direct information on race, language and geography; but diversifying the way you identify speakers (e.g. not only inviting people you already know) should help having no all white panels.
+
+- You can use the [R-Ladies Directory](https://rladies.org/directory/).
+- You can check similar directories and reach out to other communities (see lists below).
+- You can reach out to other R-Ladies in the R-Ladies Community Slack.
+- You can follow other communities on social media to get to know about speakers in their communities.
+- For online events, we encourage local chapters to reach out beyond their local community to invite R-Ladies from different parts of the world as speakers.
+
+### Other communities to reach out to
+
+* [Minorities in R](https://mircommunity.com/)
+
+* [Black Girls Code](https://www.blackgirlscode.com/)
+
+* [Black in Data](https://www.blackindata.co.uk/)
+
+* [Black in Data Week](https://blkindata.github.io/)
+
+* [Coding Black Female](https://codingblackfemales.com/)
+ 
+* [Black in AI](https://blackinai.github.io/#/)
+  
+### Other womens speakers directories
+
+* [500 Scientific Women](https://500womenscientists.org/request-a-scientist)
+
+* [Diversifica](https://diversifyeeb.com)
+
+* [Women in geospatial](https://www.womeningeospatial.org/join/speakers-database)
+
+* [Find your speakers](https://speakerinnen.org/)
+
+* [Survey of scientists from Women in Bioinformatics and Data Science LatAm](https://t.co/nI8rHED8ry?amp=1) 
+
+* [Directory of technology speakers](https://github.com/lasdesistemas/speakers-tecnologia) from [Las de Sistemas - LatAm](https://twitter.com/lasdesistemas/status/1273374539888672774?s=20): 
+ 
+
+
 ## How to support speakers
 
 ### Before the event
