@@ -25,31 +25,49 @@ Check out [@WeAreRLadies](https://twitter.com/WeAreRLadies) every Monday for a n
   
 
 ***  
-  
-  
-## Curator Schedule 
 
-**[current curator schedule](https://docs.google.com/spreadsheets/d/13NwIphQ6o-3YJUbHtbDRf4texfMOCvhIDNZgDZhHv7U/edit?usp=sharing)**  
+## Be a Curator! 
+  
+We are always looking for R-users to be a featured curator for our account! 
 
-**[Sign up to be a curator](https://forms.gle/4Z6EMbDzRyFQsB6C8)** 
+We welcome curators:
+
+* of all experience levels 
+* of all professional backgrounds
+* of all locations
+* of any native language (curation may be conducted in any language; English is not required) 
+
+Featured curators must meet the following criteria:  
+  
+* Curators must identify as a [gender minority](https://guide.rladies.org/about/mission/) (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender).  
+* Curators do not need to be affiliated with R-Ladies; however, curators do need to register in the [R-Ladies directory](https://rladies.org/directory/) if they haven’t yet. 
+* Curators must be individuals (i.e. an R-Ladies Chapter cannot be a featured curator; however, an organizer from a local chapter may curate and tweet about chapter events).
+
+By signing on to be a curator of @WeAreRLadies you agree to our Curator Agreement that is outlined in our [RoCur Curator Guide](/rocur/guide/).    
+  
+## Curator Sign Up
+
+**[Current curator schedule](https://docs.google.com/spreadsheets/d/13NwIphQ6o-3YJUbHtbDRf4texfMOCvhIDNZgDZhHv7U/edit?usp=sharing)**  
+
+**[Curator sign up form](https://forms.gle/4Z6EMbDzRyFQsB6C8)** 
   
 Please note: 
 * You will be asked to provide a first and second choice for week(s) you would like to curate.  
 * Curatorship begins each Monday at 7:00 AM ET and ends the following Saturday at 12:00 PM ET.  
 * Administrators will make all efforts to honor all scheduling requests but may ask that you be flexible as the administrators need to coordinate multiple schedules.  
   
-***  
+## Curator Nomination
+
+**[Curator Nomination Form](https://docs.google.com/forms/d/e/1FAIpQLSeGfdw2jbX6sqyC9PYMEWpr-RtBrtfUiqeZFfCUr9HhZmzqAQ/viewform)**  
   
-  
-## Be a Curator! 
-  
-We are always looking for R-users to be a featured curator for our account! Everyone is welcome; R-Ladies encourages R-users of all professional backgrounds and experience levels to curate this account. Additionally, individuals do not need to be affiliated with R-Ladies to curate. Featured curators must meet the following criteria:  
-  
-* Curators must identify as [cis/trans women, trans men, non-binary, genderqueer, agender](/rocur/about/).  
-* Curators do not need to be affiliated with R-Ladies; however, curators need to register in the [R-Ladies directory](https://rladies.org/directory/) if they haven’t yet.   
-* Curators must be individuals (i.e. an R-Ladies Chapter cannot be a featured curator; however, an organizer from a local chapter may curate and tweet about chapter events).   
-* By signing on to be a curator of @WeAreRLadies you agree to our Curator Agreement that is outlined in our [RoCur Curator Guide](/rocur/guide/).    
-  
+Do you know an R-Lady who you think would be a great curator? We accept nominations for curators via our [nomination form](https://docs.google.com/forms/d/e/1FAIpQLSeGfdw2jbX6sqyC9PYMEWpr-RtBrtfUiqeZFfCUr9HhZmzqAQ/viewform). 
+
+Anyone is welcome to nominate curators - you do not need to be affiliated with R-Ladies to nominate an individual to curate for @WeAreRLadies. Multiple nominations from a single nominator is also permitted. @WeAreRLadies administrators will review nominations and invite nominees to curate.
+
+## Repeat Curation
+
+Individuals may sign up for repeat curation if it has been at least two years since their previous curation. Scheduling priority is given to new curators. For repeat curation, please complete the sign up form again so that we may capture any updated information about you.
+
 ## Curator Procedures 
   
 :one: Sign up to be a curator via **[this form](https://forms.gle/4Z6EMbDzRyFQsB6C8)**. You will be asked to provide a first and second choice for week(s) you would like to curate.       
