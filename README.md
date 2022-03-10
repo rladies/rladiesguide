@@ -5,7 +5,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5c1de840-3687-4b5f-bbb2-8d65e9cf9728/deploy-status)](https://app.netlify.com/sites/r-ladies-guide/deploys)
 <!-- badges: end -->
 
-The goal of rladiesguide is to consolidate R-Ladies Global organisational guidance and wisdom.
+The goal of rladiesguide is to consolidate R-Ladies Global organisational guidance & wisdom.
 
 This is at the moment a Hugo website built with the [Hugo theme learn](https://learn.netlify.app/en/).
 
