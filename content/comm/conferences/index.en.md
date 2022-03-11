@@ -8,7 +8,7 @@ R-Ladies participates in R-Ladies branded conference sessions and events such as
 contributed talks, panel discussions, networking events, poster presentations, and booths to 
 increase awareness of our organization.
 
-## R-Ladies branded events
+## R-Ladies branded conference event
 
 An R-Ladies branded event is one that used the name `R-Ladies` to....
 
@@ -16,7 +16,7 @@ R-Ladies directory members may lead R-Ladies branded conference events with the
 approval of the R-Ladies global team.
 
 
-## Organizing an R-Ladies branded event
+## Organizing an R-Ladies branded conference event
 
 If you are an R-Ladies directory member interested in leading an R-Ladies branded 
 event, please email the global team at `info@rladies.org` with the template below and request approval for the event.
@@ -32,7 +32,7 @@ with travel, lodging, or meals.
 
 ## Email templates
 
-### Seeking approval for an R-Ladies branded event
+### Seeking approval for an R-Ladies branded conference event
 
 To: 
 
@@ -43,7 +43,7 @@ info@rladies.org
 Subject:
 
 ```
-Seeking approval for an R-Ladies branded event
+Seeking approval for an R-Ladies branded conference event
 ```
 
 Body:
@@ -52,8 +52,8 @@ Body:
 Dear R-Ladies,
 
 The <conference/event> will be held on <dates> at <location>. <Name(s)> is seeking
-approval to represent R-Ladies by <hosting/presenting> an R-Ladies branded event 
-in the form of <contributed talk/panel discussion/networking event/booth>.
+approval to represent R-Ladies by <hosting/presenting> an R-Ladies branded conference 
+event in the form of <contributed talk/panel discussion/networking event/booth>.
 
 <Abstract/More information...>
 
@@ -61,7 +61,7 @@ in the form of <contributed talk/panel discussion/networking event/booth>.
 ```
 
 
-### Seeking an R-Ladies invited speaker for an R-Ladies branded event
+### Seeking an R-Ladies invited speaker for an R-Ladies branded conference event
 
 To: 
 
@@ -72,7 +72,7 @@ info@rladies.org
 Subject:
 
 ```
-Seeking an R-Ladies invited speaker for an R-Ladies branded event
+Seeking an R-Ladies invited speaker for an R-Ladies branded conference event
 ```
 
 Body:
