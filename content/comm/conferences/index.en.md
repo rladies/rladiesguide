@@ -32,7 +32,7 @@ with travel, lodging, or meals.
 
 ## Email templates
 
-### Seeking approval for R-Ladies branded event
+### Seeking approval for an R-Ladies branded event
 
 To: 
 
