@@ -11,7 +11,7 @@ increase awareness of our organization.
 ## Organizing a conference event
 
 If you are an R-Ladies member interested in leading a conference
-session, please notify us at `info@rladies.org` for our records and so that
+session, please notify us at `info@rladies.org` for our records so that
 we may offer additional support if needed.
 
 If you need assistance identifying a candidate R-Ladies member to lead a session,
