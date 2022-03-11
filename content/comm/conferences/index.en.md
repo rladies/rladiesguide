@@ -4,26 +4,35 @@ menuTitle: "Conference Participation"
 weight: 110
 ---
 
-R-Ladies participates in conference sessions such as contributed talks,
-panel discussions, networking events, poster presentations, and booths to 
+R-Ladies participates in R-Ladies branded conference sessions and events such as
+contributed talks, panel discussions, networking events, poster presentations, and booths to 
 increase awareness of our organization.
 
-## Organizing a conference event
+## R-Ladies branded events
 
-If you are an R-Ladies member interested in leading a conference
-session, please notify us at `info@rladies.org` for our records so that
-we may offer additional support if needed.
+An R-Ladies branded event is one that used the name `R-Ladies` to....
 
-If you need assistance identifying a candidate R-Ladies member to lead a session,
+R-Ladies directory members may lead R-Ladies branded conference events with the 
+approval of the R-Ladies global team.
+
+
+## Organizing an R-Ladies branded event
+
+If you are an R-Ladies directory member interested in leading an R-Ladies branded 
+event, please email the global team at `info@rladies.org` with the template below and request approval for the event.
+Once approved, we will add the event to our records and offer additional support if needed.
+
+If you need assistance identifying a candidate R-Ladies directory member to lead a session,
 please email us the template below. 
 
-It would be appreciated if fees associated with the conference could be waived
-for any speakers invited to represent R-Ladies.
-
+Speakers invited to represent R-Ladies at an R-Ladies branded event should
+have all event fees waived or reimbursed. If travel is involved, the 
+event should further financially support the speaker by covering costs associated
+with travel, lodging, or meals.
 
 ## Email templates
 
-### Notice of conference participation
+### Seeking approval for R-Ladies branded event
 
 To: 
 
@@ -34,7 +43,7 @@ info@rladies.org
 Subject:
 
 ```
-Notification of R-Ladies participation at <conference> <date>
+Seeking approval for an R-Ladies branded event
 ```
 
 Body:
@@ -42,14 +51,17 @@ Body:
 ```
 Dear R-Ladies,
 
-The <conference> will be held on <dates> at <location>. <Name(s)> will be representing
-R-Ladies by <hosting/presenting> a <contributed talk/panel discussion/networking event/booth>.
+The <conference/event> will be held on <dates> at <location>. <Name(s)> is seeking
+approval to represent R-Ladies by <hosting/presenting> an R-Ladies branded event 
+in the form of <contributed talk/panel discussion/networking event/booth>.
+
+<Abstract/More information...>
 
 
 ```
 
 
-### Request for conference participation
+### Seeking an R-Ladies invited speaker for an R-Ladies branded event
 
 To: 
 
@@ -60,7 +72,7 @@ info@rladies.org
 Subject:
 
 ```
-Request for R-Ladies participation at <conference> <date>
+Seeking an R-Ladies invited speaker for an R-Ladies branded event
 ```
 
 Body:
@@ -68,9 +80,9 @@ Body:
 ```
 Dear R-Ladies,
 
-The <conference> will be held on <dates> at <location>. We would appreciate 
-assistance identifying an R-Ladies representative to <host/present> a 
-<contributed talk/panel discussion/networking event/booth> for the purpose
+The <conference/event> will be held on <dates> at <location>. We would appreciate 
+assistance identifying an R-Ladies representative to <host/present> an R-Ladies
+branded <contributed talk/panel discussion/networking event/booth> for the purpose
 of <insert>.
 
 We can financially support the speaker's conference attendance by... <please 
