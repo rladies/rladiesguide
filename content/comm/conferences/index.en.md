@@ -73,6 +73,8 @@ assistance identifying an R-Ladies representative to <host/present> a
 <contributed talk/panel discussion/networking event/booth> for the purpose
 of <insert>.
 
+We can financially support the speaker's conference attendance by... <please 
+describe>.
 
 ```
 
