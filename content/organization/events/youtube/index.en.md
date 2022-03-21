@@ -11,20 +11,25 @@ Some chapters run their own channels, which are subscribed by the global channel
 
 See [the dedicated section](/organization/events/online/#zoom-and-youtube).
 
-## Adding a video from your chapter's channel to a playlist
+## Contributing through chapter channels
 Since some chapters have their own channels, these videos do not show up in the R-Ladies Global channel, even if we highlight chapter channels on the page. 
 We would, however, love to link to videos in other channels so people can easily find more content.
 
+### Requesting the Global channel subscribe to your chapter's channel
+One way to get your channel more visibility is to have the Global channel subscribe to it. 
+It will then be rotated in the "featured channels" section of the Global channel.
+
+Please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) to notify us about your channel, and we'll subscribe as soon as we can.
+
+### Adding a video from your chapter's channel to a playlist
 The Global channel has a playlist for each language we know there are R-Ladies videos of, and these would be the perfect place to add your chapters videos if you are running your own channel.
 
 Please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) to notify us about a video you want added to a playlist (or make a new playlist), and we will get to it as soon as we can.
 
-## Contributing a video to the channel
+## Contributing to the Global channel
 ### Applying for video upload
-
 If you run an R-Ladies chapter and have a video of a meetup you want hosted on the Global channel, please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) and we wil get to you as soon as we can.  
 For any questions regarding the videos and this setup procedure, email `youtube@rladies.org`.
-
 
 ### Do you already have a YouTube account/cannel?
 If you have a YouTube channel associated with your personal account, you might need to click on your profile on the top left and click on Switch Account to switch to the R-Ladies account first.
@@ -37,7 +42,6 @@ Start following the instructions for the video upload.
 Please see the information below regarding guidelines we want you to follow when creating the content.
 
 #### Title
-
 The title should have three main parts  
 
 1. the chapter name (R-Ladies Freiburg)  
