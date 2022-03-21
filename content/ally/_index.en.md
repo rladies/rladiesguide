@@ -33,3 +33,5 @@ Please also check out these other organizations
 ## How can you help R-Lady as an ally organization?
 
 If you wish to partner with the R-Ladies global organization besides donating, please make sure to read our [mission](/about/mission) (and [code of conduct](/about/coc/) ) in particular regarding not commercial agendas, and get in touch with the global leadership via an email to `leadership@rladies.org`.
+
+Do *not* use R-Ladies name to potentially help secure funding (promising benefits to R-Ladies) without getting in touch with the R-Ladies global team first (`info@rladies.org`) so we can provide input and potential approval. We need a chance to assess the alignment of your project with our mission.
