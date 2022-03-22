@@ -19,11 +19,13 @@ approval of the R-Ladies global team.
 ## Organizing an R-Ladies branded conference event
 
 If you are an R-Ladies directory member interested in leading an R-Ladies branded 
-event, please email the global team at `info@rladies.org` with the template below and request approval for the event.
+event, please email the global team at `info@rladies.org` the 
+[seeking approval template](#seeking-approval-for-an-R-Ladies-branded-conference-event).
 Once approved, we will add the event to our records and offer additional support if needed.
 
 If you need assistance identifying a candidate R-Ladies directory member to lead a session,
-please email us the template below. 
+please email the global team at `info@rladies.org` the 
+[seeking an R-Ladies invited speaker template](#seeking-an-R-Ladies-invited-speaker). 
 
 Speakers invited to represent R-Ladies at an R-Ladies branded event should
 have all event fees waived or reimbursed. If travel is involved, the 
@@ -51,7 +53,7 @@ Body:
 ```
 Dear R-Ladies,
 
-The <conference/event> will be held on <dates> at <location>. <Name(s)> is seeking
+The <conference/event (with link to the conference page)> will be held on <dates> at <location>. <Name(s)> is seeking
 approval to represent R-Ladies by <hosting/presenting> an R-Ladies branded conference 
 event in the form of <contributed talk/panel discussion/networking event/booth>.
 
@@ -93,6 +95,9 @@ describe>.
 
 
 ## Past events
+
+Below are some example past events. For a more comprehensive list, 
+please refer to [R-Ladies Global Presentations](https://github.com/rladies/rladies_global_presentations).
 
 | Mon-Yr | Conference | Location | Type | Title | Speaker(s) |
 |--------|------------|----------|------|-------|------------|
