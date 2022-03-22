@@ -55,7 +55,7 @@ The <conference/event> will be held on <dates> at <location>. <Name(s)> is seeki
 approval to represent R-Ladies by <hosting/presenting> an R-Ladies branded conference 
 event in the form of <contributed talk/panel discussion/networking event/booth>.
 
-<Abstract/More information...>
+<Abstract/More information/Link to event page...>
 
 
 ```
