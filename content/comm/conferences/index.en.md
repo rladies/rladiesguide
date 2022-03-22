@@ -20,12 +20,12 @@ approval of the R-Ladies global team.
 
 If you are an R-Ladies directory member interested in leading an R-Ladies branded 
 event, please email the global team at `info@rladies.org` the 
-[seeking approval template](#seeking-approval-for-an-R-Ladies-branded-conference-event).
+[seeking approval template](#seeking-approval-for-an-r-ladies-branded-conference-event).
 Once approved, we will add the event to our records and offer additional support if needed.
 
 If you need assistance identifying a candidate R-Ladies directory member to lead a session,
 please email the global team at `info@rladies.org` the 
-[seeking an R-Ladies invited speaker template](#seeking-an-R-Ladies-invited-speaker). 
+[seeking an R-Ladies invited speaker template](#seeking-an-r-ladies-invited-speaker-for-an-r-ladies-branded-conference-event). 
 
 Speakers invited to represent R-Ladies at an R-Ladies branded event should
 have all event fees waived or reimbursed. If travel is involved, the 
