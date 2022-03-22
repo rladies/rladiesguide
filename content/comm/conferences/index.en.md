@@ -10,7 +10,7 @@ increase awareness of our organization.
 
 ## R-Ladies branded conference event
 
-An R-Ladies branded event is one that used the name `R-Ladies` to....
+An R-Ladies branded event is one that uses the term `R-Ladies` in the event title.
 
 R-Ladies directory members may lead R-Ladies branded conference events with the 
 approval of the R-Ladies global team.
