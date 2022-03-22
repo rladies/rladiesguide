@@ -80,7 +80,7 @@ Body:
 ```
 Dear R-Ladies,
 
-The <conference/event> will be held on <dates> at <location>. We would appreciate 
+The <conference/event (with link to the conference page)> will be held on <dates> at <location>. We would appreciate 
 assistance identifying an R-Ladies representative to <host/present> an R-Ladies
 branded <contributed talk/panel discussion/networking event/booth> for the purpose
 of <insert>.
