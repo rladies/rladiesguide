@@ -66,7 +66,12 @@ The responsibilities of the account admin are to:
    - Alt Text: When uploading an image into Tweetdeck, a gray button will appear at the bottom of the image labelled "Add description." In the text field, we currently write:   
    > Curator **[NAME]**, **[Role/Title]** at **[Organization]**. They say: "**[copy text about what they do in R]**"  
 * They will need to visit [tweetdeck.twitter.com](https://tweetdeck.twitter.com/) while logged into their twitter account in order to tweet from the account.  
-
+  
+#### Right before they start their curation:  
+* Change the profile picture for the account to the photo provided by the curator.  
+* In the description, write their Twitter handle after "This week's curator:"  
+  
+  
 #### Sample email ~1-2 days before the first day of curating
 
 >Hi NAME,
@@ -78,7 +83,37 @@ The responsibilities of the account admin are to:
 >If you have any questions or encounter any problem, you can send us an email at WeAre@rladies.org. Also, you can join our #rocur_twitter channel on the community slack where you can reach out to all RoCur Managers and get connected with past curators.  
 >  
 >Thanks!  
+  
+### After they curate  
+   
+#### During the Saturday after their curation ends:  
+   
+Before the infographic for next week's curator is posted, be sure to (note that these actions require you to be logged into the Twitter account, not just accessing the account via Tweetdeck):
+* Remove the curator's profile picture and use the general @WeAreRLadies logo.   
+* In the description, write "TBA" after "This week's curator:"    
+     
+#### The week after they curate:   
+  
+* Send a thank you email to the curator (see sample below).  
+* Add the curator to our [WeAreRLadies Curators list](https://twitter.com/i/lists/1039116507719106560). Learn more about using Twitter lists [here](https://help.twitter.com/en/using-twitter/twitter-lists).  
+   
+      
+#### Sample thank you email  
+  
+> Hi NAME,   
+>  
+> Thank you so much for curating for @WeAreRLadies! We truly appreciate your time and effort to engage the broader R community and highlight minority genders and their great work in R.  
+> 
+> If you needed additional support during your curating week, or if anything can be clarified in the [Curator Guide](https://guide.rladies.org/rocur/guide/), we welcome direct feedback to this email.  
+>   
+> If you write about your curating week and you would like for it to be added to the guide, please either submit a pull request on the [work from previous curators](https://guide.rladies.org/rocur/guide/#work-from-previous-curators--the-wearerladies-team) section of the guide or notify us so that we may do so for you.  
+>   
+> Lastly, please consider nominating fellow R-Ladies to curate. We value hearing diverse voices from R-Ladies around the world, and we greatly appreciate your assistance identifying R-Ladies whose work you admire.  
+> 
+> We thank you for your service to the R-Ladies community!   
+> The RoCur Team
 
+    
 ## Other Information on Infrastructure & Procedures  
   
 ### Virtual Spaces associated with @WeAreRLadies  
