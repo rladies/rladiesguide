@@ -87,7 +87,7 @@ The responsibilities of the account admin are to:
   
 ### After they curate  
    
-#### During the Saturday after their curation ends:  
+#### The day after their curation ends:  
    
 Before the infographic for next week's curator is posted, be sure to (note that these actions require you to be logged into the Twitter account, not just accessing the account via Tweetdeck):
 * Remove the curator's profile picture and use the general @WeAreRLadies logo.   
