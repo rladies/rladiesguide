@@ -67,7 +67,8 @@ The responsibilities of the account admin are to:
    > Curator **[NAME]**, **[Role/Title]** at **[Organization]**. They say: "**[copy text about what they do in R]**"  
 * They will need to visit [tweetdeck.twitter.com](https://tweetdeck.twitter.com/) while logged into their twitter account in order to tweet from the account.  
   
-#### Right before they start their curation:  
+#### Immediately prior to curation:  
+
 * Change the profile picture for the account to the photo provided by the curator.  
 * In the description, write their Twitter handle after "This week's curator:"  
   
