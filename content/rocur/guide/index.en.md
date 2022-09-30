@@ -108,7 +108,21 @@ If someone asks a question, we suggest re-tweeting their question with your resp
 * Ask a question about something you are having trouble with in R (our community is all about helping and supporting each other).  
 * Ask for recommendations on packages/datasets/features in R for a project you are working on.  
 * Create a twitter poll for followers to respond to. *Please note: You cannot create a twitter poll in Tweetdeck. We recommend creating a poll on your personal account and retweeting it via @WeAreRLadies.*  
+   
+   
+### Your Last Tweet 
   
+Consider using the last tweet of your curatorship as a way to "sign off." Some ways you might do this is:
+  
+* Acknowledge that your curation week is ending and that this tweet or thread will be your last.  
+* Consider highlighting 1 main takeaway (e.g., "I really enjoyed discussing NLP & R with you", retweeting a thread where people added links to different resources).  
+* If applicable, feel free to add brief acknowledgements/thanks (e.g., "Thank you to my fellow R-Lady @[twitter handle], who encouraged me to curate!")   
+* Invite them to follow you on your personal Twitter account or other publicly-available, professional platform.  
+* Add anything else you might want to share as a last tweet (a fun gif, etc.).     
+   
+*Example*  
+   
+>"My week curating has come to a close! Thank you for following along and discussing [topic discussed during curation week]. Keep in touch by following me at @[twitter handle]."  
   
                                     
 ## Promotional Tweeting   

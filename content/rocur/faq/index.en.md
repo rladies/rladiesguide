@@ -49,3 +49,10 @@ Unfortunately, you cannot create polls via Tweet Deck. We recommend creating a p
 
 ### 7. How do you pin a tweet to the @WeAreRLadies profile?  
 Unfortunately, you cannot pin tweets via Tweet Deck. If you want a specific tweet pinned, feel free to email `WeAre@rladies.org` or DM the account managers via Slack with a link to the tweet you want pinned and we can pin it for you. 
+  
+### 8. How do I add alternative text to images in my post?  
+  
+When uploading an image into Tweetdeck, a gray button will appear at the bottom of the image labelled “Add description.” See [more information](https://help.twitter.com/en/using-twitter/picture-descriptions) about image accessibility from Twitter.    
+  
+{{< figure src="add_description.png" alt="Screenshot of the add description/alt text function in Tweetdeck" >}}
+  
