@@ -156,6 +156,20 @@ Examples include:
 *	“My first introduction to XYZ was this blog post: URL”  
   
   
+## Pre-Curation Week Checklist  
+  
+To prepare for your curation week, we recommend the following steps to familiarize yourself with Tweetdeck and other processes that will be helpful when tweeting through your curation:  
+  
+- [ ] **Send a Tweet from your personal account via Tweetdeck**.   
+      - While logged into twitter, visit: https://tweetdeck.twitter.com/.  
+      - In the top left of the browser window, click the "Tweet" button, a menu should appear with a text box to enter your tweet. Be sure your personal account is selected if you are already connected to multiple accounts on Tweetdeck.  
+         
+- [ ] **Tweet an image with alternative text**. 
+      - See specific instructions on how to do this in Tweetdeck in our [FAQ](https://guide.rladies.org/rocur/faq/#8-how-do-i-add-alternative-text-to-images-in-my-post).
+      - See a [blog post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing alt text for data visualizations or Harvard's Digital Accessibility [page](https://accessibility.huit.harvard.edu/describe-content-images) on writing alt text for images.     
+         
+- [ ] **Read at least one artifact from previous curators** (see a [full list](https://guide.rladies.org/rocur/guide/#on-curating-for-wearerladies)).  
+  
   
 ## Work from previous curators & the @WeAreRLadies team  
   
@@ -170,7 +184,9 @@ We are grateful all our previous curators who have worked hard to build our Twit
 
 * [Be great and curate! Tips and outcomes from an `@WeAreRLadies` Twitter curator.](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/): poster presentation by Shannon Pileggi, Oct 7, 2021.
   
-* [Curating for @WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/): blog post by Nicola Rennie, Jan 18, 2022.
+* [Curating for @WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/): blog post by Nicola Rennie, Jan 18, 2022.  
+
+* [Curating R-Ladies' Twitter Account - A Fun Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/): blog post by Cosima Meyer, Sept. 17, 2022.  
   
 ### Looking at data from @WeAreRLadies   
   
