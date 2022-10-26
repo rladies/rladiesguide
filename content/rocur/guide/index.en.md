@@ -183,9 +183,10 @@ To prepare for your curation week, we recommend the following steps to familiari
      
 - [ ] **Create a list of topics you hope to tweet about during your curation week**. Many [previous](https://tolerancetoambiguity.com/my-week-with-we-are-r-ladies/) [curators](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) discuss how they planned out their content for the week (an example is below). Brainstorming content at any level of detail before your curation week starts will be helpful!
   
-![A schedule of topics from Divya Seernani when she curated in February 2020. She organized topics by day of the week she planned to talk about them.](https://tolerancetoambiguity.com/wp-content/uploads/2020/02/Bild1.jpg)
-  
-  
+![A table with two columns: one for day of the week, another labelled "what to expect" for topics to be discussed.](https://tolerancetoambiguity.com/wp-content/uploads/2020/02/Bild1.jpg)
+*Above: A schedule of topics from Divya Seernani when she curated in February 2020. She organized topics by day of the week she planned to talk about them.*
+     
+      
 ## Work from previous curators & the @WeAreRLadies team  
   
 We are grateful all our previous curators who have worked hard to build our Twitter community. Many of them have also produced blogs, talks, and other resources on their curating experience. 
