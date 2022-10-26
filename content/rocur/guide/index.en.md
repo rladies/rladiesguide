@@ -158,7 +158,9 @@ Examples include:
   
 ## Pre-Curation Week Checklist  
   
-To prepare for your curation week, we recommend the following steps to familiarize yourself with Tweetdeck and other processes that will be helpful when tweeting through your curation:  
+To prepare for your curation week, we recommend the following steps to familiarize yourself with Tweetdeck and other processes that will be helpful when tweeting through your curation:    
+  
+### Basic: I only have an hour or less     
   
 - [ ] **Send a Tweet from your personal account via Tweetdeck**.   
       - While logged into twitter, visit: https://tweetdeck.twitter.com/.  
@@ -169,6 +171,15 @@ To prepare for your curation week, we recommend the following steps to familiari
       - See a [blog post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing alt text for data visualizations or Harvard's Digital Accessibility [page](https://accessibility.huit.harvard.edu/describe-content-images) on writing alt text for images.     
          
 - [ ] **Read at least one artifact from previous curators** (see a [full list](https://guide.rladies.org/rocur/guide/#on-curating-for-wearerladies)).  
+     
+     
+### Intermediate: I have more time to prepare  
+  
+- [ ] **Schedule a Tweet from your personal count via Tweetdeck**.  
+       - In Tweetdeck, compose your tweet. Then, click "Schedule Tweet" and select the date and time you'd like the Tweet posted.
+       - Click Schedule Tweet at *date/time*.  
+          
+- [ ] OTHER?
   
   
 ## Work from previous curators & the @WeAreRLadies team  
