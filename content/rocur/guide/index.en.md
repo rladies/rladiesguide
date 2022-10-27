@@ -158,19 +158,21 @@ Examples include:
   
 ## Pre-Curation Week Checklist  
   
+Previous curators have reported that both generating content for tweets and tweeting from tweetdeck to be challenging. The goal of this checklist is to ease both the technical and content aspects of curation in advance of your curation week. We recommend completing this checklist _**one**_ week in advance of your curation. This gives you time to ping the **#rocur_twitter** channel of the R-Ladies community slack if questions arise.    
+    
 To prepare for your curation week, we recommend the following steps to familiarize yourself with Tweetdeck and other processes that will be helpful when tweeting through your curation:    
   
 ### Basic: I only have an hour or less     
   
-- [ ] **Send a Tweet from your personal account via Tweetdeck**.   
+- [ ] **Send a Tweet from your personal account via Tweetdeck**. See more in our [FAQ](https://guide.rladies.org/rocur/faq/#1-how-do-i-start-my-first-tweet-as-wearerladies).   
       - While logged into twitter, visit: https://tweetdeck.twitter.com/.  
       - In the top left of the browser window, click the "Tweet" button, a menu should appear with a text box to enter your tweet. Be sure your personal account is selected if you are already connected to multiple accounts on Tweetdeck.  
          
 - [ ] **Tweet an image with alternative text**. 
-      - See specific instructions on how to do this in Tweetdeck in our [FAQ](https://guide.rladies.org/rocur/faq/#8-how-do-i-add-alternative-text-to-images-in-my-post).
+      - See specific instructions on how to do this in Tweetdeck in our [FAQ](https://guide.rladies.org/rocur/faq/#8-how-do-i-add-alternative-text-to-images-in-my-post).  
       - See a [blog post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing alt text for data visualizations or Harvard's Digital Accessibility [page](https://accessibility.huit.harvard.edu/describe-content-images) on writing alt text for images.     
          
-- [ ] **Read at least one artifact from previous curators** (see a [full list](https://guide.rladies.org/rocur/guide/#on-curating-for-wearerladies)).  
+- [ ] **Read at least one artifact from previous curators** (see a [full list of artifacts](https://guide.rladies.org/rocur/guide/#on-curating-for-wearerladies)).  
      
      
 ### Intermediate: I have more time to prepare  
@@ -179,7 +181,7 @@ To prepare for your curation week, we recommend the following steps to familiari
        - In Tweetdeck, compose your tweet. Then, click "Schedule Tweet" and select the date and time you'd like the Tweet posted.
        - Click Schedule Tweet at *date/time*.  
           
-- [ ] **Practice creating a thread on your personal account via Tweetdeck**. See more in our [FAQ](https://guide.rladies.org/rocur/faq/#3-how-do-i-create-thread-via-tweet-deck)  
+- [ ] **Practice creating a thread on your personal account via Tweetdeck**. See more in our [FAQ](https://guide.rladies.org/rocur/faq/#3-how-do-i-create-thread-via-tweet-deck).  
      
 - [ ] **Create a list of topics you hope to tweet about during your curation week**. Many [previous](https://tolerancetoambiguity.com/my-week-with-we-are-r-ladies/) [curators](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) discuss how they planned out their content for the week (an example is below). Brainstorming content at any level of detail before your curation week starts will be helpful!
   
