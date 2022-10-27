@@ -168,7 +168,7 @@ To prepare for your curation week, we recommend the following steps to familiari
       - While logged into twitter, visit: https://tweetdeck.twitter.com/.  
       - In the top left of the browser window, click the "Tweet" button, a menu should appear with a text box to enter your tweet. Be sure your personal account is selected if you are already connected to multiple accounts on Tweetdeck.  
          
-- [ ] **Tweet an image with alternative text**. 
+- [ ] **Tweet an image with alternative text**.    
       - See specific instructions on how to do this in Tweetdeck in our [FAQ](https://guide.rladies.org/rocur/faq/#8-how-do-i-add-alternative-text-to-images-in-my-post).  
       - See a [blog post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing alt text for data visualizations or Harvard's Digital Accessibility [page](https://accessibility.huit.harvard.edu/describe-content-images) on writing alt text for images.     
          
