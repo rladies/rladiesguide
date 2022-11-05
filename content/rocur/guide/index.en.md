@@ -183,7 +183,7 @@ To prepare for your curation week, we recommend the following steps to familiari
           
 - [ ] **Practice creating a thread on your personal account via Tweetdeck**. See more in our [FAQ](https://guide.rladies.org/rocur/faq/#3-how-do-i-create-thread-via-tweet-deck).  
      
-- [ ] **Create a list of topics you hope to tweet about during your curation week**. Many [previous](https://tolerancetoambiguity.com/my-week-with-we-are-r-ladies/) [curators](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/) discuss how they planned out their content for the week (an example is below). Brainstorming content at any level of detail before your curation week starts will be helpful!
+- [ ] **Create a list of topics you hope to tweet about during your curation week**. Previous curators have documented how they planned content for the week (see posts by [Divya Seernani](https://tolerancetoambiguity.com/my-week-with-we-are-r-ladies/) or [Shannon Pileggi](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/)) . Brainstorming content at any level of detail before your curation week starts will be helpful!
   
 ![A table with two columns: one for day of the week, another labelled "what to expect" for topics to be discussed.](https://tolerancetoambiguity.com/wp-content/uploads/2020/02/Bild1.jpg)
 *Above: A schedule of topics from Divya Seernani when she curated in February 2020. She organized topics by day of the week she planned to talk about them.*
