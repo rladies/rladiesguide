@@ -156,7 +156,39 @@ Examples include:
 *	“My first introduction to XYZ was this blog post: URL”  
   
   
+## Pre-Curation Week Checklist  
   
+Previous curators have reported that both generating content for tweets and tweeting from tweetdeck to be challenging. The goal of this checklist is to ease both the technical and content aspects of curation in advance of your curation week. We recommend completing this checklist _**one**_ week in advance of your curation. This gives you time to ping the **#rocur_twitter** channel of the R-Ladies community slack if questions arise.    
+    
+To prepare for your curation week, we recommend the following steps to familiarize yourself with Tweetdeck and other processes that will be helpful when tweeting through your curation:    
+  
+### Basic: I only have an hour or less     
+  
+- [ ] **Send a Tweet from your personal account via Tweetdeck**. See more in our [FAQ](https://guide.rladies.org/rocur/faq/#1-how-do-i-start-my-first-tweet-as-wearerladies).   
+      - While logged into twitter, visit: https://tweetdeck.twitter.com/.  
+      - In the top left of the browser window, click the "Tweet" button, a menu should appear with a text box to enter your tweet. Be sure your personal account is selected if you are already connected to multiple accounts on Tweetdeck.  
+         
+- [ ] **Tweet an image with alternative text**.    
+      - See specific instructions on how to do this in Tweetdeck in our [FAQ](https://guide.rladies.org/rocur/faq/#8-how-do-i-add-alternative-text-to-images-in-my-post).  
+      - See a [blog post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing alt text for data visualizations or Harvard's Digital Accessibility [page](https://accessibility.huit.harvard.edu/describe-content-images) on writing alt text for images.     
+         
+- [ ] **Read at least one artifact from previous curators** (see a [full list of artifacts](https://guide.rladies.org/rocur/guide/#on-curating-for-wearerladies)).  
+     
+     
+### Intermediate: I have more time to prepare  
+  
+- [ ] **Schedule a Tweet from your personal account via Tweetdeck**.  
+       - In Tweetdeck, compose your tweet. Then, click "Schedule Tweet" and select the date and time you'd like the Tweet posted.
+       - Click Schedule Tweet at *date/time*.  
+          
+- [ ] **Practice creating a thread on your personal account via Tweetdeck**. See more in our [FAQ](https://guide.rladies.org/rocur/faq/#3-how-do-i-create-thread-via-tweet-deck).  
+     
+- [ ] **Create a list of topics you hope to tweet about during your curation week**. Previous curators have documented how they planned content for the week (see posts by [Divya Seernani](https://tolerancetoambiguity.com/my-week-with-we-are-r-ladies/) or [Shannon Pileggi](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/)) . Brainstorming content at any level of detail before your curation week starts will be helpful!
+  
+![A table with two columns: one for day of the week, another labelled "what to expect" for topics to be discussed.](https://tolerancetoambiguity.com/wp-content/uploads/2020/02/Bild1.jpg)
+*Above: A schedule of topics from Divya Seernani when she curated in February 2020. She organized topics by day of the week she planned to talk about them.*
+     
+      
 ## Work from previous curators & the @WeAreRLadies team  
   
 We are grateful all our previous curators who have worked hard to build our Twitter community. Many of them have also produced blogs, talks, and other resources on their curating experience. 
@@ -170,7 +202,9 @@ We are grateful all our previous curators who have worked hard to build our Twit
 
 * [Be great and curate! Tips and outcomes from an `@WeAreRLadies` Twitter curator.](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/): poster presentation by Shannon Pileggi, Oct 7, 2021.
   
-* [Curating for @WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/): blog post by Nicola Rennie, Jan 18, 2022.
+* [Curating for @WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/): blog post by Nicola Rennie, Jan 18, 2022.  
+
+* [Curating R-Ladies' Twitter Account - A Fun Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/): blog post by Cosima Meyer, Sept. 17, 2022.  
   
 ### Looking at data from @WeAreRLadies   
   
