@@ -110,6 +110,8 @@ an extra security control menu where they can adapt a lot of these
 settings during the meeting (e.g., *turning on/off the waiting room,
 chat, and screen sharing*).
 
+- Enable Close Captions: On the Zoom Rooms controller, tap the Captions icon (a square with the text _CC_). You may need to tap the More (...) icon first to see the option. 
+
 :zombie: If you do have to deal with trolls:
 
 -   Mute everyone and don't let them unmute (uncheck "allow participants
