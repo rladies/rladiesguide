@@ -22,7 +22,7 @@ an email with the Zoom link. We've set the availability to 24/7.
 
 ### Announce the event on Meetup
 
-* [Hosting an online event on Meetup](https://help.meetup.com/hc/en-us/articles/360040609112)
+* [Hosting an online event on Meetup](https://help.meetup.com/hc/en-us/articles/360040609112) is easy as booking any other event. You'll need to fill up all the event details as well as the link received when booking the slot on Calendly. Please mind, that if you connect your Zoom account on Meetup, it will swap the link with one automated generated link from your personal Zoom account, so please make sure the link you add on meetup is the same as the one you received by email upon confirmation from Calendly.
 * [Meetup event policies and the coronavirus (COVID-19)](https://help.meetup.com/hc/en-us/articles/360041040931)
 
 ### A slot for what?
