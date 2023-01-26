@@ -17,7 +17,7 @@ You can also look or ask whether the organization includes and has been supporti
 
 If you are invited to give a talk,
 * If you are invited to talk about a topic other than R-Ladies, make sure that you are invited because of your expertise and not just your relationship to R-Ladies.
-* If you are invited to talk about R-Ladies, refer to our [specific guidance](/comm/conferences/), in particular get in touch with the global team.
+* If you are invited to talk about R-Ladies, refer to our [specific guidance](/comm/conferences/), in particular get in touch with the global team (`info@rladies.org`).
 
 In all cases, check that
 * The event has a code of conduct; if not, do they agree on adding one?
