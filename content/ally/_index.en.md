@@ -6,7 +6,7 @@ slides: true
 menuTitle: Allies
 ---
 
-## How can you help R-Lady as an ally?
+## How can you help R-Ladies as an ally?
 
 First, please read our [mission](/about/mission/) and [code of conduct](/about/coc/) to understand what R-Ladies is about.
 
