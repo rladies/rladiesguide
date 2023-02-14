@@ -31,19 +31,26 @@ Feel free to book a slot for any type of R-Ladies events: talk/tutorial but also
 
 ## Running a meeting
 
-To let you run your meetups as independently as possible, we have set it up the
-following way:
+:jigsaw: To let you run your meetups as independently as possible, we have set it up the
+zoom in a specific way to enable that.
+Notice that you will need **two** numerical codes to run your online event:
 
-:slot_machine: Anyone entering any meeting will need a passcode. It is 
-in the description of the \#online\_meetups channel on the R-Ladies Organizer Slack (with 
-the Calendly link).
+1. **Passcode** to get into the scheduled zoom booking (sent via e-mail and embedded in 
+zoom link)  
+2. **Host key** to [claim host](#how-to-claim-host-controls-using-the-host-key) once you are in the zoom room (found in the \#online_meetups
+Slack channel.
+
+:slot_machine: Anyone entering any meeting will need a passcode. This
+passcode will be unique to the timeslot you have booked, and will only
+be active to let you and your attendants in 15 minutes prior to your
+booked time.
 
 :information_desk_person: You will be able to be the Host of the
 meeting with the associated privileges/controls. As the Host you can
 also make co-organizers and presenters Co-Hosts of the meeting.
 
 :key: We will give you the Zoom **Host Key**
-with which you can make yourself the Host without anybody of us needing
+with which you can [make yourself the Host](#how-to-claim-host-controls-using-the-host-key) without anybody of us needing
 to be online to make you the Host. We will post the Host Key once a
 month in the \#online\_meetups channel on the R-Ladies Organizer Slack.
 
@@ -56,10 +63,10 @@ to the calendly booking, e.g., book for 5:45pm and tell your meetup
 participants that it starts at 6pm. **Please be punctual so that the
 Host is there to manage the meetup before others show up.**
 
-You can claim the Host role after you joined the meeting by clicking on
+:warning: You can [claim the Host](#how-to-claim-host-controls-using-the-host-key) role after you joined the meeting by clicking on
 participants and then on "claim host" in the right-hand corner. You will
-need to enter the host key which you'll get from us prior to the
-meetup.
+need to enter the host key which you'll get from \#online\_meetups channel on the 
+R-Ladies Organizer Slack.
 
 :wave: **Please remember to _end_ the meeting, not just _leave_ the meeting** 
 so that the next organizer can access the room for their meetup.
