@@ -31,8 +31,14 @@ Feel free to book a slot for any type of R-Ladies events: talk/tutorial but also
 
 ## Running a meeting
 
-To let you run your meetups as independently as possible, we have set it up the
-following way:
+:jigsaw: To let you run your meetups as independently as possible, we have set it up the
+zoom in a specific way to enable that.
+Notice that you will need **two** numerical codes to run your online event:
+
+1. **Passcode** to get into the scheduled zoom booking (sent via e-mail and embedded in 
+zoom link)  
+2. **Host key** to [claim host](#how-to-claim-host-controls-using-the-host-key) once you are in the zoom room (found in the \#online_meetups
+Slack channel.
 
 :slot_machine: Anyone entering any meeting will need a passcode. This
 passcode will be unique to the timeslot you have booked, and will only
@@ -64,14 +70,6 @@ R-Ladies Organizer Slack.
 
 :wave: **Please remember to _end_ the meeting, not just _leave_ the meeting** 
 so that the next organizer can access the room for their meetup.
-
-:jigsaw: In short, you will need **two** passwords in order to start your meeting on
-the right foot.
-
-1. **Password** to get into the scheduled zoom booking (sent via e-mail and embedded in 
-zoom link)  
-2. **Host key** to [claim host](#how-to-claim-host-controls-using-the-host-key) once you are in the zoom room (found in the \#online_meetups
-Slack channel.
 
 {{% notice warning %}}
 Do not forget to remind attendees of the code of conduct at the beginning of the event.
