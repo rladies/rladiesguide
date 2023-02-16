@@ -42,8 +42,7 @@ Slack channel.
 
 :slot_machine: Anyone entering any meeting will need a passcode. This
 passcode will be unique to the timeslot you have booked, and will only
-be active to let you and your attendants in 15 minutes prior to your
-booked time.
+be active to let you and your attendants in your booked time.
 
 :information_desk_person: You will be able to be the Host of the
 meeting with the associated privileges/controls. As the Host you can
