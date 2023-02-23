@@ -31,7 +31,7 @@ Please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) to notify us abo
 If you run an R-Ladies chapter and have a video of a meetup you want hosted on the Global channel, please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) and we wil get to you as soon as we can.  
 For any questions regarding the videos and this setup procedure, email `youtube@rladies.org`.
 
-### Do you already have a YouTube account/cannel?
+### Do you already have a YouTube account/channel?
 If you have a YouTube channel associated with your personal account, you might need to click on your profile on the top left and click on Switch Account to switch to the R-Ladies account first.
 
 ### The video upload
