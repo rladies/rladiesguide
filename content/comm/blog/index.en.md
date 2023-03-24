@@ -187,7 +187,7 @@ tagging an Editor listed above.
 ## From Forks
 
 If you are working on a fork of the repository, rather than a branch, you should
-PR to the `fork_merge` branch, and notify `@Athanasiamo`.
+PR to the `fork_merge` branch, and notify `@drmowinckels`.
 
 Previews are only created for branches of this repo, not forks, so she will need
 to merge it into a temporary branch to generate the preview.
