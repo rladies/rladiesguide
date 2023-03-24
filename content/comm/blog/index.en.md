@@ -24,6 +24,9 @@ Currently members of the Leadership team:
 
 ## Install dependecies
 
+Please make sure you have the latest version of `blogdown` and
+associated dependencies.
+
 ```r
 # required R pacakges
 install.packages(c('blogdown', 'magrittr', 'stringr'))
