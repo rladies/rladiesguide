@@ -40,13 +40,21 @@ blogdown::install_hugo()
 
 ## Clone the project
 
-Choose your own workflow! You can proceed via either:
+Choose your own workflow! There are many ways you can fork and clone a project,
+via the git terminal, the `{usethis}` package, the GitHub web UI, GitHub Desktop,
+etc. Here we document two methods; however, you are welcome to use whichever with
+which you are comfortable. We are happy to provide additional support or documentation
+as needed.
+
+
+You can proceed via either:
 
 1. `git` commands in the terminal, or
 
 2. through the `usethis` package 
   - An in-depth overview of this workflow is available at 
 [Pull Request Flow with usethis](https://www.garrickadenbuie.com/blog/pull-request-flow-usethis/?interactive=1&steps=) by Garrick Aden-Buie.
+
 
 ### via git in the terminal
 
@@ -138,11 +146,16 @@ Once submitted,
 Add all files needed for the post (images, data files, gifs, etc.) should be 
 added to the new folder `content/post/yyyy-mm-dd-your-post-title`. 
 
-As you write you post, remember to `knit` your post to see how it looks! 
+As you write you post, remember to `knit` your post to see how it looks.
 The blogdown site will use the markdown file created from your knitted `index.Rmd` 
-on the site, not your `Rmd` itself. You can preview the entire site with your post with `blogdown::serve_site()`. 
+on the site, not your `Rmd` itself. 
+
+We encourage you to also preview the post via `blogdown::serve_site()`, which
+generates the entire website and applies any global styling. This will likely preview
+differently than when knitting the individual post.
 
 ## After you write your post
+
 
 Once your post looks as you want it to on your local machine, it's time to push the post
 up to the main repository for review.
