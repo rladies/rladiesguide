@@ -14,7 +14,7 @@ Official colours: <span style="color:#88398a;"><i class="fa fa-paint-brush" aria
 **Logo**
 
 The logo of R-Ladies is a purple R and can be found in the
-[starter-kit](https://github.com/rladies/starter-kit/tree/master/logo).
+[branding-materials](https://github.com/rladies/branding-materials).
 Chapter logos should be the purple R of R-Ladies Global or a variant
 thereof.
 
