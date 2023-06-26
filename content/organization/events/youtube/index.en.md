@@ -19,16 +19,16 @@ We would, however, love to link to videos in other channels so people can easily
 One way to get your channel more visibility is to have the Global channel subscribe to it. 
 It will then be rotated in the "featured channels" section of the Global channel.
 
-Please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) to notify us about your channel, and we'll subscribe as soon as we can.
+Please [fill in this form](shrv1UVaYyoxsAvzU) to notify us about your channel, and we'll subscribe as soon as we can.
 
 ### Adding a video from your chapter's channel to a playlist
 The Global channel has a playlist for each language we know there are R-Ladies videos of, and these would be the perfect place to add your chapters videos if you are running your own channel.
 
-Please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) to notify us about a video you want added to a playlist (or make a new playlist), and we will get to it as soon as we can.
+Please [fill in this form](shrv1UVaYyoxsAvzU) to notify us about a video you want added to a playlist (or make a new playlist), and we will get to it as soon as we can.
 
 ## Contributing to the Global channel
 ### Applying for video upload
-If you run an R-Ladies chapter and have a video of a meetup you want hosted on the Global channel, please [fill in this form](https://forms.gle/Fc5pjB1SDhLN1gvf8) and we wil get to you as soon as we can.  
+If you run an R-Ladies chapter and have a video of a meetup you want hosted on the Global channel, please [fill in this form](shrv1UVaYyoxsAvzU) and we wil get to you as soon as we can.  
 For any questions regarding the videos and this setup procedure, email `youtube@rladies.org`.
 
 ### Do you already have a YouTube account/channel?
