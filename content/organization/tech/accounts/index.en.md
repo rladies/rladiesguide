@@ -88,7 +88,6 @@ A good strategy might be to make your group private and ask candidates questions
 * Your chapter will get a new email during the onboarding process. You don't need to do any request. You will get an email from R-Ladies Google Workspace with the amail adress, the temporary password, the link to login to your account for the first time and change the password and instruction about to create save and strong passwords. 
    
 
-I'd like to request an email for the chapter R-Ladies Pawnee.
 
 Here are the addresses that the email should forward to:
 
