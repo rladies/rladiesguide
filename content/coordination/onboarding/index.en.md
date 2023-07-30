@@ -14,9 +14,9 @@ timely.
 
 ## What to do
 
--   Monitor the email: `info@rladies.org`. Please
-    contact the email team on slack to get username and password to
-    access this email address.
+-   Monitor the email: `chapters@rladies.org`. As part of the Onboarding
+    Team, the messages to this account are forwarded to the email
+    address you provided during your own onboarding process.
 
 -   On the rladies.org website, we ask any prospective organisers to get
     in touch via email. Especially during conferences, we may receive
