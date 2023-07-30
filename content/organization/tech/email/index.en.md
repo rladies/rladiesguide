@@ -6,14 +6,14 @@ weight: 25
 
 [General info about emails for R-Ladies chapters](/organization/tech/accounts/#e-mail).
 
-Since November 2022 R-Ladies has a Google Work Space.  E-mails accounts are handle using gmail infrastructure. 
-All R-Ladies chapter use _@rladies.org_ domain. 
+Since November 2022 R-Ladies migrated to Google Work Space, and e-mail accounts are now handled using gmail infrastructure. 
+All R-Ladies chapters use the _@rladies.org_ domain. 
 
-If you need help to manage your email account there are this [general instructions on how to use a Gmail account](https://support.google.com/mail?sjid=12348347883239577326-SA#topic=3394212)
+If you need help to manage your email account there are [official google instructions on how to use a Gmail account](https://support.google.com/mail?sjid=12348347883239577326-SA#topic=3394212)
 
 ### A new account
 
-After we created your chapter email account you will get an email like this:
+After we have created your chapter email account you will receive an email like this:
 
 _Subjetc: You have a new Google account for R-Ladies_
 
@@ -41,7 +41,7 @@ Regards,
 The Google Workspace Team_
 
 When you click on the button for login, you will get a message agreeing on the Term of use of the
-new R-Ladies account.  After you agree you will login and will need to change your temporary password.
+new R-Ladies account.  After you agree you will be able to login and you will need to change your temporary password.
 
 After that you [will login](#webmail) and [use the account](https://support.google.com/mail?sjid=12348347883239577326-SA#topic=3394212) as any other gmail email address. 
 
