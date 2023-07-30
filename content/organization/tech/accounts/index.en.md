@@ -86,7 +86,6 @@ A good strategy might be to make your group private and ask candidates questions
 * Put the chapter email in cc when answering an email so that your co-organizers can see the answer.
 * The idea with the chapter email address is that you can use this as a public facing email address for your community, so members or meetup hosts (a company or university) can get in touch with you easily without you having to list a personal email address publicly. Then you can use your personal email address to reply. 
 * Your chapter will get a new email during the onboarding process. You don't need to do any request. You will get an email from R-Ladies Google Workspace with the amail adress, the temporary password, the link to login to your account for the first time and change the password and instruction about to create save and strong passwords. 
-   * Send an email (`email@rladies.org`) and a volunteer will set up your chapter email for you.  Please be patient, as these requests are currently being processed on a monthly basis.
    * In the email, please send the personal email addresses for you and your co-organisers if you would like chapter email to forward there.
    
 ```
