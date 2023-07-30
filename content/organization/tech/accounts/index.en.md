@@ -90,7 +90,6 @@ A good strategy might be to make your group private and ask candidates questions
 
 
 
-- Leslie Knope (leslie@knope.ok),
 - April Ludgate (april@ludgate.ok).
 
 Thank you, best wishes
