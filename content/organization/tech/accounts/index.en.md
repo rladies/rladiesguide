@@ -82,30 +82,23 @@ A good strategy might be to make your group private and ask candidates questions
 
 ## E-Mail
 
-* You can get a chapter email address (`yourcity@rladies.org`).  As of March 18, 2019, we are no longer issuing personal rladies.org emails (`yourname@rladies.org`) to chapters organizers and will have chapter emails only. 
-* Put the chapter email in cc when answering an email so that your co-organizers can see the answer.
-* The idea with the chapter email address is that you can use this as a public facing email address for your community, so members or meetup hosts (a company or university) can get in touch with you easily without you having to list a personal email address publicly. Then you can use your personal email address to reply. 
-* Your chapter will get a new email during the onboarding process. You don't need to do any request. You will get an email from R-Ladies Google Workspace with the amail adress, the temporary password, the link to login to your account for the first time and change the password and instruction about to create save and strong passwords. 
-   
+As of November 2022 R-Ladies email use a Google Workspace to manage emails accounts.  We provide chapters email address (`yourcity@rladies.org`) during the onboarding process. 
+_You don't need to do any request_. After the creation of your chapter account you will get an email from R-Ladies Google Workspace with the amail 
+adress, the temporary password, the link to login to your account for the first time and change the temporary password and instruction on how to create strong passwords.   
 
-
-
-
-   
-
-
-
+The idea with the chapter email address is that you can use this as a public facing email address for your community, 
+so members or meetup hosts (a company or university) can get in touch with you easily without you having to list a personal 
+email address publicly. Then you can use your personal email address to reply.  We recommend you put the chapter email in cc when 
+answering an email so that your co-organizers can see the answer.
 
 {{% notice warning %}}
 Your chapter email account should be used to set up any chapter [social media accounts (e.g. Twitter, Instagram, etc)](/organization/online-presence/social-media/).
 {{% /notice %}}
 
+* You can set up Twitter or other accounts to not send email notifications, so that you and your fellow organizers don't get overwhelmed with emails going to your chapter accounts.
+* If you have an issue with your email, have read all the online guidance and still can't resolve your issue, please explain your issue on Organizers Slack in the #organizers channel. A volunteer will get back to you as soon as possible.
 
-You can set up Twitter or other accounts to not send email notifications, so that you and your fellow organizers don't get overwhelmed with emails going to your chapter accounts.
-
-* For legacy accounts (full email vs. forwarding addresses), please find instructions on [how use your rladies.org email in a mail client or within Gmail](/organization/tech/email/).
-* If you have an issue with your email, have read all the online guidance and still can't resolve your issue, please send an email to `email@rladies.org` and a volunteer will get back to you as soon as possible.
-* We are exploring new options for email hosting providers (to simplify email account management) and if you'd like to help with that effort, please send an email to `info@rladies.org`.
+As of March 18, 2019, we only provide personal rladies.org emails (`yourname@rladies.org`) to Leadership and Global Team members.  
 
 {{% notice warning %}}
 Check out the section about [account security](/organization/tech/security/)
@@ -116,11 +109,6 @@ Check out the section about [account security](/organization/tech/security/)
 * There is a [global organisation](http://github.com/rladies) to collect all material
   related to R-Ladies in one place, so it's easier to know what's out there and get inspired by what other chapters did. Ask to be added as a member in the `#new_chapters` channel of the organizers slack.
 * If you have presentations, please add them all to
-  one repo for your chapter, e.g., meetup-presentations_london. If you have code for a
-  workshop you can add it to the repository or ask us to create a new repository for that. Please name it location_*, e.g.,
-  london_20161130_h2o-and-r.
-
-[^contextemail]: Chapters started before this have full email accounts, but due to the overhead and changes by our hosting provider, we only set up forwarding emails now.
   one repo for your chapter, e.g., `meetup-presentations_london`. If you have code for a
   workshop you can add it to the repository or ask us to create a new repository for that. Please name 
   it location_*, e.g., `london_20161130_h2o-and-r`.
