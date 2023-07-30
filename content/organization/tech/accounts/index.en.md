@@ -89,7 +89,6 @@ A good strategy might be to make your group private and ask candidates questions
    
 
 
-Here are the addresses that the email should forward to:
 
 - Leslie Knope (leslie@knope.ok),
 - April Ludgate (april@ludgate.ok).
