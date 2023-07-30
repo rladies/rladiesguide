@@ -95,8 +95,6 @@ A good strategy might be to make your group private and ask candidates questions
 
 
 
-Thank you, best wishes
-```
 
 {{% notice warning %}}
 Your chapter email account should be used to set up any chapter [social media accounts (e.g. Twitter, Instagram, etc)](/organization/online-presence/social-media/).
