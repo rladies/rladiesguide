@@ -91,7 +91,6 @@ A good strategy might be to make your group private and ask candidates questions
 
 
 
-```
    
 * If you add new organizers to your team, please send an email to `email@rladies.org` to request that their personal email be added to the chapter email forwarding.  
 
