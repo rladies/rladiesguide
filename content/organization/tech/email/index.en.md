@@ -6,21 +6,55 @@ weight: 25
 
 [General info about emails for R-Ladies chapters](/organization/tech/accounts/#e-mail).
 
-If you want to change your email password, set an out-of-office auto-responder or setup email filters, you can do that [here]().
+Since November 2022 R-Ladies has a Google Work Space.  E-mails accounts are handle using gmail infrastructure. 
+All R-Ladies chapter use _@rladies.org_ domain. 
+
+If you need help to manage your email account there are this [general instructions on how to use a Gmail account](https://support.google.com/mail?sjid=12348347883239577326-SA#topic=3394212)
+
+### A new account
+
+After we created your chapter email account you will get an email like this:
+
+_Subjetc: You have a new Google account for R-Ladies_
+
+_Welcome to your new Google Account for R-Ladies
+
+Hello,
+
+You have a new Google Account with the R-Ladies organization.
+
+Sign in to your Google Account to access the Google services your organization provides. 
+If your organization has Google Workspace, Google services may include business-grade versions of 
+Google Drive, Gmail, and other Google services you can use to collaborate with your team.
+
+Your username: chaptername@rladies.org
+
+Password: Click Sign in below to set your password and sign in. To keep your account secure, follow these password guidelines.
+Sign in
+
+<button with the link to login for the first time>
+
+For your security, the reset password link expires after 48 hours. After that, please contact your administrator for your password.
+
+Regards,
+
+The Google Workspace Team_
+
+When you click on the button for login, you will get a message agreeing on the Term of use of the
+new R-Ladies account.  After you agree you will login and will need to change your temporary password.
+
+After that you [will login](#webmail) and [use the account](https://support.google.com/mail?sjid=12348347883239577326-SA#topic=3394212) as any other gmail email address. 
 
 ### Smartphone
 
-Here are instructions for adding an email account to an [iPhone]() and [Android]().
+Here are instructions for adding an email account to an [iPhone](https://support.google.com/mail/topic/2467017?hl=en&ref_topic=2451730&sjid=12348347883239577326-SA) and [Android](https://support.google.com/mail/topic/2451697?hl=en&ref_topic=2451730&sjid=12348347883239577326-SA).
 
 ### Webmail
 
-1. Go to []()  
+1. On your computer, go to [Gmail](https://mail.google.com/).
+2. Enter your Google Account email or phone number and password.
+	2.1. If information is already filled in and you have to sign in to a different account, click _Use another account_.
+    2.2. If you get a page that describes Gmail instead of the sign-in page, at the top right of the page, click [Sign in](https://accounts.google.com/ServiceLogin?service=mail).
 
-2. Enter your email address and password, as in the screenshot below 
-
-![Screenshot of rladies login page]()
-
-3. Your mail box looks will look like this 
-
-![Screenshot of R-Ladies mailbox]()
-  
+Tip: If you sign in to a public computer, make sure to sign out before you leave the computer. 
+Learn [how to sign in on a device that's not yours](https://support.google.com/accounts/answer/2917834).
