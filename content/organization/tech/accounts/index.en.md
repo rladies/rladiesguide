@@ -93,8 +93,6 @@ A good strategy might be to make your group private and ask candidates questions
 
    
 
-```
-Dear R-Ladies global team,
 
 I'd like to request adding an email to the R-Ladies Pawnee chapter email forwarding: our new co-organizer Leslie Knope (leslie@knope.ok).
 
