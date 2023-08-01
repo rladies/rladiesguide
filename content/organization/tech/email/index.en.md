@@ -53,8 +53,12 @@ Here are instructions for adding an email account to an [iPhone](https://support
 
 1. On your computer, go to [Gmail](https://mail.google.com/).
 2. Enter your Google Account email or phone number and password.
-	2.1. If information is already filled in and you have to sign in to a different account, click _Use another account_.
-    2.2. If you get a page that describes Gmail instead of the sign-in page, at the top right of the page, click [Sign in](https://accounts.google.com/ServiceLogin?service=mail).
 
+	2.1. If information is already filled in and you have to sign in to a different account, click _Use another account_.
+
+	2.2. If you get a page that describes Gmail instead of the sign-in page, at the top right of the page, click [Sign in](https://accounts.google.com/ServiceLogin?service=mail).
+
+{{% notice tip %}}
 Tip: If you sign in to a public computer, make sure to sign out before you leave the computer. 
+{{% /notice %}}
 Learn [how to sign in on a device that's not yours](https://support.google.com/accounts/answer/2917834).
