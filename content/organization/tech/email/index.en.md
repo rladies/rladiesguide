@@ -59,6 +59,5 @@ Here are instructions for adding an email account to an [iPhone](https://support
 	2.2. If you get a page that describes Gmail instead of the sign-in page, at the top right of the page, click [Sign in](https://accounts.google.com/ServiceLogin?service=mail).
 
 {{% notice tip %}}
-Tip: If you sign in to a public computer, make sure to sign out before you leave the computer. 
+Tip: If you sign in to a public computer, make sure to sign out before you leave the computer. Learn [how to sign in on a device that's not yours](https://support.google.com/accounts/answer/2917834).
 {{% /notice %}}
-Learn [how to sign in on a device that's not yours](https://support.google.com/accounts/answer/2917834).
