@@ -17,28 +17,28 @@ After we have created your chapter email account you will receive an email like 
 
 _Subjetc: You have a new Google account for R-Ladies_
 
-_Welcome to your new Google Account for R-Ladies
+_Welcome to your new Google Account for R-Ladies_
 
-Hello,
+_Hello,_
 
-You have a new Google Account with the R-Ladies organization.
+_You have a new Google Account with the R-Ladies organization._
 
-Sign in to your Google Account to access the Google services your organization provides. 
-If your organization has Google Workspace, Google services may include business-grade versions of 
-Google Drive, Gmail, and other Google services you can use to collaborate with your team.
+_Sign in to your Google Account to access the Google services your organization provides._
+_If your organization has Google Workspace, Google services may include business-grade versions of_ 
+_Google Drive, Gmail, and other Google services you can use to collaborate with your team._
 
-Your username: chaptername@rladies.org
+_Your username: chaptername@rladies.org_
 
-Password: Click Sign in below to set your password and sign in. To keep your account secure, follow these password guidelines.
-Sign in
+_Password: Click Sign in below to set your password and sign in. To keep your account secure, follow these password guidelines._
+_Sign in_ 
 
-<button with the link to login for the first time>
+_<button with the link to login for the first time>_
 
-For your security, the reset password link expires after 48 hours. After that, please contact your administrator for your password.
+_For your security, the reset password link expires after 48 hours. After that, please contact your administrator for your password._
 
-Regards,
+_Regards,_
 
-The Google Workspace Team_
+_The Google Workspace Team_
 
 When you click on the button for login, you will get a message agreeing on the Term of use of the
 new R-Ladies account.  After you agree you will be able to login and you will need to change your temporary password.
