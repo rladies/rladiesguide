@@ -32,7 +32,7 @@ _Your username: chaptername@rladies.org_
 _Password: Click Sign in below to set your password and sign in. To keep your account secure, follow these password guidelines._
 _Sign in_ 
 
-_<button with the link to login for the first time>_
+_[button with the link to login for the first time]_
 
 _For your security, the reset password link expires after 48 hours. After that, please contact your administrator for your password._
 
