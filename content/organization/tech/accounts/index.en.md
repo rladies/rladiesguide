@@ -112,3 +112,44 @@ Check out the section about [account security](/organization/tech/security/)
   one repo for your chapter, e.g., `meetup-presentations_london`. If you have code for a
   workshop you can add it to the repository or ask us to create a new repository for that. Please name 
   it location_*, e.g., `london_20161130_h2o-and-r`.
+  
+## Posit Cloud
+
+### About Posit Cloud
+
+[Posit Cloud](https://posit.cloud/) is an online platform from Posit that allows users to work on data science projects without requiring software installation
+on personal computers. This is a particularly attractive option for workshops
+as creators of a Posit Cloud workspace can ensure all workshop attendees
+are using the same version of both R and R packages.
+
+### Posit Cloud Use
+
+This section is for R-Ladies event organizers requesting access to Posit Cloud.
+
+All correspondence regarding Posit Cloud should be on the `posit-cloud` channel
+in the R-Ladies organizers slack, which includes both requests to access or
+support related questions.
+
+1. Request access to Posit Cloud for your event by submitting notice on the `posit-cloud` channel in the R-Ladies organizers slack. Your request should include
+* Event organizer names who want administrative access to the Posit Cloud space.
+* Email addresses of the event organizers who want administrative access to the Posit Cloud space.
+* Name of the R-Ladies chapter hosting the event.
+* Title of the event.
+* Date of the event.
+
+
+### Posit Cloud Administration
+
+This section is for members of the Global Team who have administrative
+access to the Posit Cloud account. 
+
+1. Create a new space. Name the space `chapter-title` and assign to r-ladies account.
+
+![](img/image5.png)
+
+2. Add email of workshop leader(s) with an Admin role on the space.
+
+![](img/image7.png)
+
+
+
