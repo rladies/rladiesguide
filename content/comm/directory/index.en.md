@@ -23,7 +23,7 @@ https://rladies.org/wp-login.php
 
 ### Request about new chapters
 To start a new chapter, contact:
-info@rladies.org
+chapters@rladies.org
 
 ### Updating Deadnames
 
