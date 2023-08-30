@@ -42,14 +42,14 @@ and guarantee requests are addressed any time of the year.
 
 ![Screenshot of the meetup page of a chapter where the number of members is written below the location](image4.png)
 
-    -   In the list, locate the member you want to make a co-organiser and
+-   In the list, locate the member you want to make a co-organiser and
     click the three dots next to the name
         
 ![Screenshot of the organizers list, near every person's name are three dots](image2.png)
 
-    -   Click 'Change member role'
+-   Click 'Change member role'
     
-    -   Select 'co-organiser' and click on 'Update role'
+-   Select 'co-organiser' and click on 'Update role'
 
 ![Screenshot of the checkboxes for choosing roles](image1.png)
 
@@ -137,11 +137,11 @@ This URL will be changed in one of the steps below.
 ```markdown
 This is a local chapter of R-Ladies Global (https://www.rladies.org), an organisation that promotes gender diversity in the R community worldwide. We meetup in person or virtually to learn about the R programming language, algorithms and advanced tools. 
 
-R-Ladies welcomes members of all R proficiency levels, whether you\'re a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
+R-Ladies welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
 
 We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world. You can access our presentations, R scripts, and Projects on our Github account (https://github.com/rladies) and follow us on Twitter (https://twitter.com/RLadiesGlobal) to stay up to date about R-Ladies news!
 
-Make sure you read and comply with our code of conduct (https://rladies.org/code-of-conduct/) and community guidelines (https://guide.rladies.org/about/mission/#r-ladies-rules--guidelines).
+Make sure you read and comply with our code of conduct (https://rladies.org/coc/) and community guidelines (https://guide.rladies.org/about/mission/#r-ladies-rules--guidelines).
 
 Please note that by taking part in an R-Ladies event you grant the community organizers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
 ```
