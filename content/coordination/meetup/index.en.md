@@ -139,7 +139,7 @@ This is a local chapter of R-Ladies Global (https://www.rladies.org), an organis
 
 R-Ladies welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
 
-We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world. You can access our presentations, R scripts, and Projects on our Github account (https://github.com/rladies) and follow us on Twitter (https://twitter.com/RLadiesGlobal) to stay up to date about R-Ladies news!
+We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world. You can access our presentations, R scripts, and Projects on our Github account (https://github.com/rladies) and follow us on Mastodon (https://hachyderm.io/@RLadiesGlobal) to stay up to date about R-Ladies news!
 
 Make sure you read and comply with our code of conduct (https://rladies.org/coc/) and community guidelines (https://guide.rladies.org/about/mission/#r-ladies-rules--guidelines).
 
@@ -156,13 +156,22 @@ Please note that by taking part in an R-Ladies event you grant the community org
 -   **Welcome message:** Hello and welcome to R-Ladies!
 
 -   **From home page click on: Manage Group > Edit Group Settings and
-    select the 'Basics' tab**
+    select the 'Basic Information' tab**
 
     -   **Custom member label:** R-Ladies
 
     -   **Custom address:** meetup.com/rladies-cityname. 
         If the city name has more than one word, separate them with a `-`
         (e.g. R-Ladies Sao Paulo gets rladies-sao-paulo)
+    
+    -   Topics: "R Project for Statistical Computing" and "Data Science using R"
+        Organizers can add other relevant topics later. 
+
+    -   Social Media:
+
+        -   Add R-Ladies website on the "Other" category: https://www.rladies.org
+
+        -   Currently, it is no possible to add a Mastodon account :(
 
 -   Save, then go Back to group settings and **select the 'Optional
     features' tab:**
@@ -176,11 +185,6 @@ Please note that by taking part in an R-Ladies event you grant the community org
         -   Your mailing list address must be unique:
             rladies-cityname
 
-    -   Follow us on:
-
-        -   Website: https://www.rladies.org
-
-        -   Mastodon: USERNAME PENDING
 
 ### Appendix B: Message template
 
