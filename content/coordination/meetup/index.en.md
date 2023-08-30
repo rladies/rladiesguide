@@ -134,7 +134,7 @@ This URL will be changed in one of the steps below.
 
 #### Step 4: Describe who should join, and what your Meetup will do.
 
-````
+```
 This is a local chapter of R-Ladies Global (https://www.rladies.org), an organisation that promotes gender diversity in the R community worldwide. We meetup in person or virtually to learn about the R programming language, algorithms and advanced tools. 
 
 R-Ladies welcomes members of all R proficiency levels, whether you\'re a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
@@ -144,6 +144,7 @@ We are pro-actively inclusive of queer, trans, and all minority identities, with
 Make sure you read and comply with our code of conduct (https://rladies.org/code-of-conduct/) and community guidelines (https://guide.rladies.org/about/mission/#r-ladies-rules--guidelines).
 
 Please note that by taking part in an R-Ladies event you grant the community organizers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
+
 ```
 
 #### Step 5: Agree with the Meetup's terms and conditions.
