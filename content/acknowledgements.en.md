@@ -8,7 +8,7 @@ Thank you! ¡Gracias!
 Thanks to all contributors to R-Ladies guidance, here and in its previous homes.
 _Gracias a todas las personas que contribuyeron al contenido de esta guía, aquí y en los sitios donde estaba antes._
 
-* Current and former [global team members](https://rladies.org/about-us/team/): 
+* Current and former [global team members](https://rladies.org/about-us/global-team/): 
   Alice Daish, 
   Athanasia Monika Mowinckel, 
   Bea Hernández, 
