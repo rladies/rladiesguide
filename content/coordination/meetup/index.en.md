@@ -120,15 +120,21 @@ and guarantee requests are addressed any time of the year.
 
 #### Step1: What\'s your new Meetup Group\'s hometown?
 
-City, Country
+**City, Country (ISO2 Code)**
+
 
 #### Step 2: What will your Meetup be about?
 
-Category: Technology
+Meetup doesn't always show the same categories. But usually Technology or
+Data Science are displayed. You will be able to add R related topics in one of the steps below.
+
+**Category: Technology or Data Science**
 
 #### Step 3: What will your Meetup\'s name be?
 
-Name: R-Ladies City. By default meetup will create a page
+Name: **R-Ladies City**. 
+
+By default meetup will create a page
 with this URL `https://www.meetup.com/R-Ladies-City/` (e.g., R-Ladies Lima will create `https://www.meetup.com/R-Ladies-Lima/`).
 This URL will be changed in one of the steps below.
 
@@ -146,16 +152,21 @@ Make sure you read and comply with our code of conduct (https://rladies.org/coc/
 Please note that by taking part in an R-Ladies event you grant the community organizers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
 ```
 
-#### Step 5: Agree with the Meetup's terms and conditions.
 
-#### Step 6: Customise group
+**Done!**
+The message "Your group is in review" will show up. In the meantime you can 
+customize the group. 
+
+#### Step 5: Customise group
 
 -   **Short bio:** R-Ladies is a world-wide organization to promote
     gender diversity in the R community (https://rladies.org/).
 
+-   **Organizer profile photo:** Add [this one](https://github.com/rladies/branding-materials/blob/main/logo/R-LadiesGlobal_RBG_online_LogoOnly.png).
+
 -   **Welcome message:** Hello and welcome to R-Ladies!
 
--   **From home page click on: Manage Group > Edit Group Settings and
+-   **From the group's home page click on: Manage Group > Edit Group Settings and
     select the 'Basic Information' tab**
 
     -   **Custom member label:** R-Ladies
@@ -164,14 +175,14 @@ Please note that by taking part in an R-Ladies event you grant the community org
         If the city name has more than one word, separate them with a `-`
         (e.g. R-Ladies Sao Paulo gets rladies-sao-paulo)
     
-    -   Topics: "R Project for Statistical Computing" and "Data Science using R"
+    -   Topics: Add "R Project for Statistical Computing" and "Data Science using R".
         Organizers can add other relevant topics later. 
 
     -   Social Media:
 
-        -   Add R-Ladies website on the "Other" category: https://www.rladies.org
+        -   Add R-Ladies Mastodon account on the "Other" category: https://hachyderm.io/@RLadiesGlobal
 
-        -   Currently, it is no possible to add a Mastodon account :(
+        -   LinkedIn: https://www.linkedin.com/company/rladies/
 
 -   Save, then go Back to group settings and **select the 'Optional
     features' tab:**
@@ -216,9 +227,12 @@ Things to keep in mind/to know:
 
 - If needed, we can create a GitHub repo for your chapter on the R-Ladies GitHub Organization. You can request it in the #new-chapters channel. 
 
+- Please remember that the R-Ladies Organizers Slack is our prefered channel of communication. 
+
 Regarding adding new organizers to your chapter:
 
 - Probably in the next few weeks/months new organizers will be joining your team. There is a section in the [R-Ladies Guide](https://guide.rladies.org/organization/intro/co-organizers/#how-to-onboard-organizers) with all the information you need to know about how to onboard them. This the only official way to add a co-organizer
+
 
 If you have any questions, please do not hesitate to contact us. The #organizers channel on Slack is also a great place to seek for advise.
 
