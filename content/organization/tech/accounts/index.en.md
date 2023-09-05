@@ -119,8 +119,9 @@ Check out the section about [account security](/organization/tech/security/)
 
 [Posit Cloud](https://posit.cloud/) is an online platform from Posit that allows users to work on data science projects without requiring software installation
 on personal computers. This is a particularly attractive option for workshops
-as creators of a Posit Cloud workspace can ensure all workshop attendees
-are using the same version of both R and R packages.
+as creators of a Posit Cloud space can ensure all workshop attendees
+are using the same version of both R and R packages, as well as create a directory
+with files to work from.
 
 ### Posit Cloud Use
 
@@ -130,12 +131,69 @@ All correspondence regarding Posit Cloud should be on the `posit-cloud` channel
 in the R-Ladies organizers slack, which includes both requests to access or
 support related questions.
 
-1. Request access to Posit Cloud for your event by submitting notice on the `posit-cloud` channel in the R-Ladies organizers slack. Your request should include
-* Event organizer names who want administrative access to the Posit Cloud space.
-* Email addresses of the event organizers who want administrative access to the Posit Cloud space.
+1. Request access to Posit Cloud for your event by submitting the airtable form with 
+the following information: <insert link to form>
+
+An R-Ladies Posit Cloud administrator will review your request as soon as possible. If you do not receive a response withing 7 days you are welcome to flag to the `posit-cloud` channel on the R-Ladies organizers slack. <should this be on community or organizer slack?? the event leaders might not necessarily be on organizer slack>
+
 * Name of the R-Ladies chapter hosting the event.
 * Title of the event.
 * Date of the event.
+* Name of event leader responsible for customizing the Posit Cloud space.
+* Email address of the event leader responsible for customizing the Posit Cloud space.
+* Name of the R-Ladies chapter organizer coordinating the event.
+* Email address of the R-Ladies chapter organizer coordinating the event.
+
+
+Once the primary event organizer has been granted access, they should be able
+to add other administrative collaborators to the Posit Cloud space.
+
+Please note that the invitation to the Posit Cloud space must be accepted
+within 7 days; otherwise, the invitation needs to be re-sent.
+
+
+2. Edit the About section with information about your workshop. This should include:
+
+* Title of the event.
+* Date of the event.
+* Name(s) of event organizer.
+* Name of the R-Ladies chapter hosting the event.
+* Brief description of the event.
+
+
+![](img/image1.png)
+
+3. Create your project within the Posit Cloud space. Helpful documentation includes:
+
+ * [Posit Cloud Guide](https://posit.cloud/learn/guide){target="_blank"}
+ 
+ * [Posit Cloud Essentials | Ep 1: Getting Started](https://www.youtube.com/watch?v=-fzwm4ZhVQQ){target="_blank"} (~30 min YouTube recording)
+ 
+ * [Posit Cloud Essentials | Ep 2: Managing Data Projects with Spaces](https://www.youtube.com/watch?v=JdOn8_Co8VI){target="_blank"} (~40 min YouTube recording)
+
+4. Change project access to space members.
+
+![](img/image4.png)
+
+5. Change space access to sharing link with role as Contributor, which allows the 
+event organizer to share a url with participants to join the space. The "Contributor” role
+enables the participants to work in their own personal copy of the project.
+
+![](img/image2.png)
+
+
+6. When users receive a sharing link they will enter the space, they will be required 
+to either login or create a Posit Cloud account. Then users have to click on content 
+to open the project. It may take a couple of minutes for the initial deployment. Then
+users will be invited to make a copy of the project.
+
+![](img/image3.png)
+
+The project copy is labelled as "Private" for the user, indicating that they get
+their own dedicated computing resources, and any changes made in this project
+do not affect other students.
+
+![](img/image10.png)
 
 
 ### Posit Cloud Administration
@@ -147,7 +205,7 @@ access to the Posit Cloud account.
 
 ![](img/image5.png)
 
-2. Add email of workshop leader(s) with an Admin role on the space.
+2. Add email of primary workshop leader with an Admin role on the space.
 
 ![](img/image7.png)
 
