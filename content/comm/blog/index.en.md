@@ -12,11 +12,11 @@ Currently members of the Leadership team:
 
 - Yanina Bellini Saibene [`@yabellini`](https://github.com/yabellini)
 
-- Athanasia M. Mowinckel [`@ChrisZasa`](https://github.com/Athanasiamoa)
+- Athanasia M. Mowinckel [`@drmowinckels`](https://github.com/drmowinckels)
 
 ## Website maintainers
 
-- Athanasia M. Mowinckel [`@Athanasiamo`](https://github.com/Athanasiamo)
+- Athanasia M. Mowinckel [`@drmowinckels`](https://github.com/drmowinckels)
 
 ---
 
