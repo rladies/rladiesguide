@@ -26,6 +26,7 @@ _Gracias a todas las personas que contribuyeron al contenido de esta gu√≠a, aqu√
   Nadeja Sero, 
   Noa Tamir, 
   Page Piccinini, 
+  Paola Corrales, 
   Patricia A. Loto, 
   Rachel Kirkham, 
   Riva Quiroga,
