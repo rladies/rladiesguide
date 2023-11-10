@@ -3,12 +3,12 @@ title: Acknowledgements
 disableToc: true
 ---
 
-Thank you! ¡Grácias!
+Thank you! ¡Gracias!
 
 Thanks to all contributors to R-Ladies guidance, here and in its previous homes.
-_Grácias a todas las personas que contribuyeron al contenido de esta guía, aqui y en los sitios donde estaba antes._
+_Gracias a todas las personas que contribuyeron al contenido de esta guía, aquí y en los sitios donde estaba antes._
 
-* Current and former [global team members](https://rladies.org/about-us/team/): 
+* Current and former [global team members](https://rladies.org/about-us/global-team/): 
   Alice Daish, 
   Athanasia Monika Mowinckel, 
   Bea Hernández, 
@@ -26,9 +26,12 @@ _Grácias a todas las personas que contribuyeron al contenido de esta guía, aqu
   Nadeja Sero, 
   Noa Tamir, 
   Page Piccinini, 
+  Paola Corrales, 
   Patricia A. Loto, 
   Rachel Kirkham, 
+  Riva Quiroga,
   Saranjeet Kaur Bhogal, 
+  Shannon Pileggi,
   Sheila Saia,
   Sina Rüeger, 
   Yanina Bellini Saibene.
@@ -52,7 +55,6 @@ _Grácias a todas las personas que contribuyeron al contenido de esta guía, aqu
   Liili Abuladze, 
   Marianna Foos, 
   Nerissa Mulligan,
-  Shannon Pileggi,
   Silvia Gutiérrez, 
   Vilma Romero.
 

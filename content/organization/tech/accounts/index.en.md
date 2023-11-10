@@ -6,15 +6,17 @@ weight: 15
 
 ## Slack
 
-* Once you initiate the process of becoming an organizer by sending an email to info [at] rladies [dot] org, you will be sent and invite to the [R-Ladies Organizers' Slack](http://r-ladies.slack.com).
+* Once you initiate the process of becoming an organizer by sending an email to chapter [at] rladies [dot] org, you will be sent and invite to the [R-Ladies Organizers' Slack](http://r-ladies.slack.com).
 * Please add your city or chapter to your Slack profile.  
+* The Organizers' Slack has a lot of channels that cover different topics. Explore them and join the ones that you find useful.
 * You can create a channel on the global Slack for communication within the organizing team of your chapter,
   e.g., #rladies-san-francisco.
-* There is a [global "all the R-Ladies" Slack](/comm/slack/).
+* There is also a [global "all the R-Ladies" Slack](/comm/slack/).
 
 ### Etiquette for Slack
 
-* Do not DM people based on their role except if they explicitely ask for it. **Prefer emails over DMs, and prefer official channels to people.** E.g. if you have an email issue, do not DM the person currently in charge of emails but instead send an email to `email@rladies.org`. Slack DMs create notifications hence fatigue; and are hard to keep track of.  
+* **Prefer asking in official channels rather to DM people or sending an email.** This allows us to create collective
+knowledge, i.e., learning from other experiences. It will also ensure you a faster response, as more people will see your question. 
 
 * As a volunteer receiving DMs, feel free to gracefully redirect them to the communication channel of your choice, or to indicate them to use another communication channel next time.
 
@@ -23,43 +25,44 @@ weight: 15
 
 Meetup is an online social platform used to announce events and manage registration to events.
 
-* Ask Patricia (@patriLoto) or Claudia (@claudia) in the \#new\_chapters channel on Slack to help get your meetup.com group set up. R-Ladies [meetup.com](https://www.meetup.com/pro/rladies) accounts are paid for by the R-Ladies Organization using a grant from the [R-Consortium](https://www.r-consortium.org/).
+* We will create your chapter on Meetup during the onboarding process. R-Ladies [meetup.com](https://www.meetup.com/pro/rladies) accounts are paid for by the R-Ladies Organization using a grant from the [R-Consortium](https://www.r-consortium.org/). 
+* You need to have a personal account on Meetup for us to asign you the role of co-organizer there.
 
 **Suggested Meetup Alignment**
 
--   "R-Ladies \[Location\] is part of a worldwide organization to
-    promote Gender Diversity in the R community"
+The meetup page for your chapter will be created with some default text en English. This is what you will find there:
 
--   Intro text about your chapter meetup group
+```markdown
+This is a local chapter of R-Ladies Global (https://www.rladies.org), an organisation that promotes gender diversity in the R community worldwide. We meetup in person or virtually to learn about the R programming language, algorithms and advanced tools. 
 
--   "Here is our Code of Conduct"
+R-Ladies welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
 
-<!-- -->
+We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world. You can access our presentations, R scripts, and Projects on our Github account (https://github.com/rladies) and follow us on Mastodon (https://hachyderm.io/@RLadiesGlobal) to stay up to date about R-Ladies news!
 
--   "To find more details about R-Ladies global initiative by visiting
-    [rladies.org](https://rladies.org/)"
+Make sure you read and comply with our code of conduct (https://rladies.org/coc/) and community guidelines (https://guide.rladies.org/about/mission/#r-ladies-rules--guidelines).
 
--   "Follow us on twitter \@RLadies\[Location\] and \@RLadiesGlobal"
+Please note that by taking part in an R-Ladies event you grant the community organizers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
+```
 
--   "Check out our [R-Ladies
-    Github](https://github.com/rladies)"
+To edit this message an other basic information of your grooup, go to Manage Group > Edit Group Settings and select the 'Basic Information' tab.
 
--   Include statement about photography and filmings - this example is
-    from London chapter:
+-   Feel free to translate this message to your local language(s). 
 
-> **"Photos, Films and all other media/recordings**: photographs and/or
-video/other media will be taken at events held by this community. By
-taking part in an R-Ladies London event you grant the community
-organisers full rights to use the images resulting from the
-photography/video filming/media, and any reproductions or adaptations
-of the images for publicity, fundraising or other purposes to help
-achieve the community's aims. This might include (but is not limited
-to), the right to use them in their printed and online publicity,
-social media, press releases and funding applications. If you do not
-wish to be recorded in these media please inform a community
-organiser."
+-   You can adapt the content, as long as it aligns with our code of conduct and community guidelines. This means 
+    that R-Ladies mission, the code of conduct and the message regarding photography and filmings must be included.
 
--   Check that the URL is `meetup.com/rladies-location`.
+-   You can add links to your chapters' social media if you want. 
+
+-   You can add new topics.
+
+-   Please don't change the name of the group or the meetup url. 
+
+
+{{% notice note %}}
+**Every time you run an event publish it into your chapter Meetup account.** This will keep the chapter active. 
+Only events published on Meetup are considered as chapter activity (because these are the ones we can keep 
+track of).
+{{% /notice %}}
 
 {{% notice tip %}}
 What if Meetup is not a popular platform in your country?
@@ -70,7 +73,7 @@ Make sure to comply with the local rules about personal data protection.
 ### Meetup members management
 
 {{% notice warning %}}
-R-Ladies mission focuses on women and other gender minorities. How can you ensure events are open to all whilst still foremost serving women and other gender minorities?
+R-Ladies mission focuses on women and other gender minorities. How can you ensure events are open to all whilst still foremost serving women and other gender minorities? 
 
 Please do be aware of the relevant Equality Legislation in your jurisdiction, e.g the Equality Act 2010 in the UK, when designing participation frameworks for the majority gender, to ensure your procedures are not infringing  local laws re. potential discrimination.
 {{% /notice %}}
