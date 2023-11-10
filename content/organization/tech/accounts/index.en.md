@@ -132,18 +132,17 @@ in the R-Ladies organizers slack, which includes both requests to access or
 support related questions.
 
 1. Request access to Posit Cloud for your event by submitting the airtable form with 
-the following information: <insert link to form>
-
-An R-Ladies Posit Cloud administrator will review your request as soon as possible. If you do not receive a response withing 7 days you are welcome to flag to the `posit-cloud` channel on the R-Ladies organizers slack. <should this be on community or organizer slack?? the event leaders might not necessarily be on organizer slack>
+the following information: <https://airtable.com/app9vLIWRZAaH2D1Y/shrRFZO7zRNtSrkda>
 
 * Name of the R-Ladies chapter hosting the event.
 * Title of the event.
 * Date of the event.
-* Name of event leader responsible for customizing the Posit Cloud space.
-* Email address of the event leader responsible for customizing the Posit Cloud space.
+* Name of the Posit Cloud space administrator (person responsible for customizing the Posit Cloud space).
+* Email address of the Posit Cloud space administrator.
 * Name of the R-Ladies chapter organizer coordinating the event.
 * Email address of the R-Ladies chapter organizer coordinating the event.
 
+An R-Ladies Posit Cloud administrator will review your request as soon as possible. If you do not receive a response withing 7 days you are welcome to flag to the `posit-cloud` channel on the R-Ladies organizers slack. 
 
 Once the primary event organizer has been granted access, they should be able
 to add other administrative collaborators to the Posit Cloud space.
@@ -165,11 +164,13 @@ within 7 days; otherwise, the invitation needs to be re-sent.
 
 3. Create your project within the Posit Cloud space. Helpful documentation includes:
 
- * [Posit Cloud Guide](https://posit.cloud/learn/guide){target="_blank"}
+ * [Posit Cloud Guide](https://posit.cloud/learn/guide)
  
- * [Posit Cloud Essentials | Ep 1: Getting Started](https://www.youtube.com/watch?v=-fzwm4ZhVQQ){target="_blank"} (~30 min YouTube recording)
+ * [Posit Cloud Essentials | Ep 1: Getting Started](https://www.youtube.com/watch?v=-fzwm4ZhVQQ) (~30 min YouTube recording)
  
- * [Posit Cloud Essentials | Ep 2: Managing Data Projects with Spaces](https://www.youtube.com/watch?v=JdOn8_Co8VI){target="_blank"} (~40 min YouTube recording)
+ * [Posit Cloud Essentials | Ep 2: Managing Data Projects with Spaces](https://www.youtube.com/watch?v=JdOn8_Co8VI) (~40 min YouTube recording)
+ 
+  * [Posit Cloud Essentials | Ep 3: Speed up your data workflows with Project Templates](https://www.youtube.com/watch?v=ppfYco3Dhkc) (~30 min YouTube recording)
 
 4. Change project access to space members.
 
