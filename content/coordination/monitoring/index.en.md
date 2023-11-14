@@ -148,7 +148,7 @@ other related accounts.
 We hope you will consider becoming a member of the R-Ladies Remote
 chapter (https://www.meetup.com/rladies-remote/) and the R-Ladies
 Community slack
-([https://rladies-community-slack.herokuapp.com/](https://rladies-community-slack.herokuapp.com/)),
+([https://rladies.org/community-slack-form](https://rladies.org/community-slack-form)),
 if you are not already.
 
 Best wishes,
@@ -177,7 +177,7 @@ etc. The leadership team will close/suspend these accounts.
 We hope you will consider becoming a member of the R-Ladies Remote
 chapter (https://www.meetup.com/rladies-remote/) and the R-Ladies
 Community slack
-([https://rladies-community-slack.herokuapp.com/](https://rladies-community-slack.herokuapp.com/)),
+([https://rladies.org/community-slack-form](https://rladies.org/community-slack-form)),
 if you are not already.
 
 Best wishes,
