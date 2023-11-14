@@ -50,7 +50,7 @@ If you are unsure whether a post is suitable, best is to ask the Community Manag
 
 ## How to sign up?
 
-Go to the [sign-up link](https://rladies-community-slack.herokuapp.com/).
+Go to the [sign-up link](https://rladies.org/community-slack-form).
 
 ## Gender neutral language
 
