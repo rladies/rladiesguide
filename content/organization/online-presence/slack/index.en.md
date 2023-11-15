@@ -4,7 +4,7 @@ menuTitle: "Slack Workspace"
 weight: 78
 ---
 
-The [organizers' slack](/tech/accounts/#slack) is for organizers, the [community slack](/comm/slack/) is for all R-Ladies.
+The [organizers' slack](/organization/tech/accounts/#slack) is for organizers, the [community slack](/comm/slack/) is for all R-Ladies.
 
 You might want to create a discussion space for your own chapter on Slack or another platform.
 
