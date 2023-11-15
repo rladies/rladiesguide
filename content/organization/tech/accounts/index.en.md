@@ -148,8 +148,8 @@ All correspondence regarding Posit Cloud should be on the `posit-cloud` channel
 in the R-Ladies organizers slack, which includes both requests to access or
 support related questions.
 
-1. Request access to Posit Cloud for your event by submitting the airtable form with 
-the following information: <https://airtable.com/app9vLIWRZAaH2D1Y/shrRFZO7zRNtSrkda>
+1. Request access to Posit Cloud for your event by submitting this [airtable form](https://airtable.com/app9vLIWRZAaH2D1Y/shrRFZO7zRNtSrkda) with 
+the following information: 
 
 * Name of the R-Ladies chapter hosting the event.
 * Title of the event.
@@ -158,14 +158,21 @@ the following information: <https://airtable.com/app9vLIWRZAaH2D1Y/shrRFZO7zRNtS
 * Email address of the Posit Cloud space administrator.
 * Name of the R-Ladies chapter organizer coordinating the event.
 * Email address of the R-Ladies chapter organizer coordinating the event.
+* Is this a one-time workshop or workshop you would like to repeat with the same
+Posit cloud space?
 
-An R-Ladies Posit Cloud administrator will review your request as soon as possible. If you do not receive a response withing 7 days you are welcome to flag to the `posit-cloud` channel on the R-Ladies organizers slack. 
+Please request access at least two weeks in advance of your event to allow time for the 
+the R-Ladies Posit Cloud team to grant access and time for your Posit Cloud administrator
+to set up the Posit Cloud space. If you are less than two weeks in advance of your
+event you may still request access and we will try to accommodate.
 
-Once the primary event organizer has been granted access, they should be able
-to add other administrative collaborators to the Posit Cloud space.
+An R-Ladies Posit Cloud team member will review your request as soon as possible. If you do not receive a response withing 7 days, please post on the the `posit-cloud` channel on the R-Ladies organizers slack
+to notify us that you have not received access. 
+
+Once the Posit Cloud space administrator has been granted access, they can add other administrative collaborators to the Posit Cloud space.
 
 Please note that the invitation to the Posit Cloud space must be accepted
-within 7 days; otherwise, the invitation needs to be re-sent.
+within 7 days; if not, the invitation will expire and will need to be re-sent.
 
 
 2. Edit the About section with information about your workshop. This should include:
@@ -213,10 +220,15 @@ do not affect other students.
 
 ![](img/image10.png)
 
+7. Posit Cloud work spaces may be deleted 2 weeks after your event in order to make room
+for new workshops. If you have indicated that you would like to repeat the workshop
+with the same Posit Cloud space, the R-Ladies Global Posit Cloud Team will contact
+you to see if the space is still needed prior to deletion.
 
-### Posit Cloud Administration
 
-This section is for members of the Global Team who have administrative
+### R-Ladies Posit Cloud Team
+
+This section is for members of R-Ladies Global Posit Cloud Team who have administrative
 access to the Posit Cloud account. 
 
 1. Create a new space. Name the space `chapter-title` and assign to r-ladies account.
