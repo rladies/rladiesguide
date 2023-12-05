@@ -161,7 +161,7 @@ the following information:
 * Is this a one-time workshop or workshop you would like to repeat with the same
 Posit cloud space?
 
-Please request access at least two weeks in advance of your event to allow time for the 
+Please request access **at least two weeks** in advance of your event to allow time for the 
 the R-Ladies Posit Cloud team to grant access and time for your Posit Cloud administrator
 to set up the Posit Cloud space. If you are less than two weeks in advance of your
 event you may still request access and we will try to accommodate.
