@@ -115,3 +115,129 @@ Check out the section about [account security](/organization/tech/security/)
   one repo for your chapter, e.g., `meetup-presentations_london`. If you have code for a
   workshop you can add it to the repository or ask us to create a new repository for that. Please name 
   it location_*, e.g., `london_20161130_h2o-and-r`.
+  
+## Posit Cloud
+
+### About Posit Cloud
+
+[Posit Cloud](https://posit.cloud/) is an online platform from Posit that allows users to work on data science projects without requiring software installation
+on personal computers. This is a particularly attractive option for workshops
+as creators of a Posit Cloud space can ensure all workshop attendees
+are using the same version of both R and R packages, as well as create a directory
+with files to work from.
+
+### Posit Cloud Considerations
+
+Posit Cloud could be a wonderful addition to your R-Ladies meet-ups! Posit Cloud
+would be best suited for workshop style meet-ups where participants are encouraged
+to actively submit code or do exercises.
+
+Use of Posit Cloud requires both administrators of the Posit Cloud space and
+workshop participants to have a Posit Cloud account. This may require
+a bit of extra time to get started as users may need to create an account.
+
+There are limits to the computing capacity of the Posit Cloud account. We haven't
+tested the boundaries, but be aware that computationally heavy workshops could 
+possibly have slow performance.
+
+### Posit Cloud Use
+
+This section is for R-Ladies event organizers requesting access to Posit Cloud.
+
+All correspondence regarding Posit Cloud should be on the `posit-cloud` channel
+in the R-Ladies organizers slack, which includes both requests to access or
+support related questions.
+
+1. Request access to Posit Cloud for your event by submitting this [airtable form](https://airtable.com/app9vLIWRZAaH2D1Y/shrRFZO7zRNtSrkda) with 
+the following information: 
+
+* Name of the R-Ladies chapter hosting the event.
+* Title of the event.
+* Date of the event.
+* Name of the Posit Cloud space administrator (person responsible for customizing the Posit Cloud space).
+* Email address of the Posit Cloud space administrator.
+* Name of the R-Ladies chapter organizer coordinating the event.
+* Email address of the R-Ladies chapter organizer coordinating the event.
+* Is this a one-time workshop or workshop you would like to repeat with the same
+Posit cloud space?
+
+Please request access **at least two weeks** in advance of your event to allow time for the 
+the R-Ladies Posit Cloud team to grant access and time for your Posit Cloud administrator
+to set up the Posit Cloud space. If you are less than two weeks in advance of your
+event you may still request access and we will try to accommodate.
+
+An R-Ladies Posit Cloud team member will review your request as soon as possible. If you do not receive a response withing 7 days, please post on the the `posit-cloud` channel on the R-Ladies organizers slack
+to notify us that you have not received access. 
+
+Once the Posit Cloud space administrator has been granted access, they can add other administrative collaborators to the Posit Cloud space.
+
+Please note that the invitation to the Posit Cloud space must be accepted
+within 7 days; if not, the invitation will expire and will need to be re-sent.
+
+
+2. Edit the About section with information about your workshop. This should include:
+
+* Title of the event.
+* Date of the event.
+* Name(s) of event organizer.
+* Name of the R-Ladies chapter hosting the event.
+* Brief description of the event.
+
+
+![](img/image1.png)
+
+3. Create your project within the Posit Cloud space. Helpful documentation includes:
+
+ * [Posit Cloud Guide](https://posit.cloud/learn/guide)
+ 
+ * [Posit Cloud Essentials | Ep 1: Getting Started](https://www.youtube.com/watch?v=-fzwm4ZhVQQ) (~30 min YouTube recording)
+ 
+ * [Posit Cloud Essentials | Ep 2: Managing Data Projects with Spaces](https://www.youtube.com/watch?v=JdOn8_Co8VI) (~40 min YouTube recording)
+ 
+  * [Posit Cloud Essentials | Ep 3: Speed up your data workflows with Project Templates](https://www.youtube.com/watch?v=ppfYco3Dhkc) (~30 min YouTube recording)
+
+4. Change project access to space members.
+
+![](img/image4.png)
+
+5. Change space access to sharing link with role as Contributor, which allows the 
+event organizer to share a url with participants to join the space. The "Contributor” role
+enables the participants to work in their own personal copy of the project.
+
+![](img/image2.png)
+
+
+6. When users receive a sharing link they will enter the space, they will be required 
+to either login or create a Posit Cloud account. Then users have to click on content 
+to open the project. It may take a couple of minutes for the initial deployment. Then
+users will be invited to make a copy of the project.
+
+![](img/image3.png)
+
+The project copy is labelled as "Private" for the user, indicating that they get
+their own dedicated computing resources, and any changes made in this project
+do not affect other students.
+
+![](img/image10.png)
+
+7. Posit Cloud work spaces may be deleted 2 weeks after your event in order to make room
+for new workshops. If you have indicated that you would like to repeat the workshop
+with the same Posit Cloud space, the R-Ladies Global Posit Cloud Team will contact
+you to see if the space is still needed prior to deletion.
+
+
+### R-Ladies Posit Cloud Team
+
+This section is for members of R-Ladies Global Posit Cloud Team who have administrative
+access to the Posit Cloud account. 
+
+1. Create a new space. Name the space `chapter-title` and assign to r-ladies account.
+
+![](img/image5.png)
+
+2. Add email of primary workshop leader with an Admin role on the space.
+
+![](img/image7.png)
+
+
+
