@@ -31,7 +31,7 @@ Or you might want to volunteer with other R organizations, check out [Minorities
 
 Here's what will happen if you want to start a chapter...
 
-* Send an email to `chapters@rladies.org` indicating who you are and where you would like to start a chapter. Conversation with our onboarding team will ensue.
+* Send an email to `chapters@rladies.org` indicating who you are and where you would like to start a chapter. Conversation with our onboarding team will ensue. Please use a personal email address for correspondence, and not a work or university email address, as these often change or become inactive.
 
 * Your brand-new chapter will be equipped with R-Ladies [tech infrastructure](/organization/tech/accounts), in particular a Meetup account and an [email](/organization/tech/email/). Meetup is an online social platform used to announce events and manage registration to events.
 
