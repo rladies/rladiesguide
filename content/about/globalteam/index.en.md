@@ -50,8 +50,8 @@ As R-Ladies is a purely volunteer run organisation, we respect and encourage you
 need to have vacations, free-time and focus on other aspects of your life. The 
 hours spent on R-Ladies work should happen when you are truly available to do them. 
 We do ask those that are seeking to join the Global Team commit to one year of service 
-(of course, we would understand if life interrupts this commitment), and an estimate
-of the weekly time commitment is 1 to 4 hours a week. In addition, the needs of
+(of course, we would understand if life interrupts this commitment), and an estimated
+weekly time commitment is 1 to 4 hours a week. In addition, the needs of
 the specific roles may vary: some volunteers work on a weekly, monthly, or quarterly
 basis due to natural workload fluctuations.
 
