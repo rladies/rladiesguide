@@ -14,7 +14,8 @@ non-profit organization.
 * various smaller teams critical to operations that support chapter activity
 and global presence.
 
-A description of the members and roles of the Global Team is at <https://rladies.org/about-us/global-team/>. We do our best to keep this up to date;
+A description of the members and roles of the Global Team is at <https://rladies.org/about-us/global-team/>. 
+We do our best to keep this up to date;
 however, global team members are regularly on-boarding or off-boarding, and new teams
 are being formed, so please keep in mind this might not be an exact
 representation.
