@@ -19,7 +19,7 @@ We would, however, love to link to videos in other channels so people can easily
 One way to get your channel more visibility is to have the Global channel subscribe to it. 
 It will then be rotated in the "featured channels" section of the Global channel.
 
-Please [fill in this form](shrv1UVaYyoxsAvzU) to notify us about your channel, and we'll subscribe as soon as we can.
+Please [fill in this form](https://rladies.org/form/youtube) to notify us about your channel, and we'll subscribe as soon as we can.
 
 ### Adding a video from your chapter's channel to a playlist
 The Global channel has a playlist for each language we know there are R-Ladies videos of, and these would be the perfect place to add your chapters videos if you are running your own channel.
