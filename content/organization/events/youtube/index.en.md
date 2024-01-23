@@ -24,7 +24,7 @@ Please [fill in this form](https://rladies.org/form/youtube) to notify us about 
 ### Adding a video from your chapter's channel to a playlist
 The Global channel has a playlist for each language we know there are R-Ladies videos of, and these would be the perfect place to add your chapters videos if you are running your own channel.
 
-Please [fill in this form](shrv1UVaYyoxsAvzU) to notify us about a video you want added to a playlist (or make a new playlist), and we will get to it as soon as we can.
+Please [fill in this form](https://rladies.org/form/youtube) to notify us about a video you want added to a playlist (or make a new playlist), and we will get to it as soon as we can.
 
 ## Contributing to the Global channel
 ### Applying for video upload
