@@ -27,18 +27,7 @@ their events:
 
 1.  Collate the list of inactive chapters and update the
     [InactiveChapters](https://docs.google.com/spreadsheets/d/1eLbqzqmBcrOIrhoWadl9uiKdcSJ1W-vWPMaXbMV8TuQ/)[^spreadsheet1]
-    spreadsheet. To prepare the list of inactive chapters you need to
-    collate information from 2 groups:
-
-    a.  **Chapters operating on meetup.com**\
-    (use the [meetupr
-        package](https://github.com/rladies/meetupr) or
-        Ben Ubah's [R-Ladies
-        dashboard](https://benubah.github.io/r-community-explorer/rladies.html))
-
-    b.  **Chapter not operating on meetup.com**\
-        (mainly working remotely, use this [Google
-        sheet(https://docs.google.com/spreadsheets/d/1DzWreeg00OO1036jW42P3OCDhm-GT0ciWeuHjg4psTw/)[^spreadsheet2])
+    spreadsheet. 
 
 2.  Contact INACTIVE chapters to check whether they need help. Use
     \<chapter\>\@rladies.org. Please, always send emails from your
@@ -47,13 +36,10 @@ their events:
 
     c.  If organisers want to join the [mentoring program](/coordination/mentoring/) point them to
         the form to join the programme
-        (https://goo.gl/forms/MtVTIwBwUFYYW50B3) and inform Florencia
-        D'Andrea (\@flor on slack).
+        (https://goo.gl/forms/MtVTIwBwUFYYW50B3) and inform the Mentoring Team.
 
     d.  If you find it difficult to deal with a particular request for
-        help, let me know or send an email to
-        `chapters@rladies.org`
-        explaining the situation.
+        help, the case can be discussed on the Global Team channel. 
 
 3.  If no answer is received within 2 weeks contact organisers on slack
     (you can use [template A](#email-template-a)).\
@@ -73,12 +59,11 @@ their events:
 
 6.  Retire chapters:
 
-    e.  Delete page on meetup.com (this is done by the Leadership Team -
-        Claudia)
+    e.  Delete page on meetup.com (this is done by the Meetup Team)
 
-    f.  Send a Pull Request to starter kit on GitHub to change the
-        status of the chapter to retire in the file
-        [https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv)
+    f.  Send a Pull Request to change the
+        status of the chapter to retire in the relevant file
+        [on the chapters' data folder](https://github.com/rladies/rladies.github.io/tree/main/data/chapters)
 
     g.  Coordinate with the volunteer(s) responsible for the email accounts to: i.  delete rladies emails used by the chapter (organisers and
             chapter); ii. suspend social media accounts
