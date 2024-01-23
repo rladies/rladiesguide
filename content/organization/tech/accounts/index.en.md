@@ -225,6 +225,57 @@ for new workshops. If you have indicated that you would like to repeat the works
 with the same Posit Cloud space, the R-Ladies Global Posit Cloud Team will contact
 you to see if the space is still needed prior to deletion.
 
+### Posit Cloud FAQ
+
+**1. Under Resources, it gives me the option to change the RAM, COMPUTE, and 
+BACKGROUND EXECUTION LIMIT of the workshop. Can we change these values? Does it 
+cost money to do so?**
+
+Yes, you can change these values; no, it does not cost R-Ladies money. However, 
+if you are doing simple work, maxing out to 16gb and 4CPU is not needed and does
+incur extra costs to Posit.
+
+**2. Does apply changes impact just my own workspace or does it also affect people
+who have created a copy of my project?**
+
+Changes made to already copied projects will only be seen by people copying your
+project after the changes were made. People who had previously copied your project
+will not see the changes unless they copy the project again. 
+
+**3. Am I still limited to 25 compute hour/month if I am using a free personal account
+(even though the Posit Cloud space was created on my behalf by R-Ladies).**
+
+Work done within spaces created in your free personal account is subject to the 25
+compute hours per month. However, any work done within an R-Ladies space will not
+count against your personal account hours. 
+
+**4. Assuming that we do not have endless computing resources, do you think it is 
+a good idea to encourage everyone to create a Posit Cloud ahead of time but to 
+only provide the sharing link to those who actually show up on the day of the event?**
+
+This will not make a big difference in computing resources. Providing the link 
+ahead of time can speed up account creation and login.
+
+
+### R-Ladies Posit Cloud License Terms
+
+| Item                | License                                |
+| ------------------- | -------------------------------------- |
+| INSTRUCTORS         | 10                                     |
+| STUDENTS            | 440                                    |
+| SHARED SPACES       | Unlimited                              |
+| PROJECTS            | Unlimited                              |
+| OUTPUTS             | 100                                    |
+| COMPUTE HOURS       | Unlimited                              |
+| BETA FEATURES       | Configurable                           |
+| MAX RAM             | 16 GB                                  |
+| MAX CPU             | 4 CPU                                  |
+| MAX EXECUTION       | 48 hours per project; 96 hours per job |
+| CONCURRENT PROJECTS | Unlimited                              |
+| DATA CONNECTIONS    | 100 per space                          |
+| PROJECT TEMPLATES   | 1000                                   |
+
+
 
 ### R-Ladies Posit Cloud Team
 
