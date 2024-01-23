@@ -28,7 +28,7 @@ Please [fill in this form](https://rladies.org/form/youtube) to notify us about 
 
 ## Contributing to the Global channel
 ### Applying for video upload
-If you run an R-Ladies chapter and have a video of a meetup you want hosted on the Global channel, please [fill in this form](shrv1UVaYyoxsAvzU) and we wil get to you as soon as we can.  
+If you run an R-Ladies chapter and have a video of a meetup you want hosted on the Global channel, please [fill in this form](https://rladies.org/form/youtube) and we wil get to you as soon as we can.  
 For any questions regarding the videos and this setup procedure, email `youtube@rladies.org`.
 
 ### Do you already have a YouTube account/channel?
