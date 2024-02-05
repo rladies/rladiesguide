@@ -11,6 +11,25 @@ platform. The person in charge needs to be able to commit a few hours weekly.
 Ideally, this will become a team of at least 2 people, to split the workload
 and guarantee requests are addressed any time of the year.
 
+## Why do we use Meetup?
+
+Meetup might not be well-known to you or your region, but it has been a very 
+important platform for many to establish a community. Members can "join" your 
+chapter's page and then subscribe to all your events. This makes it easier 
+for people to never miss an event announcement. 
+
+While you may prefer using other platforms that reach more people in your area,
+we will still require you to register your events on Meetup. Meetup provides the 
+most straight forward way for the Global team to obtain information about chapter
+activity and members. Despite these numbers likely not 100% reflecting chapter 
+memberships, at minimum we can have a singular platform where events are registered.
+The regitering of events on Meetup, makes it possible for the Global Team to 
+create chapter activity reports to our funders, which increases the likelihood
+that funders will continue providing funds for R-Ladies. These funds we use
+to establish global infrastructure, like the Zoom account, E-Mails, Website,
+Calendly for bookings etc. 
+
+
 
 ## What to do
 
