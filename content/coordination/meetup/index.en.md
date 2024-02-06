@@ -29,7 +29,7 @@ that funders will continue providing funds for R-Ladies. These funds we use
 to establish global infrastructure, like the Zoom account, E-Mails, Website,
 Calendly for bookings etc. 
 
-
+A Meetup account is also a requirement for the chapter to be eligible for the [RConsortium RUGs grants](https://www.r-consortium.org/all-projects/r-user-group-support-program). 
 
 ## What to do
 
