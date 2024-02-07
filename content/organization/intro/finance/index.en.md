@@ -75,8 +75,9 @@ R Consortium can offer grants to support the mission of local chapters in facili
    - Fill out all required fields accurately and comprehensively.
    - Ensure that you have prepared a detailed proposal outlining the purpose and scope of your project.
    - Submit the completed application form through the website.
+   - contact Batool again to confirm submission and report the day you submitted your application at.
 
-**Step 4: Fund Disbursement**
+**Step 3: Fund Disbursement**
 4. Upon approval of your grant application by R Consortium, you will receive the grant funds. You have the flexibility to transfer the funds to any suitable account for your chapter's use.
 
 **Optional: Use Open Collective for Transparency**
