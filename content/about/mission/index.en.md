@@ -93,17 +93,15 @@ developers to facilitate individual and collective progress worldwide.
 ## Chapters
 
 Chapters are set up by R-Leaders (identifying as a minority gender) in
-cities around the world. A [starter
-kit](https://github.com/rladies/starter-kit) is available
-for new chapters with guidance on how to get started. Each R-Ladies
-chapter is expected to conduct themselves in accordance with the
-following stipulations:
+cities around the world. In this guide you will find information about
+how to get started. Each R-Ladies chapter is expected to conduct themselves
+in accordance with the following stipulations:
 
 -   Use of the [Meetup](https://www.meetup.com/) platform
     to help organise and promote chapter events, with appropriate
     name, e.g. "R-Ladies \[Location\]"
 
--   Use of a Twitter account to help promote chapter events and
+-   Use of a social media accounts to help promote chapter events and
     publicise R-Ladies Global activities and news, with appropriate
     name, e.g. \@RLadies\[Location\]
 
@@ -113,11 +111,12 @@ following stipulations:
 
 -   Pro-active sharing of relevant learnings, conferences/events,
     resources, news, achievements, ideas, projects, and proposals via
-    the R-Ladies Slack, Twitter, and
+    the R-Ladies Slack, social media, and
     [github](https://github.com/rladies) by chapter leaders.
 
-Email `info@rladies.org` or message on slack
-\#new\_chapters (or \#organisers) with any questions.
+Email `chapters@rladies.org` for inquiries about creating a new chapter or
+reactivating a chapter that is currently inactive. If you are already a chapter
+organizer, you can message on slack \#new\_chapters (or \#organisers) with any questions.
 
 {{% notice tip %}}
 Depending on the local context, folks might be used to only thinking about _women_ in tech.
