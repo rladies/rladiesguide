@@ -98,10 +98,15 @@ and make that explicit during the event. Also be aware that different groups may
 have different policies regarding the gender of event organizers and speakers, and
 be sure to agree upon your event's policy in advance.
 
+Inter-group events should still be hosted via the R-Ladies chapter specific Meetup
+account to ensure that chapter activity is accurately recorded. It is OK to also 
+host the event on multiple accounts if needed, but it is not required. For example, 
+an event hosted between R-Ladies and PyLadies could be hosted on both the R-Ladies 
+chapter Meetup and the PyLadies Meetup to promote awareness among both communities.
 
 Examples
 
-* [Mastering Shiny Bookclub (in collaboration with R-Ladies RTP and Ashton Drew)](https://www.eventbrite.com/e/mastering-shiny-book-club-tickets-135706500797) - In this event R-Ladies RTP partnered with Ashton Drew, who runs her own research consulting and R training company and is also an active member of the R-Ladies RTP chapter. Ashton wanted to open up the event to more than R-Ladies RTP members so R-Ladies RTP agreed to do this if all R-Ladies members were able to join the event free-of-charge using an Eventbrite promo-code. All proceeds collected from non-R-Ladies attendees were donated to R-Ladies Global at the end of the event. Because this was open to folks beyond R-Ladies, Ashton agreed to host the event via her own Eventbrite account, rather than R-Ladies RTP organizers using the chapter's Meetup page. Finally, Ashton was organizing the event for the benefit attendees as well as her own personal desire to learn the material alongside other members of the R-Ladies and larger R community.
+* [Mastering Shiny Bookclub (in collaboration with R-Ladies RTP and Ashton Drew)](https://www.eventbrite.com/e/mastering-shiny-book-club-tickets-135706500797) - In this event R-Ladies RTP partnered with Ashton Drew, who runs her own research consulting and R training company and is also an active member of the R-Ladies RTP chapter. Ashton wanted to open up the event to more than R-Ladies RTP members so R-Ladies RTP agreed to do this if all R-Ladies members were able to join the event free-of-charge using an Eventbrite promo-code. All proceeds collected from non-R-Ladies attendees were donated to R-Ladies Global at the end of the event. Finally, Ashton was organizing the event for the benefit attendees as well as her own personal desire to learn the material alongside other members of the R-Ladies and larger R community.
 
 ## During events
 
