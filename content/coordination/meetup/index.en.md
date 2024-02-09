@@ -23,7 +23,7 @@ we will still require you to register your events on Meetup. Meetup provides the
 most straight forward way for the Global team to obtain information about chapter
 activity and members. Despite these numbers likely not 100% reflecting chapter 
 memberships, at minimum we can have a singular platform where events are registered.
-The regitering of events on Meetup, makes it possible for the Global Team to 
+The registering of events on Meetup makes it possible for the Global Team to 
 create chapter activity reports to our funders, which increases the likelihood
 that funders will continue providing funds for R-Ladies. These funds we use
 to establish global infrastructure, like the Zoom account, E-Mails, Website,
