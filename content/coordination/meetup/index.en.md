@@ -11,28 +11,6 @@ platform. The person in charge needs to be able to commit a few hours weekly.
 Ideally, this will become a team of at least 2 people, to split the workload
 and guarantee requests are addressed any time of the year.
 
-## Why do we use Meetup?
-
-Meetup might not be well-known to you or your region, but it has been a very 
-important platform for many to establish a community. Members can "join" your 
-chapter's page and then subscribe to all your events. This makes it easier 
-for people to never miss an event announcement. 
-
-While you may prefer using other platforms that reach more people in your area,
-we still require you to register your events on Meetup. Meetup provides the 
-most straight forward way for the Global team to obtain information about chapter
-activity and members. Despite these numbers likely not 100% reflecting chapter 
-memberships, at minimum we can have a singular platform where events are registered.
-Registering events on Meetup enables the Global Team to create chapter activity reports
-required for our funders. These reports are then used to justify a continuation (or modification, 
-if needed) of our funding agreement. These funds are used to pay for for global operations,
- including Meetup, Zoom, E-Mails, Website hosting, Calendly for bookings, and more.
-
-A Meetup account is also a requirement for the chapter to be eligible for the [RConsortium RUGs grants](https://www.r-consortium.org/all-projects/r-user-group-support-program). 
-
-Thank you for helping the Global Team track chapter activity so that we may continue
-to secure the funding that serves this community.
-
 ## What to do
 
 -   Monitor the notifications of \@rladies/meetup-pro on GitHub.
