@@ -19,7 +19,7 @@ chapter's page and then subscribe to all your events. This makes it easier
 for people to never miss an event announcement. 
 
 While you may prefer using other platforms that reach more people in your area,
-we will still require you to register your events on Meetup. Meetup provides the 
+we still require you to register your events on Meetup. Meetup provides the 
 most straight forward way for the Global team to obtain information about chapter
 activity and members. Despite these numbers likely not 100% reflecting chapter 
 memberships, at minimum we can have a singular platform where events are registered.
