@@ -170,7 +170,7 @@ All correspondence regarding Posit Cloud should be on the `posit-cloud` channel
 in the R-Ladies organizers slack, which includes both requests to access or
 support related questions.
 
-1. Request access to Posit Cloud for your event by submitting this [airtable form](https://airtable.com/app9vLIWRZAaH2D1Y/shrRFZO7zRNtSrkda) with 
+1. Request access to Posit Cloud for your event by submitting the [Posit Cloud Request  form](https://rladies.org/form/posit-cloud-request) with 
 the following information: 
 
 * Name of the R-Ladies chapter hosting the event.
@@ -277,6 +277,16 @@ only provide the sharing link to those who actually show up on the day of the ev
 
 This will not make a big difference in computing resources. Providing the link 
 ahead of time can speed up account creation and login.
+
+**5. How much storage space is available for projects under the R-Ladies Posit Cloud
+License Terms? Our workshop instructors are wondering if it will be possible for
+participants to use a 10GB dataset for the workshop. It would also involve writing
+to disk in a few different formats (CSV, then partitioned CSV, then parquet).**
+
+The storage space for the project is around 20gb. However, I would not advise using a 10GB dataset for a workshop on Posit Cloud because you will likely run into performance issues, especially around importing. We only recommend up to [500mb](https://posit.cloud/learn/guide#project-settings-resources) files in the user guide.
+
+For workshops intentionally using flat files (and not db connections), many instructors will offer a randomized subset that will work on Posit Cloud and the full file for those wanting to wrangle the very large files locally. 
+
 
 
 ### R-Ladies Posit Cloud License Terms
