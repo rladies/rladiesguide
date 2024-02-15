@@ -37,6 +37,7 @@ we still require you to register your events on Meetup. Meetup provides the
 most straight forward way for the Global Team to obtain information about chapter
 activity and members. Despite these numbers likely not 100% reflecting chapter 
 memberships, at minimum we can have a singular platform where events are registered.
+
 Registering events on Meetup enables the Global Team to create chapter activity reports
 required for our funders. These reports are then used to justify a continuation (or modification, 
 if needed) of our funding agreement. These funds are used to pay for for global operations,
