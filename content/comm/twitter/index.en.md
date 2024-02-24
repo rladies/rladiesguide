@@ -132,7 +132,7 @@ Otherwise it gets too messy /stressful.
 ```
 This account doesn't do Q&A, you should join our community Slack to ask such questions 🙂
 
-https://rladies.org/community-slack-form
+https://rladies.org/form/community-slack/
 ```
     
 
