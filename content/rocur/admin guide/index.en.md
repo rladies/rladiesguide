@@ -121,7 +121,7 @@ Before the infographic for next week's curator is posted, be sure to (note that 
   
 In addition to the Twitter Handle, other means of communication that the @WeAreRLadies admin team have access to are:  
 * The Rocur email address, WeAre@rladies.org;    
-* The #rocur_twitter channel on the [R-Ladies Community Slack](https://rladies.org/community-slack-form).  
+* The #rocur_twitter channel on the [R-Ladies Community Slack](https://rladies.org/form/community-slack/).  
   
 Admin team members are added as admin to the @WeAreRLadies Twitter handle on Tweetdeck. Additionally, admin members will have access to a shared Google Drive with templates, files, and other documentation.   
     
