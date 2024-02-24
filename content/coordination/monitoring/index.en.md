@@ -36,7 +36,7 @@ their events:
 
     c.  If organisers want to join the [mentoring program](/coordination/mentoring/) point them to
         the form to join the programme
-        (https://goo.gl/forms/MtVTIwBwUFYYW50B3) and inform the Mentoring Team.
+        (https://rladies.org/form/mentoring-signup/) and inform the Mentoring Team.
 
     d.  If you find it difficult to deal with a particular request for
         help, the case can be discussed on the Global Team channel. 

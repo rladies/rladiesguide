@@ -8,9 +8,9 @@ R-Ladies Global has a system for review and feedback of conference abstracts and
 
 ## User/volunteer facing docs
 
-* [Submit a proposal/abstract for review](https://docs.google.com/forms/d/e/1FAIpQLSck8FBjNWjziI8pPIoCBlf5J4oQ_6pzeUdbQ1HjYfJ2bNDwDw/viewform?usp=send_form) ( Please request feedback no later than three weeks before your conference deadline. )
+* [Submit a proposal/abstract for review](https://rladies.org/form/abstract-request/) ( Please request feedback no later than three weeks before your conference deadline. )
 
-* [Become a reviewer](https://docs.google.com/forms/d/e/1FAIpQLSdj44iOqfg6cyhRH57YjQuI-OjbksDmY5LHfsqGSXZrhOONTw/viewform)
+* [Become a reviewer](https://rladies.org/form/abtract-volunteer/)
 
 ## Behind-the-scenes
 
