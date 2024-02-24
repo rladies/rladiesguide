@@ -3,6 +3,7 @@
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5c1de840-3687-4b5f-bbb2-8d65e9cf9728/deploy-status)](https://app.netlify.com/sites/r-ladies-guide/deploys)
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10659414.svg)](https://doi.org/10.5281/zenodo.10659414)
 <!-- badges: end -->
 
 The goal of rladiesguide is to consolidate R-Ladies Global organisational guidance & wisdom.

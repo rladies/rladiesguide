@@ -1,0 +1,41 @@
+name: Annual Release
+
+on:
+  schedule:
+    # Schedule to run at midnight on December 31st of every year
+    - cron: '0 0 31 12 *'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout your repository
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      
+      # Set up Git user
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      # Create a tag for the release
+      - name: Create Tag
+        run: |
+          CURRENT_YEAR=$(date +"%Y")
+          echo "CURRENT_YEAR=$CURRENT_YEAR" >> $GITHUB_ENV
+          git tag -a "annual-release-$CURRENT_YEAR" -m "Annual release $CURRENT_YEAR"
+          git push origin "annual-release-$CURRENT_YEAR"
+      
+      # Create a GitHub Release
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: "annual-release-${{ env.CURRENT_YEAR }}"
+          release_name: "Annual Release ${{ env.CURRENT_YEAR }}"
+          draft: false
+          prerelease: false
+          body: "${{ env.CURRENT_YEAR }} release of the R-Ladies guide."
