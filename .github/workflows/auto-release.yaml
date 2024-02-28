@@ -2,8 +2,8 @@ name: Annual Release
 
 on:
   schedule:
-    # Schedule to run at midnight on December 31st of every year
-    - cron: '0 0 31 12 *'
+    # Schedule to run at midnight on quarterly basis
+    - cron: '0 0 30 3,6,9,12 *'
 
 jobs:
   create-release:
@@ -23,19 +23,19 @@ jobs:
       # Create a tag for the release
       - name: Create Tag
         run: |
-          CURRENT_YEAR=$(date +"%Y")
-          echo "CURRENT_YEAR=$CURRENT_YEAR" >> $GITHUB_ENV
-          git tag -a "annual-release-$CURRENT_YEAR" -m "Annual release $CURRENT_YEAR"
-          git push origin "annual-release-$CURRENT_YEAR"
-      
+          RELEASE="$(date +"%Y").$(date +"%m")"
+          echo "RELEASE=$RELEASE" >> $GITHUB_ENV
+          git tag -a $RELEASE -m "Automatic release $RELEASE"
+          git push origin release-$RELEASE
+          
       # Create a GitHub Release
       - name: Create GitHub Release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: "annual-release-${{ env.CURRENT_YEAR }}"
-          release_name: "Annual Release ${{ env.CURRENT_YEAR }}"
+          tag_name: "${{ env.RELEASE }}"
+          release_name: "Automatic Release ${{ env.RELEASE }}"
           draft: false
           prerelease: false
-          body: "${{ env.CURRENT_YEAR }} release of the R-Ladies guide."
+          body: "${{ env.RELEASE }} release of the R-Ladies guide."
