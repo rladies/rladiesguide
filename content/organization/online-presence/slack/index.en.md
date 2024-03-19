@@ -4,7 +4,7 @@ menuTitle: "Slack Workspace"
 weight: 78
 ---
 
-The [organizers' slack](/tech/accounts/#slack) is for organizers, the [community slack](/comm/slack/) is for all R-Ladies.
+The [organizers' slack](/organization/tech/accounts/#slack) is for organizers, the [community slack](/comm/slack/) is for all R-Ladies.
 
 You might want to create a discussion space for your own chapter on Slack or another platform.
 
@@ -16,5 +16,5 @@ In any case encourage the members of your chapter to join the [community slack](
 
 {{% notice warning %}}
 If you wish the local slack workspace to be only for women and gender minorities, be explicit about it.
-You might want to read the [phrasing used for the community slack](/comm/slack/), see also the form used for [sign up](https://rladies-community-slack.herokuapp.com/)
+You might want to read the [phrasing used for the community slack](/comm/slack/), see also the form used for [sign up](https://rladies.org/form/community-slack/)
 {{% /notice %}}

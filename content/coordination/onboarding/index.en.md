@@ -183,7 +183,7 @@ Hi \<\<first name\>\>,
 Thanks for reaching out.
 
 My recommendation would be to join the R-Ladies community slack channel
-(https://rladies-community-slack.herokuapp.com/) and start a
+(https://rladies.org/form/community-slack/) and start a
 conversation with fellow R-Ladies.
 
 Also, please check out this dashboard to find out whether there is a

@@ -67,7 +67,10 @@ R-Ladies Global Communications Team
 ```
 Dear XXXX,
 
-Thanks so much for adding your name to the R-Ladies Global directory! If you're interested and are not already a member, please feel free to join our R-Ladies Global Community Slack. You can sign up here: https://rladies-community-slack.herokuapp.com/. It's a fun and welcoming space to meet other members of R-Ladies Global, talk about how awesome R is, and ask R questions.
+Thanks so much for adding your name to the R-Ladies Global directory! 
+If you're interested and are not already a member, please feel free to join our R-Ladies Global Community Slack. 
+You can sign up using the [Community sign-up form](https://rladies.org/form/community-slack/). 
+It's a fun and welcoming space to meet other members of R-Ladies Global, talk about how awesome R is, and ask R questions.
 
 All the best,
 XXXX
