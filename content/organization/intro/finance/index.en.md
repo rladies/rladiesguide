@@ -64,7 +64,7 @@ Refer to [The User Group Program](https://www.r-consortium.org/projects/r-user-g
 R Consortium can offer grants to support the mission of local chapters in facilitating the exchange of knowledge and the formation of enduring R user group communities. These grants are aimed at assisting active user groups in their efforts to foster R-related learning and collaboration within their chapters. This document outlines the step-by-step process for applying for an R Consortium grant through R-Ladies.
 
 **Step 1: Express Interest**
-1. Contact [Batool Almarzouq](balmarzouq@turing.ac.uk) from the R-Ladies Global Team to express your interest in applying for an R Consortium grant.
+1. Contact [Batool Almarzouq](grants@rladies.org) from the R-Ladies Global Team to express your interest in applying for an R Consortium grant.
    - In your communication, specify the following details:
      - The desired grant amount.
      - The R-Ladies chapter for which you are applying.
