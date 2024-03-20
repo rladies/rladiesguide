@@ -7,7 +7,7 @@ weight: 1
 ## Goal
 
 The goal of this activity is to start a conversation with prospective
-organizers, answer any questions and send information on how to get a
+organisers, answer any questions and send information on how to get a
 new chapter started. This activity can be carried out by a team of 2
 people, to split the workload and guarantee requests are addressed
 timely.
@@ -18,7 +18,7 @@ timely.
     Team, the messages to this account are forwarded to the email
     address you provided during your own onboarding process.
 
--   On the rladies.org website, we ask any prospective organizers to get
+-   On the rladies.org website, we ask any prospective organisers to get
     in touch via email. Especially during conferences, we may receive
     a high volume of requests for information. If possible, this email
     address should be monitored daily.
@@ -35,7 +35,7 @@ timely.
     ([https://github.com/rladies/rladies.github.io/tree/main/data/chapters](https://github.com/rladies/rladies.github.io/tree/main/data/chapters))
     to make sure the city does not have a chapter yet. You can use CTRL+F to search using the city's name.
 
--   If there is a chapter already, check the name of the organizers
+-   If there is a chapter already, check the name of the organisers
     match
     
 -   Ask the person to confirm they identify as a woman or gender minority and are interested in the R programming language (just an ok, we are not collecting information).
@@ -60,24 +60,24 @@ For alignment with the R-Ladies mission, can you just write an ok as an answer t
 
         -   Country
 
-        -   Organizers
+        -   Organisers
 
         -   Status = Prospective
 
--   Invite organizers to the organizers slack.
+-   Invite organisers to the organisers slack.
 
--   Send the prospective organizer an email with all the most important
+-   Send the prospective organiser an email with all the most important
     information and links (see [Appendix A](#appendix-a))
 
 -   **Other types of requests:**
 
-    -   People may ask to be added to the organizer slack, please check
-        if their name is in the meetup list of co-organizers. If not,
+    -   People may ask to be added to the organiser slack, please check
+        if their name is in the meetup list of co-organisers. If not,
         ask why.
 
-    -   Change list of organizers :\
-        Check and amend the list of organizers here:\
-        Email the former organizer for confirmation (see [template B](#appendix-b)).
+    -   Change list of organisers :\
+        Check and amend the list of organisers here:\
+        Email the former organiser for confirmation (see [template B](#appendix-b)).
 
     -   General information -\point them to the community slack and
         meetup dashboard (see [template C](#appendix-c))
@@ -111,8 +111,8 @@ In the Slack, together with all R-Ladies chapters organizers worldwide,
 you will find the
 R-Ladies Global leadership team. Feel free to reach out to them through
 the channel #ask_the_leadership if you have questions that are not
-addressed in the Starter Kit, or the Guidelines, or that other organizers
-cannot answer. More info about the R-Ladies Global team is here:
+addressed in the Guidelines or that other organisers
+cannot answer. More info about the R-Ladies Global team is can be found on the R-Ladies website:
 https://rladies.org/about-us/team/.
 
 There is no specific time frame for launching the chapter. Note that if
@@ -143,29 +143,29 @@ we can add them to our records."
 
 ## Appendix B
 
-> confirm list of organizers - email template
+> confirm list of organisers - email template
 
 ```markdown
 Hi \<\<first name\>\>,
 
-Thanks for sending through the updated list of organizers. I sent the
-slack invites to the new organizers.
+Thanks for sending through the updated list of organisers. I sent the
+slack invites to the new organisers.
 
-We keep information about chapters and organizers on this list on
+We keep information about chapters and organisers on this list on
 GitHub:
 https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv.
 
--   Could you please send name and surname of the new organizers so that
+-   Could you please send name and surname of the new organisers so that
     I can update the chapter list?
 
 -   Could you also please confirm whether I should remove the following
-    from the list of organizers?
+    from the list of organisers?
 
     -   \<\<NAME1\>\>
 
     -   \<\<NAME2\>\>
 
-We assume former organizers provide all the necessary information to new
+We assume former organisers provide all the necessary information to new
 organisers before passing the baton :)
 
 Kind regards,
