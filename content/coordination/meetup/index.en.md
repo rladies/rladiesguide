@@ -11,7 +11,6 @@ platform. The person in charge needs to be able to commit a few hours weekly.
 Ideally, this will become a team of at least 2 people, to split the workload
 and guarantee requests are addressed any time of the year.
 
-
 ## What to do
 
 -   Monitor the notifications of \@rladies/meetup-pro on GitHub.

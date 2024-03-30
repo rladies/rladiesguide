@@ -25,6 +25,28 @@ knowledge, i.e., learning from other experiences. It will also ensure you a fast
 
 Meetup is an online social platform used to announce events and manage registration to events.
 
+### Why do we use Meetup?
+
+Meetup might not be well-known to you or your region, but it has been a very 
+important platform for many to establish a community. Members can "join" your 
+chapter's page and then subscribe to all your events. This makes it easier 
+for people to never miss an event announcement. 
+
+While you may prefer using other platforms that reach more people in your area,
+we still require you to register your events on Meetup. Meetup provides the 
+most straight forward way for the Global Team to obtain information about chapter
+activity and members. Despite these numbers likely not 100% reflecting chapter 
+memberships, at minimum we can have a singular platform where events are registered.
+
+Registering events on Meetup enables the Global Team to create chapter activity reports
+required for our funders. These reports are then used to justify a continuation (or modification, 
+if needed) of our funding agreement. These funds are used to pay for for global operations,
+ including Meetup, Zoom, E-Mails, Website hosting, Calendly for bookings, and more.
+
+A Meetup account is also a requirement for the chapter to be eligible for the [RConsortium RUGs grants](https://www.r-consortium.org/all-projects/r-user-group-support-program). 
+
+### Creating your chapter on Meetup
+
 * We will create your chapter on Meetup during the onboarding process. R-Ladies [meetup.com](https://www.meetup.com/pro/rladies) accounts are paid for by the R-Ladies Organization using a grant from the [R-Consortium](https://www.r-consortium.org/). 
 * You need to have a personal account on Meetup for us to asign you the role of co-organizer there.
 
@@ -44,7 +66,7 @@ Make sure you read and comply with our code of conduct (https://rladies.org/coc/
 Please note that by taking part in an R-Ladies event you grant the community organizers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
 ```
 
-To edit this message an other basic information of your grooup, go to Manage Group > Edit Group Settings and select the 'Basic Information' tab.
+To edit this message and other basic information of your group, go to Manage Group > Edit Group Settings and select the 'Basic Information' tab.
 
 -   Feel free to translate this message to your local language(s). 
 
@@ -148,7 +170,7 @@ All correspondence regarding Posit Cloud should be on the `posit-cloud` channel
 in the R-Ladies organizers slack, which includes both requests to access or
 support related questions.
 
-1. Request access to Posit Cloud for your event by submitting this [airtable form](https://airtable.com/app9vLIWRZAaH2D1Y/shrRFZO7zRNtSrkda) with 
+1. Request access to Posit Cloud for your event by submitting the [Posit Cloud Request  form](https://rladies.org/form/posit-cloud-request) with 
 the following information: 
 
 * Name of the R-Ladies chapter hosting the event.
@@ -224,6 +246,67 @@ do not affect other students.
 for new workshops. If you have indicated that you would like to repeat the workshop
 with the same Posit Cloud space, the R-Ladies Global Posit Cloud Team will contact
 you to see if the space is still needed prior to deletion.
+
+### Posit Cloud FAQ
+
+**1. Under Resources, it gives me the option to change the RAM, COMPUTE, and 
+BACKGROUND EXECUTION LIMIT of the workshop. Can we change these values? Does it 
+cost money to do so?**
+
+Yes, you can change these values; no, it does not cost R-Ladies money. However, 
+if you are doing simple work, maxing out to 16gb and 4CPU is not needed and does
+incur extra costs to Posit.
+
+**2. Does apply changes impact just my own workspace or does it also affect people
+who have created a copy of my project?**
+
+Changes made to already copied projects will only be seen by people copying your
+project after the changes were made. People who had previously copied your project
+will not see the changes unless they copy the project again. 
+
+**3. Am I still limited to 25 compute hour/month if I am using a free personal account
+(even though the Posit Cloud space was created on my behalf by R-Ladies).**
+
+Work done within spaces created in your free personal account is subject to the 25
+compute hours per month. However, any work done within an R-Ladies space will not
+count against your personal account hours. 
+
+**4. Assuming that we do not have endless computing resources, do you think it is 
+a good idea to encourage everyone to create a Posit Cloud ahead of time but to 
+only provide the sharing link to those who actually show up on the day of the event?**
+
+This will not make a big difference in computing resources. Providing the link 
+ahead of time can speed up account creation and login.
+
+**5. How much storage space is available for projects under the R-Ladies Posit Cloud
+License Terms? Our workshop instructors are wondering if it will be possible for
+participants to use a 10GB dataset for the workshop. It would also involve writing
+to disk in a few different formats (CSV, then partitioned CSV, then parquet).**
+
+The storage space for the project is around 20gb. However, I would not advise using a 10GB dataset for a workshop on Posit Cloud because you will likely run into performance issues, especially around importing. We only recommend up to [500mb](https://posit.cloud/learn/guide#project-settings-resources) files in the user guide.
+
+For workshops intentionally using flat files (and not db connections), many instructors will offer a randomized subset that will work on Posit Cloud and the full file for those wanting to wrangle the very large files locally. 
+
+
+
+### R-Ladies Posit Cloud License Terms
+
+| Item                | License                                |
+| ------------------- | -------------------------------------- |
+| INSTRUCTORS         | 10                                     |
+| STUDENTS            | 440                                    |
+| SHARED SPACES       | Unlimited                              |
+| PROJECTS            | Unlimited                              |
+| OUTPUTS             | 100                                    |
+| COMPUTE HOURS       | Unlimited                              |
+| BETA FEATURES       | Configurable                           |
+| MAX RAM             | 16 GB                                  |
+| MAX CPU             | 4 CPU                                  |
+| MAX EXECUTION       | 48 hours per project; 96 hours per job |
+| CONCURRENT PROJECTS | Unlimited                              |
+| DATA CONNECTIONS    | 100 per space                          |
+| PROJECT TEMPLATES   | 1000                                   |
+
 
 
 ### R-Ladies Posit Cloud Team

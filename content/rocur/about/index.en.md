@@ -83,7 +83,7 @@ Individuals may sign up for repeat curation if it has been at least two years si
    
 ## Contact Us  
   
-This RoCur is managed by R-Ladies Global members. You can email us at `WeAre@rladies.org` or at the **#rocur_twitter** channel on the [R-Ladies Community Slack](https://rladies-community-slack.herokuapp.com/).  
+This RoCur is managed by R-Ladies Global members. You can email us at `WeAre@rladies.org` or at the **#rocur_twitter** channel on the [R-Ladies Community Slack](https://rladies.org/form/community-slack/).  
   
 
   
