@@ -30,12 +30,12 @@ jobs:
         name: "Comment to greet and remind"
         if: env.new_contributor == 'true'
         with:
-            github-token: ${{ secrets.GITHUB_TOKEN }}
-        script: |
-            const PR_AUTHOR = context.payload.pull_request.user.login
-            await github.rest.issues.createComment({
-                issue_number: ${{ github.event.pull_request.number}},
-                owner: 'rladies',
-                repo: 'rladiesguide',
-                body: `Welcome ${PR_AUTHOR}! It looks like this is your first contribution to this repository. 🎉\n\nPlease remember to add yourself to the '.zenodo.json'.`
-            })  
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+              const PR_AUTHOR = context.payload.pull_request.user.login
+              await github.rest.issues.createComment({
+                  issue_number: ${{ github.event.pull_request.number}},
+                  owner: 'rladies',
+                  repo: 'rladiesguide',
+                  body: `Welcome ${PR_AUTHOR}! It looks like this is your first contribution to this repository. 🎉\n\nPlease remember to add yourself to the '.zenodo.json'.`
+              })  
