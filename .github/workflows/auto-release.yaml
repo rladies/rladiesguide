@@ -1,0 +1,40 @@
+name: Annual Release
+
+on:
+  schedule:
+    # Schedule to run at midnight on the 1st of January, April, July, and October
+    - cron: '0 0 1 1,4,7,10 *'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout your repository
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      
+      # Set up Git user
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      # Create a tag for the release
+      - name: Create Tag
+        run: |
+          RELEASE="$(date +"%Y").$(date +"%m")"
+          echo "RELEASE=$RELEASE" >> $GITHUB_ENV
+          git tag -a "$RELEASE" -m "Automatic release $RELEASE"
+          git push origin "$RELEASE"
+          
+      # Create a GitHub Release
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.RELEASE }}
+          name: "Automatic Release ${{ env.RELEASE }}"
+          body: "Quarterly release of the R-Ladies guide."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
