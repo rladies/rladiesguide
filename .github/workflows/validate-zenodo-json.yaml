@@ -15,6 +15,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: install curl headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev
+
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
