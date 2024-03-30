@@ -8,11 +8,11 @@ on:
 jobs:
   create-release:
     runs-on: ubuntu-latest
-
     steps:
       # Checkout your repository
       - name: Checkout repo
         uses: actions/checkout@v4
+
       
       # Set up Git user
       - name: Configure Git
@@ -37,4 +37,4 @@ jobs:
           body: "Quarterly release of the R-Ladies guide."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
