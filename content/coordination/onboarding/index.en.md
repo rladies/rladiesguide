@@ -51,7 +51,7 @@ For alignment with the R-Ladies mission, can you just write an ok as an answer t
 
     -   We make sure it is a city using Google Maps
 
-    -   We add the chapter to current chapters.csv, only the info below
+    -   We add the chapter to the chapter data (https://github.com/rladies/rladies.github.io/tree/main/data/chapters), only the info below
         (no email address):
 
         -   City
