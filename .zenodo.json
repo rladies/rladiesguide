@@ -5,10 +5,10 @@
     
     "keywords": ["operational guide", "community guide"],
 
-    "license": {"id": "cc-by-4.0"},
+    "license": "cc-by-4.0",
 
-    "communities": [{"id": "rladies"}],
-    
+    "communities": [{"identifier": "rladies"}],
+
     "creators": [
       {
         "name": "R-Ladies Global Team",
@@ -21,7 +21,6 @@
       },
       {
         "name": "Simeon, Katherine",
-        "affiliation": null,
         "orcid": "0000-0002-0170-5585"
       },
       {
@@ -45,12 +44,10 @@
       },
       {
         "name": "Quiroga, Riva",
-        "affiliation": null,
         "orcid": "0000-0002-1147-4135"
       },
       {
         "name": "Frick, Hannah",
-        "affiliation": null,
         "orcid": "0000-0002-6049-5258"
       },
       {
@@ -65,74 +62,58 @@
       },
       {
         "name": "Almarzouq, Batool",
-        "affiliation": null,
         "orcid": "0000-0002-3905-2751"
       },
       {
-        "name": "Thompson, Jennifer",
-        "affiliation": null
+        "name": "Thompson, Jennifer"
       },
       {
         "name": "Vitolo, Claudia",
-        "affiliation": null,
         "orcid": "0000-0002-4252-1176"
       },
       {
         "name": "Rüegger, Sina",
-        "affiliation": null,
         "orcid": "0009-0000-7190-9922"
       },
       {
         "name": "Acion, Laura",
-        "affiliation": null,
         "orcid": "0000-0001-5213-6012"
       },
       {
-        "name": "de Quieroz, Gabriela",
-        "affiliation": null
+        "name": "de Quieroz, Gabriela"
       },
       {
-        "name": "Belaid, Mouna",
-        "affiliation": null
+        "name": "Belaid, Mouna"
       },
       {
-        "name": "Daish, Alice",
-        "affiliation": null
+        "name": "Daish, Alice"
       },
       {
-        "name": "Mostipak, Jesse",
-        "affiliation": null
+        "name": "Mostipak, Jesse"
       },
       {
-        "name": "Loto, Patricia A.",
-        "affiliation": null
+        "name": "Loto, Patricia A."
       },
       {
         "name": "Vazquez, Daniela",
-        "affiliation": null,
         "orcid": "0000-0001-8016-1469"
       },
       {
-        "name": "Columbus, Alyssa",
-        "affiliation": null
+        "name": "Columbus, Alyssa"
       },
       {
         "name": "Ravi, Janani",
-        "affiliation": null,
         "orcid": "0000-0001-7443-925X"
       },
       {
-        "name": "Hernández, Bea",
-        "affiliation": null
+        "name": "Hernández, Bea"
       },
       {
         "name": "Sero, Nadejda B",
-        "affiliation": null,
         "orcid": "0000-0002-3569-2014"
       },
       {
         "name": "D'Andrea, Florencia",
-        "affiliation": null,
         "orcid": "0000-0002-0041-097X"
       }
     ]
