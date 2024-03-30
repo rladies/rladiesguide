@@ -20,6 +20,7 @@ jobs:
 
       - name: Install Dependencies
         run: install.packages("jsonvalidate")
+        shell: Rscript {0}
 
       - name: Get JSON schema
         run: |
