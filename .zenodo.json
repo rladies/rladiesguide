@@ -1,0 +1,139 @@
+ {
+    "title": "R-Ladies organizational guidance",
+
+    "description": "Source content for R-Ladies organizational guidance",
+    
+    "keywords": ["operational guide", "community guide"],
+
+    "license": {"id": "cc-by-4.0"},
+
+    "communities": [{"id": "rladies"}],
+    
+    "creators": [
+      {
+        "name": "R-Ladies Global Team",
+        "affiliation": "R-Ladies Global"
+      },
+      {
+        "name": "Salmon, Maëlle",
+        "affiliation": "@ropensci",
+        "orcid": "0000-0002-2815-0399"
+      },
+      {
+        "name": "Simeon, Katherine",
+        "affiliation": null,
+        "orcid": "0000-0002-0170-5585"
+      },
+      {
+        "name": "Pileggi, Shannon",
+        "affiliation": "The Prostate Cancer Clinical Trials Consortium",
+        "orcid": "0000-0002-7732-4164"
+      },
+      {
+        "name": "Mowinckel, Athanasia Monika",
+        "affiliation": "@LCBC-UiO",
+        "orcid": "0000-0002-5756-0223"
+      },
+      {
+        "name": "Saibene, Yanina Bellini",
+        "affiliation": "@ropensci",
+        "orcid": "0000-0002-4522-7466"
+      },
+      {
+        "name": "LeDell, Erin",
+        "affiliation": "@h2oai"
+      },
+      {
+        "name": "Quiroga, Riva",
+        "affiliation": null,
+        "orcid": "0000-0002-1147-4135"
+      },
+      {
+        "name": "Frick, Hannah",
+        "affiliation": null,
+        "orcid": "0000-0002-6049-5258"
+      },
+      {
+        "name": "Gazzelloni, Federica",
+        "affiliation": "Data Scientist",
+        "orcid": "0000-0002-4285-611X"
+      },
+      {
+        "name": "Saia, Sheila",
+        "affiliation": "Tetra Tech",
+        "orcid": "0000-0002-4943-0306"
+      },
+      {
+        "name": "Almarzouq, Batool",
+        "affiliation": null,
+        "orcid": "0000-0002-3905-2751"
+      },
+      {
+        "name": "Thompson, Jennifer",
+        "affiliation": null
+      },
+      {
+        "name": "Vitolo, Claudia",
+        "affiliation": null,
+        "orcid": "0000-0002-4252-1176"
+      },
+      {
+        "name": "Rüegger, Sina",
+        "affiliation": null,
+        "orcid": "0009-0000-7190-9922"
+      },
+      {
+        "name": "Acion, Laura",
+        "affiliation": null,
+        "orcid": "0000-0001-5213-6012"
+      },
+      {
+        "name": "de Quieroz, Gabriela",
+        "affiliation": null
+      },
+      {
+        "name": "Belaid, Mouna",
+        "affiliation": null
+      },
+      {
+        "name": "Daish, Alice",
+        "affiliation": null
+      },
+      {
+        "name": "Mostipak, Jesse",
+        "affiliation": null
+      },
+      {
+        "name": "Loto, Patricia A.",
+        "affiliation": null
+      },
+      {
+        "name": "Vazquez, Daniela",
+        "affiliation": null,
+        "orcid": "0000-0001-8016-1469"
+      },
+      {
+        "name": "Columbus, Alyssa",
+        "affiliation": null
+      },
+      {
+        "name": "Ravi, Janani",
+        "affiliation": null,
+        "orcid": "0000-0001-7443-925X"
+      },
+      {
+        "name": "Hernández, Bea",
+        "affiliation": null
+      },
+      {
+        "name": "Sero, Nadejda B",
+        "affiliation": null,
+        "orcid": "0000-0002-3569-2014"
+      },
+      {
+        "name": "D'Andrea, Florencia",
+        "affiliation": null,
+        "orcid": "0000-0002-0041-097X"
+      }
+    ]
+  }
