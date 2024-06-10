@@ -1,1 +1,114 @@
-["[\n  {\n    \"Month\": \"February\",\n    \"Start_Day\": 11,\n    \"End_Day\": 11,\n    \"Event\": \"International Day of Women and Girls in Science\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"March\",\n    \"Start_Day\": 1,\n    \"End_Day\": 1,\n    \"Event\": \"Zero Discrimination Day\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"March\",\n    \"Start_Day\": 8,\n    \"End_Day\": 8,\n    \"Event\": \"International Women's Day\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"March\",\n    \"Start_Day\": 31,\n    \"End_Day\": 31,\n    \"Event\": \"International Transgender Day of Visibility\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"April\",\n    \"Start_Day\": 1,\n    \"End_Day\": 1,\n    \"Event\": \"Invisible Work Day\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"April\",\n    \"Start_Day\": \"NA\",\n    \"End_Day\": \"NA\",\n    \"Event\": \"Girls in ICT Day  (Information and communications technology)\",\n    \"Notes\": \"4th Thursday.\"\n  },\n  {\n    \"Month\": \"April\",\n    \"Start_Day\": 26,\n    \"End_Day\": 26,\n    \"Event\": \"Lesbian Visibility Day\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"May\",\n    \"Start_Day\": 1,\n    \"End_Day\": 1,\n    \"Event\": \"International Workers' Day\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"May\",\n    \"Start_Day\": 17,\n    \"End_Day\": 17,\n    \"Event\": \"International Day Against Homophobia, Transphobia & Biphobia (IDAHOT)\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"May\",\n    \"Start_Day\": 24,\n    \"End_Day\": 24,\n    \"Event\": \"Pansexual Visibility\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"June\",\n    \"Start_Day\": 1,\n    \"End_Day\": 30,\n    \"Event\": \"LGBTQIA+ Pride Month\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"September\",\n    \"Start_Day\": \"NA\",\n    \"End_Day\": \"NA\",\n    \"Event\": \"Gender Equality Week\",\n    \"Notes\": \"4th week. Canada.\"\n  },\n  {\n    \"Month\": \"September\",\n    \"Start_Day\": 23,\n    \"End_Day\": 23,\n    \"Event\": \"Celebrate Bisexuality Day\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"October\",\n    \"Start_Day\": \"NA\",\n    \"End_Day\": \"NA\",\n    \"Event\": \"International Pronouns Day\",\n    \"Notes\": \"3rd Wednesday.\"\n  },\n  {\n    \"Month\": \"October\",\n    \"Start_Day\": 1,\n    \"End_Day\": 31,\n    \"Event\": \"Women's History Month\",\n    \"Notes\": \"NA\"\n  },\n  {\n    \"Month\": \"December\",\n    \"Start_Day\": 5,\n    \"End_Day\": 5,\n    \"Event\": \"International Volunteer Day\",\n    \"Notes\": \"NA\"\n  }\n]"]
+[
+  {
+    "Month": "February",
+    "Start_Day": 11,
+    "End_Day": 11,
+    "Event": "International Day of Women and Girls in Science",
+    "Notes": "NA"
+  },
+  {
+    "Month": "March",
+    "Start_Day": 1,
+    "End_Day": 1,
+    "Event": "Zero Discrimination Day",
+    "Notes": "NA"
+  },
+  {
+    "Month": "March",
+    "Start_Day": 8,
+    "End_Day": 8,
+    "Event": "International Women's Day",
+    "Notes": "NA"
+  },
+  {
+    "Month": "March",
+    "Start_Day": 31,
+    "End_Day": 31,
+    "Event": "International Transgender Day of Visibility",
+    "Notes": "NA"
+  },
+  {
+    "Month": "April",
+    "Start_Day": 1,
+    "End_Day": 1,
+    "Event": "Invisible Work Day",
+    "Notes": "NA"
+  },
+  {
+    "Month": "April",
+    "Start_Day": "NA",
+    "End_Day": "NA",
+    "Event": "Girls in ICT Day  (Information and communications technology)",
+    "Notes": "4th Thursday."
+  },
+  {
+    "Month": "April",
+    "Start_Day": 26,
+    "End_Day": 26,
+    "Event": "Lesbian Visibility Day",
+    "Notes": "NA"
+  },
+  {
+    "Month": "May",
+    "Start_Day": 1,
+    "End_Day": 1,
+    "Event": "International Workers' Day",
+    "Notes": "NA"
+  },
+  {
+    "Month": "May",
+    "Start_Day": 17,
+    "End_Day": 17,
+    "Event": "International Day Against Homophobia, Transphobia & Biphobia (IDAHOT)",
+    "Notes": "NA"
+  },
+  {
+    "Month": "May",
+    "Start_Day": 24,
+    "End_Day": 24,
+    "Event": "Pansexual Visibility",
+    "Notes": "NA"
+  },
+  {
+    "Month": "June",
+    "Start_Day": 1,
+    "End_Day": 30,
+    "Event": "LGBTQIA+ Pride Month",
+    "Notes": "NA"
+  },
+  {
+    "Month": "September",
+    "Start_Day": "NA",
+    "End_Day": "NA",
+    "Event": "Gender Equality Week",
+    "Notes": "4th week. Canada."
+  },
+  {
+    "Month": "September",
+    "Start_Day": 23,
+    "End_Day": 23,
+    "Event": "Celebrate Bisexuality Day",
+    "Notes": "NA"
+  },
+  {
+    "Month": "October",
+    "Start_Day": "NA",
+    "End_Day": "NA",
+    "Event": "International Pronouns Day",
+    "Notes": "3rd Wednesday."
+  },
+  {
+    "Month": "October",
+    "Start_Day": 1,
+    "End_Day": 31,
+    "Event": "Women's History Month",
+    "Notes": "NA"
+  },
+  {
+    "Month": "December",
+    "Start_Day": 5,
+    "End_Day": 5,
+    "Event": "International Volunteer Day",
+    "Notes": "NA"
+  }
+]
