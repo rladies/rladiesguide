@@ -37,7 +37,7 @@ You might then want to contribute guidelines for this subsection based on your e
 
 * Follow the guidance of the social media platform.
 * Use your chapter [email address](/organization/tech/accounts/#e-mail). 
-* Submit the Twitter/Facebook/Instagram username to [the table of current chapters](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv) so that it might get listed on the global website.
+* Submit the Twitter/Facebook/Instagram username to [the current chapters data](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) so that it might get listed on the global website.
 
 {{% notice warning %}}
 Check out the section about [account security](/organization/tech/security/)

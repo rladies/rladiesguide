@@ -31,9 +31,9 @@ timely.
     -   Name(s) of organiser(s) and their email address (to be added to
         the organisers slack).
 
--   Search our database on GitHub
-    ([https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv))
-    to make sure the city does not have a chapter yet.
+-   Make a search on GitHub
+    ([https://github.com/rladies/rladies.github.io/tree/main/data/chapters](https://github.com/rladies/rladies.github.io/tree/main/data/chapters))
+    to make sure the city does not have a chapter yet. You can use CTRL+F to search using the city's name.
 
 -   If there is a chapter already, check the name of the organisers
     match
@@ -41,7 +41,7 @@ timely.
 -   Ask the person to confirm they identify as a woman or gender minority and are interested in the R programming language (just an ok, we are not collecting information).
 
 ```
-For alignment with the R-Ladies mission can you just write an ok as an answer to "do you identify as a woman or gender minority and are you interested in the R programming language?" (really just an ok, we're not collecting personal data!)
+For alignment with the R-Ladies mission, can you just write an ok as an answer to "Do you identify as a woman or gender minority, and are you interested in the R programming language?" (really just an ok, we're not collecting personal data!)
 ```
 
 -   If there is no chapter, check if there is a chapter nearby. If so,
@@ -49,9 +49,9 @@ For alignment with the R-Ladies mission can you just write an ok as an answer to
 
 -   If there is no local chapter yet:
 
-    -   We make sure it is a city using google maps
+    -   We make sure it is a city using Google Maps
 
-    -   We add the chapter to current chapters.csv, only the info below
+    -   We add the chapter to the chapter data (https://github.com/rladies/rladies.github.io/tree/main/data/chapters), only the info below
         (no email address):
 
         -   City
@@ -75,9 +75,9 @@ For alignment with the R-Ladies mission can you just write an ok as an answer to
         if their name is in the meetup list of co-organisers. If not,
         ask why.
 
-    -   Change list of organisers:\
+    -   Change list of organisers :\
         Check and amend the list of organisers here:\
-        Email former organiser for confirmation (see [template B](#appendix-b)).
+        Email the former organiser for confirmation (see [template B](#appendix-b)).
 
     -   General information -\point them to the community slack and
         meetup dashboard (see [template C](#appendix-c))
@@ -89,15 +89,15 @@ For alignment with the R-Ladies mission can you just write an ok as an answer to
 ```markdown
 Hi \<\<first name\>\>!
 
-Its great to hear that you are interested in starting R-Ladies
+It's great to hear that you are interested in starting R-Ladies
 \<\<city chapter\>\>!
 
 We have some information on starting a local chapter here:
 https://guide.rladies.org/
 
-We also have a Slack group which Ill send you an invitation to in a
+We also have a Slack group which I'll send you an invitation to in a
 minute. The Slack group is mainly how we communicate and a great place
-to discuss meetup organization and loads of other matters (R-related and
+to discuss meetup organization and other matters (R-related and
 other). Once you join, please say hello and introduce yourself in the
 *\#welcome* channel. When you are ready to launch your chapter and start
 advertising on social media, please go to #new_chapters and ask:
@@ -111,8 +111,8 @@ In the Slack, together with all R-Ladies chapters organizers worldwide,
 you will find the
 R-Ladies Global leadership team. Feel free to reach out to them through
 the channel #ask_the_leadership if you have questions that are not
-addressed in the Starter Kit, the Guidelines, or that other organizers
-cannot answer. More info about R-Ladies Global team here:
+addressed in the Guidelines or that other organisers
+cannot answer. More info about the R-Ladies Global team is can be found on the R-Ladies website:
 https://rladies.org/about-us/team/.
 
 There is no specific time frame for launching the chapter. Note that if
