@@ -80,10 +80,6 @@ R Consortium can offer grants to support the mission of local chapters in facili
 **Step 3: Fund Disbursement**
 4. Upon approval of your grant application by R Consortium, you will receive the grant funds. You have the flexibility to transfer the funds to any suitable account for your chapter's use.
 
-**Optional: Use Open Collective for Transparency**
-5. For a more transparent financial management approach, consider using [Open Collective](https://opencollective.com/) to manage your grant funds.
-   - Contact [Open Collective](https://opencollective.com/) to open an account for your R-Ladies chapter.
-   - After creating your Open Collective account, invite the R-Ladies Global Team account to be co-administrator for the grant.
 
 **Additional Tips:**
 - Ensure that your grant application is well-documented and aligns with the goals and objectives of your R-Ladies chapter.
