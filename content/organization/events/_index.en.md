@@ -1,5 +1,5 @@
 ---
 title: "Organizing events"
 menuTitle: "Events"
-weight: 54
+weight: 4
 ---

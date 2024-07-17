@@ -1,6 +1,6 @@
 ---
 title: "Rules & Guidelines"
-weight: 1
+weight: 2
 ---
 
 
