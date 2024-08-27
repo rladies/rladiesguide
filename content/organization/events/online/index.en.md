@@ -94,11 +94,11 @@ At the very bottom you should see some buttons -- click on the 'Claim Host' butt
 
 -   Enable the waiting room.
 
--   Admit your co-organisers (if they are still in the waiting room) and
- make them co-host so that they can manage bad actors with you if
- necessary. **Being several to run an online meeting makes things easier (e.g. one organizer can keep an eye on the chat).** 
+-   Admit your co-organizers (if they are still in the waiting room) and
+ make them co-hosts so that they can manage bad actors with you if
+ necessary. **Having multiple co-organizers run an online meeting makes things much easier (e.g., one organizer can keep an eye on the chat).** 
  It also makes it possible for your co-host to claim host if you for some reason disconnect or experience other technical difficulties.
-We recommend being at minimum one co-host to help you.
+We recommend having, at a minimum, one co-host to help you.
  
 -   Make organizers easy to recognize.
 Introduce yourselves at the beginning, add "Organizer - " to your name.
@@ -130,10 +130,10 @@ chat, and screen sharing*).
     participants and "lock meeting").
 
 Lastly, the link to book the online meetup is **not to be shared
-publicly** as it's only intended for organisers.
+publicly** as it's only intended for organizers.
 
 {{% notice warning %}}
-**Like for in-person event, be respectful of participants' privacy.**
+**Like for in-person events, be respectful of participants' privacy.**
 If you want to save the Zoom chat, ask participants for their permission at the beginning of the event.
 Advise participants to not take photos of the Zoom screen to publish on social networks unless permission is collected from all people appearing in the screenshot.
 {{% /notice %}}
@@ -224,7 +224,7 @@ Outside of Zoom you could try out platforms such as [gather.town](https://gather
 
 {{< tweet 1299296290266849281 >}}
 
-* [How to organise and run an awesome deaf accessible virtual event?](https://hearmeoutcc.com/deaf-accessible-virtual-events/)
+* [How to organize and run an awesome deaf accessible virtual event?](https://hearmeoutcc.com/deaf-accessible-virtual-events/)
 
 ### Tooling
 
