@@ -90,8 +90,6 @@ At the very bottom you should see some buttons -- click on the 'Claim Host' butt
 
 ### Tips for running the Zoom meeting
 
-The guidance in this section comes from the Baltimore, Irvine, NYC, and Santa Barbara chapter guidelines.
-
 :eyes: After becoming the Host, we suggest that you:
 
 -   Admit your co-organizers from the waiting room and
