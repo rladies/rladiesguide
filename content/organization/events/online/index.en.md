@@ -98,7 +98,7 @@ The guidance in this section comes from the Baltimore, Irvine, NYC, and Santa Ba
  make them co-hosts so that they can manage bad actors with you if
  necessary. **Having multiple co-organizers run an online meeting makes things much easier (e.g., one organizer can keep an eye on the chat).** 
  It also makes it possible for your co-host to claim host if you for some reason disconnect or experience other technical difficulties.
-We recommend having (at a minimum) one co-host to help you. Three to four co-hosts in total would be ideal.
+We recommend having (at a minimum) one co-host to help you. For larger events, you may consider three to four co-hosts.
 
 -   Cross-reference the Meetup RSVP list with names of folks in the waiting room before admitting them into the meeting. (Before this step, encourage all members of your Meetup group to add their real first and last names to their profiles along with a profile picture.)
  
