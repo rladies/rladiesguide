@@ -33,21 +33,31 @@ You can point people who hesitate to jump on board to the [intro chapter for org
 If some people are happy to help without committing, it's already a great progress for you.
 Remind them regularly they could become an official organizer. :wink:
 
-## How to onboard organizers?
+## How to onboard new organizers?
 
-* before a volunteer commits as an organizer, an idea might be to have them host (i.e. organize) one or a few meetups (be careful to acknowledge their work although they're not an official organizer (yet)!) --- see [Meetup docs about the "event organizer" role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team);
+* Before a volunteer commits as an organizer, an idea might be to have them host (i.e. organize) one or a few meetups (be careful to acknowledge their work although they're not an official organizer (yet)!) --- see [Meetup docs about the "event organizer" role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team);
 
-* after that, register them as organizers 
-  * on meetup and 
-  * [at the global level](https://github.com/rladies/rladiesguide/issues/18) (guidance in flux) to have them access your chapter email address; get invited to the organizers slack. 
-  * Locally, make sure to give them access to the needed tools/services e.g. Tweetdeck access to Twitter.
+* After that:
+  * Send new organizers the [R-Ladies Organizers form](https://rladies.org/form/organiser).
+  * Invite new organizes to the R-Ladies Community Slack.
+  * Update the chapter's information [on the website](https://github.com/rladies/rladies.github.io/tree/main/data/chapters).
+  
+* Also, register them as organizers 
+  * On meetup by requesting the new organizers to join their Meetup group as members, and changing their status to co-organizers on Meetup, and 
+  * [At the global level](https://github.com/rladies/rladiesguide/issues/18) (guidance in flux) to have them access your chapter email address; get invited to the organizers slack. 
+  * Locally, make sure to give them access to the needed tools/services e.g. X Pro (formerly TweetDeck) access to X (formerly Twitter).
   
 * Point them to this guide (and tell them any feedback is welcome).
+
+## How to remove retired chapter organizers?
+
+* Change status of co-organizers stepping down to members on Meetup.
+* Update the chapter's information [on the website](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) by moving the current organizers to the "former organizers" field.
 
 ## How to organize team work?
 
 * You might assign roles to organizers e.g. one would be in charge of social media for instance;
-* Or task assignment can be more flexible. Organizers will probably volunteer to do things that play to their strenghts. You can have a rotation system for some tasks like Twitter and Meetup management.
+* Or task assignment can be more flexible. Organizers will probably volunteer to do things that play to their strenghts. You can have a rotation system for some tasks like Mastodon and Meetup management.
 
 Regarding Meetup roles, all organizers should have the [organizer role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team) on Meetup.
 
