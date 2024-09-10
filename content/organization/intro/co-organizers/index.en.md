@@ -39,12 +39,11 @@ Remind them regularly they could become an official organizer. :wink:
 
 * After that:
   * Send new organizers the [R-Ladies Organizers form](https://rladies.org/form/organiser).
-  * Invite new organizes to the R-Ladies Community Slack.
-  * Update the chapter's information [on the website](https://github.com/rladies/rladies.github.io/tree/main/data/chapters).
-  
-* Also, register them as organizers 
-  * On meetup by requesting the new organizers to join their Meetup group as members, and changing their status to co-organizers on Meetup, and 
-  * [At the global level](https://github.com/rladies/rladiesguide/issues/18) (guidance in flux) to have them access your chapter email address; get invited to the organizers slack. 
+  * Invite the new organizers to the R-Ladies Community Slack. This workspace is our primary communication tool and a great place to discuss upcoming events, R-related topics, and more. Once they join, please encourage them to say hello and introduce themselves in the #welcome channel.
+  * Update the chapter's information [on the website](https://github.com/rladies/rladies.github.io/tree/main/data/chapters). If you're not comfortable editing the chapter's JSON file and submitting a new request, please email website@rladies.org.
+  * The new organizers will be invited to join the organizers' Slack workspace after they fill in the [R-Ladies Organizers form](https://rladies.org/form/organiser).
+  * Register them as organizers On Meetup by requesting the new organizers to join the existing Meetup group as members, and changing their status to co-organizers on Meetup.
+  * Email email@rladies.org with the new organizer's email address, so they can start receiving emails as well from the R-Ladies chapter's forwarding email address as well.
   * Locally, make sure to give them access to the needed tools/services e.g. X Pro (formerly TweetDeck) access to X (formerly Twitter).
   
 * Point them to this guide (and tell them any feedback is welcome).
