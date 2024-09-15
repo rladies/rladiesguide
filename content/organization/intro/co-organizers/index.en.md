@@ -35,23 +35,13 @@ Remind them regularly they could become an official organizer. :wink:
 
 ## How to onboard new organizers?
 
-* Before a volunteer commits as an organizer, an idea might be to have them host (i.e. organize) one or a few meetups (be careful to acknowledge their work although they're not an official organizer (yet)!) --- see [Meetup docs about the "event organizer" role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team);
-
-* After that:
-  * Send new organizers the [R-Ladies Organizers form](https://rladies.org/form/organiser).
-  * Invite the new organizers to the R-Ladies Community Slack. This workspace is our primary communication tool and a great place to discuss upcoming events, R-related topics, and more. Once they join, please encourage them to say hello and introduce themselves in the #welcome channel.
-  * Update the chapter's information [on the website](https://github.com/rladies/rladies.github.io/tree/main/data/chapters). If you're not comfortable editing the chapter's JSON file and submitting a new request, please email website@rladies.org.
-  * The new organizers will be invited to join the organizers' Slack workspace after they fill in the [R-Ladies Organizers form](https://rladies.org/form/organiser).
-  * Register them as organizers On Meetup by requesting the new organizers to join the existing Meetup group as members, and changing their status to co-organizers on Meetup.
-  * Email email@rladies.org with the new organizer's email address, so they can start receiving emails as well from the R-Ladies chapter's forwarding email address as well.
-  * Locally, make sure to give them access to the needed tools/services e.g. X Pro (formerly TweetDeck) access to X (formerly Twitter).
+* The current organizers should contact the onboarding team at chapters@rladies.org, who will guide them through the process of onboarding new organizers and should share the email addresses of the new organizers.
   
-* Point them to this guide (and tell them any feedback is welcome).
+* Before a volunteer commits as an organizer, an idea might be to have them host (i.e. organize) one or a few meetups (be careful to acknowledge their work although they're not an official organizer (yet)!) --- see [Meetup docs about the "event organizer" role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team).
 
 ## How to remove retired chapter organizers?
 
-* Change status of co-organizers stepping down to members on Meetup.
-* Update the chapter's information [on the website](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) by moving the current organizers to the "former organizers" field.
+* The current organizers should reach out to the onboarding team at chapters@rladies.org, who will guide them through the process of removing retired chapter organizers.
 
 ## How to organize team work?
 
