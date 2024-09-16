@@ -78,7 +78,7 @@ timely.
         ask why.
 
     - Onboard new organizers:
-      - Ensure you have received the email addresses of the new organizers
+      - Ensure you have received the email addresses of the new organizers.
       - Open a new "existing-chapter-update" issue to track the exectution of the following instructions:
         - Send new organizers the R-Ladies Organizers form.
         - Invite the new organizers to the R-Ladies Community Slack. 
@@ -161,7 +161,7 @@ we can add them to our records."
 Hi \<\<first name\>\>,
 
 Thanks for sending through the updated list of organisers. I sent the
-invites to the new organisers to join the R-Ladies Community Slack.
+invites to the new organisers to join the R-Ladies Community Slack. The new organizers should fill in the following [form](https://airtable.com/appM6GuE0Jl1UI9qx/pagEczcfwQdkN4SHN/form). Once submitted, we’ll invite them to join the Slack workspace dedicated to R-Ladies organizers.
 
 We keep information about chapters and organisers on this list on
 GitHub:
