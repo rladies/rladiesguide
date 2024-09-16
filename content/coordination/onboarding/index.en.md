@@ -29,45 +29,47 @@ timely.
     -   City/Region/Country where the meetup will be located
 
     -   Name(s) of organiser(s) and their email address (to be added to
-        the organisers slack).
+        the the R-Ladies Community slack).
 
--   Make a search on GitHub
+-   Open a new "new-chapter-setup" issue that will help you track the execution of the following instructions:     
+
+    -   Make a search on GitHub
     ([https://github.com/rladies/rladies.github.io/tree/main/data/chapters](https://github.com/rladies/rladies.github.io/tree/main/data/chapters))
     to make sure the city does not have a chapter yet. You can use CTRL+F to search using the city's name.
 
--   If there is a chapter already, check the name of the organisers
-    match
+    -   If there is a chapter already, check the name of the organisers match.
     
--   Ask the person to confirm they identify as a woman or gender minority and are interested in the R programming language (just an ok, we are not collecting information).
+    -   Ask the person to confirm they identify as a woman or gender minority and are interested in the R programming language (just an ok, we are not collecting information). For alignment with the R-Ladies mission, can you just write an ok as an answer to "Do you identify as a woman or gender minority, and are you interested in the R programming language?" (really just an ok, we're not collecting personal data!)
 
-```
-For alignment with the R-Ladies mission, can you just write an ok as an answer to "Do you identify as a woman or gender minority, and are you interested in the R programming language?" (really just an ok, we're not collecting personal data!)
-```
+    -   If there is no chapter, check if there is a chapter nearby. If so, inform the sender about it and put them in contact with the chapters organizers by adding the email address of the chapter as CC.
 
--   If there is no chapter, check if there is a chapter nearby. If so,
-    put the person in contact with the new chapter.
+    -   If there is no local chapter yet:
 
--   If there is no local chapter yet:
+        -   We make sure it is a city using Google Maps
 
-    -   We make sure it is a city using Google Maps
+        -   We add the chapter to the chapter data (https://github.com/rladies/rladies.github.io/tree/main/data/chapters), only the info below
+            (no email address):
 
-    -   We add the chapter to the chapter data (https://github.com/rladies/rladies.github.io/tree/main/data/chapters), only the info below
-        (no email address):
+            -   City
 
-        -   City
+            -   Region (if relevant)
 
-        -   Region (if relevant)
+            -   Country
 
-        -   Country
+            -   Organisers
 
-        -   Organisers
+            -   Status = Prospective
 
-        -   Status = Prospective
+        -   Invite organisers to the R_Ladies Community Slack.
+          
+        -   Invite organisers to the R-Ladies organisers Slack once they fill in the R-Ladies form.
 
--   Invite organisers to the organisers slack.
-
--   Send the prospective organiser an email with all the most important
+        -   Send the prospective organiser an email with all the most important
     information and links (see [Appendix A](#appendix-a))
+
+        - Post a message in the issue to request @rladies/email and @rladies/meetup-pro to create the chapter infrastructure.
+
+        - Add prospective chapter to the current chapters on the website.
 
 -   **Other types of requests:**
 
@@ -75,11 +77,21 @@ For alignment with the R-Ladies mission, can you just write an ok as an answer t
         if their name is in the meetup list of co-organisers. If not,
         ask why.
 
-    -   Change list of organisers :\
-        Check and amend the list of organisers here:\
-        Email the former organiser for confirmation (see [template B](#appendix-b)).
+    - Onboard new organizers:
+      - Ensure you have received the email addresses of the new organizers.
+      - Open a new "existing-chapter-update" issue to track the exectution of the following instructions:
+        - Send new organizers the R-Ladies Organizers form.
+        - Invite the new organizers to the R-Ladies Community Slack. 
+        - Invite the new organizers to join the organizers' Slack workspace after they fill in the R-Ladies Organizers form.
+        - Post a message on the open issue to request the Meetup and Email teams to update the chapter infrastructure.
+        - Request the Website team to add the new organizers to the website.
+      - The [template B](#appendix-b) can be used as a response to this type of request.
+     
+    - Retire organizers:
+      - Request the Meetup team to change the status of co-organizers stepping down to members on Meetup.
+      - Update the chapter's information [on the website](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) by moving the current organizers to the "former organizers" field.
 
-    -   General information -\point them to the community slack and
+    -   General information -\point them to the Community Slack and
         meetup dashboard (see [template C](#appendix-c))
 
 ## Appendix A
@@ -149,14 +161,13 @@ we can add them to our records."
 Hi \<\<first name\>\>,
 
 Thanks for sending through the updated list of organisers. I sent the
-slack invites to the new organisers.
+invites to the new organisers to join the R-Ladies Community Slack. The new organizers should fill in the following [form](https://airtable.com/appM6GuE0Jl1UI9qx/pagEczcfwQdkN4SHN/form). Once submitted, we’ll invite them to join the Slack workspace dedicated to R-Ladies organizers.
 
 We keep information about chapters and organisers on this list on
 GitHub:
-https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv.
+https://github.com/rladies/rladies.github.io/tree/main/data/chapters.
 
--   Could you please send name and surname of the new organisers so that
-    I can update the chapter list?
+-   Could you please send the email addresses, names, and surnames of the new organizers so we can update the chapter list?
 
 -   Could you also please confirm whether I should remove the following
     from the list of organisers?
