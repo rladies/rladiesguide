@@ -89,6 +89,10 @@ At the very bottom you should see some buttons -- click on the 'Claim Host' butt
 {{< figure src="enter-key.png" alt="Screenshot of the 'enter key' form in the Zoom interface" >}}
 
 ### Tips for running the Zoom meeting
+{{% notice note %}}
+These guidance has been updated based on experiences from the Baltimore, Irvine, NYC, and Santa Barbara chapter guidelines, specifically to address issues with trolls in zoom meetings.
+{{% /notice %}}
+
 
 :eyes: After becoming the Host, we suggest that you:
 
