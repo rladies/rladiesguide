@@ -95,7 +95,7 @@ These guidance has been updated based on experiences from the Baltimore, Irvine,
 
 
 :eyes: After becoming the Host, we suggest that you:
-
+-   Enable the waiting room.
 -   Admit your co-organizers from the waiting room and
  make them co-hosts so that they can manage bad actors with you if
  necessary. **Having multiple co-organizers run an online meeting makes things much easier (e.g., one organizer can keep an eye on the chat).** 
