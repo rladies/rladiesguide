@@ -16,9 +16,9 @@ The goals of this chapter is to document our previous efforts for folks who migh
 
 ## Information about previous campaigns
 
-* [Behind the scenes of R-Ladies IWD2018 Twitter action!](https://blog.rladies.org/post/ideation_and_creation/) -- tweets featuring all R-Ladies from the R-Ladies directory. Take-home message: sign up in our directory.
+* [Behind the scenes of R-Ladies IWD2018 Twitter action!](https://rladies.org/blog/conclusion/) -- tweets featuring all R-Ladies from the R-Ladies directory. Take-home message: sign up in our directory.
 
-* [IWD 2019 Twitter Action](https://blog.rladies.org/post/blog_iwdtwitter_2019/) -- tweets featuring all R-Ladies chapters. In Spanish [Acción de Twitter para el IWD 2019](https://blog.rladies.org/post/blog_iwdtwitter_2019_es/). Take-home message: how to create an R-Ladies chapter.
+* [IWD 2019 Twitter Action](https://rladies.org/blog/2019-03-25-blog_iwdtwitter_2019/) -- tweets featuring all R-Ladies chapters. Take-home message: how to create an R-Ladies chapter.
 
 * IWD 2020 had [tweets featuring R-Ladies lessons](https://github.com/rladies/IWD#catalog-the-meetup-material-in-github-from-the-chapters-and-tweet-this-material-during-the-campaign). [Shiny app](https://yabellini.shinyapps.io/RLadiesLesson/). Take-home message: share and re-use (depending on the licence) materials from R-Ladies meetups.
 
