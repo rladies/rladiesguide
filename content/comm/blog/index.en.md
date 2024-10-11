@@ -109,10 +109,10 @@ the post series of the 2018 IWD project. It shows in the posts list and in the
 post page.
 - **Tags**: Post tags. They should include meaningful information; for recurrent
 posts please follow previous tags. 4 or 5 tags is a good number.
-[Tags](http://blog.rladies.org/tags/).
+[Tags](https://rladies.org/tags/).
 - **Categories**: Post categories. Like tags but the theme is more general. This
 field is currently not visible and is optional.
-[Categories](http://blog.rladies.org/categories/).
+[Categories](https://rladies.org/categories/).
 
 All of the information will be shown in the post yaml, and can also be edited later.
 
