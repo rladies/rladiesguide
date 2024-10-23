@@ -35,7 +35,7 @@ Remind them regularly they could become an official organizer. :wink:
 
 ## How to onboard new organizers?
 
-* The current organizers should contact the onboarding team at chapters@rladies.org, who will guide them through the process of onboarding new organizers and should share the email addresses of the new organizers.
+* The current organizers should contact the onboarding team at chapters@rladies.org. Please share the name and email address of each new organizer so that we can guide everyone through the onboarding process.
   
 * Before a volunteer commits as an organizer, an idea might be to have them host (i.e. organize) one or a few meetups (be careful to acknowledge their work although they're not an official organizer (yet)!) --- see [Meetup docs about the "event organizer" role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team).
 
