@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+<div class="notices info"><p>Last modification: {{ .Lastmod.Format "2006-01-02" }} (<a href="{{ .Site.Params.githubsource }}{{ .File.Path }}" target="_blank">View source</a>)</p></div>
+
+{{ .Content }}
+
+<footer class="footline">
+	{{with .Params.LastModifierDisplayName}}
+	    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
+	    </div>
+	{{end}}
+</footer>
+
+{{ partial "footer.html" . }}
