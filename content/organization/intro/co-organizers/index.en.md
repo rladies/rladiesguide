@@ -46,7 +46,7 @@ Remind them regularly they could become an official organizer. :wink:
 ## How to organize team work?
 
 * You might assign roles to organizers e.g. one would be in charge of social media for instance;
-* Or task assignment can be more flexible. Organizers will probably volunteer to do things that play to their strenghts. You can have a rotation system for some tasks like Mastodon and Meetup management.
+* Or task assignment can be more flexible. Organizers will probably volunteer to do things that play to their strenghts. You can have a rotation system for some tasks like social media and Meetup management.
 
 Regarding Meetup roles, all organizers should have the [organizer role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team) on Meetup.
 
