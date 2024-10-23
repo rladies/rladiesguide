@@ -33,21 +33,20 @@ You can point people who hesitate to jump on board to the [intro chapter for org
 If some people are happy to help without committing, it's already a great progress for you.
 Remind them regularly they could become an official organizer. :wink:
 
-## How to onboard organizers?
+## How to onboard new organizers?
 
-* before a volunteer commits as an organizer, an idea might be to have them host (i.e. organize) one or a few meetups (be careful to acknowledge their work although they're not an official organizer (yet)!) --- see [Meetup docs about the "event organizer" role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team);
-
-* after that, register them as organizers 
-  * on meetup and 
-  * [at the global level](https://github.com/rladies/rladiesguide/issues/18) (guidance in flux) to have them access your chapter email address; get invited to the organizers slack. 
-  * Locally, make sure to give them access to the needed tools/services e.g. Tweetdeck access to Twitter.
+* The current organizers should contact the onboarding team at chapters@rladies.org. Please share the name and email address of each new organizer so that we can guide everyone through the onboarding process.
   
-* Point them to this guide (and tell them any feedback is welcome).
+* Before a volunteer commits as an organizer, an idea might be to have them host (i.e. organize) one or a few meetups (be careful to acknowledge their work although they're not an official organizer (yet)!) --- see [Meetup docs about the "event organizer" role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team).
+
+## How to remove retired chapter organizers?
+
+* The current organizers should reach out to the onboarding team at chapters@rladies.org, who will guide them through the process retiring a former organizer.
 
 ## How to organize team work?
 
 * You might assign roles to organizers e.g. one would be in charge of social media for instance;
-* Or task assignment can be more flexible. Organizers will probably volunteer to do things that play to their strenghts. You can have a rotation system for some tasks like Twitter and Meetup management.
+* Or task assignment can be more flexible. Organizers will probably volunteer to do things that play to their strenghts. You can have a rotation system for some tasks like social media and Meetup management.
 
 Regarding Meetup roles, all organizers should have the [organizer role](https://help.meetup.com/hc/en-us/articles/360002879411-Managing-a-leadership-team) on Meetup.
 
