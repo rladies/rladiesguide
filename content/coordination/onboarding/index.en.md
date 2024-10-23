@@ -69,7 +69,9 @@ timely.
 
         - Post a message in the issue to request @rladies/email and @rladies/meetup-pro to create the chapter infrastructure.
 
-        - Add prospective chapter to the current chapters on the website.
+        - Create a PR to add prospective chapter / chapter organizers to the current chapters on the website.
+          
+        - Request a review of the PR from `rladies/leadership`. Once the PR is approved and the GitHub Actions pass, the person who submitted the PR is responsible for merging it.
 
 -   **Other types of requests:**
 
