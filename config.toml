@@ -5,6 +5,7 @@ defaultContentLanguage = "en"
 enableEmoji = true
 pygmentsUseClasses=true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
+enableGitInfo = true
 
 [module]
   [[module.imports]]
@@ -17,6 +18,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [params]
   editURL = "https://github.com/rladies/rladiesguide/edit/main/content/"
+  githubsource = "https://github.com/rladies/rladiesguide/blob/main/content/"
   description = "R-Ladies Organizational Guidance"
   author = "R-Ladies Global Team"
   showVisitedLinks = true
