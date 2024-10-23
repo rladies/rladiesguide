@@ -41,7 +41,7 @@ Remind them regularly they could become an official organizer. :wink:
 
 ## How to remove retired chapter organizers?
 
-* The current organizers should reach out to the onboarding team at chapters@rladies.org, who will guide them through the process of removing retired chapter organizers.
+* The current organizers should reach out to the onboarding team at chapters@rladies.org, who will guide them through the process retiring a former organizer.
 
 ## How to organize team work?
 
