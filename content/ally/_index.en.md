@@ -10,7 +10,7 @@ menuTitle: Allies
 
 First, please read our [mission](/about/mission/) and [code of conduct](/about/coc/) to understand what R-Ladies is about.
 
-Then, you can support your [local chapter](https://github.com/rladies/starter-kit/blob/master/Current-Chapters.csv) with a free venue and sponsorship for food and drink.
+Then, you can support your [local chapter](https://rladies.org) with a free venue and sponsorship for food and drink.
 
 Furthermore, you can volunteer as an [abstract/proposal reviewer](/comm/abstract-review/).
 

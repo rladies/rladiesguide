@@ -88,52 +88,54 @@ At the very bottom you should see some buttons -- click on the 'Claim Host' butt
 
 {{< figure src="enter-key.png" alt="Screenshot of the 'enter key' form in the Zoom interface" >}}
 
-### Tips for Running the Zoom meeting
+### Tips for running the Zoom meeting
+{{% notice note %}}
+These guidance has been updated based on experiences from the Baltimore, Irvine, NYC, and Santa Barbara chapter guidelines, specifically to address issues with trolls in zoom meetings.
+{{% /notice %}}
 
-:eyes: After becoming Host, we suggest that you:
 
+:eyes: After becoming the Host, we suggest that you:
 -   Enable the waiting room.
-
--   Admit your co-organisers (if they are still in the waiting room) and
- make them co-host so that they can manage bad actors with you if
- necessary. **Being several to run an online meeting makes things easier (e.g. one organizer can keep an eye on the chat).** 
+-   Admit your co-organizers from the waiting room and
+ make them co-hosts so that they can manage bad actors with you if
+ necessary. **Having multiple co-organizers run an online meeting makes things much easier (e.g., one organizer can keep an eye on the chat).** 
  It also makes it possible for your co-host to claim host if you for some reason disconnect or experience other technical difficulties.
-We recommend being at minimum one co-host to help you.
+We recommend having (at a minimum) one co-host to help you. For larger events, you may consider three to four co-hosts.
+
+-   Cross-reference the Meetup RSVP list with names of folks in the waiting room before admitting them into the meeting. (Before this step, encourage all members of your Meetup group to add their real first and last names to their profiles along with a profile picture.)
  
 -   Make organizers easy to recognize.
-Introduce yourselves at the beginning, add "Organizer - " to your name.
-This is important for participants for different requests for help and for being able to report incidents related to the code of conduct.
+Introduce yourselves at the beginning, and add "Organizer - " to your name.
+This is important, as it helps participants more easily request assistance and report incidents related to the code of conduct.
 
--   Do the same for your presenter so that they can share their screen
+-   Make your presenter a co-host as well so that they can share their screen
     even if regular participants cannot.
-
-We have set the meeting options to prevent trolling as best as possible
-(e.g., *participants are muted on entry, participants who have been
-removed from the meeting can't rejoin, and we've disabled file
-transfers, screen sharing for participants, and also virtual
-backgrounds*). With the latest version of the zoom client, the host has
-an extra security control menu where they can adapt a lot of these
-settings during the meeting (e.g., *turning on/off the waiting room,
-chat, and screen sharing*).
 
 - Enable Close Captions: On the Zoom Rooms controller, tap the Captions icon (a square with the text _CC_). You may need to tap the More (...) icon first to see the option. 
 
-:zombie: If you do have to deal with trolls:
+:zombie: We have set the meeting options to prevent trolling as best as possible
+(e.g., *enabling the waiting room feature by default; participants are muted on entry and must request permission to unmute; participants who have been
+removed from the meeting can't rejoin; disabling participant file
+transfers, private messages (only messages to everyone or to the hosts only are allowed), screen sharing, profile pictures, and virtual
+backgrounds*). With the latest version of the Zoom client, the Host has
+an extra security control menu where they can adapt a lot of these
+settings during the meeting (e.g., *turning on/off the chat and screen sharing*). 
 
--   Mute everyone and don't let them unmute (uncheck "allow participants
-    to unmute themselves" when muting all).
+However, if you do have to deal with trolls:
 
 -   Remove the participant (hover your mouse over their name, click
-    "more" and click "remove").
+    "more," and then click "remove.")
 
 -   Lock the meeting so no one can come in (select "more" under
     participants and "lock meeting").
 
+-   Email our code of conduct team (reporting [at] rladies [dot] org) after the meeting to let us know what happened. By reporting incidents like these to us, we can better prevent them in the future.
+
 Lastly, the link to book the online meetup is **not to be shared
-publicly** as it's only intended for organisers.
+publicly** as it's only intended for organizers.
 
 {{% notice warning %}}
-**Like for in-person event, be respectful of participants' privacy.**
+**Like for in-person events, be respectful of participants' privacy.**
 If you want to save the Zoom chat, ask participants for their permission at the beginning of the event.
 Advise participants to not take photos of the Zoom screen to publish on social networks unless permission is collected from all people appearing in the screenshot.
 {{% /notice %}}
@@ -182,7 +184,7 @@ but the stream won't be publicly listed and there won't be notifications sent to
 
 Running an event (or part of an event) especially dedicated to socializing might be great for everyone in these difficult times!
 
-Here are some tips mostly from R-Ladies NYC.
+Here are some tips mostly from R-Ladies NYC:
 
 * Dedicating an entire event to "virtual social networking" help make it clear that the event is about getting to know each other.
 
@@ -224,7 +226,7 @@ Outside of Zoom you could try out platforms such as [gather.town](https://gather
 
 {{< tweet 1299296290266849281 >}}
 
-* [How to organise and run an awesome deaf accessible virtual event?](https://hearmeoutcc.com/deaf-accessible-virtual-events/)
+* [How to organize and run an awesome deaf accessible virtual event?](https://hearmeoutcc.com/deaf-accessible-virtual-events/)
 
 ### Tooling
 
