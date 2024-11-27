@@ -111,7 +111,7 @@ Potential organizational interactions can include:
 Alignment with core values is required for entry to the Global Team, in addition
 to some (but not all) of the potential organizational interactions.
 
-If you have interest in joining the Global Team, please contact us.
+If you have interest in joining the Global Team, please inform us by completing the [R-Ladies Global Team Volunteer Interest Form](https://airtable.com/appgo0YoQ9oIc6Qa1/pagvJWAClzKUO7Tak/form).
 
 ## Contact
 
