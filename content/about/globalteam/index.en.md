@@ -29,13 +29,13 @@ an individual can serve on both the leadership team and the website team.
 
 2. **Empowerment:** Empower individuals by providing resources, mentorship, and opportunities to develop skills and confidence in R programming, fostering a sense of agency and capability.
 
-3. **Community Engagement:** Foster a vibrant community that encourages collaboration, knowledge-sharing, and support among underrepresented genders in R programming, creating a network that uplifts each other.
+3. **Advocacy and Representation:** Advocate for the representation and recognition of underrepresented genders in the R programming community, highlighting their contributions and advocating for equal opportunities.
 
-4. **Education and Accessibility:** Strive to make learning R programming accessible to all, regardless of background or previous experience, by providing free resources, workshops, and educational materials.
+4. **Community Engagement:** Foster a vibrant community that encourages collaboration, knowledge-sharing, and support among underrepresented genders in R programming, creating a network that uplifts each other.
 
-5. **Innovation and Creativity:** Encourage innovative thinking and creativity, promoting new ideas, approaches, and perspectives in R programming while encouraging experimentation and exploration.
+5. **Education and Accessibility:** Strive to make learning R programming accessible to all, regardless of background or previous experience, by providing free resources, workshops, and educational materials.
 
-6. **Advocacy and Representation:** Advocate for the representation and recognition of underrepresented genders in the R programming community, highlighting their contributions and advocating for equal opportunities.
+6. **Innovation and Creativity:** Encourage innovative thinking and creativity, promoting new ideas, approaches, and perspectives in R programming while encouraging experimentation and exploration.
 
 7. **Transparency and Integrity:** Operate with transparency and integrity in all endeavors, ensuring accountability, honesty, and fairness in decision-making processes and interactions.
 
