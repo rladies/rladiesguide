@@ -85,6 +85,23 @@ individual teams. Lastly, belonging to a specific team does not mean your contri
 or communications are limited to that team. Individual teams often solicit and
 receive feedback or assistance from other members of the Global Team.
 
+## Benefits
+
+By participating in R-Ladies you are helping women and gender minorities 
+by creating a safe space to learn, teach, and develop, as well as build
+a support network and contacts.
+
+Some of the personal benefits that we think come with joining the global team
+and volunteering time are gaining experience in leadership, asynchronous remote work,
+international team work, not-for-profit open-source work, and work in gender minority
+only team and organization.
+
+Depending on the role, there also may be opportunities for technical upskilling. 
+For example, some members of the Global team use R, reproducible reports, 
+git/GitHub, GitHub Actions, Hugo website development, and database integrations. 
+Knowledge of these tools is not a requirement for selection; the Global team will 
+provide training on processes specific to your role.
+
 ## Joining the Global Team
 
 The Global Team regularly needs to fulfill roles. This may be accomplished by 
