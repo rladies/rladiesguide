@@ -23,7 +23,6 @@ Making an event inclusive can mean to be explicit about things you thought might
 
 * Make graphics for social media? You could use [canva](https://canva.com/), [OmniGraffle](https://www.omnigroup.com/omnigraffle/) on Mac, slides templates (Google slides or Microsoft Powerpoint) saved as PNG, [a Shiny app to design hex logos](https://connect.thinkr.fr/hexmake/). Example below. In any case make sure to add an alternative text to the image on social media, and to make the text of your tweet informative, as well as to add a link to the event on Meetup.
 
-{{< tweet 1299834952578674689 >}}
 
 * Put presentations or links to them in your chapter's [GitHub repo](/organization/tech/accounts/#github)[^iwd]. Read [Carpe talk](https://www.tidyverse.org/blog/2018/07/carpe-talk/) by Jenny Bryan and Mara Averick.
 
