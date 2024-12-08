@@ -9,11 +9,9 @@ We also do not promote the use of DataCamp or offer its products (even if they a
 
 For more context on the disapproval of DataCamp by the R-Ladies organization, please refer to the two statements on our blog.
 
-* [R-Ladies Global's disapproval of DataCamp](https://blog.rladies.org/post/statement-about-datacamp/)
+* [R-Ladies Global's disapproval of DataCamp](https://rladies.org/news/2019-04-08-statement-about-datacamp/)
 
-* [R-Ladies Global's response to the DataCamp Assessment Report](https://blog.rladies.org/post/datacamp-third-party-review/)
-
-{{< tweet 1114507499728769024 >}}
+* [R-Ladies Global's response to the DataCamp Assessment Report](https://rladies.org/news/2019-10-22-datacamp-third-party-review/)
 
 {{% notice tip %}}
 [Suggestion of alternative learning resources](/organization/resources/learning-r/).

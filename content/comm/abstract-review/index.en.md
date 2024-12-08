@@ -16,11 +16,10 @@ R-Ladies Global has a system for review and feedback of conference abstracts and
 
 ### Promotion
 
-The system can be promoted once in a while, in particular before big conference deadlines, 
+The system can be promoted on R-Ladies social media once in a while, 
+in particular before big conference deadlines, 
 
-* By R-Ladies Global Twitter account
-
-{{< tweet 1072767166934671360 >}}
+* By R-Ladies social media
 
 * In the [organizers slack](/organization/tech/accounts/#slack)
 
