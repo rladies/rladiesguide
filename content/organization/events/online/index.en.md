@@ -206,10 +206,6 @@ Outside of Zoom you could try out platforms such as [gather.town](https://gather
 
 ### General best practice
 
-* A thread by Angela Li
-
-{{< tweet 1238481908633423873 >}}
-
 * ["Virtual Meetups" LinkedIn post by Noa Tamir](https://www.linkedin.com/pulse/virtual-meetups-noa-tamir/)
 
 * [The Carpentries guide for online teaching](https://carpentries.org/blog/2020/03/tips-for-teaching-online/)
@@ -224,7 +220,6 @@ Outside of Zoom you could try out platforms such as [gather.town](https://gather
 
 ### Accessibility best practice
 
-{{< tweet 1299296290266849281 >}}
 
 * [How to organize and run an awesome deaf accessible virtual event?](https://hearmeoutcc.com/deaf-accessible-virtual-events/)
 

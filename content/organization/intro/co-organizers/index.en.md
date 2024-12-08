@@ -23,8 +23,6 @@ Sometimes, though, folks need more encouragement.
 
 * Maybe you will randomly meet your co-organizers at a conference! (when in-person events are a thing again, or in the break-out rooms of an online conference)
 
-{{< tweet 963861899040477200 >}}
-
 * In all cases try to think of how to diversify your team. (We welcome tips!) It might come with diversifying who attends the meetups, by promoting events in different places than usual?
 
 

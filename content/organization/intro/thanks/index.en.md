@@ -13,5 +13,3 @@ Thank you cards could be sent once a year like R-Ladies Philadelphia does
 ("we try not to splurge, but try to add a sticker or other small token of appreciation as well when possible"),
 by snail mail, or more regularly by email.
 Remind recipients on why you are thanking them, especially if it has been a while since they helped or collaborated with you.
-
-{{< tweet 1082488324282109952 >}}
