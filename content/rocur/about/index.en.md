@@ -7,7 +7,7 @@ weight: 1
    
 ## About  
   
-The **[R-Ladies RoCur (Rotating Curation)](https://twitter.com/WeAreRLadies)** is a twitter handle that will feature an awesome R-Lady each week. This account is run by R-Ladies Global.      
+The **[R-Ladies RoCur (Rotating Curation)](https://bsky.app/profile/weare.rladies.org)** is a Bluesky handle that will feature an awesome R-Lady each week. This account is run by R-Ladies Global.      
   
    
 ## Objectives  
