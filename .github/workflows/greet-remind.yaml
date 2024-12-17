@@ -37,5 +37,5 @@ jobs:
                   issue_number: ${{ github.event.pull_request.number}},
                   owner: 'rladies',
                   repo: 'rladiesguide',
-                  body: `Welcome ${PR_AUTHOR}! It looks like this is your first contribution to this repository. 🎉\n\nPlease remember to add yourself to the '.zenodo.json'.`
+                  body: `Welcome ${PR_AUTHOR}! It looks like this is your first contribution to this repository. 🎉\n\nPlease remember to add yourself to the  [.zenodo.json](.zenodo.json).`
               })  
