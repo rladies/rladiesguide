@@ -7,26 +7,26 @@ weight: 10
 ## How Curating Works
 
 -   Each rotating curation (RoCur) begins on **Monday at [7:00 AM Eastern Standard Time](https://www.timebie.com/std/eastern.php?q=7)** and ends the following **Saturday at [12:00 PM Eastern Standard Time](https://www.timebie.com/std/eastern.php?q=12).**
--   Prior to the curation, the curator will receive...
+-   Prior to the curation, the curator will receive an app password, which will serve as your temporary credential to log into the We Are R-Ladies Bluesky account. Refer to the [FAQ](https://guide.rladies.org/rocur/faq/) for guidance on using app passwords on Bluesky.
 -   During the curation, the avatar of the We Are R-Ladies Bluesky account will be set to a photo of the curator. The admins will update the account profile accordingly.
 -   If applicable, the curator's personal Bluesky handle will also appear in the bio of the We Are R-Ladies Bluesky account. You do not need to have a Bluesky account prior to curating.
--   The curator post should introduce themselves to the account followers. This could include details such as what they do for work, how they use R, their hobbies, etc.
--   Post throughout the week! We do not require that curators post a specific number of times; however, we ask that they be as active as possible during their curatorship.
+-   The curator's first post should introduce themselves to the account followers. This could include details such as what they do for work, how they use R, etc.
+-   While we do not require curators to post a specific number of times, we ask that they be as active as possible during their curation.
 -   The following Sunday, RoCur admins will remove the curator's access to the We Are R-Ladies Bluesky account, enabling the next curator to take over.
 
 ## Curating Agreement
 
-***By signing on to be a curator, you agree to the following:***
+***By signing on to be a curator of the We Are R-Ladies Bluesky account, you agree to the following:***
 
 1.  Abide by the R-Ladies' [Code of Conduct](https://rladies.org/coc/) in all activities and interactions on the We Are R-Ladies Bluesky account.
-2.  You are responsible for all content posted throughout your designated week. RoCur admins will take action if your posts contain racist, sexist, homophobic, or any other harmful content.
+2.  Be responsible for all content posted throughout your designated week. RoCur admins will take action if your posts contain racist, sexist, homophobic, or any other harmful content.
 3.  Refrain from using obscene or abusive language.
 4.  Use inclusive language when addressing the audience. Consider using words like *all*, *everybody*, *y'all*, and *folks* since not every member of R-Ladies identifies as female.
 5.  Be the sole poster of the We Are R-Ladies Bluesky account during your assigned week.
 6.  Do not actively promote or advertise any business or receive remuneration from a third party to do so. *See [Promotional Posting] for more details.*
 7.  Do not change the display name, avatar, banner image, or bio of the We Are R-Ladies Bluesky account, unless asked directly to do so.
-8.  Do not follow, unfollow, or block any users from the account. Additionally, do not engage with individuals via direct messages. *However, if you experience abuse while contributing, you may block the offender. In such cases, alert the admins by emailing [weare\@rladies.org](mailto:weare@rladies.org) or posting in the R-Ladies Community Slack, including the offender's handle and a description of the incident.*
-9.  At the end of your assigned week, revoke access to the We Are R-Ladies Bluesky account from any applications you may have authorized.
+8.  Do not follow, unfollow, or block any users from the account. Additionally, do not engage with individuals via direct messages. *However, if you experience abuse while contributing, you may block the offender. In such cases, alert the RoCur admins by emailing [weare\@rladies.org](mailto:weare@rladies.org) or posting in the R-Ladies Community Slack, including the offender's handle and a description of the incident.*
+9.  At the end of your curation, revoke access to the We Are R-Ladies Bluesky account from any applications you may have authorized.
 10. Prior to the curation, submit a profile picture and a brief biography to be used on the We Are R-Ladies Bluesky account.
 
 RoCur admins reserve the right to warn or revoke the access of anyone who violates any of the above rules or Bluesky's [Terms of Service](https://bsky.social/about/support/tos).
@@ -46,13 +46,13 @@ On this account, promoting a company, business, or service is broadly defined as
 Examples of promotional posts that are not allowed include:
 
 -   *“Buy this book about time series analysis in R!”*
--   *“Here's an online course that could be helpful, though there's a fee to access it.”*
+-   *“Here's an online course that could be helpful. There's a fee to access it.”*
 
 We encourage curators to share free and openly available tools with the audience and communicate personal experiences about using specific resources without promoting or soliciting on behalf of any particular company, business or service. This includes:
 
 -   Discussing how you use R at work: *"As a data analyst at [company name], I use R to create reports."*
 
--   Posting about an open-source package that you have used and why it was helpful: *"A great package for data visualization in R is [package name]. If I want to create a scatter plot, [function name] is particularly useful!"*
+-   Posting about an open-source package that you have used and why it was helpful: *"A great package for data visualization in R is [package name]. If I want to create a plot to show the relationship between numeric variables, [function name] is particularly useful!"*
 
 -   Sharing free, openly available resources that you have used to learn R and explaining what you liked and disliked about it: *"My first introduction to linear regression was this blog post: [URL]. I appreciated how clear the examples were, but I found the theory section a bit difficult to follow at first."*
 
@@ -106,17 +106,17 @@ Start your curation by introducing yourself to the account followers:
 
 -   When mentioning a package, add a link to its CRAN/BioConductor/GitHub repo:
 
-    -   If available, mention the Bluesky account of the maintainer(s) unless they are widely recognized (e.g., tagging Hadley Wickham when mentioning ggplot2 isn't necessary).
+    -   If available, mention the Bluesky account of the maintainer(s) unless they are already widely known (i.e., it is not necessary to tag Hadley Wickham when mentioning ggplot2).
 
--   The same applies to courses, books, etc; include the URL whenever possible.
+-   The same applies to courses, books, etc.; include the URL whenever possible.
 
 ##### Use hashtags
 
 -   Whenever relevant, use the [#rladies](https://bsky.app/search?q=rladies) hashtag.
 
--   Use the [#rstats](https://bsky.app/search?q=rstats) hashtag when sharing something that might be useful for the greater R community. Avoid overusing it to prevent cluttering the hashtag timeline. We don't want others silencing or blocking this account!
+-   Use the [#rstats](https://bsky.app/search?q=rstats) hashtag when sharing something that might be useful for the greater R community. Avoid overusing it to prevent cluttering the hashtag timeline. We do not want others silencing or blocking this account!
 
--   Other R-related hashtags include [#dataviz](https://bsky.app/search?q=dataviz), [#rspatial](https://bsky.app/search?q=rspatial), [#opendata](https://bsky.app/search?q=opendata)
+-   Other R-related hashtags include [#dataviz](https://bsky.app/search?q=dataviz), [#rspatial](https://bsky.app/search?q=rspatial), and [#opendata](https://bsky.app/search?q=opendata).
 
 -   You could also hashtag package names, the location of your R-Ladies chapter, etc.
 
@@ -136,7 +136,7 @@ Start your curation by introducing yourself to the account followers:
 
 Consider using the last post of your curation as a way to "sign off." You could do approach this by:
 
--   Acknowledging that your curation week is ending and that this post will be your last.
+-   Mentioning that your curation week is ending and that this post will be your last
 
 -   Highlighting one key takeaway
 
@@ -153,26 +153,26 @@ A sample sign-off:
 The goal of this checklist is to ease both the technical and content-related aspects of curation in advance of your assigned week. **We strongly encourage you to complete this checklist one week prior to your curation.** This way, you will have time to ping the #rocur channel of the R-Ladies Community Slack if any questions arise.
 
 1.  [ ] Post from your personal Bluesky account.
-2.  [ ] Post an image with alternative text.
+2.  [ ] Post an image with alternative text (again, from your personal Bluesky account).
     -   *See [FAQ](https://guide.rladies.org/rocur/faq/) for more details.*
-    -   Check out [this article](https://accessibility.huit.harvard.edu/describe-content-images) on writing helpful Alt Text by Digital Accessibility at Harvard or [this Medium post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing Alt Text for data visualization
-3.  [ ] Read at least one artifact from previous curators. See [Work From Previous Curators (on Twitter)](#work-from-previous-curators-on-twitter) *for a list.*
+    -   Check out [this article](https://accessibility.huit.harvard.edu/describe-content-images) on writing helpful Alt Text by Digital Accessibility at Harvard or [this Medium post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing Alt Text for data visualization.
+3.  [ ] Read at least one artifact from previous curators. See [Work From Previous Curators (on Twitter)] *for a list.*
 4.  [ ] Create a list of topics you hope to post about during your curation.
     -   Most curators agree that doing some brainstorming before your curation week can be incredibly helpful!
 
-## Work From Previous Curators (on Twitter) {#work-from-previous-curators-on-twitter}
+## Work From Previous Curators (on Twitter)
 
-We deeply appreciate our past curators for their hard work in building our former community on Twitter. Many of them have also produced blogs, talks, and other resources reflecting on their curating experience.
+We deeply appreciate our past curators for their hard work in building our former community on Twitter. Many of them have also written blog posts and given talks reflecting on their curating experience.
 
 ### On curating for @WeAreRLadies
 
--   [Curating for \@WeAreRLadies on Twitter: From creating content to cultivating connections](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/): blog post by Shannon Pileggi, Sep 23, 2021.
+-   [Curating for \@WeAreRLadies on Twitter: From creating content to cultivating connections](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/): blog post by Shannon Pileggi, Sep 23, 2021
 
--   [Be great and curate! Tips and outcomes from an \@WeAreRLadies Twitter curator](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/): poster presentation by Shannon Pileggi, Oct 7, 2021.
+-   [Be great and curate! Tips and outcomes from an \@WeAreRLadies Twitter curator](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/): poster presentation by Shannon Pileggi, Oct 7, 2021
 
--   [Curating for \@WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/): blog post by Nicola Rennie, Jan 18, 2022.
+-   [Curating for \@WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/): blog post by Nicola Rennie, Jan 18, 2022
 
--   [Curating R-Ladies' Twitter Account - A Fun Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/): blog post by Cosima Meyer, Sep 18, 2022.
+-   [Curating R-Ladies' Twitter Account - A Fun Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/): blog post by Cosima Meyer, Sep 18, 2022
 
 ### Looking at data from @WeAreRLadies
 
