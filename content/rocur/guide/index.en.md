@@ -6,7 +6,7 @@ weight: 10
 
 ## How Curating Works
 
--   Each rotating curation (RoCur) begins on **Monday at [7:00 AM Eastern Standard Time](https://www.timebie.com/std/eastern.php?q=7)** and ends the following **Saturday at [12:00 PM Eastern Standard Time](https://www.timebie.com/std/eastern.php?q=12).**
+-   Each rotating curation (RoCur) begins on **Monday at [11:00 AM UTC](https://www.timebie.com/std/universal.php?q=11)** and ends on the following **Saturday at** [**4:00 PM UTC**](https://www.timebie.com/std/universal.php?q=16).
 -   Prior to the curation, the curator will receive an app password, which will serve as your temporary credential to log into the We Are R-Ladies Bluesky account. Refer to the [FAQ](https://guide.rladies.org/rocur/faq/) for guidance on using app passwords on Bluesky.
 -   During the curation, the avatar of the We Are R-Ladies Bluesky account will be set to a photo of the curator. The admins will update the account profile accordingly.
 -   If applicable, the curator's personal Bluesky handle will also appear in the bio of the We Are R-Ladies Bluesky account. You do not need to have a Bluesky account prior to curating.
@@ -153,14 +153,19 @@ A sample sign-off:
 The goal of this checklist is to ease both the technical and content-related aspects of curation in advance of your assigned week. **We strongly encourage you to complete this checklist one week prior to your curation.** This way, you will have time to ping the #rocur channel of the R-Ladies Community Slack if any questions arise.
 
 1.  [ ] Post from your personal Bluesky account.
+
 2.  [ ] Post an image with alternative text (again, from your personal Bluesky account).
+
     -   *See [FAQ](https://guide.rladies.org/rocur/faq/) for more details.*
     -   Check out [this article](https://accessibility.huit.harvard.edu/describe-content-images) on writing helpful Alt Text by Digital Accessibility at Harvard or [this Medium post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing Alt Text for data visualization.
-3.  [ ] Read at least one artifact from previous curators. See [Work From Previous Curators (on Twitter)] *for a list.*
+
+3.  [ ] Read at least one artifact from previous curators. See [Work From Previous Curators (on Twitter)](#work-from-previous-curators-on-twitter) *for a list.*
+
 4.  [ ] Create a list of topics you hope to post about during your curation.
+
     -   Most curators agree that doing some brainstorming before your curation week can be incredibly helpful!
 
-## Work From Previous Curators (on Twitter)
+## Work From Previous Curators (on Twitter) {#work-from-previous-curators-on-twitter}
 
 We deeply appreciate our past curators for their hard work in building our former community on Twitter. Many of them have also written blog posts and given talks reflecting on their curating experience.
 
