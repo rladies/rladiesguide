@@ -53,7 +53,7 @@ By signing on to be a curator of @weare.rladies.org you agree to our Curator Agr
   
 Please note: 
 * You will be asked to provide a first and second choice for week(s) you would like to curate.  
-* Curatorship begins each Monday at 7:00 AM ET (UTC−5) and ends the following Saturday at 12:00 PM ET (UTC−5).  
+* Curatorship begins each **Monday at [11:00 AM UTC](https://www.timebie.com/std/universal.php?q=11)** and ends the following **Saturday at [5:00 PM UTC](https://www.timebie.com/std/universal.php?q=16)**.  
 * Administrators will make all efforts to honor all scheduling requests but may ask that you be flexible as the administrators need to coordinate multiple schedules.  
   
 ## Curator Nomination
