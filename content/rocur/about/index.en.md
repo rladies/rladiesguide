@@ -7,17 +7,17 @@ weight: 1
    
 ## About  
   
-The **[R-Ladies RoCur (Rotating Curation)](https://bsky.app/profile/weare.rladies.org)** is a social media handle that is running on Bluesky that will feature an awesome R-Lady each week. This account is run by R-Ladies Global.      
+The **[R-Ladies RoCur (Rotating Curation)](https://bsky.app/profile/weare.rladies.org)** is a social media handle that features an awesome R-Lady each week. This account is run by R-Ladies Global.      
   
    
 ## Objectives  
   
-1. To encourage and maintain Bluesky engagement within the R-Ladies community.    
+1. To encourage and maintain social media engagement within the R-Ladies community.    
 2. To spotlight female and minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) and their great work in R.   
   
 ## How It Works  
   
-Every week, a different R-Lady takes over our Bluesky account to talk about the work they do in R. Featured curators come from a diversity of professions and have a range of experiences in R, from novice to expert.  
+Every week, a different R-Lady takes over our social media account to talk about the work they do in R. Featured curators come from a diversity of professions and have a range of experiences in R, from novice to expert.  
   
 If you are interested in becoming a curator, see our *Be a Curator* section (below) and [sign up here](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form).  
   
@@ -53,7 +53,7 @@ By signing on to be a curator of @weare.rladies.org you agree to our Curator Agr
   
 Please note: 
 * You will be asked to provide a first and second choice for week(s) you would like to curate.  
-* Curatorship begins each Monday at 7:00 AM ET (UTC−05:00) and ends the following Saturday at 12:00 PM ET (UTC−05:00).  
+* Curatorship begins each Monday at 7:00 AM ET (UTC−5) and ends the following Saturday at 12:00 PM ET (UTC−5).  
 * Administrators will make all efforts to honor all scheduling requests but may ask that you be flexible as the administrators need to coordinate multiple schedules.  
   
 ## Curator Nomination
@@ -78,7 +78,7 @@ Individuals may sign up for repeat curation if it has been at least two years si
   
 :four: _*The week before you are scheduled to curate*_: Account administrators will send you an email with specific info about curating and show you the infographic that will be posted the Sunday before you curate. You’ll need to approve this infographic. You'll also need to read and agree to our [Curator Agreement](https://guide.rladies.org/rocur/guide/#curating-agreement).  
   
-:five: _*Saturday or Sunday before you curate*_: You will receive access to @weare.rladies.org via tweetdeck. The Twitter profile pic will be changed to your photo Sunday evening/Monday morning. Then you are ready to curate for the week!    
+:five: _*Saturday or Sunday before you curate*_: You will receive access to @weare.rladies.org. The profile pic will be changed to your photo Sunday evening/Monday morning. Then you are ready to curate for the week!    
   
    
 ## Contact Us  
