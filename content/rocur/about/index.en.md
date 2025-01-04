@@ -6,7 +6,7 @@ weight: 1
 
 ## About
 
-The [**R-Ladies RoCur (Rotating Curation)**](https://bsky.app/profile/weare.rladies.org) is a social media handle that features an awesome R-Lady each week. This account is run by R-Ladies Global.
+The [**R-Ladies RoCur (Rotating Curation)**](https://bsky.app/profile/weare.rladies.org) is a social media handle currently running on [Bluesky](https://bsky.app/) that features an awesome R-Lady each week. This account is run by R-Ladies Global.
 
 ## Objectives
 
@@ -44,9 +44,9 @@ By signing on to be a curator of \@weare.rladies.org you agree to our [Curating 
 
 ## Curator Sign Up
 
-[**Current curator schedule**](https://airtable.com/appZpj9RYelJ9dbKS/shriGUNeVRW92458K/tblP0NksI30Axy7JJ)
+Take a look at the [**Current curator schedule**](https://airtable.com/appZpj9RYelJ9dbKS/shriGUNeVRW92458K/tblP0NksI30Axy7JJ)
 
-[**Curator sign up form**](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form)
+Want to curate for a week? Fill in the [**Curator sign up form**](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form)
 
 Please note:
 
@@ -59,8 +59,6 @@ Please note:
 -   To understand what your curation week and the weeks leading up to it will be like, take a look at the [*How Curating Works*](https://guide.rladies.org/rocur/guide/#how-curating-works) section of the guide for curators!
 
 ## Curator Nomination
-
-[**Curator Nomination Form**](https://airtable.com/appFIBzsk2AxWlGMt/pagfezjuCxohikOOa/form)
 
 Do you know an R-Lady who you think would be a great curator? We accept nominations for curators via our [nomination form](https://airtable.com/appFIBzsk2AxWlGMt/pagfezjuCxohikOOa/form).
 
