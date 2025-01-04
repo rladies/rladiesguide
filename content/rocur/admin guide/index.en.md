@@ -4,19 +4,20 @@ menuTitle: "Admin guide"
 weight: 60
 ---
 
-*Please note this guide is a WIP. Thank you for your patience!*
+*Please note this guide is a work in progress. Thank you for your patience!*
 
 ## Account Admin
 
 The admin team for the [We Are R-Ladies Bluesky account](https://bsky.app/profile/weare.rladies.org) is made up of members of the R-Ladies community. The team usually consists of 1 to 4 people, with responsibilities rotating on a monthly basis. Being an admin is a fantastic opportunity to connect with R-Ladies from around the world while facilitating an online community resource.
 
 ## Primary Responsibilities
+The responsibilities of the account admin are to:
 
 -   Coordinate and grant Bluesky account access to curators
 
 -   Provide instructions to curators and answer questions
 
--   Update and expand on RoCur documentation
+-   Update and expand on rotating curator (RoCur) documentation
 
 -   Recruit R-Ladies to be curators for the account
 
@@ -32,9 +33,9 @@ RoCur admins can recruit potential curators in a variety of ways:
 
 -   Contacting specific individuals
 
-In line with R-Ladies' mission, this account aims to spotlight minority genders (including but not limited to cis/trans women, trans men, non-binary individuals) and their great work in R. Featured curators should come from a diversity of professions and have a range of experiences in R, from novice to expert. Currently, we do not have a protocol for individuals to curate more than once.
+In line with [R-Ladies' mission](https://rladies.org/about-us/mission/), this account aims to spotlight minority genders (including but not limited to cis/trans women, trans men, non-binary individuals) and their great work in R. Featured curators should come from a diversity of professions and have a range of experiences in R, from novice to expert. Currently, we do not have a protocol for individuals to curate more than once.
 
-We also aim for this rotating curator (RoCur) account to be a sustainable initiative. Therefore, there is no pressure for RoCur admins to have curators lined up every single week. Additionally, RoCur admins are allowed to identify weeks during the year for the account to go on hiatus (i.e., an extended period with no curators).
+We also aim for this RoCur account to be a sustainable initiative. Therefore, there is no pressure for RoCur admins to have curators lined up every single week. Additionally, RoCur admins are allowed to identify weeks during the year for the account to go on hiatus (i.e., an extended period with no curators).
 
 ## Admin Procedures
 
@@ -58,7 +59,7 @@ We also aim for this rotating curator (RoCur) account to be a sustainable initia
 
 3.  📊Update the admin checklist to indicate that their photo has been saved.
 
-4.  ✉️Email the curator confirming their curation week. If the curator did not attach a photo to their Airtable form, you can also ask them to email to you now. You can use the following template:
+4.  ✉️Email the curator confirming their curation week. If the curator did not attach a photo to their Airtable form, you can also ask them to email to you. You can use the following template:
 
 > *Hi [curator's name],*
 >
