@@ -19,13 +19,13 @@ editor_options:
     will be updated accordingly to include your upcoming curation.
 
 -   1 week before your curation, RoCur admins will send you more info on
-    curating and ask you to review the [Curating Agreement] as well as
+    curating and ask you to review the [Curating Agreement](https://guide.rladies.org/rocur/guide/#curating-agreement)  as well as
     approve a graphic that will be used to promote your account
     takeover.
 
 -   The Sunday before your curation, you will receive an app password,
-    which will serve as your temporary credential to log into the We Are
-    R-Ladies Bluesky account.
+    which will serve as your temporary credential to log into the [We Are
+    R-Ladies Bluesky account](https://bsky.app/profile/weare.rladies.org).
 
 *During your curation*:
 
@@ -55,6 +55,38 @@ editor_options:
     the We Are R-Ladies Bluesky account, enabling the next curator to
     take over.
 
+## Pre-curation Week Checklist
+
+The goal of this checklist is to ease both the technical and
+content-related aspects of curation in advance of your assigned week.
+**We strongly encourage you to complete this checklist one week prior to
+your curation.** This way, you will have time to ping the #rocur channel
+of the R-Ladies Community Slack if any questions arise.
+
+1.  [ ] Post from your personal Bluesky account.
+
+2.  [ ] Post an image with alternative text (again, from your personal
+    Bluesky account).
+
+    -   *See [FAQ](https://guide.rladies.org/rocur/faq/) for more 
+        details.*
+    -   Check out [this
+        article](https://accessibility.huit.harvard.edu/describe-content-images)
+        on writing helpful Alt Text by Digital Accessibility at Harvard
+        or [this Medium
+        post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81)
+        on writing Alt Text for data visualization.
+
+3.  [ ] Read at least one artifact from previous curators. See [Work
+    From Previous Curators (on
+    Twitter)](https://guide.rladies.org/rocur/guide/#work-from-previous-curators--the-wearerladies-team) *for a list.*
+
+4.  [ ] Create a list of topics you hope to post about during your
+    curation.
+
+    -   Most curators agree that doing some brainstorming before your
+        curation week can be incredibly helpful!    
+
 ## Curating Agreement
 
 ***By signing on to be a curator of the We Are R-Ladies Bluesky account,
@@ -73,18 +105,21 @@ you agree to the following:***
 5.  Be the sole poster of the We Are R-Ladies Bluesky account during
     your assigned week.
 6.  Do not actively promote or advertise any business or receive
-    remuneration from a third party to do so. *See [Promotional Posting]
+    remuneration from a third party to do so. *See [Promotional Posting](https://guide.rladies.org/rocur/guide/#promotional-posting) 
     for more details.*
 7.  Do not change the display name, avatar, banner image, or bio of the
     We Are R-Ladies Bluesky account, unless asked directly to do so.
 8.  Do not follow, unfollow, or block any users from the account.
     Additionally, do not engage with individuals via direct messages.
+
     *However, if you experience abuse while contributing, you may block
     the offender. In such cases, alert the RoCur admins by emailing
     [weare\@rladies.org](mailto:weare@rladies.org) or posting in the
     R-Ladies Community Slack, including the offender's handle and a
     description of the incident.*
-9.  At the end of your curation, revoke access to the We Are R-Ladies
+
+
+9.  At the end of your curation, your access will be revoked to the We Are R-Ladies
     Bluesky account from any applications you may have authorized.
 10. Prior to the curation, submit a profile picture and a brief
     biography to be used on the We Are R-Ladies Bluesky account.
@@ -138,7 +173,7 @@ company, business or service. This includes:
 
 ## Posting Tips
 
-#### Introducing Yourself
+#### Introduce Yourself
 
 Start your curation by introducing yourself to the account followers:
 
@@ -270,39 +305,11 @@ A sample sign-off:
 > curate! You can stay in touch by following me at [your Bluesky
 > handle]."*
 
-## Pre-curation Week Checklist
 
-The goal of this checklist is to ease both the technical and
-content-related aspects of curation in advance of your assigned week.
-**We strongly encourage you to complete this checklist one week prior to
-your curation.** This way, you will have time to ping the #rocur channel
-of the R-Ladies Community Slack if any questions arise.
 
-1.  [ ] Post from your personal Bluesky account.
+        
 
-2.  [ ] Post an image with alternative text (again, from your personal
-    Bluesky account).
-
-    -   *See [FAQ](https://guide.rladies.org/rocur/faq/) for more
-        details.*
-    -   Check out [this
-        article](https://accessibility.huit.harvard.edu/describe-content-images)
-        on writing helpful Alt Text by Digital Accessibility at Harvard
-        or [this Medium
-        post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81)
-        on writing Alt Text for data visualization.
-
-3.  [ ] Read at least one artifact from previous curators. See [Work
-    From Previous Curators (on
-    Twitter)](#work-from-previous-curators-on-twitter) *for a list.*
-
-4.  [ ] Create a list of topics you hope to post about during your
-    curation.
-
-    -   Most curators agree that doing some brainstorming before your
-        curation week can be incredibly helpful!
-
-## Work From Previous Curators (on Twitter) {#work-from-previous-curators-on-twitter}
+## Work from previous curators & the @WeAreRLadies team
 
 We deeply appreciate our past curators for their hard work in building
 our former community on Twitter. Many of them have also written blog
