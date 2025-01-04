@@ -19,13 +19,14 @@ editor_options:
     will be updated accordingly to include your upcoming curation.
 
 -   1 week before your curation, RoCur admins will send you more info on
-    curating and ask you to review the [Curating Agreement](https://guide.rladies.org/rocur/guide/#curating-agreement)  as well as
+    curating and ask you to review the [Curating Agreement] as well as
     approve a graphic that will be used to promote your account
     takeover.
 
 -   The Sunday before your curation, you will receive an app password,
-    which will serve as your temporary credential to log into the [We Are
-    R-Ladies Bluesky account](https://bsky.app/profile/weare.rladies.org).
+    which will serve as your temporary credential to log into the [We
+    Are R-Ladies Bluesky
+    account](https://bsky.app/profile/weare.rladies.org).
 
 *During your curation*:
 
@@ -68,7 +69,7 @@ of the R-Ladies Community Slack if any questions arise.
 2.  [ ] Post an image with alternative text (again, from your personal
     Bluesky account).
 
-    -   *See [FAQ](https://guide.rladies.org/rocur/faq/) for more 
+    -   *See [FAQ](https://guide.rladies.org/rocur/faq/) for more
         details.*
     -   Check out [this
         article](https://accessibility.huit.harvard.edu/describe-content-images)
@@ -78,14 +79,13 @@ of the R-Ladies Community Slack if any questions arise.
         on writing Alt Text for data visualization.
 
 3.  [ ] Read at least one artifact from previous curators. See [Work
-    From Previous Curators (on
-    Twitter)](https://guide.rladies.org/rocur/guide/#work-from-previous-curators--the-wearerladies-team) *for a list.*
+    From Previous Curators] *for a list.*
 
 4.  [ ] Create a list of topics you hope to post about during your
     curation.
 
     -   Most curators agree that doing some brainstorming before your
-        curation week can be incredibly helpful!    
+        curation week can be incredibly helpful!
 
 ## Curating Agreement
 
@@ -95,20 +95,27 @@ you agree to the following:***
 1.  Abide by the R-Ladies' [Code of Conduct](https://rladies.org/coc/)
     in all activities and interactions on the We Are R-Ladies Bluesky
     account.
+
 2.  Be responsible for all content posted throughout your designated
     week. RoCur admins will take action if your posts contain racist,
     sexist, homophobic, or any other harmful content.
+
 3.  Refrain from using obscene or abusive language.
+
 4.  Use inclusive language when addressing the audience. Consider using
     words like *all*, *everybody*, *y'all*, and *folks* since not every
     member of R-Ladies identifies as female.
+
 5.  Be the sole poster of the We Are R-Ladies Bluesky account during
     your assigned week.
+
 6.  Do not actively promote or advertise any business or receive
-    remuneration from a third party to do so. *See [Promotional Posting](https://guide.rladies.org/rocur/guide/#promotional-posting) 
+    remuneration from a third party to do so. *See [Promotional Posting]
     for more details.*
+
 7.  Do not change the display name, avatar, banner image, or bio of the
     We Are R-Ladies Bluesky account, unless asked directly to do so.
+
 8.  Do not follow, unfollow, or block any users from the account.
     Additionally, do not engage with individuals via direct messages.
 
@@ -118,9 +125,10 @@ you agree to the following:***
     R-Ladies Community Slack, including the offender's handle and a
     description of the incident.*
 
+9.  At the end of your curation, your access will be revoked to the We
+    Are R-Ladies Bluesky account from any applications you may have
+    authorized.
 
-9.  At the end of your curation, your access will be revoked to the We Are R-Ladies
-    Bluesky account from any applications you may have authorized.
 10. Prior to the curation, submit a profile picture and a brief
     biography to be used on the We Are R-Ladies Bluesky account.
 
@@ -305,11 +313,7 @@ A sample sign-off:
 > curate! You can stay in touch by following me at [your Bluesky
 > handle]."*
 
-
-
-        
-
-## Work from previous curators & the @WeAreRLadies team
+## Work From Previous Curators
 
 We deeply appreciate our past curators for their hard work in building
 our former community on Twitter. Many of them have also written blog

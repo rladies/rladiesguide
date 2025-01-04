@@ -11,6 +11,7 @@ weight: 60
 The admin team for the [We Are R-Ladies Bluesky account](https://bsky.app/profile/weare.rladies.org) is made up of members of the R-Ladies community. The team usually consists of 1 to 4 people, with responsibilities rotating on a monthly basis. Being an admin is a fantastic opportunity to connect with R-Ladies from around the world while facilitating an online community resource.
 
 ## Primary Responsibilities
+
 The responsibilities of the account admin are to:
 
 -   Coordinate and grant Bluesky account access to curators
