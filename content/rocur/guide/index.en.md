@@ -2,218 +2,360 @@
 title: "Curator guide"
 menuTitle: "Curator guide"
 weight: 10
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
+## How Curating Works
 
-## How Curating Works  
+*Prior to your curation*:
 
-* Curatorship begins each **Monday at [11h00 UTC](http://www.timebie.com/std/utc.php?q=11)** and ends the following **Saturday at [16h00 UTC](http://www.timebie.com/std/utc.php?q=16)**.   
-* For the duration of the curatorship, the profile photo will be a photo of the curator. This is updated by the RoCur administrator.    
-* The personal twitter handle of the curator will be in the bio (if applicable, you do not need to be a twitter user prior to curating).   
-* Your first post should introduce yourself to the account followers. Your first tweet should tell the audience: what you do (your job, hobbies, etc.), and what you do in R.   
-* Tweet throughout the week! We do not require that you tweet a specific number of times. But, we ask that you be as active as your schedule allows during your curatorship.  
-* Every Sunday, the administrator will update access of the account for the next curator via Tweetdeck.     
+-   Sign up to be a curator on [this
+    form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form).
 
+-   After the RoCur admins review your submission, the [RoCur
+    schedule](https://airtable.com/appZpj9RYelJ9dbKS/shriGUNeVRW92458K/tblP0NksI30Axy7JJ)
+    will be updated accordingly to include your upcoming curation.
 
+-   1 week before your curation, RoCur admins will send you more info on
+    curating and ask you to review the [Curating Agreement] as well as
+    approve a graphic that will be used to promote your account
+    takeover.
 
+-   The Sunday before your curation, you will receive an app password,
+    which will serve as your temporary credential to log into the [We
+    Are R-Ladies Bluesky
+    account](https://bsky.app/profile/weare.rladies.org).
 
+*During your curation*:
 
-## Curating Agreement  
+-   Each rotating curation (RoCur) begins on **Monday at [11:00 AM
+    UTC](https://www.timebie.com/std/universal.php?q=11)** and ends on
+    the following **Saturday at** [**4:00 PM
+    UTC**](https://www.timebie.com/std/universal.php?q=16).
 
-_**By signing on to be a curator of @WeAreRLadies you agree to the following:**_  
+-   During the curation, the avatar of the We Are R-Ladies Bluesky
+    account will be set to a photo of you. The admins will update the
+    account profile accordingly.
 
+-   If applicable, your personal Bluesky handle will also appear in the
+    bio of the We Are R-Ladies Bluesky account. You do not need to have
+    a Bluesky account prior to curating.
 
+-   Your first post should serve as an introduction to the account
+    followers. This could include details such as what you do for work,
+    how you use R, etc.
 
-1. Abide by R-Ladies’ [Code of Conduct](https://rladies.org/code-of-conduct/) in all activity and interactions you have on the @WeAreRLadies account.    
+-   While we do not require curators to post a specific number of times,
+    we ask that you be as active as possible during your curation.
 
-2. Be the sole tweeter of @WeAreRLadies for the week that you are assigned.  
+*After your curation*:
 
-3. Don’t change the photo, biography, background or theme of the  @WeAreRLadies account, unless expressly directed to do so (e.g. changing the profile photo at the start of your week).  
+-   The following Sunday, RoCur admins will remove the your access to
+    the We Are R-Ladies Bluesky account, enabling the next curator to
+    take over.
 
-4. Provide a profile photo which may be used during your week, and some background information on yourself, including research and interests, to be featured on the @WeAreRLadies account.  
+## Pre-curation Week Checklist
 
-5. All content posted during your week is your responsibility. That said, the  @WeAreRLadies administrators will take action if your posts contain racism, sexism, homophobia, etc.  
+The goal of this checklist is to ease both the technical and
+content-related aspects of curation in advance of your assigned week.
+**We strongly encourage you to complete this checklist one week prior to
+your curation.** This way, you will have time to ping the #rocur channel
+of the R-Ladies Community Slack if any questions arise.
 
-6. Refrain from using obscene or abusive language.  
+1.  [ ] Post from your personal Bluesky account.
 
-7. Please use inclusive language when addressing your twitter audience. Please consider using *all*, *everybody*, *y'all*, *folks* or anything similar as not everybody part of R-Ladies identifies as female.   
+2.  [ ] Post an image with alternative text (again, from your personal
+    Bluesky account).
 
-8. Don’t actively promote or advertise any business or receive remuneration from a third party to do so. ***Please see our section on [Promotional Tweeting](#promotional-tweeting) for more information on this.*   
-  
-9. After your assigned week, remove access to @WeAreRLadies from any applications to which you may have granted access.  
-  
-10. You may not follow, unfollow, or block any other twitter users from the account. Additionally, you may not interact with individuals via direct messages.   
-  
+    -   *See [FAQ](https://guide.rladies.org/rocur/faq/) for more
+        details.*
+    -   Check out [this
+        article](https://accessibility.huit.harvard.edu/describe-content-images)
+        on writing helpful Alt Text by Digital Accessibility at Harvard
+        or [this Medium
+        post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81)
+        on writing Alt Text for data visualization.
 
-*In the event that you receive abuse while contributing, please do block the offender if you feel it necessary. If this does occur, please send the administrators an email `weare@rladies.org` or via the R-Ladies Community Slack, noting the offender’s Twitter handle and a description of the offense.*  
-   
-  
-Please follow the [Twitter terms of service](https://help.twitter.com/en/rules-and-policies/twitter-rules#) The administrators of @WeAreRLadies reserve the right to warn or revoke the access of anyone who violates Twitter’s terms of service or breaches any of the above rules.  
-  
-  
-  
-  
-## Tweeting Tips  
-  
+3.  [ ] Read at least one artifact from previous curators. See [Work
+    From Previous Curators] *for a list.*
 
-### Introducing Yourself  
-  
-Start your curatorship by introducing yourself, what you do (your job, hobbies, etc.), and what you do in R.   
-  
-Suggestions on how to introduce yourself:    
-  
-* Share a URL to your website or github or etc.  
-* If your photo on the account differs from the photo on your personal twitter account, post the photo of your personal twitter account.  
-  
-  
-### General Tweeting Guidelines   
-  
-* We do not require that you tweet a specific number of times. But, we ask that you be as active as your schedule allows during your curatorship.    
-  + We completely understand if you are no longer able to curate during your scheduled week. We ask that you notify us by emailing WeAre@rladies.org as soon as you know you are unable to curate. We highly encourage you to reschedule your curation to another week!  
-* The content of your tweets is all up to you! But keep it relevant to R and/or R-Ladies. Make the account and its tweets useful for learning.   
-* Tweet pictures/graphics whenever possible, if you do please [add alternative text for screen-reader users](https://help.twitter.com/en/using-twitter/picture-descriptions).  
-    + Posting photos from R-Ladies meetups or other R-related events is highly encouraged.  
-    + Please properly attribute your photos and graphics by asking permission from the source if not you and tagging the individual if able.  
-    + Tag individuals who are in the photos if able.  
-* Use hashtags! (See below, [Tweeting about R](#tweeting-about-r), for more information on this)   
-* Add emojis and gifs when appropriate :smile:. For gifs, also add alternative text.
-* Have Fun!   
-  
-  
-### Tweeting about R    
-    
-* If you are part of an R-Ladies Chapter, highlight a project your local chapter is working on.  
-* Share relevant articles, blog posts, etc. relevant to your work or interests in R.    
-* Tell us something you just learned about R.  
-* Tell followers about a current R project you are doing (share a line of code or dataviz, link to a package you use a lot).    
-* When mentioning a package, add a link to its CRAN/BioConductor/GitHub page.   
-    + If possible, tag the Twitter account of the maintainer if this person isn’t too famous yet (e.g. no need to link and tag Hadley Wickham when mentioning ggplot2).   
-    + Same goes for courses, books, and etc.   
-* Use hashtags whenever possible.  
-    + Use the hashtag **#RLadies** whenever possible and relevant.  
-    + Use the **#rstats** hashtag when you share something that can be useful for the greater R community (e.g. a cool package); however, don’t use it when saying “Oh I’m doing R look at my screen” because this would create clutter in the R hashtag timeline and potentially lead to people blocking/silencing the account which we do not want. :wink:      
-  + Some other hashtag examples: **#dataviz, #rspatial, #opendata**    
-  + You can also hashtag: package names, the location of your local chapter, etc.
-  
-  
-### Interacting with your audience  
-  
-One goal of @WeAreRLadies is to maintain a strong R-Ladies community on Twitter! Therefore, please respond to people who interact with the account.   
-  
-If someone asks a question, we suggest re-tweeting their question with your response as a comment so that others can see the original question.  
-  
-  
-*Other suggestions for interacting with your audience:*  
-  
-* Ask a question about something you are having trouble with in R (our community is all about helping and supporting each other).  
-* Ask for recommendations on packages/datasets/features in R for a project you are working on.  
-* Create a twitter poll for followers to respond to. *Please note: You cannot create a twitter poll in Tweetdeck. We recommend creating a poll on your personal account and retweeting it via @WeAreRLadies.*  
-   
-   
-### Your Last Tweet 
-  
-Consider using the last tweet of your curatorship as a way to "sign off." Some ways you might do this is:
-  
-* Acknowledge that your curation week is ending and that this tweet or thread will be your last.  
-* Consider highlighting 1 main takeaway (e.g., "I really enjoyed discussing NLP & R with you", retweeting a thread where people added links to different resources).  
-* If applicable, feel free to add brief acknowledgements/thanks (e.g., "Thank you to my fellow R-Lady @[twitter handle], who encouraged me to curate!")   
-* Invite them to follow you on your personal Twitter account or other publicly-available, professional platform.  
-* Add anything else you might want to share as a last tweet (a fun gif, etc.).     
-   
-*Example*  
-   
->"My week curating has come to a close! Thank you for following along and discussing [topic discussed during curation week]. Keep in touch by following me at @[twitter handle]."  
-  
-                                    
-## Promotional Tweeting   
-  
-**It is not permitted to promote companies and/or businesses through @WeAreRLadies.**   
-  
-On this account, promoting a company, business, or service is broadly defined as any instance where any entity receives financial benefit from the twitter post. This includes:  
-  
-  
-* If you, the curator, receives remuneration for posting about a specific company, business, or service (including referral links).   
-*	If an organization, company, or individual receives profit from individuals using their service (i.e. users would have to pay for the service).  
-*	If the post actively solicits followers to partake in services where an entity receives financial benefit.  
-  
-  
-Examples of promotional tweets that are not allowed include:  
-  
-*	“Buy this book about XYZ in R!”   
-*	“Here is an online course that might be useful”  
-   
-   
-We encourage @WeAreRLadies curators to share free, openly-available resources to our audience and share personal experiences about using specific resources without promoting or soliciting on behalf of any particular company, business or service. This includes:  
-  
-*	Discussing an open source package that you use and why it’s helpful.  
-*	Discussing what you use R for at your job.   
-*	Sharing free, openly-available resources that you used to learn R and explaining what you liked and disliked about this resource.  
+4.  [ ] Create a list of topics you hope to post about during your
+    curation.
 
-Examples include:  
-  
-*	“As my job at [company name], I do/learn/use XYZ in R”  
-*	“An awesome package I use for XYZ in R is [package name]. [function name] is especially useful for ABC (includes example)”  
-*	“My first introduction to XYZ was this blog post: URL”  
-  
-  
-## Pre-Curation Week Checklist  
-  
-Previous curators have reported that both generating content for tweets and tweeting from tweetdeck to be challenging. The goal of this checklist is to ease both the technical and content aspects of curation in advance of your curation week. We recommend completing this checklist _**one**_ week in advance of your curation. This gives you time to ping the **#rocur_twitter** channel of the R-Ladies community slack if questions arise.    
-    
-To prepare for your curation week, we recommend the following steps to familiarize yourself with Tweetdeck and other processes that will be helpful when tweeting through your curation:    
-  
-### Basic: I only have an hour or less     
-  
-- [ ] **Send a Tweet from your personal account via Tweetdeck**. See more in our [FAQ](https://guide.rladies.org/rocur/faq/#1-how-do-i-start-my-first-tweet-as-wearerladies).   
-      - While logged into twitter, visit: https://tweetdeck.twitter.com/.  
-      - In the top left of the browser window, click the "Tweet" button, a menu should appear with a text box to enter your tweet. Be sure your personal account is selected if you are already connected to multiple accounts on Tweetdeck.  
-         
-- [ ] **Tweet an image with alternative text**.    
-      - See specific instructions on how to do this in Tweetdeck in our [FAQ](https://guide.rladies.org/rocur/faq/#8-how-do-i-add-alternative-text-to-images-in-my-post).  
-      - See a [blog post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81) on writing alt text for data visualizations or Harvard's Digital Accessibility [page](https://accessibility.huit.harvard.edu/describe-content-images) on writing alt text for images.     
-         
-- [ ] **Read at least one artifact from previous curators** (see a [full list of artifacts](https://guide.rladies.org/rocur/guide/#on-curating-for-wearerladies)).  
-     
-     
-### Intermediate: I have more time to prepare  
-  
-- [ ] **Schedule a Tweet from your personal account via Tweetdeck**.  
-       - In Tweetdeck, compose your tweet. Then, click "Schedule Tweet" and select the date and time you'd like the Tweet posted.
-       - Click Schedule Tweet at *date/time*.  
-          
-- [ ] **Practice creating a thread on your personal account via Tweetdeck**. See more in our [FAQ](https://guide.rladies.org/rocur/faq/#3-how-do-i-create-thread-via-tweet-deck).  
-     
-- [ ] **Create a list of topics you hope to tweet about during your curation week**. Previous curators have documented how they planned content for the week (see posts by [Divya Seernani](https://tolerancetoambiguity.com/my-week-with-we-are-r-ladies/) or [Shannon Pileggi](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/)) . Brainstorming content at any level of detail before your curation week starts will be helpful!
-  
-![A table with two columns: one for day of the week, another labelled "what to expect" for topics to be discussed.](https://tolerancetoambiguity.com/wp-content/uploads/2020/02/Bild1.jpg)
-*Above: A schedule of topics from Divya Seernani when she curated in February 2020. She organized topics by day of the week she planned to talk about them.*
-     
-      
-## Work from previous curators & the @WeAreRLadies team  
-  
-We are grateful all our previous curators who have worked hard to build our Twitter community. Many of them have also produced blogs, talks, and other resources on their curating experience. 
-  
-  
+    -   Most curators agree that doing some brainstorming before your
+        curation week can be incredibly helpful!
+
+## Curating Agreement
+
+***By signing on to be a curator of the We Are R-Ladies Bluesky account,
+you agree to the following:***
+
+1.  Abide by the R-Ladies' [Code of Conduct](https://rladies.org/coc/)
+    in all activities and interactions on the We Are R-Ladies Bluesky
+    account.
+
+2.  Be responsible for all content posted throughout your designated
+    week. RoCur admins will take action if your posts contain racist,
+    sexist, homophobic, or any other harmful content.
+
+3.  Refrain from using obscene or abusive language.
+
+4.  Use inclusive language when addressing the audience. Consider using
+    words like *all*, *everybody*, *y'all*, and *folks* since not every
+    member of R-Ladies identifies as female.
+
+5.  Be the sole poster of the We Are R-Ladies Bluesky account during
+    your assigned week.
+
+6.  Do not actively promote or advertise any business or receive
+    remuneration from a third party to do so. *See [Promotional Posting]
+    for more details.*
+
+7.  Do not change the display name, avatar, banner image, or bio of the
+    We Are R-Ladies Bluesky account, unless asked directly to do so.
+
+8.  Do not follow, unfollow, or block any users from the account.
+    Additionally, do not engage with individuals via direct messages.
+
+    *However, if you experience abuse while contributing, you may block
+    the offender. In such cases, alert the RoCur admins by emailing
+    [weare\@rladies.org](mailto:weare@rladies.org) or posting in the
+    R-Ladies Community Slack, including the offender's handle and a
+    description of the incident.*
+
+9.  At the end of your curation, your access will be revoked to the We
+    Are R-Ladies Bluesky account from any applications you may have
+    authorized.
+
+10. Prior to the curation, submit a profile picture and a brief
+    biography to be used on the We Are R-Ladies Bluesky account.
+
+RoCur admins reserve the right to warn or revoke the access of anyone
+who violates any of the above rules or Bluesky's [Terms of
+Service](https://bsky.social/about/support/tos).
+
+## Promotional Posting
+
+***It is not permitted to promote companies, businesses, or services
+through the We Are R-Ladies Bluesky account.***
+
+On this account, promoting a company, business, or service is broadly
+defined as any instance where any entity receives financial remuneration
+from the Bluesky post. This includes:
+
+-   If you, the curator, receives remuneration for posting about a
+    specific company, business, or service (e.g., referral links).
+
+-   If an organization, company, or individual profits from individuals
+    using their services.
+
+-   If the post actively solicits account followers to partake in
+    services where an entity receives monetary gain.
+
+Examples of promotional posts that are not allowed include:
+
+-   *“Buy this book about time series analysis in R!”*
+-   *“Here's an online course that could be helpful. There's a fee to
+    access it.”*
+
+We encourage curators to share free and openly available tools with the
+audience and communicate personal experiences about using specific
+resources without promoting or soliciting on behalf of any particular
+company, business or service. This includes:
+
+-   Discussing how you use R at work: *"As a data analyst at [company
+    name], I use R to create reports."*
+
+-   Posting about an open-source package that you have used and why it
+    was helpful: *"A great package for data visualization in R is
+    [package name]. If I want to create a plot to show the relationship
+    between numeric variables, [function name] is particularly useful!"*
+
+-   Sharing free, openly available resources that you have used to learn
+    R and explaining what you liked and disliked about it: *"My first
+    introduction to linear regression was this blog post: [URL]. I
+    appreciated how clear the examples were, but I found the theory
+    section a bit difficult to follow at first."*
+
+## Posting Tips
+
+#### Introduce Yourself
+
+Start your curation by introducing yourself to the account followers:
+
+-   This could include details such as what you do for work, how you use
+    R, your hobbies, etc.
+
+-   You could also share a URL to your personal website, GitHub, or
+    other relevant profiles.
+
+-   If the photo on the We Are R-Ladies Bluesky account differs from
+    your personal Bluesky account, you might want to post the latter.
+
+#### General Posting Guidelines
+
+-   We do not require you to post a specific number of times; however,
+    we ask that you be as active as possible during your curation.
+
+    -   We completely understand if you are no longer able to curate
+        during your scheduled week. Please notify us by emailing
+        [weare\@rladies.org](mailto:weare@rladies.org) as soon as you
+        know you are unable to curate. We highly encourage you to
+        reschedule your curation to another week!
+
+-   The content of your posts is entirely up to you! However, keep it
+    relevant to R and/or R-Ladies. Make the account and its posts useful
+    for learning.
+
+-   Pictures are great, but make sure to [add alternative
+    text](https://youtu.be/RE-iJRXUmTM?si=FbYJEYOsXDET8KlJ) to make them
+    accessible to people who use screen readers.
+
+    -   Posting photos from R-Ladies Meetup events or other R-related
+        get-togethers is highly encouraged.
+
+    -   Please ensure proper attribution for your photos by obtaining
+        permission from the original owner, and tagging them when
+        applicable.
+
+    -   Tag individuals in the images if applicable.
+
+-   Similarly, add alternative text to GIFs.
+
+-   Use hashtags! *See [Posting About R] for more details.*
+
+-   Have fun! 😃
+
+#### Posting About R
+
+##### Potential Topics
+
+-   If you belong to an R-Ladies chapter, highlight a project that your
+    local chapter is working on.
+
+-   Share articles, blog posts, etc. relevant to your work or interests
+    in R.
+
+-   Tell us something that you just learned in R.
+
+-   Inform the audience about your current R project, sharing a brief
+    description, a line of code, or a link to your GitHub repo.
+
+##### Include links
+
+-   When mentioning a package, add a link to its
+    CRAN/BioConductor/GitHub repo:
+
+    -   If available, mention the Bluesky account of the maintainer(s)
+        unless they are already widely known (i.e., it is not necessary
+        to tag Hadley Wickham when mentioning ggplot2).
+
+-   The same applies to courses, books, etc.; include the URL whenever
+    possible.
+
+##### Use hashtags
+
+-   Whenever relevant, use the
+    [#rladies](https://bsky.app/search?q=rladies) hashtag.
+
+-   Use the [#rstats](https://bsky.app/search?q=rstats) hashtag when
+    sharing something that might be useful for the greater R community.
+    Avoid overusing it to prevent cluttering the hashtag timeline. We do
+    not want others silencing or blocking this account!
+
+-   Other R-related hashtags include
+    [#dataviz](https://bsky.app/search?q=dataviz),
+    [#rspatial](https://bsky.app/search?q=rspatial), and
+    [#opendata](https://bsky.app/search?q=opendata).
+
+-   You could also hashtag package names, the location of your R-Ladies
+    chapter, etc.
+
+#### Interacting With Your Audience
+
+-   One goal of the We Are R-Ladies Bluesky account is to maintain a
+    strong R-Ladies community on the platform! Therefore, please respond
+    to users who interact with the account.
+
+-   If someone asks a question, we recommend replying with a quote post
+    so others can see the original post.
+
+##### Audience Engagement Ideas
+
+-   Post a question about something you are having trouble with in R –
+    our community is all about helping and supporting each other!
+
+-   Ask for R package or dataset recommendations for your a project you
+    are working on.
+
+#### Your Last Post
+
+Consider using the last post of your curation as a way to "sign off."
+You could do approach this by:
+
+-   Mentioning that your curation week is ending and that this post will
+    be your last
+
+-   Highlighting one key takeaway
+
+-   If applicable, writing acknowledgements
+
+-   Encouraging followers to connect with you on your personal Bluesky
+    account or other platforms like GitHub or Linkedin
+
+A sample sign-off:
+
+> *My week curating has come to a close! Thank you for following along
+> and discussing [list topics mentioned during curation]. Special thanks
+> to my fellow R-Lady [their Bluesky handle], who encouraged me to
+> curate! You can stay in touch by following me at [your Bluesky
+> handle]."*
+
+## Work From Previous Curators
+
+We deeply appreciate our past curators for their hard work in building
+our former community on Twitter. Many of them have also written blog
+posts and given talks reflecting on their curating experience.
+
 ### On curating for @WeAreRLadies
-  
-* [My Week with We Are R-Ladies](https://tolerancetoambiguity.com/my-week-with-we-are-r-ladies/): blog post by Divya Seernani, Feb 22, 2020.
 
-* [Curating for @WeAreRLadies on Twitter: From creating content to cultivating connections.](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/): blog post by Shannon Pileggi, Sep 23, 2021.
+-   [Curating for \@WeAreRLadies on Twitter: From creating content to
+    cultivating
+    connections](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/):
+    blog post by Shannon Pileggi, Sep 23, 2021
 
-* [Be great and curate! Tips and outcomes from an `@WeAreRLadies` Twitter curator.](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/): poster presentation by Shannon Pileggi, Oct 7, 2021.
-  
-* [Curating for @WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/): blog post by Nicola Rennie, Jan 18, 2022.  
+-   [Be great and curate! Tips and outcomes from an \@WeAreRLadies
+    Twitter
+    curator](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/):
+    poster presentation by Shannon Pileggi, Oct 7, 2021
 
-* [Curating R-Ladies' Twitter Account - A Fun Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/): blog post by Cosima Meyer, Sept. 17, 2022.  
-  
-### Looking at data from @WeAreRLadies   
-  
-* Katherine Simeon's [lightning talk](https://www.youtube.com/watch?v=nzmkYUr0wS0) at rstudio::conf(2020) - Jan 30, 2020  
-  
-* Megan Stodel's blog post series looking at @WeAreRLadies data:
-  - [Analyzing Twitter Data](https://www.meganstodel.com/posts/analysing-twitter-data/) - Oct 24, 2020
-  - [Tweet Timing](https://www.meganstodel.com/posts/tweet-timing/) - Nov 2, 2020   
-  - [Hashtag Analyses](https://www.meganstodel.com/posts/hashtag/) - Nov 15, 2020  
-    
-    
-*If you have written any blog posts, given any talks, or analyzed any data in relation to @WeAreRLadies, please add your links via pull request!*  
+-   [Curating for
+    \@WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/):
+    blog post by Nicola Rennie, Jan 18, 2022
+
+-   [Curating R-Ladies' Twitter Account - A Fun
+    Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/):
+    blog post by Cosima Meyer, Sep 18, 2022
+
+### Looking at data from @WeAreRLadies
+
+-   Katherine Simeon's [lightning
+    talk](https://www.youtube.com/watch?v=nzmkYUr0wS0) at
+    rstudio::conf(2020) - Jan 30, 2020
+
+-   Megan Stodel's blog post series looking at @WeAreRLadies data:
+
+    -   [Analyzing Twitter
+        Data](https://www.meganstodel.com/posts/analysing-twitter-data/) -
+        Oct 24, 2020
+    -   [Tweet
+        Timing](https://www.meganstodel.com/posts/tweet-timing/) - Nov
+        2, 2020
+    -   [Hashtag Analyses](https://www.meganstodel.com/posts/hashtag/) -
+        Nov 15, 2020
+
+*If you have written any blog posts, given any talks, or analyzed any
+data in relation to R-Ladies RoCur, please add your links via pull
+request!*

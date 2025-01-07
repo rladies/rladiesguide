@@ -4,135 +4,229 @@ menuTitle: "Admin guide"
 weight: 60
 ---
 
-## Account Admin  
+*Please note this guide is a work in progress. Thank you for your patience!*
 
-The account admin (team) for the rotating curator account are members of the R-Ladies community who keep [@WeAreRLadies](https://twitter.com/WeAreRLadies) running. The account admin could be a team of 1-4 people who can rotate responsibilities from month-to-month. Being an account admin is an opportunity to connect with R-Ladies from all over the world while facilitating an online community resource.     
-  
-*Please note this guide is a work in progress! We are currently working to build out this documentation. Thank you for your patience!*  
-  
-  
-## Primary Responsibilities  
+## Account Admin
 
-The responsibilities of the account admin are to:  
-* Coordinate and grant Twitter account access to curators.
-* Provide instructions to curators and answer questions as needed.  
-* Recruit R-Ladies to be curators for the account.  
-* Update and expand on the below procedures as needed.   
+The admin team for the [We Are R-Ladies Bluesky account](https://bsky.app/profile/weare.rladies.org) is made up of members of the R-Ladies community. The team usually consists of 1 to 4 people, with responsibilities rotating on a monthly basis. Being an admin is a fantastic opportunity to connect with R-Ladies from around the world while facilitating an online community resource.
 
-## Admin Procedures  
+## Primary Responsibilities
 
-### When someone signs up to curate:    
-* Add them to the curator schedule as soon as possible so other potential curators know that week is unavailable.  
-* The curator should send an email to WeAre@rladies.org with a photo for the account  
-* When this photo is received, save it in the Curator Photos Folder (in a shared Google Drive).  
-  - Save it as **YYYY-MM-DD-firstname** (date is first day of scheduled curation week)  
-* Reply to the curator’s email confirming their schedule week for curating. You may use the template below:  
+The responsibilities of the account admin are to:
 
->Hi NAME,
+-   Coordinate and grant Bluesky account access to curators
+
+-   Provide instructions to curators and answer questions
+
+-   Update and expand on rotating curator (RoCur) documentation
+
+-   Recruit R-Ladies to be curators for the account
+
+## Recruiting Curators
+
+RoCur admins can recruit potential curators in a variety of ways:
+
+-   Messaging the R-Ladies Community Slack
+
+-   Reaching out to organizers of different R-Ladies chapters
+
+-   Posting a general call via the [R-Ladies](https://bsky.app/profile/rladies.org) or [We Are R-Ladies](https://bsky.app/profile/weare.rladies.org) Bluesky accounts
+
+-   Contacting specific individuals
+
+In line with [R-Ladies' mission](https://rladies.org/about-us/mission/), this account aims to spotlight minority genders (including but not limited to cis/trans women, trans men, non-binary individuals) and their great work in R. Featured curators should come from a diversity of professions and have a range of experiences in R, from novice to expert. Currently, we do not have a protocol for individuals to curate more than once.
+
+We also aim for this RoCur account to be a sustainable initiative. Therefore, there is no pressure for RoCur admins to have curators lined up every single week. Additionally, RoCur admins are allowed to identify weeks during the year for the account to go on hiatus (i.e., an extended period with no curators).
+
+## Admin Procedures
+
+*The following emojis will be used throughout this documentation to indicate where specific actions need to be performed:*
+
+-   📊: Airtable
+
+-   📁: Google Drive
+
+-   ✉️: Email
+
+-   🦋: Bluesky
+
+### When someone signs up to curate
+
+1.  📊Add them to the [curator schedule](https://airtable.com/appZpj9RYelJ9dbKS/shriGUNeVRW92458K/tblP0NksI30Axy7JJ) as soon as possible, so other potential curators are aware the week is unavailable.
+
+2.  📁Save the photo they attached to their Airtable form in the [shared Google Drive folder](https://drive.google.com/drive/folders/1XHSFOHHVvXny3ktGOcGVBXsUXeOYD_Qr?usp=sharing).
+
+    -   Save the file as **YYYY-MM-DD-firstname**, using the first day of the scheduled curation week as the date.
+
+3.  📊Update the admin checklist to indicate that their photo has been saved.
+
+4.  ✉️Email the curator confirming their curation week. If the curator did not attach a photo to their Airtable form, you can also ask them to email to you. You can use the following template:
+
+> ***Subject: Your opportunity to curate for the We Are R-Ladies Bluesky account***
 >
->Thank you for the photo. You are scheduled to curate the week of DATE. We will contact you 1 week before you are scheduled to curate with more details. Let us know if you have any questions.   
+> *Hi [curator's name],*
 >
->Thanks!
-
-
-### 1 Week before they are scheduled to curate:  
-* Create a draft of their infographic.  
-* Send an email to the curator that includes:  
-  - A reminder of when they are scheduled to curate;  
-  - A draft of the infographic, request that they approve or request changes to the draft;  
-  - Link the Curator Guide for their reference. Ask them if they have any questions.  
-
-#### Sample email ~1 week before the first day of curating
-
->Hi **NAME**,
+> *Your curation is scheduled to begin on [start date of curation]. We'll contact you 1 week before your curation with more details. Let us know if you have any questions!*
 >
->We are excited to have you curate next week! You are scheduled to curate from Monday, **[DATE]** to Saturday **[DATE]**. Depending on your schedule, we can modify this slightly (i.e. start on Tuesday or end on Friday), just let us know. We appreciate your time and contributions to the R-Ladies RoCur!
+> *Thank you,*
 >
->We’ve attached what we will post this Sunday to advertise your curation week. Please let us know any changes that you would like no later than **[DATE]**.
+> *Rotating Curation (RoCur) admins*
+
+4.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 1 (notice of curation week) has been sent.
+
+### When someone is nominated to curate
+
+1.  ✉️Email the potential curator to let them know that they have been nominated. You can use the template below:
+
+> ***Subject: Invitation to become a curator on the We Are R-Ladies Bluesky account**\
+> \
+> Hi [potential curator's name],\
+> \
+> I hope this message finds you well!\
+> \
+> My name is [your name], and I'm an admin for the [We Are R-Ladies Rotating Curation (RoCur) account on Bluesky](https://bsky.app/profile/weare.rladies.org).*
 >
->Please read through our [Curator Guide](https://guide.rladies.org/rocur/guide/) in preparation for curating. Additionally, if you haven’t already, please join our R-Ladies Directory.
+> *For a bit of context, RoCur is a program where we feature a new curator every week from the R community. The curator takes over our account to share their insights, interests, and work.*
 >
->We will contact you later this week with more information about accessing our Twitter account. In the meantime, let us know if you have any questions about curating.
+> *I'm reaching out because you were nominated by [nominator's name] to be a curator for the We Are R-Ladies Bluesky account. They believe you would make a fantastic curator because [reason provided in nomination form].*
 >
->Thanks!
-
-
-### Sunday before they are scheduled to curate:   
-* Add the curator’s Twitter handle as a contributor on the RoCur account (via Tweetdeck) and remove last week’s curator from the RoCur team. 
-* Email the curator that they are now added to the Twitter account.  
-* Post their final infographic to the RoCur feed (be sure to mention their personal Twitter handle).  
-   - Via Tweetdeck, we can schedule this post to go out on Sunday morning. The team aims to post this before [18h00 UTC](https://www.timebie.com/std/utc.php?q=18).  
-   - The tweet text should contain the Twitter handle of the curator and #RLadies hashtag (so that it can be retweeted by [@RLadiesGlobal](https://twitter.com/RLadiesGlobal). For example: "This week's #RLadies curator is **@[TWITTER HANDLE]**"  
-   - Alt Text: When uploading an image into Tweetdeck, a gray button will appear at the bottom of the image labelled "Add description." In the text field, we currently write:   
-   > Curator **[NAME]**, **[Role/Title]** at **[Organization]**. They say: "**[copy text about what they do in R]**"  
-* They will need to visit [tweetdeck.twitter.com](https://tweetdeck.twitter.com/) while logged into their twitter account in order to tweet from the account.  
-  
-#### Immediately prior to curation:  
-
-* Change the profile picture for the account to the photo provided by the curator.  
-* In the description, write their Twitter handle after "This week's curator:"  
-  
-  
-#### Sample email ~1-2 days before the first day of curating
-
->Hi NAME,
+> *If you're interested in joining us, please fill out [this form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form).*
 >
->We have added you as a contributor to the @WeAreRLadies account. While logged into twitter, visit: https://tweetdeck.twitter.com/ and you should see @WeAreRLadies under your “Accounts” (at the bottom left part of the menu). Twitter also has a [tweetdeck guide](https://help.twitter.com/en/using-twitter/how-to-use-tweetdeck) that might be useful.  
+> *For more details about the RoCur program, feel free to check out [our webpage](https://guide.rladies.org/rocur/about/).*
 >
->Please refer to our [Curator Guide](https://guide.rladies.org/rocur/guide/) for our curator agreement and tips re: engaging with our Twitter audience. Your curatorship will start on Monday at [11h00 UTC](http://www.timebie.com/std/utc.php?q=11) and ends Saturday at [16h00 UTC](http://www.timebie.com/std/utc.php?q=16).
+> *If you have any questions or would like to learn more, don't hesitate to reply to this email.*
 >
->If you have any questions or encounter any problem, you can send us an email at WeAre@rladies.org. Also, you can join our #rocur_twitter channel on the community slack where you can reach out to all RoCur Managers and get connected with past curators.  
->  
->Thanks!  
-  
-### After they curate  
-   
-#### The day after their curation ends:  
-   
-Before the infographic for next week's curator is posted, be sure to (note that these actions require you to be logged into the Twitter account, not just accessing the account via Tweetdeck):
-* Remove the curator's profile picture and use the general @WeAreRLadies logo.   
-* In the description, write "TBA" after "This week's curator:"    
-     
-#### The week after they curate:   
-  
-* Send a thank you email to the curator (see sample below).  
-* Add the curator to our [WeAreRLadies Curators list](https://twitter.com/i/lists/1039116507719106560). Learn more about using Twitter lists [here](https://help.twitter.com/en/using-twitter/twitter-lists).  
-   
-      
-#### Sample thank you email  
-  
-> Hi NAME,   
->  
-> Thank you so much for curating for @WeAreRLadies! We truly appreciate your time and effort to engage the broader R community and highlight minority genders and their great work in R.  
-> 
-> If you needed additional support during your curating week, or if anything can be clarified in the [Curator Guide](https://guide.rladies.org/rocur/guide/), we welcome direct feedback to this email.  
->   
-> If you write about your curating week and you would like for it to be added to the guide, please either submit a pull request on the [work from previous curators](https://guide.rladies.org/rocur/guide/#work-from-previous-curators--the-wearerladies-team) section of the guide or notify us so that we may do so for you.  
->   
-> Lastly, please consider nominating fellow R-Ladies to curate. We value hearing diverse voices from R-Ladies around the world, and we greatly appreciate your assistance identifying R-Ladies whose work you admire.  
-> 
-> We thank you for your service to the R-Ladies community!   
-> The RoCur Team
+> *Thank you for your time and cooperation!*
+>
+> *RoCur admins*
 
-    
-## Other Information on Infrastructure & Procedures  
-  
-### Virtual Spaces associated with @WeAreRLadies  
-  
-In addition to the Twitter Handle, other means of communication that the @WeAreRLadies admin team have access to are:  
-* The Rocur email address, WeAre@rladies.org;    
-* The #rocur_twitter channel on the [R-Ladies Community Slack](https://rladies.org/form/community-slack/).  
-  
-Admin team members are added as admin to the @WeAreRLadies Twitter handle on Tweetdeck. Additionally, admin members will have access to a shared Google Drive with templates, files, and other documentation.   
-    
-### Recruiting Curators  
+2.  Once they have filled out the [curator sign-up form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form), follow the steps outlined in [When someone signs up to curate]*.*
+3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the nominee has been contacted.
 
-Account admin can recruit potential curators in a variety of ways:  
-* The R-Ladies Community Slack;  
-* Reaching out to organizers of different R-Ladies chapters;   
-* A general call on the @RLadiesGlobal or @WeAreRLadies Twitter handles;  
-* Individual outreach to specific R-Ladies community members you admire!  
+### 1 week before they are scheduled to curate
 
-In line with R-Ladies' mission, this account aims to spotlight female and minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) and their great work in R. Featured curators come from a diversity of professions and have a range of experiences in R, from novice to expert. Currently, we do not have a protocol for individuals to curate more than one time.   
+1.  📁Create a draft of their introduction graphic using the information they provided in the Airtable form.
+    1.  The template and previously created graphics are available in the [shared Google Drive folder](https://drive.google.com/drive/folders/1XHSFOHHVvXny3ktGOcGVBXsUXeOYD_Qr?usp=sharing).
+2.  ✉️Using the template below, send an email to the curator that includes:
+    -   A reminder of when they are scheduled to curate;
+    -   A draft of the graphic, requesting for their approval or feedback for any changes; and
+    -   A link to the curator guide, asking if they have any questions.
 
-We also aim for this rotating curator account to be a sustainable initiative. Therefore, there is no pressure for account admin to have curators lined up for every single week. Additionally, account admin are allowed to identify times during the calendar year for the account to go on hiatus (i.e., an extended period with no curators).
+> ***Subject: Request for approval of graphic for We Are R-Ladies Bluesky account***
+>
+> *Hi [curator's name],*
+>
+> *We're delighted to have you curate next week! You are scheduled to curate from **Monday, [start date of curation]** to **Saturday, [end date of curation]**. Depending on your schedule, we can modify this slightly (e.g., start on Tuesday or end on Friday) – just let us know. We appreciate your time and contributions to the We Are R-Ladies Bluesky account!*
+>
+> *Here's what we ask from you prior to your curation:*
+>
+> 1.  *We have attached the graphic that we'll post this Sunday to introduce you to our followers. Please let us know if you'd like us to make any changes no later than **this Wednesday**.*
+> 2.  *Please read through our [guide for curators](https://guide.rladies.org/rocur/guide/).*
+> 3.  *If you haven't already, please add yourself to the [R-Ladies directory](https://rladies.org/directory/).*
+>
+> *We'll contact you later this week with more details on accessing our Bluesky account. In the meantime, let us know if you have any questions about curating!*
+>
+> *Thank you,*
+>
+> *Rotating Curation (RoCur) admins*
+
+3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 2 (request for approval of graphic) has been sent.
+
+4.  📁If the curator asks for changes to their graphic, update it and send revised drafts until they approve.
+
+5.  📊After the curator approves their graphic, update the admin checklist in the RoCur Curator Sign Up Airtable to reflect this.
+
+### Sunday before they are scheduled to curate
+
+1.  🦋If it has not been done already, remove the previous curator's app password.
+
+2.  🦋Generate a new app password for the upcoming curator.
+
+    1.  Go to the **Settings** page.
+
+    2.  Select **Privacy and security**.
+
+    3.  Select **App passwords**.
+
+    4.  Select **Add App Password**.
+
+    5.  Name the app password **firstname-lastname** of the curator.
+
+        -   DO NOT SELECT "Allow access to your direct message".
+
+    6.  Copy and paste the app password into an email to the curator:
+
+> ***Subject: App password for the We Are R-Ladies Bluesky account***
+>
+> *Hi [curator's name],*
+>
+> *Your curation is scheduled to start on **Monday, [start date of curation] at [11:00 AM UTC](https://www.timebie.com/std/universal.php?q=11)** and end on **Saturday, [end date of curation] at [4:00 PM UTC](https://www.timebie.com/std/universal.php?q=16)**.*
+>
+> *Your app password to log into the We Are R-Ladies Bluesky account is **[app password]**.*
+>
+> *Please refer to the [FAQ](https://guide.rladies.org/rocur/faq/) for instructions on how to use the app password to log into the Bluesky account.*
+>
+> *If you haven't already, please read through our [guide](https://guide.rladies.org/rocur/guide/#curating-agreement) for our curating agreement and tips on how to engage your audience.*
+>
+> *If you have any questions, you can email us or join the #rocur channel on the R-Ladies Community Slack where you can reach out to the RoCur admins and get connected with past curators.*
+>
+> *Looking forward to your curation!*
+>
+> *Rotating Curation (RoCur) admins*
+
+3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 3 (provision of app password) has been sent out.
+4.  🦋Post their introduction graphic on Bluesky with the following message and Alt Text. You should be able to pull this information from their Airtable form submission. Ideally, this should go out **before [6:00 PM UTC](https://www.timebie.com/std/universal.php?q=18)**.
+
+> *This week's #RLadies curator is [their Bluesky handle].*
+>
+> Alt text: Curator [name], [role/title] at [organization]. They say, "[what they do in R]".
+
+5.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that their introduction has been posted on Bluesky.
+
+### Immediately prior to curation
+
+1.  🦋Change the avatar for the account to the photo provided by the curator.
+2.  🦋In the bio of the Bluesky account, include their Bluesky handle after *"This week's curator:"*.
+3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the account profile has been updated.
+
+### After they curate
+
+1.  🦋Replace the curator's profile photo with the We Are R-Ladies logo.
+2.  🦋Change the last line of the bio of the Bluesky account to *"This week's curator: TBA"*.
+3.  🦋Remove the curator's app password.
+    1.  Go to the **Settings** page.
+    2.  Select **Privacy and security**.
+    3.  Select **App passwords.**
+    4.  Click on the **red trash icon** next to the app password you wish to remove.
+    5.  Check that the app password no longer appears in the list.
+4.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the account has been reverted to its default state.
+5.  Add the curator to the We Are R-Ladies starter pack.
+6.  ✉️Send a thank you email to the curator. You can use the sample below:
+
+> ***Subject: Thank you for contributing to the We Are R-Ladies Bluesky account!***
+>
+> *Hi [curator's name]:*
+>
+> *Thank you so much for curating the We Are R-Ladies Bluesky account! We truly appreciate your time and effort to engage the broader R community and highlight minority genders and their great work in R.*
+>
+> *If you did not receive enough support during your curation, or if anything can be clarified in the [guide for curators](https://guide.rladies.org/rocur/guide/), we welcome direct feedback to this email.*
+>
+> *If you write about your curating week and would like us to incorporate it into the guide, please either submit a pull request or notify us so that we can do that for you.*
+>
+> *Lastly, please consider nominating fellow R-Ladies to curate. We value hearing diverse voices from R-Ladies around the world, and we greatly appreciate your assistance in identifying R-Ladies whose work you admire.*
+>
+> *We thank you for your service to the R-Ladies community!*
+>
+> *Rotating Curation (RoCur) admins*
+
+7.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
+
+## Other Information on Infrastructure & Procedures
+
+In addition to the Bluesky account, other means of communication that RoCur admins have access to are:
+
+-   RoCur email address: [weare\@rladies.org](mailto:weare@rladies.org)
+
+-   #rocur channel on the [R-Ladies Community Slack](https://rladies.org/form/community-slack/)
+
+Additionally, admin members will have access to Airtable and shared Google Drive folders.
