@@ -6,6 +6,7 @@ weight: 55
 
 Please read our [Curator Guide](/rocur/guide) for specific information on your role as a curator.  
 
+*The following instructions are for navigating through 🦋Bluesky as the RoCur is currently running on there.*
 
 ## Frequently Asked Questions   
 
