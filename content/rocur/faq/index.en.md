@@ -6,53 +6,58 @@ weight: 55
 
 Please read our [Curator Guide](/rocur/guide) for specific information on your role as a curator.  
 
+*The following instructions are for navigating through 🦋 Bluesky as RoCur is currently running on there.*
 
 ## Frequently Asked Questions   
 
-### 1. How do I start my first tweet as @WeAreRLadies?
-You can use Tweetdeck during your week as the curator. 
-* Log on to tweetdeck from your web browser, Iphone or Android App using your twitter credentials. You should see the screen similar to below.
+### 1. How do I start my first post as @weare.rladies.org?
 
+* Log on to Bluesky from your web browser, iPhone or Android app with `weare.rladies.org` as the username and the app password you received via email from the RoCur admins as the password. Refer to the screenshot below:
 
-{{< figure src="image.png" alt="Screenshot of Tweetdeck interface" >}}
+![Bluesky sign in page. Hosting provider is set to Bluesky Social.](login.png){width=600px}
 
-* Click the “Tweet” button at the top lefthand corner and select @WeAreRLadies as the account you are tweeting from.
+* Click the "New Post" button in the bottom left hand corner to get started on your curation.
 
+![The "New Post" button is located at the bottom of the navigation sidebar.](navigation_bar.png){width=200px}
 
-### 2. Can I add photos, GIFs and video?
+### 2. Can I add photos, emojis, GIFs and videos?
 
 * Yes - you can add up to 4 photos, a GIF, or a video. 
 
-### 3. How to delete a tweet?
-Mistakes happen! First of all, dont panic :smile: Tweets can be removed.
+### 3. How to delete a post?
 
-* Navigatate to tweet you wish to delete
-* Click on "..." on the top right of the creen
-* Choose "Delete" option
-* At the time of writing this, there is not an option to bulk-delete Tweets. 
+Mistakes happen! First of all, don't panic 😊 Posts can be removed.
 
-{{< figure src="delete_tw.png" alt="Screenshot of Tweetdeck interface to delete tweets" >}}
+* Navigate to the post you wish to delete.
+* Click on three-dot menu ("...") in the bottom right of the post.
+* Choose the "Delete post" option.
 
-* Note that comments made by other users of the deleted tweets will not be removed.
+![Click on the post's three-dot menu to reveal the "Delete post" option.](delete_post.png){width=400px}
 
-### 3. How do I create thread via Tweet Deck?
-View TweetDeck,  click to reply to the original tweet, then click on the user to switch to the WeAreRLadies users. 
+### 4. As a curator, can I like other posts?
 
-### 4. As a curator, can I like other tweets?
 Yes! You can definitely like others' posts.
 
-### 5. Why can't I add emojis?
-This isn't generally available on SAFARI, however at the time of writing this, CHROME has an extension you can download via https://chrome.google.com/webstore/detail/bettertweetdeck/micblkellenpbfapmcpcfhcoeohhnpob/related?hl=en 
+### 5. How to add polls? 
 
-### 6. How to add polls? 
-Unfortunately, you cannot create polls via Tweet Deck. We recommend creating a poll on your personal Twitter handle, then retweeting it via @WeAreRLadies.  
+You can use [poll.blue](https://bsky.app/profile/poll.blue) to make your own poll: https://poll.blue/post.<br> 
+The page should look something like the image below.  Make sure you use the `weare.rladies.org` handle when creating the poll.
 
-### 7. How do you pin a tweet to the @WeAreRLadies profile?  
-Unfortunately, you cannot pin tweets via Tweet Deck. If you want a specific tweet pinned, feel free to email `WeAre@rladies.org` or DM the account managers via Slack with a link to the tweet you want pinned and we can pin it for you. 
+![poll.blue web app to create a poll on Bluesky.](polls.png){width=700px}
+
+### 6. How do you pin a post to the @weare.rladies.org profile?  
+
+If you want to pin a post during your curation week, you can select the "Pin to your profile" option from the three-dot menu.<br>
+Please remember to remove this pin before the end of your curation.
+
+![Click on the post's three-dot menu to reveal the "Pin post" option.](pin_post.png){width=300px}
   
-### 8. How do I add alternative text to images in my post?  
+### 7. How do I add alternative text to images in my post?  
   
-When uploading an image into Tweetdeck, a gray button will appear at the bottom of the image labelled “Add description.” See [more information](https://help.twitter.com/en/using-twitter/picture-descriptions) about image accessibility from Twitter.    
+When uploading an image in a post, a "+ ALT" button will appear at the top right of the image. Click on this button to add a description to your image as seen in the figure below:<br>
+
+![Click on the "+ ALT" button to add a description.](add_alt_text.png){width=600px}
+
+Watch [this video](https://www.youtube.com/watch?v=RE-iJRXUmTM) for more information about image accessibility on Bluesky.<br>  
   
-{{< figure src="add_description.png" alt="Screenshot of the add description/alt text function in Tweetdeck" >}}
-  
+*If you have further inquiries that are not covered here, please send an email to [weare\@rladies.org](mailto:weare@rladies.org)*
