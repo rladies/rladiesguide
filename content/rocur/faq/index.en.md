@@ -14,11 +14,11 @@ Please read our [Curator Guide](/rocur/guide) for specific information on your r
 
 * Log on to Bluesky from your web browser, iPhone or Android app with `weare.rladies.org` as the username and the app password you received via email from the RoCur admins as the password. Refer to the screenshot below:
 
-![Bluesky sign in page. Hosting provider is set to Bluesky Social.](login.png){width=600px}
+![Bluesky sign in page. Hosting provider is set to Bluesky Social.](login.png)
 
 * Click the "New Post" button in the bottom left hand corner to get started on your curation.
 
-![The "New Post" button is located at the bottom of the navigation sidebar.](navigation_bar.png){width=200px}
+![The "New Post" button is located at the bottom of the navigation sidebar.](navigation_bar.png)
 
 ### 2. Can I add photos, emojis, GIFs and videos?
 
@@ -32,7 +32,7 @@ Mistakes happen! First of all, don't panic 😊 Posts can be removed.
 * Click on three-dot menu ("...") in the bottom right of the post.
 * Choose the "Delete post" option.
 
-![Click on the post's three-dot menu to reveal the "Delete post" option.](delete_post.png){width=400px}
+![Click on the post's three-dot menu to reveal the "Delete post" option.](delete_post.png)
 
 ### 4. As a curator, can I like other posts?
 
@@ -43,20 +43,20 @@ Yes! You can definitely like others' posts.
 You can use [poll.blue](https://bsky.app/profile/poll.blue) to make your own poll: https://poll.blue/post.<br> 
 The page should look something like the image below.  Make sure you use the `weare.rladies.org` handle when creating the poll.
 
-![poll.blue web app to create a poll on Bluesky.](polls.png){width=700px}
+![poll.blue web app to create a poll on Bluesky.](polls.png)
 
 ### 6. How do you pin a post to the @weare.rladies.org profile?  
 
 If you want to pin a post during your curation week, you can select the "Pin to your profile" option from the three-dot menu.<br>
 Please remember to remove this pin before the end of your curation.
 
-![Click on the post's three-dot menu to reveal the "Pin post" option.](pin_post.png){width=300px}
+![Click on the post's three-dot menu to reveal the "Pin post" option.](pin_post.png)
   
 ### 7. How do I add alternative text to images in my post?  
   
 When uploading an image in a post, a "+ ALT" button will appear at the top right of the image. Click on this button to add a description to your image as seen in the figure below:<br>
 
-![Click on the "+ ALT" button to add a description.](add_alt_text.png){width=600px}
+![Click on the "+ ALT" button to add a description.](add_alt_text.png)
 
 Watch [this video](https://www.youtube.com/watch?v=RE-iJRXUmTM) for more information about image accessibility on Bluesky.<br>  
   
