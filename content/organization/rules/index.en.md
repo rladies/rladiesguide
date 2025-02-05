@@ -15,7 +15,8 @@ weight: 1
 
 -   **Leadership, Mentorship, Membership, Presenters/Speakers &
     Prioritization of Underrepresented/Minority Genders**: In line
-    with R-Ladies' Mission Statement, community roles and
+    with [R-Ladies' Mission Statement](https://rladies.org/about-us/mission/),
+    community roles and
     participation is reserved and prioritised, respectively, for the
     genders who are currently underrepresented in the R community. As
     such, Leadership roles within R-Ladies communities, particularly
@@ -28,7 +29,8 @@ weight: 1
     opportunity of those who volunteer.
 
 -   **Rules for Participation of Represented/Majority Gender**: In line
-    with R-Ladies' Mission Statement, the genders/identities which are
+    with [R-Ladies' Mission Statement](https://rladies.org/about-us/mission/),
+    the genders/identities which are
     not underrepresented in the R community are not within the scope
     of this diversity initiative. The known majority gender group, cis
     men, can participate in an R-Ladies' community within an
