@@ -4,7 +4,7 @@ menuTitle: "Abstract Review"
 weight: 105
 ---
 
-R-Ladies Global has a system for review and feedback of conference abstracts and funding opportunities for both R-related and domain-specific conferences. The aim is to encourage women and toher gender minorities to submit proposals and improve chances of having work or applications selected, and international reviewers provide constructive feedback on areas including topics and pitch, phrasing, and subject matter.
+R-Ladies Global has a system for review and feedback of conference abstracts and funding opportunities for both R-related and domain-specific conferences. The aim is to encourage women and other gender minorities to submit proposals and improve chances of having work or applications selected, and international reviewers provide constructive feedback on areas including topics and pitch, phrasing, and subject matter.
 
 ## User/volunteer facing docs
 
