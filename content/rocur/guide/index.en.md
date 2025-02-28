@@ -321,6 +321,8 @@ posts and given talks reflecting on their curating experience.
 
 ### On curating for @WeAreRLadies
 
+-   [Curating R-Ladies @weare.rladies.org Bluesky account](https://medium.com/@simisani.ndaba013/curating-r-ladies-weare-rladies-org-bluesky-account-655b04f49c21): blog post by Simisani Ndaba, Feb 26, 2025
+
 -   [Curating for \@WeAreRLadies on Twitter: From creating content to
     cultivating
     connections](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/):
