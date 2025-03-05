@@ -51,7 +51,7 @@ The review handler should:
 
 Hi <reviewer name>!
 
-Thank you so much for offering to review abstracts through the R-Ladies review program! We received a request earlier and I wondered if you'd have time in the next week or so to take a look?
+Thank you so much for offering to review abstracts through the R-Ladies review program! We received a request earlier and I wondered if you'd have time in the next week or so to take a look?  The conference deadline is <date>.
 
 If you do, the link is <here - add link>, and I think you should be able to leave comments directly in the doc. If now isn't a good time, totally understand - just let us know so we can assign a new reviewer!
 
