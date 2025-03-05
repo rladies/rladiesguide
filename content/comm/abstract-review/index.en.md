@@ -31,7 +31,7 @@ in particular before big conference deadlines,
 
 The requests and volunteers are tracked in AirTable: https://airtable.com/appJadVolZxoDGSIK?
 
-Current volunteers (Nic and Saya) alternate managing reviews on a monthly basis with Nic on even numbered months and Saya on odd-numbered months.
+Volunteers should decide on the best way for them to manage reviews, for example, alternating between team members on a monthly basis.
 
 ## Handling an incoming request
 
