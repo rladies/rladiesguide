@@ -41,7 +41,7 @@ The review handler should:
 
 1. Check the request and the submission deadline, preferred reviewer language and gender, comments made by requestor, and that any attached documents are accessible
 2. Select a relevant reviewer from the list of volunteers, incrementing the value in the "reviews requested" column by 1.  If possible, try to use volunteers who haven't done too many previous reviews.
-3. Email the potential reviewer using the template below or similar
+3. Email 3 potential reviewers using the template below or similar
 4. Regularly check in to make sure we're not awaiting progress - see if the reviewer has added comments to the doc, and if they don't respond to the initial email assign a new reviewer
 5. Update the "Status" and "Reviewer Email" fields in the "abstracts" table with the relevant info
 6. Update the "Reviews requested" and "Reviews completed" fields in the "volunteers" table with the relevant info
