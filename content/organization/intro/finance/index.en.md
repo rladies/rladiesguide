@@ -71,7 +71,7 @@ R Consortium can offer grants to support the mission of local chapters in facili
      - The name of the organizer(s) in your chapter who will be responsible for managing the grant.
 
 **Step 2: Complete the Online Application**
-3. Once Batool Almarzouq has received and recorded the above information, proceed to the grant application process. Access the grant application form [available on the R Consortium website](https://www.r-consortium.org/projects/r-user-group-support-program).
+3. Once Batool Almarzouq has received and recorded the above information, proceed to the grant application process. Access the grant application form [available on the R Consortium website](https://r-consortium.org/all-projects/rugsprogram.html).
    - Fill out all required fields accurately and comprehensively.
    - Ensure that you have prepared a detailed proposal outlining the purpose and scope of your project.
    - Submit the completed application form through the website.
@@ -93,7 +93,7 @@ Subject to **availability of funding and after discussion with the finance team*
 
 ### What expenses can I get reimbursed?
 
-If you need money to buy food/drinks for your event, we suggest to get a sponsor or to apply for a grant through the [R User Group support program](https://www.r-consortium.org/projects/r-user-group-support-program) (grants start from $150).
+If you need money to buy food/drinks for your event, we suggest to get a sponsor or to apply for a grant through the [R User Group support program](https://r-consortium.org/all-projects/rugsprogram.html).
 
 If you cannot get an sponsor/grant and/or wish to discuss what type of expenses could be covered by the R-Ladies organisation, please contact the **finance team** (`finance@rladies.org`) **before making any expense**.
 
