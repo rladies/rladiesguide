@@ -6,7 +6,9 @@ weight: 1
 
 ## About
 
-The [**R-Ladies RoCur (Rotating Curation)**](https://bsky.app/profile/weare.rladies.org) is a social media handle currently running on [Bluesky](https://bsky.app/) that features an awesome R-Lady each week. This account is run by R-Ladies Global.
+The [**R-Ladies RoCur (Rotating Curation)**](https://bsky.app/profile/weare.rladies.org) is a social media handle running on [Bluesky](https://bsky.app/) since 2025 that features an awesome R-Lady each week. This account is run by R-Ladies Global.
+
+Previously, the WeAreRLadies Rotating Curation ran on X/Twitter from 2018 to 2022. Although this account has been deleted, an archive of these tweets is available at <https://rladies.org/tweet-archive/wearerladies/>.
 
 ## Objectives
 
