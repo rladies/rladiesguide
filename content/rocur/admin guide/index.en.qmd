@@ -432,25 +432,38 @@ This interface provides a structured way to oversee the entire curation process,
 - Direct access to guides and templates for further customization.  
 
 ```{mermaid}
+%%{init: {
+  'theme': 'base', 
+  'themeVariables': { 
+    'primaryColor': '#EDE7F6', 
+    'edgeLabelBackground':'#FFFFFF', 
+    'tertiaryColor': '#F3E5F5'}
+}}%%
+
 graph TD;
-    A[Nominations] -->|Nomination Form| B[Nominations Table];
-    B -->|Invite Nominee| C[Curators Table];
-    
-    C -->|Signup Form| D[Curators Table Updated];
-    D -->|Assign Status| E[Schedule Table];
-    E -->|Link to Time Slots| F[Schedule Automation];
-    
-    F -->|Assign Tasks| G[Tasks Table];
-    G -->|Reminders & Emails| H[Curator Communications];
-    
-    E -->|Completion| I[Follow-up Table];
-    I -->|Follow-up Form| J[Curator Feedback Collected];
-    
-    J -->|Update Status| K[Completed Curation];
-    
-    subgraph Automations
-        F -.->|Schedule Updates| G;
-        G -.->|Send Notifications| H;
-        H -.->|Follow-up Emails| I;
-    end
+  Nominations["📝 Nominations Form\n(New curator suggestions)"] -->|Data stored in| NominationsTable["📂 Nominations Table"];
+  NominationsTable -->|Curator invited via email| CuratorsSignup["📝 Signup Form\n(Nominee submits info)"];
+  CuratorsSignup -->|Data stored in| CuratorsTable["📂 Curators Table"];
+  
+  CuratorsTable -->|Scheduled in| ScheduleTable["📅 Schedule Table"];
+  ScheduleTable -->|Triggers automation| ScheduleAutomation["⚡ Schedule Curator Automation"];
+  ScheduleAutomation -->|Sends details to curator| CuratorNotified["📩 Curator Notified"];
+
+  CuratorNotified -->|Curation Period| CurationWeek["📅 Curator Active"];
+  CurationWeek -->|After completion| FollowUpTable["📂 Follow-up Table"];
+  FollowUpTable -->|Curator provides feedback| FollowUpForm["📝 Follow-up Form"];
+  
+  FollowUpForm -->|Data stored| FollowUpTable;
+  FollowUpTable -->|Triggers automation| CompletionAutomation["⚡ Complete Follow-up Automation"];
+  CompletionAutomation -->|Marks curator as completed| CompletedCurators["✅ Completed"];
+  
+  AdminTasks["🛠️ Admin Tasks"] -->|Tracks assignments| TasksTable["📂 Tasks Table"];
+  TasksTable -->|Used for tracking reminders, follow-ups| FollowUpTable;
+
+  style NominationsTable fill:#E1BEE7,stroke:#7B1FA2;
+  style CuratorsTable fill:#E1BEE7,stroke:#7B1FA2;
+  style ScheduleTable fill:#D1C4E9,stroke:#512DA8;
+  style FollowUpTable fill:#E1BEE7,stroke:#7B1FA2;
+  style TasksTable fill:#D1C4E9,stroke:#512DA8;
+  style CompletedCurators fill:#C5E1A5,stroke:#388E3C;
 ```

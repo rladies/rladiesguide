@@ -57,7 +57,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 ### When someone signs up to curate
 
-1.  📊Add them to the [curator schedule](https://rladies.org/form/rocur-schedule/) as soon as possible, so other potential curators are aware the week is unavailable.
+1.  📊Add them to the [curator schedule](https://airtable.com/appZpj9RYelJ9dbKS/shriGUNeVRW92458K/tblP0NksI30Axy7JJ) as soon as possible, so other potential curators are aware the week is unavailable.
 
 2.  📁Save the photo they attached to their Airtable form in the [shared Google Drive folder](https://drive.google.com/drive/folders/1XHSFOHHVvXny3ktGOcGVBXsUXeOYD_Qr?usp=sharing).
 
@@ -95,7 +95,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *I'm reaching out because you were nominated by \[nominator's name\] to be a curator for the We Are R-Ladies Bluesky account. They believe you would make a fantastic curator because \[reason provided in nomination form\].*
 >
-> *If you're interested in joining us, please fill out [this form](https://rladies.org/form/rocur-signup/).*
+> *If you're interested in joining us, please fill out [this form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form).*
 >
 > *For more details about the RoCur program, feel free to check out [our webpage](https://guide.rladies.org/rocur/about/).*
 >
@@ -105,8 +105,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *RoCur admins*
 
-
-1.  Once they have filled out the [curator sign-up form](https://rladies.org/form/rocur-signup/), follow the steps outlined in [When someone signs up to curate]*.*
+1.  Once they have filled out the [curator sign-up form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form), follow the steps outlined in [When someone signs up to curate](#when-someone-signs-up-to-curate)*.*
 2.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the nominee has been contacted.
 
 ### 1 week before they are scheduled to curate
@@ -450,27 +449,40 @@ This interface provides a structured way to oversee the entire curation process,
 
 <figure class=''>
 
-<pre class="mermaid mermaid-js">graph TD;
-    A[Nominations] --&gt;|Nomination Form| B[Nominations Table];
-    B --&gt;|Invite Nominee| C[Curators Table];
-    
-    C --&gt;|Signup Form| D[Curators Table Updated];
-    D --&gt;|Assign Status| E[Schedule Table];
-    E --&gt;|Link to Time Slots| F[Schedule Automation];
-    
-    F --&gt;|Assign Tasks| G[Tasks Table];
-    G --&gt;|Reminders &amp; Emails| H[Curator Communications];
-    
-    E --&gt;|Completion| I[Follow-up Table];
-    I --&gt;|Follow-up Form| J[Curator Feedback Collected];
-    
-    J --&gt;|Update Status| K[Completed Curation];
-    
-    subgraph Automations
-        F -.-&gt;|Schedule Updates| G;
-        G -.-&gt;|Send Notifications| H;
-        H -.-&gt;|Follow-up Emails| I;
-    end
+<pre class="mermaid mermaid-js">%%{init: {
+  &#39;theme&#39;: &#39;base&#39;, 
+  &#39;themeVariables&#39;: { 
+    &#39;primaryColor&#39;: &#39;#EDE7F6&#39;, 
+    &#39;edgeLabelBackground&#39;:&#39;#FFFFFF&#39;, 
+    &#39;tertiaryColor&#39;: &#39;#F3E5F5&#39;}
+}}%%
+
+graph TD;
+  Nominations[&quot;📝 Nominations Form\n(New curator suggestions)&quot;] --&gt;|Data stored in| NominationsTable[&quot;📂 Nominations Table&quot;];
+  NominationsTable --&gt;|Curator invited via email| CuratorsSignup[&quot;📝 Signup Form\n(Nominee submits info)&quot;];
+  CuratorsSignup --&gt;|Data stored in| CuratorsTable[&quot;📂 Curators Table&quot;];
+  
+  CuratorsTable --&gt;|Scheduled in| ScheduleTable[&quot;📅 Schedule Table&quot;];
+  ScheduleTable --&gt;|Triggers automation| ScheduleAutomation[&quot;⚡ Schedule Curator Automation&quot;];
+  ScheduleAutomation --&gt;|Sends details to curator| CuratorNotified[&quot;📩 Curator Notified&quot;];
+
+  CuratorNotified --&gt;|Curation Period| CurationWeek[&quot;📅 Curator Active&quot;];
+  CurationWeek --&gt;|After completion| FollowUpTable[&quot;📂 Follow-up Table&quot;];
+  FollowUpTable --&gt;|Curator provides feedback| FollowUpForm[&quot;📝 Follow-up Form&quot;];
+  
+  FollowUpForm --&gt;|Data stored| FollowUpTable;
+  FollowUpTable --&gt;|Triggers automation| CompletionAutomation[&quot;⚡ Complete Follow-up Automation&quot;];
+  CompletionAutomation --&gt;|Marks curator as completed| CompletedCurators[&quot;✅ Completed&quot;];
+  
+  AdminTasks[&quot;🛠️ Admin Tasks&quot;] --&gt;|Tracks assignments| TasksTable[&quot;📂 Tasks Table&quot;];
+  TasksTable --&gt;|Used for tracking reminders, follow-ups| FollowUpTable;
+
+  style NominationsTable fill:#E1BEE7,stroke:#7B1FA2;
+  style CuratorsTable fill:#E1BEE7,stroke:#7B1FA2;
+  style ScheduleTable fill:#D1C4E9,stroke:#512DA8;
+  style FollowUpTable fill:#E1BEE7,stroke:#7B1FA2;
+  style TasksTable fill:#D1C4E9,stroke:#512DA8;
+  style CompletedCurators fill:#C5E1A5,stroke:#388E3C;
 </pre>
 
 </figure>
