@@ -21,6 +21,47 @@ It holds all your **tables, views, forms, and automations** for a project.
 A single base can contain multiple tables, forms and automations.
 In R-Ladies global team, we usually will have one base per team, to coordinate team tasks.
 
+## **Understanding the Core Components of Airtable**  
+
+Airtable is built around four main components: **Data, Interface, Forms, and Automations**. Each serves a different purpose in organizing and managing information efficiently.
+
+### Data (Tables, Fields, and Views)
+- **What it is:** The foundation of Airtable—where all your raw information is stored.  
+- **How it works:**  
+  - Data is organized into **tables**, similar to spreadsheets.  
+  - Each **table** contains **fields** (columns) that hold different types of data (text, dates, linked records, etc.).  
+  - Different **views** (grid, calendar, kanban, etc.) allow you to filter, group, and sort the data without changing the underlying records.  
+- **Example:** A **"Curators"** table stores names, contact info, and scheduled dates. You can have a **Grid View** to see all records and a **Calendar View** to visualize the schedule.
+
+### Interfaces
+- **What it is:** A customizable dashboard that provides a visual and interactive way to view and interact with data.  
+- **How it works:**  
+  - Interfaces let you create **charts, summaries, and interactive views** to help users navigate data more intuitively.  
+  - Unlike tables, **interfaces don’t store data**—they present existing data in a user-friendly way.  
+- **Example:** A **Curator Dashboard** that shows upcoming schedules, curators needing follow-ups, and a quick summary of curator feedback.
+
+### Forms
+- **What it is:** A way to **collect new data** from users without giving them direct access to the database.  
+- **How it works:**  
+  - Forms are connected to a specific **table** and create new records upon submission.  
+  - You can customize which fields are shown and add descriptions, but the form fields must match the table structure.  
+- **Example:** A **Curator Signup Form** where potential curators enter their name, availability, and bio. Once submitted, a new record is added to the **Curators** table.
+
+### Automations
+- **What it is:** A tool for automating repetitive tasks in Airtable.  
+- **How it works:**  
+  - Automations are triggered by specific **events** (e.g., "When a form is submitted").  
+  - They can perform **actions** such as sending emails, updating records, creating new records, or linking records together.  
+- **Example:** An automation that **assigns a curator** when they sign up and **sends them a confirmation email**.
+
+### **How They Work Together**
+- **Forms** collect curator signups and store them in the **Data** table.  
+- The **Data** table (with views) organizes and tracks curators.  
+- **Interfaces** provide an overview of scheduled curators and pending tasks.  
+- **Automations** reduce manual work by sending notifications and updating statuses.  
+
+These components together make Airtable a powerful system for organizing and streamlining workflows.
+
 ## Data Management
 ### Tables & Views
 Each base has **Tables**, which store data in a structured way. 

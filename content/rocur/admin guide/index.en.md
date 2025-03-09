@@ -1,8 +1,13 @@
 ---
-title: "Admin guide"
-menuTitle: "Admin guide"
+title: Admin guide
+menuTitle: Admin guide
 weight: 60
 ---
+
+
+<script  src="index.en_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script  src="index.en_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link  href="index.en_files/libs/quarto-diagram/mermaid.css" rel="stylesheet" />
 
 *Please note this guide is a work in progress. Thank you for your patience!*
 
@@ -64,31 +69,31 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 > ***Subject: Your opportunity to curate for the We Are R-Ladies Bluesky account***
 >
-> *Hi [curator's name],*
+> *Hi \[curator's name\],*
 >
-> *Your curation is scheduled to begin on [start date of curation]. We'll contact you 1 week before your curation with more details. Let us know if you have any questions!*
+> *Your curation is scheduled to begin on \[start date of curation\]. We'll contact you 1 week before your curation with more details. Let us know if you have any questions!*
 >
 > *Thank you,*
 >
 > *Rotating Curation (RoCur) admins*
 
-4.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 1 (notice of curation week) has been sent.
+1.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 1 (notice of curation week) has been sent.
 
 ### When someone is nominated to curate
 
 1.  ✉️Email the potential curator to let them know that they have been nominated. You can use the template below:
 
-> ***Subject: Invitation to become a curator on the We Are R-Ladies Bluesky account**\
-> \
-> Hi [potential curator's name],\
-> \
-> I hope this message finds you well!\
-> \
-> My name is [your name], and I'm an admin for the [We Are R-Ladies Rotating Curation (RoCur) account on Bluesky](https://bsky.app/profile/weare.rladies.org).*
+> ***Subject: Invitation to become a curator on the We Are R-Ladies Bluesky account**  
+>   
+> Hi \[potential curator's name\],  
+>   
+> I hope this message finds you well!  
+>   
+> My name is \[your name\], and I'm an admin for the [We Are R-Ladies Rotating Curation (RoCur) account on Bluesky](https://bsky.app/profile/weare.rladies.org).*
 >
 > *For a bit of context, RoCur is a program where we feature a new curator every week from the R community. The curator takes over our account to share their insights, interests, and work.*
 >
-> *I'm reaching out because you were nominated by [nominator's name] to be a curator for the We Are R-Ladies Bluesky account. They believe you would make a fantastic curator because [reason provided in nomination form].*
+> *I'm reaching out because you were nominated by \[nominator's name\] to be a curator for the We Are R-Ladies Bluesky account. They believe you would make a fantastic curator because \[reason provided in nomination form\].*
 >
 > *If you're interested in joining us, please fill out [this form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form).*
 >
@@ -100,8 +105,8 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *RoCur admins*
 
-2.  Once they have filled out the [curator sign-up form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form), follow the steps outlined in [When someone signs up to curate]*.*
-3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the nominee has been contacted.
+1.  Once they have filled out the [curator sign-up form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form), follow the steps outlined in [When someone signs up to curate](#when-someone-signs-up-to-curate)*.*
+2.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the nominee has been contacted.
 
 ### 1 week before they are scheduled to curate
 
@@ -114,9 +119,9 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 > ***Subject: Request for approval of graphic for We Are R-Ladies Bluesky account***
 >
-> *Hi [curator's name],*
+> *Hi \[curator's name\],*
 >
-> *We're delighted to have you curate next week! You are scheduled to curate from **Monday, [start date of curation]** to **Saturday, [end date of curation]**. Depending on your schedule, we can modify this slightly (e.g., start on Tuesday or end on Friday) – just let us know. We appreciate your time and contributions to the We Are R-Ladies Bluesky account!*
+> *We're delighted to have you curate next week! You are scheduled to curate from **Monday, \[start date of curation\]** to **Saturday, \[end date of curation\]**. Depending on your schedule, we can modify this slightly (e.g., start on Tuesday or end on Friday) -- just let us know. We appreciate your time and contributions to the We Are R-Ladies Bluesky account!*
 >
 > *Here's what we ask from you prior to your curation:*
 >
@@ -130,11 +135,11 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *Rotating Curation (RoCur) admins*
 
-3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 2 (request for approval of graphic) has been sent.
+1.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 2 (request for approval of graphic) has been sent.
 
-4.  📁If the curator asks for changes to their graphic, update it and send revised drafts until they approve.
+2.  📁If the curator asks for changes to their graphic, update it and send revised drafts until they approve.
 
-5.  📊After the curator approves their graphic, update the admin checklist in the RoCur Curator Sign Up Airtable to reflect this.
+3.  📊After the curator approves their graphic, update the admin checklist in the RoCur Curator Sign Up Airtable to reflect this.
 
 ### Sunday before they are scheduled to curate
 
@@ -158,11 +163,11 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 > ***Subject: App password for the We Are R-Ladies Bluesky account***
 >
-> *Hi [curator's name],*
+> *Hi \[curator's name\],*
 >
-> *Your curation is scheduled to start on **Monday, [start date of curation] at [11:00 AM UTC](https://www.timebie.com/std/universal.php?q=11)** and end on **Saturday, [end date of curation] at [4:00 PM UTC](https://www.timebie.com/std/universal.php?q=16)**.*
+> *Your curation is scheduled to start on **Monday, \[start date of curation\] at [11:00 AM UTC](https://www.timebie.com/std/universal.php?q=11)** and end on **Saturday, \[end date of curation\] at [4:00 PM UTC](https://www.timebie.com/std/universal.php?q=16)**.*
 >
-> *Your app password to log into the We Are R-Ladies Bluesky account is **[app password]**.*
+> *Your app password to log into the We Are R-Ladies Bluesky account is **\[app password\]**.*
 >
 > *Please refer to the [FAQ](https://guide.rladies.org/rocur/faq/) for instructions on how to use the app password to log into the Bluesky account.*
 >
@@ -174,14 +179,14 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *Rotating Curation (RoCur) admins*
 
-3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 3 (provision of app password) has been sent out.
-4.  🦋Post their introduction graphic on Bluesky with the following message and Alt Text. You should be able to pull this information from their Airtable form submission. Ideally, this should go out **before [6:00 PM UTC](https://www.timebie.com/std/universal.php?q=18)**.
+1.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 3 (provision of app password) has been sent out.
+2.  🦋Post their introduction graphic on Bluesky with the following message and Alt Text. You should be able to pull this information from their Airtable form submission. Ideally, this should go out **before [6:00 PM UTC](https://www.timebie.com/std/universal.php?q=18)**.
 
-> *This week's #RLadies curator is [their Bluesky handle].*
+> *This week's #RLadies curator is \[their Bluesky handle\].*
 >
-> Alt text: Curator [name], [role/title] at [organization]. They say, "[what they do in R]".
+> Alt text: Curator \[name\], \[role/title\] at \[organization\]. They say, "\[what they do in R\]".
 
-5.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that their introduction has been posted on Bluesky.
+1.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that their introduction has been posted on Bluesky.
 
 ### Immediately prior to curation
 
@@ -205,7 +210,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 > ***Subject: Thank you for contributing to the We Are R-Ladies Bluesky account!***
 >
-> *Hi [curator's name]:*
+> *Hi \[curator's name\]:*
 >
 > *Thank you so much for curating the We Are R-Ladies Bluesky account! We truly appreciate your time and effort to engage the broader R community and highlight minority genders and their great work in R.*
 >
@@ -219,17 +224,19 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *Rotating Curation (RoCur) admins*
 
-7.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
+1.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
 
 ## Other Information on Infrastructure & Procedures
 
 In addition to the Bluesky account, other means of communication that RoCur admins have access to are:
 
--   RoCur email address: [weare\@rladies.org](mailto:weare@rladies.org)
+-   RoCur email address: <weare@rladies.org>
 
 -   #rocur channel on the [R-Ladies Community Slack](https://rladies.org/form/community-slack/)
 
 Additionally, admin members will have access to Airtable and shared Google Drive folders.
+
+------------------------------------------------------------------------
 
 # Airtable
 
@@ -238,165 +245,231 @@ This Airtable base is designed to manage the Rotation Curation (RoCur) process, 
 # Overview
 
 ## Overall Purpose
-- **Automation of scheduling and notifications**: Reduces manual effort in assigning curators and sending reminders.
-- **Improved communication**: Ensures curators receive timely emails, and administrators stay informed.
-- **Enhanced follow-up process**: Keeps track of past curators and facilitates future engagement.
 
----
+-   **Automation of scheduling and notifications**: Reduces manual effort in assigning curators and sending reminders.
+-   **Improved communication**: Ensures curators receive timely emails, and administrators stay informed.
+-   **Enhanced follow-up process**: Keeps track of past curators and facilitates future engagement.
 
-## Tables
+## Data
 
-### 1. **Nominations**
-- **Purpose**: 
-  - Stores input from the nomination form.
-  - Contains details of individuals nominated for curation.
-  - May serve as a reference for future outreach.
+### Nominations
 
----
+-   **Purpose**:
+    -   Stores input from the nomination form.
+    -   Contains details of individuals nominated for curation.
+    -   May serve as a reference for future outreach.
 
-### 2. **Curators**
-- **Purpose**: 
-  - Stores input from the signup form.
-  - Serves as the primary source of information about curators.
-  - Contains details such as curator bio, availability, and contact information.
-  - Linked to the `schedule` and `tasks` tables.
-  - Table is grouped by **status**, to clearly show which curators need action.
-- **Views**:
-  1. **Grid: Not Completed**
-     - Curators that have not yet completed their curation and follow-up.
-  2. **Grid: Completed**
-     - Curators who have completed their curation.
-  3. **Grid: All Records**
-     - All curators, grouped by status. Many fields hidden, since they are no longer relevant.
+### Curators
 
----
+-   **Purpose**:
+    -   Stores input from the signup form.
+    -   Serves as the primary source of information about curators.
+    -   Contains details such as curator bio, availability, and contact information.
+    -   Linked to the `schedule` and `tasks` tables.
+    -   Table is grouped by **status**, to clearly show which curators need action.
+-   **Views**:
+    1.  **Grid: Not Completed**
+        -   Curators that have not yet completed their curation and follow-up.
+    2.  **Grid: Completed**
+        -   Curators who have completed their curation.
+    3.  **Grid: All Records**
+        -   All curators, grouped by status. Many fields hidden, since they are no longer relevant.
 
-### 3. **Schedule**
-- **Purpose**:
-  - Represents the RoCur schedule.
-  - Links to the Curator table to associate curators with specific time slots.
-  - Coordinates who is curating and when.
-  - Recommended to display 6 months at a time—from two weeks in the past to six months into the future.
-  - **Automation Suggestion**: Automatically delete an outdated week and add a new one.  
-    _(Note: Challenging to implement.)_
-- **Views**:
-  1. **Grid: Full Schedule**
-     - **`start_date`** needs manual entry.
-     - **`end_date`** is auto-calculated based on `start_date`.
-     - **`handle`** is a linked record to curator (chosen from curators with the status `new` or `scheduled`).
-     - **`bluesky_handle`** (used for automation, ignore).
-     - **`start_date_str`**: A formatted date string for prettier emails.
-  2. **Grid: Available Time-slots**
-     - Displays only available weeks.
-     - Hides non-essential columns.
-  3. **Calendar View**
-     - Visualizes the schedule with colored time slots:
-       - **Blue**: Curator scheduled for the week.
-       - **Green**: Available curation period.
-       - **Red**: Break (if “break” is in the notes).
-       - **Grey**: Past weeks.
+## Forms
 
----
+Forms used to ingest data in an orderly way.
 
-### 4. **Follow-up**
-- **Purpose**: 
-  - Tracks records where a schedule has ended.
-  - Used for post-curation follow-up forms.
-  - Monitors engagement and gathers feedback from previous curators.
-- **Views**:
-  1. **Grid: All**: Displays all data.
+-   **Nominators form**
+    -   Incoming nominations from community members on curator's they'd like to see.
+    -   Data goes to **nominations**
+-   **Sign-up form**
+    -   Curators sign-up with this form and provide some information on them and their interests
+    -   Data goes to **curators**
+-   **Follow-up form**
+    -   Curators fill out after curation to provide feedback about the experience.
+    -   Data goes to **follow-up**
 
----
+### \*Schedule
 
-### 5. **Tasks**
-- **Purpose**:
-  - Manages administrative tasks for RoCur.
-  - Linked to both `Curators` and `Admin` tables.
-  - Tracks pending actions like onboarding, reminders, and follow-ups.
-- **Views**:
-  1. **Grid: Full Table**: Displays all data.
-  2. **Grid: Todo**: 
-     - Only records requiring action (e.g., curators with status `new`, `scheduled`, or `following up`).
-     - Grouped by assignee (to show who is responsible for what).
-  3. **Grid: Completed**:
-     - Records where curators have completed their curation (status = `completed`).
+-   **Purpose**:
+    -   Represents the RoCur schedule.
+    -   Links to the Curator table to associate curators with specific time slots.
+    -   Coordinates who is curating and when.
+    -   Recommended to display 6 months at a time---from two weeks in the past to six months into the future.
+    -   **Automation Suggestion**: Automatically delete an outdated week and add a new one.  
+        *(Note: Challenging to implement.)*
+-   **Views**:
+    1.  **Grid: Full Schedule**
+        -   **`start_date`** needs manual entry.
+        -   **`end_date`** is auto-calculated based on `start_date`.
+        -   **`handle`** is a linked record to curator (chosen from curators with the status `new` or `scheduled`).
+        -   **`bluesky_handle`** (used for automation, ignore).
+        -   **`start_date_str`**: A formatted date string for prettier emails.
+    2.  **Grid: Available Time-slots**
+        -   Displays only available weeks.
+        -   Hides non-essential columns.
+    3.  **Calendar View**
+        -   Visualizes the schedule with colored time slots:
+            -   **Blue**: Curator scheduled for the week.
+            -   **Green**: Available curation period.
+            -   **Red**: Break (if "break" is in the notes).
+            -   **Grey**: Past weeks.
 
----
+### Follow-up
 
-### 6. **Admin**
-- **Purpose**:
-  - Contains records of RoCur administrators.
-  - Used to assign and track administrator responsibilities.
-  - Links to the `Tasks` table to assign duties.
+-   **Purpose**:
+    -   Tracks records where a schedule has ended.
+    -   Used for post-curation follow-up forms.
+    -   Monitors engagement and gathers feedback from previous curators.
+-   **Views**:
+    1.  **Grid: All**: Displays all data.
 
----
+### Tasks
 
-## Workflow Overview
-1. **Nominations** are submitted via the nomination form and stored in the `Nominations` table.
-2. Curators provide key information via the signup form, and data is stored in the `Curators` table.
-3. Curators are scheduled in the `Schedule` table.
-4. Admins use the **Tasks** table to manage curation logistics.
-5. Once a curator's schedule ends, their record moves to the **Follow-up** table for tracking.
+-   **Purpose**:
+    -   Manages administrative tasks for RoCur.
+    -   Linked to both `Curators` and `Admin` tables.
+    -   Tracks pending actions like onboarding, reminders, and follow-ups.
+-   **Views**:
+    1.  **Grid: Full Table**: Displays all data.
+    2.  **Grid: Todo**:
+        -   Only records requiring action (e.g., curators with status `new`, `scheduled`, or `following up`).
+        -   Grouped by assignee (to show who is responsible for what).
+    3.  **Grid: Completed**:
+        -   Records where curators have completed their curation (status = `completed`).
 
----
+### Admin
+
+-   **Purpose**:
+    -   Contains records of RoCur administrators.
+    -   Used to assign and track administrator responsibilities.
+    -   Links to the `Tasks` table to assign duties.
+
+### Workflow Overview
+
+1.  **Nominations** are submitted via the nomination form and stored in the `Nominations` table.
+2.  Curators provide key information via the signup form, and data is stored in the `Curators` table.
+3.  Curators are scheduled in the `Schedule` table.
+4.  Admins use the **Tasks** table to manage curation logistics.
+5.  Once a curator's schedule ends, their record moves to the **Follow-up** table for tracking.
+
+------------------------------------------------------------------------
 
 ## Automations
 
 These automations streamline the process of scheduling, notifications, and follow-ups:
 
 ### Overview
+
 There are three automation categories:
 1. **Pre-Scheduling**
 2. **Curator Communication**
 3. **Maintenance**
 
----
+### Pre-Scheduling
 
-### 1. **Pre-Scheduling**
-- **Nominator Emails**:
-  - Trigger: Nomination form is submitted.
-  - Sends emails based on conditions:
-    - If nominee already curated, informs nominator.
-    - If nominee hasn’t curated, informs nominator that an invite has been issued.
-- **Nominee Email**:
-  - Trigger: Nomination form is submitted.
-  - Sends an invite to nominees (if their email is available from the nomination form), including a link to the signup form.
-  - If nominee already exists in the Curators table, skips the invite.
-- **New Signup**:
-  - Trigger: Signup form is submitted.
-  - Sends a thank-you email to the nominee and informs them they’ll be contacted for scheduling.
-  - If the nominee matches a nomination, notifies the nominator.
+-   **Nominator Emails**:
+    -   Trigger: Nomination form is submitted.
+    -   Sends emails based on conditions:
+        -   If nominee already curated, informs nominator.
+        -   If nominee hasn't curated, informs nominator that an invite has been issued.
+-   **Nominee Email**:
+    -   Trigger: Nomination form is submitted.
+    -   Sends an invite to nominees (if their email is available from the nomination form), including a link to the signup form.
+    -   If nominee already exists in the Curators table, skips the invite.
+-   **New Signup**:
+    -   Trigger: Signup form is submitted.
+    -   Sends a thank-you email to the nominee and informs them they'll be contacted for scheduling.
+    -   If the nominee matches a nomination, notifies the nominator.
 
----
+### Curator Communication
 
-### 2. **Curator Communication**
-- **Schedule Curator**:
-  - Trigger: A handle is added to the schedule.
-  - Automates the following processes:
-    1. **First-time scheduling**:
-       - Changes curator status to `scheduled`.
-       - Creates a linked task.
-       - Sends email with schedule details.
-    2. **Re-scheduling**:
-       - Sends updated schedule email to curator.
-- **Send 1-Week Reminder Email**:
-  - Trigger: 1 week before curation starts.
-  - Sends a reminder email to the curator.
-  - Updates the task as “1-week reminder sent.”
-- **Initiate Curator Follow-up**:
-  - Trigger: Day after curation ends.
-  - Updates curator status to `following up`.
-  - Sends a thank-you email with the follow-up form link.
-  - Logs follow-up task as emailed.
-- **Complete Follow-up**:
-  - Trigger: Follow-up form is submitted.
-  - Links the form submission to the curator record.
-  - Updates status to `completed`.
+-   **Schedule Curator**:
+    -   Trigger: A handle is added to the schedule.
+    -   Automates the following processes:
+        1.  **First-time scheduling**:
+            -   Changes curator status to `scheduled`.
+            -   Creates a linked task.
+            -   Sends email with schedule details.
+        2.  **Re-scheduling**:
+            -   Sends updated schedule email to curator.
+-   **Send 1-Week Reminder Email**:
+    -   Trigger: 1 week before curation starts.
+    -   Sends a reminder email to the curator.
+    -   Updates the task as "1-week reminder sent."
+-   **Initiate Curator Follow-up**:
+    -   Trigger: Day after curation ends.
+    -   Updates curator status to `following up`.
+    -   Sends a thank-you email with the follow-up form link.
+    -   Logs follow-up task as emailed.
+-   **Complete Follow-up**:
+    -   Trigger: Follow-up form is submitted.
+    -   Links the form submission to the curator record.
+    -   Updates status to `completed`.
 
----
+### Maintenance
 
-### 3. **Maintenance**
-- **Schedule Cleanup**:
-  - Scheduled to run every Monday.
-  - Deletes the oldest schedule record and adds a new one.
-  - Helps keep the schedule up-to-date and clean.
+-   **Schedule Cleanup**:
+    -   Scheduled to run every Monday.
+    -   Deletes the oldest schedule record and adds a new one.
+    -   Helps keep the schedule up-to-date and clean.
+
+------------------------------------------------------------------------
+
+## Interface
+
+Interfaces can serve many different functions.
+An interface might be for internal use, like updating records etc, or outward facing for reporting to sponsors etc.
+The intention is to provide an overarching interface towards the data, without having access to all the minute details of what the underlying data actually looks like.
+
+### RoCur Airtable Interface Overview
+
+#### Curation Dashboard
+
+This interface provides a structured way to oversee the entire curation process, ensuring smooth scheduling, status tracking, and team coordination.
+
+-   **Dashboard**
+    -   Displays an overview of the project's progress.  
+    -   Highlights curator status, team assignments, and curator feedback.
+-   **Schedule Calendar**
+    -   A dedicated space for managing curator schedules.  
+    -   Helps visualize who is curating when.
+-   **Curator Pipeline**
+    -   Uses a Kanban-style layout to track curator progress.  
+    -   Makes it easy to see where each curator stands in the process.
+-   **Team Tasks**
+    -   Provides a clear view of curator assignments to team members.  
+    -   Ensures all necessary actions for each curator are completed.
+
+#### **Side Panel: Resources and Guidance**
+
+-   Includes quick links to helpful Airtable resources.  
+-   Offers an introduction and tips for users navigating the interface.  
+-   Direct access to guides and templates for further customization.
+
+<figure class=''>
+
+<pre class="mermaid mermaid-js">graph TD;
+    A[Nominations] --&gt;|Nomination Form| B[Nominations Table];
+    B --&gt;|Invite Nominee| C[Curators Table];
+    
+    C --&gt;|Signup Form| D[Curators Table Updated];
+    D --&gt;|Assign Status| E[Schedule Table];
+    E --&gt;|Link to Time Slots| F[Schedule Automation];
+    
+    F --&gt;|Assign Tasks| G[Tasks Table];
+    G --&gt;|Reminders &amp; Emails| H[Curator Communications];
+    
+    E --&gt;|Completion| I[Follow-up Table];
+    I --&gt;|Follow-up Form| J[Curator Feedback Collected];
+    
+    J --&gt;|Update Status| K[Completed Curation];
+    
+    subgraph Automations
+        F -.-&gt;|Schedule Updates| G;
+        G -.-&gt;|Send Notifications| H;
+        H -.-&gt;|Follow-up Emails| I;
+    end
+</pre>
+
+</figure>
