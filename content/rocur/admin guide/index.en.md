@@ -400,7 +400,3 @@ There are three automation categories:
   - Scheduled to run every Monday.
   - Deletes the oldest schedule record and adds a new one.
   - Helps keep the schedule up-to-date and clean.
-
---- 
-
-Let me know if you need further refinements or clarifications!
