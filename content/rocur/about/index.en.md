@@ -19,7 +19,7 @@ Previously, the WeAreRLadies Rotating Curation ran on X/Twitter from 2018 to 202
 
 Every week, a different R-Lady takes over our social media account to talk about the work they do in R. Featured curators come from a diversity of professions and have a range of experiences in R, from novice to expert.
 
-If you are interested in becoming a curator, see our [Be a Curator!] section (below) and If you are interested in becoming a curator, see our [Be a Curator!] section (below) and [sign up here](https://rladies.org/form/rocur-signup/).
+If you are interested in becoming a curator, see our [Be a Curator!](#be-a-curator) section and [sign up here](https://rladies.org/form/rocur-signup/).
 
 Check out [\@weare.rladies.org](https://bsky.app/profile/weare.rladies.org) every Monday for a new curator!
 
