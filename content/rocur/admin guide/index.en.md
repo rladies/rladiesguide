@@ -52,7 +52,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 ### When someone signs up to curate
 
-1.  📊Add them to the [curator schedule](https://airtable.com/appZpj9RYelJ9dbKS/shriGUNeVRW92458K/tblP0NksI30Axy7JJ) as soon as possible, so other potential curators are aware the week is unavailable.
+1.  📊Add them to the [curator schedule](https://rladies.org/form/rocur-schedule/) as soon as possible, so other potential curators are aware the week is unavailable.
 
 2.  📁Save the photo they attached to their Airtable form in the [shared Google Drive folder](https://drive.google.com/drive/folders/1XHSFOHHVvXny3ktGOcGVBXsUXeOYD_Qr?usp=sharing).
 
@@ -90,7 +90,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *I'm reaching out because you were nominated by [nominator's name] to be a curator for the We Are R-Ladies Bluesky account. They believe you would make a fantastic curator because [reason provided in nomination form].*
 >
-> *If you're interested in joining us, please fill out [this form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form).*
+> *If you're interested in joining us, please fill out [this form](https://rladies.org/form/rocur-signup/).*
 >
 > *For more details about the RoCur program, feel free to check out [our webpage](https://guide.rladies.org/rocur/about/).*
 >
@@ -100,7 +100,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *RoCur admins*
 
-2.  Once they have filled out the [curator sign-up form](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form), follow the steps outlined in [When someone signs up to curate]*.*
+2.  Once they have filled out the [curator sign-up form](https://rladies.org/form/rocur-signup/), follow the steps outlined in [When someone signs up to curate]*.*
 3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the nominee has been contacted.
 
 ### 1 week before they are scheduled to curate

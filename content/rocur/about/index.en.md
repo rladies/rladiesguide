@@ -19,7 +19,7 @@ Previously, the WeAreRLadies Rotating Curation ran on X/Twitter from 2018 to 202
 
 Every week, a different R-Lady takes over our social media account to talk about the work they do in R. Featured curators come from a diversity of professions and have a range of experiences in R, from novice to expert.
 
-If you are interested in becoming a curator, see our [Be a Curator!] section (below) and [sign up here](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form).
+If you are interested in becoming a curator, see our [Be a Curator!](#be-a-curator) section and [sign up here](https://rladies.org/form/rocur-signup/).
 
 Check out [\@weare.rladies.org](https://bsky.app/profile/weare.rladies.org) every Monday for a new curator!
 
@@ -46,9 +46,9 @@ By signing on to be a curator of \@weare.rladies.org you agree to our [Curating 
 
 ## Curator Sign Up
 
-Take a look at the [**Current curator schedule**](https://airtable.com/appZpj9RYelJ9dbKS/shriGUNeVRW92458K/tblP0NksI30Axy7JJ)
+Take a look at the [**Current curator schedule**](https://rladies.org/form/rocur-schedule/)
 
-Want to curate for a week? Fill in the [**Curator sign up form**](https://airtable.com/appjkZZgtF0iEWFjx/pagqsAma1WmUYxa9j/form)
+Want to curate for a week? Fill in the [**Curator sign up form**](https://rladies.org/form/rocur-signup/)
 
 Please note:
 
@@ -62,7 +62,7 @@ Please note:
 
 ## Curator Nomination
 
-Do you know an R-Lady who you think would be a great curator? We accept nominations for curators via our [nomination form](https://airtable.com/appFIBzsk2AxWlGMt/pagfezjuCxohikOOa/form).
+Do you know an R-Lady who you think would be a great curator? We accept nominations for curators via our [nomination form](https://rladies.org/form/rocur-nomination/).
 
 Anyone is welcome to nominate curators - you do not need to be affiliated with R-Ladies to nominate an individual to curate for \@weare.rladies.org. Multiple nominations from a single nominator is also permitted. RoCur administrators will review nominations and invite nominees to curate.
 
