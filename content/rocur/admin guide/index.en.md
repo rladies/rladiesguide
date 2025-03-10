@@ -432,17 +432,7 @@ This interface provides a structured way to oversee the entire curation process,
 - Direct access to guides and templates for further customization.  
 
 {{<mermaid align="left">}}
-%%{init: {
-  'theme': 'base', 
-  'themeVariables': { 
-    'primaryColor': '#E1BEE7', 
-    'secondaryColor': '#D1C4E9', 
-    'tertiaryColor': '#C5E1A5', 
-    'primaryTextColor': '#000000', 
-    'edgeLabelBackground':'#FFFFFF', 
-    'nodeBorderRadius': '8'
-  }
-}}%%
+%%{init: {'theme': 'base','themeVariables': { 'primaryColor': '#E1BEE7',secondaryColor': '#D1C4E9','tertiaryColor': '#C5E1A5', primaryTextColor': '#000000','edgeLabelBackground':'#FFFFFF'}}}%%
 
 style NominationsTable fill:#E1BEE7,stroke:#7B1FA2;
 style CuratorsTable fill:#E1BEE7,stroke:#7B1FA2;
@@ -475,15 +465,7 @@ graph TD;
 
 
 {{<mermaid>}}
-%%{init: {
-  'theme': 'base',
-  'themeVariables': { 
-    'primaryColor': '#EDE7F6', 
-    'edgeLabelBackground':'#FFFFFF', 
-    'tertiaryColor': '#F3E5F5', 
-    'fontColor': '#000000'
-  }
-}}%%
+%%{init: {'theme': 'base','themeVariables': {'primaryColor': '#EDE7F6', 'edgeLabelBackground':'#FFFFFF','tertiaryColor': '#F3E5F5','fontColor': '#000000'}}}%%
 
 graph TD;
   subgraph Workspace["🟣 R-Ladies Workspace"]
