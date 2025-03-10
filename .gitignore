@@ -4,3 +4,4 @@
 .Ruserdata
 .markdrive
 schema.json
+.hugo_build.lock

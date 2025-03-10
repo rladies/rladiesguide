@@ -3,12 +3,12 @@ publish = "/public"
 command = "hugo -d public"
 
 [context.production.environment]
-  HUGO_VERSION = "0.73.0"
-  GO_VERSION="1.12"
+  HUGO_VERSION = "0.135.0"
+  GO_VERSION="24.1"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.73.0"
-  GO_VERSION="1.12"
+  HUGO_VERSION = "0.135.0"
+  GO_VERSION="24.1"
   
 
 [context.branch-deploy]
