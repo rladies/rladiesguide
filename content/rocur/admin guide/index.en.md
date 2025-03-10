@@ -433,14 +433,6 @@ This interface provides a structured way to oversee the entire curation process,
 
 {{<mermaid align="left">}}
 
-
-style NominationsTable fill:#E1BEE7,stroke:#7B1FA2;
-style CuratorsTable fill:#E1BEE7,stroke:#7B1FA2;
-style ScheduleTable fill:#D1C4E9,stroke:#512DA8;
-style FollowUpTable fill:#E1BEE7,stroke:#7B1FA2;
-style TasksTable fill:#D1C4E9,stroke:#512DA8;
-style CompletedCurators fill:#C5E1A5,stroke:#388E3C;
-
 graph TD;
   Nominations["📝 Nominations Form\n(New curator suggestions)"] -->|Data stored in| NominationsTable["📂 Nominations Table"];
   NominationsTable -->|Curator invited via email| CuratorsSignup["📝 Signup Form\n(Nominee submits info)"];
@@ -460,6 +452,13 @@ graph TD;
   
   AdminTasks["🛠️ Admin Tasks"] -->|Tracks assignments| TasksTable["📂 Tasks Table"];
   TasksTable -->|Used for tracking reminders, follow-ups| FollowUpTable;
+
+style NominationsTable fill:#E1BEE7,stroke:#7B1FA2;
+style CuratorsTable fill:#E1BEE7,stroke:#7B1FA2;
+style ScheduleTable fill:#D1C4E9,stroke:#512DA8;
+style FollowUpTable fill:#E1BEE7,stroke:#7B1FA2;
+style TasksTable fill:#D1C4E9,stroke:#512DA8;
+style CompletedCurators fill:#C5E1A5,stroke:#388E3C;
 
 {{< /mermaid >}}
 
