@@ -1,5 +1,6 @@
 ---
 title: "R-Ladies organizational guidance"
+description: "R-Ladies Organizational Guidance"
 ---
   
 # R-Ladies organizational guidance
