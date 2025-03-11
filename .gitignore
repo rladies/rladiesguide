@@ -4,5 +4,4 @@
 .Ruserdata
 .markdrive
 schema.json
-
-/.quarto/
+.hugo_build.lock
