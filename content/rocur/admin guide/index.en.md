@@ -437,10 +437,12 @@ This interface provides a structured way to oversee the entire curation process,
 
 {{<mermaid align="left">}}
 
+%%{init: {'theme': 'base','themeVariables': {'primaryColor': '#EDE7F6','tertiaryColor': '#F3E5F5','primaryTextColor': '#000000'}}}%%
+
 graph TD;
-  Nominations["📝 Nominations Form\n(New curator suggestions)"] -->|Data stored in| NominationsTable["📂 Nominations Table"];
-  NominationsTable -->|Curator invited via email| CuratorsSignup["📝 Signup Form\n(Nominee submits info)"];
-  CuratorsSignup -->|Data stored in| CuratorsTable["📂 Curators Table"];
+  NominationsForm["📝 Nominations Form\n(New curator suggestions)"] -->|Data stored in| NominationsTable["📂 Nominations Table"];
+  NominationsTable -->|Curator invited via email| SignupForm["📝 Signup Form\n(Nominee submits info)"];
+  SignupForm -->|Data stored in| CuratorsTable["📂 Curators Table"];
   
   CuratorsTable -->|Scheduled in| ScheduleTable["📅 Schedule Table"];
   ScheduleTable -->|Triggers automation| ScheduleAutomation["⚡ Schedule Curator Automation"];
@@ -457,12 +459,20 @@ graph TD;
   AdminTasks["🛠️ Admin Tasks"] -->|Tracks assignments| TasksTable["📂 Tasks Table"];
   TasksTable -->|Used for tracking reminders, follow-ups| FollowUpTable;
 
-style NominationsTable fill:#E1BEE7,stroke:#7B1FA2;
-style CuratorsTable fill:#E1BEE7,stroke:#7B1FA2;
-style ScheduleTable fill:#D1C4E9,stroke:#512DA8;
-style FollowUpTable fill:#E1BEE7,stroke:#7B1FA2;
-style TasksTable fill:#D1C4E9,stroke:#512DA8;
-style CompletedCurators fill:#C5E1A5,stroke:#388E3C;
+style NominationsTable fill:#a9b8db,stroke:#616a80;
+style CuratorsTable fill:#a9b8db,stroke:#616a80;
+style ScheduleTable fill:#a9b8db,stroke:#616a80;
+style FollowUpTable fill:#a9b8db,stroke:#616a80;
+style TasksTable fill:#a9b8db,stroke:#616a80;
+
+style NominationsForm fill:#cfb5e8,stroke:#736382;
+style SignupForm fill:#cfb5e8,stroke:#736382;
+style FollowUpForm fill:#cfb5e8,stroke:#736382;
+
+style CompletionAutomation fill:#88cddb,stroke:#578891;
+style ScheduleAutomation fill:#88cddb,stroke:#578891;
+
+style CompletedCurators fill:#a9dbc8,stroke:#638276;
 
 {{< /mermaid >}}
 
