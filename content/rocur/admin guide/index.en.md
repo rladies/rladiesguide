@@ -482,65 +482,65 @@ style CompletedCurators fill:#a9dbc8,stroke:#638276;
 %%{init: {'theme': 'base','themeVariables': {'primaryColor': '#EDE7F6', 'edgeLabelBackground':'#FFFFFF','tertiaryColor': '#F3E5F5','fontColor': '#000000'}}}%%
 
 graph TD;
-  subgraph Workspace["🟣 R-Ladies Workspace"]
-    subgraph Base["🔵 RoCur Base"]
-    
-      subgraph Data["📂 Data"]
-        NominationsTable["📑 Nominations Table"]
-        CuratorsTable["📑 Curators Table"]
-        ScheduleTable["📑 Schedule Table"]
-        FollowUpTable["📑 Follow-up Table"]
-        TasksTable["📑 Tasks Table"]
-      end
-      
-      subgraph Forms["📝 Forms"]
-        NominationForm(["📨 Nomination Form"])
-        SignupForm(["📝 Signup Form"])
-        FollowUpForm(["📨 Follow-up Form"])
-      end
-      
-      subgraph Automations["⚡ Automations"]
-        ScheduleAutomation[/📩 Schedule Curator/]
-        ReminderAutomation[/⏳ Reminder Emails/]
-        FollowUpAutomation[/📩 Follow-up Trigger/]
-      end
-      
-      subgraph Interfaces["📊 Interfaces"]
-        Dashboard{"📊 Curation Dashboard"}
-        Calendar{"📅 Schedule Calendar"}
-        Pipeline{"📌 Curator Pipeline"}
-        TeamTasks{"✅ Team Tasks"}
-      end
-      
+subgraph Workspace
+  direction TB
+  WorkspaceTitle["🟣 R-Ladies Workspace"]
+  
+  subgraph Base
+    BaseTitle["🔵 RoCur Base"]
+    subgraph Data
+      NominationsTable["📑 Nominations Table"]
+      CuratorsTable["📑 Curators Table"]
+      ScheduleTable["📑 Schedule Table"]
+      FollowUpTable["📑 Follow-up Table"]
+      TasksTable["📑 Tasks Table"]
+    end
+
+    subgraph Forms
+      NominationForm(["📨 Nomination Form"])
+      SignupForm(["📝 Signup Form"])
+      FollowUpForm(["📨 Follow-up Form"])
+    end
+
+    subgraph Automations
+      ScheduleAutomation[/📩 Schedule Curator/]
+      ReminderAutomation[/⏳ Reminder Emails/]
+      FollowUpAutomation[/📩 Follow-up Trigger/]
+    end
+
+    subgraph Interfaces
+      Dashboard{"📊 Curation Dashboard"}
+      Calendar{"📅 Schedule Calendar"}
+      Pipeline{"📌 Curator Pipeline"}
+      TeamTasks{"✅ Team Tasks"}
     end
   end
+end
 
-  %% Connections
-  NominationForm -->|Data stored in| NominationsTable
-  SignupForm -->|Data stored in| CuratorsTable
-  FollowUpForm -->|Data stored in| FollowUpTable
+%% Connections
+NominationForm -->|Data stored in| NominationsTable
+SignupForm -->|Data stored in| CuratorsTable
+FollowUpForm -->|Data stored in| FollowUpTable
+CuratorsTable -->|Links to| ScheduleTable
+ScheduleTable -->|Triggers| ScheduleAutomation
+ScheduleAutomation -->|Notifies| CuratorsTable
+ScheduleTable -->|Sends reminders| ReminderAutomation
+FollowUpTable -->|Triggers| FollowUpAutomation
+Dashboard -->|Uses data from| Data
+Calendar -->|Uses| ScheduleTable
+Pipeline -->|Tracks| CuratorsTable
+TeamTasks -->|Manages| TasksTable
 
-  CuratorsTable -->|Links to| ScheduleTable
-  ScheduleTable -->|Triggers| ScheduleAutomation
-  ScheduleAutomation -->|Notifies| CuratorsTable
-  ScheduleTable -->|Sends reminders| ReminderAutomation
-  FollowUpTable -->|Triggers| FollowUpAutomation
-
-  Dashboard -->|Uses data from| Data
-  Calendar -->|Uses| ScheduleTable
-  Pipeline -->|Tracks| CuratorsTable
-  TeamTasks -->|Manages| TasksTable
-
-  %% Styling
-  style Workspace fill:#EDE7F6,stroke:#7B1FA2;
-  style Base fill:#D1C4E9,stroke:#512DA8;
-  style Data fill:#E1BEE7,stroke:#7B1FA2;
-  style Forms fill:#F3E5F5,stroke:#8E24AA;
-  style Automations fill:#E3F2FD,stroke:#0277BD;
-  style Interfaces fill:#C5CAE9,stroke:#303F9F;
-  style NominationsTable,CuratorsTable,ScheduleTable,FollowUpTable,TasksTable fill:#FFFFFF,stroke:#7B1FA2;
-  style NominationForm,SignupForm,FollowUpForm fill:#FFFFFF,stroke:#8E24AA;
-  style ScheduleAutomation,ReminderAutomation,FollowUpAutomation fill:#FFFFFF,stroke:#0277BD;
-  style Dashboard,Calendar,Pipeline,TeamTasks fill:#FFFFFF,stroke:#303F9F;
+%% Styling
+style Workspace fill:#EDE7F6,stroke:#7B1FA2;
+style Base fill:#D1C4E9,stroke:#512DA8;
+style Data fill:#E1BEE7,stroke:#7B1FA2;
+style Forms fill:#F3E5F5,stroke:#8E24AA;
+style Automations fill:#E3F2FD,stroke:#0277BD;
+style Interfaces fill:#C5CAE9,stroke:#303F9F;
+style NominationsTable,CuratorsTable,ScheduleTable,FollowUpTable,TasksTable fill:#FFFFFF,stroke:#7B1FA2;
+style NominationForm,SignupForm,FollowUpForm fill:#FFFFFF,stroke:#8E24AA;
+style ScheduleAutomation,ReminderAutomation,FollowUpAutomation fill:#FFFFFF,stroke:#0277BD;
+style Dashboard,Calendar,Pipeline,TeamTasks fill:#FFFFFF,stroke:#303F9F;
 
 {{< /mermaid >}}
