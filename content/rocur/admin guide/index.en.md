@@ -440,28 +440,40 @@ This interface provides a structured way to oversee the entire curation process,
 %%{init: {'theme': 'base','themeVariables': {'primaryColor': '#EDE7F6','tertiaryColor': '#F3E5F5','primaryTextColor': '#000000'}}}%%
 
 graph TD;
-  NominationsForm["📝 Nominations Form\n(New curator suggestions)"] -->|Data stored in| NominationsTable["📂 Nominations Table"];
-  NominationsTable -->|Curator invited via email| SignupForm["📝 Signup Form\n(Nominee submits info)"];
+  NominationsForm("📝 Nominations Form\n(New curator suggestions)") -->|Data stored in| NominationsTable["📂 Nominations Table"];
+  NominationsTable -->|Curator invited via email| SignupForm("📝 Signup Form\n(Nominee submits info)");
   SignupForm -->|Data stored in| CuratorsTable["📂 Curators Table"];
   
   CuratorsTable -->|Scheduled in| ScheduleTable["📅 Schedule Table"];
-  ScheduleTable -->|Triggers automation| ScheduleAutomation["⚡ Schedule Curator Automation"];
-  ScheduleAutomation -->|Sends details to curator| CuratorNotified["📩 Curator Notified"];
+  ScheduleTable -->|Triggers automation| ScheduleAutomation{"⚡ Schedule Curator Automation"};
+  ScheduleAutomation -->|Sends details to curator| CuratorNotified{"📩 Curator Notified"};
 
   CuratorNotified -->|Curation Period| CurationWeek["📅 Curator Active"];
   CurationWeek -->|After completion| FollowUpTable["📂 Follow-up Table"];
   FollowUpTable -->|Curator provides feedback| FollowUpForm["📝 Follow-up Form"];
   
   FollowUpForm -->|Data stored| FollowUpTable;
-  FollowUpTable -->|Triggers automation| CompletionAutomation["⚡ Complete Follow-up Automation"];
+  FollowUpTable -->|Triggers automation| CompletionAutomation{"⚡ Complete Follow-up Automation"};
   CompletionAutomation -->|Marks curator as completed| CompletedCurators["✅ Completed"];
   
   AdminTasks["🛠️ Admin Tasks"] -->|Tracks assignments| TasksTable["📂 Tasks Table"];
   TasksTable -->|Used for tracking reminders, follow-ups| FollowUpTable;
 
-style NominationsTable,CuratorsTable,ScheduleTable,FollowUpTable,TasksTable fill:#a9b8db,stroke:#616a80;
-style NominationsForm,SignupForm,FollowUpForm fill:#cfb5e8,stroke:#736382;
-style CompletionAutomation,ScheduleAutomation fill:#88cddb,stroke:#578891;
+style NominationsTable fill:#a9b8db,stroke:#616a80;
+style CuratorsTable fill:#a9b8db,stroke:#616a80;
+style ScheduleTable fill:#a9b8db,stroke:#616a80;
+style FollowUpTable fill:#a9b8db,stroke:#616a80;
+style TasksTable fill:#a9b8db,stroke:#616a80;
+
+style NominationsForm fill:#cfb5e8,stroke:#736382;
+style SignupForm fill:#cfb5e8,stroke:#736382;
+style FollowUpForm fill:#cfb5e8,stroke:#736382;
+
+style CompletionAutomation fill:#88cddb,stroke:#578891;
+style ScheduleAutomation fill:#88cddb,stroke:#578891;
+style CuratorNotified fill:#88cddb,stroke:#578891;
+
+
 style CompletedCurators fill:#a9dbc8,stroke:#638276;
 
 {{< /mermaid >}}
