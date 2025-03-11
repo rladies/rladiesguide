@@ -459,19 +459,9 @@ graph TD;
   AdminTasks["🛠️ Admin Tasks"] -->|Tracks assignments| TasksTable["📂 Tasks Table"];
   TasksTable -->|Used for tracking reminders, follow-ups| FollowUpTable;
 
-style NominationsTable fill:#a9b8db,stroke:#616a80;
-style CuratorsTable fill:#a9b8db,stroke:#616a80;
-style ScheduleTable fill:#a9b8db,stroke:#616a80;
-style FollowUpTable fill:#a9b8db,stroke:#616a80;
-style TasksTable fill:#a9b8db,stroke:#616a80;
-
-style NominationsForm fill:#cfb5e8,stroke:#736382;
-style SignupForm fill:#cfb5e8,stroke:#736382;
-style FollowUpForm fill:#cfb5e8,stroke:#736382;
-
-style CompletionAutomation fill:#88cddb,stroke:#578891;
-style ScheduleAutomation fill:#88cddb,stroke:#578891;
-
+style NominationsTable,CuratorsTable,ScheduleTable,FollowUpTable,TasksTable fill:#a9b8db,stroke:#616a80;
+style NominationsForm,SignupForm,FollowUpForm fill:#cfb5e8,stroke:#736382;
+style CompletionAutomation,ScheduleAutomation fill:#88cddb,stroke:#578891;
 style CompletedCurators fill:#a9dbc8,stroke:#638276;
 
 {{< /mermaid >}}
@@ -482,12 +472,14 @@ style CompletedCurators fill:#a9dbc8,stroke:#638276;
 %%{init: {'theme': 'base','themeVariables': {'primaryColor': '#EDE7F6', 'edgeLabelBackground':'#FFFFFF','tertiaryColor': '#F3E5F5','fontColor': '#000000'}}}%%
 
 graph TD;
+
 subgraph Workspace
-  direction TB
+
   WorkspaceTitle["🟣 R-Ladies Workspace"]
-  
+
   subgraph Base
     BaseTitle["🔵 RoCur Base"]
+
     subgraph Data
       NominationsTable["📑 Nominations Table"]
       CuratorsTable["📑 Curators Table"]
