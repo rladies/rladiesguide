@@ -363,10 +363,12 @@ There are three automation categories:
   - Trigger: Nomination form is submitted.
   - Sends an invite to nominees (if their email is available from the nomination form), including a link to the signup form.
   - If nominee already exists in the Curators table, skips the invite.
+  - Sends notification on slack that someone is nominated, and whether they have been sent an email.
 - **New Signup**:
   - Trigger: Signup form is submitted.
   - Sends a thank-you email to the nominee and informs them they’ll be contacted for scheduling.
   - If the nominee matches a nomination, notifies the nominator.
+  - Notifies on slack that someone has signed up.
 
 ### Curator Communication
 - **Schedule Curator**:
@@ -382,6 +384,7 @@ There are three automation categories:
   - Trigger: 1 week before curation starts.
   - Sends a reminder email to the curator.
   - Updates the task as “1-week reminder sent.”
+  - Sends slack notification of 1 week notice, and reminds who has been assigned (or if assignee is missing).
 - **Initiate Curator Follow-up**:
   - Trigger: Day after curation ends.
   - Updates curator status to `following up`.
@@ -391,6 +394,7 @@ There are three automation categories:
   - Trigger: Follow-up form is submitted.
   - Links the form submission to the curator record.
   - Updates status to `completed`.
+  - Sends slack notification that a curator has provided feedback.
 
 ### Maintenance
 - **Schedule Cleanup**:
@@ -464,6 +468,7 @@ style CompletedCurators fill:#C5E1A5,stroke:#388E3C;
 
 
 {{<mermaid  align="left">}}
+
 %%{init: {'theme': 'base','themeVariables': {'primaryColor': '#EDE7F6', 'edgeLabelBackground':'#FFFFFF','tertiaryColor': '#F3E5F5','fontColor': '#000000'}}}%%
 
 graph TD;
@@ -527,4 +532,5 @@ graph TD;
   style NominationForm,SignupForm,FollowUpForm fill:#FFFFFF,stroke:#8E24AA;
   style ScheduleAutomation,ReminderAutomation,FollowUpAutomation fill:#FFFFFF,stroke:#0277BD;
   style Dashboard,Calendar,Pipeline,TeamTasks fill:#FFFFFF,stroke:#303F9F;
+
 {{< /mermaid >}}
