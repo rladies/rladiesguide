@@ -1,7 +1,7 @@
 ---
 title: "Chapter support and retiring"
-menuTitle: "Support & retiring"
-weight: 120
+linkTitle: "Support & retiring"
+weight: 9
 ---
 
 ## Get support for your chapter
@@ -10,9 +10,10 @@ Things to try if you are struggling or can no longer serve as your chapter's org
 
 1. If you struggle to organise events, please let us know and we will put you in [contact with an experienced organiser that can mentor you](/coordination/monitoring/).
 2. Please message the members of your chapter on meetup and ask if anyone is willing to help you co-organise the chapter or take over the chapter.
-  - If someone comes forward, send an email `chapters@rladies.org` to inform them of this change and share the new contact's information. Next, please check that the information concerning your chapter [in our website repository](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) accurately reflects this change. If not, please make the necessary adjustments and submit a GitHub pull request to R-Ladies with the updated information. If you do not feel comfortable making a pull request, please mention this in your initial email to chapters@rladies.org. We will help you update the contact information for the chapter. The new contact will also receive access to the organiser Slack channel.
-  - If no one comes forward, please make an announcement in the [community slack](/comm/slack/) to see if anyone is willing to take over.
-  
+
+- If someone comes forward, send an email `chapters@rladies.org` to inform them of this change and share the new contact's information. Next, please check that the information concerning your chapter [in our website repository](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) accurately reflects this change. If not, please make the necessary adjustments and submit a GitHub pull request to R-Ladies with the updated information. If you do not feel comfortable making a pull request, please mention this in your initial email to chapters@rladies.org. We will help you update the contact information for the chapter. The new contact will also receive access to the organiser Slack channel.
+- If no one comes forward, please make an announcement in the [community slack](/comm/slack/) to see if anyone is willing to take over.
+
 ## Our monitoring of chapters
 
 Once a chapter is created, we would love to see it grow and be active. We support chapters by providing the digital infrastructure: a custom rladies.org email address, logo and templates for setting up social media channels (i.e. Twitter) and a subscription on meetup.com.
@@ -36,7 +37,7 @@ Things you could do:
 
 - If you struggle to organise events, please let us know and we will [put you in contact with an experienced organiser that could mentor you](/coordination/mentoring/).
 - Please message the members of your chapter on meetup and ask if anyone is willing to take over.
-- If no one comes forward, please make an announcement in the community slack to see if anyone is willing to take over. 
+- If no one comes forward, please make an announcement in the community slack to see if anyone is willing to take over.
 
 Remember that if you organise an event, your chapter is automatically removed from the list of retiring chapters. However, if you are busy and can no longer organise events, please let us know as soon as possible and send us login credentials to local email/slack/twitter/facebook etc. The leadership team will retire the chapter and close/suspend any other related accounts.
 

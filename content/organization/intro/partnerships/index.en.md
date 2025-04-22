@@ -1,7 +1,7 @@
 ---
 title: "Partnerships"
-menuTitle: "Partnerships"
-weight: 99
+linkTitle: "Partnerships"
+weight: 5
 ---
 
 As stated in our [mission](/about/mission/), R-Ladies seeks to remain independent and non commercial.
@@ -16,10 +16,11 @@ You can also look or ask whether the organization includes and has been supporti
 ## Special case of conferences
 
 If you are invited to give a talk,
-* If you are invited to talk about a topic other than R-Ladies, make sure that you are invited because of your expertise and not just your relationship to R-Ladies.
-* If you are invited to talk about R-Ladies, refer to our [specific guidance](/comm/conferences/), in particular get in touch with the global team (`info@rladies.org`).
+
+- If you are invited to talk about a topic other than R-Ladies, make sure that you are invited because of your expertise and not just your relationship to R-Ladies.
+- If you are invited to talk about R-Ladies, refer to our [specific guidance](/comm/conferences/), in particular get in touch with the global team (`info@rladies.org`).
 
 In all cases, check that
-* The event has a code of conduct; if not, do they agree on adding one?
-* Are other people belonging to groups that have been systematically excluded from the tech scene part of the conference? What role do they have (keynote, organizers, panelists, chairs?). If not, are they ok to change that?
 
+- The event has a code of conduct; if not, do they agree on adding one?
+- Are other people belonging to groups that have been systematically excluded from the tech scene part of the conference? What role do they have (keynote, organizers, panelists, chairs?). If not, are they ok to change that?

@@ -1,6 +1,6 @@
 ---
 title: Acknowledgements
-disableToc: true
+disableTitle: true
 ---
 
 Thank you! ¡Gracias!
@@ -8,54 +8,54 @@ Thank you! ¡Gracias!
 Thanks to all contributors to R-Ladies guidance, here and in its previous homes.
 _Gracias a todas las personas que contribuyeron al contenido de esta guía, aquí y en los sitios donde estaba antes._
 
-* Current and former [global team members](https://rladies.org/about-us/global-team/): 
-  Alice Daish, 
-  Athanasia Monika Mowinckel, 
-  Bea Hernández, 
-  Chiin-Rui Tan, 
-  Christin Zasada, 
-  Claudia Vitolo, 
-  Erin LeDell, 
-  Florencia D’Andrea, 
-  Gabriela de Queiroz, 
-  Hannah Frick, 
-  Jennifer Thompson, 
-  Katherine Simeon, 
-  Laura Ación, 
-  Maëlle Salmon, 
-  Nadeja Sero, 
-  Noa Tamir, 
-  Page Piccinini, 
-  Paola Corrales, 
-  Patricia A. Loto, 
-  Rachel Kirkham, 
+- Current and former [global team members](https://rladies.org/about-us/global-team/):
+  Alice Daish,
+  Athanasia Monika Mowinckel,
+  Bea Hernández,
+  Chiin-Rui Tan,
+  Christin Zasada,
+  Claudia Vitolo,
+  Erin LeDell,
+  Florencia D’Andrea,
+  Gabriela de Queiroz,
+  Hannah Frick,
+  Jennifer Thompson,
+  Katherine Simeon,
+  Laura Ación,
+  Maëlle Salmon,
+  Nadeja Sero,
+  Noa Tamir,
+  Page Piccinini,
+  Paola Corrales,
+  Patricia A. Loto,
+  Rachel Kirkham,
   Riva Quiroga,
-  Saranjeet Kaur Bhogal, 
+  Saranjeet Kaur Bhogal,
   Shannon Pileggi,
   Sheila Saia,
-  Sina Rüeger, 
+  Sina Rüeger,
   Yanina Bellini Saibene.
 
-* Thanks also to: 
-  Alice Walsh, 
-  Andrea Sánchez-Tapia, 
-  Denisse Fierro Arcos, 
-  Divya Seernani, 
-  Ines Teaca, 
-  Janani Ravi, 
-  Jen Richmond, 
-  Jonelle Villar, 
-  Julia Romanowska, 
+- Thanks also to:
+  Alice Walsh,
+  Andrea Sánchez-Tapia,
+  Denisse Fierro Arcos,
+  Divya Seernani,
+  Ines Teaca,
+  Janani Ravi,
+  Jen Richmond,
+  Jonelle Villar,
+  Julia Romanowska,
   Kaelen Medeiros,
-  Karla Fettich, 
+  Karla Fettich,
   L. Paloma Rojas-Saunero,
-  Layla Bouzoubaa, 
+  Layla Bouzoubaa,
   Monica Gerber,
-  Paola Corrales, 
-  Liili Abuladze, 
-  Marianna Foos, 
+  Paola Corrales,
+  Liili Abuladze,
+  Marianna Foos,
   Nerissa Mulligan,
-  Silvia Gutiérrez, 
+  Silvia Gutiérrez,
   Vilma Romero.
 
 Thanks to the [R Consortium](https://www.r-consortium.org/) for funding this project.
