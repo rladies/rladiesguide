@@ -1,4 +1,4 @@
 options(
   blogdown.method = 'markdown',
-  blogdown.hugo.version = "0.135.0"
+  blogdown.hugo.version = "0.124.0"
 )
