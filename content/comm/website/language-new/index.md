@@ -17,6 +17,9 @@ For all copied files to be edited to new language, the `.en` in the file name sh
 
 Likely the best way to translate is to have the original language file (English) open at the same time with the file you are translating in to. This way it might be easier to catch what the original phrase was (if a translation is already attempted).
 
-If you are translating directly on GitHub, have a look at the instructions for [adding new mentoring entries](https://github.com/rladies/website/wiki/Adding-entries-to-the-mentoring-program-page) to the website, which also includes sections on how to commit and PR directly on GitHub. Tag @rladies/website for review and she'll get to it asap.
+If you are translating directly on GitHub, have a look at the instructions for [adding new mentoring entries](https://github.com/rladies/website/wiki/Adding-entries-to-the-mentoring-program-page) to the website, which also includes sections on how to commit and PR directly on GitHub.
+Tag @rladies/website for review and she'll get to it asap.
 
-If you are comfortable working with git locally, clone the repo, make a branch and start translating. Once you are happy, push your branch to Github and do a PR. Tag @rladies/website for review and she'll get to it asap.
+If you are comfortable working with git locally, clone the repo, make a branch and start translating.
+A general, but detailed description of how to fork, clone and PR the R-Ladies website can be found in [its own chapter](/comm/website/fork-clone-pr).
+Once you are happy, push your branch to Github and do a PR. Tag @rladies/website for review and she'll get to it asap.

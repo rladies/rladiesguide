@@ -34,7 +34,8 @@ You'll be working on a copy of our repository, called a "fork," to make your edi
 
 1. **Fork the Repository:**
 
-   - In the top right corner, click the "Fork" button. This creates a copy of the repository under your personal GitHub account.
+   - In the top right corner, click the "Fork" button. This creates a copy of the repository under your personal GitHub account. With this workflow you can review the content directly on GitHub.
+   - If you plan on revieweing several pages, and want to work on your own local machine, we describe how to do this [its another chapter](/comm/website/fork-clone-pr).
 
 1. **Navigate to the "deepl" Branch:**
 
@@ -65,12 +66,6 @@ If you want to review several files, including those with code, you can do so al
 
 1.  **Make Multiple Edits:** Follow steps 3 and 4 above for each file you want to review and commit the changes to your fork.
 2.  **Create a Single Pull Request:** Once you've finished reviewing all the files, follow step 5 to create a single pull request. All the commits you made in your fork will be included in this one PR. This helps keep our main repository organized.
-
-### Working on a Fork: What Does It Mean?
-
-Think of a fork as your personal copy of the R-Ladies website repository. You can make any changes you like in your fork without affecting the original repository. When you create a pull request, you're essentially asking us to review the changes you made in your fork and merge them into the "deepl" branch of the main repository.
-
-Your meticulous attention to both the prose and the code within our translated content is incredibly valuable in making our resources accessible to a global R-Ladies community. Thank you for your dedication!
 
 ## What happens after PR?
 

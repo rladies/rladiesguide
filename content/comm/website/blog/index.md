@@ -13,6 +13,9 @@ weight: 1
 
 <!-- /TOC -->
 
+A more general, but detailed description of how to fork, clone and PR the R-Ladies website can be found in [its own chapter](/comm/website/fork-clone-pr).
+Here we describe in particular how to work towards a blogpost.
+
 ## Clone the project
 
 Choose your own workflow! There are many ways you can fork and clone a project,
@@ -81,12 +84,12 @@ Fill inn the fields with the relevant information.
 
 We are going to follow a few rules to set the header of the post to set posts easily discoverable.
 
-- **Title**: Post title. It is the main feature, it shows in the list and the post page.
-- **Author**: Post author. It is not visible in the moment. We will work to make it visible and to show in a menu.
-- **Date**: Post date. Same as author. The date _must_ be static, nothing like `r Sys.Date()`, otherwise everytime the blog is generate a new date is set in the blogpost. The **format must be YYYY-mm-dd**.
-- **Description**: Post subtitle. As an example, we used it to set the title of the post series of the 2018 IWD project. It shows in the posts list and in the post page.
-- **Tags**: Post tags. They should include meaningful information like date if it is a recurrent project (because dates are not shown anywhere for now). 4 or 5 tags is a good number. [Tags](https://rladies.org/tags/).
-- **Categories**: Post categories. Like tags but the theme is more general. They are not visible right now. [Categories](https://rladies.org/categories/).
+- **title**: Post title. It is the main feature, it shows in the list and the post page.
+- **author**: Post author. It is not visible in the moment. We will work to make it visible and to show in a menu.
+- **date**: Post date. Same as author. The date _must_ be static, nothing like `r Sys.Date()`, otherwise everytime the blog is generate a new date is set in the blogpost. The **format must be YYYY-mm-dd**.
+- **description**: Post subtitle. As an example, we used it to set the title of the post series of the 2018 IWD project. It shows in the posts list and in the post page.
+- **tags**: Post tags. They should include meaningful information like date if it is a recurrent project (because dates are not shown anywhere for now). 4 or 5 tags is a good number. [Tags](https://rladies.org/tags/).
+- **categories**: Post categories. Like tags but the theme is more general. They are not visible right now. [Categories](https://rladies.org/categories/).
 
 All of the information will be shown in the post yaml, and can also be edited later.
 

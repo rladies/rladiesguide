@@ -5,6 +5,8 @@ weight: 5
 ---
 
 We now use Hugo content files and page bundles to manage mentoring program entries.
+You will first need [your own local copy](/comm/website/fork-clone-pr) of the R-Ladies website to work on.
+
 Here's how to add a new mentoring entry:
 
 1.  **Using `blogdown::new_content()`:**
