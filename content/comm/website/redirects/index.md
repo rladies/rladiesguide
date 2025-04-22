@@ -1,3 +1,9 @@
+---
+title: "Creating a pretty URL"
+menuTitle: "Redirects (pretty url)"
+weight: 6
+---
+
 The website has something called a "redirect" type of page.
 The redirect page enables us to redirect people from our website to somewhere else when we want to.
 This is a very nice way to generate official, short and pretty urls from our website URL to somewhere else.
