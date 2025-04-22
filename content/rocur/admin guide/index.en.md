@@ -76,7 +76,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 ### When someone is nominated to curate
 
-1.  ✉️Email the potential curator to let them know that they have been nominated. You can use the template below:
+1.  The Airtable app has been set up to automatically notify the nominee via email upon nomination. If it's necessary to manually notify the nominee, use the template below:
 
 > ***Subject: Invitation to become a curator on the We Are R-Ladies Bluesky account**\
 > \
@@ -138,7 +138,12 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 ### Sunday before they are scheduled to curate
 
-1.  🦋If it has not been done already, remove the previous curator's app password.
+1.  🦋Remove the previous curator's app password.
+    1.  Go to the **Settings** page.
+    2.  Select **Privacy and security**.
+    3.  Select **App passwords.**
+    4.  Click on the **red trash icon** next to the app password you wish to remove.
+    5.  Check that the app password no longer appears in the list.
 
 2.  🦋Generate a new app password for the upcoming curator.
 
@@ -191,17 +196,11 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 ### After they curate
 
-1.  🦋Replace the curator's profile photo with the We Are R-Ladies logo.
+1.  🦋Replace the curator's profile photo with the We Are R-Ladies logo. The image is saved in the [root of the Google Drive](https://drive.google.com/file/d/1x_AaAM_3qYvCqE4yhC6fNcLvlcGjRqdC/view?usp=drive_link).
 2.  🦋Change the last line of the bio of the Bluesky account to *"This week's curator: TBA"*.
-3.  🦋Remove the curator's app password.
-    1.  Go to the **Settings** page.
-    2.  Select **Privacy and security**.
-    3.  Select **App passwords.**
-    4.  Click on the **red trash icon** next to the app password you wish to remove.
-    5.  Check that the app password no longer appears in the list.
-4.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the account has been reverted to its default state.
-5.  Add the curator to the We Are R-Ladies starter pack.
-6.  ✉️Send a thank you email to the curator. You can use the sample below:
+3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the account has been reverted to its default state.
+4.  Add the curator to the We Are R-Ladies starter pack.
+5.  ✉️Send a thank you email to the curator. You can use the sample below:
 
 > ***Subject: Thank you for contributing to the We Are R-Ladies Bluesky account!***
 >
@@ -209,17 +208,19 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 >
 > *Thank you so much for curating the We Are R-Ladies Bluesky account! We truly appreciate your time and effort to engage the broader R community and highlight minority genders and their great work in R.*
 >
-> *If you did not receive enough support during your curation, or if anything can be clarified in the [guide for curators](https://guide.rladies.org/rocur/guide/), we welcome direct feedback to this email.*
+> *Now that your curation is finished, please remember to sign out of the We Are R-Ladies Bluesky account.* 
+>
+> *Your feedback is important to us and is essential to the continued improvement of the rotating curation program. What went well? What could be improved? What went badly? We welcome direct feedback to this email.*
 >
 > *If you write about your curating week and would like us to incorporate it into the guide, please either submit a pull request or notify us so that we can do that for you.*
 >
-> *Lastly, please consider nominating fellow R-Ladies to curate. We value hearing diverse voices from R-Ladies around the world, and we greatly appreciate your assistance in identifying R-Ladies whose work you admire.*
+> *Lastly, please consider nominating fellow R-Ladies to curate using [the nomination form](https://airtable.com/appFIBzsk2AxWlGMt/pagfezjuCxohikOOa/form). We value hearing diverse voices from R-Ladies around the world, and we greatly appreciate your assistance in identifying R-Ladies whose work you admire.*
 >
 > *We thank you for your service to the R-Ladies community!*
 >
 > *Rotating Curation (RoCur) admins*
 
-7.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
+6.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
 
 ## Other Information on Infrastructure & Procedures
 
