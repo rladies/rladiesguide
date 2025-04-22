@@ -1,19 +1,17 @@
 title = "R-Ladies organizational guidance"
 baseURL = "https://guide.rladies.org/"
+theme = 'hugo-theme-relearn'
+
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableEmoji = true
-pygmentsUseClasses=true
+pygmentsUseClasses = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
 enableGitInfo = true
 
-[module]
-  [[module.imports]]
-    path = "github.com/McShelby/hugo-theme-relearn"
-
 # For search functionality
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+home = [ "HTML", "RSS"]
 
 
 [params]
@@ -22,7 +20,10 @@ home = [ "HTML", "RSS", "JSON"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
-  #themeVariant = "rladies"
+
+  linkTitle = 'R-Ladies Guide'
+
+  themeVariant = ['relearn-light', 'relearn-dark']
 
 [params.author]
   name = "R-Ladies Global Team"
