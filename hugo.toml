@@ -22,7 +22,7 @@ home = [ "HTML", "RSS"]
   disableNextPrev = false
 
   linkTitle = 'R-Ladies Guide'
-  themeVariant = ['rladies', 'relearn-light', 'relearn-dark']
+  themeVariant = ['r-ladies-light', 'r-ladies-dark']
 
 [params.author]
   name = "R-Ladies Global Team"

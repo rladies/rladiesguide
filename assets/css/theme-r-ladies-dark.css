@@ -1,0 +1,45 @@
+:root {
+  /* r-ladies-dark - R-Ladies Branding (Based on Updated Light Theme) */
+  --PRIMARY-color: rgb(167, 167, 167); /* Lighter gray for primary on dark */
+  --SECONDARY-color: #a7a9ac; /* R-Ladies Gray */
+  --ACCENT-color: rgb(104, 135, 186); /* Darker shade of the light theme's accent */
+
+  --MAIN-TEXT-color: #e0e0e0; /* Light gray for main text */
+  --MAIN-LINK-HOVER-color: #d1a7d3; /* Lighter shade of purple for link hover */
+  --MAIN-BG-color: #222; /* Dark background */
+  --MAIN-TITLES-TEXT-color: #fff; /* White for titles */
+
+  --CODE-theme: relearn-dark; /* Keeping the dark code theme */
+  --CODE-BLOCK-color: #f8f8f2; /* Light text for code blocks */
+  --CODE-BLOCK-BG-color: #282a36; /* Dark background for code blocks */
+  --CODE-BLOCK-BORDER-color: #44475a; /* Darker border for code blocks */
+  --CODE-INLINE-color: #f8f8f2; /* Light text for inline code */
+  --CODE-INLINE-BG-color: #44475a; /* Darker background for inline code */
+  --CODE-INLINE-BORDER-color: #6272a4; /* Different dark color for inline code border */
+
+  --BROWSER-theme: dark;
+  --MERMAID-theme: dark;
+  --OPENAPI-theme: dark;
+  --OPENAPI-CODE-theme: obsidian;
+
+  --MENU-HEADER-BG-color: #333; /* Dark background for menu header */
+  --MENU-HEADER-color: #f8f8f8; /* Light text for menu header */
+
+  --MENU-SEARCH-color: #bbb; /* Light gray for search text and icon */
+  --MENU-SEARCH-BG-color: #444; /* Darker gray for search background */
+  --MENU-SEARCH-BORDER-color: #888; /* Medium gray for search border */
+
+  --MENU-HOME-LINK-color: #999; /* Medium gray for home link */
+  --MENU-HOME-LINK-HOVER-color: #fff; /* White for hovered home link */
+
+  --MENU-SECTIONS-BG-color: #88398a; /* R-Ladies Purple for menu background (matching light) */
+  --MENU-SECTIONS-ACTIVE-BG-color: rgba(136, 57, 138, 0.3); /* Slightly more opaque purple for active menu */
+  --MENU-SECTIONS-LINK-color: #f8f8f8; /* Light gray for menu links (matching light) */
+  --MENU-SECTIONS-LINK-HOVER-color: rgb(235, 187, 236); /* Light purple hover (matching light) */
+  --MENU-SECTION-ACTIVE-CATEGORY-color: #f8f8f8; /* Light gray for active category text */
+  --MENU-SECTION-SEPARATOR-color: #a7a9ac; /* R-Ladies Gray for menu separator */
+
+  --BOX-CAPTION-color: #333; /* Dark text for box captions */
+  --BOX-BG-color: #f8f8f8; /* Light background for boxes */
+  --BOX-TEXT-color: #333; /* Dark text for box content */
+}
