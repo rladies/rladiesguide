@@ -1,6 +1,6 @@
+theme = 'hugo-theme-relearn'
 title = "R-Ladies organizational guidance"
 baseURL = "https://guide.rladies.org/"
-theme = 'hugo-theme-relearn'
 
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -22,8 +22,7 @@ home = [ "HTML", "RSS"]
   disableNextPrev = false
 
   linkTitle = 'R-Ladies Guide'
-
-  themeVariant = ['relearn-light', 'relearn-dark']
+  themeVariant = ['rladies', 'relearn-light', 'relearn-dark']
 
 [params.author]
   name = "R-Ladies Global Team"
