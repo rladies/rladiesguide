@@ -17,12 +17,13 @@ home = [ "HTML", "RSS"]
 [params]
   editURL = "https://github.com/rladies/rladiesguide/edit/main/content/"
   githubsource = "https://github.com/rladies/rladiesguide/blob/main/content/"
-  showVisitedLinks = true
+  showVisitedLinks  = false
   disableBreadcrumb = false
-  disableNextPrev = false
+  disableNextPrev   = false
+  collapsibleMenu   = true
 
   linkTitle = 'R-Ladies Guide'
-  themeVariant = ['r-ladies-light', 'r-ladies-dark']
+  themeVariant = ['auto', 'r-ladies-light', 'r-ladies-dark']
 
 [params.author]
   name = "R-Ladies Global Team"
