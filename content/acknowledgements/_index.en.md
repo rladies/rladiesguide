@@ -1,6 +1,9 @@
 ---
+build:
+  list: never
+  publishResources: false
+  render: never
 title: Acknowledgements
-disableTitle: true
 ---
 
 Thank you! ¡Gracias!
