@@ -1,5 +1,5 @@
 ---
-title: utorial: Creating a project in Airtable
+title: Creating a project in Airtable
 menuTitle: "Tutorial"
 weight: 2
 ---
