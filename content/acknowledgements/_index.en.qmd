@@ -21,21 +21,19 @@ auth <- jsonlite::read_json(
   here::here(".zenodo.json")
 )
 auth <- sapply(auth$creators, function(x) {
+  name <- gsub("^(\\w+), (\\w+)$", "\\2 \\1", x$name)
   if ("orcid" %in% names(x)) {
     return(
       sprintf(
-        "  - [%s](https://orcid.org/%s)",
-        x$name,
+        "[%s](https://orcid.org/%s)",
+        name,
         x$orcid
       )
     )
   }
-  sprintf(
-    "  - %s",
-    x$name
-  )
+  name
 })
-cat(auth, sep = "\n")
+cat(auth, sep = ", ")
 ```
 
 Thanks to the [R Consortium](https://www.r-consortium.org/) for funding this project.
