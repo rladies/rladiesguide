@@ -6,6 +6,18 @@ weight: 3
 
 This document details the structure and functionality of the "Global Team overview" Airtable base, which serves as a central hub for managing information about the R-Ladies Global team members, their roles, and contact details.
 
+```mermaid
+graph TD
+    A[Members Table] -->|linked record| B[Teams Table]
+    B -->|linked record| D[Repositories Table]
+    C[Team emails Table] -->|linked record| B
+    D -->|linked record| B
+
+    A -->|Automation| F[Retire member]
+    F -->|creates record| E[Alumni Table]
+    F -->|sends notification| G[Slack Channel]
+```
+
 ## Data (Tables and Views)
 
 The "Global Team overview" base is organized into several tables, each containing specific fields to manage different aspects of the team.
