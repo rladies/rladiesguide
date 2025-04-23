@@ -28,8 +28,7 @@ We'll link **tasks** to **projects** so each task is associated with a specific 
 2. Set up the following columns (fields):
    - **project_name** (single line text) → _Primary field_
    - **start_date** (date field, ISO format YYYY-MM-DD)
-   - **status** (single select: "requested", "not*started", "in_progress", "completed", set \_default value* to "requested").
-
+   - **status** (single select: "requested", "not_started", "in_progress", "completed", set \_default value* to "requested").
 ### Step 3: Create the "tasks" Table
 
 1. Click **"+ Add or Import"** and choose **"Create empty table"**.
