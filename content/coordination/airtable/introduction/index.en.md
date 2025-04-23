@@ -110,7 +110,7 @@ Choosing the right field type therefore makes sure the data flow is a smooth as 
   - Airtable by default uses US format (M/D-YY), edit the field and choose ISO format in the field editor.
 - **Linked Records** allow connections between tables, avoiding duplicate data.
   - Linked records are the most valuable feature for teams, as it reduces the need to store the same data multiple places.
-  - Linked records also allows you to "lookup" or "rollup" values from the linked table to poopulate the current table. This way you can display information from one table in another, while changes will always stay synced.
+  - Linked records also allows you to "lookup" or "rollup" values from the linked table to populate the current table. This way you can display information from one table in another, while changes will always stay synced.
 - **Formula** are special columns where you can run specific operations in a row-wise fashion on your data. Like calculating a date in the future based on a field, or running calculations on data.
 
 ## Forms
