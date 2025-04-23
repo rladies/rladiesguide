@@ -34,7 +34,7 @@ Airtable is built around four main components: **Data, Interface, Forms, and Aut
   - Each **table** contains **fields** (columns) that hold different types of data (text, dates, linked records, etc.).
   - Different **views** (grid, calendar, kanban, etc.) allow you to filter, group, and sort the data without changing the underlying records.
   - Views are made to create accessible subsets of the data to come easily back to.
-  - Thins like **filtering**, **grouping** and **sorting** in Airtable are not seen as dynamic functions to run _on demand_. They are rather seen as tools for creating **views** of the data to come back to over and over.
+  - Things like **filtering**, **grouping** and **sorting** in Airtable are not seen as dynamic functions to run _on demand_. They are rather seen as tools for creating **views** of the data to come back to over and over.
 - **Example:** A **"Curators"** table stores names, contact info, and scheduled dates. You can have a **Grid View** to see all records and a **Calendar View** to visualize the schedule. You can also create a **Grid View** that is only of future curators, with just a couple of necessary fields.
 
 ### Interfaces
