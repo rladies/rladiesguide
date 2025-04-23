@@ -4,7 +4,7 @@ menuTitle: "Tutorial"
 weight: 2
 ---
 
-## **Goal**
+## Goal
 
 To understand how a project can be set up in Airtable in a convenient way to track project requests and progress.
 
@@ -17,12 +17,12 @@ We will create three tables:
 
 We'll link **tasks** to **projects** so each task is associated with a specific project.
 
-### **Step 1: Create a New Base**
+### Step 1: Create a New Base
 
 1. Open **Airtable** and click **"Add a base"** (or choose an existing base).
 2. Name it **"project_management"**.
 
-### **Step 2: Create the "projects" Table**
+### Step 2: Create the "projects" Table
 
 1. In the base, rename the first table to **"projects"**.
 2. Set up the following columns (fields):
@@ -30,7 +30,7 @@ We'll link **tasks** to **projects** so each task is associated with a specific 
    - **start_date** (date field, ISO format YYYY-MM-DD)
    - **status** (single select: "requested", "not*started", "in_progress", "completed", set \_default value* to "requested").
 
-### **Step 3: Create the "tasks" Table**
+### Step 3: Create the "tasks" Table
 
 1. Click **"+ Add or Import"** and choose **"Create empty table"**.
 2. Rename it to **"tasks"**.
@@ -39,7 +39,7 @@ We'll link **tasks** to **projects** so each task is associated with a specific 
    - **due_date** (date field, ISO format YYYY-MM-DD)
    - **assigned_to** (single line text or collaborator field)
 
-### **Step 4: Link the "tasks" Table to "projects"**
+### Step 4: Link the "tasks" Table to "projects"
 
 1. In the **"tasks"** table, click the **"+"** next to the last column to add a new field.
 2. Choose **"Linked Record"**.
@@ -48,24 +48,24 @@ We'll link **tasks** to **projects** so each task is associated with a specific 
 
 ✅ **Now each task can be assigned to a project!**
 
-### **Step 5: Add Data**
+### Step 5: Add Data
 
 1. Go to the **projects** table and add some sample projects:
    - "website_redesign", "marketing_campaign", "new_product_launch".
 2. Switch to the **tasks** table and add tasks, selecting a **project** from the linked field.
 
-### **Step 6: View the Linked Data**
+### Step 6: View the Linked Data
 
 - In the **projects** table, Airtable automatically creates a **tasks field** showing related tasks.
 - Clicking a **project_name** in the **tasks** table opens the linked record.
 
-## **Bonus: Create a Kanban View for Tasks**
+## Bonus: Create a Kanban View for Tasks
 
 1. In the **tasks** table, click **"+ Add View"** → Select **Kanban**.
 2. Choose **"project"** as the grouping field.
 3. Now you can visually organize tasks by project!
 
-### **Bonus: Create a Calendar View for Tasks**
+### Bonus: Create a Calendar View for Tasks
 
 A **calendar view** helps visualize deadlines and due dates for tasks. Follow these steps to set it up:
 
@@ -81,43 +81,43 @@ A **calendar view** helps visualize deadlines and due dates for tasks. Follow th
 
 ## Add team organisation to the project
 
-### **Step 1: Create the "projects" Table**
+### Step 1: Create the "projects" Table
 
 1. Go to your Airtable **Base** to update the **"projects"**.
 2. Add the following fields:
    - **"status"** (Single select: Options → "Not Started", "In Progress", "Completed")
    - **"assigned"** (Linked Record → Links to "team_members" table)
 
-### **Step 2: Create the "team_members" Table**
+### Step 2: Create the "team_members" Table
 
 1. Create another table named **"team_members"**.
 2. Add the following fields:
    - **"name"** (Single line text)
    - **"email"** (Email format)
 
-### **Step 3: Link Team Members to Projects**
+### Step 3: Link Team Members to Projects
 
 1. In the **"projects"** table, find the **"assigned"** field.
 2. Click the field type and choose **Linked Record**.
 3. Select **"team_members"** as the linked table.
 4. Now, you can assign a team member to each project.
 
-### **Bonus Step: Create a View to Easily See Which Team Member Has Which Project**
+### Bonus Step: Create a View to Easily See Which Team Member Has Which Project
 
 To make it easy to distinguish which team member is assigned to each project, follow these steps:
 
-#### **1. Create a New "Team Projects" View**
+#### 1. Create a New "Team Projects" View
 
 1. In the **"projects"** table, click the **"Views"** button in the top-left corner.
 2. Click **"+ Create a Grid View"** and name it **"team_projects_view"**.
 
-#### **2. Group Projects by Assigned Team Member**
+#### 2. Group Projects by Assigned Team Member
 
 1. Click the **"Group"** button in the toolbar.
 2. Select **"assigned"** as the grouping field.
 3. Now, projects will be grouped under each assigned team member!
 
-#### **3. Customize for Clarity**
+#### 3. Customize for Clarity
 
 - Hide unnecessary fields (e.g., click the **"Hide fields"** button and deselect columns that aren’t needed).
 - Sort by **"due_date"** so upcoming projects appear first.
@@ -129,7 +129,7 @@ To make it easy to distinguish which team member is assigned to each project, fo
 
 This guide will walk you through setting up a form in Airtable that allows users to submit new project entries, including assigning a team member.
 
-### **Step 1: Create a New Form**
+### Step 1: Create a New Form
 
 On the top or Airtable, next to the project name, are four tabs:
 
@@ -138,60 +138,58 @@ On the top or Airtable, next to the project name, are four tabs:
 - Interfaces
 - Forms
 
-### **Step 1: Click on Forms**
-
-### **Step 2: Add a new form**
+### Step 2: Add a new form
 
 Click on the little `+` sign in the left sidebar to initiate a new form.
 
-### **Step 3: Connect form to table**
+### Step 3: Connect form to table
 
 Connect the form to the **projects** table, and give the form a name.
 "Request for new team project".
 
-### **Step 4: Add and Configure Fields**
+### Step 4: Add and Configure Fields
 
 Airtable will automatically include all fields from the **"projects"** table in the form. You can customize them as follows:
 
-### **Project Name**
+### Project Name
 
 - Ensure the **"project_name"** field is visible.
 - This field will capture the name of the project.
 - Formulate the field as a question, rather than the field name as we see it in the data.
 
-### **Start Date & Due Date**
+### Start Date & Due Date
 
 - The fields **"start_date"** and **"due_date"** fields are for internal tracking, and should not be in the form.
 - Delete them from the form.
 
-### **Status**
+### Status
 
 - **"status"** is also an internal tracker.
 - If it's a **single select** field, users can choose from options like:
 - Delete if from the form.
 
-### **4. Assigned Team Member**
+### 4. Assigned Team Member
 
 - **"assigned"** is also for internal tracking.
 - Delete if from the form.
 
-### **5. Project Description (Optional)**
+### 5. Project Description (Optional)
 
 - Add a **"long text"** field for additional details about the project.
 - This helps users provide a brief project summary.
 
-### **Step 4: Customize Form Settings**
+### Step 4: Customize Form Settings
 
 1. Click on each field to edit its label (if necessary) without changing the field name.
 2. Toggle **"Required"** for fields that must be filled in before submission (e.g., project name, due date).
 3. Reorder the fields by dragging them to match your preferred layout.
 
-### **Step 5: Share the Form**
+### Step 5: Share the Form
 
 1. Click **"Share form"** at the top.
 2. Copy the **form link** and share it with your team.
 
-### ** Bonus step **
+### Bonus step
 
 Try requesting a new project through your own form, and see what happens.
 
@@ -203,21 +201,19 @@ This guide will help you set up an Airtable automation that does the following:
 ✅ Assigns a **random team member** to a new project when a form is submitted.  
 ✅ Sends an **email notification** to the assigned team member.
 
----
-
-### **Step 1: Open the Automations Panel**
+### Step 1: Open the Automations Panel
 
 1. Go to your **Airtable base** where the **"projects"** and **"team_users"** tables exist.
 2. Click on **"Automations"** in the top navigation bar.
 3. Click **"+ Create automation"** and rename it to **"Auto-Assign Team Member"**.
 
-### **Step 2: Set the Trigger (When a New Form is Submitted)**
+### Step 2: Set the Trigger (When a New Form is Submitted)
 
 1. Click **"Choose a trigger"** and select **"When a form is submitted"**.
 2. Select the **form view** you created for project submissions.
 3. Click **"Test trigger"** to confirm Airtable detects a new submission.
 
-### **Step 3: Find a Random Team Member**
+### Step 3: Find a Random Team Member
 
 1. Click **"+ Add action"** and choose **"Find records"**.
 2. Select the **"team_users"** table.
@@ -227,7 +223,7 @@ This guide will help you set up an Airtable automation that does the following:
 5. Limit results to **1 record** to select a single random team member.
 6. Click **"Test action"** to confirm a random team member is retrieved.
 
-### **Step 4: Update the Project with the Assigned Team Member**
+### Step 4: Update the Project with the Assigned Team Member
 
 1. Click **"+ Add action"** and select **"Update record"**.
 2. Choose the **"projects"** table.
@@ -235,7 +231,7 @@ This guide will help you set up an Airtable automation that does the following:
 4. In the **"assigned"** field, insert the **record ID from the random team member** (Step 3).
 5. Click **"Test action"** to confirm that a team member is assigned.
 
-### **Step 5: Send an Email Notification to the Assigned Team Member**
+### Step 5: Send an Email Notification to the Assigned Team Member
 
 1. Click **"+ Add action"** and select **"Send an email"**.
 2. In the **"To"** field, insert the email of the assigned team member from Step 3.
@@ -263,7 +259,7 @@ This guide will help you set up an Airtable automation that does the following:
 
 5. Click **"Test action"** to confirm that an email is sent.
 
-### **Step 6: Enable the Automation**
+### Step 6: Enable the Automation
 
 1. Click **"Turn on automation"**.
 2. Submit a test form to ensure everything works!
