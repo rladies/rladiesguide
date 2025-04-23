@@ -203,8 +203,7 @@ This guide will help you set up an Airtable automation that does the following:
 
 ### Step 1: Open the Automations Panel
 
-1. Go to your **Airtable base** where the **"projects"** and **"team_users"** tables exist.
-2. Click on **"Automations"** in the top navigation bar.
+1. Go to your **Airtable base** where the **"projects"** and **"team_members"** tables exist.
 3. Click **"+ Create automation"** and rename it to **"Auto-Assign Team Member"**.
 
 ### Step 2: Set the Trigger (When a New Form is Submitted)
