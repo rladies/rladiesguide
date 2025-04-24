@@ -6,14 +6,33 @@ weight: 8
 
 This document details the updated structure and functionality of the "abstract review" Airtable base, used to manage requests for abstract reviews and the team of volunteers who provide the reviews. It now utilizes a central "tasks" table to manage the review workload, linking abstracts and volunteers. The base involves two tables, each populated by a dedicated form, and includes updated automations.
 
+```mermaid
+graph TD
+    A[volunteer table]
+    C[abstracts Table]
+    D[tasks Table]
+
+    E[Join the R-Ladies Abstract Review Team Form] --> |populates| C
+
+    C <-- links to --> D
+    A <-- links to --> D
+
+    G[Volunteer Form] --> H[Volunteer Notify Slack]
+    G --> A
+    J[Check Stale Requests]
+
+    E --> |notify| K[Slack] --> L[Email]
+```
+
 ## Data (Tables and Views)
 
 The "abstract review" base contains three key tables: "volunteers", "abstracts", and "tasks".
 
 ### volunteers Table
 
-This table stores information about individuals who have volunteered to be abstract reviewers. It is populated by the "Join the R-Ladies Abstract Review Team" form.
-**Key Fields (Observed):**
+This table stores information about individuals who have volunteered to be abstract reviewers. It is populated by the "Join the R-Ladies Abstract Review Tean" form.
+
+**Key Fields:**
 
 - name
 - comments
@@ -29,9 +48,6 @@ This table stores information about individuals who have volunteered to be abstr
 - Reviews requested
 - Review completed
 - Email consent
-- abstracts new (Linked to the abstracts table)
-- abstracts new copy (Linked to the abstracts table)
-- abstracts new copy copy (Linked to the abstracts table)
 
 **Key Views:**
 
@@ -54,9 +70,6 @@ This table stores information about the abstract review requests submitted by in
 - abstract_url
 - comments
 - Reviewer Preferences
-- Status
-- Reviewer 1 email
-- Status last updated
 - Email consent
 - Are you a woman or me…
 - Tasks (Linked to the tasks table)
