@@ -58,6 +58,17 @@ Airtable is built around four main components: **Data, Interface, Forms, and Aut
   - Unlike tables, **interfaces don’t store data** — they present existing data in a user-friendly way.
 - **Example:** A **Curator Dashboard** that shows upcoming schedules, curators needing follow-ups, and a quick summary of curator feedback.
 
+```mermaid
+graph TD
+    A[Airtable Data Tables] --> B{Interface Builder};
+    B --> C{Components Forms Lists Charts etc};
+    C --> D[Layout Design and Customization];
+    D --> E{Published Interface};
+    E --> F[Interface Users View and Interact];
+    F -- Data Input --> A;
+    A -- Data Display --> E;
+```
+
 ### Forms
 
 - **What it is:** A way to **collect new data** from users without giving them direct access to the database.
