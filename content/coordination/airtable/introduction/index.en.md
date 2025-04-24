@@ -22,6 +22,24 @@ It holds all your **tables, views, forms, and automations** for a project.
 A single base can contain multiple tables, forms and automations.
 In R-Ladies global team, we usually will have one base per team, to coordinate team tasks.
 
+```mermaid
+graph TD
+    A[Airtable Workspace] --o B[Base 1]
+    A --o C[Base 2]
+    A --o D[Base 3]
+
+    B --o  B1F1[Form 1] -->|populates| B1[Table 1]
+    B --o  B1F2[Form 2] -->|populates| B2[Table 2]
+    B1F2 -- triggers create record automation --o B3[Table 3]
+
+    C --o C1F[Form 1] -->|populates| C1[Table 1]
+    C --o C2F[Form 2] -->|populates| C2[Table 2]
+
+    D --o D1F[Form 1] -->|populates| D1[Table 1]
+    D --o D2[Table 2]
+    C2 -.-> |synced| D2
+```
+
 ## Understanding the Core Components of Airtable
 
 Airtable is built around four main components: **Data, Interface, Forms, and Automations**. Each serves a different purpose in organizing and managing information efficiently.
@@ -39,7 +57,7 @@ Airtable is built around four main components: **Data, Interface, Forms, and Aut
 
 ### Interfaces
 
-- **What it is:** A customizable dashboard that provides a visual and interactive way to view and interact with data.
+- **What it is:** A customizable dashboard that provides a visual and interactive way to view and interact with data. Interfaces can be shared both internally and externally.
 - **How it works:**
   - Interfaces let you create **charts, summaries, and interactive views** to help users navigate data more intuitively.
   - Unlike tables, **interfaces don’t store data** — they present existing data in a user-friendly way.
@@ -88,8 +106,12 @@ You can create different **Views** of a table to organize and display data:
 
 Each table may have many different view, as many as you like.
 Views are a great way to organise the underlying data into more manageable sizes for easier management.
-There are for example ways to use views when choosing linked records that create more simple data input.
+Look at views as way to create subset of the data you often want to look at.
+Filtering, grouping etc. in Airtable are not seen as dynamic things you do many times to inspect the data.
+Rather, you are expected to create **views** you come back to over and over again.
+You can also use views to sync _partial_ data into another base, like syncing all members of the curator team into the RoCur base from the Global Team Overview base.
 
+There are for example ways to use views when choosing linked records that create more simple data input.
 For instance, you might want:
 
 - **Grid view** with all records and all fields
@@ -130,6 +152,19 @@ Airtable **Forms** let users submit data directly into a table.
 ## Automations
 
 Airtable **Automations** help reduce manual work by automatically performing actions.
+
+```mermaid
+graph TD
+    A[Trigger] --> B{Action};
+    B -- Met --> C(If Condition);
+    C -- Met --> D[If condition are met, then run these actions:<br>Action];
+    C -- Not met --> E{Otherwise, if Condition};
+    E -- Met --> F[If condition are met, then run these actions:<br>Action];
+    E -- No conditions met --> G[If no condition are met, then run these actions:<br>Action];
+    D  --> H{{End of automation<br>run}};
+    F  --> H;
+    G  --> H;
+```
 
 ### Triggers (What Starts an Automation?)
 
