@@ -175,15 +175,7 @@ This extension provides a visual overview of all the tables within your base and
 By visualizing these relationships, you can gain a clearer understanding of your database design, making it easier to navigate and manage complex bases.
 The Base schema extension is invaluable for documentation purposes and for onboarding new team members to an existing Airtable setup.
 
-![The image displays a visual representation of the schema for an Airtable base named "abstracts". It shows three tables, each represented by a colored rectangle with its name at the top and a list of its fields below. Lines connect the tables, indicating relationships between them, likely through linked record fields.
-
-The three tables are:
-
-- **abstracts** (colored pink): Contains fields such as "name", "email", "conf_url", "conf_name", "conf_deadline", "conf_type", "abstract_type", "abstract_url", "comments", "Status", "Tasks", and "Status (from Tasks)". A line connects the "Tasks" field to the "tasks" table.
-- **tasks** (colored blue): Contains fields such as "Record", "Status", "Status last updated", "Reviewer 1 Status", "Reviewer 2 Status", "Reviewer 3 Status", "Reviewer 1", "Reviewer 2", "Reviewer 3", "Abstract", and "Conf Deadline". Lines connect the "Reviewer 1", "Reviewer 2", and "Reviewer 3" fields to the "volunteers" table, and the "Abstract" field to the "abstracts" table.
-- **volunteers** (colored yellow): Contains fields such as "name", "comments", "email", "slack", "review_type", "help_type", "languages", "Gender", "abstracts", "Reviews requested", "Review completed", "Email consent", "abstracts new", "abstracts new copy", and "abstracts new copy copy". Lines connect this table to the "Reviewer 1", "Reviewer 2", and "Reviewer 3" fields in the "tasks" table, and the "abstracts", "abstracts new", "abstracts new copy", and "abstracts new copy copy" fields to the "abstracts" table.
-
-The diagram illustrates a relational database structure where abstracts are linked to tasks, and tasks are linked to volunteers (reviewers), indicating a workflow for managing abstract reviews.](ext-base-schema.png)
+![Airtable Base schema extension showing three connected tables: 'abstracts' (pink) linked to 'tasks' (blue) via the 'Tasks' field, and 'tasks' linked to 'volunteers' (yellow) via 'Reviewer' fields.](ext-base-schema.png)
 
 ### Accessing and Using Extensions
 
@@ -196,14 +188,7 @@ By leveraging the power of Extensions, you can significantly expand the capabili
 The "Tools" menu in Airtable, typically found in the top right corner alongside the "Share" and "Extensions" buttons, offers a collection of utilities and features to help you manage your base.
 These are simple tools to help you manage the tables and records in the base in various ways.
 
-![A close-up of the Airtable "Tools" dropdown menu. The menu contains four options, each with an icon and a short description:
-
-1.  **Manage fields:** Displayed with a dark orange square containing a white capital "A". The description reads "Edit fields and inspect dependencies".
-2.  **Record templates:** Displayed with a blue square containing a white clipboard icon. The description reads "Create records from a template".
-3.  **Date dependencies:** Displayed with a light blue square containing two overlapping document icons. The description reads "Configure date shifting between dependent records" and includes a green "New" label.
-4.  **Insights:** Displayed with a yellow square containing a white bar chart icon. The description reads "Understand and improve base health" and includes a light blue "Business" label, indicating it's part of the Business plan.
-
-The "Tools" menu is accessed from the top right of the Airtable interface, next to the "Extensions" menu.](tools-menu.png)
+![Airtable Tools menu with options: Manage fields (edit/inspect dependencies), Record templates (create from template), Date dependencies (configure date shifting, labeled 'New'), and Insights (understand/improve base health, labeled 'Business'). The menu is accessed from the top right of the Airtable interface.](tools-menu.png)
 
 ### Manage fields
 
@@ -211,13 +196,7 @@ This tool allows you to **edit the settings of your existing fields** and **insp
 Understanding field dependencies is crucial for making changes to your base structure without unintentionally breaking formulas, lookups, or other connected elements.
 This tool likely provides a visual way to see which fields are used in formulas, lookups, rollups, and linked records throughout your base.
 
-![The image shows the Airtable "Manage fields" interface for the "Global Team overview" base. It displays a table listing the fields in the "Members" table, along with their properties and dependencies.
-
-The table has columns for "Name", "Field type", "Description", "Field permissions", and "Dependencies". Each row represents a field in the "Members" table.
-
-For example, the "Name" field is indicated as the "PRIMARY FIELD", is of the "Single line text" type, and has dependencies in "2 Automations", "4 Syncs", and "4 Interfaces" (with "+4" suggesting more).
-
-The interface allows users to search for specific fields, filter by permissions and dependencies, and add new fields. It provides a structured view of the "Members" table's schema and highlights how different fields are connected to other parts of the Airtable base, such as automations, synced tables, and interfaces. This helps users understand the impact of modifying fields.](tools-manage.png)
+![Airtable "Manage fields" interface for the "Global Team overview" base, showing a table of fields in the "Members" table with columns for Name, Field type, Description, Field permissions, and Dependencies. The "Name" field is the PRIMARY FIELD and has dependencies in Automations, Syncs, and Interfaces.](tools-manage.png)
 
 ### Record templates
 
@@ -231,19 +210,7 @@ This newer tool helps you **configure how dates shift between dependent records*
 If you have records with dates that are related (e.g., a project start date and dependent task due dates), this tool likely allows you to set up rules so that if one date changes, the related dates are automatically adjusted accordingly.
 This can be very helpful for project management and other time-sensitive workflows.
 
-![The image shows the Airtable "Date dependencies" configuration panel. The title at the top reads "Date dependencies" followed by a descriptive text: "Define which records are dependent on others. When you reschedule a record, dependent records are automatically rescheduled. Learn more".
-
-The panel is divided into sections:
-
-Table: A dropdown menu is open and currently displays "Members" as the selected table.
-Enable date dependencies for Members: A toggle switch is set to the "on" position (green).
-Start date field: A dropdown menu with "Select field" as the placeholder.
-End date field: A dropdown menu with "Select field" as the placeholder, connected to the "Start date field" with a right-pointing arrow.
-Duration field: A dropdown menu with "Select field" as the placeholder.
-Predecessor field (optional): A dropdown menu with "Select field" as the placeholder.
-Advanced options: A section containing a toggle for "Omit weekends and holidays" (currently off) and a "Rescheduling logic" dropdown showing "Business" selected, with another dropdown showing "Flexible" selected.
-A visual timeline: Below the configuration options, a Gantt chart-like timeline displays three linked tasks: "Planning" (purple, spanning from June 3rd to June 17th), "Execution" (orange, with a dependency arrow pointing from the end of "Planning" to the start of "Execution", spanning from June 13th to June 24th, labeled "12 days"), and "Launch" (green, with a dependency arrow pointing from the end of "Execution" to the start of "Launch", occurring around July 1st). A hand cursor is shown interacting with the "Execution" bar.
-A note: Below the timeline reads "Define dependencies by dragging arrows in a Timeline view in Gantt layout. Members are only automatically rescheduled to avoid overlaps."](tools-dates.png)
+![Airtable "Date dependencies" configuration panel showing options to select a table ("Members"), enable date dependencies, choose start/end/duration/predecessor fields, and advanced options like omitting weekends. A Gantt chart-like timeline visualizes linked tasks (Planning, Execution, Launch) with dependency arrows.](tools-dates.png)
 
 ## Final Tips
 
