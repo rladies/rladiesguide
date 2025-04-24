@@ -30,8 +30,7 @@ The "abstract review" base contains three key tables: "volunteers", "abstracts",
 
 ### volunteers Table
 
-This table stores information about individuals who have volunteered to be abstract reviewers. It is populated by the "Join the R-Ladies Abstract Review Tean" form.
-
+This table stores information about individuals who have volunteered to be abstract reviewers. It is populated by the "Join the R-Ladies Abstract Review Team" form.
 **Key Fields:**
 
 - name
