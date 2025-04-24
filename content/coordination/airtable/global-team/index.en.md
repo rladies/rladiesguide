@@ -115,7 +115,7 @@ This table lists the GitHub repositories used by the R-Ladies Global team.
 ### Alumni Table
 
 This table stores information about former members of the R-Ladies Global team.
-It's setup mimmicks the Members table, but is generally unpopulated.
+Its setup mimics the Members table, but is generally unpopulated.
 When a team member retires, the GitHub Action on the R-Ladies website pulls the data for the retired member, and stores the data in the website repo for posterity, then sends a delete command to Airtable.
 
 **Key Fields:**
