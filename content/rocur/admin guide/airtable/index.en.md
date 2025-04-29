@@ -1,6 +1,6 @@
 ---
-title: Rotating Curator Airtable Base
-menuTitle: "Rotating Curator"
+title: RoCur Airtable Base
+menuTitle: "Airtable"
 weight: 10
 ---
 
