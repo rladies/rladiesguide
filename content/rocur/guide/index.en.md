@@ -21,7 +21,9 @@ editor_options:
 -   1 week before your curation, RoCur admins will send you more info on
     curating and ask you to review the [Curating Agreement] as well as
     approve a graphic that will be used to promote your account
-    takeover.
+    takeover. They will also offer you the option to use
+    [Buffer](https://buffer.com/) during your curation. Buffer is a
+    social media toolkit that lets you schedule content and plan posts.
 
 -   The Sunday before your curation, you will receive an app password,
     which will serve as your temporary credential to log into the [We
@@ -321,7 +323,9 @@ posts and given talks reflecting on their curating experience.
 
 ### On curating for @WeAreRLadies
 
--   [Curating R-Ladies @weare.rladies.org Bluesky account](https://medium.com/@simisani.ndaba013/curating-r-ladies-weare-rladies-org-bluesky-account-655b04f49c21): blog post by Simisani Ndaba, Feb 26, 2025
+-   [Curating R-Ladies \@weare.rladies.org Bluesky
+    account](https://medium.com/@simisani.ndaba013/curating-r-ladies-weare-rladies-org-bluesky-account-655b04f49c21):
+    blog post by Simisani Ndaba, Feb 26, 2025
 
 -   [Curating for \@WeAreRLadies on Twitter: From creating content to
     cultivating
