@@ -55,7 +55,3 @@ This base has two automations to notify the mentoring team via Slack upon form s
 2.  **Slack notification Feedback:**
     - **Trigger:** When the "R-Ladies Mentoring Feedback Form" is submitted.
     - **Action:** Sends a message to "#team-mentoring" Slack channel.
-
-```
-
-```

@@ -69,7 +69,3 @@ This base has two automations to manage YouTube content requests:
     - **Action:** Sends a notification message to a Slack channel.
 
 This documentation provides an overview of the "youtube" Airtable base based on the currently available information.
-
-```
-
-```

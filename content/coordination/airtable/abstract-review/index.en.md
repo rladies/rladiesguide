@@ -14,14 +14,15 @@ D[tasks Table]
 
     E[Join the R-Ladies Abstract Review Team Form] --> |populates| C
 
-    C <-- links to --> D
-    A <-- links to --> D
+    C --> |links to| D
+    A --> |links to| D
 
     G[Volunteer Form] --> H[Volunteer Notify Slack]
     G --> A
     J[Check Stale Requests]
 
-    E --> |notify| K[Slack] --> L[Email]
+    E --> |notify| K[Slack]
+    K --> L[Email]
 
 {{< /mermaid >}}
 

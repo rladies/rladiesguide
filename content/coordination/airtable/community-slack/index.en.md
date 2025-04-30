@@ -59,7 +59,3 @@ This base has a single automation:
 
 - **Trigger:** When a form is submitted (likely the Slack invite request form).
 - **Action:** Sends a message to the #team-community_slack channel in Slack, and sends an email (recipient not fully visible).
-
-```
-
-```

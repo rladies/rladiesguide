@@ -49,7 +49,3 @@ There are no interfaces in this base.
 ## Automation
 
 There are no active automations in this base.
-
-```
-
-```

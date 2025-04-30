@@ -11,7 +11,6 @@ graph TD
 A[Members Table] -->|linked record| B[Teams Table]
 B -->|linked record| D[Repositories Table]
 C[Team emails Table] -->|linked record| B
-D -->|linked record| B
 
     A -->|Automation| F[Retire member]
     F -->|creates record| E[Alumni Table]
@@ -154,7 +153,3 @@ The base has one identified automation to streamline the process of managing tea
 - **Actions:**
   1.  A new record is created in the **Alumni** table, automatically transferring the information of the retired member.
   2.  A message is sent to the "Notify Global Team" Slack channel to inform the team about the member's retirement.
-
-```
-
-```
