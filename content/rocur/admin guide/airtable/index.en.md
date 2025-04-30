@@ -213,6 +213,7 @@ Populated by the [Curator Sign-up Form](#curator-signup-form).
 **Lookup Fields:**
 
 - Curator status (lookup from the [Curator Progress](#curator-progress) table)
+
 - **Views:**
   - Not completed (Curators in progress)
   - Completed (Completed Curators)
@@ -220,7 +221,11 @@ Populated by the [Curator Sign-up Form](#curator-signup-form).
 
 ### Task Updates
 
-- **Purpose:** Tracks the completion status and update date for each individual task assigned to each curator. Admins should actively use this table to tick off completed tasks and have full overview of which tasks are remaining.
+**Purpose:**
+Tracks the completion status and update date for each individual task assigned to each curator.
+Admins should actively use this table to tick off completed tasks and have full overview of which tasks are remaining.
+To add new tasks that for each curator, see the [Tasks table](#tasks).
+
 - **Key Fields:**
   - Update (formula/concatenation of Curator and Task)
   - Curator (linked to the [Curator](#curator) table)
@@ -233,7 +238,12 @@ Populated by the [Curator Sign-up Form](#curator-signup-form).
 
 ### Curator Progress
 
-- **Purpose:** Tracks the latest information on each curator's status, including the most recently updated task and the timestamp. It is the source of the overall curation status. Primarily populated by automation scripts, like updating when a task from [Task Updates](#task-updates) was last ticked off as "Completed"
+**Purpose:**
+Tracks the latest information on each curator's status, including the most recently updated task and the timestamp.
+It is intended to be the main table to check for general updates on each specific curator.
+It is the source for the overall curation status.
+Primarily populated by automation scripts, like updating when a task from [Task Updates](#task-updates) was last ticked off as "Completed".
+
 - **Key Fields:**
   - Display Handle (linked to the [Curator](#curator) table)
   - Curator (linked to the [Curator](#curator) table)
@@ -254,36 +264,50 @@ Interfaces can serve many different functions.
 An interface might be for internal use, like updating records etc, or outward facing for reporting to sponsors etc.
 The intention is to provide an overarching interface towards the data, without having access to all the minute details of what the underlying data actually looks like.
 
-### RoCur Airtable Interface Overview
-
-#### Curation Dashboard
+### [Curation Dashboard](https://airtable.com/appFVxNxj9OlJw0VD/pagm9GYghj7VHFHug)
 
 This interface provides a structured way to oversee the entire curation process, ensuring smooth scheduling, status tracking, and team coordination.
+Ideally, Global Team members only need to interact with the interface for doing their tasks, not having to go into the raw data beneath.
+In all pages of the interfaces, any linked record is displayed as black text in a grey box, clicking the box will open the linked record, so you can view it in its entirety.
+
+- **Overview**
+
+  - Displays an overview of the entire interface.
+  - Resources and Guidance on using Airtable in the side panel.
+  - Offers an introduction and tips for users navigating the interface.
+
+![RoCur Airtable landing page. The sidebar on the left shows navigation options: RoCur Airtable (selected), Dashboard, Schedule Calendar, Curator Pipeline, and Team Tasks. The main content area features the R-Ladies logo and text describing the RoCur Airtable base as a tool for managing the Rotation Curation process. Below this, there are sections for "Curation Dashboard" with a description, "Schedule Calendar" with a description, "Curator Pipeline" with a description, and "About" and "Other Airtable resources" with links to guides and help.](interface_overview.png)
 
 - **Dashboard**
 
   - Displays an overview of the project's progress.
   - Highlights curator status, team assignments, and curator feedback.
 
+![Overview Dashboard in RoCur Airtable. The dashboard displays several key metrics: a count of 1 (unlabeled), a circular chart showing a percentage (unreadable), a "Schedule" section showing "Base scope (months)" as 11, "Scheduled curators" as 1, and "Available time-slots" as 50. Below the schedule, there's a timeline view showing availability across May 2025. Finally, a "Curator follow-up" section indicates a count of 0.](interface_dashboard.png)
+
 - **Schedule Calendar**
 
   - A dedicated space for managing curator schedules.
   - Helps visualize who is curating when.
 
+![Schedule Calendar in RoCur Airtable, showing the month of May 2025. Several blocks indicate scheduled time slots, primarily in light green. One block on May 12th is purple and labeled "@drmowinckels.io". An overlay is open, prompting the user to select a "curator" with a plus icon for adding a new curator to a schedule spot.](interface_calendar_add.png)
+
 - **Curator Pipeline**
 
-  - Uses a Kanban-style layout to track curator progress.
-  - Makes it easy to see where each curator stands in the process.
+![Curator Pipeline in Airtable showing curators in different stages: new (0), scheduled (1 - displaying details for @drmowinckels.io), cancelled (0), and completed (0). The details shown for the scheduled curator include the latest update date (2025-04-29), the latest update ("Assign team member"), the scheduled week (Week 20 - 2025), tasks remaining (4/4), and the assignee (Simi sani Adaba).](interface_kanban.png)
+
+- Uses a Kanban-style layout to track curator progress.
+- Makes it easy to see where each curator stands in the process.
+- If you want to add anything to the [Curator Progress table](#curator-progress) (like a photo of the curator, an graphic announcing their curation, or assigning a team member), click on the curators card, and input the information you want to add.
+
+![Details view for curator @drmowinckels.io. The curator is listed as "scheduled" for "Week 20 - 2025". The "Curating Status" is also shown as "scheduled". There are empty drop areas for "graphic" and "photo". The "assignee" is listed as "Simisani Ndaba".](interface_kanban_add.png)
 
 - **Team Tasks**
   - Provides a clear view of curator assignments to team members.
+  - Organised by team members, and curation week, and displaying only tasks that need completion.
   - Ensures all necessary actions for each curator are completed.
 
-#### **Side Panel: Resources and Guidance**
-
-- Includes quick links to helpful Airtable resources.
-- Offers an introduction and tips for users navigating the interface.
-- Direct access to guides and templates for further customization.
+![Team Tasks view in RoCur Airtable. The tasks are grouped by assignee, with sections visible for "Reiko Okamoto", "Simisani Ndaba" (expanded), and "Meenakshi Kushwaha". Under "Simisani Ndaba", tasks are further grouped under "Scheduled - Week 20 - 2025". A table lists tasks for "@drmowinckels.io" including "Revoke Buffer access", "Email new curator", "Graphic Approved", "1 Week Email", "Thank you Email Sent", "Graphic sent", "Intro Posted", "Bluesky Account Update", "Provide Buffer access", and "Revert Bluesky & Delete". A "Completed" column shows checkboxes, some ticked and some unticked. A "Scheduled" column indicates "Week 20 - 2025" for all listed tasks.](interface_team_tasks.png)
 
 ## Automations
 
