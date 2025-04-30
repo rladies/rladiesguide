@@ -414,8 +414,12 @@ CurationWeek(("🦋 Curation week"));
 
 %% Connections
 NominationsForm -->|Data stored in| NominationsTable;
-NominationsForm -->|Curator invited| SignupForm;
+NominationsForm -->|Triggers| EmailNominator;
+NominationsForm -->|Triggers| EmailNominee;
+EmailNominee -->|Leads to| SignupForm;
+
 SignupForm -->|Data stored in| CuratorsTable;
+SignupForm -->|Triggers| NewSignupNotification;
 
 AdminTable --> |Assigns to| CuratorProgressTable;
 
@@ -437,11 +441,6 @@ FollowUpForm -->|Data stored in| FollowUpTable;
 
 FollowUpTable -->|Triggers| CompletionAutomation;
 CompletionAutomation --> CompletedCurators("✅ Completed");
-
-%% Additional Automations
-NominationsForm -->|Triggers| EmailNominator
-NominationsForm -->|Triggers| EmailNominee;
-SignupForm -->|Triggers| NewSignupNotification;
 
 %% Styles
 style NominationsTable fill:#a9b8dbcc,stroke:#616a80;
