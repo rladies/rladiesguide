@@ -51,12 +51,12 @@ CuratorsTable -->|Links to| FollowUpTable
 CuratorsTable -->|Links to| TasksTable
 CuratorsTable -->|Might link to| NominationsTable
 
-ScheduleTable ---> Calendar
-CuratorsTable --->|Tracks| Pipeline
-TasksTable --->|Manages| TeamTasks
-TeamTasks ---> Dashboard
-CuratorsTable ---> Dashboard
-FollowUpTable ---> Dashboard
+ScheduleTable --> Calendar
+CuratorsTable -->|Tracks| Pipeline
+TasksTable -->|Manages| TeamTasks
+TeamTasks --> Dashboard
+CuratorsTable --> Dashboard
+FollowUpTable --> Dashboard
 
 CuratorsTable -->|Synced from| AdminTable
 TasksTable -->|Populates| TaskUpdatesTable
