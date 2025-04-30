@@ -19,7 +19,7 @@ jobs:
           PR_AUTHOR="${{ github.actor }}"
           echo "new_contributor=true" >> $GITHUB_OUTPUT
           # Check if PR_AUTHOR exists in zenodo.json
-          if grep -q "\"${PR_AUTHOR}\"" zenodo.json; then
+          if grep -q "\"${PR_AUTHOR}\"" .zenodo.json; then
             echo "new_contributor=false" >> $GITHUB_OUTPUT
           fi
 
