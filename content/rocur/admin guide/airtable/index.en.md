@@ -47,16 +47,16 @@ NominationForm -->|Stored in| NominationsTable
 SignupForm -->|Stored in| CuratorsTable
 FollowUpForm -->|Stored in| FollowUpTable
 CuratorsTable -->|Links to| ScheduleTable
-ScheduleTable --> Calendar
-CuratorsTable -->|Tracks| Pipeline
-TasksTable -->|Manages| TeamTasks
 CuratorsTable -->|Links to| FollowUpTable
 CuratorsTable -->|Links to| TasksTable
 CuratorsTable -->|Might link to| NominationsTable
 
-TeamTasks --> Dashboard
-CuratorsTable --> Dashboard
-FollowUpTable --> Dashboard
+ScheduleTable ---> Calendar
+CuratorsTable --->|Tracks| Pipeline
+TasksTable --->|Manages| TeamTasks
+TeamTasks ---> Dashboard
+CuratorsTable ---> Dashboard
+FollowUpTable ---> Dashboard
 
 CuratorsTable -->|Synced from| AdminTable
 TasksTable -->|Populates| TaskUpdatesTable
