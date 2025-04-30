@@ -21,7 +21,7 @@ jobs:
           # Check if PR_AUTHOR exists in zenodo.json
           if grep -q "\"${PR_AUTHOR}\"" zenodo.json; then
             echo "new_contributor=false" >> $GITHUB_OUTPUT
-          end
+          fi
 
       - uses: actions/github-script@v6
         name: "Comment to greet and remind"
