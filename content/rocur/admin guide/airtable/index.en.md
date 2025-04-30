@@ -12,15 +12,15 @@ The "Rotating Curator" base utilizes three primary forms to collect essential in
 
 ### Nomination Form
 
-Nomination Form for @weare.rladies.org Curator:\*\* This form is used by individuals to nominate potential rotating curators. It likely captures the nominator's details, the nominee's social media handle and email address, and potentially a reason for the nomination. Submissions to this form trigger the [Email nominator](#email-nominator) and [Email nominee](#email-nominee) automations.
+This form is used by individuals to nominate potential rotating curators. It likely captures the nominator's details, the nominee's social media handle and email address, and potentially a reason for the nomination. Submissions to this form trigger the [Email nominator](#email-nominator) and [Email nominee](#email-nominee) automations.
 
 ### Curator Sign-up Form
 
-Curator Sign-up for weare.rladies.org:\*\* This form is for individuals who have been nominated and wish to volunteer as rotating curators. It likely collects the curator's contact information, social media handles, areas of interest, and their agreement to the curator guidelines. Submissions to this form trigger the [New signup notifications](#new-signup-notifications) and [Set up Tasks for Curator](#set-up-tasks-for-curator) automations.
+This form is for individuals who have been nominated and wish to volunteer as rotating curators. It likely collects the curator's contact information, social media handles, areas of interest, and their agreement to the curator guidelines. Submissions to this form trigger the [New signup notifications](#new-signup-notifications) and [Set up Tasks for Curator](#set-up-tasks-for-curator) automations.
 
 ### Follow-up Form
 
-Curator follow-up form for weare.rladies.org:\*\* This form is completed by curators after their curation week is finished. It serves to gather feedback on their experience, asking about positive aspects and areas for improvement. Submissions to this form trigger the [Complete follow-up](#complete-follow-up) automation.
+This form is completed by curators after their curation week is finished. It serves to gather feedback on their experience, asking about positive aspects and areas for improvement. Submissions to this form trigger the [Complete follow-up](#complete-follow-up) automation.
 
 ## Data (Tables and Views)
 
@@ -122,6 +122,118 @@ Curator follow-up form for weare.rladies.org:\*\* This form is completed by cura
   - completed (all completed curators)
   - full table (All records)
 
+## Interface
+
+Interfaces can serve many different functions.
+An interface might be for internal use, like updating records etc, or outward facing for reporting to sponsors etc.
+The intention is to provide an overarching interface towards the data, without having access to all the minute details of what the underlying data actually looks like.
+
+### RoCur Airtable Interface Overview
+
+#### Curation Dashboard
+
+This interface provides a structured way to oversee the entire curation process, ensuring smooth scheduling, status tracking, and team coordination.
+
+- **Dashboard**
+
+  - Displays an overview of the project's progress.
+  - Highlights curator status, team assignments, and curator feedback.
+
+- **Schedule Calendar**
+
+  - A dedicated space for managing curator schedules.
+  - Helps visualize who is curating when.
+
+- **Curator Pipeline**
+
+  - Uses a Kanban-style layout to track curator progress.
+  - Makes it easy to see where each curator stands in the process.
+
+- **Team Tasks**
+  - Provides a clear view of curator assignments to team members.
+  - Ensures all necessary actions for each curator are completed.
+
+#### **Side Panel: Resources and Guidance**
+
+- Includes quick links to helpful Airtable resources.
+- Offers an introduction and tips for users navigating the interface.
+- Direct access to guides and templates for further customization.
+
+{{<mermaid  align="left">}}
+
+graph TD;
+
+subgraph R-Ladies Workspace
+
+subgraph RoCur Base
+
+      subgraph Data
+        NominationsTable["📑 Nominations"]
+        CuratorsTable["📑 Curators"]
+        ScheduleTable["📑 Schedule"]
+        FollowUpTable["📑 Follow-up"]
+        TasksTable["📑 Tasks"]
+        AdminTable["📑 Admin"]
+        TaskUpdatesTable["📑 Task Updates"]
+        CuratorProgressTable["📑 Curator Progress"]
+      end
+
+      subgraph Forms
+        NominationForm("📨 Nomination Form")
+        SignupForm("📝 Curator Sign-up Form")
+        FollowUpForm("📨 Follow-up Form")
+      end
+
+      subgraph Interfaces
+        Dashboard("📊 Curation Dashboard")
+        Calendar("📅 Schedule Calendar")
+        Pipeline("📌 Curator Pipeline")
+        TeamTasks("✅ Team Tasks")
+      end
+
+end
+end
+
+%% Connections
+NominationForm -->|Stored in| NominationsTable
+SignupForm -->|Stored in| CuratorsTable
+FollowUpForm -->|Stored in| FollowUpTable
+CuratorsTable -->|Links to| ScheduleTable
+ScheduleTable --> Calendar
+CuratorsTable -->|Tracks| Pipeline
+TasksTable -->|Manages| TeamTasks
+CuratorsTable -->|Links to| FollowUpTable
+CuratorsTable -->|Links to| TasksTable
+CuratorsTable -->|Might link to| NominationsTable
+
+TeamTasks --> Dashboard
+CuratorsTable --> Dashboard
+FollowUpTable --> Dashboard
+
+CuratorsTable -->|Synced from| AdminTable
+TasksTable -->|Populates| TaskUpdatesTable
+CuratorsTable -->|Linked to| CuratorProgressTable
+
+style NominationsTable fill:#a9b8dbcc,stroke:#616a80;
+style CuratorsTable fill:#a9b8dbcc,stroke:#616a80;
+style ScheduleTable fill:#a9b8dbcc,stroke:#616a80;
+style FollowUpTable fill:#a9b8dbcc,stroke:#616a80;
+style TasksTable fill:#a9b8dbcc,stroke:#616a80;
+style AdminTable fill:#a9b8dbcc,stroke:#616a80;
+style TaskUpdatesTable fill:#a9b8dbcc,stroke:#616a80;
+style CuratorProgressTable fill:#a9b8dbcc,stroke:#616a80;
+
+style NominationForm fill:#cfb5e8,stroke:#736382;
+style SignupForm fill:#cfb5e8,stroke:#736382;
+style FollowUpForm fill:#cfb5e8,stroke:#736382;
+
+style Dashboard fill:#88cddb,stroke:#578891;
+style Calendar fill:#88cddb,stroke:#578891;
+style Pipeline fill:#88cddb,stroke:#578891;
+style TeamTasks fill:#88cddb,stroke:#578891;
+
+{{< /mermaid >}}
+
 ## Automations
 
 This base has several automations to streamline the rotating curator workflow:
@@ -194,48 +306,11 @@ This base has several automations to streamline the rotating curator workflow:
 - **Trigger:** On the "start_date" of a scheduled curator in the [Schedule](#schedule) table.
 - **Actions:** Sends a notification to both the "Organiser Slack" and "Community Slack" channels announcing the new curator for the week.
 
-## Interface
-
-Interfaces can serve many different functions.
-An interface might be for internal use, like updating records etc, or outward facing for reporting to sponsors etc.
-The intention is to provide an overarching interface towards the data, without having access to all the minute details of what the underlying data actually looks like.
-
-### RoCur Airtable Interface Overview
-
-#### Curation Dashboard
-
-This interface provides a structured way to oversee the entire curation process, ensuring smooth scheduling, status tracking, and team coordination.
-
-- **Dashboard**
-
-  - Displays an overview of the project's progress.
-  - Highlights curator status, team assignments, and curator feedback.
-
-- **Schedule Calendar**
-
-  - A dedicated space for managing curator schedules.
-  - Helps visualize who is curating when.
-
-- **Curator Pipeline**
-
-  - Uses a Kanban-style layout to track curator progress.
-  - Makes it easy to see where each curator stands in the process.
-
-- **Team Tasks**
-  - Provides a clear view of curator assignments to team members.
-  - Ensures all necessary actions for each curator are completed.
-
-#### **Side Panel: Resources and Guidance**
-
-- Includes quick links to helpful Airtable resources.
-- Offers an introduction and tips for users navigating the interface.
-- Direct access to guides and templates for further customization.
-
 {{<mermaid align="left">}}
 
 graph TD;
 %% Forms
-NominationsForm("📝 Nominations Form");
+NominationsForm("📝 Nomination Form");
 SignupForm("📝 Curator Signup Form");
 FollowUpForm("📝 Follow-up Form");
 
@@ -246,31 +321,38 @@ ScheduleTable("📅 Schedule Table");
 FollowUpTable("📂 Follow-up Table");
 TasksTable("✔️ Tasks Table");
 AdminTable("👤 Admin Table");
+TaskUpdatesTable("✔️ Task Updates Table");
+CuratorProgressTable("📊 Curator Progress Table");
 
 %% Actions
+EmailNominator("📨 Email Nominator");
+EmailNominee("📨 Email Nominee");
+NewSignupNotification("📨 New Sign-up Notification");
 ScheduleAutomation("⚡ Schedule Curator Automation");
 WeekNotice("📨 1 Week Curation Notice");
 CompletionAutomation("⚡ Complete Follow-up Automation");
 PreCurationWeek("Assigned admin follows up closely");
 CurationWeek(("🦋 Curation week"));
 
+%% Connections
 NominationsForm -->|Data stored in| NominationsTable;
 NominationsForm -->|Curator invited| SignupForm;
 SignupForm -->|Data stored in| CuratorsTable;
 
-AdminTable --> |Assigns to| TasksTable;
+AdminTable --> |Assigns to| CuratorProgressTable;
 
 CuratorsTable -->|When scheduled, update in| ScheduleTable;
 ScheduleTable -->|Triggers| ScheduleAutomation;
-ScheduleAutomation -->CuratorNotified
-CuratorNotified -->|Re-schedule curator | ScheduleTable
+ScheduleAutomation --> CuratorNotified
 CuratorNotified("📨 Curator Notified");
 ScheduleAutomation -->|Update curator status| CuratorsTable;
 CuratorsTable -->|Linked to| TasksTable;
 
 WeekNotice --> PreCurationWeek;
-WeekNotice --> |Updates | TasksTable;
+WeekNotice --> |Updates | TaskUpdatesTable;
 TasksTable --> PreCurationWeek;
+PreCurationWeek -->|Completes tasks| TaskUpdatesTable;
+TaskUpdatesTable -->|Triggers update| CuratorProgressTable;
 PreCurationWeek --> CurationWeek
 CurationWeek -->|Curator provides feedback| FollowUpForm;
 FollowUpForm -->|Data stored in| FollowUpTable;
@@ -278,11 +360,19 @@ FollowUpForm -->|Data stored in| FollowUpTable;
 FollowUpTable -->|Triggers| CompletionAutomation;
 CompletionAutomation --> CompletedCurators("✅ Completed");
 
+%% Additional Automations
+NominationsForm -->|Triggers| EmailNominator
+NominationsForm -->|Triggers| EmailNominee;
+SignupForm -->|Triggers| NewSignupNotification;
+
+%% Styles
 style NominationsTable fill:#a9b8dbcc,stroke:#616a80;
 style CuratorsTable fill:#a9b8dbcc,stroke:#616a80;
 style ScheduleTable fill:#a9b8dbcc,stroke:#616a80;
 style FollowUpTable fill:#a9b8dbcc,stroke:#616a80;
-style TasksTable fill:#a9b8db,stroke:#616a80;
+style TasksTable fill:#a9b8dbcc,stroke:#616a80;
+style TaskUpdatesTable fill:#a9b8dbcc,stroke:#616a80;
+style CuratorProgressTable fill:#a9b8dbcc,stroke:#616a80;
 
 style NominationsForm fill:#cfb5e8,stroke:#736382;
 style SignupForm fill:#cfb5e8,stroke:#736382;
@@ -294,70 +384,8 @@ style WeekNotice fill:#88cddb,stroke:#578891;
 
 style CompletedCurators fill:#a9dbc8,stroke:#638276;
 
-{{< /mermaid >}}
-
-{{<mermaid  align="left">}}
-
-graph TD;
-
-subgraph Workspace
-
-subgraph RoCur
-
-    subgraph Data
-      NominationsTable["📑 Nominations Table"]
-      CuratorsTable["📑 Curators Table"]
-      ScheduleTable["📑 Schedule Table"]
-      FollowUpTable["📑 Follow-up Table"]
-      TasksTable["📑 Tasks Table"]
-    end
-
-    subgraph Forms
-      NominationForm("📨 Nomination Form")
-      SignupForm("📝 Signup Form")
-      FollowUpForm("📨 Follow-up Form")
-    end
-
-    subgraph Interfaces
-      Dashboard("📊 Curation Dashboard")
-      Calendar("📅 Schedule Calendar")
-      Pipeline("📌 Curator Pipeline")
-      TeamTasks("✅ Team Tasks")
-    end
-
-end
-end
-
-%% Connections
-NominationForm -->|Stored in| NominationsTable
-SignupForm -->|Stored in| CuratorsTable
-FollowUpForm -->|Stored in| FollowUpTable
-CuratorsTable -->|Links to| ScheduleTable
-ScheduleTable --> Calendar
-CuratorsTable -->|Tracks| Pipeline
-TasksTable -->|Manages| TeamTasks
-
-CuratorsTable -->|Links to| FollowUpTable
-CuratorsTable -->|Links to| TasksTable
-CuratorsTable -->|Might link to| NominationsTable
-
-TeamTasks --> Dashboard
-CuratorsTable --> Dashboard
-FollowUpTable --> Dashboard
-
-style NominationsTable fill:#a9b8dbcc,stroke:#616a80;
-style CuratorsTable fill:#a9b8dbcc,stroke:#616a80;
-style ScheduleTable fill:#a9b8dbcc,stroke:#616a80;
-style FollowUpTable fill:#a9b8dbcc,stroke:#616a80;
-style TasksTable fill:#a9b8db,stroke:#616a80;
-
-style NominationForm fill:#cfb5e8,stroke:#736382;
-style SignupForm fill:#cfb5e8,stroke:#736382;
-style FollowUpForm fill:#cfb5e8,stroke:#736382;
-
-style Dashboard fill:#88cddb,stroke:#578891;
-style Calendar fill:#88cddb,stroke:#578891;
-style Pipeline fill:#88cddb,stroke:#578891;
-style TeamTasks fill:#88cddb,stroke:#578891;
+style EmailNominator fill:#deffb6,stroke:#4c6b22;
+style EmailNominee fill:#deffb6,stroke:#4c6b22;
+style NewSignupNotification fill:#deffb6,stroke:#4c6b22;
 
 {{< /mermaid >}}
