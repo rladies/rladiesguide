@@ -17,11 +17,11 @@ It holds all your **tables, views, forms, and automations** for a project.
 A single base can contain multiple tables, forms and automations.
 In R-Ladies global team, we usually will have one base per team, to coordinate team tasks.
 
-```mermaid
+{{<mermaid  align="left">}}
 graph TD
-    A[Airtable Workspace] --o B[Base 1]
-    A --o C[Base 2]
-    A --o D[Base 3]
+A[Airtable Workspace] --o B[Base 1]
+A --o C[Base 2]
+A --o D[Base 3]
 
     B --o  B1F1[Form 1] -->|populates| B1[Table 1]
     B --o  B1F2[Form 2] -->|populates| B2[Table 2]
@@ -33,7 +33,8 @@ graph TD
     D --o D1F[Form 1] -->|populates| D1[Table 1]
     D --o D2[Table 2]
     C2 -.-> |synced| D2
-```
+
+{{< /mermaid >}}
 
 ## Understanding the Core Components of Airtable
 
@@ -58,16 +59,17 @@ Airtable is built around four main components: **Data, Interface, Forms, and Aut
   - Unlike tables, **interfaces don’t store data** — they present existing data in a user-friendly way.
 - **Example:** A **Curator Dashboard** that shows upcoming schedules, curators needing follow-ups, and a quick summary of curator feedback.
 
-```mermaid
+{{<mermaid  align="left">}}
 graph TD
-    A[Airtable Data Tables] --> B{Interface Builder};
-    B --> C{Components Forms Lists Charts etc};
-    C --> D[Layout Design and Customization];
-    D --> E{Published Interface};
-    E --> F[Interface Users View and Interact];
-    F -- Data Input --> A;
-    A -- Data Display --> E;
-```
+A[Airtable Data Tables] --> B{Interface Builder};
+B --> C{Components Forms Lists Charts etc};
+C --> D[Layout Design and Customization];
+D --> E{Published Interface};
+E --> F[Interface Users View and Interact];
+F -- Data Input --> A;
+A -- Data Display --> E;
+
+{{< /mermaid >}}
 
 ### Forms
 
@@ -160,18 +162,19 @@ Airtable **Forms** let users submit data directly into a table.
 
 Airtable **Automations** help reduce manual work by automatically performing actions.
 
-```mermaid
+{{<mermaid  align="left">}}
 graph TD
-    A[Trigger] --> B{Action};
-    B -- Met --> C(If Condition);
-    C -- Met --> D[If condition are met, then run these actions:<br>Action];
-    C -- Not met --> E{Otherwise, if Condition};
-    E -- Met --> F[If condition are met, then run these actions:<br>Action];
-    E -- No conditions met --> G[If no condition are met, then run these actions:<br>Action];
-    D  --> H{{End of automation<br>run}};
-    F  --> H;
-    G  --> H;
-```
+A[Trigger] --> B{Action};
+B -- Met --> C(If Condition);
+C -- Met --> D[If condition are met, then run these actions:<br>Action];
+C -- Not met --> E{Otherwise, if Condition};
+E -- Met --> F[If condition are met, then run these actions:<br>Action];
+E -- No conditions met --> G[If no condition are met, then run these actions:<br>Action];
+D --> H{{End of automation<br>run}};
+F --> H;
+G --> H;
+
+{{< /mermaid >}}
 
 ### Triggers (What Starts an Automation?)
 
@@ -256,7 +259,15 @@ This can be very helpful for project management and other time-sensitive workflo
 
 ## Final Tips
 
-✅ **Use structured field names** (avoid special characters).  
-✅ **Set up filters & views** to organize data effectively.  
-✅ **Automate repetitive tasks** to save time.  
+✅ **Use structured field names** (avoid special characters).
+✅ **Set up filters & views** to organize data effectively.
+✅ **Automate repetitive tasks** to save time.
 ✅ **Use forms** for easy data entry without messing up table structure.
+
+```
+
+```
+
+```
+
+```

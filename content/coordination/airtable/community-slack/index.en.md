@@ -6,9 +6,9 @@ weight: 9
 
 This document details the structure and functionality of the "Community slack invites" Airtable base, used to manage requests for invitations to the R-Ladies community Slack workspace. It utilizes a single table populated by a single form to screen potential members.
 
-```mermaid
+{{<mermaid  align="left">}}
 graph TD
-    B[Community Slack Table]
+B[Community Slack Table]
 
     C[Slack Invite Request Form] --> |submit| B
 
@@ -16,7 +16,8 @@ graph TD
 
     E --> |Notify| F[Slack - #team-community_slack]
     E --> |Send| G[Email]
-```
+
+{{< /mermaid >}}
 
 ## Data (Tables and Views)
 
@@ -58,3 +59,7 @@ This base has a single automation:
 
 - **Trigger:** When a form is submitted (likely the Slack invite request form).
 - **Action:** Sends a message to the #team-community_slack channel in Slack, and sends an email (recipient not fully visible).
+
+```
+
+```

@@ -6,12 +6,13 @@ weight: 4
 
 This document details the structure and functionality of the "Directory" Airtable base, which serves as the backend for the R-Ladies speaker directory. It utilizes a single table populated by a single form to manage the addition, updating, and deletion of speaker entries.
 
-```mermaid
+{{<mermaid  align="left">}}
 graph TD
 
-   C[Submission Form] --> |form for submissions| A[submissions Table]
-   A --> |pulls data| D[GitHub Action]
-```
+C[Submission Form] --> |form for submissions| A[submissions Table]
+A --> |pulls data| D[GitHub Action]
+
+{{< /mermaid >}}
 
 ## Data (Tables and Views)
 
@@ -48,3 +49,7 @@ There are no interfaces in this base.
 ## Automation
 
 There are no active automations in this base.
+
+```
+
+```

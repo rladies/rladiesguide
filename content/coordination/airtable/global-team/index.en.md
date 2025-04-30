@@ -6,17 +6,18 @@ weight: 3
 
 This document details the structure and functionality of the "Global Team overview" Airtable base, which serves as a central hub for managing information about the R-Ladies Global team members, their roles, and contact details.
 
-```mermaid
+{{<mermaid  align="left">}}
 graph TD
-    A[Members Table] -->|linked record| B[Teams Table]
-    B -->|linked record| D[Repositories Table]
-    C[Team emails Table] -->|linked record| B
-    D -->|linked record| B
+A[Members Table] -->|linked record| B[Teams Table]
+B -->|linked record| D[Repositories Table]
+C[Team emails Table] -->|linked record| B
+D -->|linked record| B
 
     A -->|Automation| F[Retire member]
     F -->|creates record| E[Alumni Table]
     F -->|sends notification| G[Slack Channel]
-```
+
+{{< /mermaid >}}
 
 ## Data (Tables and Views)
 
@@ -153,3 +154,7 @@ The base has one identified automation to streamline the process of managing tea
 - **Actions:**
   1.  A new record is created in the **Alumni** table, automatically transferring the information of the retired member.
   2.  A message is sent to the "Notify Global Team" Slack channel to inform the team about the member's retirement.
+
+```
+
+```

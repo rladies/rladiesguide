@@ -6,13 +6,14 @@ weight: 7
 
 This document details the structure and functionality of the "youtube" Airtable base, used to manage requests for adding content to the R-Ladies YouTube channel. It utilizes a single table populated by a single form.
 
-```mermaid
+{{<mermaid  align="left">}}
 graph TD
 
     C[Form Submission] --> |submit| B[Submission Table]
     B --> |Add language| B
     B --> F[Notify Slack]
-```
+
+{{< /mermaid >}}
 
 ## Data (Tables and Views)
 
@@ -68,3 +69,7 @@ This base has two automations to manage YouTube content requests:
     - **Action:** Sends a notification message to a Slack channel.
 
 This documentation provides an overview of the "youtube" Airtable base based on the currently available information.
+
+```
+
+```
