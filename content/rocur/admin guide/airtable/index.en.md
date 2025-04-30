@@ -5,88 +5,214 @@ weight: 10
 ---
 
 This document details the structure and functionality of the "Rotating Curator" Airtable base, used to manage the process of onboarding, scheduling, supporting, and gathering feedback from rotating curators.
+The base is intended to help Global Team members in charge of the RoCur program to keep track of necessary steps for a successful curation.
+
+{{<mermaid  align="left">}}
+
+graph TD;
+
+subgraph R-Ladies Workspace
+
+subgraph RoCur Base
+
+      subgraph Data
+        NominationsTable["📑 Nominations"]
+        CuratorsTable["📑 Curators"]
+        ScheduleTable["📑 Schedule"]
+        FollowUpTable["📑 Follow-up"]
+        TasksTable["📑 Tasks"]
+        AdminTable["📑 Admin"]
+        TaskUpdatesTable["📑 Task Updates"]
+        CuratorProgressTable["📑 Curator Progress"]
+      end
+
+      subgraph Forms
+        NominationForm("📝 Nomination Form")
+        SignupForm("📝 Curator Sign-up Form")
+        FollowUpForm("📝 Follow-up Form")
+      end
+
+      subgraph Interfaces
+        Dashboard("📊 Curation Dashboard")
+        Calendar("📅 Schedule Calendar")
+        Pipeline("📌 Curator Pipeline")
+        TeamTasks("✅ Team Tasks")
+      end
+
+end
+end
+
+%% Connections
+NominationForm -->|Stored in| NominationsTable
+SignupForm -->|Stored in| CuratorsTable
+FollowUpForm -->|Stored in| FollowUpTable
+CuratorsTable -->|Links to| ScheduleTable
+ScheduleTable --> Calendar
+CuratorsTable -->|Tracks| Pipeline
+TasksTable -->|Manages| TeamTasks
+CuratorsTable -->|Links to| FollowUpTable
+CuratorsTable -->|Links to| TasksTable
+CuratorsTable -->|Might link to| NominationsTable
+
+TeamTasks --> Dashboard
+CuratorsTable --> Dashboard
+FollowUpTable --> Dashboard
+
+CuratorsTable -->|Synced from| AdminTable
+TasksTable -->|Populates| TaskUpdatesTable
+CuratorsTable -->|Linked to| CuratorProgressTable
+
+style NominationsTable fill:#a9b8dbcc,stroke:#616a80;
+style CuratorsTable fill:#a9b8dbcc,stroke:#616a80;
+style ScheduleTable fill:#a9b8dbcc,stroke:#616a80;
+style FollowUpTable fill:#a9b8dbcc,stroke:#616a80;
+style TasksTable fill:#a9b8dbcc,stroke:#616a80;
+style AdminTable fill:#a9b8dbcc,stroke:#616a80;
+style TaskUpdatesTable fill:#a9b8dbcc,stroke:#616a80;
+style CuratorProgressTable fill:#a9b8dbcc,stroke:#616a80;
+
+style NominationForm fill:#cfb5e8,stroke:#736382;
+style SignupForm fill:#cfb5e8,stroke:#736382;
+style FollowUpForm fill:#cfb5e8,stroke:#736382;
+
+style Dashboard fill:#88cddb,stroke:#578891;
+style Calendar fill:#88cddb,stroke:#578891;
+style Pipeline fill:#88cddb,stroke:#578891;
+style TeamTasks fill:#88cddb,stroke:#578891;
+
+{{< /mermaid >}}
 
 ## Forms
 
-The "Rotating Curator" base utilizes three primary forms to collect essential information:
+Forms are used as data ingestion, primarily to make sure community members have a way to voice their interest in the program.
+Forms always send data to a specific table.
+The RoCur base utilizes three primary forms to collect essential information:
 
 ### Nomination Form
 
-This form is used by individuals to nominate potential rotating curators. It likely captures the nominator's details, the nominee's social media handle and email address, and potentially a reason for the nomination. Submissions to this form trigger the [Email nominator](#email-nominator) and [Email nominee](#email-nominee) automations.
+This form is used by individuals to nominate potential rotating curators, and populates the [Nomination](#nomination) table.
+It captures the nominator's details, the nominee's social media handle and email address, and a reason for the nomination.
+Submissions to this form trigger the [Email nominator](#email-nominator) and [Email nominee](#email-nominee) automations.
 
 ### Curator Sign-up Form
 
-This form is for individuals who have been nominated and wish to volunteer as rotating curators. It likely collects the curator's contact information, social media handles, areas of interest, and their agreement to the curator guidelines. Submissions to this form trigger the [New signup notifications](#new-signup-notifications) and [Set up Tasks for Curator](#set-up-tasks-for-curator) automations.
+This form is for individuals who wish to volunteer as rotating curators, and populates the [Curator](#curator) table.
+It collects the curator's contact information, social media handles, areas of interest, and their agreement to the curator guidelines.
+Submissions to this form trigger the [New signup notifications](#new-signup-notifications) and [Set up Tasks for Curator](#set-up-tasks-for-curator) automations.
 
 ### Follow-up Form
 
-This form is completed by curators after their curation week is finished. It serves to gather feedback on their experience, asking about positive aspects and areas for improvement. Submissions to this form trigger the [Complete follow-up](#complete-follow-up) automation.
+This form is completed by curators after their curation week is finished, and populates the [Follow-up](#follow-up) table.
+It serves to gather feedback on their experience, asking about positive aspects and areas for improvement.
+Submissions to this form trigger the [Complete follow-up](#complete-follow-up) automation.
 
-## Data (Tables and Views)
+## Data
+
+The data are organised and stored into respective tables, to keep things as distinct as possible.
+We treat tables populated by forms as "raw" data, i.e. these are not tables admins directly interact with (unless it is to correct information that was submitted).
 
 ### Tasks
 
-- **Purpose:** Stores a comprehensive list of all the singular tasks that must be performed per curator. This table populates the [Task Updates](#task-updates) table.
-- **Key Fields:**
-  - Task
-  - Description
-  - task updates (linked to the [Task Updates](#task-updates) table)
-  - Timing (picklist: Pre-Scheduling, Pre-curation, Curation Start, Post-curation)
-- **Views:**
-  - Full table
+**Purpose:**
+Stores a comprehensive list of all the singular tasks that must be performed per curator.
+This table is used to populate the [Task Updates](#task-updates) table.
+Only reason to edit this table is to:
+
+- Add a new task
+- Update the description of an existing task.
+
+**Key Fields:**
+
+- Task
+- Description
+- task updates (linked to the [Task Updates](#task-updates) table)
+- Timing (picklist: Pre-Scheduling, Pre-curation, Curation Start, Post-curation)
+
+**Views:**
+
+- Full table
 
 ### Admin
 
-- **Purpose:** Provides a list of Rocur Team members with administrative responsibilities within the rotating curator workflow.
-- **Source:** Synced table from the "Rocur Team members" view in the "Members" table of the "Global Team Overview" base.
-- **Key Fields:** (Determined by the source table and view in the "Global Team Overview" base).
+**Purpose:**
+Provides a list of Rocur Team members with administrative responsibilities within the rotating curator workflow.
+
+**Source:** Synced table from the "Rocur Team members" view in the "Members" table of the "Global Team Overview" base.
+When new team members are added to the RoCur team in the source base, they will automatically appear in this table too.
+To update this table, go to the source base.
 
 ### Nomination
 
-- **Purpose:** Stores information about individuals nominated to be rotating curators. Populated by the [Nomination Form for @weare.rladies.org Curator](#nomination-form).
+**Purpose:**
+Stores information about individuals nominated to be rotating curators.
+Populated by the [Nomination Form](#nomination-form).
+
 - **Key Fields:**
+
   - nominator_name
   - nominee_notified
   - nominator_email
   - nominee_name
   - nominee_bluesky_handle
   - nominee_email
+
 - **Views:**
   - All nominations
 
 ### Schedule
 
-- **Purpose:** Used to schedule Curators for designated time slots. Populated by the [Schedule cleanup](#schedule-cleanup) automation.
-- **Key Fields:**
-  - Week (calculated)
-  - start_date (user input)
-  - end_date (calculated)
-  - curator (linked to the [Curator](#curator) table)
-  - notes
-- **Functionality:** The "Week" and "end_date" are calculated based on the "start_date" input.
-- **Views:**
-  - Available timeslots
-  - Calendar
-  - Full schedule
+**Purpose:**
+Used to schedule Curators for designated time slots.
+Weekly maintained by the [Schedule cleanup](#schedule-cleanup) automation, which makes sure there are 50 weeks into the future, and no more than 2 weeks into the past.
+
+**Key Fields:**
+
+- Week (calculated)
+- start_date (user input)
+- end_date (calculated)
+- curator (linked to the [Curator](#curator) table)
+- notes
+  - writing "break" in notes will make this week unavailable as a date preference in the [Signup Form](#curator-sign-up-form).
+
+**Functionality:**
+The `Week` and `end_date` are calculated based on the `start_date` input.
+
+**Views:**
+
+- Available timeslots
+  - linked to the [Signup Form](#curator-sign-up-form) so prospective curators can pick preferred dates from those available.
+- Calendar
+- Full schedule
 
 ### Follow-up
 
-- **Purpose:** Captures feedback on the curator experience to learn what works well and what can be improved. Populated by the [Curator follow-up form for weare.rladies.org](#follow-up-form).
-- **Key Fields:**
-  - curation_week (linked to the [Schedule](#schedule) table)
-  - curator (linked to the [Curator](#curator) table)
-  - handle
-  - positives
-  - negatives
-- **Views:**
-  - All
+**Purpose:**
+Captures feedback on the curator experience to learn what works well and what can be improved.
+Populated by the [Follow-up form](#follow-up-form), which curators are provided a link to with both their handle and curation start date [prefilled](https://support.airtable.com/docs/prefilling-a-form-via-encoded-url) in the form through the [Initiate follow-up automation](#initiate-curator-follow-up).
+
+**Key Fields:**
+
+- curation_week (linked to the [Schedule](#schedule) table)
+- curator (linked to the [Curator](#curator) table)
+
+**Views:**
+
+- All
 
 ### Curator
 
-- **Purpose:** Stores information about individuals who have signed up to be curators. Populated by the [Curator Sign-up for weare.rladies.org](#curator-signup-form).
-- **Key Fields:** (Details not fully visible in provided screenshots, but likely includes contact information, social media handles, etc.)
-- **Lookup Fields:**
-  - Curator status (lookup from the [Curator Progress](#curator-progress) table)
+**Purpose:**
+Stores information about individuals who have signed up to be curators.
+Populated by the [Curator Sign-up Form](#curator-signup-form).
+
+**Key Fields:**
+
+- Name
+- Bluesky handle
+
+**Lookup Fields:**
+
+- Curator status (lookup from the [Curator Progress](#curator-progress) table)
 - **Views:**
   - Not completed (Curators in progress)
   - Completed (Completed Curators)
@@ -158,81 +284,6 @@ This interface provides a structured way to oversee the entire curation process,
 - Includes quick links to helpful Airtable resources.
 - Offers an introduction and tips for users navigating the interface.
 - Direct access to guides and templates for further customization.
-
-{{<mermaid  align="left">}}
-
-graph TD;
-
-subgraph R-Ladies Workspace
-
-subgraph RoCur Base
-
-      subgraph Data
-        NominationsTable["📑 Nominations"]
-        CuratorsTable["📑 Curators"]
-        ScheduleTable["📑 Schedule"]
-        FollowUpTable["📑 Follow-up"]
-        TasksTable["📑 Tasks"]
-        AdminTable["📑 Admin"]
-        TaskUpdatesTable["📑 Task Updates"]
-        CuratorProgressTable["📑 Curator Progress"]
-      end
-
-      subgraph Forms
-        NominationForm("📨 Nomination Form")
-        SignupForm("📝 Curator Sign-up Form")
-        FollowUpForm("📨 Follow-up Form")
-      end
-
-      subgraph Interfaces
-        Dashboard("📊 Curation Dashboard")
-        Calendar("📅 Schedule Calendar")
-        Pipeline("📌 Curator Pipeline")
-        TeamTasks("✅ Team Tasks")
-      end
-
-end
-end
-
-%% Connections
-NominationForm -->|Stored in| NominationsTable
-SignupForm -->|Stored in| CuratorsTable
-FollowUpForm -->|Stored in| FollowUpTable
-CuratorsTable -->|Links to| ScheduleTable
-ScheduleTable --> Calendar
-CuratorsTable -->|Tracks| Pipeline
-TasksTable -->|Manages| TeamTasks
-CuratorsTable -->|Links to| FollowUpTable
-CuratorsTable -->|Links to| TasksTable
-CuratorsTable -->|Might link to| NominationsTable
-
-TeamTasks --> Dashboard
-CuratorsTable --> Dashboard
-FollowUpTable --> Dashboard
-
-CuratorsTable -->|Synced from| AdminTable
-TasksTable -->|Populates| TaskUpdatesTable
-CuratorsTable -->|Linked to| CuratorProgressTable
-
-style NominationsTable fill:#a9b8dbcc,stroke:#616a80;
-style CuratorsTable fill:#a9b8dbcc,stroke:#616a80;
-style ScheduleTable fill:#a9b8dbcc,stroke:#616a80;
-style FollowUpTable fill:#a9b8dbcc,stroke:#616a80;
-style TasksTable fill:#a9b8dbcc,stroke:#616a80;
-style AdminTable fill:#a9b8dbcc,stroke:#616a80;
-style TaskUpdatesTable fill:#a9b8dbcc,stroke:#616a80;
-style CuratorProgressTable fill:#a9b8dbcc,stroke:#616a80;
-
-style NominationForm fill:#cfb5e8,stroke:#736382;
-style SignupForm fill:#cfb5e8,stroke:#736382;
-style FollowUpForm fill:#cfb5e8,stroke:#736382;
-
-style Dashboard fill:#88cddb,stroke:#578891;
-style Calendar fill:#88cddb,stroke:#578891;
-style Pipeline fill:#88cddb,stroke:#578891;
-style TeamTasks fill:#88cddb,stroke:#578891;
-
-{{< /mermaid >}}
 
 ## Automations
 
