@@ -76,7 +76,7 @@ _The following emojis will be used throughout this documentation to indicate whe
 
 ### When someone is nominated to curate
 
-1.  ✉️Email the potential curator to let them know that they have been nominated. You can use the template below:
+1.  The Airtable app has been set up to automatically notify the nominee via email upon nomination. If it's necessary to manually notify the nominee, use the template below:
 
 > **\*Subject: Invitation to become a curator on the We Are R-Ladies Bluesky account**\
 > \
@@ -138,7 +138,13 @@ _The following emojis will be used throughout this documentation to indicate whe
 
 ### Sunday before they are scheduled to curate
 
-1.  🦋If it has not been done already, remove the previous curator's app password.
+1.  🦋Remove the previous curator's app password.
+
+    1.  Go to the **Settings** page.
+    2.  Select **Privacy and security**.
+    3.  Select **App passwords.**
+    4.  Click on the **red trash icon** next to the app password you wish to remove.
+    5.  Check that the app password no longer appears in the list.
 
 2.  🦋Generate a new app password for the upcoming curator.
 
@@ -219,7 +225,7 @@ _The following emojis will be used throughout this documentation to indicate whe
 >
 > _Rotating Curation (RoCur) admins_
 
-7.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
+6.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
 
 ## Other Information on Infrastructure & Procedures
 
