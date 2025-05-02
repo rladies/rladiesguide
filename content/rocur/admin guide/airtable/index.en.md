@@ -231,7 +231,11 @@ To add new tasks that for each curator, see the [Tasks table](#tasks).
   - Curator (linked to the [Curator](#curator) table)
   - Task (linked to the [Tasks](#tasks) table)
   - Completed (boolean)
-  - Date
+  - Date (Date when "Completed" was last ticked)
+  - Curator Progress (linked to [Curator Progress Table](#curator-progress))
+  - Assignee (Lookup value of assigned team member from [Curator Progress Table](#curator-progress))
+  - Latest Update Date (Lookup value of latest date from [Curator Progress Table](#curator-progress))
+  - Is latest? (checks if `Date` is same as `Latest Update Date`)
 - **Views:**
   - Full table (All records)
   - To-do (Only tasks that need to be completed)
@@ -249,10 +253,10 @@ Primarily populated by automation scripts, like updating when a task from [Task 
   - Curator (linked to the [Curator](#curator) table)
   - Scheduled (linked to the [Schedule](#schedule) table)
   - Curating Status (picklist: new, cancelled, scheduled, completed)
-  - Tasks Remaining
+  - Tasks Status (Shows ratio of completed / no. tasks from the [Task Updates](#task-updates) table.)
   - Assignee (linked to the [Admin](#admin) table)
-  - Latest Update
-  - Latest update date
+  - Latest Update (Rollup from [Task Updates](#task-updates) of which task was most recently updated)
+  - Latest update date (Rollup from [Task Updates](#task-updates) on which update date is most recent.)
 - **Views:**
   - todo (All curators that are not completed)
   - completed (all completed curators)
@@ -339,16 +343,6 @@ This base has several automations to streamline the rotating curator workflow:
 
 - **Trigger:** When a new curator signs up via the [curator signup form](#curator-signup-form).
 - **Actions:** Finds all tasks in the [Tasks](#tasks) table, creates a new [Curator Progress](#curator-progress) record for the new curator, and then creates individual records in the [Task Updates](#task-updates) table for each task, assigning them to the new curator using a script.
-
-#### Update Curator Progress
-
-- **Trigger:** When a record in the [Task Updates](#task-updates) table is updated (specifically the "Completed" or "Date" fields).
-- **Actions:** Runs a script that updates the [Curator Progress](#curator-progress) table for the relevant curator, logging the latest task completion and its date.
-
-#### Team member assigned
-
-- **Trigger:** When the "assignee" field is updated in the [Curator Progress](#curator-progress) table.
-- **Actions:** Finds the corresponding curator in the [Curator](#curator) table and updates a field (likely "Completed") to acknowledge the assignment.
 
 ### Curator communication
 
