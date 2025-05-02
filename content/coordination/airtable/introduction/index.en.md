@@ -18,6 +18,57 @@ A single base can contain multiple tables, forms and automations.
 In R-Ladies global team, we usually will have one base per team, to coordinate team tasks.
 
 {{<mermaid  align="left">}}
+graph TD;
+
+subgraph R-Ladies Workspace
+
+subgraph RoCur Base
+
+      subgraph Data
+        NominationsTable["📑 Nominations"]
+        CuratorsTable["📑 Curators"]
+        ScheduleTable["📑 Schedule"]
+        FollowUpTable["📑 Follow-up"]
+      end
+
+      subgraph Forms
+        NominationForm["📝 Nomination Form"]
+        SignupForm["📝 Curator Sign-up Form"]
+        FollowUpForm["📝 Follow-up Form"]
+      end
+
+      subgraph Interfaces
+        Calendar["📅 Schedule Calendar"]
+        Pipeline["📌 Curator Pipeline"]
+        TeamTasks["✅ Team Tasks"]
+      end
+
+end
+
+subgraph Global Team Overview
+
+      subgraph gtData
+        gtMembers["📑 Members"]
+        gtTeams["📑 Teams"]
+        gtRepos["📑 Repositories"]
+      end
+
+      subgraph gtInterfaces
+        gtMembersDashboard["📊 GT Dashboard"]
+        gtVacancies["📌 Team vacancies"]
+        gtNew["📝 Add new member"]
+      end
+
+end
+
+end
+{{< /mermaid>}}
+
+## Understanding the Core Components of Airtable
+
+Airtable is built around four main components: **Data, Interface, Forms, and Automations**. Each serves a different purpose in organizing and managing information efficiently.
+
+{{<mermaid  align="left">}}
 graph TD
 A[Airtable Workspace] --o B[Base 1]
 A --o C[Base 2]
@@ -35,10 +86,6 @@ A --o D[Base 3]
     C2 -.-> |synced| D2
 
 {{< /mermaid >}}
-
-## Understanding the Core Components of Airtable
-
-Airtable is built around four main components: **Data, Interface, Forms, and Automations**. Each serves a different purpose in organizing and managing information efficiently.
 
 ### Data (Tables, Fields, and Views)
 
