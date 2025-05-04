@@ -12,7 +12,7 @@ Tasks can range from re-structuring whole sections of the site, to doing code re
 
 ### Handling Pull requests
 
-This first section describes how the website team manaages PR and merges into the main website.
+This first section describes how the website team manages PR and merges into the main website.
 
 The website has [GitHub branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule) set up for the main branch, to ensure we don't accidentally break the site.
 We also have some GitHub actions that run checks on the PR to ensure the site can be built before we merge.
