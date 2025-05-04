@@ -4,17 +4,16 @@ menuTitle: "Blog"
 weight: 1
 ---
 
-- [Clone the project](#clone-the-project)
-  - [Install the dependecies](#install-the-dependecies)
-- [Write a new blog post](#write-a-new-blog-post)
-  - [Header of your post](#header-of-your-post)
-  - [After you write your post](#after-you-write-your-post)
-- [PR your changes](#pr-your-changes)
-
-<!-- /TOC -->
-
 A more general, but detailed description of how to fork, clone and PR the R-Ladies website can be found in [its own chapter](/comm/website/fork-clone-pr).
 Here we describe in particular how to work towards a blogpost.
+
+## Propose a post
+
+While you are welcome to submit a post by doing a PR directory to the website, we would love to be able to plan the post with you.
+Submit a [post proposal](https://rladies.org/form/blog-post) and one of the Blog editors will be in touch about planning the entire process.
+A benefit this process is that the Editor is able to plan when to post and create a timeline for the work.
+We are then also able to provide other ways to work towards a post, if you are not comfortable with the whole Git/GitHub workflow.
+If you are comfortable with it, you can, after proposing a post, start drafting by following the steps below.
 
 ## Clone the project
 
