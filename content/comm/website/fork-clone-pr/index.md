@@ -23,7 +23,7 @@ install.packages("usethis")
 usethis::create_from_github("rladies/rladies.github.io")
 ```
 
-### If you preder doing things your self.
+### If you prefer doing things yourself.
 
 ### Step 1: Fork the Repository
 
