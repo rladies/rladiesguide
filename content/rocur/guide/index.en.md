@@ -68,7 +68,13 @@ of the R-Ladies Community Slack if any questions arise.
 
 1.  [ ] Post from your personal Bluesky account.
 
-2.  [ ] Post an image with alternative text (again, from your personal
+2.  [ ] If you have expressed interest in using Buffer to create and
+    schedule your posts, start by logging into the platform and getting
+    familiar with its interface. You can also review [this helpful
+    guide](https://support.buffer.com/article/855-using-bluesky-with-buffer)
+    on connecting Buffer with Bluesky.
+
+3.  [ ] Post an image with alternative text (again, from your personal
     Bluesky account).
 
     -   *See [FAQ](https://guide.rladies.org/rocur/faq/) for more
@@ -80,10 +86,10 @@ of the R-Ladies Community Slack if any questions arise.
         post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81)
         on writing Alt Text for data visualization.
 
-3.  [ ] Read at least one artifact from previous curators. See [Work
+4.  [ ] Read at least one artifact from previous curators. See [Work
     From Previous Curators] *for a list.*
 
-4.  [ ] Create a list of topics you hope to post about during your
+5.  [ ] Create a list of topics you hope to post about during your
     curation.
 
     -   Most curators agree that doing some brainstorming before your
