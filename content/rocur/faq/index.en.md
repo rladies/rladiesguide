@@ -68,15 +68,23 @@ These instructions assume you've already requested access to Buffer. If you have
 
 3.  In the **Publish** tab, find the **Channels** list and select the **We Are R-Ladies Bluesky** channel.
 
+![](buffer_01.png)
+
 4.  Click the **+ New Post** button in the top-right corner.
 
-5.  Use the text field to write your post. You can also add images, links and other media. If you're using Buffer during your curation week, skip to Step 7.
+![](buffer_02.png)
+
+5.  Use the text field to write your post. You can also add images, links and other media. **If you're using Buffer during your curation week, skip to Step 8.**
 
 6.  **Prior to your curation week**, you won't have posting permissions, but you can click on **Save as Draft** to save your work. You can also click **Set Time** to specify when the post will be published.
 
-    -   Just before your curation week, you'll be granted posting access. At that point, go to the **Drafts** tab, click on **Add to Queue** to add the post to the next available time slot in the posting schedule. If you want to edit the content or set a specific time for publication, click the **pencil icon**.
+![](buffer_03.png)
 
-7.  To schedule or publish the post, choosing one of the following options. To assess more scheduling options, click the drop-down arrow.
+7.  Just before your curation week, you'll be granted posting access. At that point, go to the **Drafts** tab, click on **Add to Queue** to add the post to the next available time slot in the posting schedule. If you want to edit the content or set a specific time for publication, click the **pencil icon**.
+
+![](buffer_04.png)
+
+8.  **To schedule or publish a post during your curation**, choosing one of the following options. To assess more scheduling options, click the drop-down arrow.
 
     -   **Add to Queue:** Adds the post to the next available time slot in the posting schedule.
 
@@ -85,6 +93,8 @@ These instructions assume you've already requested access to Buffer. If you have
     -   **Share Next:** Schedules the post to be published next, bumping other scheduled posts down.
 
     -   **Schedule Post:** Allows you to choose a specific date and time for publication.
+
+![](buffer_05.png)
 
 ### **9. Are there any limitations to using Buffer?**
 
