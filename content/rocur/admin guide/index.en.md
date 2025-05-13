@@ -50,7 +50,7 @@ We also aim for this RoCur account to be a sustainable initiative. Therefore, th
 
 -   🦋: Bluesky
 
--   🅱️: Buffer
+-   🅱️: Buffer(optional)
 
 ### When someone signs up to curate
 

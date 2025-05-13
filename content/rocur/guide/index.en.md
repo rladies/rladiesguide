@@ -333,23 +333,23 @@ posts and given talks reflecting on their curating experience.
     account](https://medium.com/@simisani.ndaba013/curating-r-ladies-weare-rladies-org-bluesky-account-655b04f49c21):
     blog post by Simisani Ndaba, Feb 26, 2025
 
--   [Curating for \@WeAreRLadies on Twitter: From creating content to
-    cultivating
-    connections](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/):
-    blog post by Shannon Pileggi, Sep 23, 2021
+-   [Curating R-Ladies' Twitter Account - A Fun
+    Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/):
+    blog post by Cosima Meyer, Sep 18, 2022
+
+-   [Curating for
+    \@WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/):
+    blog post by Nicola Rennie, Jan 18, 2022
 
 -   [Be great and curate! Tips and outcomes from an \@WeAreRLadies
     Twitter
     curator](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/):
     poster presentation by Shannon Pileggi, Oct 7, 2021
 
--   [Curating for
-    \@WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/):
-    blog post by Nicola Rennie, Jan 18, 2022
-
--   [Curating R-Ladies' Twitter Account - A Fun
-    Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/):
-    blog post by Cosima Meyer, Sep 18, 2022
+-   [Curating for \@WeAreRLadies on Twitter: From creating content to
+    cultivating
+    connections](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/):
+    blog post by Shannon Pileggi, Sep 23, 2021
 
 ### Looking at data from @WeAreRLadies
 
@@ -359,14 +359,14 @@ posts and given talks reflecting on their curating experience.
 
 -   Megan Stodel's blog post series looking at @WeAreRLadies data:
 
-    -   [Analyzing Twitter
-        Data](https://www.meganstodel.com/posts/analysing-twitter-data/) -
-        Oct 24, 2020
+    -   [Hashtag Analyses](https://www.meganstodel.com/posts/hashtag/) -
+        Nov 15, 2020
     -   [Tweet
         Timing](https://www.meganstodel.com/posts/tweet-timing/) - Nov
         2, 2020
-    -   [Hashtag Analyses](https://www.meganstodel.com/posts/hashtag/) -
-        Nov 15, 2020
+    -   [Analyzing Twitter
+        Data](https://www.meganstodel.com/posts/analysing-twitter-data/) -
+        Oct 24, 2020
 
 *If you have written any blog posts, given any talks, or analyzed any
 data in relation to R-Ladies RoCur, please add your links via pull
