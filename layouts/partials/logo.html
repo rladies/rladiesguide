@@ -1,3 +1,27 @@
 <a id="R-logo" href="{{ partial "permalink.gotmpl" (dict "to" .Site.Home) }}">
-  <img src="{{"/images/horizontal-logo.png" | relURL}}" alt="brand logo" height=50>
+  <img id="logo-img" 
+       src="{{"/images/horizontal-logo.png" | relURL}}" 
+       alt="brand logo" 
+       height="50" 
+       data-light="{{"/images/horizontal-logo.png" | relURL}}" 
+       data-dark="{{"/images/horizontal-logo-dark.png" | relURL}}">
 </a>
+
+<script>
+  // Function to update the logo based on the user's theme preference
+  function updateLogo() {
+    const logoImg = document.getElementById('logo-img');
+    if (!logoImg) return;
+    
+    const darkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = localStorage.getItem('theme') || (darkMode ? 'dark' : 'light');
+    
+    logoImg.src = theme === 'dark' ? logoImg.dataset.dark : logoImg.dataset.light;
+  }
+
+  // Add event listener to toggle logo dynamically when theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateLogo);
+
+  // Apply the correct logo when the page loads
+  updateLogo();
+</script>
