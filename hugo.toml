@@ -22,6 +22,9 @@ home = [ "HTML", "RSS"]
   disableNextPrev   = false
   collapsibleMenu   = true
 
+  hideAuthorName  = true
+  hideAuthorEmail = true
+
   linkTitle = 'R-Ladies Guide'
   themeVariant = ['auto', 'r-ladies-light', 'r-ladies-dark']
 
