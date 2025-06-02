@@ -1,7 +1,7 @@
 ---
 title: "Contribute to the R-Ladies Blog"
 menuTitle: "Blog"
-weight: 1
+weight: 2
 ---
 
 A more general, but detailed description of how to fork, clone and PR the R-Ladies website can be found in [its own chapter](/comm/website/fork-clone-pr).

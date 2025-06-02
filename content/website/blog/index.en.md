@@ -278,3 +278,29 @@ PostTasks }|--|| Admins : assigned_to
 
 5.  **Task update**
     - **Status:** OFF (Work in Progress)
+
+## Automatic merging of "pending" PRs
+
+Once a post is finished, and has been reviewed by the blog team, it should be labelled as "pending" on GitHub.
+Any PR with a blog or news post that has the label "pending", will merge automatically into the main branch on the date specified in the content yaml.
+
+{{< mermaid >}}
+
+graph TD
+
+    B[On: workflow_dispatch or daily schedule] --> C[Job: find_pending_prs];
+
+    C --> C1[Step: Checkout Repository];
+    C1 --> C2[Step: Find PRs with pending label];
+    C2 -- outputs prs and process --> D{Condition: process == 'true'};
+
+    D -- yes --> E[Job: process_prs];
+
+    E --> E1[Step: Checkout Repository];
+    E1 --> E2[Step: Process and Merge Qualifying PRs];
+    E2 --> E3[Step: Trigger Website build];
+
+    E3 --> F[End];
+    D -- no --> F;
+
+{{< /mermaid >}}
