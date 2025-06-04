@@ -1,3 +1,7 @@
+#R-sidebar ul.collapsible-menu > li > :is(a, span) {
+  padding-left: calc(1.3rem - var(--bpx1) * 1px);
+}
+
 :root {
     /* r-ladies-light - R-Ladies Branding */
     --PRIMARY-color: #88398a; /* R-Ladies Purple */

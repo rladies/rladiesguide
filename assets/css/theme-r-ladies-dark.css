@@ -1,4 +1,8 @@
 
+#R-sidebar ul.collapsible-menu > li > :is(a, span) {
+  padding-left: calc(1.3rem - var(--bpx1) * 1px);
+}
+
 :root {
   /* r-ladies-dark - R-Ladies Branding (Based on Updated Light Theme) */
   --PRIMARY-color: rgb(167, 167, 167); /* Lighter gray for primary on dark */
