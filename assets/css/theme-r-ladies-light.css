@@ -42,6 +42,6 @@
   
     --BOX-CAPTION-color: #f8f8f8; /* White text for box captions */
     --BOX-BG-color: #f8f8f8; /* Semi-transparent R-Ladies Purple for box background */
-    --BOX-TEXT-color: #f8f8f8; /* White text for box content on purple backgrounds */
+    --BOX-TEXT-color:  rgba(0, 0, 0, 0.87); /* White text for box content on purple backgrounds */
 
   }
