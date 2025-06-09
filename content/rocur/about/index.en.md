@@ -62,7 +62,7 @@ Please note:
 
 ## Curator Nomination
 
-Do you know an R-Lady who you think would be a great curator? We accept nominations for curators via our [nomination form](https://rladies.org/form/rocur-nomination/).
+Do you know an R-Lady who you think would be a great curator? We accept nominations for curators via our [nomination form](https://airtable.com/appFIBzsk2AxWlGMt/pagfezjuCxohikOOa/form).
 
 Anyone is welcome to nominate curators - you do not need to be affiliated with R-Ladies to nominate an individual to curate for \@weare.rladies.org. Multiple nominations from a single nominator is also permitted. RoCur administrators will review nominations and invite nominees to curate.
 
@@ -72,4 +72,4 @@ Individuals may sign up for repeat curation if it has been at least two years si
 
 ## Contact Us
 
-This RoCur is managed by R-Ladies Global members. You can email us at [WeAre\@rladies.org](mailto:WeAre@rladies.org) or at the **#rocur** channel on the [R-Ladies Community Slack](https://rladies.org/form/community-slack/).
+This RoCur is managed by R-Ladies Global members. You can email us at [WeAre\@rladies.org](mailto:WeAre@rladies.org) or at the **#rocur** channel on the [R-Ladies Community Slack](https://airtable.com/appJZFYABfCIdPYMR/pagw7FJB5tm2UQ55o/form).
