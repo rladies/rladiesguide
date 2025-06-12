@@ -1,6 +1,6 @@
 ---
 title: "Add a new mentoring entry"
-menuTitle: "Mentoring"
+menuTitle: "Add mentoring entry"
 weight: 5
 ---
 
