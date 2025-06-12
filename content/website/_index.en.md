@@ -1,5 +1,5 @@
 ---
-title: WeAreRLadies, The R-Ladies RoCur
+title: R-Ladies Website
 weight: 95
 chapter: true
 slides: true
