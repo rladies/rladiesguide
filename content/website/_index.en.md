@@ -7,4 +7,4 @@ menuTitle: WeAreRLadies
 ---
 
   
-The **[R-Ladies RoCur (Rotating Curation)](https://bsky.app/profile/weare.rladies.org)** is a social media handle that features an awesome R-Lady each week. This account is run by R-Ladies Global.      
+Guidance on how to maintain our [global website](https://rladies.org).
