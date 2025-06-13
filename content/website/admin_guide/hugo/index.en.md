@@ -1,7 +1,6 @@
 ---
 title: Hugo setup
 weight: 1
-chapter: true
 menuTitle: Hugo setup
 ---
 

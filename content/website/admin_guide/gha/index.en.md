@@ -1,7 +1,6 @@
 ---
 title: GitHub Actions
 weight: 3
-chapter: true
 menuTitle: GitHub Actions
 ---
 

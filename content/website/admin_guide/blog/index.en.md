@@ -1,7 +1,6 @@
 ---
 title: Blog Administration
 weight: 10
-chapter: true
 menuTitle: Blog Administration
 ---
 
