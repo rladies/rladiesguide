@@ -1,6 +1,7 @@
 ---
 title: "R-Ladies Directory"
-linkTitle: "Directory"
+menuTitle: "Directory"
+weight: 110
 ---
 
 R-Ladies Global manages a global directory of R-Ladies.
@@ -11,7 +12,6 @@ Work (which entries need editing, etc.) is managed via a private spreadsheet.
 ## Some instructions for directory volunteers
 
 ### Login
-
 https://rladies.org/wp-login.php
 
 ### How to add a new country
@@ -22,7 +22,6 @@ https://rladies.org/wp-login.php
 4. Add new R lady and check that she shows up on the R Ladies Global map
 
 ### Request about new chapters
-
 To start a new chapter, contact:
 chapters@rladies.org
 
@@ -35,11 +34,11 @@ When updating an existing R-Ladies member directory profile, we usually edit the
 - write out countries but not states, leave states as initial (e.g. NY)
 - All degrees go in suffix without comma NOT prefix (so Dr. —-> PhD); the format is ", [degree]" where [degree] can be "BA", "BS", "MA", "MS" (note not "MSc"), "PhD", "MD"
 - The order and style for "Biographical Info" is:
-  R-Groups: [including R-Ladies chapters]
-  R-Packages:
-  Interests:
-  Contact method:
-  [other comments]
+R-Groups: [including R-Ladies chapters]
+R-Packages:
+Interests:
+Contact method:
+[other comments]
 
 ## Email templates
 
@@ -68,9 +67,9 @@ R-Ladies Global Communications Team
 ```
 Dear XXXX,
 
-Thanks so much for adding your name to the R-Ladies Global directory!
-If you're interested and are not already a member, please feel free to join our R-Ladies Global Community Slack.
-You can sign up using the [Community sign-up form](https://rladies.org/form/community-slack/).
+Thanks so much for adding your name to the R-Ladies Global directory! 
+If you're interested and are not already a member, please feel free to join our R-Ladies Global Community Slack. 
+You can sign up using the [Community sign-up form](https://rladies.org/form/community-slack/). 
 It's a fun and welcoming space to meet other members of R-Ladies Global, talk about how awesome R is, and ask R questions.
 
 All the best,
