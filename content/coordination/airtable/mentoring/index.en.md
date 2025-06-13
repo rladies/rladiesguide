@@ -7,13 +7,14 @@ weight: 5
 This document details the structure and functionality of the "mentoring" Airtable base, used to manage the R-Ladies mentoring program.
 It involves two tables, populated by two forms, and includes Slack notifications for new submissions.
 
-```mermaid
+{{<mermaid  align="left">}}
 graph TD
-    A[Interest Form submission] --> B[Interest Table]
-    B --> E[Slack Notification Interest]
-    D[Feedback Form submission] --> C[Feedback Table]
-    C --> F[Slack Notification Feedback]
-```
+A[Interest Form submission] --> B[Interest Table]
+B --> E[Slack Notification Interest]
+D[Feedback Form submission] --> C[Feedback Table]
+C --> F[Slack Notification Feedback]
+
+{{< /mermaid >}}
 
 ## Data (Tables and Views)
 
