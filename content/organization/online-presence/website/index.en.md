@@ -1,7 +1,7 @@
 ---
 title: "Websites for Chapters"
-menuTitle: "Chapter Website"
-weight: 79
+linkTitle: "Chapter Website"
+weight: 2
 ---
 
 ## A website for your chapter
@@ -12,13 +12,13 @@ You are free to create a website for your chapter, you could ask other organizer
 
 Here are some examples of chapter websites for inspiration
 
-* [R-Ladies NYC](http://www.rladiesnyc.org/)
+- [R-Ladies NYC](http://www.rladiesnyc.org/)
 
-* [R-Ladies Philly](https://www.rladiesphilly.org/)
+- [R-Ladies Philly](https://www.rladiesphilly.org/)
 
-* [R-Ladies Sydney](https://rladiessydney.org/)
+- [R-Ladies Sydney](https://rladiessydney.org/)
 
-* [R-Ladies Belo Horizonte](https://rladiesbh.com.br/)
+- [R-Ladies Belo Horizonte](https://rladiesbh.com.br/)
 
 Note that a GitHub repository could complement your website, cf [R-Ladies Seattle example](https://github.com/rladies-seattle/rladies-seattle-organizing).
 

@@ -1,6 +1,6 @@
 ---
 title: Guide for chapter organizers
-menuTitle: Organizers
+linkTitle: For Organizers
 weight: 2
 chapter: true
 ---

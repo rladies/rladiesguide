@@ -1,6 +1,6 @@
 ---
 title: "R-Ladies chapter mentoring program guidelines"
-menuTitle: "Chapter mentoring"
+linkTitle: "Chapter mentoring"
 weight: 55
 ---
 

@@ -3,7 +3,7 @@ title: Wider Community
 weight: 10
 chapter: true
 slides: true
-menuTitle: Wider Community
+linkTitle: For Our Community
 ---
 
 Even more R-Ladies initiatives.
