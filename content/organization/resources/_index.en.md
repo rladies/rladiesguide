@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-menuTitle: "Resources"
+linkTitle: "Resources"
 weight: 6
 ---
 

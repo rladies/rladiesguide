@@ -1,6 +1,6 @@
 ---
 title: "Monitoring chapter activity"
-menuTitle: "Chapter monitoring"
+linkTitle: "Chapter monitoring"
 weight: 45
 ---
 
@@ -16,30 +16,30 @@ inactivity.
 Chapters can be divided into 3 categories, according to the frequency of
 their events:
 
--   Unbegun (created in the past 6 months, no events yet)
+- Unbegun (created in the past 6 months, no events yet)
 
--   Active (have run an event in the past 6 months or have an upcoming
-    event in the near future)
+- Active (have run an event in the past 6 months or have an upcoming
+  event in the near future)
 
--   Inactive (no events in the past 6 months, no upcoming events)
+- Inactive (no events in the past 6 months, no upcoming events)
 
 ### What to do
 
 1.  Collate the list of inactive chapters and update the
     [InactiveChapters](https://docs.google.com/spreadsheets/d/1eLbqzqmBcrOIrhoWadl9uiKdcSJ1W-vWPMaXbMV8TuQ/)[^spreadsheet1]
-    spreadsheet. 
+    spreadsheet.
 
 2.  Contact INACTIVE chapters to check whether they need help. Use
     \<chapter\>\@rladies.org. Please, always send emails from your
     rladies email address. If you wish, you can use the email
     [template A](#email-template-a).
 
-    c.  If organisers want to join the [mentoring program](/coordination/mentoring/) point them to
-        the form to join the programme
-        (https://rladies.org/form/mentoring-signup/) and inform the Mentoring Team.
+    c. If organisers want to join the [mentoring program](/coordination/mentoring/) point them to
+    the form to join the programme
+    (https://rladies.org/form/mentoring-signup/) and inform the Mentoring Team.
 
-    d.  If you find it difficult to deal with a particular request for
-        help, the case can be discussed on the Global Team channel. 
+    d. If you find it difficult to deal with a particular request for
+    help, the case can be discussed on the Global Team channel.
 
 3.  If no answer is received within 2 weeks contact organisers on slack
     (you can use [template A](#email-template-a)).\
@@ -59,17 +59,17 @@ their events:
 
 6.  Retire chapters:
 
-    e.  Delete page on meetup.com (this is done by the Meetup Team)
+    e. Delete page on meetup.com (this is done by the Meetup Team)
 
-    f.  Send a Pull Request to change the
-        status of the chapter to retire in the relevant file
-        [on the chapters' data folder](https://github.com/rladies/rladies.github.io/tree/main/data/chapters)
+    f. Send a Pull Request to change the
+    status of the chapter to retire in the relevant file
+    [on the chapters' data folder](https://github.com/rladies/rladies.github.io/tree/main/data/chapters)
 
-    g.  Coordinate with the volunteer(s) responsible for the email accounts to: i.  delete rladies emails used by the chapter (organisers and
-            chapter); ii. suspend social media accounts
+    g. Coordinate with the volunteer(s) responsible for the email accounts to: i. delete rladies emails used by the chapter (organisers and
+    chapter); ii. suspend social media accounts
 
-    h.  Coordinate with the volunteer(s) responsible for the GitHub organization to delete team
-        on GitHub
+    h. Coordinate with the volunteer(s) responsible for the GitHub organization to delete team
+    on GitHub
 
 ### Email template A
 
@@ -118,7 +118,6 @@ Best wishes,
 > Second notification via email (and possibly slack)
 
 ```markdown
-
 SUBJECT: IMPORTANT, your chapter is scheduled to be retired!
 
 BODY OF THE MESSAGE:
@@ -130,7 +129,7 @@ Hope you are well!
 We noticed that your R-Ladies chapter has been inactive for a long
 time.
 
-We contacted you on \<chapter\_name\>\@rladies.org and on slack in the
+We contacted you on \<chapter_name\>\@rladies.org and on slack in the
 last few weeks to see whether we could do anything to help. As we
 received no answer, we assume you are no longer involved in running the
 chapter and the meetup subscription can be terminated.
@@ -183,7 +182,7 @@ if you are not already.
 Best wishes,
 ```
 
-###  Email template D
+### Email template D
 
 > if a former organiser wishes to re-activate a retired chapter
 
@@ -232,17 +231,17 @@ follow:
     work in the future. When you are ready to run your next event,
     please follow the steps below:
 
-    a.  Book the [date and time of your next event](/organization/events/online/)
+    a. Book the [date and time of your next event](/organization/events/online/)
 
-    b.  Send an email to
-        chapters@rladies.org
-        explaining your plan to reactivate the chapter and keep it
-        active in the near future. Include date/time and format
-        (in-person Vs remote event) of your next event. If you decide
-        to run a remote event, you can use our Zoom pro account.
-    c.  There is no need to use the platform meetup.com, please let us
-        know what platforms you plan to use to advertise and
-        communicate with the members of your chapter in the future.
+    b. Send an email to
+    chapters@rladies.org
+    explaining your plan to reactivate the chapter and keep it
+    active in the near future. Include date/time and format
+    (in-person Vs remote event) of your next event. If you decide
+    to run a remote event, you can use our Zoom pro account.
+    c. There is no need to use the platform meetup.com, please let us
+    know what platforms you plan to use to advertise and
+    communicate with the members of your chapter in the future.
 
 Should you have any further questions, please do not hesitate to
 contact us.
