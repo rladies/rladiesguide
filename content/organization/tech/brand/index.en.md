@@ -1,6 +1,6 @@
 ---
 title: "Branding"
-weight: 100
+weight: 4
 ---
 
 ## Branding for your chapter
@@ -24,6 +24,6 @@ Now that you know what our official colors are, you might want to use them on sl
 
 You can of course create your own template and share it, but feel free to re-use existing ones
 
-* [PowerPoint and Google Slides](https://github.com/rladies/starter-kit/tree/master/templates)
+- [PowerPoint and Google Slides](https://github.com/rladies/starter-kit/tree/master/templates)
 
-* [xaringan (R Markdown!)](https://github.com/rladies/resources/blob/master/xaringan-slides/how_to_use.md)
+- [xaringan (R Markdown!)](https://github.com/rladies/resources/blob/master/xaringan-slides/how_to_use.md)

@@ -4,13 +4,16 @@ menuTitle: "Global Volunteering"
 weight: 6
 ---
 
-This document details the structure and functionality of the "Global Team Volunteering" Airtable base, used to manage applications from prospective new team members. It involves four tables, with application submissions managed through a form and their review tracked internally. The base also features an interface displaying team vacancies.
+This document details the structure and functionality of the "Global Team Volunteering" Airtable base, used to manage applications from prospective new team members.
+It involves four tables, with application submissions managed through a form and their review tracked internally.
+The base also features an interface displaying team vacancies.
 
-```mermaid
+{{<mermaid  align="left">}}
+
 graph TD
-    A[Global Team Overview] --> |synced| B[Leadership Table]
-    A --> |synced| E[Vacancies Table]
-    D[Applications Table] o-- linked --o C[Review Table]
+A[Global Team Overview] --> |synced| B[Leadership Table]
+A --> |synced| E[Vacancies Table]
+D[Applications Table] --> |linked| C[Review Table]
 
     H[Form] --> |submit| D
     E --> H
@@ -20,7 +23,8 @@ graph TD
     D --> I[Slack Notification]
     I --> J[Email Notification]
     J --> |Create Review Record| C
-```
+
+{{< /mermaid >}}
 
 ## Data (Tables and Views)
 

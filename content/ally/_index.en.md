@@ -3,7 +3,7 @@ title: Allies role
 weight: 100
 chapter: true
 slides: true
-menuTitle: Allies
+linkTitle: For Allies
 ---
 
 ## How can you help R-Ladies as an ally?
@@ -20,18 +20,18 @@ You can also advocate by promoting our [directory](http://rladies.org/directory/
 
 Please also check out these other organizations
 
-* [MiR Community serves to bring together underrepresented minorities](https://docs.google.com/forms/d/1x3eFj0syKeFkEQVg1XNSDOFlbOCkIDseKxKeC8or1-U/viewform?edit_requested=true)
+- [MiR Community serves to bring together underrepresented minorities](https://docs.google.com/forms/d/1x3eFj0syKeFkEQVg1XNSDOFlbOCkIDseKxKeC8or1-U/viewform?edit_requested=true)
 
-* [R Foundation taskforce on women and other under-represented groups](https://forwards.github.io/)
+- [R Foundation taskforce on women and other under-represented groups](https://forwards.github.io/)
 
 ## Donating to R-Ladies
 
-* See the Paypal button on our [website](https://rladies.org/).
+- See the Paypal button on our [website](https://rladies.org/).
 
-* For larger amounts, we would recommend sending an email to `finance@rladies.org` and we can provide you the routing/account number for a direct wire transfer, or if you are in the US and prefer to send a check, we can provide you our non-profit HQ address in Oakland, California.
+- For larger amounts, we would recommend sending an email to `finance@rladies.org` and we can provide you the routing/account number for a direct wire transfer, or if you are in the US and prefer to send a check, we can provide you our non-profit HQ address in Oakland, California.
 
 ## How can you help R-Lady as an ally organization?
 
 If you wish to partner with the R-Ladies global organization besides donating, please make sure to read our [mission](/about/mission) (and [code of conduct](/about/coc/) ) in particular regarding not commercial agendas, and get in touch with the global leadership via an email to `leadership@rladies.org`.
 
-Do *not* use R-Ladies name to potentially help secure funding (promising benefits to R-Ladies) without getting in touch with the R-Ladies global team first (`info@rladies.org`) so we can provide input and potential approval. We need a chance to assess the alignment of your project with our mission.
+Do _not_ use R-Ladies name to potentially help secure funding (promising benefits to R-Ladies) without getting in touch with the R-Ladies global team first (`info@rladies.org`) so we can provide input and potential approval. We need a chance to assess the alignment of your project with our mission.

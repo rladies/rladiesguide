@@ -1,0 +1,51 @@
+#R-sidebar ul.collapsible-menu > li > :is(a, span) {
+  padding-left: calc(1.3rem - var(--bpx1) * 1px);
+}
+
+:root {
+    /* r-ladies-light - R-Ladies Branding */
+    --PRIMARY-color: #88398a; /* R-Ladies Purple */
+    --SECONDARY-color:rgb(117, 117, 117); /* R-Ladies Gray */
+    --ACCENT-color:rgb(64, 95, 146); 
+  
+    --MAIN-TEXT-color: rgba(0, 0, 0, 0.87); /* Slightly lighter black for better readability on light backgrounds */
+    --MAIN-LINK-HOVER-color: #662968; /* Darker shade of purple for link hover */
+    --MAIN-BG-color: #f8f8f8; /* White background for content */
+    --MAIN-TITLES-TEXT-color: rgba(0, 0, 0, 0.87); /* Same as main text for consistency */
+  
+    --CODE-theme: relearn-light; /* A light code theme that works well with purple/gray */
+    --CODE-BLOCK-color: #24292e; /* Dark gray text for code blocks */
+    --CODE-BLOCK-BG-color: #f6f8fa; /* Light gray background for code blocks */
+    --CODE-BLOCK-BORDER-color: #dcdcdc; /* Light gray border for code blocks */
+    --CODE-INLINE-color: #24292e; /* Dark gray text for inline code */
+    --CODE-INLINE-BG-color: #f1f8e9; /* Very light green/gray for inline code background */
+    --CODE-INLINE-BORDER-color: #dcedc8; /* Light green/gray border for inline code */
+  
+    --BROWSER-theme: light;
+    --MERMAID-theme: default;
+    --OPENAPI-theme: light;
+    --OPENAPI-CODE-theme: idea;
+  
+    --MENU-HEADER-BG-color: #f8f8f8;
+
+    --MENU-HEADER-color: #333; /* Dark gray for menu header */
+  
+    --MENU-SEARCH-color: rgba(0, 0, 0, 0.6); /* Dark gray for search text and icon */
+    --MENU-SEARCH-BG-color: #f0f0f0; /* Light gray for search background */
+    --MENU-SEARCH-BORDER-color: #d0d0d0; /* Light gray for search border */
+  
+    --MENU-HOME-LINK-color: #555; /* Medium gray for home link */
+    --MENU-HOME-LINK-HOVER-color: #000; /* Black for hovered home link */
+  
+    --MENU-SECTIONS-BG-color: #88398a; /* Very light gray for menu background */
+    --MENU-SECTIONS-ACTIVE-BG-color: rgba(136, 57, 138, 0.1); /* Light purple for active menu section */
+    --MENU-SECTIONS-LINK-color: #f8f8f8; /* Dark gray for menu links */
+    --MENU-SECTIONS-LINK-HOVER-color:rgb(235, 187, 236); /* R-Ladies Purple for hovered menu links */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #666; /* Medium gray for active category text */
+    --MENU-SECTION-SEPARATOR-color: #88398a; /* Light gray for menu separator */
+  
+    --BOX-CAPTION-color: #f8f8f8; /* White text for box captions */
+    --BOX-BG-color: #f8f8f8; /* Semi-transparent R-Ladies Purple for box background */
+    --BOX-TEXT-color:  rgba(0, 0, 0, 0.87); /* White text for box content on purple backgrounds */
+
+  }
