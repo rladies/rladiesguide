@@ -30,7 +30,7 @@ jobs:
           tinytex: true
 
       - name: Install packages
-        run: Rscript -e "install.packages(c('here', 'jsonlite'))"
+        run: Rscript -e "install.packages(c('here', 'jsonlite'), repos = 'https://cloud.r-project.org/')"
 
       - name: Render acknowledgements
         run: quarto content/acknowledgements/_index.en.qmd --to hugo
