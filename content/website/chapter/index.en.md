@@ -1,7 +1,7 @@
 ---
 title: "Adding a chapter"
 menuTitle: "Add chapter"
-weight: 2
+weight: 3
 ---
 
 ## Create a new file

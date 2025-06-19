@@ -1,7 +1,7 @@
 ---
 title: "Adding a mention of R-Ladies in the Press"
 menuTitle: "Add press entry"
-weight: 3
+weight: 5
 ---
 
 Adding new press entries means adding a new markdown entry in `content/activities/press`.

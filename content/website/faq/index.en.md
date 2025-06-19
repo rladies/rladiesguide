@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions"
 menuTitle: "FAQ"
-weight: 88
+weight: 99
 ---
 
 ## Why are you not using an R-package for the website?

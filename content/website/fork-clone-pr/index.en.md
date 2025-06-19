@@ -1,7 +1,7 @@
 ---
 title: "Working with the website"
 menuTitle: "Working with the website"
-weight: 99
+weight: 88
 ---
 
 This guide will walk you through the process of contributing to a Hugo website using Git, tailored for those familiar with R.
