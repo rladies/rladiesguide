@@ -1,12 +1,12 @@
 ---
 title: "FAQ"
-menuTitle: "FAQ"
-weight: 55
+linkTitle: "FAQ"
+weight: 3
 ---
 
 Please read our [Curator Guide](/rocur/guide) for specific information on your role as a curator.
 
-*The following instructions are for navigating through 🦋 Bluesky as RoCur is currently running on there.*
+_The following instructions are for navigating through 🦋 Bluesky as RoCur is currently running on there._
 
 ## Frequently Asked Questions
 

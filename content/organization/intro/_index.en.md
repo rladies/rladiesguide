@@ -1,5 +1,5 @@
 ---
 title: "Intro"
-menuTitle: "Intro"
+linkTitle: "Intro"
 weight: 2
 ---

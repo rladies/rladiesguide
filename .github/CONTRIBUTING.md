@@ -2,4 +2,4 @@
 
 Please refer to the README.
 
-Note that names of contributors should be added to content/acknowledgements.en.md
+Note that names of contributors should be added to `.zenodo.json`

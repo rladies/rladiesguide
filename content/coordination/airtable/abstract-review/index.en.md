@@ -6,23 +6,25 @@ weight: 8
 
 This document details the updated structure and functionality of the "abstract review" Airtable base, used to manage requests for abstract reviews and the team of volunteers who provide the reviews. It now utilizes a central "tasks" table to manage the review workload, linking abstracts and volunteers. The base involves two tables, each populated by a dedicated form, and includes updated automations.
 
-```mermaid
+{{< mermaid  align="left">}}
 graph TD
-    A[volunteer table]
-    C[abstracts Table]
-    D[tasks Table]
+A[volunteer table]
+C[abstracts Table]
+D[tasks Table]
 
     E[Join the R-Ladies Abstract Review Team Form] --> |populates| C
 
-    C <-- links to --> D
-    A <-- links to --> D
+    C --> |links to| D
+    A --> |links to| D
 
     G[Volunteer Form] --> H[Volunteer Notify Slack]
     G --> A
     J[Check Stale Requests]
 
-    E --> |notify| K[Slack] --> L[Email]
-```
+    E --> |notify| K[Slack]
+    K --> L[Email]
+
+{{< /mermaid >}}
 
 ## Data (Tables and Views)
 
