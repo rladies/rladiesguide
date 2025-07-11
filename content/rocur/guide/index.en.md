@@ -18,10 +18,12 @@ _Prior to your curation_:
   schedule](https://airtable.com/appZpj9RYelJ9dbKS/shriGUNeVRW92458K/tblP0NksI30Axy7JJ)
   will be updated accordingly to include your upcoming curation.
 
-- 1 week before your curation, RoCur admins will send you more info on
-  curating and ask you to review the [Curating Agreement] as well as
-  approve a graphic that will be used to promote your account
-  takeover.
+-   1 week before your curation, RoCur admins will send you more info on
+    curating and ask you to review the [Curating Agreement] as well as
+    approve a graphic that will be used to promote your account
+    takeover. They will also offer you the option to use
+    [Buffer](https://buffer.com/) during your curation. Buffer is a
+    social media toolkit that lets you schedule content and plan posts.
 
 - The Sunday before your curation, you will receive an app password,
   which will serve as your temporary credential to log into the [We
@@ -66,8 +68,14 @@ of the R-Ladies Community Slack if any questions arise.
 
 1.  [ ] Post from your personal Bluesky account.
 
-2.  [ ] Post an image with alternative text (again, from your personal
-        Bluesky account).
+2.  [ ] If you have expressed interest in using Buffer to create and
+    schedule your posts, start by logging into the platform and getting
+    familiar with its interface. You can also review [this helpful
+    guide](https://support.buffer.com/article/855-using-bluesky-with-buffer)
+    on connecting Buffer with Bluesky.
+
+3.  [ ] Post an image with alternative text (again, from your personal
+    Bluesky account).
 
     - _See [FAQ](https://guide.rladies.org/rocur/faq/) for more
       details._
@@ -77,12 +85,12 @@ of the R-Ladies Community Slack if any questions arise.
       or [this Medium
       post](https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81)
       on writing Alt Text for data visualization.
+      
+4.  [ ] Read at least one artifact from previous curators. See [Work
+    From Previous Curators] *for a list.*
 
-3.  [ ] Read at least one artifact from previous curators. See [Work
-        From Previous Curators] _for a list._
-
-4.  [ ] Create a list of topics you hope to post about during your
-        curation.
+5.  [ ] Create a list of topics you hope to post about during your
+    curation.
 
     - Most curators agree that doing some brainstorming before your
       curation week can be incredibly helpful!
@@ -322,43 +330,32 @@ posts and given talks reflecting on their curating experience.
 
 ### On curating for @WeAreRLadies
 
-- [Curating R-Ladies @weare.rladies.org Bluesky account](https://medium.com/@simisani.ndaba013/curating-r-ladies-weare-rladies-org-bluesky-account-655b04f49c21): blog post by Simisani Ndaba, Feb 26, 2025
+-   [Curating R-Ladies \@weare.rladies.org Bluesky account](https://medium.com/@simisani.ndaba013/curating-r-ladies-weare-rladies-org-bluesky-account-655b04f49c21):
+    blog post by Simisani Ndaba, Feb 26, 2025
 
-- [Curating for \@WeAreRLadies on Twitter: From creating content to
-  cultivating
-  connections](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/):
-  blog post by Shannon Pileggi, Sep 23, 2021
+-   [Curating R-Ladies' Twitter Account - A Fun Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/):
+    blog post by Cosima Meyer, Sep 18, 2022
 
-- [Be great and curate! Tips and outcomes from an \@WeAreRLadies
-  Twitter
-  curator](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/):
-  poster presentation by Shannon Pileggi, Oct 7, 2021
+-   [Curating for \@WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/):
+    blog post by Nicola Rennie, Jan 18, 2022
 
-- [Curating for
-  \@WeAreRLadies](https://nrennie.rbind.io/blog/2022-01-18-curating-for-wearerladies/):
-  blog post by Nicola Rennie, Jan 18, 2022
+-   [Be great and curate! Tips and outcomes from an \@WeAreRLadies Twitter curator](https://www.pipinghotdata.com/talks/2021-10-07-be-great-and-curate/): 
+    poster presentation by Shannon Pileggi, Oct 7, 2021
 
-- [Curating R-Ladies' Twitter Account - A Fun
-  Ride!](https://cosimameyer.com/post/curating-r-ladies-twitter-account-a-fun-ride/):
-  blog post by Cosima Meyer, Sep 18, 2022
+-   [Curating for \@WeAreRLadies on Twitter: From creating content to cultivating connections](https://www.pipinghotdata.com/posts/2021-09-23-curating-for-wearerladies-on-twitter/):
+    blog post by Shannon Pileggi, Sep 23, 2021
 
 ### Looking at data from @WeAreRLadies
 
-- Katherine Simeon's [lightning
-  talk](https://www.youtube.com/watch?v=nzmkYUr0wS0) at
+- Katherine Simeon's [lightning talk](https://www.youtube.com/watch?v=nzmkYUr0wS0) at
   rstudio::conf(2020) - Jan 30, 2020
 
 - Megan Stodel's blog post series looking at @WeAreRLadies data:
 
-  - [Analyzing Twitter
-    Data](https://www.meganstodel.com/posts/analysing-twitter-data/) -
-    Oct 24, 2020
-  - [Tweet
-    Timing](https://www.meganstodel.com/posts/tweet-timing/) - Nov
-    2, 2020
-  - [Hashtag Analyses](https://www.meganstodel.com/posts/hashtag/) -
-    Nov 15, 2020
-
+    -   [Hashtag Analyses](https://www.meganstodel.com/posts/hashtag/) - Nov 15, 2020
+    -   [Tweet Timing](https://www.meganstodel.com/posts/tweet-timing/) - Nov 2, 2020
+    -   [Analyzing Twitter Data](https://www.meganstodel.com/posts/analysing-twitter-data/) - Oct 24, 2020
+        
 _If you have written any blog posts, given any talks, or analyzed any
 data in relation to R-Ladies RoCur, please add your links via pull
 request!_

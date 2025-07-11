@@ -50,6 +50,8 @@ _The following emojis will be used throughout this documentation to indicate whe
 
 - 🦋: Bluesky
 
+-   🅱️: Buffer(optional)
+
 ### When someone signs up to curate
 
 1.  📊Add them to the [curator schedule](https://rladies.org/form/rocur-schedule/) as soon as possible, so other potential curators are aware the week is unavailable.
@@ -58,7 +60,7 @@ _The following emojis will be used throughout this documentation to indicate whe
 
     - Save the file as **YYYY-MM-DD-firstname**, using the first day of the scheduled curation week as the date.
 
-3.  📊Update the admin checklist to indicate that their photo has been saved.
+3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that their photo has been saved.
 
 4.  ✉️Email the curator confirming their curation week. If the curator did not attach a photo to their Airtable form, you can also ask them to email to you. You can use the following template:
 
@@ -120,9 +122,10 @@ _The following emojis will be used throughout this documentation to indicate whe
 >
 > _Here's what we ask from you prior to your curation:_
 >
-> 1.  _We have attached the graphic that we'll post this Sunday to introduce you to our followers. Please let us know if you'd like us to make any changes no later than **this Wednesday**._
-> 2.  _Please read through our [guide for curators](https://guide.rladies.org/rocur/guide/)._
-> 3.  _If you haven't already, please add yourself to the [R-Ladies directory](https://rladies.org/directory/)._
+> 1.  *We have attached the graphic that we'll post this Sunday to introduce you to our followers. Please let us know if you'd like us to make any changes no later than **this Wednesday**.*
+> 2.  *If you'd like to use [Buffer](https://buffer.com/) to help create and schedule your posts during your curation, please let us know no later than **this Wednesday.** We'll send you an invitation to join the We Are R-Ladies Buffer account and give you posting access during your curation. This is completely optional.*
+> 3.  *Please read through our [guide for curators](https://guide.rladies.org/rocur/guide/).*
+> 4.  *If you haven't already, please add yourself to the [R-Ladies directory](https://rladies.org/directory/).*
 >
 > _We'll contact you later this week with more details on accessing our Bluesky account. In the meantime, let us know if you have any questions about curating!_
 >
@@ -136,17 +139,44 @@ _The following emojis will be used throughout this documentation to indicate whe
 
 5.  📊After the curator approves their graphic, update the admin checklist in the RoCur Curator Sign Up Airtable to reflect this.
 
+6.  🅱️If a curator requests access to Buffer, follow these steps to invite them (adapted from [this Buffer Help Center post](https://support.buffer.com/article/670-adding-users-and-setting-up-permissions-in-your-organization)):
+
+    1.  Click your profile icon in the top right to confirm you are in the **R-Ladies** organization.
+
+    2.  Click the **+ New** button in the top navigation bar and select **Invite a Team Member**.
+
+    3.  Click **Invite a New User** and enter the curator's name and email address.
+
+    4.  Toggle Admin Access to **No**.
+
+    5.  Click **Invite User**.
+
+    6.  Assign the user to the **Bluesky** channel. Under Access Level, select **Approval Required**. This will allow the user to draft posts prior to their curation week without being able to publish directly.
+
+    7.  Click **Save 1 Change**.
+
+7.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate whether the curator declined Buffer access or that the invite was sent and default permissions were configured.
+
 ### Sunday before they are scheduled to curate
 
-1.  🦋Remove the previous curator's app password.
+1.  🅱️If the curator requested access to Buffer, update their access level:
 
+    1.  Click your profile icon and select **Team**.
+
+    2.  Use the search bar to find the curator, then click on their name.
+
+    3.  Under the **Bluesky** channel, change their Access Level from **Approval Required** to **Full Posting Access**.
+
+2.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the Buffer permissions were changed, if appropriate.
+
+3.  🦋Remove the previous curator's app password.
     1.  Go to the **Settings** page.
     2.  Select **Privacy and security**.
     3.  Select **App passwords.**
     4.  Click on the **red trash icon** next to the app password you wish to remove.
     5.  Check that the app password no longer appears in the list.
 
-2.  🦋Generate a new app password for the upcoming curator.
+4.  🦋Generate a new app password for the upcoming curator.
 
     1.  Go to the **Settings** page.
 
@@ -180,14 +210,14 @@ _The following emojis will be used throughout this documentation to indicate whe
 >
 > _Rotating Curation (RoCur) admins_
 
-3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 3 (provision of app password) has been sent out.
-4.  🦋Post their introduction graphic on Bluesky with the following message and Alt Text. You should be able to pull this information from their Airtable form submission. Ideally, this should go out **before [6:00 PM UTC](https://www.timebie.com/std/universal.php?q=18)**.
+5.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 3 (provision of app password) has been sent out.
+6.  🦋Post their introduction graphic on Bluesky with the following message and Alt Text. You should be able to pull this information from their Airtable form submission. Ideally, this should go out **before [6:00 PM UTC](https://www.timebie.com/std/universal.php?q=18)**.
 
 > _This week's #RLadies curator is [their Bluesky handle]._
 >
 > Alt text: Curator [name], [role/title] at [organization]. They say, "[what they do in R]".
 
-5.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that their introduction has been posted on Bluesky.
+7.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that their introduction has been posted on Bluesky.
 
 ### Immediately prior to curation
 
@@ -197,11 +227,18 @@ _The following emojis will be used throughout this documentation to indicate whe
 
 ### After they curate
 
-1.  🦋Replace the curator's profile photo with the We Are R-Ladies logo. The image is saved in the [root of the Google Drive](https://drive.google.com/file/d/1x_AaAM_3qYvCqE4yhC6fNcLvlcGjRqdC/view?usp=drive_link).
-2.  🦋Change the last line of the bio of the Bluesky account to _"This week's curator: TBA"_.
-3.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the account has been reverted to its default state.
-4.  Add the curator to the We Are R-Ladies starter pack.
-5.  ✉️Send a thank you email to the curator. You can use the sample below:
+1.  🅱️If the curator used Buffer, remove them from the organization:
+    1.  Click your profile icon and select **Team**.
+    2.  Use the search bar to find the curator, then click on their name.
+    3.  Click **Edit User**.
+    4.  Click **Remove**.
+    5.  A pop-up window will appear; follow the prompts to confirm and complete the removal.
+2.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the user has been removed from Buffer, if appropriate.
+3.  🦋Replace the curator's profile photo with the We Are R-Ladies logo. The image is saved in the [root of the Google Drive](https://drive.google.com/file/d/1x_AaAM_3qYvCqE4yhC6fNcLvlcGjRqdC/view?usp=drive_link).
+4.  🦋Change the last line of the bio of the Bluesky account to *"This week's curator: TBA"*.
+5.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that the account has been reverted to its default state.
+6.  Add the curator to the We Are R-Ladies starter pack.
+7.  ✉️Send a thank you email to the curator. You can use the sample below:
 
 > **_Subject: Thank you for contributing to the We Are R-Ladies Bluesky account!_**
 >
@@ -209,7 +246,7 @@ _The following emojis will be used throughout this documentation to indicate whe
 >
 > _Thank you so much for curating the We Are R-Ladies Bluesky account! We truly appreciate your time and effort to engage the broader R community and highlight minority genders and their great work in R._
 >
-> _Now that your curation is finished, please remember to sign out of the We Are R-Ladies Bluesky account._
+> *Now that your curation is finished, please remember to sign out of the We Are R-Ladies Bluesky account.*
 >
 > _Your feedback is important to us and is essential to the continued improvement of the rotating curation program. What went well? What could be improved? What went badly? We welcome direct feedback to this email._
 >
@@ -221,7 +258,7 @@ _The following emojis will be used throughout this documentation to indicate whe
 >
 > _Rotating Curation (RoCur) admins_
 
-6.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
+8.  📊Update the admin checklist in the RoCur Curator Sign Up Airtable to indicate that Email 4 (thank-yous) has been sent out.
 
 ## Other Information on Infrastructure & Procedures
 
