@@ -60,6 +60,7 @@ _By signing on participating in the mentoring program you agree to the following
 
    (a) **The relationship between mentor and mentee does not work**. There could be many causes for this to happen (e.g. breakdown in communication, or lack of engagement from one party). In this case, the mentor and/or mentee should talk to their R-Ladies point of contact. The mentor and/or mentee can decide to (1) quit the program or, in the case of the mentee, (2) ask for a new mentor. We won't explicitly ask you why you think the relationship did not work, but we do encourage you fill out the feedback form.
 
+
    (b) **There was a violation of the [Code of Conduct](https://rladies.org/coc/)**. In this case, please follow our [reporting guidelines](https://rladies.org/coc/#reporting)), and don’t hesitate to reach out to any member of the team. You can also email us at reporting@rladies.org for support or discussion. Relevant measures will be taken for the resolution of the case.
 
 2. **The mentor and mentee should discuss and decide if they would like to speak publicly of their participation in the program.** If confidentiality is desired by either party, their privacy should be respected. R-Ladies will not share any information about program participation without consent from **both** the mentor and the mentee.
