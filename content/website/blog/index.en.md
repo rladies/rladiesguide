@@ -167,4 +167,4 @@ They will ask for you assistance directly if anything else is needed.
 
 ## Clarification
 
-If anything is unclear in these guidelines, please submit [an issue](https://github.com/rladies/blog/issues), so that we can assist you and improve our documentation.
+If anything is unclear in these guidelines, please submit [an issue](https://github.com/rladies/rladiesguide/issues), so that we can assist you and improve our documentation.
