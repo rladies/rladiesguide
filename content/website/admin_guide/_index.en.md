@@ -10,7 +10,7 @@ Tasks can range from re-structuring whole sections of the site, to doing code re
 
 The website repo comes with a project `.Rprofile` that has some settings for the website if you use blogdown to work with locally.
 Do not alter the project `.Rprofile` but supplement it with your own profile if you like.
-The settings in this file makes it possible to work with blogdown (when blogdown starts supporting config-folders).
+The settings in this file makes it possible to work with blogdown.
 It is set up so that creating new posts and pages use the correct settings for the website (like knitting to markdown, rather than html, bundling pages etc).
 
 ## The website team
