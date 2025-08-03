@@ -1,9 +1,9 @@
 ---
-title: R-Ladies Website
+title: Website
 weight: 95
 chapter: true
 slides: true
-menuTitle: WeAreRLadies
+menuTitle: Website
 ---
 
   
