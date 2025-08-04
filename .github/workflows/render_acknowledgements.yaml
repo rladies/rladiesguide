@@ -31,7 +31,7 @@ jobs:
 
       - name: Install packages
         run: |
-          optinons(repos = c(CRAN = "https://cloud.r-project.org/"))
+          options(repos = c(CRAN = "https://cloud.r-project.org/"))
           install.packages("pak")
           pak::pkg_install(c('here', 'jsonlite', 'rmarkdown', 'knitr'))"
         shell: Rscript {0}
