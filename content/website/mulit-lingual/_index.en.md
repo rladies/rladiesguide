@@ -14,10 +14,13 @@ The site currently only supports English, but Spanish, French, and Portuguese tr
 
 The multi-lingual support is set up using the [Hugo multilingual mode](https://gohugo.io/content-management/multilingual/).
 
-Translations are done in two main ways:
+Translations are done in three main spots:
 
 - **Using the `i18n` folder**: This is used for translating static strings in the site, such as menu items, titles, and other UI elements.
 - **Using the `content` folder**: This is used for translating the content of the site, such as pages and posts.
+- **Using the `data` folder**: This is used for translating data that is used in the site.
+    - month names
+    - read-in language string
 
 ## Work in progress
 
