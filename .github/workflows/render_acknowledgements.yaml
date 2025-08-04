@@ -33,11 +33,11 @@ jobs:
           tinytex: true
 
       - name: Install packages
+        shell: Rscript {0}
         run: |
           options(repos = c(CRAN = "https://cloud.r-project.org/"))
           install.packages("pak")
-          pak::pkg_install(c('here', 'jsonlite', 'rmarkdown', 'knitr'))"
-        shell: Rscript {0}
+          pak::pkg_install(c('here', 'jsonlite', 'rmarkdown', 'knitr'))
 
       - name: Render acknowledgements
         run: quarto render content/acknowledgements/_index.en.qmd 
