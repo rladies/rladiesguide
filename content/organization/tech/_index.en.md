@@ -1,5 +1,5 @@
 ---
 title: "Tooling and Accounts"
-menuTitle: "Tooling"
+linkTitle: "Tooling"
 weight: 3
 ---

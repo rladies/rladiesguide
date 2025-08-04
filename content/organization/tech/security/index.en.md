@@ -1,7 +1,7 @@
 ---
 title: "Security"
-menuTitle: "Security"
-weight: 54
+linkTitle: "Security"
+weight: 3
 ---
 
 As organizers you will be responsible for accounts such as email and social media accounts.
@@ -17,7 +17,7 @@ If you feel on the fence, ask other organizers or your friends about their exper
 
 ### Common password manager workflow
 
-Password managers make it safe to store all your passwords in encrypted, safe storage. 
+Password managers make it safe to store all your passwords in encrypted, safe storage.
 You only need to remember the password to unlock your password manager, to get access to all your account passwords.
 
 This means this "master password" needs to be safe, meaning:
@@ -27,22 +27,20 @@ This means this "master password" needs to be safe, meaning:
 - Be hard to guess, but easy for you to remember.
 - Not used in _any other instance_.
 
-
 ### KeePass workflow
 
 [KeePass](https://keepass.info/).
 
-* save all your passwords in a KeePass database.
-* have it backed-up on Dropbox or Google Drive.
-* only learn two passwords: the one to decrypt the KeePass database, the one to your Google Drive account.
+- save all your passwords in a KeePass database.
+- have it backed-up on Dropbox or Google Drive.
+- only learn two passwords: the one to decrypt the KeePass database, the one to your Google Drive account.
 
 ### Bitwarden workflow
 
-Free for single person, or two person 'organisation' (i.e. ability to share certain passwords with a single other person). 
-Download the Desktop client and/or the extension/plugin for your browser of choice. 
-Choose a password you can remember for Bitwarden, and store all your passwords in there. 
+Free for single person, or two person 'organisation' (i.e. ability to share certain passwords with a single other person).
+Download the Desktop client and/or the extension/plugin for your browser of choice.
+Choose a password you can remember for Bitwarden, and store all your passwords in there.
 Also has biometrics integration for those using it.
-
 
 ### 1Password workflow
 
@@ -64,5 +62,5 @@ Note that apps like DuoMobile allow you to sync your account with GoogleDrive wh
 Your chapter will have a bunch of passwords and 2FA recovery codes to share.
 How to do that?
 
-* You might try and apply for [1Password OSS free plan](https://github.com/1Password/1password-teams-open-source).
-* You might use e.g. a dedicated KeePass database for the chapter passwords, and share the database via GoogleDrive, whilst you would all save the password to the KeePass database in your personal password manager.
+- You might try and apply for [1Password OSS free plan](https://github.com/1Password/1password-teams-open-source).
+- You might use e.g. a dedicated KeePass database for the chapter passwords, and share the database via GoogleDrive, whilst you would all save the password to the KeePass database in your personal password manager.

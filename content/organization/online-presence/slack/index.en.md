@@ -1,7 +1,7 @@
 ---
 title: "Slack Workspaces for Chapters"
-menuTitle: "Slack Workspace"
-weight: 78
+linkTitle: "Slack Workspace"
+weight: 3
 ---
 
 The [organizers' slack](/organization/tech/accounts/#slack) is for organizers, the [community slack](/comm/slack/) is for all R-Ladies.

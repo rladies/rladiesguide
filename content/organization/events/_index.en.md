@@ -1,5 +1,5 @@
 ---
 title: "Organizing events"
-menuTitle: "Events"
+linkTitle: "Events"
 weight: 4
 ---

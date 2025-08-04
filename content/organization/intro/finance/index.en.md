@@ -1,7 +1,7 @@
 ---
 title: "Finance"
-menuTitle: "Finance"
-weight: 100
+linkTitle: "Finance"
+weight: 3
 ---
 
 We do not want you to spend your personal money on your local chapter!
@@ -13,7 +13,7 @@ The sponsor might also want to e.g. put a room at your disposal for free.
 
 There is the option of paying from your own pocket and have the sponsor reimburse you but that is riskier.
 
-We are piloting using [Open Collective](https://opencollective.com/) -- the results of the pilot are not in yet. 
+We are piloting using [Open Collective](https://opencollective.com/) -- the results of the pilot are not in yet.
 
 ### How to find sponsors?
 
@@ -21,7 +21,7 @@ You might try to cold email (i.e. reach out to, without knowing them) local IT c
 
 You might try to use your personal contacts such as current or past employers, and those of the members of the meetup who could ask their own employers to provide a room for meetups for instance.
 
-You might also hear of special call for proposals of diversity initiatives where your chapter could apply. 
+You might also hear of special call for proposals of diversity initiatives where your chapter could apply.
 
 In all cases, it can help to tell the members of your chapter to be on the lookout and help you not miss opportunities.
 
@@ -29,8 +29,8 @@ In all cases, it can help to tell the members of your chapter to be on the looko
 
 What are our strenghts?
 
-* our focus on women and gender minorities;
-* events being free.
+- our focus on women and gender minorities;
+- events being free.
 
 You could hand out flyers (for instance see [R-Ladies Cotonou's flyers](https://github.com/sbnadejda/flyers_R-LadiesCtn)), and send (cold) emails.
 See email template below, just given for information as you can write your own! This email template was adapted from an email graciously shared by R-Ladies Philly.
@@ -47,15 +47,15 @@ Best,
 
 Now as regards to the subject of the email, you want it to
 
-* convey what's in the email ("Partner with R-Ladies Philly");
-* not look spammy;
-* possibly explain R-Ladies, maybe using keywords like "feminist", "R", "data science"...
+- convey what's in the email ("Partner with R-Ladies Philly");
+- not look spammy;
+- possibly explain R-Ladies, maybe using keywords like "feminist", "R", "data science"...
 
 ### How to thank sponsors?
 
-* listing them as sponsors in the promotion of activities they supported;
-* a short time slot at the beginning of a meetup to present their company;
-* etc.
+- listing them as sponsors in the promotion of activities they supported;
+- a short time slot at the beginning of a meetup to present their company;
+- etc.
 
 ## R Consortium grants
 
@@ -64,28 +64,27 @@ Refer to [The User Group Program](https://www.r-consortium.org/projects/r-user-g
 R Consortium can offer grants to support the mission of local chapters in facilitating the exchange of knowledge and the formation of enduring R user group communities. These grants are aimed at assisting active user groups in their efforts to foster R-related learning and collaboration within their chapters. This document outlines the step-by-step process for applying for an R Consortium grant through R-Ladies.
 
 **Step 1: Express Interest**
+
 1. Contact [Batool Almarzouq](grants@rladies.org) from the R-Ladies Global Team to express your interest in applying for an R Consortium grant.
    - In your communication, specify the following details:
      - The desired grant amount.
      - The R-Ladies chapter for which you are applying.
      - The name of the organizer(s) in your chapter who will be responsible for managing the grant.
 
-**Step 2: Complete the Online Application**
-3. Once Batool Almarzouq has received and recorded the above information, proceed to the grant application process. Access the grant application form [available on the R Consortium website](https://r-consortium.org/all-projects/rugsprogram.html).
-   - Fill out all required fields accurately and comprehensively.
-   - Ensure that you have prepared a detailed proposal outlining the purpose and scope of your project.
-   - Submit the completed application form through the website.
-   - contact Batool again to confirm submission and report the day you submitted your application at.
+**Step 2: Complete the Online Application** 3. Once Batool Almarzouq has received and recorded the above information, proceed to the grant application process. Access the grant application form [available on the R Consortium website](https://r-consortium.org/all-projects/rugsprogram.html).
 
-**Step 3: Fund Disbursement**
-4. Upon approval of your grant application by R Consortium, you will receive the grant funds. You have the flexibility to transfer the funds to any suitable account for your chapter's use.
+- Fill out all required fields accurately and comprehensively.
+- Ensure that you have prepared a detailed proposal outlining the purpose and scope of your project.
+- Submit the completed application form through the website.
+- contact Batool again to confirm submission and report the day you submitted your application at.
 
+**Step 3: Fund Disbursement** 4. Upon approval of your grant application by R Consortium, you will receive the grant funds. You have the flexibility to transfer the funds to any suitable account for your chapter's use.
 
 **Additional Tips:**
+
 - Ensure that your grant application is well-documented and aligns with the goals and objectives of your R-Ladies chapter.
 - Keep track of all expenses related to the grant and maintain clear records for accountability.
 - If you encounter any challenges during the application or fund management process, don't hesitate to reach out to Batool Almarzouq or other members of the R-Ladies Global Team for assistance.
-
 
 ## Expenses reimbursed by the global organization
 
@@ -123,4 +122,4 @@ If no problems arise, the reimbursement will be issued within few weeks.
 
 ### Any questions?
 
-Should you have any questions, do not hesitate to contact the **finance team** (`finance@rladies.org`). 
+Should you have any questions, do not hesitate to contact the **finance team** (`finance@rladies.org`).
