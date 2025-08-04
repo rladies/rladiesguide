@@ -14,6 +14,8 @@
   --MAIN-TEXT-color: #e0e0e0;
   /* Light gray for main text */
   --MAIN-LINK-HOVER-color: #d1a7d3;
+
+  --MAIN-LINK-color:rgb(216, 153, 219);
   /* Lighter shade of purple for link hover */
   --MAIN-BG-color: #222;
   /* Dark background */
