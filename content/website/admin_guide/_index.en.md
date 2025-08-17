@@ -5,10 +5,77 @@ chapter: true
 menuTitle: Website Admin Guide
 ---
 
-## Maintaining the site
-
 Maintaining the R-Ladies site depends a lot on the team currently in charge and what they want to do with it.
 Tasks can range from re-structuring whole sections of the site, to doing code reviews on incoming Pull requests.
+
+The website repo comes with a project `.Rprofile` that has some settings for the website if you use blogdown to work with locally.
+Do not alter the project `.Rprofile` but supplement it with your own profile if you like.
+The settings in this file makes it possible to work with blogdown.
+It is set up so that creating new posts and pages use the correct settings for the website (like knitting to markdown, rather than html, bundling pages etc).
+
+## The website team
+
+The website team is a group of R-Ladies global members who are responsible for maintaining the R-Ladies website.
+The team is responsible for managing the website, reviewing pull requests, and ensuring that the site is up to date and functioning correctly.
+The team is also responsible for managing the website's content, including adding new pages, updating existing pages, and ensuring that the site is accessible and user-friendly.
+
+
+## GitHub Setup
+
+The website team uses GitHub to manage the website repository.
+The repository is set up with branch protection rules to ensure that changes to the main branch are reviewed and approved before they are merged.
+Noone is allowed to push directly to the main branch, and all changes must be made through pull requests (PRs).
+The website team uses GitHub issues to track tasks and bugs, and to communicate with each other about the website.
+
+### Branch Protection Rules
+
+The main branch of the website repository is protected by GitHub branch protection rules.
+These rules ensure that:
+- All changes to the main branch must be made through pull requests.
+- All pull requests must be reviewed and approved by at least one other team member before they can be merged.
+- All checks must pass before a pull request can be merged.
+
+The website team is set up as a GitHub team, and all members of the team have admin access to the website repository.
+This means that the website team members have access to work on branches of the website repository, and can create pull requests to merge changes into the main branch.
+I.e. the website team members **do not** need to fork the repository to work on it, they can work directly on branches of the repository.
+
+### Communication
+
+The website team uses the `#team-website` channel in the R-Ladies Slack workspace for communication.
+This channel is used to discuss tasks, bugs, and other issues related to the website in a more informal way.
+However, all official tasks and issues should be tracked in GitHub issues.
+
+### Codeowners
+
+The website repository has a [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) file in the root directory.
+This file specifies the team that is responsible for reviewing pull requests and issues in the repository.
+
+While the website team is responsible for the website, it is not the only team that can review and approve pull requests.
+Other R-Ladies global team members can also review and approve pull requests, and are encouraged to do so.
+Additionally, certain content is also managed by other teams, to ensure working groups have control over their content.
+
+- **Content Translation**  
+  - `/content/` – [@rladies/translation](https://github.com/orgs/rladies/teams/translation)
+  - `/i18n/` – [@rladies/translation](https://github.com/orgs/rladies/teams/translation)
+
+- **News and Updates**  
+  - `/content/news` – [@rladies/global](https://github.com/orgs/rladies/teams/global)
+  - `/content/news` – [@rladies/leadership](https://github.com/orgs/rladies/teams/leadership)
+
+- **Community Blog**  
+  - `/content/blog` – [@rladies/blog](https://github.com/orgs/rladies/teams/blog)
+
+- **Code of Conduct**  
+  - `/content/coc` – [@rladies/coc](https://github.com/orgs/rladies/teams/coc)
+
+- **Directory**  
+  - `/content/directory` – [@rladies/directory](https://github.com/orgs/rladies/teams/directory)
+
+- **Mentoring Activities**  
+  - `/content/activities/mentoring` – [@rladies/mentoring](https://github.com/orgs/rladies/teams/mentoring)
+
+
+
 
 ### Handling Pull requests
 

@@ -10,6 +10,7 @@
   
     --MAIN-TEXT-color: rgba(0, 0, 0, 0.87); /* Slightly lighter black for better readability on light backgrounds */
     --MAIN-LINK-HOVER-color: #662968; /* Darker shade of purple for link hover */
+    --MAIN-LINK-color:#975b99;
     --MAIN-BG-color: #f8f8f8; /* White background for content */
     --MAIN-TITLES-TEXT-color: rgba(0, 0, 0, 0.87); /* Same as main text for consistency */
   
