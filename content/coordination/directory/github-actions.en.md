@@ -1,11 +1,12 @@
 ---
-title: "GitHub Action"
-linkTitle: "GitHub Actions"
+title: "GitHub Actions"
 weight: 13
 ---
 
+The directory management process is enhanced through the use of GitHub Actions, which automate various tasks related to fetching, validating, and purging entries from Airtable.
+Below is a detailed overview of the GitHub Actions implemented for managing the R-Ladies directory.
 
-## GitHub Action: Fetch Entries from Airtable
+## Fetch Entries from Airtable
 
 This GitHub Action is designed to automate the process of fetching entries from Airtable and updating the directory in our repository. 
 
@@ -31,25 +32,26 @@ Here’s a simple breakdown of what this action does:
 
 Here's a visual representation of the action's workflow using Mermaid syntax:
 
-```mermaid
+{{% mermaid %}}
 graph TD;
 
-    A[Start Fetching Entries] -->|User Trigger/Friday Schedule| B[Checkout Repository]
+    A[Start Fetching Entries] --> B[Checkout Repository]
+    
     B --> C[Setup Environment]
+    
     C --> D[Fetch Data from Airtable]
+    
     D --> E[Validate Data]
 
-    E -->|Deletion Needed?| F{Yes}
-    E -->|No Deletion| G[Create Pull Request]
+    E --> F{Deletion Needed?}
+    
+    F -->|No| G[Create Pull Request]
 
-    F --> H[Trigger Deletion Workflow]
-    F --> G
+    F -->|Yes| H[Trigger History Purge]
 
     G --> I[Trigger Test Build]
-    H --> I
 
-    I --> J[End]
-```
+{{% /mermaid %}}
 
 ### Conclusion
 
@@ -82,33 +84,21 @@ Here’s a simplified breakdown of the action:
 
 Here's a visual representation of the action's workflow using Mermaid syntax:
 
-```mermaid
+{{% mermaid %}}
 graph TD;
-
-    A[Start on PR Merge] -->|Closed & Merged| B[Checkout Repository]
-    
+    A[Start on PR Merge] --> |Closed & Merged| B[Checkout Repository]
     B --> C[Fetch Commit SHAs for PR]
-    
-    C -->|Get Artifacts?| D{Yes}
-    
-    D --> E[Fetch Artifacts]
-    
+    C --> D(Get Artifacts)
+    D --> |Artifacts exists| E[Fetch Artifacts]
+    D --> |No Artifacts| M
     E --> F[Install cURL Headers]
-    
     F --> G[Setup R Environment]
-    
     G --> H[Cache Packages]
-    
     H --> I[Restore Packages]
-    
     I --> J[Delete Airtable Records]
-    
     J --> K[Notify PR about Completion]
-    
-    D -->|No Artifacts| L[End]
-    
     K --> M[End]
-```
+{{% /mermaid %}}
 
 ### Conclusion
 
@@ -154,7 +144,7 @@ Here’s a straightforward breakdown of what this action does:
 
 Here's a visual representation of the action's workflow using Mermaid syntax:
 
-```mermaid
+{{% mermaid %}}
 graph TD;
 
     A[Start Purge Action] --> B[Install git-filter-repo]
@@ -186,7 +176,7 @@ graph TD;
     H -->|Invalid Files| O[End]
     
     N --> P[End]
-```
+{{% /mermaid %}}
 
 ### Conclusion
 
@@ -222,7 +212,7 @@ Here’s a clear overview of what this action accomplishes:
 
 Here’s a visual representation of the action's workflow using Mermaid syntax:
 
-```mermaid
+{{% mermaid %}}
 graph TD;
 
     A[Start Force Push Action] --> B[Checkout Main Branch]
@@ -244,7 +234,7 @@ graph TD;
     E -->|No| J[End]
     
     I --> K[End]
-```
+{{% /mermaid %}}
 
 ### Conclusion
 
@@ -278,7 +268,7 @@ Here's a straightforward overview of what this action does:
 
 Here's a visual representation of the action's workflow using Mermaid syntax:
 
-```mermaid
+{{% mermaid %}}
 graph TD;
 
     A[Start JSON Validation Action] --> B[Checkout Repository]
@@ -294,7 +284,7 @@ graph TD;
     F --> G[Validate JSONs]
     
     G --> H[End]
-```
+{{% /mermaid %}}
 
 ### Conclusion
 

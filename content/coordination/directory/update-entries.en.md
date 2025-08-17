@@ -1,6 +1,5 @@
 ---
-title: "Update entires"
-linkTitle: "directory"
+title: "Updating entires"
 weight: 2
 ---
 
