@@ -14,6 +14,12 @@ The PR contains the following:
 - Changes to existing entries.
 
 ## Reviewing PR on GitHub
+
+There are a couple things you cannot change in the GitHub review pane:
+
+- cannot alter file names for images
+- cannot resize images
+
 To review the PR on GitHub, follow these steps:
 
 1. **Go to the R-Ladies Directory Repository**: 
@@ -21,12 +27,14 @@ To review the PR on GitHub, follow these steps:
 2. **Go to the Pull Requests Tab**:
    Click on the "Pull Requests" tab to see the list of open PRs.
 3. **Select the Latest PR**:
-   Click on the most recent PR, which should be titled "airtable-update-XXXXXXX" (where "XXXXXXX" is the PR ID).
+   Click on the most recent PR, which should be titled "Update directory entires from Airtable".
 4. **Review the Conversation**:
    Read through the conversation tab to see any comments or discussions related to the PR.
    In particular look for the bot comment that provides a link to a preview of _only_ the new entries added to the directory on the R-Ladies website. This is useful for quickly checking the new entries without having to go through all the files changed in the PR.
 1. **Read through the PR Description**:
    The PR description contains a set of tasks to perform in relation to checking the new entries and existing entries. These are made from previous PR review experience ans issue, and are intended to help you with the review process.
+1. **Start the Review**:
+   Click on the "Review changes" button to start your review. You can leave comments, approve the PR, or request changes.
 5. **Review Files Changed**:
    Click on the "Files Changed" tab to see the changes made in the PR. This will show you the new entries added and any existing entries that have been modified.
 6. **Check for New Entries**:
@@ -35,12 +43,22 @@ To review the PR on GitHub, follow these steps:
    Review any existing entries that have been modified. Ensure that the changes are appropriate and do not contain any errors or issues.
 8. **Comment on Changes**:
    If you have any questions or concerns about the changes, leave comments on the PR. You can tag other R-Ladies members if you need their input or assistance.
+9. **Alter text content**:
+   If you need to make changes to the text content of any entries, you can do this directly in the GitHub interface. 
+   - Click on the plus icon next to the file name to edit the file.
+   - On the line you want to change, click the pluss icon to edit the line.
+   - To make a suggestion, click on the "Add a suggestion" button (a rectangle with + - on top of each other).
+   - the comment box will change to include lines like this:
+
+     ```suggestion
+     <original line>
+     ```
+   - Alter the line to what you want it to be, and then click "Add suggestion".
+   - This will create a suggestion that can be reviewed and approved later.
 9. **Approve the PR**:
    Once you have reviewed the changes and are satisfied with them, click on the green "Review changes" button. Select "Approve" and add any comments if necessary.
 10. **Merge the PR**:
     After approving the PR, click on the "Squash and Merge" button to merge the changes into the main branch. Confirm the merge by clicking "Confirm Squash and Merge".
-
-
 
 ## Thorough local review process
 
