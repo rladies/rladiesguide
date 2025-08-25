@@ -25,7 +25,7 @@ If any records in Airtable indicate a delete request, the system triggers the co
 ## Initiate the Deletion Process
 
 The action for purging entries can be initiated manually or automatically. 
-When triggered, it allows users to specify which filenames they wish to delete.
+When triggered, it allows users to specify which file names they wish to delete.
 
 In cases where someone contacts the team directly or needs to expedite the deletion, this manual initiation complements the automated checks conducted every Friday.
 
@@ -36,7 +36,7 @@ To initiate a manual deletion, this can be done in the GitHub Actions tab of the
 1. Navigate to the **Actions** tab in the repository.
 2. Select the **Purge Entries** workflow.
 3. Click on the **Run workflow** button.
-4. Specify the filenames to delete in the input field. (e.g. hannah-mason.json,rachel-smith.json)
+4. Specify the file names to delete in the input field. (e.g. hannah-mason.json,rachel-smith.json)
 5. Click the **Run workflow** button to start the deletion process.
 
 
