@@ -52,3 +52,9 @@ For mentors, this is an opportunity to help to build community, learn about the 
 - Ensure that confidentiality is maintained.
 - Practice kindness and empathy!
 
+## More resources 🧭
+
+To make the mentoring experience smoother and more structured, you can find detailed guidelines for each role and useful reference materials:
+
+- [**Guidelines for mentors**](https://guide.rladies.org/coordination/mentoring/guidelines_mentors)
+- [**Guidelines for mentees**](https://guide.rladies.org/coordination/mentoring/guidelines_mentees)
