@@ -101,16 +101,16 @@ For guidance on setting up R/RStudio for Git, refer to the [Happy Git and GitHub
    In your **RStudio** session, Click the sideways "Git" logo and select "Pull" to update local changes. Repeat this step to ensure you’re up to date.
 
 4. **Retrieve Recent PR**: 
-   Navigate to the [directory repository](https://github.com/rladies/directory), go to the "Pull Requests" tab, and click the most recent PR. Note the PR identifier (e.g., "airtable-update-XXXXXXX").
+   Navigate to the [directory repository](https://github.com/rladies/directory), go to the "Pull Requests" tab, and click the most recent PR. Note the PR identifier (e.g., "airtable-update").
 
 5. **Checkout the PR Branch**: 
    In the **R/RStudio terminal window**, type:
 
    ```bash
-   git checkout --track origin/airtable-update-XXXXXXX
+   git checkout --track origin/airtable-update
    ```
    
-   Replace "XXXXXXX" with the actual ID. Verify you’ve switched branches.
+   All updates should be merged into the `airtable-update` branch.
 
 6. **Review Changes**:
    On GitHub, review the "Conversation" and "Files Changed" tabs. In R/RStudio, edit any necessary text files and check images (resize if necessary using your computer’s software). 
@@ -142,7 +142,7 @@ For guidance on setting up R/RStudio for Git, refer to the [Happy Git and GitHub
      In the **R/RStudio terminal window**, remove your local PR branch with:
     
     ```bash
-    git branch -D airtable-update-XXXXXXX
+    git branch -D airtable-update
     ```
 
 14. **Update Airtable**: 
