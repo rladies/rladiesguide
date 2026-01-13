@@ -6,11 +6,14 @@ on:
     - cron: "5 4 * * sun"
 
 jobs:
-  create-release:
+  render-acknowledgements:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Set up cURL
+        run: sudo apt-get install -y libcurl4-openssl-dev
 
       - name: Configure Git
         run: |
@@ -30,10 +33,14 @@ jobs:
           tinytex: true
 
       - name: Install packages
-        run: Rscript -e "install.packages(c('here', 'jsonlite'), repos = 'https://cloud.r-project.org/')"
+        shell: Rscript {0}
+        run: |
+          options(repos = c(CRAN = "https://cloud.r-project.org/"))
+          install.packages("pak")
+          pak::pkg_install(c('here', 'jsonlite', 'rmarkdown', 'knitr'))
 
       - name: Render acknowledgements
-        run: quarto content/acknowledgements/_index.en.qmd --to hugo
+        run: quarto render content/acknowledgements/_index.en.qmd 
 
       - name: Commit and Push
         env:
