@@ -72,5 +72,5 @@ Use the time with your mentor to discuss practical aspects of running a chapter,
 
 ### 7. Ending the Mentorship  
 - The mentorship usually ends when you and your mentor feel you’ve covered the main checklist or when your chapter is active again.  
-- You’ll be asked to complete a short [**Feedback Form**](https://airtable.com/appqgHVVotuCP6aLy/pagWIwf4vWJl8IxcR/form) to help improve the program.  
+- You’ll be asked to complete a short [**Feedback Form**](https://rladies.org/form/mentoring-signup/) to help improve the program.  
 - You are welcome (but not required) to stay in touch with your mentor after the program.  
