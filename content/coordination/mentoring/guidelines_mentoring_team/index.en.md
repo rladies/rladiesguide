@@ -32,7 +32,7 @@ This document serves as an **internal guide for the mentoring team**. It provide
   - **Feedback Form**: form used to gather participants’ reflections and assess the program’s impact.  
   - **Application Form responses** (“Interest” tab): records of applications submitted.  
   - **Feedback Form responses** (“Feedback” tab): records of feedback submitted by participants.  
-- **Additional info**: [Airtable Mentoring Guide](https://guide.rladies.org/coordination/airtable/mentoring/index.html)  
+- **Additional info**: [Airtable Mentoring Guide](/coordination/airtable/mentoring/index.html)  
 
 ### Slack Channel  
 - `#team-mentoring`  
