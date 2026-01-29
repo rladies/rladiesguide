@@ -19,7 +19,7 @@ As a mentee, you will be paired with an experienced organizer (your mentor) who 
 - Organizers from inactive chapters
 - Any organizer seeking support
 
-All R-Ladies organizers are welcome to [**apply**](https://airtable.com/appqgHVVotuCP6aLy/pagJAHjC8DqlPzWqZ/form) if they believe the program could benefit their chapter.
+All R-Ladies organizers are welcome to [**apply**](https://rladies.org/form/mentoring-signup/) if they believe the program could benefit their chapter.
 Example: new organizers stepping into the leadership of an already active chapter.
 
 ---
