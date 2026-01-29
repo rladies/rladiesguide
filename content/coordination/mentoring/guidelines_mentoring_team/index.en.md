@@ -45,7 +45,7 @@ This document serves as an **internal guide for the mentoring team**. It provide
 
 ### Forms  
 - [**Application Form**](https://rladies.org/form/mentoring-signup/): completed by prospective mentors and mentees.  
-- [**Feedback Form**](https://airtable.com/appqgHVVotuCP6aLy/pagWIwf4vWJl8IxcR/form): completed by participants after their mentorship.  
+- [**Feedback Form**](https://rladies.org/form/mentoring-signup/): completed by participants after their mentorship.  
 
 ### GitHub Repo
 This repo contains:
