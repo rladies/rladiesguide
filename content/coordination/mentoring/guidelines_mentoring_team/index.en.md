@@ -44,7 +44,7 @@ This document serves as an **internal guide for the mentoring team**. It provide
 - **Purpose**: Shared account for communication, scheduling, and document management.  
 
 ### Forms  
-- [**Application Form**](https://airtable.com/appqgHVVotuCP6aLy/pagJAHjC8DqlPzWqZ/form): completed by prospective mentors and mentees.  
+- [**Application Form**](https://rladies.org/form/mentoring-signup/): completed by prospective mentors and mentees.  
 - [**Feedback Form**](https://airtable.com/appqgHVVotuCP6aLy/pagWIwf4vWJl8IxcR/form): completed by participants after their mentorship.  
 
 ### GitHub Repo
