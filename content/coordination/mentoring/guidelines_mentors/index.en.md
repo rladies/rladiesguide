@@ -78,7 +78,7 @@ Some useful links you may want to share:
 ### 7. Ending the Mentorship  
 
 - The mentorship usually ends when your mentee feels ready or when their main concerns have been covered.  
-- You’ll be asked to complete a short [**Feedback Form**](https://airtable.com/appqgHVVotuCP6aLy/pagWIwf4vWJl8IxcR/form) to help improve the program.  
+- You’ll be asked to complete a short [**Feedback Form**](https://rladies.org/form/mentoring-signup/) to help improve the program.  
 - You are welcome (but not required) to stay in touch with your mentee afterwards.  
 
 ---
