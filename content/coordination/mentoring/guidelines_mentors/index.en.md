@@ -61,9 +61,9 @@ Focus on supporting your mentee’s growth as a community organizer. Topics may 
 - Recommendations on tools, platforms, or strategies.
 
 Some useful links you may want to share:
-- [**Tips on recruiting co-organizers**](https://guide.rladies.org/organization/intro/co-organizers/)
-- [**Funding opportunities**](https://guide.rladies.org/organization/intro/finance/) (recommend [**R Consortium grants**](https://guide.rladies.org/organization/intro/finance/#r-consortium-grants))
-- [**Finding and recruiting speakers**](https://guide.rladies.org/organization/events/speakers/)
+- [**Tips on recruiting co-organizers**](/organization/intro/co-organizers/)
+- [**Funding opportunities**](/organization/intro/finance/) (recommend [**R Consortium grants**](/organization/intro/finance/#r-consortium-grants))
+- [**Finding and recruiting speakers**](/organization/events/speakers/)
 
 ---
 
