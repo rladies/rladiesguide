@@ -15,7 +15,7 @@ As a mentor, you will accompany a mentee (an R-Ladies organizer) by sharing your
 
 ### 2. Who can be a Mentor  
 
-All R-Ladies organizers with experience running a chapter are welcome to [**apply**](https://airtable.com/appqgHVVotuCP6aLy/pagJAHjC8DqlPzWqZ/form) as mentors.  
+All R-Ladies organizers with experience running a chapter are welcome to [**apply**](https://rladies.org/form/mentoring-signup/) as mentors.  
 
 ---
 
