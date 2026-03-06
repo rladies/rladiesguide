@@ -15,6 +15,7 @@ home = [ "HTML", "RSS"]
 
 
 [params]
+  ror = "https://ror.org/05wpb1k41"
   editURL = "https://github.com/rladies/rladiesguide/edit/main/content/"
   githubsource = "https://github.com/rladies/rladiesguide/blob/main/content/"
   showVisitedLinks  = false
