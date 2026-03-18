@@ -26,7 +26,7 @@ home = [ "HTML", "RSS"]
   hideAuthorName  = true
   hideAuthorEmail = true
 
-  linkTitle = 'R-Ladies Guide'
+  linkTitle = 'RLadies+ Guide'
   themeVariant = ['auto', 'r-ladies-light', 'r-ladies-dark']
 
 [params.author]
