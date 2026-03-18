@@ -35,26 +35,6 @@ O --> P[Deploy Netlify]
 P --> Q["Notify PR about build"]
 {{< /mermaid >}}
 
-##
-
-{{< mermaid >}}
-{{< /mermaid >}}
-
-##
-
-{{< mermaid >}}
-{{< /mermaid >}}
-
-##
-
-{{< mermaid >}}
-{{< /mermaid >}}
-
-##
-
-{{< mermaid >}}
-{{< /mermaid >}}
-
 ## Automatic merging of "pending" PRs
 
 Once a post (news or blog) is finished, it should be labelled as "pending" on GitHub.
