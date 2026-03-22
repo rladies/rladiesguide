@@ -5,3 +5,4 @@
 .markdrive
 schema.json
 .hugo_build.lock
+.DS_Store
