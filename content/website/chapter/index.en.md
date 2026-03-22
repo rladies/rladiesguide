@@ -6,12 +6,19 @@ weight: 3
 
 ## Create a new file
 
-Create a new file in the [data/chapters/](https://github.com/rladies/website/blob/main/data/chapters) folder by [using this link](https://github.com/rladies/website/new/main/?filename=data/chapters/country-state-city.json&value=%5B%0A%20%20%7B%0A%20%20%20%20%22urlname%22%3A%20%22rladies-%22%2C%20%20%20%20%20%20%20%20//meetup%20link%0A%20%20%20%20%22status%22%3A%20%22%22%2C%20%20%20%20%20//%20prospective%2C%20active%20or%20inactive%0A%20%20%20%20%22country%22%3A%20%22%22%2C%20%20%20%20%20%20%20%20%20%20//%20country%2C%20capitalised%0A%20%20%20%20%22state.region%22%3A%20%22%22%2C%20%20%20%20//%20state%20or%20reigion%2C%20capitalised%2C%20optional%0A%20%20%20%20%22city%22%3A%20%22%22%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20//%20city%2C%20capitalised%0A%20%20%20%20%22social_media%22%3A%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20//%20social%20media%20links%0A%20%20%20%20%20%20%22meetup%22%3A%20%22rladies-%22%2C%20%0A%20%20%20%20%20%20%22twitter%22%3A%20%22%22%2C%0A%20%20%20%20%20%20%22email%22%3A%20%22%22%0A%20%20%20%20%7D%2C%0A%20%20%20%20%22organizers%22%3A%20%7B%0A%20%20%20%20%20%20%22current%22%3A%20%5B%5D%2C%20//%20comma%20separated%20and%20each%20item%20quoted%0A%20%20%20%20%20%20%22former%22%3A%20%5B%5D%0A%20%20%20%20%7D%0A%20%20%7D%0A%5D). This link will fork the repository to your user account, and initiate a new file with some template content in it.
+Create a new file in the [data/chapters/](https://github.com/rladies/website/blob/main/data/chapters) folder by [using this link](https://github.com/rladies/website/new/main/?filename=data/chapters/country-state-city.json&value=%7B%0A%20%20%22urlname%22%3A%20%22rladies-%22%2C%20%20%20%20%20%20%20%20//meetup%20link%0A%20%20%22status%22%3A%20%22%22%2C%20%20%20%20%20//%20prospective%2C%20active%20or%20inactive%0A%20%20%22country%22%3A%20%22%22%2C%20%20%20%20%20%20%20%20%20%20//%20country%2C%20capitalised%0A%20%20%22state.region%22%3A%20%22%22%2C%20%20%20%20//%20state%20or%20region%2C%20capitalised%2C%20optional%0A%20%20%22city%22%3A%20%22%22%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20//%20city%2C%20capitalised%0A%20%20%22social_media%22%3A%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20//%20social%20media%20links%0A%20%20%20%20%22meetup%22%3A%20%22rladies-%22%2C%20%0A%20%20%20%20%22twitter%22%3A%20%22%22%2C%0A%20%20%20%20%22email%22%3A%20%22%22%0A%20%20%20%20%7D%2C%0A%20%20%20%20%22organizers%22%3A%20%7B%0A%20%20%20%20%20%20%22current%22%3A%20%5B%5D%2C%20//%20comma%20separated%20and%20each%20item%20quoted%0A%20%20%20%20%20%20%22former%22%3A%20%5B%5D%0A%20%20%20%20%7D%0A%7D). This link will fork the repository to your user account, and initiate a new file with some template content in it.
 
 ## File name
 
-The name of the file should be the chapters identifier, with country (state/region if applicable) and city. This way we can ensure each file has a unique name and that duplication does not happen.
-Any spaces should be substituted with a dash (`-`).
+The name of the file should be the chapters identifier, with country (state/region if applicable) and city. 
+This way we can ensure each file has a unique name and that duplication does not happen.
+Any spaces should be substituted with a dash (`-`), in lowercase, and special characters removed.
+For example, for a chapter in New York City, USA, the file name would be:
+`usa-new-york-new-york-city.json`
+
+The website will then create a URL for the chapter page based on this file name, e.g.
+`https://rladies.org/chapters/usa-new-york-new-york-city/`
+
 
 ## File content
 
@@ -73,3 +80,13 @@ In the comment section, make sure to @drmowinckels so she can take a look.
 If anything needs fixing you will be notified and given instructions on how to do that.
 
 Once all checks pass and the entries have been reviewed, they will be merged to the main branch.
+
+## Adding chapter image
+
+Adding an image for the chapter (which will be shown on the chapter's page on the website) can be done by:
+
+- Going to [assets/chapters](https://github.com/rladies/rladies.github.io/tree/main/assets/chapters) folder
+- Uploading an image with the name format `country-state-city.png` (matches the chapter json file name in `data/chapters/` folder)
+- Creating a PR to the main branch as described above
+
+

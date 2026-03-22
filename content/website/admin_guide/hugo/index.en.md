@@ -28,11 +28,25 @@ The content also uses [page bundles](https://gohugo.io/content-management/page-b
 A bundled page means that the page has all its content in a folder (where the folder name is the page name/slug), an `index.md` which is the main content file and all secondary files (images etc.) are nested within this page.
 This makes it possible to use relative paths in the `index.md` to the secondary files, while also keeping a neat file structure.
 
-**Note**
-This repo comes with a project `.Rprofile` that has some settings for the website if you use blogdown to work with locally.
-Do not alter the project `.Rprofile` but supplement it with your own profile if you like.
-The settings in this file makes it possible to work with blogdown (when blogdown starts supporting config-folders).
-It is set up so that creating new posts and pages use the correct settings for the website (like knitting to markdown, rather than html, bundling pages etc).
+Adding a new page is done by creating a new folder, and adding an `index.md` file to it.
+The `index.md` file should contain the front matter, which is the metadata for the page, and the content of the page.
+The front-matter (yaml) should contain the title, menu title, weight, and other metadata for the page.
+Depending on the page, it may also contain other metadata, such as the date, author, and other information.
+
+The content files are written in markdown, and can contain any markdown syntax.
+The content files can also contain Hugo shortcodes, which are used to add functionality to the content.
+
+
+### Shortcodes
+
+Hugo shortcodes are used to add functionality to the content files.
+Shortcodes are a way to add custom functionality to the content files, without having to write custom HTML or JavaScript.
+Shortcodes are defined in the `layouts/shortcodes` folder of the theme, and can be used in the content files by using the shortcode syntax.
+
+Currently, in addition to the [standard Hugo shortcodes](https://gohugo.io/content-management/shortcodes/), the site uses the following custom shortcodes:
+
+- `button`: Used to create R-Ladies branded buttons in the content files.
+
 
 ### Data
 
@@ -60,9 +74,24 @@ If is a more general purpose file (like R-ladies logo etc) to be used in multipl
 images/logo.png   # Looks for the image as relative to the content index.md file
 ```
 
+### Menu
+
+The menu is configured in the `config` folder.
+To add a new menu item, you can add it to the `menu` section of the config file.
+However, you will still not see the new menu item in on the website until you also add the menu item to the correct language `i18n` file.
+The `i18n` files have a specific section for the menu items, which is used to translate the menu items into the different languages.
+Once you've added the menu item to the `i18n` file, it will be displayed in the menu on the website.
+
+### i18n
+
+The i18n folder contains the translation files for the different languages.
+These files are used to translate various sections of the the site into different languages.
+To learn more about how to add a new language, see the [Adding a new Site Language](/website/multi-lingual/new) page.
+
+
 ### Theme
 
-The theme for the website is an adaptation of the [hugo-initio](https://miguelsimoni.github.io/hugo-initio-site/) theme ,specifically for this website.
+The theme for the website is an adaptation of the [hugo-initio](https://miguelsimoni.github.io/hugo-initio-site/) theme,specifically for this website.
 
 The themes custom adaptations include:
 
@@ -71,3 +100,4 @@ The themes custom adaptations include:
 - Custom global team grid
 - Events calendar with [Toast UI calendar](https://ui.toast.com/tui-calendar)
 - Multilingual mode
+    - See [Adding a new Site Language](/website/multi-lingual/new) for how to add a new language to the site.
