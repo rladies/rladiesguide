@@ -18,13 +18,13 @@ Chapters in countries where LGBTQ+ rights are criminalized may not be able to sa
 - **Social media profiles**: Update profile pictures using the logos in [logos/social-media/](https://github.com/rladies/branding-materials/tree/rebrand/logos/social-media)
 - **Meetup/event graphics**: Use the [social media templates]({{% relref "branding/canva-social-media" %}}) or the [Canva workspace](https://www.canva.com/folder/FAHCPq0DH3w)
 - **Chapter hex logo**: Update colours and typography following the [regional hex logos guide]({{% relref "branding/hex-logos" %}})
-- **Presentations**: Use the slide deck templates from the [branding-materials repository](https://github.com/rladies/branding-materials/tree/rebrand/templates/slidedecks) or [Google Drive](https://drive.google.com/drive/folders/1UV940p-KN9FWoHt4yrZnrc2oAczGw9QB?usp=sharing)
+- **Presentations**: Use the [slidedeck templates]({{% relref "branding/slidedeck-templates" %}}) (Google Slides and PowerPoint)
 - **Quarto documents**: Install the [glamour](https://github.com/rladies/glamour) Quarto extension
 - **R package websites**: Use the [cloak](https://github.com/rladies/cloak) pkgdown theme
 
 ### Presentation templates
 
-- [PowerPoint and Google Slides templates](https://github.com/rladies/branding-materials/tree/rebrand/templates/slidedecks)
+- [Slidedeck templates]({{% relref "branding/slidedeck-templates" %}}) — Google Slides and PowerPoint guides
 - [glamour Quarto extension](https://github.com/rladies/glamour) for Quarto presentations and documents
 
 ### Colours
@@ -37,7 +37,7 @@ Chapters in countries where LGBTQ+ rights are criminalized may not be able to sa
 | Dark | `#2f2f30` | Bastille Black |
 | Light | `#ededf4` | Lavender White |
 
-See the [brand overview]({{% relref "branding/overview" %}}) for the full palette and accessibility guidelines.
+See the [brand overview]({{% relref "branding" %}}) for the full palette and accessibility guidelines.
 
 ### Logo
 
