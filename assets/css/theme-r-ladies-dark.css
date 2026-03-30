@@ -79,3 +79,21 @@
   --BOX-TEXT-color: #333;
   /* Dark text for box content */
 }
+
+figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  color: var(--SECONDARY-color, #a7a9ac);
+  font-style: italic;
+}

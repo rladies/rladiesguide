@@ -50,3 +50,21 @@
     --BOX-TEXT-color:  rgba(0, 0, 0, 0.87); /* White text for box content on purple backgrounds */
 
   }
+
+figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  color: var(--SECONDARY-color, #5d5f66);
+  font-style: italic;
+}
