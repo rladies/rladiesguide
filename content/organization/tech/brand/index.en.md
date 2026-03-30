@@ -3,27 +3,12 @@ title: "Branding"
 weight: 4
 ---
 
-## Branding for your chapter
+{{% notice info %}}
+Branding information has moved to the dedicated [Branding section]({{% relref "branding" %}}).
+{{% /notice %}}
 
-**Colors**
+See:
 
-Official colours: <span style="color:#88398a;"><i class="fa fa-paint-brush" aria-hidden="true"></i>
-</span> `#88398a` (Purple) & <span style="color:#a7a9ac;background:black;"><i class="fa fa-paint-brush" aria-hidden="true"></i>
-</span> `#a7a9ac` (Gray).
-
-**Logo**
-
-The logo of R-Ladies is a purple R and can be found in the
-[branding-materials](https://github.com/rladies/branding-materials).
-Chapter logos should be the purple R of R-Ladies Global or a variant
-thereof.
-
-## Branding for presentations
-
-Now that you know what our official colors are, you might want to use them on slides.
-
-You can of course create your own template and share it, but feel free to re-use existing ones
-
-- [PowerPoint and Google Slides](https://github.com/rladies/starter-kit/tree/master/templates)
-
-- [xaringan (R Markdown!)](https://github.com/rladies/resources/blob/master/xaringan-slides/how_to_use.md)
+- [Brand overview]({{% relref "branding/overview" %}}) for the full colour palette, typography, and logo guidelines
+- [Chapter branding]({{% relref "branding/chapter-branding" %}}) for guidance on adopting the new RLadies+ identity
+- [Social media templates]({{% relref "branding/canva-social-media" %}}) for event graphics and social media posts
