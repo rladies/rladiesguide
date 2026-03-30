@@ -10,6 +10,8 @@ weight: 5
 
 Use Affinity when you need transparent background exports, which are not available in the free version of Canva.
 
+![The RLadies+ logo with a purple R-plus symbol and the text RLadies+ in dark gray](img-01.png "The RLadies+ R+ logo")
+
 ### Accessing the template
 
 1. Download the `.AF` and `.PDF` files from the [Editable assets R+](https://drive.google.com/drive/folders/1D9CsIo9UPxziVgbmbAglii1AC_6P4V5d?usp=sharing) folder
@@ -20,6 +22,14 @@ Use Affinity when you need transparent background exports, which are not availab
 1. Drag and drop your image onto the artboard
 2. Open the **Layers** panel
 3. Move the image layer under either the **R** or **+** layer to embed it within that section
+
+The image should appear as a sublayer inside the shape group, acting as a clipping mask.
+
+![Affinity Designer Layers panel showing a Curves group containing a nested image layer, demonstrating the correct clipping structure](img-02.png "Correct layer structure with the image clipped inside the logo shape")
+
+4. Use the **Move** tool to reposition or resize the image within the clipped shape
+
+![Affinity Designer Move tool cursor alongside a circular thumbnail of the logo](img-03.png "Using the Move tool to reposition the image within the shape")
 
 Ensure sufficient contrast between images and background colors.
 
@@ -45,8 +55,10 @@ Please do not move, transform, or rotate the R relative to the RLadies+ text par
 
 1. Go to **File > Export**
 2. Select your working area or page
-3. Choose your preferred file format and resolution
+3. Choose your preferred file format (PNG recommended) and resolution
 4. Click **Export**
+
+![Affinity Designer Export dialog with PNG format selected, showing a preview of the customised R+ logo with export settings for width, height, and pixel format](img-04.png "Exporting the customised logo as PNG")
 
 ### Resources
 
