@@ -4,21 +4,48 @@ weight: 10
 menuTitle: Blog Administration
 ---
 
-Working on the Blog Administration Team for R-Ladies consists of mainly two tasks:
+Working on the Blog Administration Team for RLadies+ consists of two main tasks:
 
-- Serve as Editor for incoming blog posts
-- Recruit possible Authors for contributing to the blog.
+- Serve as editor for incoming blog posts.  
+- Recruit possible authors for contributing to the blog.  
 
-There has not been much work done on the blog, and we would like to change that.
-This guide is a work in progress and is likely to change once we have a more team working towards making the blog more active.
+Once working procedures change, remember to also update the [contributor guide for the blog](/comm/website/blog) to reflect them.
 
-Once clear working procedures are established, remember to also update [community guide regarding the blog](/comm/website/blog) to reflect the changes.
+## Editorial review checklist
+
+When reviewing a PR for a new blog post, check the following before approving.
+These are the issues that come up most often.
+
+### Front matter
+
+- **title** is set and concise.  
+- **date** is static (`YYYY-MM-DD`), not dynamic.  
+- **author** uses the list format with `name` and (where possible) `directory_id`.  
+- **image.alt** is present and describes what the image shows.  
+- **description** or **summary** is filled in for the listing page preview.  
+- **tags** and **categories** are present and use existing values where possible.  
+
+### Post body
+
+- The title is _not_ repeated as a heading in the body — it comes from the front matter automatically.  
+- Headings are not bolded (`## My heading`, not `## **My heading**`).  
+- The first lines of the body are actual content, not an author list or metadata — those lines appear in the preview card on the blog listing.  
+- Inline images have alt text (in `[]`) and ideally a caption (in `""` after the path).  
+- If the post uses numbered lists with paragraphs between items, the numbers are explicit (not relying on markdown auto-numbering, which resets).  
+- Blockquotes that are meant to stand out as tips or warnings use the `callout` shortcode instead.  
+- No extra blank lines between content blocks (Hugo can interpret these unexpectedly).  
+
+### Before merging
+
+- Check the deploy preview to see how the post actually renders.  
+- Verify the preview card in the blog listing looks right (no duplicate title, no metadata in the summary).  
+- Label the PR as `pending` with the correct publication date in the front matter so the automatic merge picks it up on the right day.  
 
 ## Airtable
 
-**Purpose:** This Airtable base is designed to help the R-Ladies blog administration team efficiently manage their workflow, from reviewing guest author proposals to publishing blog posts and tracking associated tasks.
+**Purpose:** This Airtable base is designed to help the RLadies+ blog administration team efficiently manage their workflow, from reviewing guest author proposals to publishing blog posts and tracking associated tasks.
 
-**Intended Users:** The primary users of this base are the members of the R-Ladies blog administration team, including content reviewers, editors, and potentially social media managers.
+**Intended Users:** The primary users of this base are the members of the RLadies+ blog administration team, including content reviewers, editors, and potentially social media managers.
 
 ### Interface
 
@@ -235,13 +262,13 @@ PostTasks }|--|| Admins : assigned_to
 
 ### Admins
 
-- **Purpose:** Contains information about the R-Ladies blog administration team members, _synced from a "Global Team Overview" base_.
+- **Purpose:** Contains information about the RLadies+ blog administration team members, _synced from a "Global Team Overview" base_.
 - **Key Fields:**
   - **Name:** The full name of the blog team member.
   - **GitHub handle:** Their GitHub username.
-  - **R-Ladies email:** Their dedicated R-Ladies email address.
+  - **RLadies+ email:** Their dedicated RLadies+ email address.
   - **email_zoom:** Their email address used for Zoom communication.
-  - **organiser_slack:** Their username or ID on the R-Ladies organizers' Slack workspace.
+  - **organiser_slack:** Their username or ID on the RLadies+ organizers' Slack workspace.
   - **Activities:** (Potentially links to or tracks specific roles or responsibilities within the blog administration).
 - **Relationships to Other Tables:** Implicitly related to [Post Status table](#post-status) and [Post Tasks table](#post-tasks) through the `Assignee` fields, but the data originates from an external base.
 
