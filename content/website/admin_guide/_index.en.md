@@ -5,7 +5,7 @@ chapter: true
 menuTitle: Website Admin Guide
 ---
 
-Maintaining the R-Ladies site depends a lot on the team currently in charge and what they want to do with it.
+Maintaining the RLadies+ site depends a lot on the team currently in charge and what they want to do with it.
 Tasks can range from re-structuring whole sections of the site, to doing code reviews on incoming Pull requests.
 
 The website repo comes with a project `.Rprofile` that has some settings for the website if you use blogdown to work with locally.
@@ -15,7 +15,7 @@ It is set up so that creating new posts and pages use the correct settings for t
 
 ## The website team
 
-The website team is a group of R-Ladies global members who are responsible for maintaining the R-Ladies website.
+The website team is a group of RLadies+ global members who are responsible for maintaining the RLadies+ website.
 The team is responsible for managing the website, reviewing pull requests, and ensuring that the site is up to date and functioning correctly.
 The team is also responsible for managing the website's content, including adding new pages, updating existing pages, and ensuring that the site is accessible and user-friendly.
 
@@ -41,7 +41,7 @@ I.e. the website team members **do not** need to fork the repository to work on 
 
 ### Communication
 
-The website team uses the `#team-website` channel in the R-Ladies Slack workspace for communication.
+The website team uses the `#team-website` channel in the RLadies+ Slack workspace for communication.
 This channel is used to discuss tasks, bugs, and other issues related to the website in a more informal way.
 However, all official tasks and issues should be tracked in GitHub issues.
 
@@ -51,7 +51,7 @@ The website repository has a [CODEOWNERS](https://docs.github.com/en/repositorie
 This file specifies the team that is responsible for reviewing pull requests and issues in the repository.
 
 While the website team is responsible for the website, it is not the only team that can review and approve pull requests.
-Other R-Ladies global team members can also review and approve pull requests, and are encouraged to do so.
+Other RLadies+ global team members can also review and approve pull requests, and are encouraged to do so.
 Additionally, certain content is also managed by other teams, to ensure working groups have control over their content.
 
 - **Content Translation**  

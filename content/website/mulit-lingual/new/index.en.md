@@ -21,5 +21,5 @@ If you are translating directly on GitHub, have a look at the instructions for [
 Tag @rladies/website for review and she'll get to it asap.
 
 If you are comfortable working with git locally, clone the repo, make a branch and start translating.
-A general, but detailed description of how to fork, clone and PR the R-Ladies website can be found in [its own chapter](/comm/website/fork-clone-pr).
+A general, but detailed description of how to fork, clone and PR the RLadies+ website can be found in [its own chapter](/comm/website/fork-clone-pr).
 Once you are happy, push your branch to Github and do a PR. Tag @rladies/website for review and she'll get to it asap.

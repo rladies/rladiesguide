@@ -1,5 +1,5 @@
 ---
-title: "Adding a mention of R-Ladies in the Press"
+title: "Adding a mention of RLadies+ in the Press"
 menuTitle: "Add press entry"
 weight: 5
 ---

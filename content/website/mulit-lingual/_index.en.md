@@ -6,7 +6,7 @@ slides: true
 menuTitle: Multi-lingual support
 ---
 
-R-Ladies global website is set up to support multiple languages.
+RLadies+ global website is set up to support multiple languages.
 This means that the site can be translated into different languages, and users can switch between them.
 The site currently only supports English, but Spanish, French, and Portuguese translations are in progress.
 

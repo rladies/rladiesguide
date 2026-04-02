@@ -22,7 +22,7 @@ In particular, the config directory makes it easier to keep the menu definitions
 ### Content
 
 The content folder has all the content for the website.
-Unlike Hugo content made from R-packages, this site does not use `Rmd` as content source.
+Unlike Hugo content made from R packages, this site does not use `Rmd` as content source.
 
 The content also uses [page bundles](https://gohugo.io/content-management/page-bundles/) to make it easier to keep files organised together neatly.
 A bundled page means that the page has all its content in a folder (where the folder name is the page name/slug), an `index.md` which is the main content file and all secondary files (images etc.) are nested within this page.
@@ -45,7 +45,7 @@ Shortcodes are defined in the `layouts/shortcodes` folder of the theme, and can 
 
 Currently, in addition to the [standard Hugo shortcodes](https://gohugo.io/content-management/shortcodes/), the site uses the following custom shortcodes:
 
-- `button`: Used to create R-Ladies branded buttons in the content files.
+- `button`: Used to create RLadies+ branded buttons in the content files.
 
 
 ### Data
@@ -58,7 +58,7 @@ The site used hugo [data templates](https://gohugo.io/templates/data-templates/#
 
 Hugo data template source data are found in the `data` folder, where we have chosen to use `.json` files for this purpose.
 
-Of these, only the mentoring program has a file that is updated manually by R-Ladies global team members working with the mentoring program.
+Of these, only the mentoring program has a file that is updated manually by RLadies+ global team members working with the mentoring program.
 
 The month names are also created by us, but once created should not need changes as long as they are correct. The month name jsons are used when site language is switched, for displaying the correct month names in the chosen language.
 
@@ -67,7 +67,7 @@ The month names are also created by us, but once created should not need changes
 In the static folder, all files that should be globally accessible to the content files can be placed.
 Currently, this only contains images.
 If a file is specifically used for a single content file, it should be bundled with the page, rather than placed in static.
-If is a more general purpose file (like R-ladies logo etc) to be used in multiple files, it is best to place it in static and refer to it by its relative path to the base-url of the page.
+If is a more general purpose file (like RLadies+ logo etc) to be used in multiple files, it is best to place it in static and refer to it by its relative path to the base-url of the page.
 
 ```
 /images/logo.png  # Looks for the image as placed in static/images/logo.png

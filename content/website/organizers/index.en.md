@@ -18,7 +18,7 @@ Note: for some reason I had issues with getting this working in Firefox, but it 
 
 1. Login to meetup.com with the RLadies Global account. Select the “Pro Dashboard” from the top right of the page. Search for the meetup group containing the former organiser and go to its page.
 
-2. In the “Organizers” panel, click on “R-Ladies Global and N others” to be taken to the Organizers admin page.
+2. In the “Organizers” panel, click on “RLadies+ Global and N others” to be taken to the Organizers admin page.
 
 3. Find the member you wish to retire and click on the “...” on the right next to their name. Select “Change member role”.
 

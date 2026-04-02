@@ -7,7 +7,7 @@ weight: 8
 We've used DeepL to generate translations of our website content and have made them available in the [deepl](https://github.com/rladies/rladies.github.io/tree/deepl) branch of our repository.
 This branch is also available for [preview online](https://dmain-bmain-r413--rladies-dev.netlify.app/).
 
-Now, we need your help to ensure these translations are accurate, natural-sounding, and align with the R-Ladies ethos.
+Now, we need your help to ensure these translations are accurate, natural-sounding, and align with the RLadies+ ethos.
 
 ## What We're Looking For in a Review
 
@@ -54,7 +54,7 @@ You'll be working on a copy of our repository, called a "fork," to make your edi
 1. **Create a Pull Request (PR):**
    - After committing your changes to your fork, you'll see a prompt to "Compare & pull request" on your forked repository's page. Click this button.
    - On the "Open a pull request" page:
-     - Ensure the **base repository** is the main R-Ladies website repository and the **base** branch is "deepl".
+     - Ensure the **base repository** is the main RLadies+ website repository and the **base** branch is "deepl".
      - The **head repository** should be your fork and the **compare** branch should be the branch where you made your edits (it will likely be "main" unless you created a new branch in your fork).
      - Add a clear and concise title to your pull request (e.g., "Review of French translations including code sections," "Improvements to Spanish code comments and text").
      - In the description, provide a summary of the changes you've made, highlighting any adjustments to code comments or variable names and noting that you've avoided translating core code elements.

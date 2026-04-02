@@ -16,7 +16,7 @@ We'll cover forking, cloning, adding, committing, pushing, and creating a Pull R
 ## Step-by-Step Guide
 
 {usethis} has several handy functions for working with git repositories.
-This forks and clones the repo, so you will end up having a version of the R-Ladies website in your GitHub, and a local copy of it to work on.
+This forks and clones the repo, so you will end up having a version of the RLadies+ website in your GitHub, and a local copy of it to work on.
 
 ```r
 install.packages("usethis")
