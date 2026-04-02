@@ -1,170 +1,307 @@
 ---
-title: "Contribute to the R-Ladies Blog"
+title: "Contribute to the RLadies+ Blog"
 menuTitle: "Blog"
 weight: 2
 aliases:
   - /comm/blog
 ---
 
-A more general, but detailed description of how to fork, clone and PR the R-Ladies website can be found in [its own chapter](/comm/website/fork-clone-pr).
-Here we describe in particular how to work towards a blogpost.
+The RLadies+ blog runs on Hugo and accepts posts as plain markdown files.
+You write in a folder, add your images alongside it, and open a pull request.
+The rest of this page walks you through each step — from proposing a post to getting it published.
+
+A more general guide to forking, cloning, and PR-ing the website lives in [its own chapter](/comm/website/fork-clone-pr).
 
 ## Propose a post
 
-While you are welcome to submit a post by doing a PR directory to the website, we would love to be able to plan the post with you.
-Submit a [post proposal](https://rladies.org/form/blog-post) and one of the Blog editors will be in touch about planning the entire process.
-A benefit this process is that the Editor is able to plan when to post and create a timeline for the work.
-We are then also able to provide other ways to work towards a post, if you are not comfortable with the whole Git/GitHub workflow.
-If you are comfortable with it, you can, after proposing a post, start drafting by following the steps below.
+You _can_ submit a post by opening a PR directly, but we prefer to plan it with you first.
+Submit a [post proposal](https://rladies.org/form/blog-post) and a blog editor will reach out to set a timeline.
+This also means we can offer alternative workflows if the Git/GitHub route is not your preference.
+
+Once a proposal is accepted, start drafting by following the steps below.
 
 ## Clone the project
 
-Choose your own workflow! There are many ways you can fork and clone a project,
-via the git terminal, the `{usethis}` package, the GitHub web UI, GitHub Desktop,
-etc. Here we document two methods; however, you are welcome to use whichever with
-which you are comfortable. We are happy to provide additional support or documentation
-as needed.
+Pick whichever Git workflow you are comfortable with — terminal, `{usethis}`, GitHub Desktop, the GitHub web UI.
+We document two approaches here.
+Garrick Aden-Buie's [Pull Request Flow with usethis](https://www.garrickadenbuie.com/blog/pull-request-flow-usethis/?interactive=1&steps=) is a thorough walkthrough of the `{usethis}` path.
 
-You can proceed via either:
-
-1. `git` commands in the terminal, or
-
-2. through the `usethis` package
-
-- An in-depth overview of this workflow is available at
-  [Pull Request Flow with usethis](https://www.garrickadenbuie.com/blog/pull-request-flow-usethis/?interactive=1&steps=) by Garrick Aden-Buie.
-
-### via git in the terminal
+### Via git in the terminal
 
 ```sh
-# Clone
 git clone https://github.com/rladies/rladies.github.io.git rladies_website
-
-# Enter
 cd rladies_website/
-
-# replace my_branch with any name you like
-# will now be working on a copy of the main repo
 git checkout -b my_branch
 ```
 
-Open the folder in RStudio.
-
-### via {usethis}
+### Via {usethis}
 
 ```r
-# this forks and clones the repo
 usethis::create_from_github("rladies/rladies.github.io")
-
-# this creates a new branch for your post
 usethis::pr_init("my_branch")
 ```
 
-Open the folder in RStudio.
-
-## Install the dependencies
-
-We use [renv](https://rstudio.github.io/renv/articles/renv.html) to handle the website dependencies, and have several profiles for various tasks.
-To contribute a blogpost, you will use the `default` branch.
-
-```r
-renv::activate(profile = "default")
-
-# Restart your R session before doing this next step.
-renv::restore()
-```
-
-Now renv should update the necessary dependencies for you to start working on your blogpost.
-
 ## Write a new blog post
 
-Use the blogdown addin in RStudio to create a new post.
-`Addin` -> `New post` -> `choose "blog" archetype`
+### Create the post folder
 
-Fill inn the fields with the relevant information.
+Posts live in `content/blog/` organised by year, then date-slug:
 
-We are going to follow a few rules to set the header of the post to set posts easily discoverable.
+```
+content/blog/YYYY/MM-DD-your-post-slug/
+```
 
-- **title**: Post title. It is the main feature, it shows in the list and the post page.
-- **author**: Post author. It is not visible in the moment. We will work to make it visible and to show in a menu.
-- **date**: Post date. Same as author. The date _must_ be static, nothing like `r Sys.Date()`, otherwise everytime the blog is generate a new date is set in the blogpost. The **format must be YYYY-mm-dd**.
-- **description**: Post subtitle. As an example, we used it to set the title of the post series of the 2018 IWD project. It shows in the posts list and in the post page.
-- **tags**: Post tags. They should include meaningful information like date if it is a recurrent project (because dates are not shown anywhere for now). 4 or 5 tags is a good number. [Tags](https://rladies.org/tags/).
-- **categories**: Post categories. Like tags but the theme is more general. They are not visible right now. [Categories](https://rladies.org/categories/).
+For example: `content/blog/2026/04-02-community-survey-results/`.
 
-All of the information will be shown in the post yaml, and can also be edited later.
+Inside that folder, create your post file as `index.en.md`.
+Writing in another language?
+Use the appropriate suffix — `index.es.md` (Spanish), `index.pt.md` (Portuguese), or `index.fr.md` (French).
 
-Example:
+Place images and any other assets directly in the same folder.
+
+### Front matter
+
+Every post starts with a YAML block.
+Here is a complete example:
 
 ```yaml
 ---
-title: "1. Behind the scenes of R-Ladies IWD2018 Twitter action!"
-author: "R-Ladies"
-date: "2018-03-26"
-description: "Part 1: Ideation and Creation!"
+title: "Your post title"
+author:
+  - name: "Your Name"
+    directory_id: "your-directory-id"
+    url: "https://your-website.com"
+editorial:
+  - name: "Editor Name"
+    directory_id: "editor-directory-id"
+date: "2026-04-02"
+description: |
+  A short summary of your post. Markdown supported.
+image:
+  path: "featured-image.png"
+  alt: "Descriptive alt text for the image"
+slug: "your-post-slug"
 tags:
-  - iwd
-  - twitter
+  - community
+  - survey
 categories:
-  - R-Ladies
+  - tutorials
 ---
 ```
 
-Your post will be created in a folder within `content/blog` and you can add all the files you need for you post here.
-Any images, data files or other things you need to include in your post, add them directly in the folder.
+What each field does:
 
-As you write you post, remember to `knit` your post so have a look at how it looks like!
-The blogdown site will use the markdown file created from your knitted `Rmd` on the site, not your `Rmd` itself.
-You can preview the entire site with your post with `blogdown::serve_site()`.
+- **title** — shown in the post listing and the post page.  
+- **author** — a list of authors. See [Authors and contributions](#authors-and-contributions) for details.  
+- **editorial** — editors who reviewed the post. Same format as `author`.  
+- **date** — publication date in `YYYY-MM-DD` format. Must be static — never use `r Sys.Date()` or similar.  
+- **description** — a short summary for the listing page and SEO. Supports markdown. Use `|` for multiline text.  
+- **image.path** — filename of a featured image in your post folder. Automatically resized and converted to webp.  
+- **image.alt** — alt text for the featured image. Always include this.  
+- **slug** — custom URL slug. Auto-generated from the title if omitted.  
+- **tags** — topic tags. 4–5 is a good number. Browse existing [tags](https://rladies.org/tags/).  
+- **categories** — broader groupings. Browse existing [categories](https://rladies.org/categories/).  
 
-### After you write your post
+### Authors and contributions
 
-Once your post looks as you want it to on your local machine, it's time to push the post
-up to the main repository for review.
+Each author, editor, or translator entry accepts these fields:
 
-### via git in the terminal
+- **name** (required) — the person's name.  
+- **directory_id** (optional) — their RLadies+ directory profile ID, which creates a link to `rladies.org/directory/<id>/`.  
+- **url** (optional) — an external URL. Used when there is no `directory_id`.  
+
+Multi-author posts can track who did what with the _contributions_ system.
+Define a legend of contribution codes in the front matter, then assign codes to each person:
+
+```yaml
+author:
+  - name: Alice
+    directory_id: "alice"
+    contributions: [a, b]
+  - name: Bob
+    directory_id: "bob"
+    contributions: [a, c]
+editorial:
+  - name: Carol
+    directory_id: "carol"
+    contributions: [d]
+contributions:
+  a: "Wrote the original post"
+  b: "Created visualizations"
+  c: "Collected survey data"
+  d: "Edited for publication"
+```
+
+Superscript letters (ᵃ, ᵇ, ᶜ, ᵈ) appear next to each name, with a legend below the author list.
+
+### Cross-posting
+
+If your post originally appeared on another blog, add a `crosspost` field:
+
+```yaml
+crosspost:
+  community: "Your Blog Name"
+  url: "https://your-blog.com/original-post"
+```
+
+A notice with a link to the original appears at the top of the post.
+
+### Translations
+
+Create a new file in the same folder with the matching language suffix.
+The English version is `index.en.md`; a Portuguese translation would be `index.pt.md`.
+
+The site supports English (en), Spanish (es), Portuguese (pt), and French (fr).
+
+Credit translators in the front matter:
+
+```yaml
+translator:
+  - name: "Translator Name"
+    directory_id: "translator-directory-id"
+```
+
+## Formatting your post
+
+### Callouts
+
+Callouts highlight important information in a coloured box.
+Five types are available — `tip`, `info`, `warning`, `danger`, and `note` — each with a default icon and title.
+
+```markdown
+{{</* callout type="tip" */>}}
+A helpful suggestion with **markdown** support.
+{{</* /callout */>}}
+```
+
+Override the title or icon when needed:
+
+```markdown
+{{</* callout type="warning" title="Watch out" */>}}
+This step is easy to miss.
+{{</* /callout */>}}
+
+{{</* callout type="info" icon="fa-solid fa-heart" title="Community love" */>}}
+Any Font Awesome icon class works here.
+{{</* /callout */>}}
+```
+
+| Type      | Default icon           | When to use                              |
+|-----------|------------------------|------------------------------------------|
+| `tip`     | lightbulb              | Suggestions and best practices           |
+| `info`    | circle-info            | Supplementary context                    |
+| `warning` | triangle-exclamation   | Something the reader should watch out for|
+| `danger`  | circle-xmark           | Breaking changes or destructive actions  |
+| `note`    | pen                    | Neutral asides or footnotes              |
+
+### Buttons
+
+Add a call-to-action button:
+
+```markdown
+{{</* button url="https://rladies.org" text="Visit RLadies+" */>}}
+```
+
+### Mermaid diagrams
+
+Fenced code blocks with the `mermaid` language tag render as diagrams:
+
+````markdown
+```mermaid
+graph LR
+    A[Start] --> B[Process]
+    B --> C[End]
+```
+````
+
+### Images
+
+Every image in your post should have both alt text and a caption.
+They serve different purposes and go in different places.
+
+**Alt text** is read aloud by screen readers and displayed when the image fails to load.
+It describes _what the image shows_ — the content, the key visual elements, the data a chart conveys.
+A reader who cannot see the image should be able to understand it from the alt text alone.
+
+**Caption text** is the visible line displayed beneath the image.
+It describes _why the image matters_ in context — what the reader should take away, where the data comes from, or who is pictured.
+
+A good pair might look like this:
+
+- Alt: "Bar chart showing chapter growth from 12 chapters in 2016 to 219 in 2024"  
+- Caption: "RLadies+ chapter growth over the first eight years"  
+
+The alt text tells you what the chart contains.
+The caption tells you why it is here.
+
+In markdown, the alt text goes in the square brackets and the caption goes in quotes after the file path:
+
+```markdown
+![Alt text describing the image](my-image.png "Caption explaining why it matters")
+```
+
+A concrete example:
+
+```markdown
+![Bar chart showing chapter growth from 12 chapters in 2016 to 219 in 2024](chapter-growth.png "RLadies+ chapter growth over the first eight years")
+```
+
+If you omit the quoted caption, no caption is displayed — but always include alt text.
+
+For the post's _featured_ image, set it in the front matter `image` field — not in the body.
+
+### Links
+
+External links automatically open in a new tab.
+No extra markup needed.
+
+### Raw HTML
+
+Raw HTML is supported inside post content when markdown alone is not enough.
+
+## Preview locally
+
+Run Hugo from the repository root:
 
 ```sh
-# Add the post
-git add content/post/yyyy-mm-dd-your-post-title
+hugo server -D
+```
 
-# Add a commit message to the post
-git commit -m "my commit message"
+The `-D` flag renders draft posts so you can see yours before it is published.
 
-# Push changes online (replace my_branch with your branch name)
+## Submit your post
+
+When the post looks right locally, push it for review.
+
+### Via git in the terminal
+
+```sh
+git add content/blog/YYYY/MM-DD-your-post-slug
+git commit -m "add post: your post title"
 git push --set-upstream origin my_branch
 ```
 
-### via {usethis}
+### Via {usethis}
 
-In the RStudio git pane, check your post folder and commit with a message.
-
-Then push with
+Stage and commit your post folder in the RStudio Git pane, then:
 
 ```r
 usethis::pr_push()
 ```
 
-## PR your changes
+## Open a pull request
 
-Once you have pushed your changes online, make a [Pull request (PR)](https://github.com/rladies/blog/pulls) to the main branch.
-If you are not a member of the R-Ladies Global team, you will be working on a "fork" of the repository.
+Open a [pull request](https://github.com/rladies/rladies.github.io/pulls) against the `main` branch.
+If you are not on the RLadies+ Global team, you will be working from a fork — the site build will run, but no deploy preview is generated.
 
-When the PR is open ([see here](https://github.com/rladies/blog/pulls)), a person from the blog or website team will be assigned as your reviewer and will take you through the remaining process.
+A blog or website team member will be assigned as your reviewer and guide you through any remaining changes via GitHub code review.
 
-When working on a fork, the build of the website will run, but no preview will be created.
+### What happens after review
 
-### Website/Blog administration take-over
+Once the team is happy with the post, they [create a branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch) from the main repository (usually named `fork_[postname]`) and [switch your PR's base](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-base-branch-of-a-pull-request) to that branch.
+Your PR is merged there, a deploy preview is generated, and any final editorial tweaks happen on the team's side.
+They will reach out if they need anything else from you.
 
-After the PR is received, someone in the @rladies/blog or @rladies/website team will have a look at your post.
-They will request changes through GitHub code review, where you will need to adapt or accept the changes they propose to your document.
+## Questions
 
-Once the team is satisfied with the post, they will [create a new branch from the main repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch) and call it something like "fork\_[newpostname]", and then [switch your PR's base branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-base-branch-of-a-pull-request) to the newly made fork rather than `main`.
-They will then merge your PR into this branch, and wait for a preview to be generated.
-
-Ideally, at this point, only other changes that might need to be done are editorial and up to the @rladies/blog or @rladies/website team to fix.
-They will ask for you assistance directly if anything else is needed.
-
-## Clarification
-
-If anything is unclear in these guidelines, please submit [an issue](https://github.com/rladies/rladiesguide/issues), so that we can assist you and improve our documentation.
+If anything here is unclear, open [an issue](https://github.com/rladies/rladiesguide/issues) and we will sort it out.
