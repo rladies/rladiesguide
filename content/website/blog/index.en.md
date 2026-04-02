@@ -163,6 +163,47 @@ translator:
 
 ## Formatting your post
 
+The site theme handles all visual styling — your job is to provide well-structured markdown.
+A few rules that come up often in review:
+
+### Do not repeat the title
+
+The title from your front matter is displayed automatically at the top of the post.
+Do not add it again as a heading in the body — it shows up twice, including in the post preview card.
+
+### Do not bold headings
+
+Headings are already styled by the theme.
+Writing `## **My heading**` adds redundant bold markup.
+Use plain headings:
+
+```markdown
+## My heading
+```
+
+### Keep the post body clean for summaries
+
+Hugo generates a preview card for the blog listing from the first lines of your post body.
+If you put an author list, table of contents, or other metadata at the top of your post body, it ends up in the preview card.
+Put that kind of content further down, or use front matter fields instead.
+
+### Numbered lists with paragraphs between items
+
+Standard markdown numbered lists restart when broken by a paragraph.
+If you need numbered items with full paragraphs between them, use explicit numbers and make each item a heading:
+
+```markdown
+### 1. First point
+
+A full paragraph about the first point.
+
+### 2. Second point
+
+A full paragraph about the second point.
+```
+
+Do not rely on markdown auto-numbering (`1.`, `1.`, `1.`) when paragraphs separate the items — it resets to 1 each time.
+
 ### Callouts
 
 Callouts highlight important information in a coloured box.
