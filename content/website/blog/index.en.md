@@ -164,141 +164,16 @@ translator:
 ## Formatting your post
 
 The site theme handles all visual styling — your job is to provide well-structured markdown.
-A few rules that come up often in review:
 
-### Do not repeat the title
+The [Content Features Reference](/website/content-features/) documents everything available to you: images with captions, callout boxes, buttons, mermaid diagrams, and more.
+It also covers common formatting pitfalls that come up in review (like repeating the title or bolding headings).
 
-The title from your front matter is displayed automatically at the top of the post.
-Do not add it again as a heading in the body — it shows up twice, including in the post preview card.
+A few highlights for blog posts specifically:
 
-### Do not bold headings
-
-Headings are already styled by the theme.
-Writing `## **My heading**` adds redundant bold markup.
-Use plain headings:
-
-```markdown
-## My heading
-```
-
-### Keep the post body clean for summaries
-
-Hugo generates a preview card for the blog listing from the first lines of your post body.
-If you put an author list, table of contents, or other metadata at the top of your post body, it ends up in the preview card.
-Put that kind of content further down, or use front matter fields instead.
-
-### Numbered lists with paragraphs between items
-
-Standard markdown numbered lists restart when broken by a paragraph.
-If you need numbered items with full paragraphs between them, use explicit numbers and make each item a heading:
-
-```markdown
-### 1. First point
-
-A full paragraph about the first point.
-
-### 2. Second point
-
-A full paragraph about the second point.
-```
-
-Do not rely on markdown auto-numbering (`1.`, `1.`, `1.`) when paragraphs separate the items — it resets to 1 each time.
-
-### Callouts
-
-Callouts highlight important information in a coloured box.
-Five types are available — `tip`, `info`, `warning`, `danger`, and `note` — each with a default icon and title.
-
-```markdown
-{{</* callout type="tip" */>}}
-A helpful suggestion with **markdown** support.
-{{</* /callout */>}}
-```
-
-Override the title or icon when needed:
-
-```markdown
-{{</* callout type="warning" title="Watch out" */>}}
-This step is easy to miss.
-{{</* /callout */>}}
-
-{{</* callout type="info" icon="fa-solid fa-heart" title="Community love" */>}}
-Any Font Awesome icon class works here.
-{{</* /callout */>}}
-```
-
-| Type      | Default icon           | When to use                              |
-|-----------|------------------------|------------------------------------------|
-| `tip`     | lightbulb              | Suggestions and best practices           |
-| `info`    | circle-info            | Supplementary context                    |
-| `warning` | triangle-exclamation   | Something the reader should watch out for|
-| `danger`  | circle-xmark           | Breaking changes or destructive actions  |
-| `note`    | pen                    | Neutral asides or footnotes              |
-
-### Buttons
-
-Add a call-to-action button:
-
-```markdown
-{{</* button url="https://rladies.org" text="Visit RLadies+" */>}}
-```
-
-### Mermaid diagrams
-
-Fenced code blocks with the `mermaid` language tag render as diagrams:
-
-````markdown
-```mermaid
-graph LR
-    A[Start] --> B[Process]
-    B --> C[End]
-```
-````
-
-### Images
-
-Every image in your post should have both alt text and a caption.
-They serve different purposes and go in different places.
-
-**Alt text** is read aloud by screen readers and displayed when the image fails to load.
-It describes _what the image shows_ — the content, the key visual elements, the data a chart conveys.
-A reader who cannot see the image should be able to understand it from the alt text alone.
-
-**Caption text** is the visible line displayed beneath the image.
-It describes _why the image matters_ in context — what the reader should take away, where the data comes from, or who is pictured.
-
-A good pair might look like this:
-
-- Alt: "Bar chart showing chapter growth from 12 chapters in 2016 to 219 in 2024"  
-- Caption: "RLadies+ chapter growth over the first eight years"  
-
-The alt text tells you what the chart contains.
-The caption tells you why it is here.
-
-In markdown, the alt text goes in the square brackets and the caption goes in quotes after the file path:
-
-```markdown
-![Alt text describing the image](my-image.png "Caption explaining why it matters")
-```
-
-A concrete example:
-
-```markdown
-![Bar chart showing chapter growth from 12 chapters in 2016 to 219 in 2024](chapter-growth.png "RLadies+ chapter growth over the first eight years")
-```
-
-If you omit the quoted caption, no caption is displayed — but always include alt text.
-
-For the post's _featured_ image, set it in the front matter `image` field — not in the body.
-
-### Links
-
-External links automatically open in a new tab.
-No extra markup needed.
-
-### Raw HTML
-
-Raw HTML is supported inside post content when markdown alone is not enough.
+- **Images** — always include alt text. Use a caption (in quotes after the path) to explain why the image matters. For the post's _featured_ image, use the front matter `image` field, not the body.
+- **Callouts** — use `{{</* callout type="tip" */>}}` for tips, warnings, and notes.
+- **Mermaid diagrams** — use fenced code blocks with the `mermaid` language tag.
+- **Keep the body clean** — Hugo generates preview cards from the first lines of your post. Don't put metadata or author lists at the top.
 
 ## Preview locally
 

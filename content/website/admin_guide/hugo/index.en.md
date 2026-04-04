@@ -447,101 +447,31 @@ aliases:
 - **`_default/list.html`** — Card grid with pagination. Used for section index pages. Displays child pages as cards with title, date, truncated summary, and a "Read more" link. Two-column grid on desktop, single column on mobile.
 - **Homepage (`_default/index.html`)** — Assembles the home page from partials: impact stats, chapter map, get involved cards, featured members, latest blog posts, and sponsors.
 
-### Render hooks
+### Render hooks and shortcodes
 
-The theme overrides how Hugo renders standard markdown elements:
+The theme overrides how Hugo processes standard markdown elements and provides custom shortcodes.
+These are the features content authors use when writing posts and pages.
 
-#### Images
+For full syntax, examples, and usage guidance, see the [Content Features Reference](/website/content-features/).
 
-Standard markdown images are wrapped in `<figure>` elements with lazy loading:
+**Render hooks** (in `themes/hugo-rladiesplus/layouts/_markup/`):
 
-```markdown
-![Alt text](image.png "Caption text")
-```
+| Hook | What it does | Source |
+|------|-------------|--------|
+| `render-image.html` | Wraps images in `<figure>` with lazy loading; caption from markdown title syntax | `![alt](src "caption")` |
+| `render-link.html` | Opens external links in new tab with `rel="noopener noreferrer"` | `[text](url)` |
+| `render-codeblock-mermaid.html` | Renders mermaid fenced blocks as diagrams; lazy-loads Mermaid JS only when needed | `` ```mermaid `` |
 
-The alt text goes in the square brackets (read by screen readers).
-The caption goes in quotes after the path (displayed below the image as a `<figcaption>`).
-If no caption is provided, a plain `<img>` is rendered.
+**Shortcodes** (in `themes/hugo-rladiesplus/layouts/shortcodes/`):
 
-#### Links
+| Shortcode | Purpose |
+|-----------|---------|
+| `callout` | Coloured callout boxes (tip, info, warning, danger, note) with icon and title |
+| `button` | Call-to-action button that opens in a new tab |
+| `rlogo` | Inline RLadies+ R-plus submark SVG with configurable colour or image fill |
 
-External links (starting with `http`) automatically get `target="_blank"` and `rel="noopener noreferrer"`.
-Internal links behave normally.
-
-#### Mermaid code blocks
-
-Fenced code blocks with the `mermaid` language tag render as diagrams:
-
-````markdown
-```mermaid
-graph LR
-    A[Start] --> B[End]
-```
-````
-
-The Mermaid JS library is only loaded on pages that contain mermaid blocks.
-It automatically adapts to the current dark/light theme.
-
-### Shortcodes
-
-In addition to [Hugo's built-in shortcodes](https://gohugo.io/content-management/shortcodes/), the theme provides:
-
-#### callout
-
-Coloured callout boxes for tips, warnings, and other highlighted content.
-
-```markdown
-{{</* callout type="tip" */>}}
-A helpful suggestion with **markdown** support.
-{{</* /callout */>}}
-```
-
-Override the title or icon:
-
-```markdown
-{{</* callout type="warning" title="Watch out" */>}}
-This step is easy to miss.
-{{</* /callout */>}}
-
-{{</* callout type="info" icon="fa-solid fa-heart" title="Community love" */>}}
-Any FontAwesome icon class works here.
-{{</* /callout */>}}
-```
-
-| Type | Default icon | When to use |
-|------|-------------|-------------|
-| `tip` | lightbulb | Suggestions and best practices |
-| `info` | circle-info | Supplementary context |
-| `warning` | triangle-exclamation | Something to watch out for |
-| `danger` | circle-xmark | Breaking changes or destructive actions |
-| `note` | pen | Neutral asides |
-
-#### button
-
-A call-to-action button that opens in a new tab:
-
-```markdown
-{{</* button url="https://rladies.org" text="Visit RLadies+" */>}}
-```
-
-Also accepts positional parameters:
-
-```markdown
-{{</* button "https://rladies.org" "Visit RLadies+" */>}}
-```
-
-#### rlogo
-
-The RLadies+ R-plus submark logo as an inline SVG.
-Can be filled with a colour or an image pattern:
-
-```markdown
-{{</* rlogo color="#881ef9" width="150px" alt="RLadies+ logo" */>}}
-
-{{</* rlogo image="/images/photo.jpg" width="200px" */>}}
-```
-
-Parameters: `color` (default: `var(--color-primary)`), `width` (default: `200px`), `image` (optional pattern fill), `class`, `alt`.
+To add a new shortcode, create a template in `themes/hugo-rladiesplus/layouts/shortcodes/`.
+Hugo's [shortcode documentation](https://gohugo.io/content-management/shortcodes/) covers the templating syntax.
 
 ### Data
 
