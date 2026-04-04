@@ -18,7 +18,7 @@ Here's how to add a new mentoring entry:
       blogdown::new_content(
         subdir = "mentoring",
         kind = "mentoring",
-        title = "The R-Ladies Chapter" # Replace with the chapter name
+        title = "The RLadies+ Chapter" # Replace with the chapter name
       )
       ```
 
@@ -35,7 +35,7 @@ Here's how to add a new mentoring entry:
 Example from the Cotonou entry
 
 ```yaml
-title: R-Ladies Cotonou
+title: RLadies+ Cotonou
 image: "cotonou.png"
 summary: "I asked the speaker on that day to share her experience from choosing her topic to presenting! She ecstatically shared that and we immediately got volunteers for the next meetup"
 date: "01-01-2019"
