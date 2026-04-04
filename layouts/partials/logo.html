@@ -1,10 +1,24 @@
 <a href="{{ .Site.BaseURL }}">
-  <img 
-    id="rladies-logo" 
-    src="/images/r-ladies-logo.svg" 
-    alt="R-Ladies Logo" 
-    style="width: auto; 
-    height: 100px; 
+  <img
+    id="rladies-logo"
+    src="/images/logo-wide-white.svg"
+    alt="RLadies+ logo"
+    style="width: auto;
+    height: 60px;
     max-width: 100%;
-    display: block;"/>
+    display: block;
+    padding: 0.5rem 0;"/>
 </a>
+<script>
+(function(){
+  var logo = document.getElementById('rladies-logo');
+  var dark = '/images/logo-wide-white.svg';
+  var light = '/images/logo-wide.svg';
+  function update(variant) {
+    logo.src = variant.indexOf('dark') !== -1 ? dark : light;
+  }
+  document.addEventListener('themeVariantLoaded', function(ev) {
+    update(ev.detail.variant);
+  });
+})();
+</script>
