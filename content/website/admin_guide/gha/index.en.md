@@ -6,6 +6,15 @@ menuTitle: GitHub Actions
 
 ## Website build action
 
+The website is built using a GitHub Action that runs on every push to the main branch and on a daily schedule (to shuffle ranges like the directory).
+Of note, the action pulls data from several repositories to populate the website, including:
+- [rladies/directory](https://github.com/rladies/directory)
+- [rladies/meetup_archive](https://github.com/rladies/meetup_archive)
+- [rladies/awesome-rladies-blogs](https://github.com/rladies/awesome-rladies-blogs)
+
+While the website repository contains mock data for these data, the action will always pull the latest data from the actual repositories to ensure that the website is up-to-date.
+
+
 {{< mermaid >}}
 graph TB
 
@@ -35,25 +44,52 @@ O --> P[Deploy Netlify]
 P --> Q["Notify PR about build"]
 {{< /mermaid >}}
 
-##
+## Preview action
+
+There are two ways to preview the website build:
+
+1. **By GitHub Actions**: Builds the website either when a PR is created (or updated) or through a workflow dispatch event. 
+The action will build the website and deploy it to a temporary URL, which can be used to preview the changes made in the PR. 
+However, this action requires access to the repository secrets to deploy the preview, which are not available for forks. 
+While the action is still triggered and the build is attempted, so we can catch build failures early, the deployment will be absent for forks.
+1. **By Netlify**: Any PR from a fork to the website is rendered by Netlify, since the fork repository does not have access to our repository secrets (and thus the GitHub action builds will always fail). PRs from forks will need to be approved by a team member before the Netlify preview is available.
+
+The GitHub action preview build is a fairly complicated workflow, which does the following:
 
 {{< mermaid >}}
+graph TD
+    A[Workflow Dispatch] -->|Initialize Required Variables| E[Checkout Repository]
+    E --> F[Set Env Parameters]
+    
+    F --> G(Install Libraries and Tools)
+    G --> H[Clean Folders]
+    H --> I{Directory Data Handling}
+    
+    I -->|Request main repo| J[Checkout DIRECTORY Repo]
+    I -->|Request subset data | K[Download Directory Artifact]
+    J --> L[Move DIRECTORY Data to correct folder]
+    K --> L
+    L --> M[Get Blogs List]
+    M --> N[Fetch Meetup Data]
+    N --> O[Clean and Organize Folders]
+    
+    O --> P[Setup Hugo]
+    P --> Q[Build Site with Hugo]
+    Q --> R{Is it a fork?}
+    R -->|No| S[Deploy to Netlify]
+    R -->|Yes| T[Skip Deployment]
+    
+    S --> U[Workflow Complete]
+    T --> U
+
+    U -->|Fail| W[Failure Notification]
+    U -->|Success| V[Preview Notification]
+
 {{< /mermaid >}}
 
-##
-
-{{< mermaid >}}
-{{< /mermaid >}}
-
-##
-
-{{< mermaid >}}
-{{< /mermaid >}}
-
-##
-
-{{< mermaid >}}
-{{< /mermaid >}}
+When triggered, it has several inputs that are possible to set, which are mainly used to control what data it should fetch (for the directory and awesome-rladies-blogs, which come from a separate repository).
+If the action is triggered by a workflow in another repository (e.g. from an action in the directory repo), it will also notify the source repository about the build status.
+This is done so that data in these other repos are tested against the website build, and if there are issues, the other repository can be notified to fix them.
 
 ## Automatic merging of "pending" PRs
 
@@ -80,3 +116,4 @@ graph TD
     D -- no --> F;
 
 {{< /mermaid >}}
+
