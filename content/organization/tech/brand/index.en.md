@@ -5,11 +5,16 @@ weight: 4
 
 ## Branding for your chapter
 
-**Colors**
+**Colors Palette**
 
-Official colours: <span style="color:#88398a;"><i class="fa fa-paint-brush" aria-hidden="true"></i>
-</span> `#88398a` (Purple) & <span style="color:#a7a9ac;background:black;"><i class="fa fa-paint-brush" aria-hidden="true"></i>
-</span> `#a7a9ac` (Gray).
+Main colour: <span style="color:#881ef9;"><i class="fa fa-paint-brush" aria-hidden="true"></i>
+</span> `#881ef9` (Blue Violet) 
+
+Accent colours: <span style="color:#146af9;"><i class="fa fa-paint-brush" aria-hidden="true"></i>
+</span> `#146af9` (Dodger Blue) & <span style="color:#ff5b92;"><i class="fa fa-paint-brush" aria-hidden="true"></i>
+</span> `#ff5b92` (Brilliant Rose).
+
+Basic colours:
 
 **Logo**
 
