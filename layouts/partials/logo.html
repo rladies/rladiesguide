@@ -14,11 +14,19 @@
   var logo = document.getElementById('rladies-logo');
   var dark = '/images/logo-wide-white.svg';
   var light = '/images/logo-wide.svg';
-  function update(variant) {
-    logo.src = variant.indexOf('dark') !== -1 ? dark : light;
+  var mql = window.matchMedia('(prefers-color-scheme: dark)');
+  function isDark(variant) {
+    if (variant === 'auto') return mql.matches;
+    return variant.indexOf('dark') !== -1;
   }
-  document.addEventListener('themeVariantLoaded', function(ev) {
-    update(ev.detail.variant);
-  });
+  function currentVariant() {
+    return document.documentElement.dataset.rThemeVariant || '';
+  }
+  function update() {
+    logo.src = isDark(currentVariant()) ? dark : light;
+  }
+  update();
+  document.addEventListener('themeVariantLoaded', update);
+  mql.addEventListener('change', update);
 })();
 </script>
