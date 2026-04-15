@@ -1,0 +1,54 @@
+<!-- compat way of adding custom scripts in old Hugo documentation -->
+{{- $assetBusting := partialCached "assetbusting.gotmpl" . }}
+
+{{- $filePath := "css/custom.css" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+    <link href="{{ .RelPermalink }}{{ $assetBusting }}" rel="stylesheet">
+{{- else }}
+  {{- if (fileExists (printf "/static/%s" $filePath)) }}
+    <link href="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" rel="stylesheet">
+  {{- end }}
+{{- end }}
+
+{{- $filePath := "js/custom.js" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+    <script src="{{ .RelPermalink }}{{ $assetBusting }}" defer></script>
+{{- else }}
+  {{- if (fileExists (printf "/static/%s" $filePath)) }}
+    <script src="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" defer></script>
+  {{- end }}
+{{- end }}
+
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "R-Ladies Global",
+  "alternateName": ["R-Ladies Global", "RLadies Global", "RLadies+ Global"],
+  "url": "https://rladies.org",
+  "description": "R-Ladies organizational guidance",
+  "foundingDate": "2012",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ROR",
+      "value": "https://ror.org/05wpb1k41"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Wikidata",
+      "value": "Q71297539"
+    }
+  ],
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q71297539",
+    "https://github.com/rladies",
+    "https://www.linkedin.com/company/rladies",
+    "https://bsky.app/profile/rladies.org",
+    "https://hachyderm.io/@RLadiesGlobal",
+    "https://www.youtube.com/channel/UCDgj5-mFohWZ5irWSFMFcng"
+  ]
+}
+</script>
+{{ end }}
