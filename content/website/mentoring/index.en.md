@@ -4,94 +4,87 @@ menuTitle: "Add mentoring entry"
 weight: 5
 ---
 
-We now use Hugo content files and page bundles to manage mentoring program entries.
-You will first need [your own local copy](/comm/website/fork-clone-pr) of the R-Ladies website to work on.
+The mentoring page on the site, at <https://rladies.org/about-us/global-team/mentoring/>, surfaces stories of chapters that have run a mentorship and what they got out of it.
+Each story is a small page bundle under `content/mentoring/`, with a quote from the mentee and a link to a longer blog post telling the full story.
+Adding one is a small PR.
 
-Here's how to add a new mentoring entry:
+You will first need [your own local copy](/website/fork-clone-pr/) of the website.
+You only need Hugo Extended installed — no R, no `blogdown`, no `renv`.
 
-1.  **Using `blogdown::new_content()`:**
+## Create the page bundle
 
-    - Open your R session and ensure your website project is the working directory.
-    - Use the `blogdown::new_content()` function to create a new content file. You'll need to specify the path within the `content/mentoring` directory and the archetype you've created. Assuming your archetype is named `mentoring`, the command will look something like this:
+Each mentoring entry lives in its own folder under `content/mentoring/`.
+The folder name is the chapter slug (lowercase, dash-separated).
+Inside, an `index.en.md` and the chapter's photo:
 
-      ```r
-      blogdown::new_content(
-        subdir = "mentoring",
-        kind = "mentoring",
-        title = "The R-Ladies Chapter" # Replace with the chapter name
-      )
-      ```
-
-      - **`subdir = "mentoring"`**: This tells `blogdown` to create the new content within the `content/mentoring` directory.
-      - **`kind = "mentoring"`**: This specifies that you want to use the `mentoring` archetype. This archetype should contain the necessary front matter fields for your mentoring entries.
-      - **`title = "The Name of the New Mentor"`**: This will be used to generate the folder name for the page bundle and can also be used as the default title in the front matter. **Make sure to replace `"The Name of the New Mentor"` with the actual name of the mentor.**
-
-2.  **Populating the Content File:**
-
-    - The `blogdown::new_content()` function will create a new folder within `content/mentoring/`. The folder name will be based on the title you provided (e.g., `the-name-of-the-new-mentor`).
-    - Inside this folder, you'll find an `index.md` (or `index.Rmd` if your archetype uses R Markdown). Open this file and fill in the necessary information for the new mentoring entry in the front matter (the section between the `---` delimiters). This will include details like the mentor's name, their bio, links, etc., as defined in your archetype.
-    - You can also add any additional content or descriptions directly within the body of this `index.md` file.
-
-Example from the Cotonou entry
-
-```yaml
-title: R-Ladies Cotonou
-image: "cotonou.png"
-summary: "I asked the speaker on that day to share her experience from choosing her topic to presenting! She ecstatically shared that and we immediately got volunteers for the next meetup"
-date: "01-01-2019"
-mentee: "Nadeja Sero"
-mentor: ""
-article: /blog/2021-02-04-cotonout_mentoring
+```
+content/mentoring/cotonou/
+├── index.en.md
+└── cotonou.png
 ```
 
-The `summary` should be a quote from the Mentee about their experience, and the `article` would be an internal link to an associated blogpost.
-This last part is not mandatory, but it would be lovely for a blogpost written by the mentee and mentor about their experience with the program.
+You can scaffold this with the theme's mentoring archetype:
 
-3.  **Adding the Image (Page Bundle):**
+```bash
+hugo new --kind mentoring mentoring/cotonou/index.en.md
+```
 
-    - The new folder created by `blogdown::new_content()` is a Hugo page bundle. This means you can easily associate an image with their content.
-    - Place the image file directly inside the newly created folder (e.g., `content/mentoring/the-name-of-the-new-post/`).
-    - **Important:** The filename of the image should be consistent and referenced appropriately within your Hugo templates if needed (e.g., you might name it `featured.jpg` or the same as the folder name).
+That creates a folder with a starter `index.en.md` containing the right front matter fields.
 
-4.  **Committing and Pushing Your Changes:**
+## Fill in the front matter
 
-    - Once you've filled in the content and added the image, save the changes to the `index.md` file and the image file.
-    - Commit these changes to your local Git repository with a descriptive message (e.g., "Add new mentoring entry for \[Chapter Name]").
-    - Push your local branch to the remote GitHub repository.
+A complete entry looks like this:
 
-5.  **Creating a Pull Request:**
+```yaml
+---
+title: RLadies+ Cotonou
+date: "2019-01-01"
+mentee: "Nadeja Sero"
+mentor: ""
+image:
+  path: "cotonou.png"
+  alt: "Photograph of the Cotonou chapter mentoring session"
+article: /blog/2021/02-04-cotonout_mentoring
+summary: |
+  I asked the speaker on that day to share her experience from choosing her
+  topic to presenting! She ecstatically shared that and we immediately got
+  volunteers for the next meetup.
+---
+```
 
-    - Go to your repository on GitHub.
-    - You should see a notification indicating your recently pushed branch. Click the "Compare & pull request" button.
-    - Review your changes to ensure everything looks correct.
-    - Add a clear and concise title and description for your pull request, summarizing the new mentoring entry.
-    - Click the "Create pull request" button.
+Fields, plainly:
 
-Once the pull request is created, the website team will review your changes and merge them into the main branch, making the new mentoring entry live on the website.
-![Write a commit message, create a new branch, and propose the changes](https://github.com/rladies/website/blob/main/README_img/mentoring_edit4.png?raw=true)
+`title` — the chapter name as it should appear on the card.
 
-### Further details on making a PR
+`date` — the date of the mentoring story (`YYYY-MM-DD`).
 
-In the example images, a branch named `drmowinckels-patch-1` was made.
-Go to the main [repository page](https://github.com/rladies/website), and look for your new branch in the dropdown meny at the top left of the file contents table.
+`mentee` — name of the mentee. Required if the mentee is willing to be named.
 
-![Look for the branch name you made, and click it to enter it](https://github.com/rladies/website/blob/main/README_img/mentoring_edit5.png?raw=true)
+`mentor` — name of the mentor. Often empty when the mentor was the chapter at large.
 
-The site should look more or less the same to you.
-Navigate to [content/activities/mentoring/img/](content/activities/mentoring/img/), and select `Add file` then `Upload files`
-![Choose to upload new files](https://github.com/rladies/website/blob/main/README_img/mentoring_edit6.png?raw=true)
+`image.path` — filename of the chapter photo, in the same folder. Always provide `image.alt`.
 
-Drag and drop the image for your entry, write a commit message, and make sure it is committed to the branch you are on (should be selected by default).
-![Comment and propose changes to the branch you are on](https://github.com/rladies/website/blob/main/README_img/mentoring_edit7.png?raw=true)
+`article` — internal path to a longer blog post about the mentoring experience (`/blog/<year>/<slug>/`). Optional but encouraged — the listing turns this into a "Read more" link on the card.
 
-Once this is done, you are redirected to the main repository page of your current branch, where a message that your branch has recently been pushed to.
-Click the `Compare & pull request` button that appears next to this message.
-![Click on the 'Compare & pull request' button.](https://github.com/rladies/website/blob/main/README_img/mentoring_edit8.png?raw=true)
+`summary` — a quote from the mentee about the mentorship. This is what shows on the card. Use the mentee's actual words when possible.
 
-Change the head message for the pull request to clearly state what the proposed change is about.
-Click on the `Create pull request` button.
-![Enter a meaningful short description of the changes and click 'Create pull request' button](https://github.com/rladies/website/blob/main/README_img/mentoring_edit9.png?raw=true).
+The body of the file can stay empty — the mentoring layout uses only the front matter.
+If you want to add a longer description that does not fit in `summary`, write it in the body and the layout will use it as the expanded content when a visitor hovers the card.
 
-Once this is done, someone on the website team will review your proposed changes and make sure that everything is working as expected.
-If something needs changing, you will be contacted with information on what needs fixing.
-Once everything looks fine, your changes will be merged into the main repository and will appear on the website.
+## Commit and PR
+
+```bash
+git add content/mentoring/cotonou
+git commit -m "mentoring: add Cotonou entry"
+git push --set-upstream origin add-cotonou-mentoring
+```
+
+Open the PR through the GitHub UI.
+A team member will review and merge.
+
+## A note on writing the linked blog post
+
+The `article` field links to a longer story published as a blog post.
+If the post does not yet exist, that is fine — leave the field blank and add it once the post is live.
+Or write the blog post first (see [Contribute to the RLadies+ Blog](/website/blog/)) and add the mentoring entry once you have the URL.
+The mentoring page works fine without the link; it just shows the quote and the chapter name.

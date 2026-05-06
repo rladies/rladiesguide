@@ -4,34 +4,51 @@ menuTitle: "Update chapter organisers"
 weight: 4
 ---
 
-There are 2 administrative tasks which require completing when retiring former organisers:
+When an organiser steps down from their chapter, two things need to happen.
+Their role on meetup.com is changed from organiser to member.
+Their entry in the chapter's JSON file is moved from the `current` list to the `former` list.
 
-1. changing their role on meetup.com
+Both tasks are quick.
+The instructions below cover each.
 
-2. updating their status in our JSON data
+## Task 1: Change the organiser's role on meetup.com
 
-The instructions below outline each of these.
+You need to be signed in with the RLadies+ Global meetup account.
+Some browsers (Firefox in particular) have intermittently struggled with the Pro Dashboard interface — Chrome usually works.
 
-## Task 1. Changing organizer role on meetup.com
+1. Sign in to <https://meetup.com> with the RLadies+ Global account.  
+2. Click "Pro Dashboard" in the top-right.  
+3. Search for the meetup group with the retiring organiser; open its page.  
+4. In the "Organizers" panel, click "RLadies+ Global and _N_ others" to open the organisers admin page.  
+5. Find the organiser, click the `...` next to their name, choose "Change member role".  
+6. Select "member" and click "Update role".  
 
-Note: for some reason I had issues with getting this working in Firefox, but it seemed to work fine in Chrome 🤷
+That removes their organiser permissions on meetup.
 
-1. Login to meetup.com with the RLadies Global account. Select the “Pro Dashboard” from the top right of the page. Search for the meetup group containing the former organiser and go to its page.
+## Task 2: Move them from `current` to `former` in the chapter JSON
 
-2. In the “Organizers” panel, click on “R-Ladies Global and N others” to be taken to the Organizers admin page.
+The chapter JSON files live under [`data/chapters/`](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) in the website repo.
+The path of least resistance is the GitHub web UI:
 
-3. Find the member you wish to retire and click on the “...” on the right next to their name. Select “Change member role”.
+1. Find the chapter's JSON file (`country-state-city.json` or `country-city.json`).  
+2. Click the pencil icon at the top right of the file view to edit in place.  
+3. Move the organiser's name from the `organizers.current` array to the `organizers.former` array.  
+4. Scroll down, write a brief commit message ("Retire Jane Doe from RLadies+ Algiers"), choose "Create a new branch and start a pull request", click "Propose changes".  
 
-4. On the menu that appears, select “member” and then click “update role”
+The JSON validation action will run on the PR.
+A team member from `@rladies/website` will review and merge.
 
-## Task 2. Updating Organizer Status in the Directory
+If you prefer to work locally, the same change can be made through a clone — see [Working with the website](/website/fork-clone-pr/).
 
-1. Head to https://github.com/rladies/rladies.github.io/tree/main/data/chapters and find the relevant chapter. Click to open the JSON file associated with that chapter.
+## Why we keep `former` organisers in the file
 
-2. Click on the “edit” button in the top right of the code view. It looks like a little pencil.
+We could just delete the entry, but the historical record matters.
+Each chapter's page lists former organisers as recognition of past contribution, and the names stay attached to the chapter that hosted them.
+The `former` field exists for that reason.
+Do not delete entries from `current`; move them.
 
-3. You should now be able to edit the JSON file. Move the retired organizer from the “current” to the “former” field and select “Commit Changes” and then “Propose Changes” and then “Create Pull Request”.
+## When the chapter itself goes inactive
 
-4. Double-check the details and then submit the pull request! Some CI checks will run on the PR to make sure the JSON is correctly formatted, and the relevant people will be notified to review/merge it.
-
-(You can achieve the above by manually making a fork of the repo and then editing the file locally and then making a pull request, although I found this method to be quicker and easier)
+If a chapter as a whole is shutting down rather than just losing an organiser, change the chapter's `status` from `active` to `inactive` in the same JSON file.
+Inactive chapters drop off the world map and the active chapters list, but the chapter page itself remains so members can still find historical context.
+Discuss with the chapters team before doing this — the criteria for marking a chapter inactive (no events for X months, no responsive organisers) are a leadership call, not a website-team call.
