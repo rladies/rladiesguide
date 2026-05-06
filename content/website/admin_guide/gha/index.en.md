@@ -1,119 +1,176 @@
 ---
-title: GitHub Actions
-weight: 3
+title: GitHub Actions and CI
+weight: 8
 menuTitle: GitHub Actions
 ---
 
-## Website build action
+The website's CI is a small constellation of workflows in [`.github/workflows/`](https://github.com/rladies/rladies.github.io/tree/main/.github/workflows).
+Some of them build and deploy.
+Some run quality checks.
+Some sync data from external systems on a schedule.
+This page lists every workflow, what it does, and what to know when it fires on your PR.
 
-The website is built using a GitHub Action that runs on every push to the main branch and on a daily schedule (to shuffle ranges like the directory).
-Of note, the action pulls data from several repositories to populate the website, including:
-- [rladies/directory](https://github.com/rladies/directory)
-- [rladies/meetup_archive](https://github.com/rladies/meetup_archive)
-- [rladies/awesome-rladies-blogs](https://github.com/rladies/awesome-rladies-blogs)
+## Building and deploying
 
-While the website repository contains mock data for these data, the action will always pull the latest data from the actual repositories to ensure that the website is up-to-date.
+### Production build
 
+[`build-production.yaml`](https://github.com/rladies/rladies.github.io/blob/main/.github/workflows/build-production.yaml) builds and deploys the live site to <https://rladies.org/>.
+It runs on every push to `main` and twice a day on a cron (`45 */12 * * *`) so timezone-relative content like upcoming events stays fresh.
 
-{{< mermaid >}}
-graph TB
+The job:
 
-A[Checkout repository] --> B[Get Hugo version]
-B --> C[Install cURL Headers]
-C --> D[Setup R]
-D --> E[Setup renv]
-E --> F["Populate untranslated pages\n(scripts/missing_translations.R)"]
+1. Sets up R via [r-lib/actions/setup-r](https://github.com/r-lib/actions) using `RENV_PROFILE=production`.  
+2. Runs [`scripts/missing_translations.R`](https://github.com/rladies/rladies.github.io/blob/main/scripts/missing_translations.R) to create placeholder pages for any English content not yet translated.  
+3. Wipes `data/directory/` and clones the [rladies/directory](https://github.com/rladies/directory) repo using a deploy key, copying its `data/json/` to `data/directory/` and `data/img/` to `assets/directory/`.  
+4. Sets up Hugo Extended at the version pinned in `.hugoversion`.  
+5. Runs `hugo -e production -d public`.  
+6. Deploys `public/` to the `gh-pages` branch via [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).  
 
-subgraph Site Data
-F --> G["Get directory data\n(rladies/directory)"]
-F --> H["Meetup\n(rladies/meetup_archive)"]
-F --> I["Get blogs list\n(rladies/awesome-rladies-blogs)"]
-G --> J["Clean cloned repos"]
-J --> K["Merge chapter and meetup\n(scripts/get_chapters.R)"]
-end
+GitHub Pages serves the `gh-pages` branch.
+There is no Netlify in the production path.
 
-H --> J
-I --> J
-K --> L[Setup Hugo]
-L --> M[Build]
+### Preview build
 
-M -->|Production| N[Deploy]
+[`build-preview.yaml`](https://github.com/rladies/rladies.github.io/blob/main/.github/workflows/build-preview.yaml) is the workflow that lets PR authors and external repos preview their changes against a real build of the site.
+It runs only on `workflow_dispatch` and is invoked from two places.
 
-M -->|Preview| O[Install netlify cli]
-O --> P[Deploy Netlify]
-P --> Q["Notify PR about build"]
-{{< /mermaid >}}
+When a contributor pushes to a branch in the website repo, the action is dispatched automatically.
+It builds the site against `data/directory/` from the directory repo's main branch and deploys the result to a Netlify alias.
+Once the build finishes, the workflow comments on the PR with the preview URL.
 
-## Preview action
+When the [rladies/directory](https://github.com/rladies/directory) repo wants to preview a single new entry without merging it, an action there dispatches this workflow with `directory: <run_id>` set to the directory action's run ID.
+The website action then downloads the entry artefact instead of cloning the directory main branch — this is how a single new directory entry gets previewed.
 
-There are two ways to preview the website build:
+PRs from forks need a maintainer to dispatch this workflow because forks do not have access to the secrets needed to clone the private directory repo and deploy to Netlify.
+The fallback is the in-repo `check-build.yaml` and the Netlify build hook attached to forks, which together verify the build does not fail without producing a hosted preview.
 
-1. **By GitHub Actions**: Builds the website either when a PR is created (or updated) or through a workflow dispatch event. 
-The action will build the website and deploy it to a temporary URL, which can be used to preview the changes made in the PR. 
-However, this action requires access to the repository secrets to deploy the preview, which are not available for forks. 
-While the action is still triggered and the build is attempted, so we can catch build failures early, the deployment will be absent for forks.
-1. **By Netlify**: Any PR from a fork to the website is rendered by Netlify, since the fork repository does not have access to our repository secrets (and thus the GitHub action builds will always fail). PRs from forks will need to be approved by a team member before the Netlify preview is available.
+## Pull-request quality checks
 
-The GitHub action preview build is a fairly complicated workflow, which does the following:
+These run on every PR.
 
-{{< mermaid >}}
-graph TD
-    A[Workflow Dispatch] -->|Initialize Required Variables| E[Checkout Repository]
-    E --> F[Set Env Parameters]
-    
-    F --> G(Install Libraries and Tools)
-    G --> H[Clean Folders]
-    H --> I{Directory Data Handling}
-    
-    I -->|Request main repo| J[Checkout DIRECTORY Repo]
-    I -->|Request subset data | K[Download Directory Artifact]
-    J --> L[Move DIRECTORY Data to correct folder]
-    K --> L
-    L --> M[Get Blogs List]
-    M --> N[Fetch Meetup Data]
-    N --> O[Clean and Organize Folders]
-    
-    O --> P[Setup Hugo]
-    P --> Q[Build Site with Hugo]
-    Q --> R{Is it a fork?}
-    R -->|No| S[Deploy to Netlify]
-    R -->|Yes| T[Skip Deployment]
-    
-    S --> U[Workflow Complete]
-    T --> U
+### `check-build.yaml`
 
-    U -->|Fail| W[Failure Notification]
-    U -->|Success| V[Preview Notification]
+Runs the production-style build (with R, with directory data merged in) on every PR to `main`.
+This is the gate that catches breaking template changes before merge — the production deploy will not be the first time the site is built against the change.
 
-{{< /mermaid >}}
+### `check-jsons.yaml`
 
-When triggered, it has several inputs that are possible to set, which are mainly used to control what data it should fetch (for the directory and awesome-rladies-blogs, which come from a separate repository).
-If the action is triggered by a workflow in another repository (e.g. from an action in the directory repo), it will also notify the source repository about the build status.
-This is done so that data in these other repos are tested against the website build, and if there are issues, the other repository can be notified to fix them.
+Validates every modified JSON file (chapters, directory, sponsors) against the schemas in [`scripts/json_shema/`](https://github.com/rladies/rladies.github.io/tree/main/scripts/json_shema) using [`scripts/validate_jsons.R`](https://github.com/rladies/rladies.github.io/blob/main/scripts/validate_jsons.R).
+Posts a comment on the PR that updates in place: green tick when valid, code block with the validation errors when not.
 
-## Automatic merging of "pending" PRs
+### `blog-lint.yaml`
 
-Once a post (news or blog) is finished, it should be labelled as "pending" on GitHub.
-Any PR with a blog or news post that has the label "pending", will merge automatically into the main branch on the date specified in the content yaml.
+Frontmatter check for blog and news posts.
+Required fields: `title`, `author`, `date`.
+Recommended fields: `description`, `categories`, `image`.
+Hard failures: missing required fields, dates that are not `YYYY-MM-DD`, images in the body without alt text.
+Soft failures (just suggestions in the comment): unstructured authors, missing image alt text, missing recommended fields.
 
-{{< mermaid >}}
+If the lint fails, the PR is blocked from merge.
+The comment in the PR tells you which file and which field.
 
-graph TD
+### `i18n-check.yaml`
 
-    B[On: workflow_dispatch or daily schedule] --> C[Job: find_pending_prs];
+Two checks rolled into one workflow.
+Checks that every i18n key in `i18n/en.yaml` exists in `i18n/<other>.yaml`.
+Checks that every changed content directory has a translation file for every supported language.
+Posts an "i18n Coverage" comment summarising missing keys and missing files.
 
-    C --> C1[Step: Checkout Repository];
-    C1 --> C2[Step: Find PRs with pending label];
-    C2 -- outputs prs and process --> D{Condition: process == 'true'};
+This does not fail the build — `missing_translations.R` will fill in placeholders at build time — but it surfaces the gap so that translation reviewers know what to look at.
 
-    D -- yes --> E[Job: process_prs];
+### `lighthouse.yaml`
 
-    E --> E1[Step: Checkout Repository];
-    E1 --> E2[Step: Process and Merge Qualifying PRs];
-    E2 --> E3[Step: Trigger Website build];
+Runs Lighthouse on key pages and on any pages whose content changed in the PR.
+Compares scores against the same pages on the live site.
+Posts a comparison table and breakdown.
 
-    E3 --> F[End];
-    D -- no --> F;
+If any image on an audited page is missing alt text, the workflow fails the PR.
+This is the safety net that catches accessibility regressions before they hit production.
+The same workflow runs Lychee link-checking on the build output (skipping noisy hosts like meetup.com and twitter.com) and reports a bundle-size table.
 
-{{< /mermaid >}}
+### `checklist-blogpost.yaml`
 
+Posts an editorial checklist as a PR comment whenever the PR changes content under `content/{blog,news}/**/index*.{md,qmd,rmd}`.
+The checklist is informational — it does not fail the PR — and is the cue for the author and reviewers to walk through publication readiness.
+
+## Scheduled and dispatch jobs
+
+### `global-team.yml`
+
+Runs every Sunday at 16:16 UTC.
+Pulls global team data from Airtable using [`scripts/get_global_team.R`](https://github.com/rladies/rladies.github.io/blob/main/scripts/get_global_team.R), commits any changes to `data/global_team/` and the team headshots under `content/about-us/global-team/img/`, and pushes to the protected `main` branch using a service account.
+Triggers a production build via the cron afterward.
+
+### `merge-pending.yaml`
+
+Runs every weekday at 10:58 UTC and is also dispatchable manually.
+Looks for open PRs labelled `pending` whose front-matter `date` matches today.
+For each match, attempts a `gh pr merge --squash --delete-branch --auto`.
+If the merge fails, comments on the PR with the failure reason.
+
+This is the engine behind "schedule a blog post for next Tuesday" — set the date to next Tuesday, label `pending`, and the workflow merges and triggers production on that morning.
+
+## Visual: the build flow
+
+```mermaid
+flowchart TB
+    A[Push to main / cron] --> B[Setup R + renv]
+    B --> C[missing_translations.R<br>fills in placeholders]
+    C --> D[Clone rladies/directory<br>via deploy key]
+    D --> E[Move data/json → data/directory/<br>data/img → assets/directory/]
+    E --> F[Setup Hugo Extended]
+    F --> G[hugo -e production -d public]
+    G --> H[Deploy public/ to gh-pages]
+    H --> I[GitHub Pages serves rladies.org]
+```
+
+## Visual: the preview flow
+
+```mermaid
+flowchart TB
+    A[workflow_dispatch] --> B{Triggered by?}
+    B -->|website branch push| C[Use directory main]
+    B -->|directory action| D[Download entry artifact<br>from directory run_id]
+    C --> E[Move data into data/directory/]
+    D --> E
+    E --> F[Setup Hugo Extended]
+    F --> G[hugo -e development -b https://...netlify.app/]
+    G --> H{Fork?}
+    H -->|no| I[netlify deploy --alias=...]
+    H -->|yes| J[Skip deploy]
+    I --> K[Comment preview URL on PR]
+    J --> L[Comment build status on PR]
+```
+
+## Visual: the auto-merge flow
+
+```mermaid
+flowchart TB
+    A[Daily cron / dispatch] --> B[gh pr list --label pending]
+    B --> C{Any PRs?}
+    C -->|no| Z[Done]
+    C -->|yes| D[For each PR:<br>read content/*/index.md]
+    D --> E[Parse YAML date]
+    E --> F{date == today?}
+    F -->|no| D
+    F -->|yes| G[gh pr merge --squash --auto]
+    G --> H{Merged?}
+    H -->|yes| I[Trigger production build]
+    H -->|no| J[Comment failure reason on PR]
+```
+
+## What to do when CI is red
+
+The PR comments are the first place to look — every check writes a structured comment with the failure reason.
+The check-build comment, when failing, links to the workflow run.
+The lighthouse comment lists the specific images missing alt text.
+The i18n comment lists missing keys.
+
+If the production build is red on `main`, look at the most recent merge.
+The check-build job runs the same build on every PR, so a red production after a green PR is unusual — it is normally either a directory data change you cannot see in PRs (because the directory repo was merged independently), or a remote-data fetch failing temporarily.
+Re-running the production workflow after a few minutes usually clears it.
+
+If the global-team workflow fails, the most likely cause is an Airtable schema change or expired API key.
+The Airtable secret is `AIRTABLE_API_KEY` in the repo secrets.
+
+If the merge-pending workflow fails on a specific PR, the comment template is at [`.github/reply_templates/merge_errors.txt`](https://github.com/rladies/rladies.github.io/blob/main/.github/reply_templates/merge_errors.txt) (when present) and explains the most common merge-blockers — branch protection rules, missing reviews, conflicts.
