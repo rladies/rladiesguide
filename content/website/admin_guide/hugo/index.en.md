@@ -89,6 +89,12 @@ Blog posts are plain `.md`.
 If a contributor authors a post in Quarto, they commit the rendered `.md` next to the `.qmd` and Hugo only ever sees the plain markdown.
 The corresponding R Markdown / Quarto files are excluded from the build via `ignoreFiles` in `config/_default/hugo.yaml`.
 
+To make Quarto authoring frictionless, the repo root carries a small project-level [`_quarto.yml`](https://github.com/rladies/rladies.github.io/blob/main/_quarto.yml) that wires in [`figure-to-markdown.lua`](https://github.com/rladies/rladies.github.io/blob/main/figure-to-markdown.lua) — a Lua filter that rewrites Quarto's `Figure` nodes into plain markdown image syntax (`![alt](src "caption")`).
+The reason: Quarto's default `hugo-md` output produces shortcode-style figure blocks that bypass the theme's [image render hook](/website/admin_guide/shortcodes/).
+The filter normalises them so figures from `.qmd` posts render the same way as hand-written markdown images — through the render hook, with `<figure>`/`<figcaption>` and `loading="lazy"`.
+
+A Quarto contributor only needs `format: hugo-md` in their front matter; the project config supplies the rest.
+
 Multilingual pages use Hugo's [translation by filename](https://gohugo.io/content-management/multilingual/#translation-by-filename) convention.
 The English copy of a post is `index.en.md`, the Spanish copy is `index.es.md`, and so on.
 Section index pages follow the same rule: `_index.en.md`, `_index.es.md`.

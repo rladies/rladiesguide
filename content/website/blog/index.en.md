@@ -238,6 +238,48 @@ content/blog/2026/07-tidymodels-walkthrough/
 
 The `ignoreFiles` config in `hugo.yaml` excludes `*.Rmd` and `*.qmd` from the build, so they sit alongside the rendered markdown without confusing Hugo.
 
+### Quarto: just set `format: hugo-md`
+
+If you author in Quarto, the only thing you need in your `.qmd` front matter is:
+
+```yaml
+---
+title: "Your post title"
+format: hugo-md
+---
+```
+
+That is it.
+The repository's root [`_quarto.yml`](https://github.com/rladies/rladies.github.io/blob/main/_quarto.yml) already wires in a small Lua filter, [`figure-to-markdown.lua`](https://github.com/rladies/rladies.github.io/blob/main/figure-to-markdown.lua), so any `.qmd` rendered anywhere under the repo picks it up automatically.
+You do not need a `filters:` line, you do not need a relative path, you do not need to copy anything from another post.
+
+Render with `quarto render path/to/index.en.qmd` and commit the resulting `.md` next to the source.
+
+### How figures should be written
+
+The Lua filter rewrites Quarto's `Figure` nodes back into plain markdown image syntax (`![alt](src "caption")`), so they pass through the theme's [image render hook](/website/admin_guide/shortcodes/) and become a `<figure>` with a `<figcaption>` and `loading="lazy"`.
+
+What that means for you as an author: write code chunks that produce figures with **both** `fig-alt` and `fig-cap`.
+
+````markdown
+```{r}
+#| label: scatter-age-score
+#| fig-alt: "Scatterplot of age against score, points coloured by treatment group, showing a positive trend in both groups"
+#| fig-cap: "Score increases with age in both treatment arms (n = 142)"
+plot(...)
+```
+````
+
+`fig-alt` is the descriptive alt text for screen readers — it should describe what the figure _shows_.
+`fig-cap` is the visible caption under the figure — it should explain why the figure _matters_.
+The two are different jobs and reading the post aloud should still make sense without seeing the figure.
+
+If you only set `fig-cap` and skip `fig-alt`, the filter will use the caption as alt text too.
+That is a workable fallback for figures whose caption is already descriptive enough to stand in for alt — but treating the caption as a "descriptive alt" is the exception, not the rule.
+The default expectation is both fields, written for their distinct audiences.
+
+The same applies to inline markdown images written by hand: `![descriptive alt](image.png "caption")` is the form the render hook expects.
+
 ## Step 8: Commit and push
 
 ```bash
