@@ -31,18 +31,18 @@ There is no Netlify in the production path.
 
 ### Preview build
 
-[`build-preview.yaml`](https://github.com/rladies/rladies.github.io/blob/main/.github/workflows/build-preview.yaml) is the workflow that lets PR authors and external repos preview their changes against a real build of the site.
-It runs only on `workflow_dispatch` and is invoked from two places.
+[`build-preview.yaml`](https://github.com/rladies/rladies.github.io/blob/main/.github/workflows/build-preview.yaml) is the workflow that lets PR authors preview their changes against a real build of the site.
+Every PR — from a branch in the website repo, from a fork, from anywhere — gets a hosted Netlify preview commented on the PR once the build finishes.
+There is no fork gating; Netlify handles the preview deploy via its build hook, so a preview appears regardless of whether GitHub Actions secrets are reachable.
 
-When a contributor pushes to a branch in the website repo, the action is dispatched automatically.
+The workflow is invoked from two places.
+
+When a contributor pushes to a branch (on the website repo or on a fork), the action is dispatched automatically.
 It builds the site against `data/directory/` from the directory repo's main branch and deploys the result to a Netlify alias.
 Once the build finishes, the workflow comments on the PR with the preview URL.
 
 When the [rladies/directory](https://github.com/rladies/directory) repo wants to preview a single new entry without merging it, an action there dispatches this workflow with `directory: <run_id>` set to the directory action's run ID.
 The website action then downloads the entry artefact instead of cloning the directory main branch — this is how a single new directory entry gets previewed.
-
-PRs from forks need a maintainer to dispatch this workflow because forks do not have access to the secrets needed to clone the private directory repo and deploy to Netlify.
-The fallback is the in-repo `check-build.yaml` and the Netlify build hook attached to forks, which together verify the build does not fail without producing a hosted preview.
 
 ## Pull-request quality checks
 
@@ -128,18 +128,15 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    A[workflow_dispatch] --> B{Triggered by?}
-    B -->|website branch push| C[Use directory main]
+    A[PR opened / pushed] --> B{Triggered by?}
+    B -->|website or fork branch push| C[Use directory main]
     B -->|directory action| D[Download entry artifact<br>from directory run_id]
     C --> E[Move data into data/directory/]
     D --> E
     E --> F[Setup Hugo Extended]
     F --> G[hugo -e development -b https://...netlify.app/]
-    G --> H{Fork?}
-    H -->|no| I[netlify deploy --alias=...]
-    H -->|yes| J[Skip deploy]
-    I --> K[Comment preview URL on PR]
-    J --> L[Comment build status on PR]
+    G --> H[netlify deploy --alias=...]
+    H --> I[Comment preview URL on PR]
 ```
 
 ## Visual: the auto-merge flow

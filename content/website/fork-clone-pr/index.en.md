@@ -23,11 +23,10 @@ Verify with `hugo version` — you want a line that says `extended` and a versio
 ## Forking versus working directly on the repo
 
 If you are a member of the [@rladies/website](https://github.com/orgs/rladies/teams/website) team, you have write access and can push branches directly to [rladies/rladies.github.io](https://github.com/rladies/rladies.github.io).
-That is the recommended workflow for team members because preview deploys then have access to repository secrets and produce a hosted preview URL.
+That is the recommended workflow for team members — it keeps the review history simpler and avoids the extra fork-sync overhead.
 
 If you are not on the team, you fork the repo, push to your fork, and open a PR from your fork.
-Preview deploys for fork PRs are gated — a team member dispatches the preview manually after a first review pass.
-The build still runs against every fork PR, so you will know if the change breaks the site even without a hosted preview.
+Either way, every PR gets a hosted Netlify preview commented on it once the build finishes — there is no fork-vs-branch difference for previews.
 
 ## Getting the code
 

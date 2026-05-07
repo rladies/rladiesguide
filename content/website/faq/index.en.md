@@ -59,12 +59,6 @@ The production build runs on every push to `main` and twice a day on cron (`45 *
 The push-triggered build typically completes in five to ten minutes.
 If you do not see your change after that, check the [Actions tab](https://github.com/rladies/rladies.github.io/actions) — the production build may have failed for unrelated reasons (a remote data fetch timing out, a directory entry validation problem) and just need a re-run.
 
-## Why do PRs from forks not get a deploy preview?
-
-Because preview deploys need access to private repository secrets — the directory deploy key, the Netlify auth token — and GitHub does not give those to PRs from forks for security reasons.
-A maintainer can dispatch the preview workflow manually for a fork PR once they have reviewed the change.
-The build itself still runs on every fork PR via [`check-build.yaml`](https://github.com/rladies/rladies.github.io/blob/main/.github/workflows/check-build.yaml), so build failures are still caught early.
-
 ## Where can I report a bug, suggest a feature, or ask a question?
 
 [GitHub Issues](https://github.com/rladies/rladies.github.io/issues) for anything trackable.
