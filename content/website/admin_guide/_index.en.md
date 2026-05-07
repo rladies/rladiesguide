@@ -19,7 +19,7 @@ That covers reviewing pull requests, keeping the site up to date and functional,
 
 The team has admin access to the [rladies/rladies.github.io](https://github.com/rladies/rladies.github.io) repository, which means we work directly on branches in the repo rather than forks.
 External contributors fork; we do not.
-This makes preview builds work cleanly because secrets are available, and it keeps the review history simpler.
+This keeps the review history simpler and avoids the fork-sync overhead — preview deploys themselves work the same either way.
 
 ## How we communicate
 
