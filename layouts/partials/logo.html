@@ -1,10 +1,32 @@
 <a href="{{ .Site.BaseURL }}">
-  <img 
-    id="rladies-logo" 
-    src="/images/r-ladies-logo.svg" 
-    alt="R-Ladies Logo" 
-    style="width: auto; 
-    height: 100px; 
+  <img
+    id="rladies-logo"
+    src="/images/logo-wide-white.svg"
+    alt="RLadies+ logo"
+    style="width: auto;
+    height: 60px;
     max-width: 100%;
-    display: block;"/>
+    display: block;
+    padding: 0.5rem 0;"/>
 </a>
+<script>
+(function(){
+  var logo = document.getElementById('rladies-logo');
+  var dark = '/images/logo-wide-white.svg';
+  var light = '/images/logo-wide.svg';
+  var mql = window.matchMedia('(prefers-color-scheme: dark)');
+  function isDark(variant) {
+    if (variant === 'auto') return mql.matches;
+    return variant.indexOf('dark') !== -1;
+  }
+  function currentVariant() {
+    return document.documentElement.dataset.rThemeVariant || '';
+  }
+  function update() {
+    logo.src = isDark(currentVariant()) ? dark : light;
+  }
+  update();
+  document.addEventListener('themeVariantLoaded', update);
+  mql.addEventListener('change', update);
+})();
+</script>
