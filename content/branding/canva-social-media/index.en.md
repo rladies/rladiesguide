@@ -12,6 +12,7 @@ You need a free account and an internet connection.
 Google Chrome is recommended — Safari has known compatibility issues.
 
 Templates are also available in the [RLadies+ Canva workspace](https://www.canva.com/folder/FAHCPq0DH3w).
+See the [Social media management guide]({{% relref "coordination/social-media-management" %}}) for how templates are organised and posting workflows.
 
 {{% notice info %}}
 The social media templates follow the RLadies+ branding guidelines.
