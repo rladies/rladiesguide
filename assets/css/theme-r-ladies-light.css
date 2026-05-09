@@ -18,7 +18,7 @@
     --CODE-BLOCK-BG-color: #f8f8fc;
     --CODE-BLOCK-BORDER-color: #d4b9f5;
     --CODE-INLINE-color: #5009a8;
-    --CODE-INLINE-BG-color: #ebe3f6;
+    --CODE-INLINE-BG-color: #f3f0fa;
     --CODE-INLINE-BORDER-color: #d4b9f5;
 
     --BROWSER-theme: light;
@@ -29,8 +29,8 @@
     --MENU-HEADER-BG-color: #f8f8fc;
     --MENU-HEADER-color: #2f2f30;
 
-    --MENU-SEARCH-color: rgba(0, 0, 0, 0.6);
-    --MENU-SEARCH-BG-color: #ebe3f6;
+    --MENU-SEARCH-color: #2f2f30;
+    --MENU-SEARCH-BG-color: #f3f0fa;
     --MENU-SEARCH-BORDER-color: #d4b9f5;
 
     --MENU-HOME-LINK-color: #5d5f66;
@@ -46,4 +46,22 @@
     --BOX-CAPTION-color: #f8f8fc;
     --BOX-BG-color: #f8f8fc;
     --BOX-TEXT-color: #2f2f30;
-  }
+}
+
+figure {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9em;
+    color: var(--SECONDARY-color, #5d5f66);
+    font-style: italic;
+}

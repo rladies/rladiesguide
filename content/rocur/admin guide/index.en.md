@@ -108,7 +108,7 @@ _The following emojis will be used throughout this documentation to indicate whe
 ### 1 week before they are scheduled to curate
 
 1.  📁Create a draft of their introduction graphic using the information they provided in the Airtable form.
-    1.  The template and previously created graphics are available in the [shared Google Drive folder](https://drive.google.com/drive/folders/1XHSFOHHVvXny3ktGOcGVBXsUXeOYD_Qr?usp=sharing).
+    1.  The **RoCur brand template** is available in Canva under **Brand > Brand templates > RoCur** (see the [social media management guide]({{% relref "coordination/social-media-management" %}}#brand-templates) for details). Previously created graphics are in the [shared Google Drive folder](https://drive.google.com/drive/folders/1XHSFOHHVvXny3ktGOcGVBXsUXeOYD_Qr?usp=sharing).
 2.  ✉️Using the template below, send an email to the curator that includes:
     - A reminder of when they are scheduled to curate;
     - A draft of the graphic, requesting for their approval or feedback for any changes; and

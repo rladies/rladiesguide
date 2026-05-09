@@ -6,4 +6,4 @@ slides: true
 menuTitle: Wider Community
 ---
 
-Even more R-Ladies initiatives.
+Even more RLadies+ initiatives.
