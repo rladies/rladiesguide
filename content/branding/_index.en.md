@@ -1,6 +1,6 @@
 ---
 title: Branding
-weight: 4
+weight: 6
 chapter: true
 linkTitle: Branding
 ---
