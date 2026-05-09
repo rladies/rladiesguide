@@ -22,6 +22,7 @@ home = [ "HTML", "RSS"]
   disableBreadcrumb = false
   disableNextPrev   = false
   collapsibleMenu   = true
+  alwaysopen        = false
 
   hideAuthorName  = true
   hideAuthorEmail = true

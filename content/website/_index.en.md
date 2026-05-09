@@ -1,6 +1,6 @@
 ---
 title: Website
-weight: 95
+weight: 7
 chapter: true
 slides: true
 menuTitle: Website
