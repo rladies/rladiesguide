@@ -1,7 +1,7 @@
 ---
 title: "Creating a pretty URL"
 menuTitle: "Redirects (pretty url)"
-weight: 9
+weight: 11
 ---
 
 The site supports "redirect" pages — content files that exist only to bounce visitors from a clean URL on `rladies.org` to somewhere else.

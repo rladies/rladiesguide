@@ -70,6 +70,8 @@ That assignee is the first owner of the review.
 If you cannot finish a review you have been assigned — because the change is in code you are not familiar with, or because you are unavailable — it is your job to find another reviewer.
 When in doubt, get a second opinion.
 
+The full reviewer's walkthrough — how to read each GHA comment, what to look for by change type, how to tell a flake from a real failure, when to approve versus request changes — lives at [Reviewing pull requests](/website/admin_guide/review-prs/).
+
 ## Setting up locally
 
 You only need [Hugo Extended](https://gohugo.io/installation/) ≥ 0.144 and Git for everyday work.
@@ -92,5 +94,6 @@ The pages in this section, in the order you will probably read them:
 - [Dark mode and theming](/website/admin_guide/dark-mode/) — how the toggle works, how to add a component, brand tokens.  
 - [SEO, social previews, and accessibility](/website/admin_guide/seo/) — what gets generated automatically, how to fix a broken Slack preview, what the Lighthouse audit enforces.  
 - [GitHub Actions and CI](/website/admin_guide/gha/) — every workflow, what it checks, what to do when one fails.  
+- [Reviewing pull requests](/website/admin_guide/review-prs/) — reading GHA comments, what to look for by change type, when to approve, when to merge.  
 - [Blog Administration](/website/admin_guide/blog/) — Airtable workflow for the blog editorial team.  
 - [Creating a pretty URL](/website/admin_guide/redirects/) — `rladies.org/form/<thing>` and how those redirects are authored.  
