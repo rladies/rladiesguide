@@ -55,10 +55,10 @@ usethis::create_from_github("rladies/rladies.github.io")
 usethis::pr_init("my-blog-post")
 ```
 
-You only need [Hugo Extended](https://gohugo.io/installation/) installed.
-You do not need Node, npm, R, or `renv` to write a blog post.
-Earlier versions of this guide insisted on `renv::restore()` because they assumed a `blogdown`-based workflow; the site no longer uses blogdown.
-A blog post is plain markdown.
+A blog post is plain markdown, so the minimum requirement is just [Hugo Extended](https://gohugo.io/installation/) — no Node, no npm, no R needed.
+That said, the site still works happily with R-side workflows.
+If you write your posts in `.Rmd` or `.qmd`, the [blogdown](https://bookdown.org/yihui/blogdown/) and [hugodown](https://hugodown.r-lib.org/) packages remain valid ways to scaffold posts and run a live preview from RStudio.
+Step 7 covers each authoring choice — plain markdown, blogdown, hugodown, and Quarto — and how to commit the rendered output.
 
 ## Step 4: Create the post folder
 
@@ -225,20 +225,76 @@ Save and watch the local preview at `http://localhost:1313/blog/2026/06-iwd-reca
 ## Step 7: Authoring with R or Quarto
 
 If your post is a tutorial that needs to run R code, you can author it in a `.qmd` (Quarto) or `.Rmd` (R Markdown) file alongside `index.en.md`.
-The convention: render the `.qmd`/`.Rmd` to `.md` locally and commit both files.
-Hugo only sees the `.md` — the source is committed for reproducibility.
+The convention is the same regardless of which engine you use: **render to `.md` locally and commit both files**.
+Hugo only sees the `.md` — the source is committed for reproducibility, so reviewers and future contributors can re-knit it.
 
 ```
 content/blog/2026/07-tidymodels-walkthrough/
-├── index.en.qmd       # the source
+├── index.en.qmd       # the source (or .Rmd)
 ├── index.en.md        # the rendered output, committed
 ├── chunks/            # any cached output
 └── feature.png
 ```
 
-The `ignoreFiles` config in `hugo.yaml` excludes `*.Rmd` and `*.qmd` from the build, so they sit alongside the rendered markdown without confusing Hugo.
+The `ignoreFiles` config in `hugo.yaml` excludes `*.Rmd` and `*.qmd` from the build, so the source files sit alongside the rendered markdown without confusing Hugo.
 
-### Quarto: just set `format: hugo-md`
+Pick the engine you are most comfortable with — they all produce the same Hugo-ready markdown.
+
+### Option A: blogdown
+
+If you already use [blogdown](https://bookdown.org/yihui/blogdown/) day to day, it still works for this site.
+You will use blogdown only as an authoring helper — `serve_site()` for live preview and the New Post addin for scaffolding — not as the build tool.
+
+Recommended setup:
+
+```r
+install.packages("blogdown")
+```
+
+From the project root in RStudio, the blogdown "New Post" addin (`Addin → New Post`) will scaffold the page bundle and front matter for you.
+Pick the `blog` archetype, fill in the title, set the date and tags, and choose `Rmd` as the format if you want code chunks.
+
+For live preview, use:
+
+```r
+blogdown::serve_site()
+```
+
+When you knit the `.Rmd`, blogdown writes the `.md` next to it.
+Commit both files.
+
+A few site-specific notes:
+
+- The site does not use `renv` for blog posts.
+  Earlier versions of this guide insisted on `renv::restore()` — that is no longer needed unless you are working on the site infrastructure itself.
+- The theme is `hugo-rladiesplus`, not the blogdown default themes.
+  blogdown's "New Post" addin still works because it only writes to `content/`, but theme-specific scaffolds (like the home page) will not render correctly inside `serve_site()` unless you have Hugo Extended installed.
+
+### Option B: hugodown
+
+[hugodown](https://hugodown.r-lib.org/) is a leaner alternative to blogdown — it is intentionally just enough to render `.Rmd` to `.md` for a Hugo site.
+
+```r
+install.packages("hugodown")
+```
+
+To render a single post:
+
+```r
+hugodown::use_post("blog/2026/07-tidymodels-walkthrough/index.en.Rmd")
+hugodown::render(input = "content/blog/2026/07-tidymodels-walkthrough/index.en.Rmd")
+```
+
+For live preview:
+
+```r
+hugodown::hugo_start()
+```
+
+The `_hugodown.yaml` shipped with the post controls front-matter conversion; the defaults work for this site.
+Commit the `.Rmd` and the rendered `.md`.
+
+### Option C: Quarto
 
 If you author in Quarto, the only thing you need in your `.qmd` front matter is:
 
@@ -257,9 +313,8 @@ Render with `quarto render path/to/index.en.qmd` and commit the resulting `.md` 
 
 ### How figures should be written
 
-The Lua filter rewrites Quarto's `Figure` nodes back into plain markdown image syntax (`![alt](src "caption")`), so they pass through the theme's [image render hook](/website/admin_guide/shortcodes/) and become a `<figure>` with a `<figcaption>` and `loading="lazy"`.
-
-What that means for you as an author: write code chunks that produce figures with **both** `fig-alt` and `fig-cap`.
+Whichever engine you pick, write code chunks that produce figures with **both** `fig-alt` and `fig-cap`.
+The figures end up as plain markdown images (`![alt](src "caption")`) in the rendered `.md`, which the theme's [image render hook](/website/admin_guide/shortcodes/) turns into a `<figure>` with a `<figcaption>` and `loading="lazy"`.
 
 ````markdown
 ```{r}
