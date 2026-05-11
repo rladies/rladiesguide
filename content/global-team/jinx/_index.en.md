@@ -12,7 +12,7 @@ Within seconds, a website preview build kicks off in `rladies.github.io`, a comm
 None of that needed a person.
 It needed Jinx.
 
-Jinx is the R-Ladies organization's GitHub App.
+Jinx is the RLadies+ organization's GitHub App.
 Think of it as a small bot account that lives in the org and lends its identity to our automations.
 When a workflow needs to comment on a pull request, kick off a build in another repository, or invite a new contributor to a team, it asks Jinx for a short-lived token and acts on Jinx's behalf.
 The comment shows up as coming from `jinx-familiar[bot]`.
@@ -20,7 +20,7 @@ The bot is the familiar — the little creature that does the errands so the wit
 
 ## Why we use a bot instead of personal tokens
 
-For a long time R-Ladies workflows ran on personal access tokens.
+For a long time RLadies+ workflows ran on personal access tokens.
 That worked, but it had two annoying properties.
 First, those tokens belong to one person.
 When the person leaves, takes a long break, or simply forgets to rotate, the tokens expire and a workflow somewhere goes quiet — usually at the worst possible moment.
@@ -34,7 +34,7 @@ Nothing long-lived sits around waiting to leak.
 
 ## What you'll see Jinx doing
 
-Across the R-Ladies repos, Jinx shows up in a few shapes.
+Across the RLadies+ repos, Jinx shows up in a few shapes.
 
 In pull request comments, Jinx posts build notifications, contributor welcomes, and review checklists.
 In issues, Jinx responds to slash commands typed by maintainers — the kind you might recognize from other bots like `/lgtm` or `/approve`.
