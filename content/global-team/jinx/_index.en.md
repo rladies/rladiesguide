@@ -41,6 +41,19 @@ In issues, Jinx responds to slash commands typed by maintainers — the kind you
 In the background, Jinx runs scheduled jobs: weekly chapter reports, Airtable syncs, stale-entry reminders, contributor lists.
 And in a handful of workflows, Jinx steps across repositories — for example, when the directory repo needs to trigger a preview build in `rladies.github.io`, that cross-repo handshake goes through Jinx.
 
+## Where Jinx runs today
+
+The org is gradually migrating workflows off personal access tokens and onto Jinx.
+Repos already on Jinx:
+
+- [`rladies/jinx`](https://github.com/rladies/jinx) — the app's own home, where most of the scheduled and command-driven workflows live.  
+- [`rladies/global-team`](https://github.com/rladies/global-team) — onboarding, offboarding, stale-issue reminders, status reports.  
+- [`rladies/rladies.github.io`](https://github.com/rladies/rladies.github.io) — preview builds, blog merge automation, contributor welcomes.  
+- [`rladies/directory`](https://github.com/rladies/directory) — preview-build dispatch when entries change.  
+- [`rladies/awesome-rladies-blogs`](https://github.com/rladies/awesome-rladies-blogs) — blog index automation.  
+
+If you maintain a repo not on this list and find yourself reaching for a personal access token, that is a good signal to consider Jinx instead.
+
 ## Talking to Jinx with slash commands
 
 In any repo where Jinx is installed, you can leave a comment on an issue or pull request that starts with `/jinx`.
