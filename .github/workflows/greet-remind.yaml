@@ -3,80 +3,17 @@ name: Greet New Contributor
 on:
   pull_request:
     types: [opened]
+  issues:
+    types: [opened]
 
 jobs:
-  greet-and-remind:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Generate app token
-        id: app-token
-        uses: actions/create-github-app-token@v1
-        with:
-          app-id: ${{ secrets.JINX_APP_ID }}
-          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
-          owner: rladies
-
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - uses: actions/github-script@v7
-        name: "Greet new contributor"
-        with:
-          github-token: ${{ steps.app-token.outputs.token }}
-          script: |
-              const fs = require('fs');
-              const PR_AUTHOR = context.payload.pull_request.user.login;
-
-              // Check if user has any previous commits via GitHub API
-              const { data: commits } = await github.rest.repos.listCommits({
-                owner: 'rladies',
-                repo: 'rladiesguide',
-                author: PR_AUTHOR,
-                per_page: 1
-              }).catch(() => ({ data: [] }));
-
-              if (commits.length > 0) {
-                console.log(`${PR_AUTHOR} has previous commits, not a new contributor`);
-                return;
-              }
-
-              // Check if user has any previous merged PRs
-              const { data: prs } = await github.rest.pulls.list({
-                owner: 'rladies',
-                repo: 'rladiesguide',
-                state: 'closed',
-                per_page: 100
-              });
-              const hasMergedPR = prs.some(pr =>
-                pr.user.login === PR_AUTHOR &&
-                pr.merged_at &&
-                pr.number !== context.payload.pull_request.number
-              );
-
-              if (hasMergedPR) {
-                console.log(`${PR_AUTHOR} has previous merged PRs, not a new contributor`);
-                return;
-              }
-
-              // Check if user is already in .zenodo.json
-              const zenodo = JSON.parse(fs.readFileSync('.zenodo.json', 'utf8'));
-              const creators = zenodo.creators || [];
-              const nameLC = PR_AUTHOR.toLowerCase();
-              const inZenodo = creators.some(c => {
-                const name = (c.name || '').toLowerCase();
-                return name.includes(nameLC) || nameLC.includes(name.split(',')[0].trim().toLowerCase());
-              });
-
-              if (inZenodo) {
-                console.log(`${PR_AUTHOR} found in .zenodo.json, not a new contributor`);
-                return;
-              }
-
-              console.log(`${PR_AUTHOR} is a new contributor, posting welcome comment`);
-              await github.rest.issues.createComment({
-                issue_number: context.payload.pull_request.number,
-                owner: 'rladies',
-                repo: 'rladiesguide',
-                body: `Welcome ${PR_AUTHOR}! It looks like this is your first contribution to this repository. 🎉\n\nPlease remember to add yourself to the [.zenodo.json](.zenodo.json).`
-              });
+  welcome:
+    uses: rladies/jinx/.github/workflows/reusable-welcome-contributor.yml@main
+    with:
+      extra_message: |
+        While you are here, please remember to add yourself to the
+        [`.zenodo.json`](.zenodo.json) file so you are credited in the
+        next release.
+    secrets:
+      JINX_APP_ID: ${{ secrets.JINX_APP_ID }}
+      JINX_PRIVATE_KEY: ${{ secrets.JINX_PRIVATE_KEY }}
