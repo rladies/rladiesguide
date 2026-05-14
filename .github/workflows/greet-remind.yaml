@@ -6,6 +6,10 @@ on:
   issues:
     types: [opened]
 
+permissions:
+  contents: read
+  packages: read
+
 jobs:
   welcome:
     uses: rladies/jinx/.github/workflows/reusable-welcome-contributor.yml@main
