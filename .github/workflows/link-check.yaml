@@ -95,21 +95,48 @@ jobs:
           script: |
             const fs = require('fs');
             let report = '## Broken Link Check\n\n';
+
+            function isInternal(line) {
+              return /\[(ERR|TIMEOUT)\] (file:\/\/|\/[^/])/.test(line) ||
+                     /guide\.rladies\.org/.test(line);
+            }
+
+            function formatBlock(lines) {
+              const shown = lines.slice(0, 30).map(l => l.trim()).join('\n');
+              let block = '```\n' + shown + '\n```\n';
+              if (lines.length > 30) {
+                block += `\n*...and ${lines.length - 30} more. See workflow logs for full report.*\n`;
+              }
+              return block;
+            }
+
             if (fs.existsSync('lychee-report.md')) {
               const raw = fs.readFileSync('lychee-report.md', 'utf8');
-              const lines = raw.split('\n');
-              const errors = lines.filter(l => l.includes('[ERR]') || l.includes('[TIMEOUT]'));
+              const errors = raw.split('\n').filter(l =>
+                l.includes('[ERR]') || l.includes('[TIMEOUT]')
+              );
+              const internal = errors.filter(isInternal);
+              const external = errors.filter(l => !isInternal(l));
+
               if (errors.length === 0) {
                 report += ':white_check_mark: No broken links found.\n';
               } else {
-                report += `Found **${errors.length}** broken link(s):\n\n`;
-                report += '```\n';
-                for (const line of errors.slice(0, 30)) {
-                  report += line.trim() + '\n';
+                if (internal.length > 0) {
+                  report += `### :x: ${internal.length} broken internal link(s)\n\n`;
+                  report += 'Internal links are pages within this site, ';
+                  report += '`guide.rladies.org` references, or root-relative ';
+                  report += 'paths. **These fail the check** — please fix ';
+                  report += 'before merging.\n\n';
+                  report += formatBlock(internal);
+                  report += '\n';
                 }
-                report += '```\n';
-                if (errors.length > 30) {
-                  report += `\n*...and ${errors.length - 30} more. See workflow logs for full report.*\n`;
+                if (external.length > 0) {
+                  report += `### :warning: ${external.length} broken external link(s)\n\n`;
+                  report += 'External links are flagged for awareness but ';
+                  report += 'do not block merge — a third-party site may be ';
+                  report += 'temporarily down, rate-limiting, or have moved.\n\n';
+                  report += formatBlock(external);
+                  report += '\n';
                 }
               }
             } else {
