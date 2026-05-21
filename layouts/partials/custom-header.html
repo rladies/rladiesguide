@@ -19,6 +19,21 @@
   {{- end }}
 {{- end }}
 
+{{/*
+  Relearn's opengraph.html only emits article:published_time / article:modified_time
+  when .IsPage is true. Fill the gap on the home page, section indexes, and taxonomies
+  so the Jinx RAG indexer can weight every page by content age and maintenance freshness.
+*/}}
+{{- if not .IsPage }}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" }}
+  {{- with or .PublishDate .Date }}
+    <meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+  {{- end }}
+  {{- with .Lastmod }}
+    <meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+  {{- end }}
+{{- end }}
+
 {{ if .IsHome }}
 <script type="application/ld+json">
 {

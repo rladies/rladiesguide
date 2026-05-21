@@ -95,8 +95,8 @@ Here are some of the things we can support you with:
 
 1.  If you are new to organising events, we could team you up with an
     experienced organiser from another chapter. If this is of interest
-    to you, please join the mentoring programme by filling this form:
-    [https://goo.gl/forms/MtVTIwBwUFYYW50B3](https://goo.gl/forms/MtVTIwBwUFYYW50B3).
+    to you, please join the mentoring programme by filling the
+    [mentoring signup form](https://rladies.org/form/mentoring-signup/).
 
 2.  If you need quick advice, feel free to ask on the organisers'
     slack.
@@ -252,4 +252,5 @@ Best wishes,
 ```
 
 [^spreadsheet1]: You'll need to request access.
+
 [^spreadsheet2]: You'll need to request access.

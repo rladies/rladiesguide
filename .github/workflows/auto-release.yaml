@@ -10,24 +10,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checkout your repository
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.JINX_APP_ID }}
+          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
+          owner: rladies
+
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # Set up Git user
       - name: Configure Git
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Jinx[bot]"
+          git config user.email "jinx@rladies.org"
 
-      # Create a tag for the release
       - name: Create Tag
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           RELEASE="$(date +"%Y").$(date +"%m")"
           echo "RELEASE=$RELEASE" >> $GITHUB_ENV
           git tag -a "$RELEASE" -m "Automatic release $RELEASE"
           git push origin "$RELEASE"
 
-      # Create a GitHub Release
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -35,4 +42,4 @@ jobs:
           name: "Automatic Release ${{ env.RELEASE }}"
           body: "Quarterly release of the R-Ladies guide."
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
