@@ -182,7 +182,14 @@
   };
 
   function isDark() {
-    return (window.relearn.lastVariant || "").indexOf("dark") !== -1;
+    var variant =
+      window.relearn.lastVariant ||
+      document.documentElement.dataset.rThemeVariant ||
+      "";
+    if (variant === "auto") {
+      return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    }
+    return variant.indexOf("dark") !== -1;
   }
 
   Object.defineProperty(window.relearn, "mermaidConfig", {
