@@ -26,7 +26,7 @@ sequenceDiagram
     U->>GH: /jinx report weekly
     GH-->>W: issue_comment event
     W->>W: mint app installation token
-    W->>R: cmd_parse() &rarr; cmd_execute()
+    W->>R: cmd_parse() then cmd_execute()
     R-->>W: result string
     W->>GH: post comment as Jinx[bot]
     GH-->>U: comment appears in thread

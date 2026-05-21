@@ -27,7 +27,7 @@ sequenceDiagram
     participant L as Workers AI<br>(Llama-3.1)
     U->>S: DM / @-mention / Assistant message
     S->>W: event_callback
-    W->>W: intent check<br>(coding? &rarr; decline)
+    W->>W: intent check<br>(coding question? decline)
     W->>E: embed(question)
     E-->>W: vector
     W->>V: top-k similarity search
