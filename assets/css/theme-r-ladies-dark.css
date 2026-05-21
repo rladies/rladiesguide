@@ -1,4 +1,4 @@
-#R-sidebar ul.collapsible-menu>li> :is(a, span) {
+#R-sidebar ul.collapsible-menu > li > :is(a, span) {
   padding-left: calc(1.3rem - var(--bpx1) * 1px);
 }
 
@@ -22,7 +22,7 @@
   --CODE-INLINE-BORDER-color: #5009a8;
 
   --BROWSER-theme: dark;
-  --MERMAID-theme: base;
+  --MERMAID-theme: dark;
   --OPENAPI-theme: dark;
   --OPENAPI-CODE-theme: obsidian;
 
