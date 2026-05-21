@@ -4,6 +4,8 @@ menuTitle: "For developers"
 weight: 60
 ---
 
+<img src="/img/jinx/coding.svg" alt="Jinx the witch's cat, at a laptop" width="140" align="right" style="margin: 0 0 1rem 1.5rem;">
+
 This page is for the org members who write workflows or hack on Jinx itself.
 If you just want to know what `/jinx` can do, [Commands]({{< relref "commands" >}}) is the place.
 For a quick map of which code runs in which runtime, see ["Where the code runs"]({{< relref "/global-team/jinx#where-the-code-runs" >}}) on the landing page.

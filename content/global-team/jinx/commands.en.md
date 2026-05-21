@@ -4,6 +4,8 @@ menuTitle: "Commands"
 weight: 10
 ---
 
+<img src="/img/jinx/walking.svg" alt="Jinx the witch's cat, walking" width="140" align="right" style="margin: 0 0 1rem 1.5rem;">
+
 The same `/jinx` commands work on GitHub and Slack.
 The difference is where the response goes -- a GitHub issue comment or a Slack message.
 

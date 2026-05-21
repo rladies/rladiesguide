@@ -4,6 +4,8 @@ menuTitle: "Airtable invites"
 weight: 50
 ---
 
+<img src="/img/jinx/working.svg" alt="Jinx the witch's cat, working at a desk" width="140" align="right" style="margin: 0 0 1rem 1.5rem;">
+
 _Runs in: **Cloudflare Worker** ([`worker/src/airtable-invite.js`](https://github.com/rladies/jinx/blob/main/worker/src/airtable-invite.js)). No GitHub Actions, no R package._
 
 When someone fills the RLadies+ chapter sign-up form (an Airtable form), Airtable POSTs a webhook to the Cloudflare Worker.

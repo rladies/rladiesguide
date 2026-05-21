@@ -4,6 +4,8 @@ menuTitle: "Slash commands"
 weight: 20
 ---
 
+<img src="/img/jinx/box_task.svg" alt="Jinx the witch's cat, carrying a box" width="140" align="right" style="margin: 0 0 1rem 1.5rem;">
+
 _Runs in: **Cloudflare Worker** (Slack slash entry) → **GitHub Actions** with the `jinx-bot` container (most commands) or **Worker only** ([the four local commands]({{< relref "commands#slack-only-commands" >}}))._
 
 A `/jinx ...` invocation has two front doors: GitHub issue comments and Slack slash commands.

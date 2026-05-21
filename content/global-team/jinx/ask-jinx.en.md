@@ -4,6 +4,8 @@ menuTitle: "Asking Jinx"
 weight: 30
 ---
 
+<img src="/img/jinx/support.svg" alt="Jinx the witch's cat, lending a paw" width="140" align="right" style="margin: 0 0 1rem 1.5rem;">
+
 _Runs in: **Cloudflare Worker** ([`worker/src/slack-events.js`](https://github.com/rladies/jinx/blob/main/worker/src/slack-events.js), [`worker/src/rag.js`](https://github.com/rladies/jinx/blob/main/worker/src/rag.js)) + **Cloudflare Vectorize** + **Workers AI**. No GitHub Actions, no R package._
 
 When you DM Jinx in Slack, mention them in a channel, or use the Slack Assistant panel, your message is treated as a question -- not a slash command.

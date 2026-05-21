@@ -4,6 +4,8 @@ menuTitle: "Troubleshooting"
 weight: 70
 ---
 
+<img src="/img/jinx/error.svg" alt="Jinx the witch's cat, looking sheepish" width="140" align="right" style="margin: 0 0 1rem 1.5rem;">
+
 A few failure modes that have actually happened.
 
 ## GitHub Actions

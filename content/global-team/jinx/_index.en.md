@@ -7,6 +7,8 @@ aliases:
   - /coordination/jinx/
 ---
 
+<img src="/img/jinx/celebrating.svg" alt="Jinx the witch's cat, celebrating" width="160" align="right" style="margin: 0 0 1rem 1.5rem;">
+
 Someone opens a pull request in the directory repo.
 Within seconds, a website preview build kicks off in `rladies.github.io`, a comment appears on the PR with a link to follow the build, and the contributor sees a friendly note welcoming them.
 Someone in Slack DMs Jinx asking how to start a chapter, and a few seconds later they get an answer with a link straight to the relevant guide page.

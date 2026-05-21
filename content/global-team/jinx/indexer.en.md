@@ -4,6 +4,8 @@ menuTitle: "Indexer"
 weight: 40
 ---
 
+<img src="/img/jinx/cloud.svg" alt="Jinx the witch's cat, with a cloud" width="140" align="right" style="margin: 0 0 1rem 1.5rem;">
+
 _Runs in: **GitHub Actions** ([`bot-index-content.yml`](https://github.com/rladies/jinx/blob/main/.github/workflows/bot-index-content.yml), Ubuntu runner) executing **Node.js** code in [`indexer/`](https://github.com/rladies/jinx/tree/main/indexer), which calls **Cloudflare Workers AI** for embeddings and **Cloudflare Vectorize** to store them._
 
 The answers Jinx gives in [DMs and the Assistant panel]({{< relref "ask-jinx" >}}) come from a Cloudflare Vectorize index called `rladies-content`.
