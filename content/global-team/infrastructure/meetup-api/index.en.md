@@ -1,9 +1,10 @@
 ---
 title: "Meetup API Credentials"
 linkTitle: "Meetup API"
-weight: 9
+weight: 50
 aliases:
   - /organization/tech/meetup-api/
+  - /organizers/tech/meetup-api/
 ---
 
 The `meetup_archive` repo connects to the Meetup.com API every 12 hours to archive chapter and event data.
@@ -11,11 +12,11 @@ It uses JWT-based authentication, which requires three secrets.
 
 ## Secrets
 
-| Secret | What it is |
-|---|---|
-| `JWT_TOKEN` | A JWT signing key (RSA private key) registered with the Meetup API |
-| `JWT_ISSUER` | The Meetup user ID associated with the API application |
-| `CLIENT_KEY` | The OAuth client key from the Meetup API application |
+| Secret       | What it is                                                         |
+| ------------ | ------------------------------------------------------------------ |
+| `JWT_TOKEN`  | A JWT signing key (RSA private key) registered with the Meetup API |
+| `JWT_ISSUER` | The Meetup user ID associated with the API application             |
+| `CLIENT_KEY` | The OAuth client key from the Meetup API application               |
 
 These are stored as repo-level secrets on `rladies/meetup_archive`.
 
@@ -23,9 +24,9 @@ These are stored as repo-level secrets on `rladies/meetup_archive`.
 
 The [meetupr](https://github.com/rladies/meetupr) R package handles the authentication flow:
 
-1. It signs a JWT using `JWT_TOKEN` and `JWT_ISSUER`  
-2. It exchanges that JWT for an OAuth access token using `CLIENT_KEY`  
-3. It uses the access token to call the Meetup GraphQL API  
+1. It signs a JWT using `JWT_TOKEN` and `JWT_ISSUER`
+2. It exchanges that JWT for an OAuth access token using `CLIENT_KEY`
+3. It uses the access token to call the Meetup GraphQL API
 
 This is tied to the R-Ladies Meetup Pro account, which has access to all R-Ladies chapter data.
 
@@ -33,11 +34,11 @@ This is tied to the R-Ladies Meetup Pro account, which has access to all R-Ladie
 
 If the credentials need to be regenerated:
 
-1. Log in to [meetup.com](https://www.meetup.com) with the R-Ladies Pro account  
-2. Go to the [API applications page](https://www.meetup.com/api/oauth/list/)  
-3. Either edit the existing application or create a new one  
-4. Generate a new RSA key pair for JWT signing if needed  
-5. Note the Client Key and Member ID (used as `JWT_ISSUER`)  
+1. Log in to [meetup.com](https://www.meetup.com) with the R-Ladies Pro account
+2. Go to the [API applications page](https://www.meetup.com/api/oauth/list/)
+3. Either edit the existing application or create a new one
+4. Generate a new RSA key pair for JWT signing if needed
+5. Note the Client Key and Member ID (used as `JWT_ISSUER`)
 
 Then update the secrets:
 
