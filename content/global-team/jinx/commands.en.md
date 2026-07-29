@@ -55,7 +55,7 @@ These commands perform an action (create an issue, send an invite, post an annou
 
 ## Slack-only commands
 
-These four commands never leave the Cloudflare Worker -- they hit the Slack Web API directly, so they reply in seconds without needing a GitHub Actions run.
+These commands never leave the Cloudflare Worker -- they hit the Slack Web API directly, so they reply in seconds without needing a GitHub Actions run.
 They exist only on Slack; running them in a GitHub comment will not do anything.
 
 | Command                            | What it does                                                        |
@@ -64,5 +64,8 @@ They exist only on Slack; running them in a GitHub comment will not do anything.
 | `/jinx pair @alice @bob [message]` | Open a group DM with mentioned users (up to 7)                      |
 | `/jinx remind-me <when> \| <what>` | Set a personal Slack reminder for yourself                          |
 | `/jinx feedback [days]`            | Show reaction signal on Jinx's recent answers                       |
+| `/jinx questions [days]`           | _(Global Team)_ What folks asked, the gaps, and 👎'd replies        |
+| `/jinx shorten <url> [slug]`       | _(Organisers)_ Create a `l.rladies.org` short link                  |
+| `/jinx invite-link [url] [cap]`    | _(Leadership)_ Show, or rotate, the Community Slack invite link     |
 
 For how slash commands actually flow through the worker and GitHub Actions, see [Slash commands]({{< relref "slash-commands" >}}).
