@@ -56,5 +56,5 @@ For mentors, this is an opportunity to help to build community, learn about the 
 
 To make the mentoring experience smoother and more structured, you can find detailed guidelines for each role and useful reference materials:
 
-- [**Guidelines for mentors**](https://guide.rladies.org/coordination/mentoring/guidelines_mentors)
-- [**Guidelines for mentees**](https://guide.rladies.org/coordination/mentoring/guidelines_mentees)
+- [**Guidelines for mentors**](/coordination/mentoring/guidelines_mentors)
+- [**Guidelines for mentees**](/coordination/mentoring/guidelines_mentees)
