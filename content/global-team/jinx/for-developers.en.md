@@ -130,6 +130,43 @@ The jinx repo runs several checks on pull requests:
 
 If Jinx is not yet installed on the repo, ping someone with org-admin access.
 
+## Copilot content reviews
+
+Jinx can hand a content review to **GitHub Copilot**, guided by the four review gates in [rladies/grimoire](https://github.com/rladies/grimoire) -- brand, blog, social, and translation.
+Grimoire is a set of Claude Agent Skills, and Copilot only reads its own instruction files, so Jinx bridges the two.
+Turning it on for a repo is two steps.
+
+1. **Sync the gates into the repo.** Run `/jinx copilot-sync <owner/repo>`. It opens a PR that adds `.github/copilot-instructions.md` and path-scoped `.github/instructions/*.instructions.md` so Copilot's review speaks the RLadies+ brand and voice. Re-run it whenever grimoire changes.
+2. **Wire the reusable workflow** so Copilot reviews every content PR. It needs `pull-requests: write` on top of the usual `contents: read` / `packages: read`:
+
+```yaml
+# .github/workflows/jinx-copilot-review.yml
+name: Copilot review
+on:
+  pull_request:
+    types: [opened, ready_for_review, synchronize]
+    paths:
+      - "content/**"
+permissions:
+  contents: read
+  packages: read
+  pull-requests: write
+jobs:
+  copilot-review:
+    uses: rladies/jinx/.github/workflows/reusable-copilot-review.yml@main
+    secrets: inherit
+```
+
+On demand, an organiser can also summon a review from Slack or a GitHub comment, naming the gate and the PR:
+
+```
+/jinx review blog rladies/rladies.github.io#42
+```
+
+Copilot posts its findings on the PR as a tiered Blockers / Warnings / Nits punch list.
+It is a _pre-human_ review gate -- it flags issues for a human to act on, and never approves, merges, or publishes.
+Copilot code review must be enabled on the org, and Jinx's GitHub App needs Pull Requests read & write (it already has this).
+
 ## The jinx R package
 
 The command logic lives in the [`jinx` R package](https://rladies.github.io/jinx/).
