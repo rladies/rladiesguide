@@ -4,76 +4,136 @@ menuTitle: "Translation reviews"
 weight: 8
 ---
 
-We've used DeepL to generate translations of our website content and have made them available in the [deepl](https://github.com/rladies/rladies.github.io/tree/deepl) branch of our repository.
-This branch is also available for [preview online](https://dmain-bmain-r413--rladies-dev.netlify.app/).
+If you speak Spanish, Portuguese, or French — or you are happy to translate from English into one of those — the site needs you.
 
-Now, we need your help to ensure these translations are accurate, natural-sounding, and align with the R-Ladies ethos.
+The English content is reviewed and translated.
+The Spanish, Portuguese, and French copies are mostly machine-generated placeholders waiting for human review.
+A reviewed page becomes the page that ships in production once the language is enabled there; an unreviewed one stays auto-translated and shows the orange banner explaining as much.
 
-## What We're Looking For in a Review
+This page is the workflow for finding a page, fixing the auto-translation, and getting your work merged.
 
-- **Accuracy of Meaning:** More than just translating words directly, we need to ensure the _intended meaning_ of the original English content is accurately conveyed in the target language. Sometimes a direct word-for-word translation can sound awkward or miss the point. Think about the message we're trying to get across.
-- **Clarity:** Is the translated text easy to understand and grammatically correct in the target language?
-- **Natural Flow:** Does the language sound natural and not robotic or overly literal? Consider idiomatic expressions or common phrasing in the target language.
-- **Inclusivity and Gender Neutrality:** Where possible and appropriate in the target language, please ensure the language is inclusive and gender-neutral in the prose surrounding the code.
-- **Cultural Nuances:** Are there any cultural nuances that need to be considered or adjusted for the target audience?
-- **Code-Specific Considerations:** When reviewing sections containing code, please pay attention to the following:
-  - **Do Not Translate:** Function names, their arguments, and core programming keywords (like `function`, `if`, `else`, etc.) should **not** be translated. These are part of the programming language itself and need to remain in English for the code to be functional.
-  - **Translate Where Appropriate:** Comments within the code should be translated to make the code's purpose and logic more accessible in the target language. Similarly, variable names can be translated if it significantly improves understanding for speakers of that language, while still maintaining clarity and consistency. Use your best judgment here – if a translated variable name becomes confusing or loses its technical meaning, it's best to leave it in English.
+## What we are looking for
 
-## How to Contribute A Review
+A good review is more than swapping words.
 
-You'll be working on a copy of our repository, called a "fork," to make your edits. Here's how to get started:
+Accuracy of meaning, not literal translation.
+The English source is sometimes idiomatic.
+A literal translation can sound awkward or miss the point.
+Translate the intent, not the letters.
 
-1. **Find content to review**
+Clarity.
+The translated text should read naturally in the target language and be grammatically correct.
+If a sentence is clearer in two short sentences than in one long one, write two short sentences.
 
-   - Go to the [preview online](https://dmain-bmain-r413--rladies-dev.netlify.app/), and in the footer select a language you speak and want to review.
-   - Find a webpage you would like to provide a review on. They all have a purple notice at the top of the document, that notifies that this is an auto-translation and provides a link to the document you can edit.
-   - Check if someone is already working on a review of this particular page in our [translation tracking](https://github.com/orgs/rladies/projects/11) project.
-     - If someone is already reviewing it, or we already have a first review on the content, please go to the relevant linked version of that and indicate in the comments that you would like to provide a second review of the content.
-     - If the page is not listed in our tracking system, you can proceed to the next steps.
+Inclusivity and gender neutrality.
+RLadies+ values inclusive language.
+Where the target language has gender-neutral options that fit the prose, prefer them.
+Spanish in particular has active community work on inclusive forms — follow the conventions the existing translated content already uses.
 
-1. **Fork the Repository:**
+Cultural fit.
+A reference to a holiday, a meme, an idiom, or a sports analogy that lands in English may not in another language.
+Substitute, footnote, or rewrite as needed.
+The goal is the reader feels at home, not that the translation is identical.
 
-   - In the top right corner, click the "Fork" button. This creates a copy of the repository under your personal GitHub account. With this workflow you can review the content directly on GitHub.
-   - If you plan on revieweing several pages, and want to work on your own local machine, we describe how to do this [its another chapter](/comm/website/fork-clone-pr).
+Code samples.
+Function names, arguments, and core programming keywords (`function`, `if`, `else`, `library`, etc.) stay in English — they are part of the programming language, not the natural language.
+Comments inside code blocks should be translated.
+Variable names can be translated where it improves understanding for speakers of the target language without making the code harder to read.
 
-1. **Navigate to the "deepl" Branch:**
+## Step 1: Find a page to review
 
-   - Once you're on your forked repository, switch to the "deepl" branch. You can usually do this by clicking on the branch name (likely "main") and selecting "deepl" from the dropdown menu.
+Local preview is the fastest way to find auto-translated pages.
 
-1. **Make Your Edits:**
+```bash
+git clone https://github.com/rladies/rladies.github.io.git
+cd rladies.github.io
+hugo server
+```
 
-   - Browse the files in the "deepl" branch. These contain the translated content, which may include code blocks.
-   - Click on a file you want to review.
-   - To make changes, click the "Edit this file" button (it looks like a pencil icon). This will allow you to modify the text directly in your browser.
-   - Carefully review the translation, focusing on conveying the original meaning accurately and naturally in the surrounding text, and applying the code-specific translation guidelines. Make any necessary corrections or improvements based on all the criteria mentioned above.
-   - When editing code blocks, be extra careful not to accidentally alter function names, arguments, or programming keywords.
-   - Once you're satisfied with your changes in a file, scroll to the bottom and provide a descriptive commit message (e.g., "Review and edit French translation of page with code examples," "Improved clarity in Spanish code comments and variable names").
-   - Click the "Commit changes" button.
+Open <http://localhost:1313/>, switch to your language using the footer language picker, and browse.
+Pages with the orange "auto-translated" banner are the ones waiting for review.
 
-1. **Create a Pull Request (PR):**
-   - After committing your changes to your fork, you'll see a prompt to "Compare & pull request" on your forked repository's page. Click this button.
-   - On the "Open a pull request" page:
-     - Ensure the **base repository** is the main R-Ladies website repository and the **base** branch is "deepl".
-     - The **head repository** should be your fork and the **compare** branch should be the branch where you made your edits (it will likely be "main" unless you created a new branch in your fork).
-     - Add a clear and concise title to your pull request (e.g., "Review of French translations including code sections," "Improvements to Spanish code comments and text").
-     - In the description, provide a summary of the changes you've made, highlighting any adjustments to code comments or variable names and noting that you've avoided translating core code elements.
-     - Click the "Create pull request" button.
+Alternatively, the live preview branch hosts a snapshot.
+The preview URL is shared in PR comments and in `#team-website` whenever a translation review pass is in progress.
+Pick a page nobody else is working on and start.
 
-### Reviewing Multiple Files
+If you want to coordinate, the [translation tracking project](https://github.com/orgs/rladies/projects/11) is where the team tracks who has claimed which page.
+Comment on a page's tracking issue to say you are working on it.
 
-If you want to review several files, including those with code, you can do so all within your fork before creating a pull request:
+## Step 2: Edit the file
 
-1.  **Make Multiple Edits:** Follow steps 3 and 4 above for each file you want to review and commit the changes to your fork.
-2.  **Create a Single Pull Request:** Once you've finished reviewing all the files, follow step 5 to create a single pull request. All the commits you made in your fork will be included in this one PR. This helps keep our main repository organized.
+The page lives at `content/<section>/<slug>/index.<lang>.md`.
+For example, the Spanish copy of the FAQ is `content/about-us/faq/index.es.md`.
 
-## What happens after PR?
+Open it.
+The front matter at the top has `translated: auto` — that is what triggers the banner.
+The body below is a copy of the English source.
 
-Once the PR is in place, team member from the @rladies/website team will have a look at what you have done.
-Firstly, they will do some checks that makes sure that the general structure remains intact (all the correct yaml headers etc are still present).
+Replace the body with your translation.
+Translate the relevant front-matter fields too — `title`, `description`, `summary`, anything reader-facing.
+Do not translate `date`, `directory_id`, image filenames, or other technical fields.
 
-Secondly, someone from @rladies/translation will have a look at the translated content and provide feedback if they are able to do so (i.e. we have someone on staff who speaks the language well enough).
-They will also try to find another person to have a second look at your review, so we can have the best translations we can.
-All changes to the content will be made in your fork where your translation review is, and will automatically be update the PR with all the changes you make.
+Once the page is fully translated and you are confident in the work, remove the `translated: auto` line.
+That promotes the page to a reviewed translation; the banner will not show.
 
-Once everything looks good. the @rladies/website team member will remove the `translated: no` section of the yaml, indicating that this page has been reviewed, and will no longer have the auto-translate banner.
+If you only got partway through and want to commit progress, leave `translated: auto` in place — the banner is honest about the state.
+
+## Step 3: Working with code blocks
+
+Inside fenced code blocks, the rule is conservative.
+Function names, arguments, library calls, and language keywords stay in English.
+Comments translate.
+Variable names can translate if it genuinely helps a reader of your language understand the code, but only if they were generic to begin with — never translate `df` to a Spanish synonym just because.
+
+A walked-through example:
+
+````markdown
+The English source:
+
+```r
+# Filter the dataset to only include rows where age > 18
+adults <- df |> filter(age > 18)
+```
+
+A good Spanish translation:
+
+```r
+# Filtrar el conjunto de datos para incluir solo filas donde edad > 18
+adults <- df |> filter(age > 18)
+```
+````
+
+The comment becomes Spanish.
+`filter`, `>`, the pipe, the variable names — unchanged.
+The code still runs.
+
+## Step 4: Commit and PR
+
+```bash
+git checkout -b translate-faq-spanish
+git add content/about-us/faq/index.es.md
+git commit -m "Translate FAQ to Spanish"
+git push --set-upstream origin translate-faq-spanish
+```
+
+Open a PR.
+Tag [@rladies/translation](https://github.com/orgs/rladies/teams/translation).
+
+The i18n coverage check will run and confirm the file changes are coherent.
+The build check will confirm Hugo can render the page.
+A reviewer who speaks the language will go through the prose; if the team can find a second native speaker for a final pass, they will.
+Suggestions come back through GitHub code review.
+
+## Reviewing several pages at once
+
+Stack the edits on a single branch.
+Each commit can be one file — that keeps the diff easy to review — but they all land in one PR.
+Once you are done with the batch, push and open the PR.
+
+Do not split a multi-page batch into multiple PRs unless they are unrelated topics.
+The reviewer's overhead is per-PR, not per-file.
+
+## When something is unclear
+
+[Open an issue](https://github.com/rladies/rladies.github.io/issues) describing what is unclear, or ask in `#team-translation`.
+Translation reviewers are themselves a small community within RLadies+, and the answer is often two messages away.

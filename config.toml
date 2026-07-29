@@ -15,17 +15,19 @@ home = [ "HTML", "RSS"]
 
 
 [params]
+  ror = "https://ror.org/05wpb1k41"
   editURL = "https://github.com/rladies/rladiesguide/edit/main/content/"
   githubsource = "https://github.com/rladies/rladiesguide/blob/main/content/"
   showVisitedLinks  = false
   disableBreadcrumb = false
   disableNextPrev   = false
   collapsibleMenu   = true
+  alwaysopen        = false
 
   hideAuthorName  = true
   hideAuthorEmail = true
 
-  linkTitle = 'R-Ladies Guide'
+  linkTitle = 'RLadies+ Guide'
   themeVariant = ['auto', 'r-ladies-light', 'r-ladies-dark']
 
 [params.author]

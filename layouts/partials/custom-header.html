@@ -1,0 +1,69 @@
+<!-- compat way of adding custom scripts in old Hugo documentation -->
+{{- $assetBusting := partialCached "assetbusting.gotmpl" . }}
+
+{{- $filePath := "css/custom.css" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+    <link href="{{ .RelPermalink }}{{ $assetBusting }}" rel="stylesheet">
+{{- else }}
+  {{- if (fileExists (printf "/static/%s" $filePath)) }}
+    <link href="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" rel="stylesheet">
+  {{- end }}
+{{- end }}
+
+{{- $filePath := "js/custom.js" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+    <script src="{{ .RelPermalink }}{{ $assetBusting }}" defer></script>
+{{- else }}
+  {{- if (fileExists (printf "/static/%s" $filePath)) }}
+    <script src="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" defer></script>
+  {{- end }}
+{{- end }}
+
+{{/*
+  Relearn's opengraph.html only emits article:published_time / article:modified_time
+  when .IsPage is true. Fill the gap on the home page, section indexes, and taxonomies
+  so the Jinx RAG indexer can weight every page by content age and maintenance freshness.
+*/}}
+{{- if not .IsPage }}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" }}
+  {{- with or .PublishDate .Date }}
+    <meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+  {{- end }}
+  {{- with .Lastmod }}
+    <meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+  {{- end }}
+{{- end }}
+
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "R-Ladies Global",
+  "alternateName": ["R-Ladies Global", "RLadies Global", "RLadies+ Global"],
+  "url": "https://rladies.org",
+  "description": "R-Ladies organizational guidance",
+  "foundingDate": "2012",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ROR",
+      "value": "https://ror.org/05wpb1k41"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Wikidata",
+      "value": "Q71297539"
+    }
+  ],
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q71297539",
+    "https://github.com/rladies",
+    "https://www.linkedin.com/company/rladies",
+    "https://bsky.app/profile/rladies.org",
+    "https://hachyderm.io/@RLadiesGlobal",
+    "https://www.youtube.com/channel/UCDgj5-mFohWZ5irWSFMFcng"
+  ]
+}
+</script>
+{{ end }}

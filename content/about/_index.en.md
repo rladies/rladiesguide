@@ -1,5 +1,5 @@
 ---
-title: About R-Ladies
+title: About RLadies+
 weight: 1
 chapter: true
 slides: true

@@ -1,6 +1,6 @@
 ---
 title: WeAreRLadies, The R-Ladies RoCur
-weight: 95
+weight: 5
 chapter: true
 slides: true
 linkTitle: WeAreRLadies

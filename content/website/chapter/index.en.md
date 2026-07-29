@@ -4,29 +4,26 @@ menuTitle: "Add chapter"
 weight: 3
 ---
 
-## Create a new file
+A chapter is a JSON file under `data/chapters/` in the website repository.
+The chapter list at <https://rladies.org/chapters/>, the world map on the home page, and the per-chapter pages all read from these files.
+Adding or updating a chapter means adding or editing one JSON file and opening a PR.
 
-Create a new file in the [data/chapters/](https://github.com/rladies/website/blob/main/data/chapters) folder by [using this link](https://github.com/rladies/website/new/main/?filename=data/chapters/country-state-city.json&value=%7B%0A%20%20%22urlname%22%3A%20%22rladies-%22%2C%20%20%20%20%20%20%20%20//meetup%20link%0A%20%20%22status%22%3A%20%22%22%2C%20%20%20%20%20//%20prospective%2C%20active%20or%20inactive%0A%20%20%22country%22%3A%20%22%22%2C%20%20%20%20%20%20%20%20%20%20//%20country%2C%20capitalised%0A%20%20%22state.region%22%3A%20%22%22%2C%20%20%20%20//%20state%20or%20region%2C%20capitalised%2C%20optional%0A%20%20%22city%22%3A%20%22%22%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20//%20city%2C%20capitalised%0A%20%20%22social_media%22%3A%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20//%20social%20media%20links%0A%20%20%20%20%22meetup%22%3A%20%22rladies-%22%2C%20%0A%20%20%20%20%22twitter%22%3A%20%22%22%2C%0A%20%20%20%20%22email%22%3A%20%22%22%0A%20%20%20%20%7D%2C%0A%20%20%20%20%22organizers%22%3A%20%7B%0A%20%20%20%20%20%20%22current%22%3A%20%5B%5D%2C%20//%20comma%20separated%20and%20each%20item%20quoted%0A%20%20%20%20%20%20%22former%22%3A%20%5B%5D%0A%20%20%20%20%7D%0A%7D). This link will fork the repository to your user account, and initiate a new file with some template content in it.
+The chapters live in the website repo, not the directory repo.
+That is intentional — chapter information is public, the directory is access-controlled, and they are organisationally distinct concerns.
 
-## File name
+## File naming
 
-The name of the file should be the chapters identifier, with country (state/region if applicable) and city. 
-This way we can ensure each file has a unique name and that duplication does not happen.
-Any spaces should be substituted with a dash (`-`), in lowercase, and special characters removed.
-For example, for a chapter in New York City, USA, the file name would be:
-`usa-new-york-new-york-city.json`
+The filename is the chapter identifier in `country-state-city.json` form, lowercased, dashes for spaces, no special characters.
+This is what becomes the chapter's URL: `data/chapters/usa-new-york-new-york-city.json` becomes `https://rladies.org/chapters/usa-new-york-new-york-city/`.
 
-The website will then create a URL for the chapter page based on this file name, e.g.
-`https://rladies.org/chapters/usa-new-york-new-york-city/`
+If the chapter does not have a state or region, drop that segment: `data/chapters/algeria-algiers.json`.
 
+The naming convention exists so two chapters in different states with the same city name (e.g., a Portland in Oregon and a Portland in Maine) get unique files and unique URLs.
 
 ## File content
 
-Fill in the appropriate information in the json.
-Make sure to remove everything after the double slashes (`//`) in the final file, as these are just comments to help you fill out the information properly.
-If the chapter does not have a state/region to apply, the entire line may be removed (rather than left empty).
-
-example file:
+Open [the chapter JSON schema](https://github.com/rladies/rladies.github.io/blob/main/scripts/json_shema/chapter.json) for the canonical fields.
+A typical entry:
 
 ```json
 [
@@ -47,46 +44,70 @@ example file:
 ]
 ```
 
-### Social media options
+Fields:
 
-There are a set of currently available social media to be added.
-If you think a new social media outlet should be added to the list, contact a website maintainer.
+`urlname` — the chapter's identifier on meetup.com. The site uses this to fetch event data from the meetup archive.
+
+`status` — one of `prospective`, `active`, `inactive`. Only `active` chapters appear on the world map.
+
+`country`, `state.region`, `city` — used to position the chapter on the map and group it on the chapters list. The `country` value should match an entry in [the continents data file](https://github.com/rladies/rladies.github.io/blob/main/data/continents.yaml) so the chapter ends up in the right continent group on the chapters list.
+
+`social_media` — see the social media list below. Optional fields can be omitted entirely; do not leave them empty.
+
+`organizers.current` and `organizers.former` — arrays of organiser names. The chapter page renders both lists on a tabbed view. When an organiser retires, move them from `current` to `former` rather than deleting them — see [Updating chapter organisers](/website/organizers/).
+
+## Social media keys
+
+The chapter pages and chapter list render icons for each social media key.
+The supported keys:
 
 ```
 "twitter": "username"
 "github": "username"
 "instagram": "username"
-"youtube": "username/end-url"
+"youtube": "channel/UCxxxxxxx"   # or "user/yourname"
 "tiktok": "username"
 "periscope": "username"
 "researchgate": "username"
-"website": "url"
-"linkedin": "username"
-"facebook": "username"
-"orcid": "member number"
-"meetup": "end-url"
-"mastodon": "@username@server"
+"website": "https://full.url"
+"linkedin": "company-or-handle"
+"facebook": "groupname"
+"orcid": "0000-0000-0000-0000"
+"meetup": "rladies-yourchapter"
+"mastodon": "@username@server.example"
+"bluesky": "handle.bsky.social"
+"slack": "https://invite-link"
 ```
 
-## Commit and PR the file
+If your chapter uses a network not in this list, ask in `#team-website` first — adding a new key requires updating the social media partial in the theme so it can render the icon and link.
 
-At the bottom of the page on GitHub, add a commit message in the box.
+## Adding the chapter image
 
-You will immediately be sent to the 'Pull requests' page, to create a PR to the main branch.
-Click the `Create pull request` button.
-Once this is done, a new page will open and some automated checks of your submitted entries start.
-In the comment section, make sure to @drmowinckels so she can take a look.
+Each chapter can have an image shown on its page, typically the chapter's logo or a group photo.
 
-If anything needs fixing you will be notified and given instructions on how to do that.
+The image goes under `assets/chapters/`, with the filename matching the JSON filename minus the extension.
+A chapter at `data/chapters/algeria-algiers.json` looks for an image at `assets/chapters/algeria-algiers.png` (or `.jpg`, `.webp`, etc.).
+Hugo's image processing pipeline picks up the file automatically — no separate front-matter reference needed.
 
-Once all checks pass and the entries have been reviewed, they will be merged to the main branch.
+If the image is missing, the chapter page renders without it.
+The build does not fail.
 
-## Adding chapter image
+## How to actually do it
 
-Adding an image for the chapter (which will be shown on the chapter's page on the website) can be done by:
+The path of least resistance is the GitHub web UI.
 
-- Going to [assets/chapters](https://github.com/rladies/rladies.github.io/tree/main/assets/chapters) folder
-- Uploading an image with the name format `country-state-city.png` (matches the chapter json file name in `data/chapters/` folder)
-- Creating a PR to the main branch as described above
+1. Go to [the data/chapters folder](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) on GitHub.  
+2. Click "Add file" → "Create new file".  
+3. Name the file `country-state-city.json` (or `country-city.json` if there is no state).  
+4. Paste the JSON template, fill in the fields.  
+5. Scroll down, write a commit message, choose "Create a new branch and start a pull request", click "Propose new file".  
 
+The JSON validation action will run on the PR and tell you if anything is wrong with the schema (missing required field, unknown social network, incorrect type).
+The build action will run and produce a preview link.
 
+If you prefer to work locally, see [Working with the website](/website/fork-clone-pr/) for the clone-and-PR workflow.
+
+## After it merges
+
+The next production build will include your chapter on the chapters list and the world map.
+The first time it appears, the meetup integration will start polling for events using your `urlname`, and any upcoming events will show up on the events page automatically.

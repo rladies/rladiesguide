@@ -8,11 +8,11 @@
 
 <!-- badges: end -->
 
-The goal of rladiesguide is to consolidate R-Ladies Global organisational guidance & wisdom.
+The goal of rladiesguide is to consolidate RLadies+ Global organisational guidance & wisdom.
 
 This is at the moment a Hugo website built with the [Hugo theme re-learn](https://mcshelby.github.io/hugo-theme-relearn/).
 
-This repo is governed by [R-Ladies Code of Conduct](https://rladies.org/code-of-conduct/).
+This repo is governed by [RLadies+ Code of Conduct](https://rladies.org/code-of-conduct/).
 
 ## Contributing with little git/GitHub/Markdown knowledge
 
@@ -53,5 +53,5 @@ From there easier: Then from the directory of the book run `hugo server`.
 
 ### Acknowledgements
 
-Thanks to all contributors to R-Ladies guidance, here and in its previous homes.
+Thanks to all contributors to RLadies+ guidance, here and in its previous homes.
 Thanks to the [R Consortium](https://www.r-consortium.org/) for funding this project.

@@ -11,7 +11,7 @@ The R community suffers from an underrepresentation of minority genders
 genderqueer, agender) in every role and area of participation, whether
 as leaders, package developers, conference speakers, conference
 participants, educators, or users ([see recent
-stats](http://forwards.github.io/data/)).
+stats](http://forwards.github.io/data.html)). 
 
 As a diversity initiative, the mission of R-Ladies is to achieve
 proportionate representation by encouraging, inspiring, and empowering
