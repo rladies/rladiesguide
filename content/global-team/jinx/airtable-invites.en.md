@@ -151,9 +151,14 @@ Jinx counts redemptions and warns `#team-community-slack` as the count nears the
 The invite link belongs to the **RLadies+ Leadership account (`leadership@rladies.org`)**, on both sides.
 
 First, it _issues_ the link.
-In the community workspace: workspace menu → _Invite people_ → copy the shared invite link.
-Only a workspace Owner or Admin can create one.
-Slack doesn't record who created a shared link, so this half is a procedural rule, not something the system can verify.
+The invite-acceptance screen shows _who_ is inviting people to the workspace, so the link should come from an account new joiners recognise and trust — and the leadership account carries the most credibility.
+Creating an invite link also needs a workspace Owner or Admin, which leadership is.
+
+To generate the link in the community workspace: workspace menu → _Invite people_ → _Copy link_.
+After clicking _Copy link_ once, an _Edit link_ menu appears — open it and set the link to _Never expire_, so it doesn't lapse on its own.
+It still stops at its signup cap (usually 400), which is what Jinx tracks and warns about.
+
+Slack doesn't record who created a shared link, so keeping this with leadership is a procedural rule, not something the system can verify.
 
 Second, it _activates_ the link, from Slack:
 
