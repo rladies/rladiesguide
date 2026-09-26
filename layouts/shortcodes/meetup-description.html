@@ -1,0 +1,9 @@
+{{- /*
+  The canonical Meetup group description, read from a single file so the
+  pages that show it cannot drift apart - and so tooling (jinx) can fetch
+  the same text at https://guide.rladies.org/templates/meetup-group-description.md
+  rather than keeping its own copy.
+
+  Edit static/templates/meetup-group-description.md, nowhere else.
+*/ -}}
+<pre><code class="language-markdown">{{- readFile "static/templates/meetup-group-description.md" | htmlEscape | safeHTML -}}</code></pre>
