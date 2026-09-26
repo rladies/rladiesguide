@@ -136,7 +136,7 @@ This URL will be changed in one of the steps below.
 
 #### Step 4: Describe who should join, and what your Meetup will do.
 
-{{< meetup-description >}}
+{{< template-file "meetup-group-description" >}}
 
 **Done!**
 The message "Your group is in review" will show up. In the meantime you can

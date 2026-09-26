@@ -55,7 +55,7 @@ A Meetup account is also a requirement for the chapter to be eligible for the [R
 
 The meetup page for your chapter will be created with some default text en English. This is what you will find there:
 
-{{< meetup-description >}}
+{{< template-file "meetup-group-description" >}}
 
 To edit this message and other basic information of your group, go to Manage Group > Edit Group Settings and select the 'Basic Information' tab.
 

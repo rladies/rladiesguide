@@ -1,0 +1,16 @@
+{{- /*
+  Render a canonical template from static/templates/<name>.md.
+
+  These texts are edited in exactly one place - the file under
+  static/templates/ - so the pages that show them cannot drift apart, and
+  tooling (jinx) can fetch the same bytes from
+  https://guide.rladies.org/templates/<name>.md instead of keeping a copy.
+
+  Usage: {{< template-file "meetup-group-description" >}}
+*/ -}}
+{{- $name := .Get 0 -}}
+{{- $path := printf "static/templates/%s.md" $name -}}
+{{- if not (fileExists $path) -}}
+  {{- errorf "template-file: no such template %q (looked for %s)" $name $path -}}
+{{- end -}}
+<pre><code class="language-markdown">{{- readFile $path | htmlEscape | safeHTML -}}</code></pre>
