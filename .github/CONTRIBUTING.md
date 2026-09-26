@@ -1,4 +1,4 @@
-# Contributing to R-Ladies organizational guidance
+# Contributing to RLadies+ organisational guidance
 
 Please refer to the README.
 
