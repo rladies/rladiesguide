@@ -229,11 +229,9 @@ follow:
     Please familiarise yourself with the R-Ladies guidelines,
     especially if you are a new organiser.
 
-5.  Given the current pandemic, you might want to consider waiting for
-    the world to go back to normal or running a remote event. We
-    invite you to take some time to think how your chapter is going to
-    work in the future. When you are ready to run your next event,
-    please follow the steps below:
+5.  Take some time to think about how your chapter is going to work in
+    the future, in person, remotely, or a mix of the two. When you are
+    ready to run your next event, please follow the steps below:
 
     a. Book the [date and time of your next event](/organization/events/online/)
 
