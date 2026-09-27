@@ -16,7 +16,9 @@ inactivity.
 ### Background
 
 Chapters can be divided into 3 categories, according to the frequency of
-their events:
+their events. Activity is measured from the events a chapter creates on
+meetup.com, which is why chapters are asked to post events there even
+when they advertise them elsewhere:
 
 - Unbegun (created in the past 6 months, no events yet)
 
@@ -241,9 +243,11 @@ follow:
     active in the near future. Include date/time and format
     (in-person Vs remote event) of your next event. If you decide
     to run a remote event, you can use our Zoom pro account.
-    c. There is no need to use the platform meetup.com, please let us
-    know what platforms you plan to use to advertise and
-    communicate with the members of your chapter in the future.
+    c. Please create your events on meetup.com, even if you advertise
+    and communicate with your members somewhere else. Meetup is how
+    we track chapter activity, so a chapter with no events there
+    reads as inactive to us. Do let us know which other platforms
+    you plan to use.
 
 Should you have any further questions, please do not hesitate to
 contact us.
