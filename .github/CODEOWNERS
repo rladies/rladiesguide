@@ -12,6 +12,7 @@
 # reports missing translations, and Netlify posts a preview.
 
 *                                       @rladies/website
+
 # Global team operations: one rule per team that runs the thing described
 content/global-team/monitoring/         @rladies/chapter-activity
 content/global-team/onboarding/         @rladies/chapter-onboarding
@@ -34,11 +35,12 @@ content/coordination/mentoring/         @rladies/mentoring
 # Conduct and brand
 content/about/coc/                      @rladies/coc
 content/branding/                       @rladies/leadership
-
-# RoCur runs its own rotating admin team, drawn from the community
-# rather than the global team. Once @rladies/rocur exists and has
-# members, point this at it - an empty team is silently ignored.
-content/rocur/                          @rladies/communications
+content/rocur/                          @rladies/rocur
 
 # The organiser-facing guide
 content/organizers/                     @rladies/organizer-guide
+content/organizers/tech/email/          @rladies/email
+
+# Website documentation
+content/website/blog/                   @rladies/blog
+content/website/mulit-lingual/          @rladies/translation
