@@ -33,7 +33,11 @@ content/coordination/mentoring/         @rladies/mentoring
 
 # Conduct and brand
 content/about/coc/                      @rladies/coc
-content/branding/                       @rladies/communications
+content/branding/                       @rladies/leadership
+
+# RoCur runs its own rotating admin team, drawn from the community
+# rather than the global team. Once @rladies/rocur exists and has
+# members, point this at it - an empty team is silently ignored.
 content/rocur/                          @rladies/communications
 
 # The organiser-facing guide
