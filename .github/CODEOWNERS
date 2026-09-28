@@ -1,40 +1,40 @@
 # Who reviews what in the guide.
 #
-# The last matching pattern wins, and a match replaces the owners rather
-# than adding to them, so every rule below names @rladies/website too:
-# they own the build and the site itself, and were the sole owner before
-# these rules existed.
+# A page about how a team works is reviewed by that team. Adding a
+# section here is the easiest way to get the right people onto a pull
+# request automatically, rather than remembering to tag them.
 #
-# The point of the rest is that a page about how a team works should be
-# reviewed by that team. Adding a section here is the easiest way to get
-# the right people onto a pull request automatically, rather than
-# remembering to tag them.
+# The last matching pattern wins, and a match replaces the owners rather
+# than adding to them, so a section below is reviewed by its team alone.
+# @rladies/website keeps everything not listed - layouts, config, the
+# theme - and CI covers what they used to check by eye: check-build
+# fails on a Hugo error, link-check catches broken links, i18n-check
+# reports missing translations, and Netlify posts a preview.
 
 *                                       @rladies/website
-
 # Global team operations: one rule per team that runs the thing described
-content/global-team/monitoring/         @rladies/chapter-activity @rladies/website
-content/global-team/onboarding/         @rladies/chapter-onboarding @rladies/website
-content/global-team/meetup/             @rladies/meetup-pro @rladies/website
-content/global-team/mentoring/          @rladies/mentoring @rladies/website
-content/global-team/directory/          @rladies/directory @rladies/website
-content/global-team/code-of-conduct/    @rladies/coc @rladies/website
-content/global-team/social-media-management/ @rladies/communications @rladies/website
-content/global-team/finance/            @rladies/leadership @rladies/website
+content/global-team/monitoring/         @rladies/chapter-activity
+content/global-team/onboarding/         @rladies/chapter-onboarding
+content/global-team/meetup/             @rladies/meetup-pro
+content/global-team/mentoring/          @rladies/mentoring
+content/global-team/directory/          @rladies/directory
+content/global-team/code-of-conduct/    @rladies/coc
+content/global-team/social-media-management/ @rladies/communications
+content/global-team/finance/            @rladies/leadership
 
 # Community programmes
-content/community/abstract-review/      @rladies/abstract-review @rladies/website
-content/community/conferences/          @rladies/conference-liaison @rladies/website
-content/community/directory/            @rladies/directory @rladies/website
-content/community/slack/                @rladies/community-slack @rladies/website
-content/community/twitter/              @rladies/communications @rladies/website
-content/community/iwd/                  @rladies/campaigns @rladies/website
-content/coordination/mentoring/         @rladies/mentoring @rladies/website
+content/community/abstract-review/      @rladies/abstract-review
+content/community/conferences/          @rladies/conference-liaison
+content/community/directory/            @rladies/directory
+content/community/slack/                @rladies/community-slack
+content/community/twitter/              @rladies/communications
+content/community/iwd/                  @rladies/campaigns
+content/coordination/mentoring/         @rladies/mentoring
 
 # Conduct and brand
-content/about/coc/                      @rladies/coc @rladies/website
-content/branding/                       @rladies/communications @rladies/website
-content/rocur/                          @rladies/communications @rladies/website
+content/about/coc/                      @rladies/coc
+content/branding/                       @rladies/communications
+content/rocur/                          @rladies/communications
 
 # The organiser-facing guide
-content/organizers/                     @rladies/organizer-guide @rladies/website
+content/organizers/                     @rladies/organizer-guide
