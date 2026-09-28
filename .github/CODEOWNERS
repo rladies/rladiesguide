@@ -37,8 +37,9 @@ content/about/coc/                      @rladies/coc
 content/branding/                       @rladies/leadership
 content/rocur/                          @rladies/rocur
 
-# The organiser-facing guide
-content/organizers/                     @rladies/organizer-guide
+# The organiser guide has no owning team, so it falls through to the
+# catch-all above. Only the parts that belong to a specific team are
+# listed here.
 content/organizers/tech/email/          @rladies/email
 
 # Website documentation
