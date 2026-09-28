@@ -5,13 +5,25 @@
 # request automatically, rather than remembering to tag them.
 #
 # The last matching pattern wins, and a match replaces the owners rather
-# than adding to them, so a section below is reviewed by its team alone.
-# @rladies/website keeps everything not listed - layouts, config, the
-# theme - and CI covers what they used to check by eye: check-build
-# fails on a Hugo error, link-check catches broken links, i18n-check
-# reports missing translations, and Netlify posts a preview.
+# than adding to them. So the order below goes broad to narrow: the
+# whole repo, then whole areas, then the sections a single team runs.
+#
+# @rladies/website keeps everything not claimed further down - layouts,
+# config, the theme - and CI covers what they used to check by eye:
+# check-build fails on a Hugo error, link-check catches broken links,
+# i18n-check reports missing translations, alt-text-check looks at
+# images, and Netlify posts a preview.
 
 *                                       @rladies/website
+
+# Areas that are global team business generally. Anything here without
+# a more specific owner below goes to the whole global team.
+content/global-team/                    @rladies/global
+content/about/                          @rladies/global
+content/community/                      @rladies/global
+content/coordination/                   @rladies/global
+content/ally/                           @rladies/global
+content/acknowledgements/               @rladies/global
 
 # Global team operations: one rule per team that runs the thing described
 content/global-team/monitoring/         @rladies/chapter-activity
@@ -37,9 +49,8 @@ content/about/coc/                      @rladies/coc
 content/branding/                       @rladies/leadership
 content/rocur/                          @rladies/rocur
 
-# The organiser guide has no owning team, so it falls through to the
-# catch-all above. Only the parts that belong to a specific team are
-# listed here.
+# The organiser guide has no owning team, so it stays with the
+# catch-all. Only the parts belonging to a specific team are listed.
 content/organizers/tech/email/          @rladies/email
 
 # Website documentation
