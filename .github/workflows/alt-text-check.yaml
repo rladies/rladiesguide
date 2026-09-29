@@ -1,0 +1,97 @@
+name: "Image alt text"
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'content/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  alt-text:
+    name: Alt text on images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.JINX_APP_ID }}
+          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
+          owner: rladies
+
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Find images added without alt text
+        id: scan
+        run: |
+          set -euo pipefail
+          # Only lines this PR adds, so the existing backlog does not
+          # block unrelated work.
+          git diff -U0 "origin/${{ github.base_ref }}...HEAD" -- content/ \
+            | grep '^+' | grep -v '^+++' | sed 's/^+//' > added.txt || true
+
+          : > offenders.txt
+          grep -noE '!\[[[:space:]]*\]\([^)]*\)' added.txt >> offenders.txt || true
+          grep -noE '<img [^>]*>' added.txt | grep -v 'alt=' >> offenders.txt || true
+
+          count=$(wc -l < offenders.txt | tr -d ' ')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Report
+        if: always()
+        uses: actions/github-script@v9
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          script: |
+            const fs = require('fs');
+            const n = Number('${{ steps.scan.outputs.count }}' || 0);
+            const marker = '## Image alt text';
+            let md = marker + '\n\n';
+            if (n === 0) {
+              md += ':white_check_mark: Every image this PR adds has alt text.\n';
+            } else {
+              const lines = fs.readFileSync('offenders.txt', 'utf8')
+                .split('\n').filter(Boolean);
+              md += `:warning: ${n} image(s) added without alt text:\n\n`;
+              for (const l of lines) {
+                md += '- `' + l.replace(/^\d+:/, '') + '`\n';
+              }
+              md += '\nAlt text describes the image for anyone using a ';
+              md += 'screen reader, and shows if the image fails to load. ';
+              md += 'Write what the image conveys: ';
+              md += '`![Chapter organisers at a workshop](photo.png)`. ';
+              md += 'If it is purely decorative, leaving it empty is ';
+              md += 'correct - say so in the PR and this can be ignored.\n';
+            }
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find(c =>
+              c.user.type === 'Bot' && c.body.includes(marker)
+            );
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body: md,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: md,
+              });
+            }

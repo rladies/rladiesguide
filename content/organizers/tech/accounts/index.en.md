@@ -55,17 +55,7 @@ A Meetup account is also a requirement for the chapter to be eligible for the [R
 
 The meetup page for your chapter will be created with some default text en English. This is what you will find there:
 
-```markdown
-This is a local chapter of R-Ladies Global (https://www.rladies.org), an organisation that promotes gender diversity in the R community worldwide. We meetup in person or virtually to learn about the R programming language, algorithms and advanced tools.
-
-R-Ladies welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
-
-We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world. You can access our presentations, R scripts, and Projects on our Github account (https://github.com/rladies) and follow us on Mastodon (https://hachyderm.io/@RLadiesGlobal) to stay up to date about R-Ladies news!
-
-Make sure you read and comply with our code of conduct (https://rladies.org/coc/) and community guidelines (https://guide.rladies.org/about/mission/#r-ladies-rules--guidelines).
-
-Please note that by taking part in an R-Ladies event you grant the community organizers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
-```
+{{< template-file "meetup-group-description" >}}
 
 To edit this message and other basic information of your group, go to Manage Group > Edit Group Settings and select the 'Basic Information' tab.
 
