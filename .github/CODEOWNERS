@@ -1,1 +1,34 @@
-*       @rladies/website
+*                                       @rladies/website
+
+content/global-team/                    @rladies/global
+content/about/                          @rladies/global
+content/community/                      @rladies/global
+content/coordination/                   @rladies/global
+content/ally/                           @rladies/global
+content/acknowledgements/               @rladies/global
+
+content/global-team/monitoring/         @rladies/chapter-activity
+content/global-team/onboarding/         @rladies/chapter-onboarding
+content/global-team/meetup/             @rladies/meetup-pro
+content/global-team/mentoring/          @rladies/mentoring
+content/global-team/directory/          @rladies/directory
+content/global-team/code-of-conduct/    @rladies/coc
+content/global-team/social-media-management/ @rladies/communications
+content/global-team/finance/            @rladies/leadership
+
+content/community/abstract-review/      @rladies/abstract-review
+content/community/conferences/          @rladies/conference-liaison
+content/community/directory/            @rladies/directory
+content/community/slack/                @rladies/community-slack
+content/community/twitter/              @rladies/communications
+content/community/iwd/                  @rladies/campaigns
+content/coordination/mentoring/         @rladies/mentoring
+
+content/about/coc/                      @rladies/coc
+content/branding/                       @rladies/leadership
+content/rocur/                          @rladies/rocur
+
+content/organizers/tech/email/          @rladies/email
+
+content/website/blog/                   @rladies/blog
+content/website/mulit-lingual/          @rladies/translation
