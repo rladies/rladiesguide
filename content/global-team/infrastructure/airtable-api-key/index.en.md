@@ -1,22 +1,28 @@
 ---
-title: "Airtable API Key"
-linkTitle: "Airtable"
-weight: 7
+title: "Airtable API Key (AIRTABLE_API_KEY)"
+linkTitle: "Airtable API Key"
+weight: 40
 aliases:
   - /organization/tech/airtable/
+  - /organizers/tech/airtable/
 ---
 
 R-Ladies uses Airtable as the backend for directory submissions and Global Team membership data.
 Two repos connect to Airtable through a shared API key stored as `AIRTABLE_API_KEY`.
 
+{{% notice info %}}
+This page documents the `AIRTABLE_API_KEY` org secret used by GitHub Actions workflows.
+If you're looking for guidance on how Global Team members use the Airtable bases day-to-day, see the [Airtable guide]({{% relref "/global-team/airtable" %}}).
+{{% /notice %}}
+
 ## Airtable bases
 
 We maintain separate Airtable bases for different purposes:
 
-| Base ID | Purpose | Key tables | Used by |
-|---|---|---|---|
-| `appzYxePUruG9Nwyg` | Directory submissions | Submissions, Languages, Countries | `directory` |
-| `appZjaV7eM0Y9FsHZ` | Global Team | Members, Teams, Alumni | `rladies.github.io` |
+| Base ID             | Purpose               | Key tables                        | Used by             |
+| ------------------- | --------------------- | --------------------------------- | ------------------- |
+| `appzYxePUruG9Nwyg` | Directory submissions | Submissions, Languages, Countries | `directory`         |
+| `appZjaV7eM0Y9FsHZ` | Global Team           | Members, Teams, Alumni            | `rladies.github.io` |
 
 The `directory` repo pulls new member submissions every Friday via `airtable-update.yml` and deletes processed records after PRs merge via `airtable-delete.yml`.
 
@@ -31,14 +37,14 @@ Make sure the account that generates the token has at least Editor access on bot
 
 ## Creating a new token
 
-1. Log in to [airtable.com](https://airtable.com) with the R-Ladies Airtable account  
-2. Go to [airtable.com/create/tokens](https://airtable.com/create/tokens)  
-3. Create a new personal access token with these scopes:  
-   - `data.records:read` — read records from tables  
-   - `data.records:write` — create and update records  
-   - `schema.bases:read` — read base schema (needed by `airtabler`)  
-4. Under "Access", add both bases: the directory base and the Global Team base  
-5. Copy the generated token  
+1. Log in to [airtable.com](https://airtable.com) with the R-Ladies Airtable account
+2. Go to [airtable.com/create/tokens](https://airtable.com/create/tokens)
+3. Create a new personal access token with these scopes:
+   - `data.records:read` — read records from tables
+   - `data.records:write` — create and update records
+   - `schema.bases:read` — read base schema (needed by `airtabler`)
+4. Under "Access", add both bases: the directory base and the Global Team base
+5. Copy the generated token
 
 ## Storing the secret
 

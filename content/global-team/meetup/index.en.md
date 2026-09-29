@@ -34,7 +34,6 @@ and guarantee requests are addressed any time of the year.
 
 - The organiser is expected to join the meetup group, so that you can
   make them a co-organiser. In order to do that:
-
   - Go to the meetup page for the chapter
 
   - Then click on 'N members' (see red oval shape in the screenshot
@@ -62,7 +61,6 @@ and guarantee requests are addressed any time of the year.
   will find their email on the Wiki of the [New Chapters Onboarding
   repository](https://github.com/rladies/new-chapters-onboarding/).
   Examples of problems we have experienced:
-
   - The name of the city is not available in the meetup database
     which prevents us from creating the meetup page. Sometimes,
     you have to check spelling in different languages. If that
@@ -77,9 +75,7 @@ and guarantee requests are addressed any time of the year.
     rladies-cityname.
 
 - Periodically **monitor content on meetup**:
-
   - Things to check:
-
     - Every chapter has at least one co-organiser (if there are no
       co-organisers, let the leadership know as this chapter
       will need to retire)
@@ -100,7 +96,6 @@ and guarantee requests are addressed any time of the year.
     advice onn the #team-global channel.
 
 - **Delete chapter pages if necessary**.
-
   - The Chapter Monitoring Team will periodically provide you with the
     list of inactive chapters to retire.
 
@@ -163,7 +158,6 @@ customize the group.
 
 - **From the group's home page click on: Manage Group > Edit Group Settings and
   select the 'Basic Information' tab**
-
   - **Custom member label:** R-Ladies
 
   - **Custom address:** meetup.com/rladies-cityname.
@@ -174,18 +168,15 @@ customize the group.
     Organizers can add other relevant topics later.
 
   - Social Media:
-
     - Add R-Ladies Mastodon account on the "Other" category: https://hachyderm.io/@RLadiesGlobal
 
     - LinkedIn: https://www.linkedin.com/company/rladies/
 
 - Save, then go Back to group settings and **select the 'Optional
   features' tab:**
-
   - Change mailing list to match urlname: rladies-cityname
 
   - In **Mailing list**,
-
     - select 'Allow all members to send messages'
 
     - Your mailing list address must be unique:
@@ -212,7 +203,7 @@ Things to keep in mind/to know:
 
 - Every time you run an event publish it into your chapter Meetup account. This will keep the chapter active. Only events published on Meetup are considered as chapter activity (because these are the ones we can keep track of).
 - The R-Ladies Guide has a whole [section about organizing events](https://guide.rladies.org/organization/events/general/). There, you'll find useful information, such as tips for planning and promoting events, instructions for using the R-Ladies Zoom account, etc.
-- The [RLadies Guide](https://guide.rladies.org/organization/tech/brand/) also has a section about our branding materials, like official logos, color palettes, presentation templates, stickers, etc.
+- The [RLadies Guide](https://guide.rladies.org/branding/) also has a section about our branding materials, like official logos, color palettes, presentation templates, stickers, etc.
 
 - When there is any change in your group (e.g., create social media accounts, etc) please, update the info here: https://github.com/rladies/rladies.github.io/tree/main/data/chapters. This is the place where the chapter info is stored so make sure it is up to date.
 
