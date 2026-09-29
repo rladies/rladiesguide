@@ -1,23 +1,5 @@
-# Who reviews what in the guide.
-#
-# A page about how a team works is reviewed by that team. Adding a
-# section here is the easiest way to get the right people onto a pull
-# request automatically, rather than remembering to tag them.
-#
-# The last matching pattern wins, and a match replaces the owners rather
-# than adding to them. So the order below goes broad to narrow: the
-# whole repo, then whole areas, then the sections a single team runs.
-#
-# @rladies/website keeps everything not claimed further down - layouts,
-# config, the theme - and CI covers what they used to check by eye:
-# check-build fails on a Hugo error, link-check catches broken links,
-# i18n-check reports missing translations, alt-text-check looks at
-# images, and Netlify posts a preview.
-
 *                                       @rladies/website
 
-# Areas that are global team business generally. Anything here without
-# a more specific owner below goes to the whole global team.
 content/global-team/                    @rladies/global
 content/about/                          @rladies/global
 content/community/                      @rladies/global
@@ -25,7 +7,6 @@ content/coordination/                   @rladies/global
 content/ally/                           @rladies/global
 content/acknowledgements/               @rladies/global
 
-# Global team operations: one rule per team that runs the thing described
 content/global-team/monitoring/         @rladies/chapter-activity
 content/global-team/onboarding/         @rladies/chapter-onboarding
 content/global-team/meetup/             @rladies/meetup-pro
@@ -35,7 +16,6 @@ content/global-team/code-of-conduct/    @rladies/coc
 content/global-team/social-media-management/ @rladies/communications
 content/global-team/finance/            @rladies/leadership
 
-# Community programmes
 content/community/abstract-review/      @rladies/abstract-review
 content/community/conferences/          @rladies/conference-liaison
 content/community/directory/            @rladies/directory
@@ -44,15 +24,11 @@ content/community/twitter/              @rladies/communications
 content/community/iwd/                  @rladies/campaigns
 content/coordination/mentoring/         @rladies/mentoring
 
-# Conduct and brand
 content/about/coc/                      @rladies/coc
 content/branding/                       @rladies/leadership
 content/rocur/                          @rladies/rocur
 
-# The organiser guide has no owning team, so it stays with the
-# catch-all. Only the parts belonging to a specific team are listed.
 content/organizers/tech/email/          @rladies/email
 
-# Website documentation
 content/website/blog/                   @rladies/blog
 content/website/mulit-lingual/          @rladies/translation
