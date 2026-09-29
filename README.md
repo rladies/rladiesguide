@@ -68,6 +68,35 @@ Fill-in slots use `<<UPPER_SNAKE>>`, for example `<<FIRST_NAME>>`, `<<CITY>>`,
 Keep to that spelling: a human filling one in by hand can see what it wants,
 and jinx substitutes them mechanically.
 
+#### Translating a template
+
+A translation sits beside the canonical file, suffixed with its language code:
+
+```
+static/templates/chapter-reactivation.md      the canonical text
+static/templates/chapter-reactivation.es.md   Spanish
+```
+
+The unsuffixed file stays the canonical one,
+so jinx's `https://guide.rladies.org/templates/<name>.md` keeps working
+and a translated file can be added or removed without touching any page.
+
+The shortcode needs no arguments for this.
+It opens the block in the language of the page being read
+and falls back to the canonical text when that translation does not exist,
+saying so in a short note rather than serving English under a Spanish heading.
+
+Where more than one language exists, the block grows a language switch.
+That is deliberate, and not the same thing as the page language:
+the language a template is *read* in
+and the language it is *sent* in are separate choices.
+An organiser who reads the guide in Spanish
+may still need to write to a chapter in English.
+
+Translated files are plain copies with the text translated.
+Leave the `<<UPPER_SNAKE>>` slots exactly as they are —
+jinx substitutes them by name, in any language.
+
 If you name a template that does not exist,
 the site build fails with the name you asked for — it will not quietly render an empty block.
 
