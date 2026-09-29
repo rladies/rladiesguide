@@ -47,7 +47,8 @@ timely.
 
   - If there is no local chapter yet:
 
-        -   We make sure it is a city using Google Maps
+        -   We make sure it is a city using Google Maps, and that the name
+            follows [the naming policy](#naming-a-chapter)
 
         -   We add the chapter to the chapter data (https://github.com/rladies/rladies.github.io/tree/main/data/chapters), only the info below
             (no email address):
@@ -100,6 +101,57 @@ timely.
 
   - General information -\point them to the Community Slack and
     meetup dashboard (see [template C](#appendix-c))
+
+## Naming a chapter
+
+A chapter is named for the **city** it serves.
+Not the country, not the state or province, not a broad region.
+
+This matters more than it looks.
+A chapter called after its country reads as though it speaks for every chapter in that country,
+and it blocks the name that a future chapter in the capital would want.
+We have four chapters in Saudi Arabia and five in Chile;
+a group called "R-Ladies Saudi Arabia" leaves no room for the other three.
+
+Check the city exists on a map before agreeing the name,
+and check no nearby chapter already covers it.
+
+### The name a chapter actually shows
+
+The chapter page on rladies.org takes its title from the **Meetup group name**,
+not from the chapter data.
+So the name is settled when the Meetup group is created,
+and changing it later means asking the chapter to rename their group —
+the Global Team cannot do it for them.
+
+Get it right at creation.
+
+### Metropolitan areas are fine
+
+A single well-known metropolitan area is an accepted exception,
+even where it spans more than one city:
+
+- `R-Ladies Twin Cities` — Minneapolis and Saint Paul
+- `RLadies+ RTP` — Research Triangle Park, spanning Raleigh, Durham and Chapel Hill
+
+The test is not "is this exactly one city".
+It is **"does this name cover territory another chapter already has, or would want?"**
+A metro area that functions as one place is fine.
+A country or a vague region is not.
+
+### Disambiguation is fine
+
+Where two chapters share a city name, adding the state or country is right, not wrong:
+
+- `R-Ladies London, Ontario` — distinct from London, UK
+- `R-Ladies Athens Greece` — distinct from Athens, Georgia, which is also a chapter
+
+### Branding
+
+Chapters name themselves.
+We do not convert a chapter's own name to "RLadies+" house style,
+and chapters are free to adopt it in their own time.
+The policy above is about _what place_ a chapter is named for, not how it spells RLadies+.
 
 ## Appendix A
 
