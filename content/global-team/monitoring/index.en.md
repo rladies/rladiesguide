@@ -16,7 +16,10 @@ inactivity.
 ### Background
 
 Chapters can be divided into 3 categories, according to the frequency of
-their events:
+their events. Activity is measured from the events a chapter creates on
+meetup.com. This applies to every chapter: events go on Meetup even when
+they are advertised somewhere else. A chapter with no Meetup group at
+all has not begun, or has gone inactive before it started.
 
 - Unbegun (created in the past 6 months, no events yet)
 
