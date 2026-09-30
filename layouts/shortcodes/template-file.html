@@ -1,16 +1,69 @@
 {{- /*
-  Render a canonical template from static/templates/<name>.md.
+  Render a canonical template from static/templates/.
 
-  These texts are edited in exactly one place - the file under
-  static/templates/ - so the pages that show them cannot drift apart, and
-  tooling (jinx) can fetch the same bytes from
+  These texts are edited in exactly one place, so the pages that show them
+  cannot drift apart, and tooling (jinx) can fetch the same bytes from
   https://guide.rladies.org/templates/<name>.md instead of keeping a copy.
+
+  Translations sit beside the canonical file as <name>.<lang>.md, which
+  leaves the unsuffixed file - and so jinx's URL - untouched:
+
+    static/templates/chapter-reactivation.md      default language
+    static/templates/chapter-reactivation.es.md   Spanish
+
+  The block opens in the reader's page language where that translation
+  exists and falls back to the canonical text where it does not, saying so
+  rather than silently serving English under a Spanish heading. Every
+  translation on disk is offered as a switch, because the language a
+  template is read in and the language it is sent in are separate choices:
+  an organiser reading the guide in Spanish may still need to write to a
+  chapter in English.
 
   Usage: {{< template-file "meetup-group-description" >}}
 */ -}}
+
 {{- $name := .Get 0 -}}
-{{- $path := printf "static/templates/%s.md" $name -}}
-{{- if not (fileExists $path) -}}
-  {{- errorf "template-file: no such template %q (looked for %s)" $name $path -}}
+{{- $dir := "static/templates" -}}
+{{- $canonical := printf "%s/%s.md" $dir $name -}}
+{{- if not (fileExists $canonical) -}}
+  {{- errorf "template-file: no such template %q (looked for %s)" $name $canonical -}}
 {{- end -}}
-<pre><code class="language-markdown">{{- readFile $path | htmlEscape | safeHTML -}}</code></pre>
+
+{{- /* hugo.Sites lists the default content language first. */ -}}
+{{- $fallback := (index hugo.Sites 0).Language.Lang -}}
+{{- $labels := dict -}}
+{{- range hugo.Sites -}}
+  {{- $labels = merge $labels (dict .Language.Lang .Language.Label) -}}
+{{- end -}}
+
+{{- $re := printf "^%s\\.([a-z]{2})\\.md$" $name -}}
+{{- $variants := slice (dict "lang" $fallback "path" $canonical) -}}
+{{- range (readDir $dir) -}}
+  {{- if findRE $re .Name -}}
+    {{- $lang := replaceRE $re "$1" .Name -}}
+    {{- $variants = $variants | append (dict "lang" $lang "path" (printf "%s/%s" $dir .Name)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $page := .Page.Language.Lang -}}
+{{- $selected := $fallback -}}
+{{- range $variants -}}
+  {{- if eq .lang $page -}}{{- $selected = .lang -}}{{- end -}}
+{{- end -}}
+{{- $uid := printf "tpl-%s-%d" (anchorize $name) .Ordinal -}}
+
+<div class="template-file"{{ if gt (len $variants) 1 }} data-switchable="true"{{ end }}>
+{{- range $variants }}
+  {{- $id := printf "%s-%s" $uid .lang }}
+  {{- if gt (len $variants) 1 }}
+  <input type="radio" class="template-file__radio" name="{{ $uid }}" id="{{ $id }}"{{ if eq .lang $selected }} checked{{ end }}>
+  <label class="template-file__lang" for="{{ $id }}">{{ index $labels .lang | default (upper .lang) }}</label>
+  {{- end }}
+  <div class="template-file__body" data-lang="{{ .lang }}">
+  {{- if and (eq .lang $selected) (ne .lang $page) }}
+    <p class="template-file__fallback">{{ T "template_untranslated" }}</p>
+  {{- end }}
+    <pre><code class="language-markdown">{{- readFile .path | htmlEscape | safeHTML -}}</code></pre>
+  </div>
+{{- end }}
+</div>
