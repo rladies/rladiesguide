@@ -1,5 +1,5 @@
-# Contributing to R-Ladies organizational guidance
+# Contributing to RLadies+ organisational guidance
 
 Please refer to the README.
 
-Note that names of contributors should be added to content/acknowledgements.en.md
+Note that names of contributors should be added to `.zenodo.json`

@@ -1,0 +1,50 @@
+name: "Check Hugo build"
+
+on:
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Hugo build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          submodules: recursive
+
+      - name: Read Hugo version from netlify.toml
+        id: hugo
+        run: |
+          ver=$(awk -F\" '/HUGO_VERSION/ {print $2; exit}' netlify.toml)
+          if [ -z "$ver" ]; then
+            echo "::error::Could not read HUGO_VERSION from netlify.toml"
+            exit 1
+          fi
+          echo "version=$ver" >> $GITHUB_OUTPUT
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ steps.hugo.outputs.version }}
+          extended: true
+
+      - name: Build site
+        run: hugo --gc --minify -d public
+
+      - name: Upload build
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-build
+          path: public/
+          retention-days: 1

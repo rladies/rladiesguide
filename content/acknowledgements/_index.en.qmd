@@ -1,0 +1,45 @@
+---
+build:
+  list: never
+  publishResources: false
+  render: never
+title: Acknowledgements
+format: hugo
+---
+
+Thank you! ¡Gracias!
+
+Thanks to all contributors to R-Ladies guidance, here and in its previous homes.
+_Gracias a todas las personas que contribuyeron al contenido de esta guía, aquí y en los sitios donde estaba antes._
+
+- Current and former [global team members](https://rladies.org/about-us/global-team/), and all who have helped create this site along the way:
+
+```{r}
+#| output: asis
+#| echo: false
+auth <- jsonlite::read_json(
+  here::here(".zenodo.json")
+)
+auth <- sapply(auth$creators, function(x) {
+  name <- gsub("^(\\w+), (\\w+)$", "\\2 \\1", x$name)
+  if ("orcid" %in% names(x)) {
+    return(
+      sprintf(
+        "[%s](https://orcid.org/%s)",
+        name,
+        x$orcid
+      )
+    )
+  }
+  name
+})
+cat(auth, sep = ", ")
+```
+
+Thanks to the [R Consortium](https://www.r-consortium.org/) for funding this project.
+_Gracias al [R Consortium](https://www.r-consortium.org/) por financiar este proyecto._
+
+If you contributed to our guidance and we forgot to add your name, first of all we are sorry!
+Please open an [issue](https://github.com/rladies/rladiesguide/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) so we might fix that.
+
+_Si contribuiste al contenido y olvidamos añadir tu nombre, lo sentimos mucho. Por favor abre un ["issue"](https://github.com/rladies/rladiesguide/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) en el repositorio y te agregaremos._

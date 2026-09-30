@@ -1,0 +1,21 @@
+{{- $id := "" }}
+{{- $title := .Title }}
+{{- $alt := .Text }}
+{{- $src := .Destination }}
+{{- $linkObject := "" }}
+{{- $u := urls.Parse .Destination }}
+{{- if not $u.IsAbs }}
+  {{- $linkObject = partial "_relearn/linkObject.gotmpl" (dict "url" .Destination "page" .Page "searchPage" false) }}
+  {{- if $linkObject }}
+    {{- $src = partial "_relearn/decoratedLink.gotmpl" (dict "url" .Destination "page" .Page "linkObject" $linkObject "param" "image") }}
+  {{- end }}
+{{- end }}
+{{- $attributes := partial "_relearn/imageAttributes.gotmpl" (dict "url" $src "page" .Page "linkObject" $linkObject) }}
+{{- if $title }}
+<figure>
+  <img src="{{ $src }}" alt="{{ $alt }}"{{ with $attributes.loading }} loading="{{ . }}"{{ end }}{{ with $attributes.width }} width="{{ . }}"{{ end }}{{ with $attributes.height }} height="{{ . }}"{{ end }}>
+  <figcaption>{{ $title }}</figcaption>
+</figure>
+{{- else }}
+  <img src="{{ $src }}" alt="{{ $alt }}"{{ with $attributes.loading }} loading="{{ . }}"{{ end }}{{ with $attributes.width }} width="{{ . }}"{{ end }}{{ with $attributes.height }} height="{{ . }}"{{ end }}>
+{{- end }}
