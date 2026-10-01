@@ -143,6 +143,24 @@ If you want to save the Zoom chat, ask participants for their permission at the 
 Advise participants to not take photos of the Zoom screen to publish on social networks unless permission is collected from all people appearing in the screenshot.
 {{% /notice %}}
 
+### Playing audio or music in the meeting
+
+:musical_note: Zoom treats "see my screen and hear the sound on it" and "hear the sound, there is nothing to look at" as two different kinds of share, so pick the one that matches what you are doing.
+
+- **Audio together with something on screen** (looping welcome slides with music, a video clip, a demo that makes noise): click **Share Screen**, pick the window or desktop, tick **Share Sound** before you click **Share**, and use the arrow next to it to choose _Mono_ or _Stereo (high fidelity)_ if you are sharing music. If you forget, you can switch device audio on afterwards from the **More** menu in the sharing toolbar.
+
+- **Audio with nothing on screen** (music while people arrive, or during a silent journalling or exercise break): click **Share Screen**, open the **Advanced** tab, choose **Computer Audio**, then click **Share**. Participants hear the sound and your screen stays private.
+
+:loud_sound: Set the level in the app the sound comes from (Spotify, YouTube, your media player) rather than your system volume, because your system volume also changes how loudly you hear everyone else.
+
+{{% notice note %}}
+Participant screen sharing is off by default on our account (see [Tips for running the Zoom meeting](#tips-for-running-the-zoom-meeting)), and sharing audio counts as a share. If a speaker needs to play sound, make them a co-host, or enable sharing from the Host's security controls first.
+{{% /notice %}}
+
+:ear: If the audio carries meaning, such as lyrics, speech or dialogue in a clip, say what it is or caption it, and remember that playing someone else's music or video in a session you record brings its own copyright and consent questions.
+
+_Adapted for RLadies+ from [Sharing audio in Zoom: two scenarios](https://openscapes.github.io/approach-guide/approach/tooling.html#sharing-audio-in-zoom-two-scenarios) in the [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/) by the Openscapes Core Team, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Steps checked against Zoom's [Sharing background music or computer audio](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063608)._
+
 ### Broadcasting to a broader audience
 
 #### Ask for permission from the attendees
