@@ -29,8 +29,15 @@ Two more directories under `content/` are not sections in this sense:
 - `content/_index.en.md` is the front page of the guide.
 - `content/acknowledgements/` is generated, not written. `_index.en.qmd` is rendered weekly by the `render_acknowledgements` workflow from `.zenodo.json`, which overwrites `_index.en.md`. Edit `.zenodo.json`, never the rendered file.
 
-`content/comm/` and `content/coordination/` are leftovers from an earlier layout, kept because `community` and `global-team` alias their old URLs.
-Do not add new pages to either.
+`content/comm/` and `content/coordination/` are leftovers from an earlier layout.
+Do not add new pages to either: `community` and `global-team` alias their old URLs, so a page left behind in one of them is shadowed by the alias and never published.
+
+{{% notice warning %}}
+`content/coordination/mentoring/` is still holding real content, and it demonstrates exactly that trap.
+Its `_index.en.md` is an older, diverged copy of [chapter mentoring]({{% relref "global-team/mentoring" %}}), and because that page aliases `/coordination/mentoring/`, the copy is unreachable.
+Four sub-pages under it -- guidelines for mentors, for mentees, for the mentoring team, and the mentoring agreement -- are still built, but nothing reachable links to them.
+Moving that content is tracked separately; until then, treat `global-team/mentoring` as canonical.
+{{% /notice %}}
 
 ## Choosing a section
 
