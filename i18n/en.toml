@@ -1,2 +1,23 @@
 [template_untranslated]
 other = "Not translated yet — this is the canonical English text."
+
+[404-heading]
+other = "We could not find that page"
+
+[404-message]
+other = "The link may be out of date, or the page may have moved since you last saw it. Nothing is lost — here is how to find what you came for."
+
+[404-search-heading]
+other = "Search the guide"
+
+[404-browse-heading]
+other = "Browse the guide"
+
+[404-report-heading]
+other = "Still missing something?"
+
+[404-report-message]
+other = "This guide is written and kept up to date by RLadies+ volunteers. If you think something belongs at this address, tell us and we will sort it out:"
+
+[404-report-link]
+other = "open an issue in the guide repository"

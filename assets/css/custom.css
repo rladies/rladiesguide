@@ -64,3 +64,71 @@
   background: var(--CODE-INLINE-BG-color);
   font-size: 0.85rem;
 }
+
+/* Project 404 page (layouts/404.html).
+
+   The `notfound` body class is kept because the theme needs it to drop the
+   sidebar gutter; these rules are selected with the same weight (`body` plus a
+   class) so they win over the stock 404's centred, oversized body copy while
+   leaving the theme's own heading style alone. */
+
+body.guide-404 article {
+  max-width: 44rem;
+  margin-inline: auto;
+}
+
+body.guide-404 p {
+  text-align: start;
+}
+
+body.guide-404 h1 {
+  font-size: 3.25rem;
+  overflow: visible;
+}
+
+body.guide-404 h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-align: start;
+}
+
+body.guide-404 .notfound-code {
+  color: var(--PRIMARY-color);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  margin: 0;
+  text-align: center;
+}
+
+body.guide-404 .notfound-lead {
+  font-size: 1.1rem;
+}
+
+body.guide-404 .notfound-search {
+  max-width: 32rem;
+}
+
+body.guide-404 .notfound-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.guide-404 .notfound-sections a {
+  display: block;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--CODE-BLOCK-BORDER-color);
+  border-radius: 4px;
+  background-color: var(--BOX-BG-color);
+}
+
+body.guide-404 .notfound-sections a:hover,
+body.guide-404 .notfound-sections a:focus-visible {
+  border-color: var(--PRIMARY-color);
+  text-decoration: underline;
+}
