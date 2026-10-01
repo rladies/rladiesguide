@@ -1,2 +1,23 @@
 [template_untranslated]
 other = "Aún sin traducir — este es el texto canónico en inglés."
+
+[404-heading]
+other = "No encontramos esa página"
+
+[404-message]
+other = "Puede que el enlace esté desactualizado o que la página haya cambiado de sitio. No se ha perdido nada: aquí tienes por dónde seguir."
+
+[404-search-heading]
+other = "Busca en la guía"
+
+[404-browse-heading]
+other = "Explora la guía"
+
+[404-report-heading]
+other = "¿Sigue sin aparecer?"
+
+[404-report-message]
+other = "Esta guía la escriben y actualizan voluntarias de RLadies+. Si crees que debería haber algo en esta dirección, dínoslo y lo resolvemos:"
+
+[404-report-link]
+other = "abre una incidencia en el repositorio de la guía"
