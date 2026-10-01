@@ -9,126 +9,44 @@
 <!-- badges: end -->
 
 The goal of rladiesguide is to consolidate RLadies+ Global organisational guidance & wisdom.
+It is published at <https://guide.rladies.org>.
 
-This is at the moment a Hugo website built with the
-[Hugo theme re-learn](https://mcshelby.github.io/hugo-theme-relearn/).
+This is a [Hugo](https://gohugo.io/) website built with the
+[Hugo theme Relearn](https://mcshelby.github.io/hugo-theme-relearn/).
 
-This repo is governed by [RLadies+ Code of Conduct](https://rladies.org/code-of-conduct/).
+This repo is governed by the [RLadies+ Code of Conduct](https://rladies.org/code-of-conduct/).
 
-## Contributing with little git/GitHub/Markdown knowledge
+## Contributing
 
-Create a GitHub account, then
-[open an issue](https://github.com/rladies/rladiesguide/issues/new) and tell us what your idea is!
+**The contribution guidance now lives in the guide itself**, where it is easier to read,
+searchable, and available in the same place as everything else we document:
 
-## Contributing with more efforts
+- [Contributing to the guide](https://guide.rladies.org/guide/contributing/) — how to propose a
+  change, house style, deploy previews, and building the site locally.
+- [Content structure](https://guide.rladies.org/guide/content-structure/) — what each `content/`
+  section is intended to house, how pages and images are laid out, front matter, aliases,
+  translations, and the shortcodes in use.
+- [Communications templates](https://guide.rladies.org/guide/templates/) — the shared text under
+  `static/templates/` that both the guide and [jinx](https://github.com/rladies/jinx) read.
 
-### Pre-requisites
+**Fast path:** if you know something is missing, wrong or out of date and do not want to wrangle
+Git, just [open an issue](https://github.com/rladies/rladiesguide/issues/new) and tell us.
+That is a real contribution.
 
-- You'll need to know a bit about [git and GitHub](https://happygitwithr.com/),
-  in particular creating branches and pull requests for your changes.
-  We're here to help, open an issue first if you need more help.
+Either way, please add yourself to [`.zenodo.json`](.zenodo.json) so you are credited on the
+acknowledgements page and in the next Zenodo release.
 
-- You'll need to be familiar with
-  [Markdown syntax](https://learn.netlify.app/en/cont/markdown/),
-  and maybe, only maybe, with the
-  [shortcodes of the Hugo theme we use](https://learn.netlify.app/en/shortcodes/)
-  (magical shortcuts for formatting).
+### Building locally
 
-### How to edit files
-
-Look at the current content of the content/ folder to see where to amend or add a file.
-Each section (about, organizers) has a file called `_index.en.md` that is an intro,
-and then inside the section subsections are organized into leaf bundles i.e. their own directory
-with `index.en.md` containing the text, and potentially images.
-
-### How to add or edit a communications template
-
-Text that somebody copies verbatim into an email, a Slack message or a Meetup
-page lives in **`static/templates/<name>.md`** — one file, rendered wherever it
-is needed:
-
-```
-{{< template-file "chapter-onboarding-welcome" >}}
-```
-
-**Edit the file under `static/templates/`, never the rendered copy on a page.**
-Two things depend on that:
-
-- The same text often appears on more than one page. The group description is
-  shown both in the Meetup instructions and on the chapter accounts page;
-  they cannot drift because they read the same file.
-- [jinx](https://github.com/rladies/jinx) fetches these files from
-  `https://guide.rladies.org/templates/<name>.md` when it writes to onboarding issues
-  and sends chapter emails.
-  Editing the guide updates what the bot says, with no software release.
-  A copy pasted into a page is a copy that will quietly diverge from what we actually send.
-
-Fill-in slots use `<<UPPER_SNAKE>>`, for example `<<FIRST_NAME>>`, `<<CITY>>`,
-`<<MEETUP_URL>>`.
-Keep to that spelling: a human filling one in by hand can see what it wants,
-and jinx substitutes them mechanically.
-
-#### Translating a template
-
-A translation sits beside the canonical file, suffixed with its language code:
-
-```
-static/templates/chapter-reactivation.md      the canonical text
-static/templates/chapter-reactivation.es.md   Spanish
-```
-
-The unsuffixed file stays the canonical one,
-so jinx's `https://guide.rladies.org/templates/<name>.md` keeps working
-and a translated file can be added or removed without touching any page.
-
-The shortcode needs no arguments for this.
-It opens the block in the language of the page being read
-and falls back to the canonical text when that translation does not exist,
-saying so in a short note rather than serving English under a Spanish heading.
-
-Where more than one language exists, the block grows a language switch.
-That is deliberate, and not the same thing as the page language:
-the language a template is *read* in
-and the language it is *sent* in are separate choices.
-An organiser who reads the guide in Spanish
-may still need to write to a chapter in English.
-
-Translated files are plain copies with the text translated.
-Leave the `<<UPPER_SNAKE>>` slots exactly as they are —
-jinx substitutes them by name, in any language.
-
-If you name a template that does not exist,
-the site build fails with the name you asked for — it will not quietly render an empty block.
-
-Not every code block belongs here. Front matter samples, mermaid diagrams,
-directory listings and shortcode examples illustrate the prose around them and should stay inline.
-The test is simple: **does somebody copy this text into a message?**
-If yes, it is a template.
-
-### How to translate files
-
-Make sure the language is supported.
-Only English and Spanish are at the moment but open an issue to discuss further potential language.
-
-To translate a file, add a file with the same name minus `.en` that becomes e.g. `.es`.
-
-### How to view edits online
-
-Open a PR and enjoy the preview!
-
-### How to view edits locally
-
-Painful part, but not too hard thanks to binaries: You'll need to install
-[Hugo](https://gohugo.io/getting-started/installing/),
-and download the repo with its submodules (where the theme is).
+The theme is a Git submodule, so clone recursively:
 
 ```sh
 git clone --recursive https://github.com/rladies/rladiesguide.git
+cd rladiesguide
+hugo server
 ```
 
-From there easier: Then from the directory of the book run `hugo server`.
-
-### Acknowledgements
+## Acknowledgements
 
 Thanks to all contributors to RLadies+ guidance, here and in its previous homes.
 Thanks to the [R Consortium](https://www.r-consortium.org/) for funding this project.
