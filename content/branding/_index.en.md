@@ -9,7 +9,7 @@ linkTitle: Branding
 ## Brand identity
 
 RLadies+ launched its new visual identity in March 2026, designed in collaboration with [Science Graphic Design](https://www.sciencegraphicdesign.com/) and shaped by community feedback.
-The full visual identity guide is available as [Branding-guidelines.pdf](https://github.com/rladies/branding-materials/blob/rebrand/Branding-guidelines.pdf) in the [branding-materials repository](https://github.com/rladies/branding-materials).
+The full visual identity guide is available as [Branding-guidelines.pdf](https://github.com/rladies/branding-materials/blob/main/Branding-guidelines.pdf) in the [branding-materials repository](https://github.com/rladies/branding-materials).
 
 ### Spelling
 
@@ -30,7 +30,7 @@ The main colour (Blue Violet) should be used primarily, combined with the basic 
 Accent colours should be used sparingly as supplements to the main colour.
 Use Bastille Black and Lavender White instead of pure black (`#000000`) or pure white (`#ffffff`).
 
-Each colour also has 75%, 50%, and 25% tints for extended palette use — see the [brand.yml](https://github.com/rladies/branding-materials/blob/rebrand/brand.yml) for the full set.
+Each colour also has 75%, 50%, and 25% tints for extended palette use — see the [brand.yml](https://github.com/rladies/branding-materials/blob/main/brand.yml) for the full set.
 
 ### Accessibility
 
@@ -76,7 +76,7 @@ When customizing, ensure all parts contrast enough with their background.
 
 ### Machine-readable brand definition
 
-A [brand.yml](https://github.com/rladies/branding-materials/blob/rebrand/brand.yml) file is available for use with [Quarto](https://quarto.org/docs/authoring/brand.html) and [Shiny](https://shiny.posit.co/) projects.
+A [brand.yml](https://github.com/rladies/branding-materials/blob/main/brand.yml) file is available for use with [Quarto](https://quarto.org/docs/authoring/brand.html) and [Shiny](https://shiny.posit.co/) projects.
 It contains the full colour palette (including tints), typography settings, and logo definitions.
 
 ## Brand assets
@@ -105,8 +105,8 @@ Additional editable templates are available on [Google Drive](https://drive.goog
 | [glamour](https://github.com/rladies/glamour) | Quarto extension — applies RLadies+ branding to documents and presentations |
 | [spellbind](https://github.com/rladies/spellbind) | R package with brand colours ([documentation](https://rladies.org/spellbind/)) |
 | [cloak](https://github.com/rladies/cloak) | pkgdown theme for R package websites |
-| [brand.yml](https://github.com/rladies/branding-materials/blob/rebrand/brand.yml) | Machine-readable brand definition for Quarto and Shiny |
+| [brand.yml](https://github.com/rladies/branding-materials/blob/main/brand.yml) | Machine-readable brand definition for Quarto and Shiny |
 
 ## Legacy materials
 
-Pre-2026 R-Ladies branding (purple `#88398a`, gray `#a7a9ac`, Open Sans font) is archived in the [legacy/](https://github.com/rladies/branding-materials/tree/rebrand/legacy) folder of the branding-materials repository.
+Pre-2026 R-Ladies branding (purple `#88398a`, gray `#a7a9ac`, Open Sans font) is archived in the [legacy/](https://github.com/rladies/branding-materials/tree/main/legacy) folder of the branding-materials repository.
