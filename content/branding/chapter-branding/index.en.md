@@ -15,7 +15,7 @@ Chapters in countries where LGBTQ+ rights are criminalized may not be able to sa
 
 ### What to update
 
-- **Social media profiles**: Update profile pictures using the logos in [logos/social-media/](https://github.com/rladies/branding-materials/tree/rebrand/logos/social-media)
+- **Social media profiles**: Update profile pictures using the logos in [logos/social-media/](https://github.com/rladies/branding-materials/tree/main/logos/social-media)
 - **Meetup/event graphics**: Use the [social media templates]({{% relref "branding/canva-social-media" %}}) or the [Canva workspace](https://www.canva.com/folder/FAHCPq0DH3w)
 - **Chapter hex logo**: Update colours and typography following the [regional hex logos guide]({{% relref "branding/hex-logos" %}})
 - **Presentations**: Use the [slidedeck templates]({{% relref "branding/slidedeck-templates" %}}) (Google Slides and PowerPoint)
@@ -42,10 +42,10 @@ See the [brand overview]({{% relref "branding" %}}) for the full palette and acc
 ### Logo
 
 Use the vertical (stacked) logo for most cases, and the horizontal logo when vertical space is limited.
-All logo variants are in the [branding-materials repository](https://github.com/rladies/branding-materials/tree/rebrand/logos).
+All logo variants are in the [branding-materials repository](https://github.com/rladies/branding-materials/tree/main/logos).
 
 You can customise the R+ symbol with images — see the [Canva]({{% relref "branding/canva-logo" %}}) and [Affinity]({{% relref "branding/affinity-logo" %}}) guides.
 
 ### Legacy branding
 
-Pre-2026 R-Ladies branding (purple `#88398a`, gray `#a7a9ac`) is archived in the [legacy/](https://github.com/rladies/branding-materials/tree/rebrand/legacy) folder of the branding-materials repository.
+Pre-2026 R-Ladies branding (purple `#88398a`, gray `#a7a9ac`) is archived in the [legacy/](https://github.com/rladies/branding-materials/tree/main/legacy) folder of the branding-materials repository.
