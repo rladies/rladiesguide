@@ -170,3 +170,14 @@ The policy above is about _what place_ a chapter is named for, not how it spells
 > general info - email template
 
 {{< template-file "chapter-general-info" >}}
+
+## Appendix D
+
+> chapter is set up - email template
+
+This one is sent by jinx rather than by hand, when the last step of the
+onboarding issue is ticked.
+It is here so that the wording is ours to edit: jinx fetches this file rather than carrying its own copy.
+Everything a new chapter needs to know lives in this message, which is why the Meetup message in [Appendix B of the Meetup guidelines]({{% relref "global-team/meetup" %}}#appendix-b-message-template) does not repeat it.
+
+{{< template-file "chapter-confirmed" >}}
