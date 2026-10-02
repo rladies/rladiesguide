@@ -2,7 +2,7 @@ theme = 'hugo-theme-relearn'
 title = "R-Ladies organizational guidance"
 baseURL = "https://guide.rladies.org/"
 
-languageCode = "en-us"
+locale = "en-us"
 defaultContentLanguage = "en"
 enableEmoji = true
 pygmentsUseClasses = true
@@ -38,12 +38,12 @@ home = [ "HTML", "RSS"]
 [Languages.en]
 title = "R-Ladies organizational guidance"
 weight = 1
-languageName = "English"
+label = "English"
 
 [Languages.es]
 title = "Guía de la organización R-Ladies"
 weight = 2
-languageName = "Español"
+label = "Español"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
