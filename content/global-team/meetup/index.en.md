@@ -183,6 +183,10 @@ customize the group.
 
 ### Appendix B: Message template
 
+This is the Slack message to send once the group exists.
+It is deliberately short: it covers the one thing that cannot wait - joining the group, so that they can be made an organiser - and leaves the rest to the confirmation email jinx sends when onboarding finishes, which is [Appendix D of the onboarding page]({{% relref "global-team/onboarding" %}}#appendix-d).
+Saying it twice, days apart, is how the two drifted apart in the first place.
+
 **This message has markdown formatting.** In order to be able to copy paste it and keep the formatting on Slack, you need to ensure that markdown is enable (by default it is not). On the R-Ladies Slack, you need to go to _Preferences_ > _Advanced_ and select _Format messages with markup_.
 
 **Message the organiser with basic info:**
