@@ -100,10 +100,10 @@ If you create an infographic to promote an event, be sure to also post the infor
 
 ### Management
 
-- Please tag all your R-Ladies related tweets with the #rladies hashtag. This makes them searchable and more visible.
-- On tagging \@RLadiesGlobal: please do that if you are referring to the global organisation. If you want to refer to R-Ladies in general, please use the hashtag. Otherwise you make [notifications of the global account harder to follow](/comm/twitter/).
+- Please tag all your RLadies+ related tweets with the #rladies hashtag. This makes them searchable and more visible.
+- On tagging \@RLadiesGlobal: please do that if you are referring to the global organisation. If you want to refer to R-Ladies in general, please use the hashtag. Otherwise you make [notifications of the global account harder to follow]({{% relref "global-team/social-media-management" %}}#replies-mentions-and-dms).
 - Please add further hashtags to \#rladies in the following situations: + If your chapter has a visitor from another chapter, please take a photo and share
-  it on Twitter using the hashtag, \#rladiesvisits. + If you are tweeting about R-Ladies in Latin America, please consider adding \#RLadiesLatAm.
+  it on social media using the hashtag, \#rladiesvisits. + If you are posting about RLadies+ in Latin America, please consider adding \#RLadiesLatAm.
 - You can find some inspiration here: https://twitter.com/gdequeiroz/lists/rladies-chapters/members
 - [General introduction to Twitter for R users](https://www.t4rstats.com/)
 - Feel free to retweet posts by others that promote R-Ladies’ work and events as well.
