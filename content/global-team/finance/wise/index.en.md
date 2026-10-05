@@ -13,7 +13,7 @@ A traditional international wire would charge a flat fee plus an opaque FX margi
 - **Receiving international donations** — Wise issues RLadies+ a local account number in major currencies (USD, EUR, GBP, AUD, others), so a donor in Germany can send a SEPA transfer rather than navigate an international wire.
 - **Holding multi-currency reserves** — useful when there's a known upcoming payment in a particular currency and the rate is favourable today.
 
-For USD-to-USD payments, use [Relay]({{% relref "../relay" %}}) — it's the operating account, and keeping USD flow in one place makes reconciliation simpler.
+For USD-to-USD payments, use [Relay]({{% relref "/global-team/finance/relay" %}}) — it's the operating account, and keeping USD flow in one place makes reconciliation simpler.
 
 ## Plan
 

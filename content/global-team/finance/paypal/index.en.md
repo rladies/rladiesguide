@@ -5,7 +5,7 @@ weight: 30
 ---
 
 Most one-off donations to RLadies+ land in PayPal — community members clicking the donate link, conference attendees sending small amounts, anyone for whom PayPal is the convenient option.
-The balance never accumulates there for long; it gets swept to [Relay]({{% relref "../relay" %}}) on a regular cadence so the operating account remains the source of truth.
+The balance never accumulates there for long; it gets swept to [Relay]({{% relref "/global-team/finance/relay" %}}) on a regular cadence so the operating account remains the source of truth.
 
 ## Account type
 

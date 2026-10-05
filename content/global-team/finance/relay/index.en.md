@@ -58,7 +58,7 @@ Virtual cards let you cap a subscription's monthly limit and revoke it without t
 4. Set the amount and the description (descriptions show up on the bank statement — make them meaningful for bookkeeping).
 5. Schedule for the next business day or a specific date.
 
-For international payments, use Wise instead — see [Wise]({{% relref "../wise" %}}).
+For international payments, use Wise instead — see [Wise]({{% relref "/global-team/finance/wise" %}}).
 
 ### Adding a new Relay user
 

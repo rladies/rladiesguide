@@ -107,4 +107,4 @@ If the AnytimeMailbox account itself is unreachable, the facility location can b
 - **Mail to former-officer names.** Five years on, old donor databases still occasionally send to founders or past treasurers. Either keep those names on the authorised list (so the mail is received and triaged) or accept it'll bounce.
 - **Tax-season spikes.** January through April brings more government correspondence than any other quarter. Plan for it.
 - **Subscription auto-renewal.** Billing notifications land on the role mailbox; forward to the finance-responsible leadership member for monthly reconciliation alongside Relay/Wise/PayPal.
-- **Service-of-process documents.** If anything that looks like a legal summons arrives, route it to VCorp immediately (cross-link [VCorp]({{% relref "../vcorp" %}})) — there are statutory response windows on legal documents that don't pause for triage.
+- **Service-of-process documents.** If anything that looks like a legal summons arrives, route it to VCorp immediately (cross-link [VCorp]({{% relref "/global-team/nonprofit-administration/vcorp" %}})) — there are statutory response windows on legal documents that don't pause for triage.
