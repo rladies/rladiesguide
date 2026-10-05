@@ -131,17 +131,7 @@ This URL will be changed in one of the steps below.
 
 #### Step 4: Describe who should join, and what your Meetup will do.
 
-```markdown
-This is a local chapter of R-Ladies Global (https://www.rladies.org), an organisation that promotes gender diversity in the R community worldwide. We meetup in person or virtually to learn about the R programming language, algorithms and advanced tools.
-
-R-Ladies welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
-
-We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world. You can access our presentations, R scripts, and Projects on our Github account (https://github.com/rladies) and follow us on Mastodon (https://hachyderm.io/@RLadiesGlobal) to stay up to date about R-Ladies news!
-
-Make sure you read and comply with our code of conduct (https://rladies.org/coc/) and community guidelines (https://guide.rladies.org/about/mission/#r-ladies-rules--guidelines).
-
-Please note that by taking part in an R-Ladies event you grant the community organizers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
-```
+{{< template-file "meetup-group-description" >}}
 
 **Done!**
 The message "Your group is in review" will show up. In the meantime you can
@@ -188,34 +178,4 @@ customize the group.
 
 **Message the organiser with basic info:**
 
-```markdown
-Hi and welcome to R-Ladies!
-
-Your chapter is set up on Meetup:
-
-- Link: ADD MEETUP LINK
-
-Things to keep in mind/to know:
-
-- Please visit the website and click on the button "Join Group". Let me know when you become a member of the group, so that I can make you an organizer with full admin rights. The page contains some standard text in English that you can customise or translate.
-
-- Once your meetup group is established, please hold your first event within the next 6 months. After that, please keep your chapter active with at least one event every 6 months. For comparison, many chapters do an event every 2-3 months and some chapters do monthly events. If you find yourself struggling with the 6 months frequency, you can seek for advice in the #organizers channel on Slack or you can join our Mentoring Program.
-
-- Every time you run an event publish it into your chapter Meetup account. This will keep the chapter active. Only events published on Meetup are considered as chapter activity (because these are the ones we can keep track of).
-- The R-Ladies Guide has a whole [section about organizing events](https://guide.rladies.org/organization/events/general/). There, you'll find useful information, such as tips for planning and promoting events, instructions for using the R-Ladies Zoom account, etc.
-- The [RLadies Guide](https://guide.rladies.org/branding/) also has a section about our branding materials, like official logos, color palettes, presentation templates, stickers, etc.
-
-- When there is any change in your group (e.g., create social media accounts, etc) please, update the info here: https://github.com/rladies/rladies.github.io/tree/main/data/chapters. This is the place where the chapter info is stored so make sure it is up to date.
-
-- If needed, we can create a GitHub repo for your chapter on the R-Ladies GitHub Organization. You can request it in the #new-chapters channel.
-
-- Please remember that the R-Ladies Organizers Slack is our prefered channel of communication.
-
-Regarding adding new organizers to your chapter:
-
-- Probably in the next few weeks/months new organizers will be joining your team. There is a section in the [R-Ladies Guide](https://guide.rladies.org/organization/intro/co-organizers/#how-to-onboard-organizers) with all the information you need to know about how to onboard them. This the only official way to add a co-organizer
-
-If you have any questions, please do not hesitate to contact us. The #organizers channel on Slack is also a great place to seek for advise.
-
-**Thank you for being part of the R-Ladies community!**
-```
+{{< template-file "meetup-group-ready-message" >}}

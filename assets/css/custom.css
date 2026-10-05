@@ -1,0 +1,66 @@
+/* Language switcher for {{< template-file >}} blocks.
+
+   Radio, label and body are emitted as one flat sibling run per language
+   so the switching needs no JavaScript: `:checked + label + .body` does
+   it. `order` pulls every label up into a single row above the bodies. */
+
+.template-file[data-switchable] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-bottom: 1rem;
+}
+
+.template-file__radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.template-file__lang {
+  order: 1;
+  margin: 0 0.25rem 0 0;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--CODE-BLOCK-BORDER-color);
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  background: var(--MAIN-BG-color);
+  color: var(--MAIN-TEXT-color);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.template-file__lang:hover {
+  color: var(--PRIMARY-color);
+}
+
+.template-file__radio:checked + .template-file__lang {
+  background: var(--CODE-BLOCK-BG-color);
+  color: var(--PRIMARY-color);
+  font-weight: 600;
+}
+
+.template-file__radio:focus-visible + .template-file__lang {
+  outline: 2px solid var(--PRIMARY-color);
+  outline-offset: 2px;
+}
+
+.template-file[data-switchable] .template-file__body {
+  order: 2;
+  display: none;
+  width: 100%;
+}
+
+.template-file__radio:checked + .template-file__lang + .template-file__body {
+  display: block;
+}
+
+.template-file__fallback {
+  margin: 0 0 0.5rem;
+  padding: 0.4rem 0.7rem;
+  border-left: 3px solid var(--PRIMARY-color);
+  background: var(--CODE-INLINE-BG-color);
+  font-size: 0.85rem;
+}
