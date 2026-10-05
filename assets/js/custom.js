@@ -125,7 +125,7 @@
     noteTextColor: "#ededf4",
     activationBkgColor: "#6b0fd4",
     activationBorderColor: "#a152f8",
-    sequenceNumberColor: "#fff",
+    sequenceNumberColor: "#1b1b26",
 
     sectionBkgColor: "#5009a8",
     altSectionBkgColor: "#2a2a3d",

@@ -18,26 +18,31 @@ This replaces the old "form → button → an organiser clicks _Invite_" flow.
 
 ```mermaid
 flowchart TB
-    A([Applicant])
+    A([Applicant<br>browser + inbox])
+    L([Leadership<br>in Slack])
 
-    subgraph AT["Airtable"]
-      SUB["submissions"]
-      TRK["tracking"]
-      AV{{"send verify<br>email"}}
-      AI{{"send invite<br>email"}}
+    subgraph AT["Airtable — forms, tables, email automations"]
+      SUB["submissions<br>(join form target)"]
+      TRK["tracking<br>(one row per attempt)"]
+      AV{{"automation:<br>verify email"}}
+      AI{{"automation:<br>invite email"}}
     end
 
-    subgraph W["Jinx Worker · invite-gateway.js"]
-      START["POST /invite/start"]
-      VER["GET /verify/:token"]
-      RED["GET /j/:token"]
-      TJ["team_join event"]
+    subgraph CF["Cloudflare — the code Jinx runs"]
+      subgraph W["Worker · invite-gateway.js"]
+        START["POST /invite/start"]
+        VER["GET /verify/:token"]
+        RED["GET /j/:token"]
+        CMD["/jinx invite-link"]
+        TJ["team_join handler"]
+      end
+      KV[("KV · INVITE_TOKENS<br>tokens + master link")]
+      TS{{"Turnstile<br>bot check"}}
     end
 
-    KV[("INVITE_TOKENS KV<br>masked master link")]
-    TS{{"Turnstile<br>bot check"}}
-    S([Community Slack])
-    L([Leadership<br>/jinx invite-link])
+    subgraph SL["Slack — Community workspace"]
+      S([Join screen + team_join event])
+    end
 
     A -->|1 submit form| SUB
     SUB -->|new-submission automation| START
@@ -51,28 +56,44 @@ flowchart TB
     A -->|5 click invite| RED
     RED --> TS
     TS -->|pass| KV
-    KV -->|302 redirect| S
-    A -->|6 join| S
+    KV -->|master link| RED
+    RED -->|6 302 redirect| A
+    A -->|7 join workspace| S
     S -->|team_join| TJ
     TJ -->|stamp Joined on| TRK
-    L -.->|rotate link| KV
+    L -->|rotate link| CMD
+    CMD -.->|overwrite master link| KV
 
     style W fill:#562457,color:#fff
     style KV fill:#883889,color:#fff
+    style TS fill:#883889,color:#fff
 ```
 
-The short version: the form feeds Airtable, Jinx mints per-person tokens and emails them, and the one link that actually matters — the real Slack invite — stays hidden in Cloudflare KV, where only Jinx and the leadership rotation command can reach it.
+Three systems share the work, and it helps to know which does what:
+
+- **Airtable** owns the form, the two tables, and both outgoing emails — it stores state and sends mail, but makes no decisions.
+- **Cloudflare** is where Jinx's own code lives: the `invite-gateway.js` Worker does all the logic, KV holds the tokens and the real Slack invite link, and Turnstile screens the final click.
+- **Slack** only ever sees the finished redirect and reports back the `team_join` event.
+
+The short version: the form feeds Airtable, Jinx mints per-person tokens and asks Airtable to email them, and the one link that actually matters — the real Slack invite — stays hidden in Cloudflare KV, where only the Worker and the leadership rotation command can reach it.
 
 ## The flow, step by step
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant A as Applicant
-    participant F as Airtable form
-    participant W as Jinx Worker
-    participant AT as Airtable · tracking
-    participant S as Community Slack
+    actor A as Applicant
+    box transparent Airtable
+      participant F as Join form
+      participant AT as tracking table
+    end
+    box transparent Cloudflare
+      participant W as Jinx Worker
+      participant KV as KV store
+    end
+    box transparent Slack
+      participant S as Community workspace
+    end
     A->>F: submit join form
     F->>W: POST /invite/start (shared secret)
     W->>AT: create tracking row + Verify link
@@ -83,6 +104,7 @@ sequenceDiagram
     W->>AT: mint invite, write Invite link
     AT-->>A: invitation email
     A->>W: click join.rladies.org/j/…
+    W->>KV: read master invite link
     W-->>A: Turnstile check, then 302 to the masked link
     A->>S: join the workspace
     S->>W: team_join event
