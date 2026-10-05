@@ -1,38 +1,23 @@
 name: Greet New Contributor
 
 on:
-  pull_request:
+  pull_request_target:
+    types: [opened]
+  issues:
     types: [opened]
 
+permissions:
+  contents: read
+  packages: read
+
 jobs:
-  greet-and-remind:
-    runs-on: ubuntu-latest
-    outputs:
-      is_new: ${{ steps.check-zenodo.outputs.new_contributor }}
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Check if user is listed in zenodo.json
-        id: check-zenodo
-        run: |
-          PR_AUTHOR="${{ github.actor }}"
-          echo "new_contributor=true" >> $GITHUB_OUTPUT
-          # Check if PR_AUTHOR exists in zenodo.json
-          if grep -q "\"${PR_AUTHOR}\"" .zenodo.json; then
-            echo "new_contributor=false" >> $GITHUB_OUTPUT
-          fi
-
-      - uses: actions/github-script@v6
-        name: "Comment to greet and remind"
-        if: steps.check-zenodo.outputs.is_new == 'true'
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const PR_AUTHOR = context.payload.pull_request.user.login;
-            await github.rest.issues.createComment({
-              issue_number: context.payload.pull_request.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `Welcome ${PR_AUTHOR}! It looks like this is your first contribution to this repository. 🎉\n\nPlease remember to add yourself to the [.zenodo.json](.zenodo.json).`
-            });
+  welcome:
+    uses: rladies/jinx/.github/workflows/reusable-welcome-contributor.yml@main
+    with:
+      extra_message: |
+        While you are here, please remember to add yourself to the
+        [`.zenodo.json`](.zenodo.json) file so you are credited in the
+        next release.
+    secrets:
+      JINX_APP_ID: ${{ secrets.JINX_APP_ID }}
+      JINX_PRIVATE_KEY: ${{ secrets.JINX_PRIVATE_KEY }}

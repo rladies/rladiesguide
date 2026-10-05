@@ -1,0 +1,190 @@
+name: "Broken link check"
+
+on:
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  build:
+    name: Build site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          submodules: recursive
+
+      - name: Read Hugo version from netlify.toml
+        id: hugo
+        run: |
+          ver=$(awk -F\" '/HUGO_VERSION/ {print $2; exit}' netlify.toml)
+          echo "version=$ver" >> $GITHUB_OUTPUT
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ steps.hugo.outputs.version }}
+          extended: true
+
+      - name: Build
+        run: hugo --gc --minify -d public
+
+      - name: Upload build
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-build
+          path: public/
+          retention-days: 1
+
+  links:
+    name: Lychee
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.JINX_APP_ID }}
+          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
+          owner: rladies
+
+      - name: Download build
+        uses: actions/download-artifact@v8
+        with:
+          name: site-build
+          path: public/
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --base public
+            --no-progress
+            --exclude 'localhost'
+            --exclude '127\.0\.0\.1'
+            --exclude 'example\.com'
+            --exclude 'meetup\.com'
+            --exclude 'linkedin\.com'
+            --exclude 'twitter\.com'
+            --exclude 'x\.com'
+            --exclude 'bsky\.app'
+            --timeout 30
+            --max-retries 2
+            --accept 200,403,429
+            'public/**/*.html'
+          fail: false
+          output: lychee-report.md
+
+      - name: Post link-check comment
+        uses: actions/github-script@v9
+        if: always()
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          script: |
+            const fs = require('fs');
+            let report = '## Broken Link Check\n\n';
+
+            function isInternal(line) {
+              return /\[(ERR|TIMEOUT)\] (file:\/\/|\/[^/])/.test(line) ||
+                     /guide\.rladies\.org/.test(line);
+            }
+
+            function formatBlock(lines) {
+              const shown = lines.slice(0, 30).map(l => l.trim()).join('\n');
+              let block = '```\n' + shown + '\n```\n';
+              if (lines.length > 30) {
+                block += `\n*...and ${lines.length - 30} more. See workflow logs for full report.*\n`;
+              }
+              return block;
+            }
+
+            if (fs.existsSync('lychee-report.md')) {
+              const raw = fs.readFileSync('lychee-report.md', 'utf8');
+              const errors = raw.split('\n').filter(l =>
+                l.includes('[ERR]') || l.includes('[TIMEOUT]')
+              );
+              const internal = errors.filter(isInternal);
+              const external = errors.filter(l => !isInternal(l));
+
+              if (errors.length === 0) {
+                report += ':white_check_mark: No broken links found.\n';
+              } else {
+                if (internal.length > 0) {
+                  report += `### :x: ${internal.length} broken internal link(s)\n\n`;
+                  report += 'Internal links are pages within this site, ';
+                  report += '`guide.rladies.org` references, or root-relative ';
+                  report += 'paths. **These fail the check** — please fix ';
+                  report += 'before merging.\n\n';
+                  report += formatBlock(internal);
+                  report += '\n';
+                }
+                if (external.length > 0) {
+                  report += `### :warning: ${external.length} broken external link(s)\n\n`;
+                  report += 'External links are flagged for awareness but ';
+                  report += 'do not block merge — a third-party site may be ';
+                  report += 'temporarily down, rate-limiting, or have moved.\n\n';
+                  report += formatBlock(external);
+                  report += '\n';
+                }
+              }
+            } else {
+              report += ':warning: Link check did not produce a report.\n';
+            }
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const marker = '## Broken Link Check';
+            const existing = comments.find(c =>
+              c.user.type === 'Bot' && c.body.includes(marker)
+            );
+            const body = report + '\n\n*Updated: ' + new Date().toISOString() + '*';
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
+
+      - name: Fail on internal broken links
+        run: |
+          if [ ! -f lychee-report.md ]; then
+            echo "No lychee report — skipping internal-link gate."
+            exit 0
+          fi
+
+          internal=$(grep -E '\[(ERR|TIMEOUT)\]' lychee-report.md | \
+            grep -E '(\[(ERR|TIMEOUT)\] (file://|/[^/])|guide\.rladies\.org)' || true)
+
+          if [ -n "$internal" ]; then
+            echo "::error::Internal links are broken on the PR build:"
+            echo "$internal" | while IFS= read -r line; do
+              echo "::error::${line}"
+            done
+            exit 1
+          fi
+
+          echo "No internal broken links."

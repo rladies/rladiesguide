@@ -1,128 +1,203 @@
- {
-    "title": "R-Ladies organizational guidance",
+{
+  "title": "R-Ladies organizational guidance",
 
-    "description": "Source content for R-Ladies organizational guidance",
-    
-    "keywords": ["operational guide", "community guide"],
+  "description": "Source content for R-Ladies organizational guidance",
 
-    "license": "cc-by-4.0",
+  "keywords": ["operational guide", "community guide"],
 
-    "communities": [{"identifier": "rladies"}],
+  "license": "cc-by-4.0",
 
-    "creators": [
-      {
-        "name": "R-Ladies Global Team",
-        "affiliation": "R-Ladies Global"
-      },
-      {
-        "name": "Salmon, Maëlle",
-        "affiliation": "@ropensci",
-        "orcid": "0000-0002-2815-0399"
-      },
-      {
-        "name": "Simeon, Katherine",
-        "orcid": "0000-0002-0170-5585"
-      },
-      {
-        "name": "Pileggi, Shannon",
-        "affiliation": "The Prostate Cancer Clinical Trials Consortium",
-        "orcid": "0000-0002-7732-4164"
-      },
-      {
-        "name": "Mowinckel, Athanasia Monika",
-        "affiliation": "@LCBC-UiO",
-        "orcid": "0000-0002-5756-0223"
-      },
-      {
-        "name": "Saibene, Yanina Bellini",
-        "affiliation": "@ropensci",
-        "orcid": "0000-0002-4522-7466"
-      },
-      {
-        "name": "LeDell, Erin",
-        "affiliation": "@h2oai"
-      },
-      {
-        "name": "Quiroga, Riva",
-        "orcid": "0000-0002-1147-4135"
-      },
-      {
-        "name": "Frick, Hannah",
-        "orcid": "0000-0002-6049-5258"
-      },
-      {
-        "name": "Gazzelloni, Federica",
-        "affiliation": "Data Scientist",
-        "orcid": "0000-0002-4285-611X"
-      },
-      {
-        "name": "Saia, Sheila",
-        "affiliation": "Tetra Tech",
-        "orcid": "0000-0002-4943-0306"
-      },
-      {
-        "name": "Almarzouq, Batool",
-        "orcid": "0000-0002-3905-2751"
-      },
-      {
-        "name": "Thompson, Jennifer"
-      },
-      {
-        "name": "Vitolo, Claudia",
-        "orcid": "0000-0002-4252-1176"
-      },
-      {
-        "name": "Rüegger, Sina",
-        "orcid": "0009-0000-7190-9922"
-      },
-      {
-        "name": "Acion, Laura",
-        "orcid": "0000-0001-5213-6012"
-      },
-      {
-        "name": "de Quieroz, Gabriela"
-      },
-      {
-        "name": "Belaid, Mouna"
-      },
-      {
-        "name": "Daish, Alice"
-      },
-      {
-        "name": "Mostipak, Jesse"
-      },
-      {
-        "name": "Loto, Patricia A."
-      },
-      {
-        "name": "Vazquez, Daniela",
-        "orcid": "0000-0001-8016-1469"
-      },
-      {
-        "name": "Columbus, Alyssa",
-        "orcid": "0000-0002-5510-8364"
-      },
-      {
-        "name": "Ravi, Janani",
-        "orcid": "0000-0001-7443-925X"
-      },
-      {
-        "name": "Hernández, Bea"
-      },
-      {
-        "name": "Sero, Nadejda B",
-        "orcid": "0000-0002-3569-2014"
-      },
-      {
-        "name": "D'Andrea, Florencia",
-        "orcid": "0000-0002-0041-097X"
-      },
-      {
-        "name": "Okamoto, Reiko"
-      },
-     {
-        "name": "Simisani Ndaba",
-        "affiliation": "The University of Botswana"
-      }
-    ]
-  }
+  "communities": [{"identifier": "rladies"}],
+
+  "creators": [
+    {
+      "name": "R-Ladies Global Team",
+      "affiliation": "R-Ladies Global"
+    },
+    {
+      "name": "Salmon, Maëlle",
+      "affiliation": "@ropensci",
+      "orcid": "0000-0002-2815-0399"
+    },
+    {
+      "name": "Simeon, Katherine",
+      "orcid": "0000-0002-0170-5585"
+    },
+    {
+      "name": "Pileggi, Shannon",
+      "affiliation": "The Prostate Cancer Clinical Trials Consortium",
+      "orcid": "0000-0002-7732-4164"
+    },
+    {
+      "name": "Mowinckel, Athanasia Monika",
+      "affiliation": "@LCBC-UiO",
+      "orcid": "0000-0002-5756-0223"
+    },
+    {
+      "name": "Saibene, Yanina Bellini",
+      "affiliation": "@ropensci",
+      "orcid": "0000-0002-4522-7466"
+    },
+    {
+      "name": "LeDell, Erin",
+      "affiliation": "@h2oai"
+    },
+    {
+      "name": "Quiroga, Riva",
+      "orcid": "0000-0002-1147-4135"
+    },
+    {
+      "name": "Frick, Hannah",
+      "orcid": "0000-0002-6049-5258"
+    },
+    {
+      "name": "Gazzelloni, Federica",
+      "affiliation": "Data Scientist",
+      "orcid": "0000-0002-4285-611X"
+    },
+    {
+      "name": "Saia, Sheila",
+      "affiliation": "Tetra Tech",
+      "orcid": "0000-0002-4943-0306"
+    },
+    {
+      "name": "Almarzouq, Batool",
+      "orcid": "0000-0002-3905-2751"
+    },
+    {
+      "name": "Thompson, Jennifer"
+    },
+    {
+      "name": "Vitolo, Claudia",
+      "orcid": "0000-0002-4252-1176"
+    },
+    {
+      "name": "Rüegger, Sina",
+      "orcid": "0009-0000-7190-9922"
+    },
+    {
+      "name": "Acion, Laura",
+      "orcid": "0000-0001-5213-6012"
+    },
+    {
+      "name": "de Quieroz, Gabriela"
+    },
+    {
+      "name": "Belaid, Mouna"
+    },
+    {
+      "name": "Daish, Alice"
+    },
+    {
+      "name": "Mostipak, Jesse"
+    },
+    {
+      "name": "Loto, Patricia A."
+    },
+    {
+      "name": "Vazquez, Daniela",
+      "orcid": "0000-0001-8016-1469"
+    },
+    {
+      "name": "Columbus, Alyssa",
+      "orcid": "0000-0002-5510-8364"
+    },
+    {
+      "name": "Ravi, Janani",
+      "orcid": "0000-0001-7443-925X"
+    },
+    {
+      "name": "Hernández, Bea"
+    },
+    {
+      "name": "Sero, Nadejda B",
+      "orcid": "0000-0002-3569-2014"
+    },
+    {
+      "name": "D'Andrea, Florencia",
+      "orcid": "0000-0002-0041-097X"
+    },
+    {
+      "name": "Okamoto, Reiko"
+    },
+   {
+      "name": "Simisani Ndaba",
+      "affiliation": "The University of Botswana"
+    },
+    {
+      "name": "Tan, Chiin-Rui"
+    },
+    {
+      "name": "Zasada, Christin"
+    },
+    {
+      "name": "Tamir, Noa"
+    },
+    {
+      "name": "Piccinini, Page"
+    },
+    {
+      "name": "Corrales, Paola"
+    },
+    {
+      "name": "Kirkham, Rachel"
+    },
+    {
+      "name": "Bhogal, Saranjeet Kaur"
+    },
+    {
+      "name": "Walsh, Alice"
+    },
+    {
+      "name": "Sánchez-Tapia, Andrea"
+    },
+    {
+      "name": "Arcos, Denisse Fierro"
+    },
+    {
+      "name": "Seernani, Divya"
+    },
+    {
+      "name": "Teaca, Ines"
+    },
+    {
+      "name": "Richmond, Jen"
+    },
+    {
+      "name": "Villar, Jonelle"
+    },
+    {
+      "name": "Romanowska, Julia"
+    },
+    {
+      "name": "Medeiros, Kaelen"
+    },
+    {
+      "name": "Fettich, Karla"
+    },
+    {
+      "name": "Rojas-Saunero, L. Paloma"
+    },
+    {
+      "name": "Bouzoubaa, Layla"
+    },
+    {
+      "name": "Gerber, Monica"
+    },
+    {
+      "name": "Abuladze, Liili"
+    },
+    {
+      "name": "Foos, Marianna"
+    },
+    {
+      "name": "Mulligan, Nerissa"
+    },
+    {
+      "name": "Gutiérrez, Silvia"
+    },
+    {
+      "name": "Romero, Vilma"
+    }
+  ]
+}

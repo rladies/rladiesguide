@@ -1,0 +1,25 @@
+name: "i18n completeness"
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "content/**"
+      - "i18n/**"
+      - "config.toml"
+      - "config/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  check:
+    uses: rladies/jinx/.github/workflows/reusable-website-check-i18n.yml@main
+    with:
+      languages: "en es"
+    secrets:
+      JINX_APP_ID: ${{ secrets.JINX_APP_ID }}
+      JINX_PRIVATE_KEY: ${{ secrets.JINX_PRIVATE_KEY }}
