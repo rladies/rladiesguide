@@ -6,137 +6,139 @@ aliases:
   - /organization/online-presence/social-media/
 ---
 
-> We love to raise our voices about the R-ladies community!
+> We love to raise our voices about the RLadies+ community!
 
-In this section we outline guidance for all social media channels, and specific guidance for Twitter and Facebook.
-The global organization has a Twitter account but no official Facebook presence.
+This section outlines guidance that applies to every social media channel a chapter runs, whichever platform it is on.
+Platform-specific notes are collected at the end.
 
-## General guidance for social media
+## Should my chapter be on social media?
 
-### Should my chapter participate in social media?
+A social media account is a commitment: someone has to post, read replies, and keep the profile up to date.
+The benefits are usually worth it:
 
-Social media accounts are a commitment. However there are many benefits that come from creating an local R-Ladies Chapter account.
-
-- Raising the voices of R-Ladies.
-- Promoting R-Ladies activities.
-- For chapter organisers and R-Ladies within the group, new opportunities and networks both locally and globally are shared and communicated.
-- Finding R-Ladies around the world.
+- Raising the voices of RLadies+.
+- Promoting chapter activities and events.
+- Sharing opportunities and networks, both local and global, with your members.
+- Finding RLadies+ members around the world.
 - Discovering R content.
 
-### What social media?
+One account you can keep active is better than four you cannot.
+Pick the platform your local community already uses and start there.
 
-- R-Ladies dominant social media channel is Twitter. We have a global Twitter account ([RLadiesGlobal](https://twitter.com/RLadiesGlobal)), and many R-Ladies chapters have their own Twitter account (e.g., [RLadiesLondon](https://twitter.com/RLadiesLondon)).
-- However, Facebook is popular in some parts of the world, in particular Latin America. Example: [R-Ladies Santa Rosa on Facebook](https://www.facebook.com/pg/RLadiesSR).
-- If your local community uses another tool, feel free to create a page/whatever an account is called there. It might even be a text message group, if that fits within the local culture and data protection rules (some people might not be at ease sharing their phone number).
-  You might then want to contribute guidelines for this subsection based on your experience.
+## Which platforms?
+
+- **Pick where your people already are.** Platform popularity differs a lot between regions, and what works for one chapter will not work for another.
+- Chapters are currently on Bluesky, LinkedIn, Mastodon, Instagram, Facebook, YouTube and X, in different combinations. The global accounts are listed under [Global social media management]({{% relref "global-team/social-media-management" %}}).
+- If your local community uses a tool that is not listed there, feel free to create an account, page, or group there. It might even be a messaging group, if that fits the local culture and your data protection rules — bear in mind that some people are not comfortable sharing a phone number.
+  If you do, please contribute guidance for it to this page based on your experience.
+
+## Creating a chapter account
+
+- Follow the platform's own sign-up guidance.
+- Use your chapter [email address]({{% relref "organizers/tech/accounts" %}}#e-mail), never a personal email address. Organisers change; the chapter account has to survive that.
+- Add the chapter username to [the chapters data](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) so it is listed on the global website. The `social_media` block takes one key per platform, for example `bluesky`, `mastodon`, `linkedin`, `instagram`, `facebook`, `youtube`, `twitter` and `website`.
+
+{{% notice warning %}}
+Read the section on [account security]({{% relref "organizers/tech/security" %}}) before you hand an account over to anyone.
+{{% /notice %}}
+
+### Naming and profile alignment
+
+- Use the `@RLadiesLocation` handle format where the platform allows it, for example `@RLadiesLondon` or `@RLadiesSF`. Where a platform caps handle length, abbreviate — an airport code works well, as in `@RLadiesCDMX`.
+- Set the display name to "R-Ladies Location", for example "R-Ladies London".
+- Use the [RLadies+ logo and brand colours]({{% relref "branding" %}}) for the profile picture.
+- For a banner or background image, a picture of your city or of one of your meetups works well. There are no strict rules here.
+- Link to your Meetup group page, or your chapter website, in the profile's link field.
+- Pin a post where the platform supports it — the next event is a good choice — and keep it current.
+- Suggested bio: "R-Ladies \[Location\] is part of a world-wide organization to promote gender diversity in the R community... \[any other text\]. \#RLadies \#rstats". If you have room left, add the [rladies.org](https://rladies.org/) link.
+
+### Hashtags and tagging
+
+- Tag your RLadies+ related posts with `#rladies`. This makes them searchable and more visible.
+- Add `#rstats` when the post is about R itself.
+- If your chapter has a visitor from another chapter, take a photo and share it with `#rladiesvisits`.
+- If you are posting about RLadies+ in Latin America, consider adding `#RLadiesLatAm`.
+- Event-specific tags (`#PositConf`, `#useR`, `#LatinR`) are worth adding when they apply.
+- **On tagging the global accounts:** tag them when you are referring to the global organisation. If you mean RLadies+ in general, use the hashtag instead — otherwise you make the [global accounts' notifications harder to follow]({{% relref "global-team/social-media-management" %}}#replies-mentions-and-dms).
 
 ### Where to find R content to amplify
 
-- \#rstats & \#rladies hashtag on Twitter.
-- [R weekly newsletter](https://rweekly.org/)
-- [Other sources](https://masalmon.eu/2019/01/25/uptodate/)
+- The `#rstats` and `#rladies` hashtags and feeds on the platforms you are on.
+- The [R Weekly newsletter](https://rweekly.org/).
+- [Other sources](https://masalmon.eu/2019/01/25/uptodate/).
 
-### How to create a social media account?
+## Accessibility
 
-- Follow the guidance of the social media platform.
-- Use your chapter [email address](/organization/tech/accounts/#e-mail).
-- Submit the Twitter/Facebook/Instagram username to [the current chapters data](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) so that it might get listed on the global website.
+- **Always add alternative text** to images and GIFs, describing the image and any text shown in it, for people using screen readers.
+- Write hashtags in camel case: `#awesomePackage` reads better in a screen reader than `#awesomepackage`.
+- Do not use many emojis at once — screen readers read every one of them out.
+- If you make an infographic to promote an event, post the same information as text as well, or link to a page that has it ("Find all information at `<url>`").
 
-{{% notice warning %}}
-Check out the section about [account security](/organization/tech/security/)
-{{% /notice %}}
+## Use guidelines and code of conduct
 
-## Social Media and Accessibility
+The chapter accounts should be used to promote:
 
-Using images and GIFs might be useful, but if you do so on e.g. Twitter, please add an [alternative description of the image](https://help.twitter.com/en/using-twitter/picture-descriptions) for folks who use screen readers.
+- The work of individual RLadies+ members — open source projects, blog posts, academic research.
+- Your chapter's events and announcements, and online RLadies+ events.
+- Tutorials or R-related resources you think are really great, even if an RLadies+ member did not write them.
 
-If you use hashtags, use camel case e.g. `#awesomePackage` is better for screen reader users than `#awesomepackage`.
+Reposting other people's posts that promote RLadies+ work and events is encouraged — most of what a healthy chapter account does is amplify other people.
 
-Do not use too many emojis at once as this might influence accessibility too.
+We encourage posting photos from events, as long as you have the participants' okay — see the example text under [Meetup alignment]({{% relref "organizers/tech/accounts" %}}#meetup).
+We love images, animated GIFs and emojis as a form of expression :smile_cat: — with alternative text, as above.
 
-If you create an infographic to promote an event, be sure to also post the information as alternative text or publication text or as an URL ("Find all information at `<url>`").
+**Don't:**
 
-## Social media use guidelines and code of conduct:
+- **Don't use a chapter account as a personal account.** No personal posts, no heavy self-promotion.
+  - Write "we", not "I".
+  - Promoting the `#rstats` work of RLadies+ members, including your own, is fine — just don't over-do it, and don't promote work unrelated to R or RLadies+.
+  - No selfies. Group pictures instead.
+- **Don't make political statements from a chapter account.** Use your personal account for political speech.
+  - Feminist and gender-minorities-in-tech topics are fine. Stay away from party politics — it divides the community, and RLadies+ is non-partisan.
+- **Don't promote products or commercial offerings.**
+  - Open source R projects backed by a company (Posit, for instance) are fine.
+  - Thanking an event host or sponsor is fine.
+  - Only promote a book if it can be read online for free.
+- **Don't compare people's work unfavourably.** "Tidyverse is awesome!" rather than "Tidyverse is better than base R!".
 
-- The chapter accounts should be used to promote:
+## Handling negative interactions
 
-  - The work (e.g. open source projects, blog posts, academic research) of individual R-Ladies.
-  - R-Ladies events and announcements for your chapter; or online R-Ladies events.
-  - Tutorials or R-related resources that you think are really great even if they’re not written by an R-Lady.
+If your chapter or personal account is attacked or criticised:
 
-- We encourage posting photos from events as long as you got the ok of participants! (see example text in [Suggested Meetup alignment](/organization/tech/accounts/#meetup))
-- We love images, animated gifs and emojis as a form of expression! :smile_cat:
-- When using images and gifs make sure to use [alternative text for accessibility](https://help.twitter.com/en/using-twitter/picture-descriptions)!
+- Reach out to your support network — other organisers in the organisers' Slack, for a start. You do not have to handle it alone.
+- You can choose to respond or not. A troll is not worth your energy, though you might answer to educate others reading the exchange. Saving your energy is a valid choice.
+- Use the platform's own tools to protect the account and your energy. Most platforms offer some combination of:
+  - **blocking** an account,
+  - **muting** it, so you stop seeing it without it knowing,
+  - **reporting** it — and you can ask others to report a problematic account too, by writing in the organisers' Slack,
+  - **hiding replies** to your own posts, to keep a thread clean,
+  - a **"soft block"** — blocking and immediately unblocking, which makes the account stop following you.
+- Consider keeping the chapter account's direct messages closed.
+- If your chapter posted something wrong or hurtful, apologise.
 
-- Do not use your chapter account as a personal account: no personal tweets or massive self-promotion
-  - When writing a tweet or publication, do not use the word “I”, always use “we”
-  - It’s okay to promote the #rstats related work/projects of R-Ladies, including yourself, just don’t over-do it and don’t promote work that’s not directly related to R or R-Ladies.
-  - No selfies (we encourage group pictures instead).
-- Do not make political statements with your chapter account. Please use your personal accounts for political speech.
-  - Feminist or women-in-tech related topics are okay, but please stay away from traditional politics, as that can be divisive to the community and R-Ladies is a non-partisan organization.
-- Do not promote products or any other commercial offerings.
-  - Promoting open source R projects that are backed by a company (e.g., RStudio) is okay.
-  - Thanking a meetup host/sponsor for their support is okay.
-  - Only promote a book if its online version is freely available.
-- Always speak positively about people’s work, e.g., “Tidyverse is awesome!” instead of “Tidyverse is better than base R!”
+## Platform notes
 
-## Twitter
+### Facebook
 
-### Alignment
+Facebook is popular in some parts of the world, in particular Latin America — for example [R-Ladies Santa Rosa](https://www.facebook.com/pg/RLadiesSR).
 
-- Local Twitter handle (optional, but encouraged!) should also use the @RLadiesLocation format, for example: [@RLadiesSF](https://twitter.com/RLadiesSF) and [@RLadiesLondon](https://twitter.com/RLadiesSF). Please note that there is a 15-character limit on Twitter handles, so if your cityname is too long, we recommend using the airport code (or another abbreviation), such as [@RLadiesCDMX](https://twitter.com/RLadiesCDMX). The "name" on the account should be "R-Ladies Location". (e.g. [@RLadiesLondon](https://twitter.com/RLadiesLondon) and "R-Ladies London"). When you're logged in to the account, the [username (aka. handle) can be edited](https://twitter.com/settings/screen_name) and the [profile name can be edited](https://twitter.com/settings/profile).
-- Important: Please use your chapter R-Ladies email address (e.g. yourcity@rladies.org) to set up Twitter and other social media accounts rather than a personal email address.
-- Don't forget to add the [R-Ladies logo and the purple color](/organization/tech/brand/).
-- A picture of your city or a picture from one of your meetups is recommended for the background image, but there's no strict guidelines around that.
-- Link to your Meetup group page in the website field.
+Page or profile? Weigh the differences: a profile is capped at 5000 friends while a page has no limit on followers, but a profile's posts show up in friends' feeds by default and a page's posts do not — followers have to opt in.
 
-**Suggested Twitter Alignment**
+- Name the page or profile `R-Ladies [Location]`.
+- In the information field: "R-Ladies [Location] is part of a global organization to promote gender diversity in the R community ... [any other text]. #RLadies #rstats".
+- Include the link to your Meetup group and to [rladies.org](https://rladies.org/).
+- Include your chapter email address, your chapter accounts on other platforms, and the global accounts.
 
-- Bio of chapters : "R-Ladies \[Location\] is part of a world-wide
-  organization to promote gender diversity in the R
-  community...\[Any other text\]. \#RLadies \#rstats"
-- If you have space left over in your bio add the
-  [rladies.org](http://rladies.org/) hyperlink
+### X (formerly Twitter)
 
-### Management
+X was the dominant RLadies+ platform for years, and many chapter accounts there still exist.
+The global organisation stopped posting on X after the platform's 2022 change of ownership and keeps [@RLadiesGlobal](https://x.com/RLadiesGlobal) dormant only so that nobody can take the handle and impersonate us.
+The global account's posts up to that point are archived at [rladies.org/tweet-archive/rladiesglobal/](https://rladies.org/tweet-archive/rladiesglobal/).
 
-- Please tag all your RLadies+ related tweets with the #rladies hashtag. This makes them searchable and more visible.
-- On tagging \@RLadiesGlobal: please do that if you are referring to the global organisation. If you want to refer to R-Ladies in general, please use the hashtag. Otherwise you make [notifications of the global account harder to follow]({{% relref "global-team/social-media-management" %}}#replies-mentions-and-dms).
-- Please add further hashtags to \#rladies in the following situations: + If your chapter has a visitor from another chapter, please take a photo and share
-  it on social media using the hashtag, \#rladiesvisits. + If you are posting about RLadies+ in Latin America, please consider adding \#RLadiesLatAm.
-- You can find some inspiration here: https://twitter.com/gdequeiroz/lists/rladies-chapters/members
-- [General introduction to Twitter for R users](https://www.t4rstats.com/)
-- Feel free to retweet posts by others that promote R-Ladies’ work and events as well.
-- You should use Twitter's feature of pinned tweets. You can pin one tweet at a time, it appears on your profile page at the top. E.g. pin the tweet about the next event.
+Chapters are free to decide what to do with an X account they already have. Whichever you choose, do it deliberately:
 
-## Facebook
+- **Keep it dormant** — hold the handle so it cannot be impersonated, and pin a post saying where you have moved. This is what the global organisation does.
+- **Keep posting** if that is where your local community still is.
+- **Delete it** only if you are sure: the handle becomes available to anyone once you do.
 
-Fan Page or a Profile?
-Evaluate this based on the different functionalities between boths.
-The profile has 5000 friends as a limit, the page doesn't have a limit of fans, the profile publication shows first in friend wall, the page publication aren't shown first, the fans have to configure this manually .
-
-- Check that the name of the profile or page is @rladies [Location]
-- In the information put: "R-Ladies [Location] is part of a global organization to promote gender diversity in the R community ... [Any other text]. #RLadies #rstats".
-- Include the link to the group in Meetup.
-- Add the hyperlink to rladies.org.
-- Include local twitter account and @RLadiesGlobal twitter account
-- Include local email account
-
-## How to handle negative interactions on social media
-
-If your chapter or personal account is attacked/criticized,
-
-- Reach out to your support network, for instance other organizers in the organizers' Slack.
-- You can choose to respond or not. A troll is not worth your energy but you might want to respond for educating others reading the exchange; however, it's important to save your energy.
-- Use the features of the platform (Twitter, Facebook) to protect your account and energy (blocking & friends).
-- If your chapter wrote something wrong or hurtful, please apologize.
-
-### Specific to Twitter
-
-- Twitter lets you [hide answers to a tweet of yours](https://help.twitter.com/en/using-twitter/mentions-and-replies) (so you can keep your threads clean of negative answers).
-- To defend your account, can
-  - [block](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts) an account,
-  - [mute](https://help.twitter.com/en/using-twitter/twitter-mute) them,
-  - report them (**you can ask others to also report a problematic account by writing in the organizers slack**),
-  - "soft block" them: block then unblock them, this way they automatically stop following you.
-- You might want to keep your chapter account DMs closed.
+Do not expect the global accounts to amplify what you post on X — they are not reading it.

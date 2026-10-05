@@ -25,6 +25,19 @@ RLadies+ maintains official accounts on:
 
 The [WeAreRLadies rotating curation]({{% relref "rocur" %}}) runs separately on Bluesky.
 
+### X (formerly Twitter)
+
+X was our main platform until the 2022 change of ownership, after which we stopped posting there.
+We still hold [@RLadiesGlobal](https://x.com/RLadiesGlobal), dormant, for one reason only: so that nobody can take the handle and impersonate RLadies+.
+
+- **Do not post from it**, and do not reply from it.
+- **Do not delete it.** Releasing the handle is the one thing we are holding the account to prevent.
+- Login details are in 1Password, as for every other shared account.
+
+Everything the account posted up to then is archived at [rladies.org/tweet-archive/rladiesglobal/](https://rladies.org/tweet-archive/rladiesglobal/), so you can link to an old post without sending anyone to X.
+
+Chapters decide for themselves what to do with their own X accounts — see the [chapter social media guide]({{% relref "organizers/online-presence/social-media" %}}#x-formerly-twitter).
+
 ## Brand voice
 
 We sound like a friend who's excited about what the community is doing — not a corporation issuing announcements. Our voice is direct, warm, and grounded. We're a movement but we don't take ourselves too seriously.
