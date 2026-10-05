@@ -44,13 +44,19 @@ Read the section on [account security]({{% relref "organizers/tech/security" %}}
 
 ### Naming and profile alignment
 
-- Use the `@RLadiesLocation` handle format where the platform allows it, for example `@RLadiesLondon` or `@RLadiesSF`. Where a platform caps handle length, abbreviate — an airport code works well, as in `@RLadiesCDMX`.
-- Set the display name to "R-Ladies Location", for example "R-Ladies London".
+- Use the `@RLadiesLocation` handle format where the platform allows it, for example `@RLadiesLondon` or `@RLadiesSF`. Handles drop the plus, since most platforms do not allow special characters. Where a platform caps handle length, abbreviate — an airport code works well, as in `@RLadiesCDMX`.
+- Set the display name to "RLadies+ Location", for example "RLadies+ London".
 - Use the [RLadies+ logo and brand colours]({{% relref "branding" %}}) for the profile picture.
 - For a banner or background image, a picture of your city or of one of your meetups works well. There are no strict rules here.
 - Link to your Meetup group page, or your chapter website, in the profile's link field.
 - Pin a post where the platform supports it — the next event is a good choice — and keep it current.
-- Suggested bio: "R-Ladies \[Location\] is part of a world-wide organization to promote gender diversity in the R community... \[any other text\]. \#RLadies \#rstats". If you have room left, add the [rladies.org](https://rladies.org/) link.
+- Suggested bio: "RLadies+ \[Location\] is part of a world-wide organization to promote gender diversity in the R community... \[any other text\]. \#RLadies \#rstats". If you have room left, add the [rladies.org](https://rladies.org/) link.
+
+{{% notice info %}}
+**"RLadies+" or "R-Ladies"?** RLadies+ is the preferred form of the name, and chapters are encouraged to adopt it.
+Chapters that have not made the switch yet, or that cannot safely make it, may keep "R-Ladies Location" — that is the local organisers' call.
+See [chapter branding]({{% relref "branding/chapter-branding" %}}) for the full picture, and the [spelling rules]({{% relref "branding" %}}#spelling).
+{{% /notice %}}
 
 ### Hashtags and tagging
 
@@ -124,10 +130,11 @@ Facebook is popular in some parts of the world, in particular Latin America — 
 
 Page or profile? Weigh the differences: a profile is capped at 5000 friends while a page has no limit on followers, but a profile's posts show up in friends' feeds by default and a page's posts do not — followers have to opt in.
 
-- Name the page or profile `R-Ladies [Location]`.
-- In the information field: "R-Ladies [Location] is part of a global organization to promote gender diversity in the R community ... [any other text]. #RLadies #rstats".
-- Include the link to your Meetup group and to [rladies.org](https://rladies.org/).
-- Include your chapter email address, your chapter accounts on other platforms, and the global accounts.
+Name the page or profile and fill in the information field following the general [naming and profile alignment](#naming-and-profile-alignment) rules above.
+Facebook gives you room for more, so also include:
+
+- The link to your Meetup group and to [rladies.org](https://rladies.org/).
+- Your chapter email address, your chapter accounts on other platforms, and the global accounts.
 
 ### X (formerly Twitter)
 
