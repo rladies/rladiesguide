@@ -38,9 +38,11 @@ Here's what will happen if you want to start a chapter...
 
 - Your brand-new chapter will be equipped with R-Ladies [tech infrastructure](/organization/tech/accounts), in particular a Meetup account and an [email](/organization/tech/email/). Meetup is an online social platform used to announce events and manage registration to events.
 
+- Please create every event on Meetup, even the ones you advertise somewhere else. Meetup is how we see that a chapter is running: a chapter with no events there looks inactive to us, and [chapter monitoring](/global-team/monitoring/) may get in touch to ask whether you need help. Announce your events wherever your community actually is as well.
+
 - You will organize [your first event and following ones](/organization/events/), with help of your co-organizer(s) and tips fellow chapter organizers all over the world. You might take part in the [chapter mentoring program](/coordination/mentoring).
 
-- You might organize events [online with the global R-Ladies Zoom account](/organization/events/online/) (at the time of writing, in the middle of a pandemic, no in-person R-Ladies events take place). If you record the session, it can be featured on our [YouTube channel](/organization/events/youtube/)!
+- You might organize events [online with the global R-Ladies Zoom account](/organization/events/online/), in person, or a mix of the two. If you record the session, it can be featured on our [YouTube channel](/organization/events/youtube/)!
 
 - You might have some questions about money, see the [corresponding chapter](/organization/intro/expenses/).
 

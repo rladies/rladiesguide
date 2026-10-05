@@ -1,0 +1,114 @@
+[
+  {
+    "month": "February",
+    "start_day": 11,
+    "end_day": 11,
+    "event": "International Day of Women and Girls in Science",
+    "notes": null
+  },
+  {
+    "month": "March",
+    "start_day": 1,
+    "end_day": 1,
+    "event": "Zero Discrimination Day",
+    "notes": null
+  },
+  {
+    "month": "March",
+    "start_day": 8,
+    "end_day": 8,
+    "event": "International Women's Day",
+    "notes": null
+  },
+  {
+    "month": "March",
+    "start_day": 31,
+    "end_day": 31,
+    "event": "International Transgender Day of Visibility",
+    "notes": null
+  },
+  {
+    "month": "April",
+    "start_day": 1,
+    "end_day": 1,
+    "event": "Invisible Work Day",
+    "notes": null
+  },
+  {
+    "month": "April",
+    "start_day": null,
+    "end_day": null,
+    "event": "Girls in ICT Day  (Information and communications technology)",
+    "notes": "4th Thursday."
+  },
+  {
+    "month": "April",
+    "start_day": 26,
+    "end_day": 26,
+    "event": "Lesbian Visibility Day",
+    "notes": null
+  },
+  {
+    "month": "May",
+    "start_day": 1,
+    "end_day": 1,
+    "event": "International Workers' Day",
+    "notes": null
+  },
+  {
+    "month": "May",
+    "start_day": 17,
+    "end_day": 17,
+    "event": "International Day Against Homophobia, Transphobia & Biphobia (IDAHOT)",
+    "notes": null
+  },
+  {
+    "month": "May",
+    "start_day": 24,
+    "end_day": 24,
+    "event": "Pansexual Visibility",
+    "notes": null
+  },
+  {
+    "month": "June",
+    "start_day": 1,
+    "end_day": 30,
+    "event": "LGBTQIA+ Pride Month",
+    "notes": null
+  },
+  {
+    "month": "September",
+    "start_day": null,
+    "end_day": null,
+    "event": "Gender Equality Week",
+    "notes": "4th week. Canada."
+  },
+  {
+    "month": "September",
+    "start_day": 23,
+    "end_day": 23,
+    "event": "Celebrate Bisexuality Day",
+    "notes": null
+  },
+  {
+    "month": "October",
+    "start_day": null,
+    "end_day": null,
+    "event": "International Pronouns Day",
+    "notes": "3rd Wednesday."
+  },
+  {
+    "month": "October",
+    "start_day": 1,
+    "end_day": 31,
+    "event": "Women's History Month",
+    "notes": null
+  },
+  {
+    "month": "December",
+    "start_day": 5,
+    "end_day": 5,
+    "event": "International Volunteer Day",
+    "notes": null
+  }
+]
