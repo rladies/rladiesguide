@@ -77,6 +77,7 @@ A CI check validates `.zenodo.json`, so a malformed entry is caught before merge
 ## Reviewing and merging
 
 Pull requests are reviewed by the Global Team.
-Be patient with us — we are all volunteers, and a nudge on the PR after a week is entirely reasonable.
+Be patient with us — we are all volunteers.
+A nudge on the PR after a week is entirely reasonable.
 
 Merges to `main` deploy to <https://guide.rladies.org> automatically.
