@@ -4,7 +4,7 @@ options(blogdown.method = 'markdown')
 # is the single source for it and everything else reads the version from there.
 local({
   if (!file.exists("netlify.toml")) return(invisible(NULL))
-  pin <- grep("^\\s*HUGO_VERSION", readLines("netlify.toml", warn = FALSE), value = TRUE)
+  pin <- grepv("^\\s*HUGO_VERSION", readLines("netlify.toml", warn = FALSE))
   if (length(pin)) {
     options(blogdown.hugo.version = sub('.*"([^"]+)".*', "\\1", pin[[1]]))
   }
