@@ -22,7 +22,7 @@ The job:
 1. Sets up R via [r-lib/actions/setup-r](https://github.com/r-lib/actions) using `RENV_PROFILE=production`.  
 2. Runs [`scripts/missing_translations.R`](https://github.com/rladies/rladies.github.io/blob/main/scripts/missing_translations.R) to create placeholder pages for any English content not yet translated.  
 3. Wipes `data/directory/` and clones the [rladies/directory](https://github.com/rladies/directory) repo using a deploy key, copying its `data/json/` to `data/directory/` and `data/img/` to `assets/directory/`.  
-4. Sets up Hugo Extended at the version pinned in `.hugoversion`.  
+4. Sets up Hugo Extended at the version pinned as `HUGO_VERSION` in `netlify.toml`, the single source for the Hugo version.  
 5. Runs `hugo -e production -d public`.  
 6. Deploys `public/` to the `gh-pages` branch via [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).  
 
