@@ -107,10 +107,10 @@ You can then use your personal email address to reply., but we recommend you put
 answering an email so that your co-organizers can see the answer.
 
 {{% notice warning %}}
-Your chapter email account should be used to set up any chapter [social media accounts (e.g. Twitter, Instagram, etc)](/organization/online-presence/social-media/).
+Your chapter email account should be used to set up any chapter [social media accounts]({{% relref "organizers/online-presence/social-media" %}}).
 {{% /notice %}}
 
-- You can set up Twitter or other accounts to not send email notifications, so that you and your fellow organizers don't get overwhelmed with emails going to your chapter accounts.
+- You can set up social media accounts to not send email notifications, so that you and your fellow organizers don't get overwhelmed with emails going to your chapter accounts.
 - If you have an issue with your email, have read all the online guidance and still can't resolve your issue, please explain your issue on Organizers Slack in the #organizers channel. A volunteer will get back to you as soon as possible.
 
 As of March 18, 2019, we only provide personal rladies.org emails (`yourname@rladies.org`) to Leadership and Global Team members.

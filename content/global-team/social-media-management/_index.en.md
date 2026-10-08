@@ -5,6 +5,8 @@ weight: 50
 chapter: false
 aliases:
   - /coordination/social-media-management/
+  - /community/twitter/
+  - /comm/twitter/
 ---
 
 This section covers the tools, templates, and guidelines used by the RLadies+ communications team to manage social media across platforms.
@@ -22,6 +24,19 @@ RLadies+ maintains official accounts on:
 | YouTube | [RLadies+ Global](https://www.youtube.com/@RLadiesGlobal) | Recorded talks |
 
 The [WeAreRLadies rotating curation]({{% relref "rocur" %}}) runs separately on Bluesky.
+
+### X (formerly Twitter)
+
+X was our main platform until the 2022 change of ownership, after which we stopped posting there.
+We still hold [@RLadiesGlobal](https://x.com/RLadiesGlobal), dormant, for one reason only: so that nobody can take the handle and impersonate RLadies+.
+
+- **Do not post from it**, and do not reply from it.
+- **Do not delete it.** Releasing the handle is the one thing we are holding the account to prevent.
+- Login details are in 1Password, as for every other shared account.
+
+Everything the account posted up to then is archived at [rladies.org/tweet-archive/rladiesglobal/](https://rladies.org/tweet-archive/rladiesglobal/), so you can link to an old post without sending anyone to X.
+
+Chapters decide for themselves what to do with their own X accounts — see the [chapter social media guide]({{% relref "organizers/online-presence/social-media" %}}#x-formerly-twitter).
 
 ## Brand voice
 
@@ -44,6 +59,57 @@ We sound like a friend who's excited about what the community is doing — not a
 - Say "females" or "women only" — we say "gender minorities in R"
 
 **Hashtags:** `#RLadies`, `#RStats`, plus event-specific tags (`#PositConf`, `#useR`, `#LatinR`)
+
+## What the Global accounts amplify
+
+Most of what the Global accounts publish is other people's work. We amplify first and publish second — original posts are comparatively rare and usually follow a request from someone on the global team.
+
+Our scope is deliberately narrow: we are R-focused. We very rarely repost content about diversity in tech in general, because keeping the scope tight makes the editorial calls easy. Adjacent tooling is in scope when it is used from R — Hugo, for instance, is fine in a blogdown or hugodown context.
+
+**Do repost:**
+
+- Chapter posts about **past** events — not every post from every event. The best ones have pictures and/or links to resources, ideally pictures with plenty of RLadies+ members in them 💜
+- Fun chapter posts — the cookies someone baked for an event count
+- Posts that informatively describe a future **online** event
+- Posts about things RLadies+ members do: blog posts, packages, talks. Better with a link, and it is fine if the resource is old — someone praising a blog post written months ago is still worth amplifying
+- The weekly [WeAreRLadies]({{% relref "rocur" %}}) curator handover and the new curator's introduction post, plus anything else relevant from that account during their week (not all of their posts)
+- Posts in languages other than English, as long as you can translate them well enough to know what you are amplifying. This is not merely allowed — it matters
+
+**Quote rather than repost** when you want to underline a particular aspect, for example a chapter saying it picked its topic because of a thread it saw.
+
+**Liking and favouriting** is a lighter-weight signal than a repost, but it is still visible and still reads as approval, so be mindful. The accounts can like more than they repost — event posts, posts about future events, and so on.
+
+How do you know someone is an RLadies+ member? You can ask, you can look at their profile (plenty of people put `#rladies` in their bio), and you can check the [RLadies+ directory]({{% relref "community/directory" %}}).
+
+Where do you find things to amplify? Our own mentions and notifications, the `#rladies` and `#rstats` hashtags and feeds on the platforms we are on, and Slack — `#igotnews` in the organisers workspace and `#shameless_promo` in the community workspace. If good news lands in Slack and nobody has posted it anywhere, encourage them to.
+
+## What we don't post
+
+- **Future in-person chapter events**, and chapters asking their members for feedback. Those matter to a local audience, not a global one — the chapter's own accounts are the right place
+- **Job postings**
+- **Advertising**, which includes a book that cannot be read online for free
+- **"Women"-centric hashtags.** We say gender minorities in R. It is fine to repost a chapter post that uses a women hashtag, but when choosing between posts, prefer the more inclusive one
+- **Event pictures that could be any RUG** — if there is nothing recognisably RLadies+ about the picture, skip it
+- **R questions and answers.** The Global accounts are not a Q&A service
+
+Content that takes a stance on a controversy is never posted without review — see the content review rule under [posting guidelines](#posting-guidelines).
+
+## Replies, mentions and DMs
+
+Mentions are where most of the daily work is. If there are more notifications than you can read, read the mentions and let the rest go.
+
+- **R questions** are redirected to the community Slack rather than answered. If you know the answer, answer from your personal account. A reply along these lines works:
+
+  ```
+  This account doesn't do Q&A — join our community Slack to ask questions like this 🙂
+
+  https://rladies.org/form/community-slack/
+  ```
+
+- **Trolls** are ignored. Ask another global team member when you are in doubt, rather than replying
+- **Mute conversations** the accounts are tagged into when the tag was attention-seeking, or a mistaken substitute for the hashtag. Unmuted noise makes the mentions that matter impossible to find
+- **Job postings we are tagged in** are fine to ignore if you are busy. Otherwise paste the link into the jobs channel of the community Slack, with a note that we do not endorse it
+- **DMs** are rare. Use one to tell a chapter something privately rather than replying in public — for example when a chapter posts in the first person ("I", "me") from a chapter account and should be using a personal account for that, or when a chapter account is not named the way [chapter accounts should be named]({{% relref "organizers/online-presence/social-media" %}})
 
 ## Posting guidelines
 
