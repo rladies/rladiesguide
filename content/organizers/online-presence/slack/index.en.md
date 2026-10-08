@@ -16,6 +16,8 @@ In this platform, make organizers easy to identify (e.g. adding "Organizer - " t
 
 In any case encourage the members of your chapter to join the [community slack](/comm/slack/)!
 
+Members who want their own Slack to use the RLadies+ brand colours can import them as a custom theme, see [Give your Slack the RLadies+ look]({{% relref "community/slack" %}}#give-your-slack-the-rladies-look).
+
 {{% notice warning %}}
 If you wish the local slack workspace to be only for women and gender minorities, be explicit about it.
 You might want to read the [phrasing used for the community slack](/comm/slack/), see also the form used for [sign up](https://rladies.org/form/community-slack/)
