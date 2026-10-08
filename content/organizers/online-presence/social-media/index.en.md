@@ -39,7 +39,7 @@ Pick the platform your local community already uses and start there.
 - Add the chapter username to [the chapters data](https://github.com/rladies/rladies.github.io/tree/main/data/chapters) so it is listed on the global website. The `social_media` block takes one key per platform, for example `bluesky`, `mastodon`, `linkedin`, `instagram`, `facebook`, `youtube`, `twitter` and `website`.
 
 {{% notice warning %}}
-Read the section on [account security]({{% relref "organizers/tech/security" %}}) before you hand an account over to anyone.
+Read the guidance on [account security]({{% relref "organizers/tech/security" %}}), especially the advice on [using a personal password manager]({{% relref "organizers/tech/security" %}}#use-a-personal-password-manager), before you hand an account over to anyone.
 {{% /notice %}}
 
 ### Naming and profile alignment
@@ -98,7 +98,7 @@ We love images, animated GIFs and emojis as a form of expression :smile_cat: —
 - **Don't use a chapter account as a personal account.** No personal posts, no heavy self-promotion.
   - Write "we", not "I".
   - Promoting the `#rstats` work of RLadies+ members, including your own, is fine — just don't over-do it, and don't promote work unrelated to R or RLadies+.
-  - No selfies. Group pictures instead.
+  - Avoid individual selfies; group photos, including group selfies, are fine.
 - **Don't make political statements from a chapter account.** Use your personal account for political speech.
   - Feminist and gender-minorities-in-tech topics are fine. Stay away from party politics — it divides the community, and RLadies+ is non-partisan.
 - **Don't promote products or commercial offerings.**
@@ -118,7 +118,7 @@ If your chapter or personal account is attacked or criticised:
   - **muting** it, so you stop seeing it without it knowing,
   - **reporting** it — and you can ask others to report a problematic account too, by writing in the organisers' Slack,
   - **hiding replies** to your own posts, to keep a thread clean,
-  - a **"soft block"** — blocking and immediately unblocking, which makes the account stop following you.
+  - on platforms that support it, a **"soft block"** — blocking and immediately unblocking an account to remove it as a follower.
 - Consider keeping the chapter account's direct messages closed.
 - If your chapter posted something wrong or hurtful, apologise.
 
