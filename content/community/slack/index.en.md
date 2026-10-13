@@ -54,6 +54,29 @@ If you are unsure whether a post is suitable, best is to ask the Community Manag
 
 Go to the [sign-up link](https://rladies.org/form/community-slack/).
 
+## Give your Slack the RLadies+ look
+
+If you would like Slack to match the RLadies+ brand colours, you can import them as a custom theme.
+In Slack, click your profile picture, then "Preferences" -> "Appearance" -> "Custom theme", and use the import option next to "Theme Colors" ("Paste your legacy theme colors"). Paste one of the strings below and apply it.
+
+Darker theme:
+
+```
+#2F2F30,#881EF9,#146AF9,#FF5B92
+```
+
+Lighter theme:
+
+```
+#EDEDF4,#881EF9,#146AF9,#FF5B92
+```
+
+Keep the colours in the order given, as Slack reads the string positionally. The hex codes are the RLadies+ palette, see the [brand overview]({{% relref "branding" %}}).
+
+We also recommend ticking "Window gradient" in the same Appearance preferences, but that is optional.
+
+This is a personal appearance preference: it only changes what you see, not what the workspace looks like for anyone else. It is also set per account and per device, so you will need to import it again in another workspace or on another device.
+
 ## Gender neutral language
 
 We would like to encourage gender-neutral language in this Slack. Please avoid addressing people as "ladies" or "guys". You can use expressions as "folks", "y'all", "everyone", "everybody", "friends" or "pals"  instead.
