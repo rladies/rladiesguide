@@ -6,7 +6,7 @@ weight: 20
 
 <img src="/img/jinx/box_task.svg" alt="Jinx the witch's cat, carrying a box" width="140" align="right" style="margin: 0 0 1rem 1.5rem;">
 
-_Runs in: **Cloudflare Worker** (Slack slash entry) → **GitHub Actions** with the `jinx-bot` container (most commands) or **Worker only** ([the four local commands]({{< relref "commands#slack-only-commands" >}}))._
+_Runs in: **Cloudflare Worker** (Slack slash entry) → **GitHub Actions** with the `jinx-bot` container (most commands) or **Worker only** ([the local commands]({{< relref "commands#slack-only-commands" >}}))._
 
 A `/jinx ...` invocation has two front doors: GitHub issue comments and Slack slash commands.
 Both end up running the same R package logic; the only difference is which event triggers it and where the answer is posted.
@@ -44,7 +44,7 @@ Workspace-specific behaviour (welcome message, allowed commands) is driven by co
 
 **2. The Cloudflare Worker.** A small JavaScript function at `rladies-jinx.workers.dev` receives slash commands.
 It verifies the Slack request signature, checks the workspace is on the allowlist, immediately responds with a friendly quip so the user is not left waiting, and either handles the command itself or dispatches it to GitHub.
-`/jinx help`, `/jinx setup-channel`, `/jinx pair`, `/jinx remind-me`, and `/jinx feedback` are handled entirely in the worker (no GitHub Actions involved).
+`/jinx help`, `/jinx setup-channel`, `/jinx pair`, `/jinx remind-me`, `/jinx feedback`, `/jinx questions`, `/jinx shorten`, and `/jinx invite-link` are handled entirely in the worker (no GitHub Actions involved).
 Everything else is forwarded to GitHub Actions via `repository_dispatch`.
 The worker mints its own Jinx GitHub App installation token -- no personal access tokens involved.
 
