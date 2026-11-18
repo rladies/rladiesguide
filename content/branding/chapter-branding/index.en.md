@@ -16,7 +16,7 @@ Chapters in countries where LGBTQ+ rights are criminalized may not be able to sa
 ### What to update
 
 - **Social media profiles**: Update profile pictures using the logos in [logos/social-media/](https://github.com/rladies/branding-materials/tree/rebrand/logos/social-media)
-- **Meetup/event graphics**: Use the [social media templates]({{% relref "branding/canva-social-media" %}}) or the [Canva workspace](https://www.canva.com/folder/FAHCPq0DH3w)
+- **Meetup/event graphics**: Pick a template from the [template library]({{% relref "branding/templates" %}}), then follow the [social media templates guide]({{% relref "branding/canva-social-media" %}})
 - **Chapter hex logo**: Update colours and typography following the [regional hex logos guide]({{% relref "branding/hex-logos" %}})
 - **Presentations**: Use the [slidedeck templates]({{% relref "branding/slidedeck-templates" %}}) (Google Slides and PowerPoint)
 - **Quarto documents**: Install the [glamour](https://github.com/rladies/glamour) Quarto extension

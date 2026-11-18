@@ -96,7 +96,8 @@ All official assets are in the [branding-materials repository](https://github.co
 | `templates/documents/` | Document templates (with and without letterheads) |
 | `templates/certificates/` | Certificate templates (DOCX and PDF) |
 
-Additional editable templates are available on [Google Drive](https://drive.google.com/drive/folders/1UV940p-KN9FWoHt4yrZnrc2oAczGw9QB?usp=sharing) and in the [RLadies+ Canva workspace](https://www.canva.com/folder/FAHCPq0DH3w).
+Editable Canva templates are listed in the [template library]({{% relref "branding/templates" %}}), which is the canonical source for template links.
+Additional editable files are available on [Google Drive](https://drive.google.com/drive/folders/1UV940p-KN9FWoHt4yrZnrc2oAczGw9QB?usp=sharing).
 
 ## Tools and extensions
 

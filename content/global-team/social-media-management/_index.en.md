@@ -134,7 +134,14 @@ Mentions are where most of the daily work is. If there are more notifications th
 
 ### Canva
 
-The [RLadies+ Canva workspace](https://www.canva.com/folder/FAHCPq0DH3w) contains all brand templates and assets.
+The RLadies+ Canva workspace contains all brand templates and assets.
+As a team member you reach it from **Projects** in the Canva sidebar once signed in.
+
+{{% notice warning %}}
+Do not share the workspace folder URL with anyone outside the global team.
+Canva folder links only resolve for team members; everyone else gets an error page.
+Share a link from the [template library]({{% relref "branding/templates" %}}) instead.
+{{% /notice %}}
 
 {{% notice info %}}
 As a global team member, you have direct access to the Canva Brand Kit and brand templates.

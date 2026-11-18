@@ -11,7 +11,7 @@ The free version is sufficient for working with RLadies+ social media templates.
 You need a free account and an internet connection.
 Google Chrome is recommended — Safari has known compatibility issues.
 
-Templates are also available in the [RLadies+ Canva workspace](https://www.canva.com/folder/FAHCPq0DH3w).
+Every template and its link is listed in the [template library]({{% relref "branding/templates" %}}).
 See the [Social media management guide]({{% relref "global-team/social-media-management" %}}) for how templates are organised and posting workflows.
 
 {{% notice info %}}
@@ -38,9 +38,11 @@ Templates come in various dimensions for different platforms:
 
 ### Accessing templates
 
-1. Click the provided template link
+1. Open the [template library]({{% relref "branding/templates" %}}) and click the link for the template you want
 2. Select **View Template**
 3. Click **Open in Editor** to create an editable copy in your Canva account
+
+The copy is yours. Editing it never changes the original template or anyone else's copy.
 
 ![Two side-by-side screens: the shared template page with the View Template button (step 1), and the confirmation dialog with the Open in Editor button (step 2)](img-04.png "Accessing the shared RLadies+ template in Canva")
 
