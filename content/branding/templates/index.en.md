@@ -35,20 +35,6 @@ Google Chrome is recommended — Safari has known compatibility issues.
 | Social media template — cover 4:1  | 1584 × 396 px | LinkedIn page banner | [Use template](https://canva.link/i2nq5nupc2gjqh1) |
 | Social media template — cover 16:9 | 820 × 360 px  | Facebook page cover  | [Use template](https://canva.link/oc6j4q5jevb4fzz) |
 
-### Rebranding announcement templates
-
-Use these to announce your chapter's move to the RLadies+ name and identity.
-
-| Template                         | Size           | Use for                      | Template link       |
-| -------------------------------- | -------------- | ---------------------------- | ------------------- |
-| Rebranding posts — 1:1           | 1080 × 1080 px | Square announcement          | [Use template](https://canva.link/v4s1iqvdldgqd8p) |
-| Rebranding posts — 4:5           | 1080 × 1350 px | Instagram feed announcement  | [Use template](https://canva.link/lpu3xteu8c5im00) |
-| Rebranding posts — 9:16          | 1080 × 1920 px | Stories and Reels            | [Use template](https://canva.link/xwrrf6gucz0msdt) |
-| Rebranding posts — 16:9          | 1920 × 1080 px | Wide announcement            | [Use template](https://canva.link/5ayvrhnp9625t3k) |
-| Rebranding posts animated — 1:1  | Video          | Animated square announcement | [Use template](https://canva.link/qheul1kdj8soxyz) |
-| Rebranding posts animated — 9:16 | Mobile video   | Animated Stories and Reels   | [Use template](https://canva.link/gv51b3zhxcmyh7k) |
-| Rebranding posts animated — 16:9 | Video          | Animated wide announcement   | [Use template](https://canva.link/aldmlp1p6znqoj3) |
-
 ### Logo templates
 
 | Template    | Size         | Use for                                                   | Template link       |
