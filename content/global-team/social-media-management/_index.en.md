@@ -134,7 +134,14 @@ Mentions are where most of the daily work is. If there are more notifications th
 
 ### Canva
 
-The [RLadies+ Canva workspace](https://www.canva.com/folder/FAHCPq0DH3w) contains all brand templates and assets.
+The RLadies+ Canva workspace contains all brand templates and assets.
+As a team member you reach it from **Projects** in the Canva sidebar once signed in.
+
+{{% notice warning %}}
+Do not share the workspace folder URL with anyone outside the global team.
+Canva folder links only resolve for team members; everyone else gets an error page.
+Share a link from the [template library]({{% relref "branding/templates" %}}) instead.
+{{% /notice %}}
 
 {{% notice info %}}
 As a global team member, you have direct access to the Canva Brand Kit and brand templates.
@@ -168,6 +175,24 @@ To use a brand template:
 4. Choose the page with the right size for your platform
 5. Edit the text and images
 6. Export as PNG (or GIF for animated content)
+
+#### Rebrand announcement templates
+
+These announce the RLadies+ rebrand from the global accounts. They are for the global team, not chapters — chapters adopting the new identity use the [template library]({{% relref "branding/templates" %}}) and the [chapter branding guide]({{% relref "branding/chapter-branding" %}}).
+
+| Template                         | Size           | Use for                      | Template link       |
+| -------------------------------- | -------------- | ---------------------------- | ------------------- |
+| Rebranding posts — 1:1           | 1080 × 1080 px | Square announcement          | [Use template](https://canva.link/v4s1iqvdldgqd8p) |
+| Rebranding posts — 4:5           | 1080 × 1350 px | Instagram feed announcement  | [Use template](https://canva.link/lpu3xteu8c5im00) |
+| Rebranding posts — 9:16          | 1080 × 1920 px | Stories and Reels            | [Use template](https://canva.link/xwrrf6gucz0msdt) |
+| Rebranding posts — 16:9          | 1920 × 1080 px | Wide announcement            | [Use template](https://canva.link/5ayvrhnp9625t3k) |
+| Rebranding posts animated — 1:1  | Video          | Animated square announcement | [Use template](https://canva.link/qheul1kdj8soxyz) |
+| Rebranding posts animated — 9:16 | Mobile video   | Animated Stories and Reels   | [Use template](https://canva.link/gv51b3zhxcmyh7k) |
+| Rebranding posts animated — 16:9 | Video          | Animated wide announcement   | [Use template](https://canva.link/aldmlp1p6znqoj3) |
+
+{{% notice info %}}
+These links are unlisted rather than secret — they are not published on the public template hub, but anyone given a link can use the template. Ask the communications team before sharing them outside the global team.
+{{% /notice %}}
 
 #### Workspace folders
 
