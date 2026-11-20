@@ -66,8 +66,9 @@ See [R+ logo in Canva]({{% relref "branding/canva-logo" %}}) for how to use it, 
 
 ## Finding templates visually
 
-The [RLadies+ template hub](#) shows the same templates with previews, so you can see what you are picking before you open it.
+The [RLadies+ template hub](https://canva.rladies.org) is a one-page grid of the same templates, built in Canva and published to our own domain.
 It is the link to paste into Slack or a chapter channel when pointing someone at the templates.
+It carries no instructions, so send people here when they need the detail below.
 
 This page remains the canonical list.
 If the hub and this page ever disagree, this page is correct and the hub needs updating.
@@ -103,7 +104,8 @@ A family that is internal — RoCur, for instance — stays a Brand Template wit
 6. Click **Share → See all → Template link → Create template link**
 7. Copy the link and paste it into the matching row of the table above
 8. Verify the link while signed out, as below
-9. Open a pull request with the updated row
+9. Open the [hub](https://canva.rladies.org) in Canva, update the matching card's link, and click **Publish changes**
+10. Open a pull request with the updated row
 
 {{% notice warning %}}
 **File → Move** and **File → Move to Trash** sit in the same menu.
