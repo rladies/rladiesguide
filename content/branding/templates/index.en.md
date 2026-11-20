@@ -22,7 +22,8 @@ Google Chrome is recommended — Safari has known compatibility issues.
 
 Each family is a **multi-design**: one template holding every size of that layout.
 Open the family you want, then pick the page that matches the platform you are posting to.
-These eight families are the same eight in the RLadies+ Brand Kit, so what you see here is what the global team maintains.
+These seven families are the chapter-facing families in the RLadies+ Brand Kit, so what you see here is what the global team maintains.
+The Brand Kit also holds a **RoCur** family, which is internal to the rotating-curator team and is deliberately not published here.
 
 | Family | Pages | Use for | Template link |
 | ------ | ----- | ------- | ------------- |
@@ -33,7 +34,6 @@ These eight families are the same eight in the RLadies+ Brand Kit, so what you s
 | Announcement - Image + Text | 12 | General announcements with an image and a text block | [Use template](https://canva.link/g3yb93jgigzmzqj) |
 | Text & Image inside Logo | 16 | Posts with the image set inside the R+ shape | [Use template](https://canva.link/ijugpn3cw3skqii) |
 | Text & Logo | 12 | Text-led posts with no photograph | [Use template](https://canva.link/ziqbprv210ogruj) |
-| RoCur | 4 | Introducing the week's rotating curator | [Use template](https://canva.link/utvumomip7fc1h0) |
 
 ## Single-size templates
 
@@ -91,8 +91,9 @@ Canva makes whoever creates a design its owner, and only the owner can publish o
 A template owned by an individual stops being fixable the moment that person moves on — this is exactly how the previous set of links broke.
 {{% /notice %}}
 
-The eight families all live in the Brand Kit as **Brand Templates**, which only the RLadies+ team can see.
-Each one therefore has a public copy in **Your Projects → Public templates**, and it is the copy that carries the link on this page.
+The families all live in the Brand Kit as **Brand Templates**, which only the RLadies+ team can see.
+Each published one therefore has a public copy in **Your Projects → Public templates**, and it is the copy that carries the link on this page.
+A family that is internal — RoCur, for instance — stays a Brand Template with no public copy and no template link.
 
 1. Sign in to Canva as the shared RLadies+ account
 2. Open **Brand → Brand Templates**, click the `...` menu on the family and choose **Edit original**
