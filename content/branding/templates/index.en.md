@@ -18,6 +18,27 @@ You do not need to be a member of the RLadies+ Canva team, and you do not need a
 Google Chrome is recommended — Safari has known compatibility issues.
 {{% /notice %}}
 
+### Template families
+
+Each family is a **multi-design**: one template holding every size of that layout.
+Open the family you want, then pick the page that matches the platform you are posting to.
+These eight families are the same eight in the RLadies+ Brand Kit, so what you see here is what the global team maintains.
+
+| Family | Pages | Use for | Template link |
+| ------ | ----- | ------- | ------------- |
+| Banners | 8 | Wide headers and profile banners | [Use template](https://canva.link/1strjy0aw5jntbg) |
+| Standard - Logo + Image | 12 | Everyday posts pairing the logo with a photo | [Use template](https://canva.link/vy7u1bzozksbpl3) |
+| Event Announcements | 20 | Announcing a meetup, with title, date and speaker | [Use template](https://canva.link/o5n9xs8833hxpgv) |
+| Photo background & Quote | 20 | A quote or short statement over a full-bleed photo | [Use template](https://canva.link/w7bmpee91eyfd9e) |
+| Announcement - Image + Text | 12 | General announcements with an image and a text block | [Use template](https://canva.link/g3yb93jgigzmzqj) |
+| Text & Image inside Logo | 16 | Posts with the image set inside the R+ shape | [Use template](https://canva.link/ijugpn3cw3skqii) |
+| Text & Logo | 12 | Text-led posts with no photograph | [Use template](https://canva.link/ziqbprv210ogruj) |
+| RoCur | 4 | Introducing the week's rotating curator | [Use template](https://canva.link/utvumomip7fc1h0) |
+
+## Single-size templates
+
+Use these when you only need one format and do not want to pick a page out of a family.
+
 ### Social media post templates
 
 | Template                     | Size           | Use for                               | Template link       |
@@ -70,20 +91,36 @@ Canva makes whoever creates a design its owner, and only the owner can publish o
 A template owned by an individual stops being fixable the moment that person moves on — this is exactly how the previous set of links broke.
 {{% /notice %}}
 
+The eight families all live in the Brand Kit as **Brand Templates**, which only the RLadies+ team can see.
+Each one therefore has a public copy in **Your Projects → Public templates**, and it is the copy that carries the link on this page.
+
 1. Sign in to Canva as the shared RLadies+ account
-2. Open the design and choose **Make a copy** if the design is not already owned by this account — a design marked _View only_ belongs to someone else and its link cannot be published
-3. Move the copy into the team-owned templates folder
-4. Open the copy, click **Share**
-5. Choose **More**, then **Template link**
-6. Set the access to anyone with the link, and copy the link
-7. Paste the link into the matching row of the tables above
-8. Add the template to the [hub page](#finding-templates-visually)
+2. Open **Brand → Brand Templates**, click the `...` menu on the family and choose **Edit original**
+3. In the editor, choose **File → Make a copy**
+4. In the copy, choose **File**, click the pencil beside the name, and rename it to the family name — dropping the `Copy of` prefix
+5. Choose **File → Move**, pick **Public templates**, click **Move**, then **Move anyway** on the sharing warning
+6. Click **Share → See all → Template link → Create template link**
+7. Copy the link and paste it into the matching row of the table above
+8. Verify the link while signed out, as below
 9. Open a pull request with the updated row
+
+{{% notice warning %}}
+**File → Move** and **File → Move to Trash** sit in the same menu.
+Read the item before clicking, and verify each step took effect before starting the next one.
+{{% /notice %}}
 
 {{% notice info %}}
 Use the **template link**, not the ordinary share link.
 An ordinary share link lets people edit the original in place; a template link gives each person their own copy and leaves the original untouched.
 {{% /notice %}}
+
+### Keeping a public copy in step
+
+The public copy is a copy, not a mirror.
+When a Brand Template changes, the public copy does not change with it, and chapters keep getting the old layout.
+
+After editing a Brand Template, redo steps 2–7 for that family and replace the link in the table.
+Do not edit the public copy directly — the Brand Template is the master.
 
 ### Checking a link actually works
 
